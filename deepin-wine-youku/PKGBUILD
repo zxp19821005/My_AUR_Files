@@ -1,0 +1,58 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=deepin-wine-youku
+_pkgname=com.youku.deepin
+_officalname=youkuclient
+pkgver=9.2.14.1001
+_deepinver=8.1.0.1280deepin5
+pkgrel=1
+pkgdesc="YouKu Video client on Deepin Wine 6"
+arch=("x86_64")
+url="https://www.youku.com/"
+license=('custom')
+depends=('deepin-wine6-stable' 'xdg-utils')
+optdepends=()
+conflicts=()
+install="deepin-wine-youku.install"
+source=(
+    "${_pkgname}_${_deepinver}_i386.deb::https://com-store-packages.uniontech.com/pool/appstore/c/${_pkgname}/${_pkgname}_${_deepinver}_i386.deb"
+    "${_officalname}-${pkgver}.exe::https://webcdn.m.qq.com/spcmgr/download/${_officalname}_setup_${pkgver}.exe"
+    "deepin-wine-youku.install"
+    "run.sh"
+    "msmpeg2vdec.dll.7z"
+    )
+sha256sums=('f5ab1b7a462728b8bb105874c0b582d2522f38d7450472dfcb73d9176ab995b3'
+            '23d510b324115511c06d0ea361d81c66072337aec08f9f24e3f5e04a0b754e06'
+            '52679639d7a1b831e249651adfdf76400a33864efd062c768385d5f7f2e8068d'
+            '43650bc1f45961b357a6264e296e6a3b934457336e9681044b77984be8e0ae22'
+            '1a1abc4cef6dba88e8fc9f9a1c2b323ba79390d586f0a0a63b1d82f72643854c')
+   
+prepare() {
+    bsdtar -xf data.tar.xz -C "${srcdir}"
+    mv "${srcdir}/opt/apps/${_pkgname}" "${srcdir}/opt/apps/${pkgname}"
+    mkdir -p "${srcdir}/tmp"
+    msg "Extracting Deepin Wine ${_officalname} archive ..."
+    bsdtar -xf "${srcdir}/opt/apps/${pkgname}/files/files.7z" -C "${srcdir}/tmp"
+       
+    msg "Extracting latest ${_officalname} files to ${srcdir}/tmp/drive_c/Program Files/YouKu/YoukuClient ..."
+    rm -r "${srcdir}/tmp/drive_c/Program Files/YouKu/YoukuClient"
+    rm -r "${srcdir}/tmp/drive_c/Program Files/AlibabaProtect"
+    mkdir -p "${srcdir}/tmp/drive_c/Program Files/YouKu/YoukuClient"
+    bsdtar -xf "${srcdir}/${_officalname}-${pkgver}.exe" -C "${srcdir}/tmp/drive_c/Program Files/YouKu/YoukuClient/"
+    msg "Repackaging app archive ..."
+    rm -r "${srcdir}/opt/apps/${pkgname}/files/files.7z"
+    7z x -aoa "${srcdir}/msmpeg2vdec.dll.7z" -o"${srcdir}/tmp/drive_c/windows/system32/"
+    7z a -t7z -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/tmp/*"
+    rm -rf ${srcdir}/opt/apps/${pkgname}/info
+    sed 's/com.youku.deepin/deepin-wine-youku/g' -i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop"
+}
+      
+package() {
+    cp -r "${srcdir}/opt" "${pkgdir}"
+    md5sum "${srcdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${pkgdir}/opt/apps/${pkgname}/files/files.md5sum"
+    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+    for i in 32x32 48x48 128x128;do
+        install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/icons/hicolor/${i}/apps/${_pkgname}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${i}/apps/${pkgname}.png"
+    done
+    install -Dm755 "${srcdir}/run.sh" "${pkgdir}/opt/apps/${pkgname}/files/"
+}

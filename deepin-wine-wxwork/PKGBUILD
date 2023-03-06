@@ -1,0 +1,54 @@
+# Maintainer: St.kai <St.kai@live.com>
+ 
+pkgname=deepin-wine-wxwork
+pkgver=4.1.0.6007
+_pkgname=com.qq.weixin.work.deepin
+_deepinver=4.0.16.6007deepin21
+_officalname=WXWork
+pkgrel=1
+pkgdesc="Tencent WXWork (com.wxwork) on Deepin Wine 6"
+arch=("x86_64")
+url="https://work.weixin.qq.com/"
+license=('custom')
+depends=('deepin-wine6-stable' 'xdg-utils')
+conflicts=('deepin-wxwork' 'com.qq.weixin.work.deepin' 'com.qq.weixin.work.deepin-x11')
+install="deepin-wine-wxwork.install"
+_mirror="https://mirrors.ustc.edu.cn/deepin"
+source=(
+    "${_pkgname}_${_deepinver}.deb::https://com-store-packages.uniontech.com/appstore/pool/appstore/c/${_pkgname}/${_pkgname}_${_deepinver}_i386.deb"
+    "${_officalname}-${pkgver}.exe::https://dldir1.qq.com/wework/work_weixin/WeCom_${pkgver}.exe"
+    "run.sh"
+    "deepin-wine-wxwork.install"
+)
+md5sums=('d6c5cd8f9ecf72b8fcc44e5b30b282d4'
+         '2d1f2a88d107e6397bcd12f2f8419a60'
+         '898d975aebcfc25da3ea52fc3a3cad30'
+         '9ac9f45b5eae3a32652a1b7ac0208962')
+ 
+prepare() {
+    bsdtar -xf data.tar.xz -C "${srcdir}"
+    mv "${srcdir}/opt/apps/${_pkgname}" "${srcdir}/opt/apps/${pkgname}"
+    mkdir -p "${srcdir}/tmp"
+    msg "Extracting Deepin Wine ${_officalname} archive ..."
+    bsdtar -xf "${srcdir}/opt/apps/${pkgname}/files/files.7z" -C "${srcdir}/tmp"
+          
+    msg "Copying latest ${_officalname} files to ${srcdir}/tmp/drive_c/Program Files/${_officalname} ..."
+    rm -r "${srcdir}/tmp/drive_c/Program Files/${_officalname}"
+    mkdir -p "${srcdir}/tmp/drive_c/Program Files/${_officalname}"
+    cp "${srcdir}/${_officalname}-${pkgver}.exe" "${srcdir}/tmp/drive_c/Program Files/${_officalname}/"
+   
+    msg "Repackaging app archive ..."
+    rm -r "${srcdir}/opt/apps/${pkgname}/files/files.7z"
+    7z a -t7z -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/tmp/*"
+    rm -rf ${srcdir}/opt/apps/${pkgname}/info
+    sed 's/com.qq.weixin.work.deepin/deepin-wine-wxwork/g' -i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop"
+    sed 's/Categories=chat/Categories=Network;/g' -i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop"
+}
+package() {
+    cp -r "${srcdir}/opt" "${pkgdir}"
+    md5sum "${srcdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${pkgdir}/opt/apps/${pkgname}/files/files.md5sum"
+    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/icons/hicolor/48x48/apps/${_pkgname}.png" \
+        "${pkgdir}/usr/share/icons/hicolor/48x48/apps/${pkgname}.png"
+    install -Dm755 "${srcdir}/run.sh" "${pkgdir}/opt/apps/${pkgname}/files/"
+}
