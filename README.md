@@ -72,6 +72,7 @@
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
 |**nteract**|[nteract-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nteract-appimage)|[nteract-appimage](https://aur.archlinux.org/packages/nteract-appimage)||
+|**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)|[nuclear-player-appimage](https://aur.archlinux.org/packages/nuclear-player-appimage)||
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
