@@ -98,6 +98,7 @@
 |**ttf-foundertype-sc-fonts**|[ttf-foundertype-sc-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-foundertype-sc-fonts)|[ttf-foundertype-sc-fonts](https://aur.archlinux.org/packages/ttf-foundertype-sc-fonts)||
 |**ttf-honor-sans**|[ttf-honor-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-honor-sans)|[ttf-honor-sans](https://aur.archlinux.org/packages/ttf-honor-sans)||
 |**ttf-i-ming-fonts**|[ttf-i-ming-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-i-ming-fonts)|[ttf-i-ming-fonts](https://aur.archlinux.org/packages/ttf-i-ming-fonts)||
+|**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
