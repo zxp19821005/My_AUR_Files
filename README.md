@@ -69,6 +69,7 @@
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
+|**moosync**|[moosync-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moosync-appimage)|[moosync-appimage](https://aur.archlinux.org/packages/moosync-appimage)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
