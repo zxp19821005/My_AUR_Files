@@ -58,7 +58,8 @@
 |**feidao**|[feidao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-appimage)|[feidao-appimage](https://aur.archlinux.org/packages/feidao-appimage)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**flawesome**|[flawesome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-appimage)<br>[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-appimage](https://aur.archlinux.org/packages/flawesome-appimage)<br>[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
-|**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)|
+|**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
+|**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
 |**gridea**|[gridea-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-appimage)|[gridea-appimage](https://aur.archlinux.org/packages/gridea-appimage)||
@@ -67,6 +68,7 @@
 |**heimer**|[heimer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-appimage)|[heimer-appimage](https://aur.archlinux.org/packages/heimer-appimage)||
 |**icalingua++**|[icalingua++-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-appimage)|[icalingua++-appimage](https://aur.archlinux.org/packages/icalingua++-appimage)||
 |**imagine**|[imagine-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-appimage)|[imagine-appimage](https://aur.archlinux.org/packages/imagine-appimage)||
+|**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
 |**listera-novelreader**|[listera-novelreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/listera-novelreader-bin)|[listera-novelreader-bin](https://aur.archlinux.org/packages/listera-novelreader-bin)||
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
