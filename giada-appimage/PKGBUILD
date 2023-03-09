@@ -1,0 +1,26 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=giada-appimage
+_pkgname=giada
+pkgver=0.23.2
+pkgrel=1
+pkgdesc="A free, minimal, hardcore audio tool for DJs, live performers and electronic musicians"
+arch=('x86_64')
+url="https://www.giadamusic.com/"
+license=('GPL3')
+options=(!strip)
+conflicts=(giada)
+depends=(hicolor-icon-theme zlib)
+_install_path="/opt/appimages"
+source=("${_pkgname}-${pkgver}.AppImage::${url}/data/Giada-v${pkgver}-x86_64.AppImage")
+sha512sums=('1e3c8889d52cef372da5e7acf29a153264e5c079dfa86eb35903e49161fdca9b9c3b3bb6dcb37a0e8c2a73a72bc1aaaa39340357aa782e1295c353d4e6d718ff')
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
+    sed 's/Exec=/#Exec=/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+    echo "Exec=/opt/appimages/${_pkgname}.AppImage" >> "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/${_pkgname}.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${_pkgname}.svg"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
