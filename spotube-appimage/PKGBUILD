@@ -1,0 +1,29 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=spotube-appimage
+_pkgname=spotube
+pkgver=2.7.0
+pkgrel=1
+pkgdesc="A lightweight free Spotify headphones crossplatform-client desktop_computeriphone which handles playback manually, streams music using Youtube & no Spotify premium account is needed "
+arch=('x86_64')
+url="https://spotube.netlify.app"
+_githuburl="https://github.com/KRTirtho/spotube"
+license=('BSD-4-Clause')
+options=(!strip)
+conflicts=(spotube-bin)
+depends=(hicolor-icon-theme zlib)
+_install_path="/opt/appimages"
+source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/Spotube-linux-x86_64.AppImage")
+sha512sums=('0584812427f6c963c19cc6bb9fa49254ad19acac8556d5d32572e8fef2568318e67e4ec035ed0b9e9da89097630b618458eea5fa6d4e8694ac6d1d21c0fee0c7')
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
+    sed 's/Exec=/#Exec=/g;s/Categories=Music/Categories=AudioVideo;/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+    echo "Exec=/opt/appimages/${_pkgname}.AppImage %u" >> "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    for icons in 128x128 256x256;do
+        install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${icons}/apps/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/${icons}/apps/${_pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
