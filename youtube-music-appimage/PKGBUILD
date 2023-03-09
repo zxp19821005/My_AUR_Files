@@ -1,0 +1,30 @@
+# Maintainer: Yamato Kobayashi <yk.ymadd@gmail.com>
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=youtube-music-appimage
+_pkgname=youtube-music
+pkgver=1.19.0
+pkgrel=1
+pkgdesc="YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)"
+arch=('x86_64')
+url="https://th-ch.github.io/youtube-music/"
+_githuburl="https://github.com/th-ch/youtube-music"
+license=('MIT')
+options=(!strip)
+conflicts=(youtube-music)
+depends=(hicolor-icon-theme zlib)
+_install_path="/opt/appimages"
+source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/YouTube-Music-${pkgver}.AppImage")
+sha512sums=('bb02720e573249d4f96131d60beb1c240e0e0c598ef9582c68b3ed233b0b4573afc31588d2b1eabaf07d09e899796879de2e9fecbcd85d701ba36d097f8575fd')
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
+    sed 's/Exec=/#Exec=/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+    echo "Exec=/opt/appimages/${_pkgname}.AppImage --no-sandbox %U" >> "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+	for icons in 16x16 24x24 32x32 48x48 64x64 128x128 256x256 512x512 1024x1024;do
+    	install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${icons}/apps/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/${icons}/apps/${_pkgname}.png"
+	done
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
