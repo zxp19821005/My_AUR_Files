@@ -49,7 +49,7 @@
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
-|**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)|[dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin)||
+|**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**esearch**|[esearch-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-appimage)<br>[esearch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-bin)|[esearch-appimage](https://aur.archlinux.org/packages/esearch-appimage)<br>[esearch-bin](https://aur.archlinux.org/packages/esearch-bin)||
@@ -73,7 +73,7 @@
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
 |**moosync**|[moosync-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moosync-appimage)|[moosync-appimage](https://aur.archlinux.org/packages/moosync-appimage)||
-|**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)| |
+|**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
@@ -94,6 +94,7 @@
 |**sleek**|[sleek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-appimage)|[sleek-appimage](https://aur.archlinux.org/packages/sleek-appimage)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**sonixd**|[sonixd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-appimage)|[sonixd-appimage](https://aur.archlinux.org/packages/sonixd-appimage)||
+|**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
 |**subtitler**|[subtitler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-appimage)|[subtitler-appimage](https://aur.archlinux.org/packages/subtitler-appimage)||
