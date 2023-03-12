@@ -1,0 +1,31 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=buttercup-desktop-appimage
+_pkgname=buttercup
+pkgver=2.18.2
+pkgrel=1
+pkgdesc="Cross-Platform Passwords & Secrets Vault"
+arch=('x86_64')
+url="https://buttercup.pw/"
+_githuburl="https://github.com/buttercup/buttercup-desktop"
+license=('GPL3')
+options=(!strip)
+providers="buttercup"
+conflits=(buttercup-desktop)
+depends=(zlib hicolor-icon-theme)
+source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/Buttercup-linux-x86_64.AppImage")
+sha256sums=('d562e14fde05359edb7b9f2ea2fff4bedbc1ec44ff58d63fb4f488b9a5b9cdf7')
+_install_path="/opt/appimages"
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/buttercup.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+     
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    for _icons in 16x16 32x32 48x48 128x128 256x256;do
+        install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
