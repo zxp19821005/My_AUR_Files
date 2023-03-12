@@ -19,6 +19,7 @@
 |**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**audacity**|[audacity](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
 |**avidemux2**|[avidemux2](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
+|**bilibili-videodownloader**|[bilibili-videodownloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-videodownloader-appimage)|[bilibili-videodownloader-appimage](https://aur.archlinux.org/packages/bilibili-videodownloader-appimage)||
 |**buttercup-desktop**|[buttercup-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-appimage)||AUR上未提交|
 |**boostchanger**|[boostchanger-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-appimage)<br>[boostchanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-appimage)|[boostchanger-appimage](https://aur.archlinux.org/packages/boostchanger-appimage)<br>[boostchanger-bin](https://aur.archlinux.org/packages/boostchanger-bin)||
 |**browser360**|[browser360-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/browser360-bin)|[browser360-bin](https://aur.archlinux.org/packages/browser360-bin)||
