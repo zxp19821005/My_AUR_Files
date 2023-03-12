@@ -1,0 +1,29 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=igdm-appimage
+_pkgname=igdm
+pkgver=3.0.4
+pkgrel=1
+pkgdesc="Desktop application for Instagram DMs"
+arch=('x86_64')
+url="https://github.com/igdmapps/igdm"
+license=('MIT')
+options=(!strip)
+providers="igdmapps"
+conflits=(igdm-bin)
+depends=(zlib hicolor-icon-theme)
+source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/IGdm-${pkgver}.AppImage")
+sha256sums=('b1150992620a3aa28176669463673e2ed7ab256c87a91f6f424a6d3bc1d053c8')
+_install_path="/opt/appimages"
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/igdm.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+      
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    for _icons in 16x16 32x32 48x48 64x64 128x128 256x256 512x512;do
+        install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
