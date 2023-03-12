@@ -1,0 +1,27 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=ao-appimage
+_pkgname=ao
+pkgver=6.9.0
+pkgrel=1
+pkgdesc="Elegant Microsoft To-Do desktop app"
+arch=('x86_64')
+url="https://github.com/klaudiosinani/ao"
+license=('MIT')
+options=(!strip)
+providers="klaudiosinani"
+conflits=(ao-bin)
+depends=(zlib hicolor-icon-theme)
+source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-x86_64.AppImage")
+sha256sums=('d323cd61c062d99e22325e21aad9924918ba86f05fc2cfa14503d008609ff5c0')
+_install_path="/opt/appimages"
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/ao.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+     
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/0x0/apps/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${_pkgname}.png"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
