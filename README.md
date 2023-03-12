@@ -50,7 +50,7 @@
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
-|**drawio-desktop**|[drawio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-appimage)|[drawio-desktop-appimage](https://aur.archlinux.org/packages/drawio-desktop-appimage)||
+|**drawio-desktop**|[drawio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-appimage)||AUR上已删除|
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**esearch**|[esearch-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-appimage)<br>[esearch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-bin)|[esearch-appimage](https://aur.archlinux.org/packages/esearch-appimage)<br>[esearch-bin](https://aur.archlinux.org/packages/esearch-bin)||
@@ -76,7 +76,7 @@
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
-|**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)|[mockoon-appimage](https://aur.archlinux.org/packages/mockoon-appimage)||
+|**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)||AUR上已删除|
 |**moosync**|[moosync-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moosync-appimage)|[moosync-appimage](https://aur.archlinux.org/packages/moosync-appimage)||
 |**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
@@ -86,7 +86,7 @@
 |**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
-|**openai-translator**|[openai-translator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openai-translator-appimage)|[openai-translator-appimage](https://aur.archlinux.org/packages/openai-translator-appimage)||
+|**openai-translator**|[openai-translator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openai-translator-appimage)||AUR上已删除|
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
