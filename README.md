@@ -60,6 +60,7 @@
 |**feidao**|[feidao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-appimage)|[feidao-appimage](https://aur.archlinux.org/packages/feidao-appimage)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**flawesome**|[flawesome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-appimage)<br>[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-appimage](https://aur.archlinux.org/packages/flawesome-appimage)<br>[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
+|**fluent-reader**|[fluent-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluent-reader-appimage)||AUR上未提交|
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
