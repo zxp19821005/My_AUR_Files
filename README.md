@@ -84,6 +84,7 @@
 |**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
+|**openai-translator**|[openai-translator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openai-translator-appimage)|[openai-translator-appimage](https://aur.archlinux.org/packages/openai-translator-appimage)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
