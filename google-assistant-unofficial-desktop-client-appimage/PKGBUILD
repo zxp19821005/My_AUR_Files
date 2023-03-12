@@ -1,0 +1,30 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=google-assistant-unofficial-desktop-client-appimage
+_pkgname=g-assist
+pkgver=1.1.0
+pkgrel=1
+pkgdesc="A cross-platform unofficial Google Assistant Client for Desktop (powered by Google Assistant SDK)"
+arch=('x86_64')
+url="https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client"
+license=('Apache2')
+options=(!strip)
+providers="yang991178"
+conflits=(google-assistant-unofficial-desktop-client-bin)
+depends=(zlib hicolor-icon-theme)
+source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/Google-Assistant-Setup-${pkgver}-x86_64.AppImage")
+sha256sums=('4c8883d3d420d6e88f7781d206c25d2302da556eafcdc7f765e61a44013b132c')
+_install_path="/opt/appimages"
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/g-assist.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+     
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    for _icons in 16x16 32x32 48x48 64x64 128x128 256x256 512x512 1024x1024;do
+        install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
