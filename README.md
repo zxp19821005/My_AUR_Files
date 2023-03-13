@@ -64,6 +64,7 @@
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**flawesome**|[flawesome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-appimage)<br>[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-appimage](https://aur.archlinux.org/packages/flawesome-appimage)<br>[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
 |**fluent-reader**|[fluent-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluent-reader-appimage)||AUR上未提交|
+|**frappe-books**|[frappe-books-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-appimage)<br>[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-appimage](https://aur.archlinux.org/packages/frappe-books-appimage)<br>[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
