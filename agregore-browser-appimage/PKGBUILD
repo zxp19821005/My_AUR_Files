@@ -1,0 +1,27 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=agregore-browser-appimage
+_pkgname=agregore-browser
+pkgver=2.0.0_12
+_pkgver=2.0.0-12
+pkgrel=1
+pkgdesc="A minimal browser for the distributed web"
+arch=('x86_64')
+url="https://github.com/AgregoreWeb/agregore-browser"
+license=('AGPL3')
+options=(!strip)
+conflicts=()
+providers=(AgregoreWeb)
+depends=('zlib' 'hicolor-icon-theme')
+_install_path="/opt/appimages"
+source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${_pkgver}/${_pkgname}-${_pkgver}-linux-x86_64.AppImage")
+sha512sums=('bb5e97a23b2751f33a810f874eb1777bd8872c2acec90d0a8124bc060a0dd793d31252a78459f2ada82443bf93b0cdc0c421d80ce00e2682c9a73b82ae856658')
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/agregore-browser.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/0x0/apps/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${_pkgname}.png"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
