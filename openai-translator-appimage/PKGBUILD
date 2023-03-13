@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=openai-translator-appimage
 _pkgname=open-ai-translator
-pkgver=0.0.17
+pkgver=0.0.20
 pkgrel=1
 pkgdesc="基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用 - Browser extension and cross-platform desktop application for translation based on ChatGPT API."
 arch=('x86_64')
@@ -12,11 +12,11 @@ conflicts=(openai-translator-bin)
 depends=('zlib' 'hicolor-icon-theme')
 _install_path="/opt/appimages"
 source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/open-ai-translator_${pkgver}_amd64.AppImage")
-sha512sums=('a9bbf52f9e934611997726cee5399e8a5f152ffa5ed5da544e08d581b353c6508f15e8b6106158de6e6a816b82e03416f75ed0a3cd23d311b606ef5fe9554045')
+sha512sums=('abe11cbc1794338214f36928cb20f32de507e0e1cddaa26adf336f31f97fe285a84356990f188dc6dba8003e95f414bc5c12c496458fb085e8ea19329eb8200f')
 prepare() {
     chmod a+x "${_pkgname}-${pkgver}.AppImage"
     "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
-    sed 's/Exec=/\#Exec=/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+    11sed 's/Exec=/\#Exec=/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
     echo "Exec=/opt/appimages/${_pkgname}.AppImage" >> "${srcdir}/squashfs-root/${_pkgname}.desktop"
 }
 package() {
