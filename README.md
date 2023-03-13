@@ -133,6 +133,7 @@
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
 |**weektodo**|[weektodo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-appimage)<br>[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-appimage](https://aur.archlinux.org/packages/weektodo-appimage)<br>[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
 |**weimail-uos**|[weimail-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/weimail-uos)|[weimail-uos](https://aur.archlinux.org/packages/weimail-uos)||
+|**whatsapp-for-linux**|[whatsapp-for-linux-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-appimage)||AUR上未提交|
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin) <br> [wolai-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-appimage)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin) <br> [wolai-appimage](https://aur.archlinux.org/packages/wolai-appimage)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xournalpp-stable**|[xournalpp-stable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xournalpp-stable-appimage)||AUR上已删除|
