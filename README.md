@@ -132,6 +132,7 @@
 |**swifty**|[swifty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-appimage)<br>[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-appimage](https://aur.archlinux.org/packages/swifty-appimage)<br>[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
+|**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
 |**ttf-foundertype-sc-fonts**|[ttf-foundertype-sc-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-foundertype-sc-fonts)|[ttf-foundertype-sc-fonts](https://aur.archlinux.org/packages/ttf-foundertype-sc-fonts)||
