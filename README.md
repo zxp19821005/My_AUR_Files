@@ -28,6 +28,7 @@
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**certmanager-uos**|[certmanager-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/certmanager-uos)|[certmanager-uos](https://aur.archlinux.org/packages/certmanager-uos)||
 |**chord**|[chord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-appimage)<br>[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-appimage](https://aur.archlinux.org/packages/chord-appimage)<br>[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
+|**clashr-auto**|[clashr-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashr-auto-bin)|[clashr-auto-bin](https://aur.archlinux.org/packages/clashr-auto-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**csbooks**|[csbooks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-appimage)<br>[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-appimage](https://aur.archlinux.org/packages/csbooks-appimage)<br>[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
