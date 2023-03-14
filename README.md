@@ -84,6 +84,7 @@
 |**imagine**|[imagine-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-appimage)|[imagine-appimage](https://aur.archlinux.org/packages/imagine-appimage)||
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
+|**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
 |**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)|[keenwrite-bin](https://aur.archlinux.org/packages/keenwrite-bin)||
 |**lbry-desktop**|[lbry-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lbry-desktop-appimage)||AUR上未提交|
 |**lisk-desktop**|[lisk-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-appimage)|[lisk-desktop-appimage](https://aur.archlinux.org/packages/lisk-desktop-appimage)||
