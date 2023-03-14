@@ -70,8 +70,9 @@
 |**frappe-books**|[frappe-books-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-appimage)<br>[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-appimage](https://aur.archlinux.org/packages/frappe-books-appimage)<br>[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
-|**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
+|**github-desktop-bin-zh**|[github-desktop-bin-zh](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-bin-zh)|[github-desktop-bin-zh](https://aur.archlinux.org/packages/github-desktop-bin-zh)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
+|**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**google-assistant-unofficial-desktop-client**|[google-assistant-unofficial-desktop-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-appimage)<br>[google-assistant-unofficial-desktop-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-bin)|AUR上未提交<br>[google-assistant-unofficial-desktop-client-bin](https://aur.archlinux.org/packages/google-assistant-unofficial-desktop-client-bin)||
 |**gridea**|[gridea-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-appimage)|[gridea-appimage](https://aur.archlinux.org/packages/gridea-appimage)||
 |**gstarcad**|[gstarcad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gstarcad-bin)|[gstarcad-bin](https://aur.archlinux.org/packages/gstarcad-bin)||
