@@ -82,6 +82,7 @@
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
 |**lbry-desktop**|[lbry-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lbry-desktop-appimage)||AUR上未提交|
+|**lisk-desktop**|[lisk-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-appimage)|[lisk-desktop-appimage](https://aur.archlinux.org/packages/lisk-desktop-appimage)||
 |**listera-novelreader**|[listera-novelreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/listera-novelreader-bin)|[listera-novelreader-bin](https://aur.archlinux.org/packages/listera-novelreader-bin)||
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
