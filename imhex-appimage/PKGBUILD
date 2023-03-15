@@ -1,0 +1,29 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=imhex-appimage
+_pkgname=imhex
+pkgver=1.27.1
+pkgrel=1
+pkgdesc="A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM."
+arch=("x86_64")
+url="https://imhex.werwolv.net/"
+_githuburl="https://github.com/WerWolv/ImHex"
+license=('GPL2')
+depends=(hicolor-icon-theme zlib)
+options=(!strip)
+optdepends=()
+provides=(WerWolv)
+conflicts=(imhex)
+_install_path="/opt/appimages"
+source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-x86_64.AppImage")
+sha256sums=('88df570ad2138370486033c602639c95ab890767c9a8b9e3e422a8616fc6cd3d')
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/Exec=imhex/Exec=\/opt\/appimages\/imhex.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+     
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${_pkgname}.png"
+}
