@@ -110,6 +110,7 @@
 |**netpad**|[netpad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-appimage)<br>[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-appimage](https://aur.archlinux.org/packages/netpad-appimage)<br>[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
+|**notesnook**|[notesnook-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-appimage)|[notesnook-appimage](https://aur.archlinux.org/packages/notesnook-appimage)||
 |**nteract**|[nteract-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nteract-appimage)|[nteract-appimage](https://aur.archlinux.org/packages/nteract-appimage)||
 |**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
