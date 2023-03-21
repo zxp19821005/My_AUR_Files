@@ -1,0 +1,37 @@
+# Maintainer: Ayatale  <ayatale@qq.com>
+_pkgname=zy-player
+pkgname="${_pkgname}-appimage"
+_originame=zy
+pkgver=2.8.8
+pkgrel=4
+pkgdesc="跨平台视频资源播放器, 简洁免费无广告"
+arch=("x86_64")
+url="http://zyplayer.fun/"
+_githuburl="https://github.com/Hunlongyu/ZY-Player"
+license=('MIT')
+conflicts=("${_pkgname}")
+providers=("${_pkgname}")
+depends=(hicolor-icon-theme zlib glibc)
+options=(!strip)
+_install_path="/opt/appimages"
+source=(
+  "${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/ZY-Player-${pkgver}.AppImage"
+  "LICENSE::${_githuburl}/raw/master/LICENSE"
+)
+sha256sums=('432384d577e86656d732249abc35e281e57972433375b2313068ccf0d8bc7bda'
+            '56edaaf3f35c1f202934b86960078a95771c401aaf51169b84d09c1e0ffa74c1')
+     
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    ./"${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/zy-player.AppImage/g;s/Icon=zy/Icon=zy-player/g;s/Development/AudioVideo/g' -i "${srcdir}/squashfs-root/${_originame}.desktop"
+}
+     
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    for _icons in 16x16 24x24 32x32 48x48 64x64 128x128 256x256 512x512 1024x1024;do
+      install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${_icons}/apps/${_originame}.png" "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/squashfs-root/${_originame}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+    install -Dm644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
