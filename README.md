@@ -138,6 +138,7 @@
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swifty**|[swifty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-appimage)<br>[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-appimage](https://aur.archlinux.org/packages/swifty-appimage)<br>[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
+|**swifty**|[switchhosts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-bin)||AUR上由他人维护|
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
