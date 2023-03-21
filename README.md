@@ -170,3 +170,4 @@
 |**yuview**|[yuview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-appimage)|[yuview-appimage](https://aur.archlinux.org/packages/yuview-appimage)||
 |**zettlr**|[zettlr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zettlr-appimage)|[zettlr-appimage](https://aur.archlinux.org/packages/zettlr-appimage)||
 |**zui**|[zui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zui-bin)|[zui-bin](https://aur.archlinux.org/packages/zui-bin)||
+|**zy-player**|[zy-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zy-player-appimage)||自用版|
