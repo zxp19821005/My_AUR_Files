@@ -1,0 +1,34 @@
+# Maintainer: snogard <snogardb at gmail dot com>
+_pkgname=edex-ui
+pkgname="${_pkgname}-appimage"
+pkgver=2.2.8
+pkgrel=3
+pkgdesc='A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.'
+arch=('x86_64')
+url="https://github.com/GitSquared/${_pkgname}"
+license=(GPL3)
+depends=(hicolor-icon-theme zlib glibc)
+provides=("${_pkgname}")
+options=(!strip)
+_install_path="/opt/appimages"
+source=(
+    "LICENSE::https://github.com/GitSquared/edex-ui/raw/master/LICENSE"
+    "${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/eDEX-UI-Linux-x86_64.AppImage")
+sha256sums=('2bb40ac7fb1d848efd73e1ca1804ec3758c2c77aa16ff8a6820b8e089ea8e6b5'
+            'c8f28cd721ca032ca0c1960b756ca3e64dc441a643c32eafbb79c673b402d681')
+
+prepare() {
+    chmod a+x "${_pkgname}-${pkgver}.AppImage"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/edex-ui.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
+}
+      
+package() {
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    for _icons in 16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512;do
+        install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
+        "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${_pkgname}/LICENSE"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+}
