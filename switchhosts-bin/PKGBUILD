@@ -1,0 +1,21 @@
+# Maintainer: Specter119 <spcter119 AT gmail.com>
+# Contributor: Berturion@free.fr>
+_pkgname=switchhosts
+pkgname="${_pkgname}-bin"
+pkgver=4.1.2
+pkgrel=1
+pkgdesc='Switch hosts quickly!'
+arch=(x86_64)
+url=https://swh.app/
+_githuburl="https://github.com/oldj/SwitchHosts"
+license=(APACHE)
+options=(!strip)
+depends=(pango alsa-lib glib2 glibc libx11 cairo libxrandr mesa gcc-libs expat libxcomposite \
+        at-spi2-core libxfixes libxdamage libxkbcommon nss libdrm libxcb gdk-pixbuf2 dbus \
+        hicolor-icon-theme libcups libxext gtk3 nspr)
+optdepends=()
+source=("${_pkgname}-${pkgver}.deb::${_githuburl}/releases/download/v${pkgver}/SwitchHosts_linux_amd64_${pkgver}.6086.deb")
+sha256sums=('a2898640645392952836b8d8d9e7d3edc135b87e2d15c35c13ad567fb333a8b5')
+package() {
+    bsdtar -xf "${srcdir}/data.tar.xz" -C "${pkgdir}"
+}
