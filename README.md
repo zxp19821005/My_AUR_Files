@@ -125,7 +125,8 @@
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin) <br> [rats-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-appimage)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin) <br> [rats-search-appimage](https://aur.archlinux.org/packages/rats-search-appimage)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
-|**sigma-file-manager**|[sigma-file-manager](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-appimage)|[sigma-file-manager-appimage](https://aur.archlinux.org/packages/sigma-file-manager-appimage)||
+|**sigma-file-manager**|[sigma-file-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-appimage)|[sigma-file-manager-appimage](https://aur.archlinux.org/packages/sigma-file-manager-appimage)||
+|**simple-icons**|[simple-icons](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-icons)|[simple-icons](https://aur.archlinux.org/packages/simple-icons)||
 |**sleek**|[sleek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-appimage)|[sleek-appimage](https://aur.archlinux.org/packages/sleek-appimage)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**sonixd**|[sonixd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-appimage)|[sonixd-appimage](https://aur.archlinux.org/packages/sonixd-appimage)||
