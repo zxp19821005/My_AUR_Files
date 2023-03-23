@@ -1,18 +1,18 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 _pkgname=open-ai-translator
 pkgname="${_pkgname}-appimage"
-pkgver=0.0.32
+pkgver=0.0.34
 pkgrel=1
 pkgdesc="基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用 - Browser extension and cross-platform desktop application for translation based on ChatGPT API."
 arch=('x86_64')
-url="https://github.com/yetone/${_pkgname}"
+url="https://github.com/yetone/openai-translator"
 license=('AGPL3')
 options=(!strip)
 conflicts=("${_pkgname}")
 depends=('zlib' 'hicolor-icon-theme' 'glibc')
 _install_path="/opt/appimages"
 source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.AppImage")
-sha256sums=('00a595a88a4b4737754ee3b1f86faca7ab8c1f31811667c4c1712a713ae03f0b')
+sha256sums=('bc25fbcec05cd0551873c2409e32325614d34cbb91d0d90eebefb9b0c43ae675')
 prepare() {
     chmod a+x "${_pkgname}-${pkgver}.AppImage"
     "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
