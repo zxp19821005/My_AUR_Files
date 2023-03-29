@@ -145,6 +145,7 @@
 |**sigma-file-manager**|[sigma-file-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-appimage)|[sigma-file-manager-appimage](https://aur.archlinux.org/packages/sigma-file-manager-appimage)||
 |**simple-icons**|[simple-icons](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-icons)|[simple-icons](https://aur.archlinux.org/packages/simple-icons)||
 |**sleek**|[sleek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-appimage)|[sleek-appimage](https://aur.archlinux.org/packages/sleek-appimage)||
+|**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**sonixd**|[sonixd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-appimage)|[sonixd-appimage](https://aur.archlinux.org/packages/sonixd-appimage)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
