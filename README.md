@@ -172,6 +172,7 @@
 |**whatsapp-for-linux**|[whatsapp-for-linux-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-appimage)||AUR上未提交|
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin) <br> [wolai-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-appimage)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin) <br> [wolai-appimage](https://aur.archlinux.org/packages/wolai-appimage)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
+|**xiaohongshu**|[unoffical-xiaohongshu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiaohongshu-pake)|[unoffical-xiaohongshu-appimage](https://aur.archlinux.org/packages/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://aur.archlinux.org/packages/xiaohongshu-pake)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xournalpp-stable**|[xournalpp-stable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xournalpp-stable-appimage)||AUR上已删除|
 |**xplist**|[xplist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xplist-appimage)|[xplist-appimage](https://aur.archlinux.org/packages/xplist-appimage)||
