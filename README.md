@@ -169,6 +169,7 @@
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vgmtrans**|[vgmtrans-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-appimage)||AUR未提交|
+|**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
 |**wechat-backup**|[wechat-backup](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-backup)|[wechat-backup](https://aur.archlinux.org/packages/wechat-backup)||
 |**weektodo**|[weektodo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-appimage)<br>[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-appimage](https://aur.archlinux.org/packages/weektodo-appimage)<br>[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
