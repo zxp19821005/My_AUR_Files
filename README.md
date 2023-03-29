@@ -181,6 +181,7 @@
 |**yesplaymusic**|[yesplaymusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-appimage)|[yesplaymusic-appimage](https://aur.archlinux.org/packages/yesplaymusic-appimage)||
 |**youku-uos-electron**|[youku-uos-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-uos-electron-bin)|[youku-uos-electron-bin](https://aur.archlinux.org/packages/youku-uos-electron-bin)||
 |**youtube-music**|[youtube-music-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-appimage)||AUR上未提交|
+|**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage)<br>[yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage)<br>[yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
 |**yuview**|[yuview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-appimage)|[yuview-appimage](https://aur.archlinux.org/packages/yuview-appimage)||
 |**zettlr**|[zettlr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zettlr-appimage)|[zettlr-appimage](https://aur.archlinux.org/packages/zettlr-appimage)||
 |**zui**|[zui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zui-bin)|[zui-bin](https://aur.archlinux.org/packages/zui-bin)||
