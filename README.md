@@ -136,6 +136,7 @@
 |**p3x-onenote**|[p3x-onenote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-appimage)|[p3x-onenote-appimage](https://aur.archlinux.org/p3x-onenote/p3x-onenote-appimage)||
 |**p3x-redis-ui**|[p3x-redis-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-redis-ui-appimage)|[p3x-redis-ui-appimage](https://aur.archlinux.org/p3x-onenote/p3x-redis-ui-appimage)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
+|**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
 |**ppet3**|[ppet3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-appimage)<br>[ppet3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-bin)|[ppet3-appimage](https://aur.archlinux.org/packages/ppet3-appimage)<br>[ppet3-bin](https://aur.archlinux.org/packages/ppet3-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
