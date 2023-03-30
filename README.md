@@ -188,6 +188,7 @@
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xournalpp-stable**|[xournalpp-stable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xournalpp-stable-appimage)||AUR上已删除|
 |**xplist**|[xplist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xplist-appimage)|[xplist-appimage](https://aur.archlinux.org/packages/xplist-appimage)||
+|**xunscore**|[xunscore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xunscore-bin)|[xunscore-bin](https://aur.archlinux.org/packages/xunscore-bin)||
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
 |**yana**|[yana-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-appimage)<br>[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-appimage](https://aur.archlinux.org/packages/yana-appimage)<br>[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yesplaymusic**|[yesplaymusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-appimage)|[yesplaymusic-appimage](https://aur.archlinux.org/packages/yesplaymusic-appimage)||
