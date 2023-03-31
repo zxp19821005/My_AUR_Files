@@ -17,8 +17,8 @@ source=(
     "${_sparkpkgname}_${_sparkver}_amd64.deb::https://mirrors.sdu.edu.cn/spark-store-repository/store/music/${_sparkpkgname}/${_sparkpkgname}_${_sparkver}_amd64.deb"
     "${_appname}-${pkgver}.exe::${url}/down/lite/v2?client=win&channelId=99&subChannelId=100001"
     "LICENSE::https://passport.ximalaya.com/page/register_rule"
-    "${srcdir}/${pkgname}".install
-    "${srcdir}/run.sh"
+    "${pkgname}".install
+    "run.sh"
     )
 sha256sums=('54989d78270b73e473e71eaa5676eb668976232fb06fff0cd4d62336d00da71e'
             'bfc6955980077628889e366a7a874208e4f03e34e9ede39281f9b2912a6abfa3'
