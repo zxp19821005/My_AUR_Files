@@ -37,6 +37,8 @@
 |**chain-desktop-wallet**|[chain-desktop-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-appimage)|[chain-desktop-wallet-appimage](https://aur.archlinux.org/packages/chain-desktop-wallet-appimage)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
 |**clashr-auto**|[clashr-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashr-auto-bin)|[clashr-auto-bin](https://aur.archlinux.org/packages/clashr-auto-bin)||
+|**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
+
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**csbooks**|[csbooks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-appimage)<br>[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-appimage](https://aur.archlinux.org/packages/csbooks-appimage)<br>[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
