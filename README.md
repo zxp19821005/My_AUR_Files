@@ -54,6 +54,7 @@
 |**deepin-wine-mailmaster**|[deepin-wine-mailmaster](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-mailmaster)|[deepin-wine-mailmaster](https://aur.archlinux.org/packages/deepin-wine-mailmaster)||
 |**deepin-wine-mcloud**|[deepin-wine-mcloud](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-mcloud)|[deepin-wine-mcloud](https://aur.archlinux.org/packages/deepin-wine-mcloud)||
 |**deepin-wine-pandaocr.pro**|[deepin-wine-pandaocr.pro](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-pandaocr.pro)|[deepin-wine-pandaocr.pro](https://aur.archlinux.org/packages/deepin-wine-pandaocr.pro)||
+|**deepin-wine-quarkclouddrive**|[deepin-wine-quarkclouddrive](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-quarkclouddrive)|[deepin-wine-quarkclouddrive](https://aur.archlinux.org/packages/deepin-wine-quarkclouddrive)||
 |**deepin-wine-tencent-edu**|[deepin-wine-tencent-edu](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-tencent-edu)|[deepin-wine-tencent-edu](https://aur.archlinux.org/packages/deepin-wine-tencent-edu)||
 |**deepin-wine-ttplayer**|[deepin-wine-ttplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ttplayer)|[deepin-wine-ttplayer](https://aur.archlinux.org/packages/deepin-wine-ttplayer)||
 |**deepin-wine-weiyunsync**|[deepin-wine-weiyunsync](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-weiyunsync)|[deepin-wine-weiyunsync](https://aur.archlinux.org/packages/deepin-wine-weiyunsync)||
