@@ -1,24 +1,25 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=drawio-desktop-appimage
 _pkgname=drawio
-pkgver=20.8.16
+pkgname="${_pkgname}-desktop-appimage"
+pkgver=21.1.2
 pkgrel=1
 pkgdesc="Diagram drawing application built on web technology"
 arch=('x86_64')
 url="https://www.diagrams.net/"
 _githuburl="https://github.com/jgraph/drawio-desktop"
-license=('Apache2')
+license=('custom:Apache2')
 options=(!strip)
-conflicts=(drawio-desktop)
-depends=('zlib' 'hicolor-icon-theme')
+conflicts=("${_pkgname}-desktop")
+depends=('zlib' 'hicolor-icon-theme' 'glibc')
 _install_path="/opt/appimages"
-source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${_pkgname}-x86_64-${pkgver}.AppImage")
-sha512sums=('2940baa2afd0168e169c31b6533c12d4bcd91f8e28be9b8803a032d237ee41a73c7b1ceb7025792dd3f85acedffe184431b80fe2671a657553c84be2b46a05e2')
+source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${_pkgname}-x86_64-${pkgver}.AppImage"
+    "LICENSE::https://github.com/jgraph/drawio-desktop/raw/dev/LICENSE")
+sha256sums=('e003f0202aa356baf8fb62830562e67aeb007fbd3b2a36f193d069ca0e1cde78'
+            'b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1')
 prepare() {
     chmod a+x "${_pkgname}-${pkgver}.AppImage"
-    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
-    sed 's/Exec=/\#Exec=/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
-    echo "Exec=/opt/appimages/${_pkgname}.AppImage --no-sandbox %U" >> "${srcdir}/squashfs-root/${_pkgname}.desktop"
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's/AppRun/\/opt\/appimages\/drawio.AppImage/g' -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
 }
 package() {
     install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
@@ -26,4 +27,5 @@ package() {
         install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/${icons}/apps/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/${icons}/apps/${_pkgname}.png"
     done
     install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+    install -Dm644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
