@@ -182,6 +182,7 @@
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
 |**turbowarp-desktop**|[turbowarp-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-appimage)|[turbowarp-desktop-appimage](https://aur.archlinux.org/packages/turbowarp-desktop-appimage)||
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
+|**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vgmtrans**|[vgmtrans-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-appimage)||AUR未提交|
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
