@@ -78,6 +78,7 @@
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**feidao**|[feidao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-appimage)|[feidao-appimage](https://aur.archlinux.org/packages/feidao-appimage)||
 |**ffuf**|[ffuf-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffuf-bin)|[ffuf-bin](https://aur.archlinux.org/packages/ffuf-bin)||
+|**fifo**|[fifo-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-appimage)|[fifo-browser-appimage](https://aur.archlinux.org/packages/fifo-browser-appimage)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**fishing-funds**|[fishing-funds-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-appimage)|[fishing-funds-appimage](https://aur.archlinux.org/packages/fishing-funds-appimage)||
 |**flawesome**|[flawesome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-appimage)<br>[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-appimage](https://aur.archlinux.org/packages/flawesome-appimage)<br>[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
