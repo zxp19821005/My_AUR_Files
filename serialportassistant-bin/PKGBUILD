@@ -7,7 +7,7 @@ pkgdesc="A cross-platform serial port assistant. It can run on WINDOWS, linux、
 arch=("x86_64")
 url="https://github.com/KangLin/SerialPortAssistant"
 license=('GPL3')
-depends=('glibc' 'qt5-base' 'gcc-libs')
+depends=('glibc' 'qt5-base' 'gcc-libs' 'qt5-serialport')
 provides=("KangLin")
 conflicts=("${pkgname%-bin}")
 options=(!strip)
@@ -16,4 +16,6 @@ sha256sums=('fde29fed42b2ebf0202e9eba2cbecb988f33fe304e1e9f757bee2c011d62ce22')
 package() {
     bsdtar -xf data.tar.xz -C "${pkgdir}" --gname root --uname root
     cp -r "${pkgdir}/opt/${_appname}/share/"* "${pkgdir}/usr/share/"
+    install -Dm755 -d "${pkgdir}/usr/lib/"
+    cp -r "${pkgdir}/opt/${_appname}/lib/"* "${pkgdir}/usr/lib/"
 }
