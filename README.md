@@ -31,6 +31,7 @@
 |**boostchanger**|[boostchanger-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-appimage)<br>[boostchanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-appimage)|[boostchanger-appimage](https://aur.archlinux.org/packages/boostchanger-appimage)<br>[boostchanger-bin](https://aur.archlinux.org/packages/boostchanger-bin)||
 |**buttercup-desktop**|[buttercup-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-appimage)||AUR上未提交|
 |**browser360**|[browser360-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/browser360-bin)|[browser360-bin](https://aur.archlinux.org/packages/browser360-bin)||
+|**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**cerebro**|[cerebro-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
 |**certmanager-uos**|[certmanager-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/certmanager-uos)|[certmanager-uos](https://aur.archlinux.org/packages/certmanager-uos)||
