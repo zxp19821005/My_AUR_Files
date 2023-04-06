@@ -165,6 +165,7 @@
 |**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
+|**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
 |**sigma-file-manager**|[sigma-file-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-appimage)|[sigma-file-manager-appimage](https://aur.archlinux.org/packages/sigma-file-manager-appimage)||
 |**simple-icons**|[simple-icons](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-icons)|[simple-icons](https://aur.archlinux.org/packages/simple-icons)||
 |**sleek**|[sleek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-appimage)|[sleek-appimage](https://aur.archlinux.org/packages/sleek-appimage)||
