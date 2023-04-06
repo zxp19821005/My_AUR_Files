@@ -135,6 +135,7 @@
 |**mqttx**|[mqttx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-appimage)||AUR上未提交|
 |**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
+|**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
 |**netpad**|[netpad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-appimage)<br>[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-appimage](https://aur.archlinux.org/packages/netpad-appimage)<br>[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
