@@ -175,6 +175,7 @@
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**sonixd**|[sonixd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-appimage)|[sonixd-appimage](https://aur.archlinux.org/packages/sonixd-appimage)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
+|**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
 |**spark-transhell**|[spark-transhell](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-transhell)|[spark-transhell](https://aur.archlinux.org/packages/spark-transhell)||
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
