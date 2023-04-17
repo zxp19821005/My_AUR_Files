@@ -180,6 +180,7 @@
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
 |**stackzy**|[stackzy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stackzy-bin)|[stackzy-bin](https://aur.archlinux.org/packages/stackzy-bin)||
+|**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
 |**subtitler**|[subtitler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-appimage)|[subtitler-appimage](https://aur.archlinux.org/packages/subtitler-appimage)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swifty**|[swifty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-appimage)<br>[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-appimage](https://aur.archlinux.org/packages/swifty-appimage)<br>[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
