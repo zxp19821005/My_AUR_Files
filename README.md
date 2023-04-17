@@ -89,6 +89,7 @@
 |**flomo**|[unoffical-flomo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-flomo-appimage)<br>[flomo-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-pake)|[unoffical-flomo-appimage](https://aur.archlinux.org/packages/unoffical-flomo-appimage)<br>[flomo-pake](https://aur.archlinux.org/packages/flomo-pake)||
 |**frappe-books**|[frappe-books-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-appimage)<br>[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-appimage](https://aur.archlinux.org/packages/frappe-books-appimage)<br>[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
+|**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
 |**github-desktop-bin-zh**|[github-desktop-bin-zh](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-bin-zh)|[github-desktop-bin-zh](https://aur.archlinux.org/packages/github-desktop-bin-zh)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
