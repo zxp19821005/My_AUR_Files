@@ -181,6 +181,7 @@
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
 |**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
 |**spark-transhell**|[spark-transhell](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-transhell)|[spark-transhell](https://aur.archlinux.org/packages/spark-transhell)||
+|**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
 |**sshuttle-gui**|[sshuttle-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sshuttle-gui-bin)|[sshuttle-gui-bin](https://aur.archlinux.org/packages/sshuttle-gui-bin)||
