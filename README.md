@@ -198,6 +198,7 @@
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
 |**ttf-foundertype-sc-fonts**|[ttf-foundertype-sc-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-foundertype-sc-fonts)|[ttf-foundertype-sc-fonts](https://aur.archlinux.org/packages/ttf-foundertype-sc-fonts)||
+|**ttf-harmonyos-sans**|[ttf-harmonyos-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-harmonyos-sans)|[ttf-harmonyos-sans](https://aur.archlinux.org/packages/ttf-harmonyos-sans)||
 |**ttf-honor-sans**|[ttf-honor-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-honor-sans)|[ttf-honor-sans](https://aur.archlinux.org/packages/ttf-honor-sans)||
 |**ttf-i-ming-fonts**|[ttf-i-ming-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-i-ming-fonts)|[ttf-i-ming-fonts](https://aur.archlinux.org/packages/ttf-i-ming-fonts)||
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
