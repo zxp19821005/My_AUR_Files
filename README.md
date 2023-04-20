@@ -45,6 +45,7 @@
 |**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
+|**cpeditor**|[cpeditor-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-appimage)|[cpeditor-appimage](https://aur.archlinux.org/packages/cpeditor-appimage)||
 |**csbooks**|[csbooks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-appimage)<br>[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-appimage](https://aur.archlinux.org/packages/csbooks-appimage)<br>[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**ctool**|[ctool-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-appimage)|[ctool-appimage](https://aur.archlinux.org/packages/ctool-appimage)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
