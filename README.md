@@ -174,6 +174,7 @@
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin) <br> [rats-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-appimage)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin) <br> [rats-search-appimage](https://aur.archlinux.org/packages/rats-search-appimage)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
+|**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
