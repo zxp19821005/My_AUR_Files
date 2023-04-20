@@ -118,6 +118,7 @@
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
+|**kdesktop**|[kdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kdesktop-bin)|[kdesktop-bin](https://aur.archlinux.org/packages/kdesktop-bin)||
 |**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)||应作者要求，已删除|
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
 |**lbry-desktop**|[lbry-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lbry-desktop-appimage)||AUR上未提交|
@@ -128,6 +129,7 @@
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
 |**mapeo-desktop**|[mapeo-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[droppoint-mapeo-desktop](https://aur.archlinux.org/packages/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**marktext**|[marktext-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marktext-appimage)||AUR上未发布|
+|**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)|[masterpdfeditor-bin](https://aur.archlinux.org/packages/masterpdfeditor-bin)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
 |**microsoft-loop**|[unoffical-microsoft-loop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/microsoft-loop-pake)|[unoffical-microsoft-loop-appimage](https://aur.archlinux.org/packages/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://aur.archlinux.org/packages/microsoft-loop-pake)||
