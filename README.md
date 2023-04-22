@@ -4,6 +4,7 @@
 | **软件包名** | GitHub 地址| AUR地址|备注|
 | :----: | :----: | :----: | :----: |
 |**adbmanage**|[adbmanager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adbmanager-bin)|[adbmanager-bin](https://aur.archlinux.org/packages/adbmanager-bin)||
+|**advanced-passgen**|[advanced-passgen-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-appimage)<br>[advanced-passgen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-bin)|[advanced-passgen-appimage](https://aur.archlinux.org/packages/advanced-passgen-appimage)<br>[advanced-passgen-bin](https://aur.archlinux.org/packages/advanced-passgen-bin)||
 |**aechoterm**|[aechoterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aechoterm-bin)|[aechoterm-bin](https://aur.archlinux.org/packages/aechoterm-bin)||
 |**agregore-browser**|[agregore-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/agregore-browser-appimage)||AUR上未提交|
 |**aimp**|[aimp](https://github.com/zxp19821005/My_AUR_Files/tree/main/aimp)||自用版，AUR上未提交|
