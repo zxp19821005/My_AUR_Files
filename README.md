@@ -143,6 +143,7 @@
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
 |**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)||AUR上已删除|
+|**mogan**|[mogan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mogan-bin)|[mogan-bin](https://aur.archlinux.org/packages/mogan-bin)||
 |**moneydance**|[moneydance-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moneydance-bin)|[moneydance-bin](https://aur.archlinux.org/packages/moneydance-bin)||
 |**moonfm**|[moonfm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonfm-appimage)|[moonfm-appimage](https://aur.archlinux.org/packages/moonfm-appimage)||
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
