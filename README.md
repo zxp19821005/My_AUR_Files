@@ -163,11 +163,12 @@
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
 |**oh-mymd**|[oh-mymd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-appimage)<br>[oh-mymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-bin)|[oh-mymd-appimage](https://aur.archlinux.org/packages/oh-mymd-appimage)<br>[oh-mymd-bin](https://aur.archlinux.org/packages/oh-mymd-bin)||
-|**one-gpt**|[one-gpt-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-appimage)<br>[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-appimage](https://aur.archlinux.org/packages/one-gpt-appimage)<br>[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
+
 |**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
 |**open-ai-translator**|[open-ai-translator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-appimage)||AUR上已删除|
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
+|**open-video-downloader**|[open-video-downloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-video-downloader-appimage)|[open-video-downloader-appimage](https://aur.archlinux.org/packages/open-video-downloader-appimage)||
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
 |**p3x-onenote**|[p3x-onenote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-appimage)|[p3x-onenote-appimage](https://aur.archlinux.org/p3x-onenote/p3x-onenote-appimage)||
