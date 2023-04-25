@@ -262,6 +262,7 @@
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
 |**yana**|[yana-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-appimage)<br>[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-appimage](https://aur.archlinux.org/packages/yana-appimage)<br>[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yesplaymusic**|[yesplaymusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-appimage)|[yesplaymusic-appimage](https://aur.archlinux.org/packages/yesplaymusic-appimage)||
+|**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict-bin)|[youdao-dict-bin](https://aur.archlinux.org/packages/youdao-dict-bin)||
 |**youku-uos-electron**|[youku-uos-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-uos-electron-bin)|[youku-uos-electron-bin](https://aur.archlinux.org/packages/youku-uos-electron-bin)||
 |**youtube-music**|[youtube-music-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-appimage)||AUR上未提交|
