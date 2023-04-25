@@ -188,7 +188,7 @@
 |**r3play**|[r3play-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-appimage)|[r3play-appimage](https://aur.archlinux.org/packages/r3play-appimage)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin) <br> [rats-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-appimage)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin) <br> [rats-search-appimage](https://aur.archlinux.org/packages/rats-search-appimage)||
 |**redis-viewer**|[redis-viewer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-appimage)<br>[redis-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-bin)|[redis-viewer-appimage](https://aur.archlinux.org/packages/redis-viewer-appimage)<br>[redis-viewer-bin](https://aur.archlinux.org/packages/redis-viewer-bin)||
-|**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
+|**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
@@ -237,6 +237,7 @@
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vnote**|[vnote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-appimage)|[vnote-appimage](https://aur.archlinux.org/packages/vnote-appimage)||
 |**vgmtrans**|[vgmtrans-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-appimage)||AUR未提交|
+|**walc**|[walc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-appimage)|[walc-appimage](https://aur.archlinux.org/packages/walc-appimage)||
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
