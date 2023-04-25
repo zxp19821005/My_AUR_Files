@@ -74,7 +74,7 @@
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**deltachat-desktop**|[deltachat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deltachat-desktop-bin)|[deltachat-desktop-bin](https://aur.archlinux.org/packages/deltachat-desktop-bin)||
-|**devbox**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
+|**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
 |**diffuse**|[diffuse-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)<br>[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)|[diffuse-player-appimage](https://aur.archlinux.org/packages/diffuse-player-appimage)<br>[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
@@ -175,7 +175,7 @@
 |**p3x-onenote**|[p3x-onenote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-appimage)|[p3x-onenote-appimage](https://aur.archlinux.org/p3x-onenote/p3x-onenote-appimage)||
 |**p3x-redis-ui**|[p3x-redis-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-redis-ui-appimage)|[p3x-redis-ui-appimage](https://aur.archlinux.org/p3x-onenote/p3x-redis-ui-appimage)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
-|**padloc**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
+|**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
@@ -252,7 +252,7 @@
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)||
 |**xiaohongshu**|[unoffical-xiaohongshu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiaohongshu-pake)|[unoffical-xiaohongshu-appimage](https://aur.archlinux.org/packages/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://aur.archlinux.org/packages/xiaohongshu-pake)||
-|**xmachoviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
+|**xmachoviewer**|[xmachoviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xmachoviewer-bin)|[xmachoviewer-bin](https://aur.archlinux.org/packages/xmachoviewer-bin)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xournalpp-stable**|[xournalpp-stable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xournalpp-stable-appimage)||AUR上已删除|
 |**xpeviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
