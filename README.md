@@ -51,7 +51,6 @@
 |**csbooks**|[csbooks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-appimage)<br>[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-appimage](https://aur.archlinux.org/packages/csbooks-appimage)<br>[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**ctool**|[ctool-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-appimage)|[ctool-appimage](https://aur.archlinux.org/packages/ctool-appimage)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
-|**diffuse**|[diffuse-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)<br>[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)|[diffuse-player-appimage](https://aur.archlinux.org/packages/diffuse-player-appimage)<br>[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
 |**deepin-wine-adrive**|[deepin-wine-adrive](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-adrive)|[deepin-wine-adrive](https://aur.archlinux.org/packages/deepin-wine-adrive)||
 |**deepin-wine-aliyun-mail**|[deepin-wine-aliyun-mail](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-aliyun-mail)|[deepin-wine-aliyun-mail](https://aur.archlinux.org/packages/deepin-wine-aliyun-mail)||
@@ -75,6 +74,8 @@
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**deltachat-desktop**|[deltachat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deltachat-desktop-bin)|[deltachat-desktop-bin](https://aur.archlinux.org/packages/deltachat-desktop-bin)||
+|**devbox**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
+|**diffuse**|[diffuse-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)<br>[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)|[diffuse-player-appimage](https://aur.archlinux.org/packages/diffuse-player-appimage)<br>[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
 |**drawio-desktop**|[drawio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-appimage)||AUR上已删除|
