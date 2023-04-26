@@ -30,6 +30,7 @@
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
 |**audacity**|[audacity](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
 |**avidemux2**|[avidemux2](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
+|**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
 |**bilibili-videodownloader**|[bilibili-videodownloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-videodownloader-appimage)|[bilibili-videodownloader-appimage](https://aur.archlinux.org/packages/bilibili-videodownloader-appimage)||
 |**bookmarks-manager**|[bookmarks-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookmarks-manager-appimage)|[bookmarks-manager-appimage](https://aur.archlinux.org/packages/bookmarks-manager-appimage)||
 |**boostchanger**|[boostchanger-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-appimage)<br>[boostchanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-appimage)|[boostchanger-appimage](https://aur.archlinux.org/packages/boostchanger-appimage)<br>[boostchanger-bin](https://aur.archlinux.org/packages/boostchanger-bin)||
