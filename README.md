@@ -118,6 +118,7 @@
 |**gstarcad**|[gstarcad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gstarcad-bin)|[gstarcad-bin](https://aur.archlinux.org/packages/gstarcad-bin)||
 |**guiscrcpy**|[guiscrcpy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiscrcpy-appimage)|[guiscrcpy-appimage](https://aur.archlinux.org/packages/guiscrcpy-appimage)||
 |**headphones**|[headphones](https://github.com/zxp19821005/My_AUR_Files/tree/main/headphones)|[headphones](https://aur.archlinux.org/packages/headphones)||
+|**headset**|[headset-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/headset-bin)|[headset-bin](https://aur.archlinux.org/packages/headset-bin)||
 |**heimer**|[heimer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-appimage)|[heimer-appimage](https://aur.archlinux.org/packages/heimer-appimage)||
 |**hoptodesk**|[hoptodesk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-appimage)|[hoptodesk-appimage](https://aur.archlinux.org/packages/hoptodesk-appimage)||
 |**houdoku**|[houdoku-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku-appimage)|[houdoku-appimage](https://aur.archlinux.org/packages/houdoku-appimage)||
