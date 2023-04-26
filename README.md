@@ -247,6 +247,7 @@
 |**ttf-i-ming-fonts**|[ttf-i-ming-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-i-ming-fonts)|[ttf-i-ming-fonts](https://aur.archlinux.org/packages/ttf-i-ming-fonts)||
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
+|**tunasync**|[tunasync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tunasync-bin)|[tunasync-bin](https://aur.archlinux.org/packages/tunasync-bin)||
 |**turbowarp-desktop**|[turbowarp-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-appimage)|[turbowarp-desktop-appimage](https://aur.archlinux.org/packages/turbowarp-desktop-appimage)||
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
