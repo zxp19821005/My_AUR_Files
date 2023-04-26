@@ -205,8 +205,9 @@
 |**rubick**|[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
-|**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
+|**s5cmd**|[s5cmd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/s5cmd-bin)|[s5cmd-bin](https://aur.archlinux.org/packages/s5cmd-bin)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
+|**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
 |**shadowsocks-electron**|[shadowsocks-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/shadowsocks-electron-appimage)<br>[shadowsocks-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shadowsocks-electron-bin)|[shadowsocks-electron-appimage](https://aur.archlinux.org/packages/shadowsocks-electron-appimage)<br>[shadowsocks-electron-bin](https://aur.archlinux.org/packages/shadowsocks-electron-bin)||
 |**shutter-encoder**|[shutter-encoder-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutter-encoder-appimage)|[shutter-encoder-appimage](https://aur.archlinux.org/packages/shutter-encoder-appimage)||
