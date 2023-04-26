@@ -259,6 +259,7 @@
 |**wechat-backup**|[wechat-backup](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-backup)|[wechat-backup](https://aur.archlinux.org/packages/wechat-backup)||
 |**weektodo**|[weektodo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-appimage)<br>[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-appimage](https://aur.archlinux.org/packages/weektodo-appimage)<br>[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
 |**weimail-uos**|[weimail-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/weimail-uos)|[weimail-uos](https://aur.archlinux.org/packages/weimail-uos)||
+|**werckmeister**|[werckmeister-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/werckmeister-bin)|[werckmeister-bin](https://aur.archlinux.org/packages/werckmeister-bin)||
 |**weread**|[unoffical-weread-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-weread-appimage)<br>[weread-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/weread-pake)|[unoffical-weread-appimage](https://aur.archlinux.org/packages/unoffical-weread-appimage)<br>[weread-pake](https://aur.archlinux.org/packages/weread-pake)||
 |**wewechat++**|[wewechat++-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wewechat++-appimage)|[wewechat++-appimage](https://aur.archlinux.org/packages/wewechat++-appimage)||
 |**whatsapp-for-linux**|[whatsapp-for-linux-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-appimage)||AUR上未提交|
