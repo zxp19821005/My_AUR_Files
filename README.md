@@ -247,6 +247,7 @@
 |**turbowarp-desktop**|[turbowarp-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-appimage)|[turbowarp-desktop-appimage](https://aur.archlinux.org/packages/turbowarp-desktop-appimage)||
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
+|**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**visualfamilytree**|[visualfamilytree-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-appimage)<br>[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-appimage](https://aur.archlinux.org/packages/visualfamilytree-appimage)<br>[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
