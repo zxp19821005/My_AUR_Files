@@ -257,6 +257,7 @@
 |**ttf-kingnam-maiyuan**|[ttf-kingnam-maiyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-maiyuan)|[ttf-kingnam-maiyuan](https://aur.archlinux.org/packages/ttf-kingnam-maiyuan)||
 |**ttf-kingnam-yuanmo**|[ttf-kingnam-yuanmo](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-yuanmo)|[ttf-kingnam-yuanmo](https://aur.archlinux.org/packages/ttf-kingnam-yuanmo)||
 |**ttf-maoken-longzhuti**|[ttf-maoken-longzhuti](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-longzhuti)|[ttf-maoken-longzhuti](https://aur.archlinux.org/packages/ttf-maoken-longzhuti)||
+|**ttf-maoken-unbounded-sans**|[ttf-maoken-unbounded-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-unbounded-sans)|[ttf-maoken-unbounded-sans](https://aur.archlinux.org/packages/ttf-maoken-unbounded-sans)||
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
 |**tunasync**|[tunasync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tunasync-bin)|[tunasync-bin](https://aur.archlinux.org/packages/tunasync-bin)||
