@@ -249,6 +249,7 @@
 |**ttf-canger-xiaowanzi**|[ttf-canger-xiaowanzi](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-xiaowanzi)|[ttf-canger-xiaowanzi](https://aur.archlinux.org/packages/ttf-canger-xiaowanzi)||
 |**ttf-canger-yumo**|[ttf-canger-yumo](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-yumo)|[ttf-canger-yumo](https://aur.archlinux.org/packages/ttf-canger-yumo)||
 |**ttf-canger-yuyang**|[ttf-canger-yuyang](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-yuyang)|[ttf-canger-yuyang](https://aur.archlinux.org/packages/ttf-canger-yuyang)||
+|**ttf-canger-zhoukezhengdabangshu**|[ttf-canger-zhoukezhengdabangshu](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-zhoukezhengdabangshu)|[ttf-canger-zhoukezhengdabangshu](https://aur.archlinux.org/packages/ttf-canger-zhoukezhengdabangshu)||
 |**ttf-foundertype-sc-fonts**|[ttf-foundertype-sc-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-foundertype-sc-fonts)|[ttf-foundertype-sc-fonts](https://aur.archlinux.org/packages/ttf-foundertype-sc-fonts)||
 |**ttf-harmonyos-sans**|[ttf-harmonyos-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-harmonyos-sans)|[ttf-harmonyos-sans](https://aur.archlinux.org/packages/ttf-harmonyos-sans)||
 |**ttf-honor-sans**|[ttf-honor-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-honor-sans)|[ttf-honor-sans](https://aur.archlinux.org/packages/ttf-honor-sans)||
