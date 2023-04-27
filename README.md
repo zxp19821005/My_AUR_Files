@@ -244,6 +244,7 @@
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
+|**ttf-canger-yuyang**|[ttf-canger-yuyang](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-yuyang)|[ttf-canger-yuyang](https://aur.archlinux.org/packages/ttf-canger-yuyang)||
 |**ttf-foundertype-sc-fonts**|[ttf-foundertype-sc-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-foundertype-sc-fonts)|[ttf-foundertype-sc-fonts](https://aur.archlinux.org/packages/ttf-foundertype-sc-fonts)||
 |**ttf-harmonyos-sans**|[ttf-harmonyos-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-harmonyos-sans)|[ttf-harmonyos-sans](https://aur.archlinux.org/packages/ttf-harmonyos-sans)||
 |**ttf-honor-sans**|[ttf-honor-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-honor-sans)|[ttf-honor-sans](https://aur.archlinux.org/packages/ttf-honor-sans)||
