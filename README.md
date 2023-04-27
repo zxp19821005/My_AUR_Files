@@ -256,6 +256,7 @@
 |**ttf-i-ming-fonts**|[ttf-i-ming-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-i-ming-fonts)|[ttf-i-ming-fonts](https://aur.archlinux.org/packages/ttf-i-ming-fonts)||
 |**ttf-kingnam-maiyuan**|[ttf-kingnam-maiyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-maiyuan)|[ttf-kingnam-maiyuan](https://aur.archlinux.org/packages/ttf-kingnam-maiyuan)||
 |**ttf-kingnam-yuanmo**|[ttf-kingnam-yuanmo](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-yuanmo)|[ttf-kingnam-yuanmo](https://aur.archlinux.org/packages/ttf-kingnam-yuanmo)||
+|**ttf-maoken-heavy-labourer**|[ttf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-heavy-labourer)|[ttf-maoken-heavy-labourer](https://aur.archlinux.org/packages/ttf-maoken-heavy-labourer)||
 |**ttf-maoken-longzhuti**|[ttf-maoken-longzhuti](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-longzhuti)|[ttf-maoken-longzhuti](https://aur.archlinux.org/packages/ttf-maoken-longzhuti)||
 |**ttf-maoken-unbounded-sans**|[ttf-maoken-unbounded-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-unbounded-sans)|[ttf-maoken-unbounded-sans](https://aur.archlinux.org/packages/ttf-maoken-unbounded-sans)||
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
