@@ -1,4 +1,5 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+# Contributor: Kevin Maris <aur@kmaris.net>
 pkgname=devbox-bin
 pkgver=0.4.8
 pkgrel=1
@@ -10,7 +11,8 @@ license=('Apache')
 depends=()
 optdepends=('docker' 'nix')
 provides=()
-source=("${pkgname%-bin}-${pkgver}.tar.gz::${_githuburl}/releases/download/${pkgver}/${pkgname%-bin}_${pkgver}_linux_amd64.tar.gz")
+conflicts=("${pkgname%-bin}")
+source=("${pkgname%-bin}::${_githuburl}/releases/download/${pkgver}/${pkgname%-bin}_${pkgver}_linux_amd64.tar.gz")
 sha256sums=('ba251a67a41fb0189d6ea219b178b3fb1b3885ae1169c712337071a49ea406ec')
 
 package() {
