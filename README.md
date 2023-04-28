@@ -134,7 +134,7 @@
 |**hyperkeys**|[hyperkeys-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-appimage)|[hyperkeys-appimage](https://aur.archlinux.org/packages/hyperkeys-appimage)||
 |**icalingua++**|[icalingua++-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-appimage)|[icalingua++-appimage](https://aur.archlinux.org/packages/icalingua++-appimage)||
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
-|**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|AUR上未提交<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
+|**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
 |**imagine**|[imagine-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-appimage)|[imagine-appimage](https://aur.archlinux.org/packages/imagine-appimage)||
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
