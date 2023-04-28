@@ -28,8 +28,8 @@
 |**apifox**|[apifox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-appimage)<br>[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-appimage](https://aur.archlinux.org/packages/apifox-appimage)<br>[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-editor-studio**|[apk-editor-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-editor-studio-appimage)|[apk-editor-studio-appimage](https://aur.archlinux.org/packages/apk-editor-studio-appimage)||
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
-|**audacity**|[audacity](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
-|**avidemux2**|[avidemux2](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
+|**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
+|**avidemux2**|[avidemux2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
 |**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
 |**bilibili-videodownloader**|[bilibili-videodownloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-videodownloader-appimage)|[bilibili-videodownloader-appimage](https://aur.archlinux.org/packages/bilibili-videodownloader-appimage)||
 |**bookmarks-manager**|[bookmarks-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookmarks-manager-appimage)|[bookmarks-manager-appimage](https://aur.archlinux.org/packages/bookmarks-manager-appimage)||
