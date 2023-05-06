@@ -1,6 +1,6 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname="drawio-desktop-appimage"
-pkgver=21.2.1
+pkgver=21.2.8
 pkgrel=1
 pkgdesc="Diagram drawing application built on web technology"
 arch=('x86_64')
@@ -12,7 +12,7 @@ conflicts=("${pkgname%-appimage}-desktop")
 depends=('zlib' 'hicolor-icon-theme' 'glibc')
 _install_path="/opt/appimages"
 source=("${pkgname%-appimage}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${pkgname%-desktop-appimage}-x86_64-${pkgver}.AppImage")
-sha256sums=('ce81dd564d569d7b0263b8e41677e4fbddf17136d5c94fdd6d90f86531bcd15a')
+sha256sums=('c5b25300e35399330d1f1cc38d5c4ed426c0727e8cdd9c02de999f753e8f9c56')
 prepare() {
     chmod a+x "${pkgname%-appimage}-${pkgver}.AppImage"
     "./${pkgname%-appimage}-${pkgver}.AppImage" --appimage-extract > /dev/null
