@@ -172,7 +172,7 @@
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
 |**moosync**|[moosync-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moosync-appimage)|[moosync-appimage](https://aur.archlinux.org/packages/moosync-appimage)||
 |**motrix**|[motrix-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-appimage)|[motrix-appimage](https://aur.archlinux.org/packages/motrix-appimage)||
-|**mqttx**|[mqttx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-appimage)||AUR上未提交|
+|**mqttx**|[mqttx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-appimage)|[mqttx-appimage](https://aur.archlinux.org/packages/mqttx-appimage)||
 |**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
