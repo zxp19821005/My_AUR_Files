@@ -151,6 +151,7 @@
 |**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)||应作者要求，已删除|
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
+|**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
 |**lbry-desktop**|[lbry-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lbry-desktop-appimage)|[lbry-desktop-appimage](https://aur.archlinux.org/packages/lbry-desktop-appimage)||
 |**lisk-desktop**|[lisk-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-appimage)|[lisk-desktop-appimage](https://aur.archlinux.org/packages/lisk-desktop-appimage)||
 |**listera-novelreader**|[listera-novelreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/listera-novelreader-bin)|[listera-novelreader-bin](https://aur.archlinux.org/packages/listera-novelreader-bin)||
