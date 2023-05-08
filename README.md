@@ -202,6 +202,7 @@
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
+|**postcat**|[postcat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-appimage)|[postcat-appimage](https://aur.archlinux.org/packages/postcat-appimage)||
 |**postsack**|[postsack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postsack-bin)|[postsack-bin](https://aur.archlinux.org/packages/postsack-bin)||
 |**ppet3**|[ppet3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-appimage)<br>[ppet3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-bin)|[ppet3-appimage](https://aur.archlinux.org/packages/ppet3-appimage)<br>[ppet3-bin](https://aur.archlinux.org/packages/ppet3-bin)||
 |**pplink**|[pplink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pplink-bin)|[pplink-bin](https://aur.archlinux.org/packages/pplink-bin)||
