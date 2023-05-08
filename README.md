@@ -96,6 +96,7 @@
 |**edex-ui**|[edex-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-appimage)||个人自用版|
 |**electrocrud**|[electrocrud-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-appimage)|[electrocrud-appimage](https://aur.archlinux.org/packages/electrocrud-appimage)||
 |**esearch**|[esearch-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-appimage)<br>[esearch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-bin)|[esearch-appimage](https://aur.archlinux.org/packages/esearch-appimage)<br>[esearch-bin](https://aur.archlinux.org/packages/esearch-bin)||
+|**electron-mail**|[electron-mail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-mail-appimage)|[electron-mail-appimage](https://aur.archlinux.org/packages/electron-mail-appimage)||
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
 |**eudic-ting-en**|[eudic-ting-en-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-ting-en-appimage)|[eudic-ting-en-appimage](https://aur.archlinux.org/packages/eudic-ting-en-appimage)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
