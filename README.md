@@ -92,6 +92,7 @@
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**edex-ui**|[edex-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-appimage)||个人自用版|
+|**electrocrud**|[electrocrud-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-appimage)|[electrocrud-appimage](https://aur.archlinux.org/packages/electrocrud-appimage)||
 |**esearch**|[esearch-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-appimage)<br>[esearch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-bin)|[esearch-appimage](https://aur.archlinux.org/packages/esearch-appimage)<br>[esearch-bin](https://aur.archlinux.org/packages/esearch-bin)||
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
 |**eudic-ting-en**|[eudic-ting-en-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-ting-en-appimage)|[eudic-ting-en-appimage](https://aur.archlinux.org/packages/eudic-ting-en-appimage)||
