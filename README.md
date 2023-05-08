@@ -213,6 +213,7 @@
 |**prepros**|[prepros-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prepros-bin)|[prepros-bin](https://aur.archlinux.org/packages/prepros-bin)||
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin) <br> [pritunl-client-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-electron)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin) <br> [pritunl-client-electron](https://aur.archlinux.org/packages/pritunl-client-electron)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
+|**pulsar**|[pulsar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulsar-appimage)|[pulsar-appimage](https://aur.archlinux.org/packages/pulsar-appimage)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**qradiolink**|[qradiolink-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-appimage)|[qradiolink-appimage](https://aur.archlinux.org/packages/qradiolink-appimage)||
