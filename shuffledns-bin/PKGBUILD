@@ -1,9 +1,9 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 # Contributor: Caltlgin Stsodaat <contact@fossdaily.xyz>
 pkgname="shuffledns-bin"
-pkgver=1.0.8
+pkgver=1.0.9
 pkgrel=1
-pkgdesc='MassDNS wrapper to resolve and enumerate valid subdomains'
+pkgdesc='MassDNS wrapper written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support.'
 arch=('x86_64')
 url="https://projectdiscovery.io/"
 _githuburl='https://github.com/projectdiscovery/shuffledns'
@@ -11,7 +11,7 @@ license=('GPL3')
 depends=('massdns')
 provides=("${pkgname%-bin}")
 source=("${pkgname%-bin}-${pkgver}.zip::${_githuburl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_linux_amd64.zip")
-sha256sums=('be9f2b12897ecba7c8612ad7052be0f4be8389c690a211c1478a684b7d03dc9c')
+sha256sums=('3a01beae518cc68889aa501b44ffc3af04522114d113eb5c59721beafbdc9bc8')
 
 package() {
   install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
