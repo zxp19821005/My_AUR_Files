@@ -51,6 +51,7 @@
 |**chord**|[chord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-appimage)<br>[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-appimage](https://aur.archlinux.org/packages/chord-appimage)<br>[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
 |**clashr-auto**|[clashr-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashr-auto-bin)|[clashr-auto-bin](https://aur.archlinux.org/packages/clashr-auto-bin)||
+|**clashy**|[clashy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashy-appimage)|[clashy-appimage](https://aur.archlinux.org/packages/clashy-appimage)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
