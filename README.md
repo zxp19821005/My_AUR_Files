@@ -31,6 +31,7 @@
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
 |**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
 |**avidemux2**|[avidemux2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
+|**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
 |**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
 |**bilibilivideodownload**|[bilibilivideodownload-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-appimage)|[bilibilivideodownload-appimage](https://aur.archlinux.org/packages/bilibilivideodownload-appimage)||
 |**blockbench**|[blockbench-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockbench-appimage)|[blockbench-appimage](https://aur.archlinux.org/packages/blockbench-appimage)||
