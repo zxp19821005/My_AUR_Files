@@ -116,6 +116,7 @@
 |**github-desktop-bin-zh**|[github-desktop-bin-zh](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-bin-zh)|[github-desktop-bin-zh](https://aur.archlinux.org/packages/github-desktop-bin-zh)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
+|**gitify**|[gitify-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify-appimage)|[gitify-appimage](https://aur.archlinux.org/packages/gitify-appimage)||
 |**glyphr-studio-desktop**|[glyphr-studio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-bin)|[glyphr-studio-desktop-appimage](https://aur.archlinux.org/packages/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://aur.archlinux.org/packages/glyphr-studio-desktop-bin)||
 |**glyphr-studio-nativefier**|[glyphr-studio-nativefier](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-nativefier)|[glyphr-studio-nativefier](https://aur.archlinux.org/packages/glyphr-studio-nativefier)||
 |**golang-mockery**|[golang-mockery](https://github.com/zxp19821005/My_AUR_Files/tree/main/golang-mockery)|[golang-mockery](https://aur.archlinux.org/packages/golang-mockery)||
