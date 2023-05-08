@@ -1,18 +1,19 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=mockoon-appimage
-pkgver=1.23.0
-pkgrel=2
+pkgver=3.0.0
+pkgrel=1
 pkgdesc="The easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source."
 arch=('x86_64')
 url="https://mockoon.com/"
 _githuburl="https://github.com/mockoon/mockoon"
 license=('MIT')
 options=(!strip)
-providers="${pkgname%-appimage}"
-conflits=(mockoon-bin)
+conflits=("${pkgname%-appimage}")
 depends=('zlib' 'hicolor-icon-theme' 'glibc')
-source=("${pkgname%-appimage}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${pkgname%-appimage}-${pkgver}.AppImage")
-sha256sums=('d5ecfe57a6d597292eff3af7a6e0da3f26be3fd09000a4cb305fc5db7cafa47d')
+source=("${pkgname%-appimage}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${pkgname%-appimage}-${pkgver}.AppImage"
+    "LICENSE.md::https://raw.githubusercontent.com/mockoon/mockoon/main/LICENSE.md")
+sha256sums=('606703ffc876d5f52804401c0552398e8d1430229d551742d73c4322b1e353ef'
+            '0d844afa65525fd13f70f914222bb6f33fbf52a3fe830877a532824218ed8b13')
 _install_path="/opt/appimages" 
 prepare() {
     chmod a+x "${pkgname%-appimage}-${pkgver}.AppImage"
@@ -27,4 +28,5 @@ package() {
             -t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
     done
     install -Dm644 "${srcdir}/squashfs-root/${pkgname%-appimage}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
