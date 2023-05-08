@@ -270,6 +270,7 @@
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
+|**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)||
 |**ttf-canger-feibai**|[ttf-canger-feibai](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-feibai)|[ttf-canger-feibai](https://aur.archlinux.org/packages/ttf-canger-feibai)||
 |**ttf-canger-shuyuan**|[ttf-canger-shuyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-shuyuan)|[ttf-canger-shuyuan](https://aur.archlinux.org/packages/ttf-canger-shuyuan)||
 |**ttf-canger-xiaowanzi**|[ttf-canger-xiaowanzi](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-xiaowanzi)|[ttf-canger-xiaowanzi](https://aur.archlinux.org/packages/ttf-canger-xiaowanzi)||
