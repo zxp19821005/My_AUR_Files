@@ -328,6 +328,7 @@
 |**whatsapp-for-linux**|[whatsapp-for-linux-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-appimage)||AUR上未提交|
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
+|**wire-desktop**|[wire-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wire-desktop-appimage)|[wire-desktop-appimage](https://aur.archlinux.org/packages/wire-desktop-appimage)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin) <br> [wolai-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-appimage)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin) <br> [wolai-appimage](https://aur.archlinux.org/packages/wolai-appimage)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)||
