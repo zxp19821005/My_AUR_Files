@@ -308,6 +308,7 @@
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
+|**vieb**|[vieb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb-appimage)|[vieb-appimage](https://aur.archlinux.org/packages/vieb-appimage)||
 |**visualfamilytree**|[visualfamilytree-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-appimage)<br>[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-appimage](https://aur.archlinux.org/packages/visualfamilytree-appimage)<br>[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vnote**|[vnote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-appimage)|[vnote-appimage](https://aur.archlinux.org/packages/vnote-appimage)||
