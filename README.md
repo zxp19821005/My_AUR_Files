@@ -131,6 +131,7 @@
 |**ganache**|[ganache-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ganache-appimage)|[ganache-appimage](https://aur.archlinux.org/packages/ganache-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
 |**github-desktop-bin-zh**|[github-desktop-bin-zh](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-bin-zh)|[github-desktop-bin-zh](https://aur.archlinux.org/packages/github-desktop-bin-zh)||
+|**geforcenow-electron**|[geforcenow-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-appimage)|[geforcenow-electron-appimage](https://aur.archlinux.org/packages/geforcenow-electron-appimage)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**gitify**|[gitify-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify-appimage)|[gitify-appimage](https://aur.archlinux.org/packages/gitify-appimage)||
