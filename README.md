@@ -30,6 +30,7 @@
 |**ao**|[ao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)<br>[ao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)||AUR上未提交|
 |**apifox**|[apifox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-appimage)<br>[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-appimage](https://aur.archlinux.org/packages/apifox-appimage)<br>[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-editor-studio**|[apk-editor-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-editor-studio-appimage)|[apk-editor-studio-appimage](https://aur.archlinux.org/packages/apk-editor-studio-appimage)||
+|**app-outlet**|[app-outlet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/app-outlet-appimage)|[app-outlet-appimage](https://aur.archlinux.org/packages/app-outlet-appimage)||
 |**armcord**|[armcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord-appimage)|[armcord-appimage](https://aur.archlinux.org/packages/armcord-appimage)||
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
 |**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
