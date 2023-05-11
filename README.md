@@ -235,6 +235,7 @@
 |**ppet3**|[ppet3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-appimage)<br>[ppet3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-bin)|[ppet3-appimage](https://aur.archlinux.org/packages/ppet3-appimage)<br>[ppet3-bin](https://aur.archlinux.org/packages/ppet3-bin)||
 |**pplink**|[pplink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pplink-bin)|[pplink-bin](https://aur.archlinux.org/packages/pplink-bin)||
 |**prepros**|[prepros-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prepros-bin)|[prepros-bin](https://aur.archlinux.org/packages/prepros-bin)||
+|**primate**|[primate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/primate-appimage)|[primate-appimage](https://aur.archlinux.org/packages/primate-appimage)||
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin) <br> [pritunl-client-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-electron)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin) <br> [pritunl-client-electron](https://aur.archlinux.org/packages/pritunl-client-electron)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
 |**pulsar**|[pulsar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulsar-appimage)|[pulsar-appimage](https://aur.archlinux.org/packages/pulsar-appimage)||
