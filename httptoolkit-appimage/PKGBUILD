@@ -1,0 +1,26 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=httptoolkit-appimage
+pkgver=1.12.6
+pkgrel=1
+pkgdesc="Electron wrapper to build and distribute HTTP Toolkit for the desktop"
+arch=('x86_64')
+url="https://httptoolkit.com/"
+_githuburl="https://github.com/httptoolkit/httptoolkit-desktop"
+license=('AGPL3')
+options=(!strip)
+conflits=("${pkgname%-appimage}")
+depends=('zlib' 'glibc' 'hicolor-icon-theme')
+_install_path="/opt/appimages"
+source=("${pkgname%-appimage}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/HttpToolkit-${pkgver}.AppImage")
+sha256sums=('3ab2c549d4d9d8b01f3e0085c6f1876c90fa08410777c49ea19fce521deba906')
+prepare() {
+    chmod a+x "${pkgname%-appimage}-${pkgver}.AppImage"
+    "./${pkgname%-appimage}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed 's|AppRun|/opt/appimages/httptoolkit.AppImage|g' -i "${srcdir}/squashfs-root/${pkgname%-appimage}.desktop"
+}
+    
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${pkgname%-appimage}.AppImage"
+    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/${pkgname%-appimage}.svg" -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
+    install -Dm644 "${srcdir}/squashfs-root/${pkgname%-appimage}.desktop" -t "${pkgdir}/usr/share/applications"
+}
