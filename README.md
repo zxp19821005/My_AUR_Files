@@ -229,6 +229,7 @@
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**panwriter**|[panwriter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-appimage)|[panwriter-appimage](https://aur.archlinux.org/packages/panwriter-appimage)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
+|**piclist**|[piclist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-appimage)|[piclist-appimage](https://aur.archlinux.org/packages/piclist-appimage)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
 |**polar**|[polar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-appimage)|[polar-appimage](https://aur.archlinux.org/packages/polar-appimage)||
