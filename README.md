@@ -366,6 +366,7 @@
 |**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)||
 |**xiaohongshu**|[unoffical-xiaohongshu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiaohongshu-pake)|[unoffical-xiaohongshu-appimage](https://aur.archlinux.org/packages/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://aur.archlinux.org/packages/xiaohongshu-pake)||
 |**xmachoviewer**|[xmachoviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xmachoviewer-bin)|[xmachoviewer-bin](https://aur.archlinux.org/packages/xmachoviewer-bin)||
+|**x-minecraft-launcher**|[x-minecraft-launcher-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/x-minecraft-launcher-appimage)|[x-minecraft-launcher-appimage](https://aur.archlinux.org/packages/x-minecraft-launcher-appimage)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xournalpp-stable**|[xournalpp-stable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xournalpp-stable-appimage)||community中存在,AUR上已删除|
 |**xpeviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
