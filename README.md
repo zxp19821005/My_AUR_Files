@@ -153,6 +153,7 @@
 |**houdunren-camera**|[houdunren-camera-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdunren-camera-appimage)<br>[houdunren-camera-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdunren-camera-bin)|[houdunren-camera-appimage](https://aur.archlinux.org/packages/houdunren-camera-appimage)<br>[houdunren-camera-bin](https://aur.archlinux.org/packages/houdunren-camera-bin)||
 |**hoverfly**|[hoverfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoverfly-bin)|[hoverfly-bin](https://aur.archlinux.org/packages/hoverfly-bin)||
 |**htbrowser**|[htbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/htbrowser-bin)|[htbrowser-bin](https://aur.archlinux.org/packages/htbrowser-bin)||
+|**httptoolkit**|[httptoolkit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/httptoolkit-appimage)|[httptoolkit-appimage](https://aur.archlinux.org/packages/httptoolkit-appimage)||
 |**hyperkeys**|[hyperkeys-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-appimage)|[hyperkeys-appimage](https://aur.archlinux.org/packages/hyperkeys-appimage)||
 |**icalingua++**|[icalingua++-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-appimage)|[icalingua++-appimage](https://aur.archlinux.org/packages/icalingua++-appimage)||
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
