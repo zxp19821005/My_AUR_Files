@@ -189,6 +189,7 @@
 |**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)||AUR上已删除|
 |**mogan**|[mogan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mogan-bin)|[mogan-bin](https://aur.archlinux.org/packages/mogan-bin)||
 |**moneydance**|[moneydance-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moneydance-bin)|[moneydance-bin](https://aur.archlinux.org/packages/moneydance-bin)||
+|**monit**|[monit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/monit-appimage)|[monit-appimage](https://aur.archlinux.org/packages/monit-appimage)||
 |**monokle**|[monokle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/monokle-appimage)<br>[monokle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monokle-bin)|[monokle-appimage](https://aur.archlinux.org/packages/monokle-appimage)<br>[monokle-bin](https://aur.archlinux.org/packages/monokle-bin)||
 |**moonfm**|[moonfm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonfm-appimage)|[moonfm-appimage](https://aur.archlinux.org/packages/moonfm-appimage)||
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
