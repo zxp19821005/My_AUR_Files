@@ -67,6 +67,7 @@
 |**ctool**|[ctool-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-appimage)|[ctool-appimage](https://aur.archlinux.org/packages/ctool-appimage)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
 |**dbgate**|[dbgate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-appimage)|[dbgate-appimage](https://aur.archlinux.org/packages/dbgate-appimage)||
+|**deckboard**|[deckboard-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-appimage)|[deckboard-appimage](https://aur.archlinux.org/packages/deckboard-appimage)||
 |**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
 |**deepin-wine-adrive**|[deepin-wine-adrive](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-adrive)|[deepin-wine-adrive](https://aur.archlinux.org/packages/deepin-wine-adrive)||
 |**deepin-wine-aliyun-mail**|[deepin-wine-aliyun-mail](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-aliyun-mail)|[deepin-wine-aliyun-mail](https://aur.archlinux.org/packages/deepin-wine-aliyun-mail)||
