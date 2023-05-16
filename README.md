@@ -53,6 +53,7 @@
 |**certmanager-uos**|[certmanager-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/certmanager-uos)|[certmanager-uos](https://aur.archlinux.org/packages/certmanager-uos)||
 |**chain-desktop-wallet**|[chain-desktop-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-appimage)|[chain-desktop-wallet-appimage](https://aur.archlinux.org/packages/chain-desktop-wallet-appimage)||
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
+|**chat-gpt**|[chat-gpt-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chat-gpt-appimage)|[chat-gpt-appimage](https://aur.archlinux.org/packages/chat-gpt-appimage)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
 |**chord**|[chord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-appimage)<br>[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-appimage](https://aur.archlinux.org/packages/chord-appimage)<br>[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
