@@ -258,6 +258,7 @@
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**qradiolink**|[qradiolink-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-appimage)|[qradiolink-appimage](https://aur.archlinux.org/packages/qradiolink-appimage)||
+|**quark-player**|[quark-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-appimage)|[quark-player-appimage](https://aur.archlinux.org/packages/quark-player-appimage)||
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
 |**r3play**|[r3play-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-appimage)|[r3play-appimage](https://aur.archlinux.org/packages/r3play-appimage)||
 |**rambox**|[rambox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/rambox-appimage)|[rambox-appimage](https://aur.archlinux.org/packages/rambox-appimage)||
