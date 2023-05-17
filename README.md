@@ -57,6 +57,7 @@
 |**chat-gpt**|[chat-gpt-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chat-gpt-appimage)|[chat-gpt-appimage](https://aur.archlinux.org/packages/chat-gpt-appimage)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
 |**chord**|[chord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-appimage)<br>[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-appimage](https://aur.archlinux.org/packages/chord-appimage)<br>[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
+|**chrolog**|[chrolog-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-appimage)|[chrolog-appimage](https://aur.archlinux.org/packages/chrolog-appimage)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
 |**cider**|[cider-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cider-appimage)|[cider-appimage](https://aur.archlinux.org/packages/cider-appimage)||
 |**clashr-auto**|[clashr-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashr-auto-bin)|[clashr-auto-bin](https://aur.archlinux.org/packages/clashr-auto-bin)||
