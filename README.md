@@ -258,6 +258,7 @@
 |**primate**|[primate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/primate-appimage)|[primate-appimage](https://aur.archlinux.org/packages/primate-appimage)||
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin) <br> [pritunl-client-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-electron)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin) <br> [pritunl-client-electron](https://aur.archlinux.org/packages/pritunl-client-electron)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
+|**promethium**|[promethium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-appimage)|[promethium-appimage](https://aur.archlinux.org/packages/promethium-appimage)||
 |**prospect-mail**|[prospect-mail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/prospect-mail-appimage)|[prospect-mail-appimage](https://aur.archlinux.org/packages/prospect-mail-appimage)||
 |**protoman**|[protoman-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/protoman-appimage)|[protoman-appimage](https://aur.archlinux.org/packages/protoman-appimage)||
 |**pulsar**|[pulsar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulsar-appimage)|[pulsar-appimage](https://aur.archlinux.org/packages/pulsar-appimage)||
