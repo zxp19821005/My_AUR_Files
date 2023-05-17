@@ -255,6 +255,7 @@
 |**piclist**|[piclist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-appimage)|[piclist-appimage](https://aur.archlinux.org/packages/piclist-appimage)||
 |**picturama**|[picturama-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-appimage)|[picturama-appimage](https://aur.archlinux.org/packages/picturama-appimage)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
+|**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
 |**polar**|[polar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-appimage)|[polar-appimage](https://aur.archlinux.org/packages/polar-appimage)||
 |**pomotroid**|[pomotroid-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomotroid-appimage)|[pomotroid-appimage](https://aur.archlinux.org/packages/pomotroid-appimage)||
