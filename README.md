@@ -49,6 +49,7 @@
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
+|**casterr**|[casterr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/casterr-appimage)|[casterr-appimage](https://aur.archlinux.org/packages/casterr-appimage)||
 |**cerebro**|[cerebro-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
 |**certmanager-uos**|[certmanager-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/certmanager-uos)|[certmanager-uos](https://aur.archlinux.org/packages/certmanager-uos)||
 |**chain-desktop-wallet**|[chain-desktop-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-appimage)|[chain-desktop-wallet-appimage](https://aur.archlinux.org/packages/chain-desktop-wallet-appimage)||
