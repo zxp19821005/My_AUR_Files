@@ -307,6 +307,7 @@
 |**sshuttle-gui**|[sshuttle-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sshuttle-gui-bin)|[sshuttle-gui-bin](https://aur.archlinux.org/packages/sshuttle-gui-bin)||
 |**stackzy**|[stackzy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stackzy-bin)|[stackzy-bin](https://aur.archlinux.org/packages/stackzy-bin)||
 |**station**|[station-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/station-appimage)|[station-appimage](https://aur.archlinux.org/packages/station-appimage)||
+|**steamdepotdownloadergui**|[steamdepotdownloadergui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-appimage)|[steamdepotdownloadergui-appimage](https://aur.archlinux.org/packages/steamdepotdownloadergui-appimage)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
 |**stretchly**|[stretchly-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/stretchly-appimage)|[stretchly-appimage](https://aur.archlinux.org/packages/stretchly-appimage)||
 |**subtitler**|[subtitler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-appimage)|[subtitler-appimage](https://aur.archlinux.org/packages/subtitler-appimage)||
