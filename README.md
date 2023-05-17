@@ -321,6 +321,7 @@
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||
+|**tesler**|[tesler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tesler-appimage)|[tesler-appimage](https://aur.archlinux.org/packages/tesler-appimage)||
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
 |**thief**|[thief-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-appimage)|[thief-appimage](https://aur.archlinux.org/packages/thief-appimage)||
 |**thorium**|[thorium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-appimage)|[thorium-appimage](https://aur.archlinux.org/packages/thorium-appimage)||
