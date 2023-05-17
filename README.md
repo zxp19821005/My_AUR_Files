@@ -270,6 +270,7 @@
 |**redis-gui**|[redis-gui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-appimage)|[redis-gui-appimage](https://aur.archlinux.org/packages/redis-gui-appimage)||
 |**redis-viewer**|[redis-viewer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-appimage)<br>[redis-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-bin)|[redis-viewer-appimage](https://aur.archlinux.org/packages/redis-viewer-appimage)<br>[redis-viewer-bin](https://aur.archlinux.org/packages/redis-viewer-bin)||
 |**refi-app**|[refi-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/refi-app-bin)|[refi-app-bin](https://aur.archlinux.org/packages/refi-app-bin)||
+|**rekordfix**|[rekordfix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rekordfix-bin)|[rekordfix-bin](https://aur.archlinux.org/packages/rekordfix-bin)||
 |**remoteplaywhatever**|[remoteplaywhatever-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remoteplaywhatever-bin)|[remoteplaywhatever-bin](https://aur.archlinux.org/packages/remoteplaywhatever-bin)||
 |**revolt-desktop**|[revolt-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-appimage)|[revolt-desktop-appimage](https://aur.archlinux.org/packages/revolt-desktop-appimage)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
