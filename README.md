@@ -179,6 +179,7 @@
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
 |**kdesktop**|[kdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kdesktop-bin)|[kdesktop-bin](https://aur.archlinux.org/packages/kdesktop-bin)||
 |**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)||应作者要求，已删除|
+|**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
 |**knowledge**|[knowledge-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-appimage)|[knowledge-appimage](https://aur.archlinux.org/packages/knowledge-appimage)||
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
