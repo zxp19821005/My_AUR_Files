@@ -317,6 +317,7 @@
 |**station**|[station-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/station-appimage)|[station-appimage](https://aur.archlinux.org/packages/station-appimage)||
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-appimage)|[steamdepotdownloadergui-appimage](https://aur.archlinux.org/packages/steamdepotdownloadergui-appimage)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
+|**streamdock**|[streamdock-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/streamdock-appimage)|[streamdock-appimage](https://aur.archlinux.org/packages/streamdock-appimage)||
 |**stretchly**|[stretchly-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/stretchly-appimage)|[stretchly-appimage](https://aur.archlinux.org/packages/stretchly-appimage)||
 |**subtitler**|[subtitler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-appimage)|[subtitler-appimage](https://aur.archlinux.org/packages/subtitler-appimage)||
 |**superproductivity**|[superproductivity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/superproductivity-appimage)|[superproductivity-appimage](https://aur.archlinux.org/packages/superproductivity-appimage)||
