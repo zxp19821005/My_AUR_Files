@@ -409,4 +409,5 @@
 |**zettlr**|[zettlr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zettlr-appimage)|[zettlr-appimage](https://aur.archlinux.org/packages/zettlr-appimage)||
 |**ziipoo**|[ziipoo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ziipoo-bin)|[ziipoo-bin](https://aur.archlinux.org/packages/ziipoo-bin)||
 |**zui**|[zui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zui-bin)|[zui-bin](https://aur.archlinux.org/packages/zui-bin)||
+|**zxinfo-file-browser**|[zxinfo-file-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zxinfo-file-browser-appimage)|[zxinfo-file-browser-appimage](https://aur.archlinux.org/packages/zxinfo-file-browser-appimage)||
 |**zy-player**|[zy-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zy-player-appimage)||自用版|
