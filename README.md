@@ -65,6 +65,7 @@
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
 |**colorpicker**|[colorpicker-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-appimage)|[colorpicker-appimage](https://aur.archlinux.org/packages/colorpicker-appimage)||
+|**commas**|[commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin)|[commas-bin](https://aur.archlinux.org/packages/commas-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
 |**copytranslator**|[copytranslator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-appimage)|[copytranslator-appimage](https://aur.archlinux.org/packages/copytranslator-appimage)||
