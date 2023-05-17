@@ -34,6 +34,7 @@
 |**app-outlet**|[app-outlet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/app-outlet-appimage)|[app-outlet-appimage](https://aur.archlinux.org/packages/app-outlet-appimage)||
 |**armcord**|[armcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord-appimage)|[armcord-appimage](https://aur.archlinux.org/packages/armcord-appimage)||
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
+|**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
 |**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
 |**avidemux2**|[avidemux2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
 |**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
