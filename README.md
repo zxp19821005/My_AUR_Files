@@ -388,8 +388,9 @@
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**ubports-installer**|[ubports-installer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-appimage)|[ubports-installer-appimage](https://aur.archlinux.org/packages/ubports-installer-appimage)||
 |**uivonim**|[uivonim-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-appimage)|[uivonim-appimage](https://aur.archlinux.org/packages/uivonim-appimage)||
-|**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
+|**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
+|**uyou-todo**|[uyou-todo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-appimage)|[uyou-todo-appimage](https://aur.archlinux.org/packages/uyou-todo-appimage)||
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**vieb**|[vieb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb-appimage)|[vieb-appimage](https://aur.archlinux.org/packages/vieb-appimage)||
 |**vigad**|[vigad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-appimage)|[vigad-appimage](https://aur.archlinux.org/packages/vigad-appimage)||
