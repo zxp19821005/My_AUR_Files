@@ -126,6 +126,7 @@
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
 |**eudic-ting-en**|[eudic-ting-en-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-ting-en-appimage)|[eudic-ting-en-appimage](https://aur.archlinux.org/packages/eudic-ting-en-appimage)||
 |**exifcleaner**|[exifcleaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/exifcleaner-appimage)|[exifcleaner-appimage](https://aur.archlinux.org/packages/exifcleaner-appimage)||
+|**f1mv-lights-integration**|[f1mv-lights-integration-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-appimage)|[f1mv-lights-integration-appimage](https://aur.archlinux.org/packages/f1mv-lights-integration-appimage)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**fclash**|[fclash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fclash-bin)|[fclash-bin](https://aur.archlinux.org/packages/fclash-bin)||
