@@ -177,6 +177,7 @@
 |**gptfusion**|[gptfusion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptfusion-appimage)|[gptfusion-appimage](https://aur.archlinux.org/packages/gptfusion-appimage)||
 |**gridea**|[gridea-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-appimage)|[gridea-appimage](https://aur.archlinux.org/packages/gridea-appimage)||
 |**grinplusplus**|[grinplusplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grinplusplus-bin)|[grinplusplus-bin](https://aur.archlinux.org/packages/grinplusplus-bin)||
+|**grx**|[grx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/grx-appimage)|[grx-appimage](https://aur.archlinux.org/packages/grx-appimage)||
 |**gstarcad**|[gstarcad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gstarcad-bin)|[gstarcad-bin](https://aur.archlinux.org/packages/gstarcad-bin)||
 |**guiscrcpy**|[guiscrcpy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiscrcpy-appimage)|[guiscrcpy-appimage](https://aur.archlinux.org/packages/guiscrcpy-appimage)||
 |**headphones**|[headphones](https://github.com/zxp19821005/My_AUR_Files/tree/main/headphones)|[headphones](https://aur.archlinux.org/packages/headphones)||
