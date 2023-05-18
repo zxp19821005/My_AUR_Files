@@ -39,6 +39,7 @@
 |**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
 |**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
 |**authme**|[authme-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-appimage)|[authme-appimage](https://aur.archlinux.org/packages/authme-appimage)||
+|**autographa**|[autographa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autographa-bin)|[autographa-bin](https://aur.archlinux.org/packages/autographa-bin)||
 |**avidemux2**|[avidemux2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
 |**bbg**|[bbg-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-appimage)|[bbg-appimage](https://aur.archlinux.org/packages/bbg-appimage)||
 |**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
