@@ -214,6 +214,7 @@
 |**marktext**|[marktext-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marktext-appimage)||AUR上未发布|
 |**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
 |**mattermost-desktop**|[mattermost-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mattermost-desktop-appimage)|[mattermost-desktop-appimage](https://aur.archlinux.org/packages/mattermost-desktop-appimage)||
+|**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
 |**memocast**|[memocast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/memocast-appimage)|[memocast-appimage](https://aur.archlinux.org/packages/memocast-appimage)||
