@@ -146,6 +146,7 @@
 |**firefly-desktop**|[firefly-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-desktop-appimage)|[firefly-desktop-appimage](https://aur.archlinux.org/packages/firefly-desktop-appimage)||
 |**fishing-funds**|[fishing-funds-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-appimage)|[fishing-funds-appimage](https://aur.archlinux.org/packages/fishing-funds-appimage)||
 |**fishpi**|[fishpi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishpi-bin)|[fishpi-bin](https://aur.archlinux.org/packages/fishpi-bin)||
+|**flaru-player**|[flaru-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flaru-player-bin)|[flaru-player-bin](https://aur.archlinux.org/packages/flaru-player-bin)||
 |**flawesome**|[flawesome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-appimage)<br>[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-appimage](https://aur.archlinux.org/packages/flawesome-appimage)<br>[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
 |**flb-music-player**|[flb-music-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/flb-music-player-appimage)|[flb-music-player-appimage](https://aur.archlinux.org/packages/flb-music-player-appimage)||
 |**flip**|[flip-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flip-bin)|[flip-bin](https://aur.archlinux.org/packages/flip-bin)||
