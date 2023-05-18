@@ -135,6 +135,7 @@
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**fclash**|[fclash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fclash-bin)|[fclash-bin](https://aur.archlinux.org/packages/fclash-bin)||
+|**fdc3-sail**|[fdc3-sail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-appimage)|[fdc3-sail-appimage](https://aur.archlinux.org/packages/fdc3-sail-appimage)||
 |**feidao**|[feidao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-appimage)|[feidao-appimage](https://aur.archlinux.org/packages/feidao-appimage)||
 |**ferdium**|[ferdium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferdium-appimage)|[ferdium-appimage](https://aur.archlinux.org/packages/ferdium-appimage)||
 |**ffuf**|[ffuf-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffuf-bin)|[ffuf-bin](https://aur.archlinux.org/packages/ffuf-bin)||
