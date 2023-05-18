@@ -43,6 +43,7 @@
 |**bbg**|[bbg-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-appimage)|[bbg-appimage](https://aur.archlinux.org/packages/bbg-appimage)||
 |**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
 |**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
+|**before-dawn**|[before-dawn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/before-dawn-bin)|[before-dawn-bin](https://aur.archlinux.org/packages/before-dawn-bin)||
 |**bilibili**|[bilibili-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-appimage)|[bilibili-appimage](https://aur.archlinux.org/packages/bilibili-appimage)||
 |**bilibilivideodownload**|[bilibilivideodownload-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-appimage)|[bilibilivideodownload-appimage](https://aur.archlinux.org/packages/bilibilivideodownload-appimage)||
 |**blockbench**|[blockbench-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockbench-appimage)|[blockbench-appimage](https://aur.archlinux.org/packages/blockbench-appimage)||
