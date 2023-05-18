@@ -6,6 +6,7 @@
 |**advanced-passgen**|[advanced-passgen-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-appimage)<br>[advanced-passgen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-bin)|[advanced-passgen-appimage](https://aur.archlinux.org/packages/advanced-passgen-appimage)<br>[advanced-passgen-bin](https://aur.archlinux.org/packages/advanced-passgen-bin)||
 |**advanced-rest-client**|[advanced-rest-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-rest-client-appimage)|[advanced-rest-client-appimage](https://aur.archlinux.org/packages/advanced-rest-client-appimage)||
 |**aechoterm**|[aechoterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aechoterm-bin)|[aechoterm-bin](https://aur.archlinux.org/packages/aechoterm-bin)||
+|**aeon**|[aeon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aeon-bin)|[aeon-bin](https://aur.archlinux.org/packages/aeon-bin)||
 |**affine**|[affine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-bin)|[affine-bin](https://aur.archlinux.org/packages/affine-bin)||
 |**agregore-browser**|[agregore-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/agregore-browser-appimage)||AUR上未提交|
 |**aimp**|[aimp](https://github.com/zxp19821005/My_AUR_Files/tree/main/aimp)||自用版，AUR上未提交|
