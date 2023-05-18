@@ -343,6 +343,7 @@
 |**subtitler**|[subtitler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-appimage)|[subtitler-appimage](https://aur.archlinux.org/packages/subtitler-appimage)||
 |**superproductivity**|[superproductivity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/superproductivity-appimage)|[superproductivity-appimage](https://aur.archlinux.org/packages/superproductivity-appimage)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
+|**svelte-electron-boilerplate**|[svelte-electron-boilerplate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/svelte-electron-boilerplate-appimage)|[svelte-electron-boilerplate-appimage](https://aur.archlinux.org/packages/svelte-electron-boilerplate-appimage)||
 |**swifty**|[swifty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-appimage)<br>[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-appimage](https://aur.archlinux.org/packages/swifty-appimage)<br>[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**switchhosts**|[switchhosts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-bin)||AUR上由他人维护|
