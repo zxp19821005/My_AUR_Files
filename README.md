@@ -200,6 +200,7 @@
 |**imagine**|[imagine-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-appimage)|[imagine-appimage](https://aur.archlinux.org/packages/imagine-appimage)||
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
+|**issie**|[issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie-bin](https://aur.archlinux.org/packages/issie-bin)||
 |**jasper**|[jasper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasper-bin)|[jasper-bin](https://aur.archlinux.org/packages/jasper-bin)||
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
