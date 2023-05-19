@@ -253,6 +253,7 @@
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
 |**moosync**|[moosync-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moosync-appimage)|[moosync-appimage](https://aur.archlinux.org/packages/moosync-appimage)||
 |**motrix**|[motrix-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-appimage)|[motrix-appimage](https://aur.archlinux.org/packages/motrix-appimage)||
+|**moyu**|[moyu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-appimage)|[moyu-appimage](https://aur.archlinux.org/packages/moyu-appimage)||
 |**mqttx**|[mqttx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-appimage)|[mqttx-appimage](https://aur.archlinux.org/packages/mqttx-appimage)||
 |**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
