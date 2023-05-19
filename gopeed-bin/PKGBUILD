@@ -11,7 +11,7 @@ options=(!strip)
 conflicts=("${pkgname%-bin}")
 depends=('at-spi2-core' 'gtk3' 'glibc' 'cairo' 'gdk-pixbuf2' 'harfbuzz' 'pango' 'gcc-libs' 'libepoxy' 'glib2')
 source=("${pkgname%-bin}-${pkgver}.deb::${_githuburl}/releases/download/v${pkgver}/Gopeed-v${pkgver}-linux-amd64.deb")
-sha256sums=('ad5d26f04b4af723f771b0860e7648ad68ead3f38d32cd7ec71f61f43e896f20')
+sha256sums=('83b36788b71206b33131cd85731b3df5c39999fc3ff7b19a2b3ee86e729c4ab7')
 
 package() {
     bsdtar -xf data.tar.zst -C "${pkgdir}" --uname root --gname root
