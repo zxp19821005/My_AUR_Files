@@ -315,6 +315,7 @@
 |**runjs**|[runjs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/runjs-appimage)|[runjs-appimage](https://aur.archlinux.org/packages/runjs-appimage)||
 |**s5cmd**|[s5cmd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/s5cmd-bin)|[s5cmd-bin](https://aur.archlinux.org/packages/s5cmd-bin)||
 |**sabaki**|[sabaki-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-appimage)|[sabaki-appimage](https://aur.archlinux.org/packages/sabaki-appimage)||
+|**sbe**|[sbe-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-appimage)|[sbe-appimage](https://aur.archlinux.org/packages/sbe-appimage)||
 |**selenium-ide**|[selenium-ide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-appimage)|[selenium-ide-appimage](https://aur.archlinux.org/packages/selenium-ide-appimage)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
