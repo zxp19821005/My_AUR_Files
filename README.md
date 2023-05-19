@@ -370,6 +370,7 @@
 |**tesler**|[tesler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tesler-appimage)|[tesler-appimage](https://aur.archlinux.org/packages/tesler-appimage)||
 |**tess**|[tess-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tess-appimage)|[tess-appimage](https://aur.archlinux.org/packages/tess-appimage)||
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
+|**thedesk**|[thedesk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-appimage)|[thedesk-appimage](https://aur.archlinux.org/packages/thedesk-appimage)||
 |**thief**|[thief-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-appimage)|[thief-appimage](https://aur.archlinux.org/packages/thief-appimage)||
 |**thorium**|[thorium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-appimage)|[thorium-appimage](https://aur.archlinux.org/packages/thorium-appimage)||
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
