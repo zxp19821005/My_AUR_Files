@@ -267,6 +267,7 @@
 |**nuclia**|[nuclia-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-appimage)|[nuclia-appimage](https://aur.archlinux.org/packages/nuclia-appimage)||
 |**numara**|[numara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-appimage)|[numara-appimage](https://aur.archlinux.org/packages/numara-appimage)||
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
+|**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
 |**oh-mymd**|[oh-mymd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-appimage)<br>[oh-mymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-bin)|[oh-mymd-appimage](https://aur.archlinux.org/packages/oh-mymd-appimage)<br>[oh-mymd-bin](https://aur.archlinux.org/packages/oh-mymd-bin)||
 |**onekey-wallet**|[onekey-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-appimage)|[onekey-wallet-appimage](https://aur.archlinux.org/packages/onekey-wallet-appimage)||
