@@ -372,6 +372,8 @@
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)||
 |**tomatox**|[tomatox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-appimage)|[tomatox-appimage](https://aur.archlinux.org/packages/tomatox-appimage)||
+|**toughcookies**|[toughcookies-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/toughcookies-appimage)|[toughcookies-appimage](https://aur.archlinux.org/packages/toughcookies-appimage)||
+|**transmissionic**|[transmissionic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-appimage)|[transmissionic-appimage](https://aur.archlinux.org/packages/transmissionic-appimage)||
 |**tropy**|[tropy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tropy-appimage)|[tropy-appimage](https://aur.archlinux.org/packages/tropy-appimage)||
 |**ttf-canger-feibai**|[ttf-canger-feibai](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-feibai)|[ttf-canger-feibai](https://aur.archlinux.org/packages/ttf-canger-feibai)||
 |**ttf-canger-shuyuan**|[ttf-canger-shuyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-shuyuan)|[ttf-canger-shuyuan](https://aur.archlinux.org/packages/ttf-canger-shuyuan)||
