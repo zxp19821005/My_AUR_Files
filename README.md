@@ -43,6 +43,7 @@
 |**authme**|[authme-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-appimage)|[authme-appimage](https://aur.archlinux.org/packages/authme-appimage)||
 |**autographa**|[autographa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autographa-bin)|[autographa-bin](https://aur.archlinux.org/packages/autographa-bin)||
 |**avidemux2**|[avidemux2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
+|**awakened-poe-trade**|[awakened-poe-trade-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/awakened-poe-trade-appimage)|[awakened-poe-trade-appimage](https://aur.archlinux.org/packages/awakened-poe-trade-appimage)||
 |**bbg**|[bbg-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-appimage)|[bbg-appimage](https://aur.archlinux.org/packages/bbg-appimage)||
 |**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
 |**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
