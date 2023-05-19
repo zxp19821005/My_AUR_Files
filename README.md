@@ -260,6 +260,7 @@
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**ngrev**|[ngrev-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-appimage)|[ngrev-appimage](https://aur.archlinux.org/packages/ngrev-appimage)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
+|**nodeflow**|[nodeflow-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-appimage)|[nodeflow-appimage](https://aur.archlinux.org/packages/nodeflow-appimage)||
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notepad--**|[notepad---appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepad---appimage)|[notepad---appimage](https://aur.archlinux.org/packages/notepad---appimage)||
