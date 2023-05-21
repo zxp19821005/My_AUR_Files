@@ -49,6 +49,7 @@
 |**bbg**|[bbg-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-appimage)|[bbg-appimage](https://aur.archlinux.org/packages/bbg-appimage)||
 |**bcrypt-sandbox**|[bcrypt-sandbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bcrypt-sandbox-bin)|[bcrypt-sandbox-bin](https://aur.archlinux.org/packages/bcrypt-sandbox-bin)||
 |**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
+|**beaker-ng**|[beaker-ng-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beaker-ng-appimage)|[beaker-ng-appimage](https://aur.archlinux.org/packages/beaker-ng-appimage)||
 |**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
 |**before-dawn**|[before-dawn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/before-dawn-bin)|[before-dawn-bin](https://aur.archlinux.org/packages/before-dawn-bin)||
 |**bilibili**|[bilibili-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-appimage)|[bilibili-appimage](https://aur.archlinux.org/packages/bilibili-appimage)||
