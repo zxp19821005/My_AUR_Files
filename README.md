@@ -379,6 +379,7 @@
 |**swifty**|[swifty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-appimage)<br>[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-appimage](https://aur.archlinux.org/packages/swifty-appimage)<br>[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**switchhosts**|[switchhosts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-bin)||AUR上由他人维护|
+|**tadabor**|[tadabor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tadabor-bin)|[tadabor-bin](https://aur.archlinux.org/packages/tadabor-bin)||
 |**tagspaces**|[tagspaces-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tagspaces-appimage)|[tagspaces-appimage](https://aur.archlinux.org/packages/tagspaces-appimage)||
 |**teams-for-linux**|[teams-for-linux-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/teams-for-linux-appimage)|[teams-for-linux-appimage](https://aur.archlinux.org/packages/teams-for-linux-appimage)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
