@@ -240,6 +240,7 @@
 |**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
 |**mattermost-desktop**|[mattermost-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mattermost-desktop-appimage)|[mattermost-desktop-appimage](https://aur.archlinux.org/packages/mattermost-desktop-appimage)||
+|**mbcord**|[mbcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mbcord-bin)|[mbcord-bin](https://aur.archlinux.org/packages/mbcord-bin)||
 |**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
