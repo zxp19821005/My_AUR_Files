@@ -287,7 +287,7 @@
 |**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notepad--**|[notepad---appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepad---appimage)|[notepad---appimage](https://aur.archlinux.org/packages/notepad---appimage)||
-|**notesnook**|[notesnook-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-appimage) <br> [notesnook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-bin)|[notesnook-appimage](https://aur.archlinux.org/packages/notesnook-appimage) <br> [notesnook-bin](https://aur.archlinux.org/packages/notesnook-bin)||
+|**notesnook**|[notesnook-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-appimage)|[notesnook-appimage](https://aur.archlinux.org/packages/notesnook-appimage)||
 |**nteract**|[nteract-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nteract-appimage)|[nteract-appimage](https://aur.archlinux.org/packages/nteract-appimage)||
 |**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
 |**nuclia**|[nuclia-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-appimage)|[nuclia-appimage](https://aur.archlinux.org/packages/nuclia-appimage)||
