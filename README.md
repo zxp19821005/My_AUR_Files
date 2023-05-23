@@ -141,6 +141,7 @@
 |**electronreact**|[electronreact-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronreact-appimage)|[electronreact-appimage](https://aur.archlinux.org/packages/electronreact-appimage)||
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
+|**envkey**|[envkey-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-appimage)|[envkey-appimage](https://aur.archlinux.org/packages/envkey-appimage)||
 |**esearch**|[esearch-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-appimage)<br>[esearch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-bin)|[esearch-appimage](https://aur.archlinux.org/packages/esearch-appimage)<br>[esearch-bin](https://aur.archlinux.org/packages/esearch-bin)||
 |**etherealengine-control-center**|[etherealengine-control-center-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-appimage)|[etherealengine-control-center-appimage](https://aur.archlinux.org/packages/etherealengine-control-center-appimage)||
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
