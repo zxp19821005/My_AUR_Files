@@ -135,6 +135,7 @@
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
 |**drawio-desktop**|[drawio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-appimage)||AUR上已删除|
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
+|**duskplayer**|[duskplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-appimage)|[duskplayer-appimage](https://aur.archlinux.org/packages/duskplayer-appimage)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**edex-ui**|[edex-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-appimage)||个人自用版|
 |**electrocrud**|[electrocrud-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-appimage)|[electrocrud-appimage](https://aur.archlinux.org/packages/electrocrud-appimage)||
