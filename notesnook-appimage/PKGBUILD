@@ -18,7 +18,7 @@ sha256sums=('27fb287afeb27fc72a866b96b357cd665d2c37e39c7cd439585c3fbb1bb5996b')
 prepare() {
     chmod a+x "${pkgname%-appimage}-${pkgver}.AppImage"
     "./${pkgname%-appimage}-${pkgver}.AppImage" --appimage-extract > /dev/null
-    sed 's|AppRun|/opt/appimages/notesnook.AppImage|g' -i "${srcdir}/squashfs-root/${pkgname%-appimage}.desktop"
+    sed 's|AppRun|env APPIMAGELAUNCHER_DISABLE=true /opt/appimages/notesnook.AppImage|g' -i "${srcdir}/squashfs-root/${pkgname%-appimage}.desktop"
 }
     
 package() {
