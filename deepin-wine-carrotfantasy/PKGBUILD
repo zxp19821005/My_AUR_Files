@@ -1,0 +1,27 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=deepin-wine-carrotfantasy
+pkgver=1.0.0.0deepin2
+_deepinpkgname=com.baoweiluobo.deepin
+pkgrel=1
+pkgdesc="CarrotFantasy on Deepin Wine6.保卫萝卜PC版."
+arch=("x86_64")
+url="http://www.luobo.cn/pc/"
+license=('custom:freeware')
+depends=( 'deepin-wine6-stable' 'deepin-wine-helper' 'xdg-utils' 'sh')
+optdepends=('wqy-microhei' 'wqy-zenhei')
+install="${pkgname}.install"
+source=("${_deepinpkgname}_${pkgver}_i386.deb::https://com-store-packages.uniontech.com/appstore/pool/appstore/c/com.baoweiluobo.deepin/com.baoweiluobo.deepin_1.0.0.0deepin2_i386.deb"
+    "${pkgname}.install"
+    "run.sh")
+sha256sums=('bef3d05333648c1f67ad8f9613f4137645960211659c944618fa6182def1d0ed'
+            '9119fd217df35ea2a51c9182b91d864c74421f0e3f8a57318ecda47d621468a8'
+            'c5de05fc9cdbb8989ac1d49818b29f68a8fea86e6aee4dbc8edb15eeb078cace')
+package() {
+    bsdtar -xf "${srcdir}/data.tar.xz" -C "${pkgdir}"
+    mv "${pkgdir}/opt/apps/${_deepinpkgname}" "${pkgdir}/opt/apps/${pkgname}"
+    sed 's|com.baoweiluobo.deepin|deepin-wine-carrotfantasy|g;s|game|Game|g' -i "${pkgdir}/opt/apps/${pkgname}/entries/applications/${_deepinpkgname}.desktop"
+    md5sum "${pkgdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${pkgdir}/opt/apps/${pkgname}/files/files.md5sum"
+    install -Dm644 "${pkgdir}/opt/apps/${pkgname}/entries/applications/${_deepinpkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+    install -Dm644 "${pkgdir}/opt/apps/${pkgname}/entries/icons/hicolor/48x48/apps/${_deepinpkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+    install -Dm755 "run.sh" "${pkgdir}/opt/apps/${pkgname}/files/"
+}
