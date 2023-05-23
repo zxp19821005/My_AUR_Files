@@ -106,6 +106,7 @@
 |**deepin-wine-baidu-translate**|[deepin-wine-baidu-translate](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-baidu-translate)|[deepin-wine-baidu-translate](https://aur.archlinux.org/packages/deepin-wine-baidu-translate)||
 |**deepin-wine-baiduwenku**|[deepin-wine-baiduwenku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-baiduwenku)|[deepin-wine-baiduwenku](https://aur.archlinux.org/packages/deepin-wine-baiduwenku)||
 |**deepin-wine-bandizip**|[deepin-wine-bandizip](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-bandizip)|[deepin-wine-bandizip](https://aur.archlinux.org/packages/deepin-wine-bandizip)||
+|**deepin-wine-carrotfantasy**|[deepin-wine-carrotfantasy](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-carrotfantasy)|AUR未上传||
 |**deepin-wine-cntv-cbox**|[deepin-wine-cntv-cbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-cntv-cbox)|[deepin-wine-cntv-cbox](https://aur.archlinux.org/packages/deepin-wine-cntv-cbox)||
 |**deepin-wine-danmoshui**|[deepin-wine-danmoshui](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-danmoshui)|[deepin-wine-danmoshui](https://aur.archlinux.org/packages/deepin-wine-danmoshui)||
 |**deepin-wine-douyin**|[deepin-wine-douyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-douyin)|[deepin-wine-douyin](https://aur.archlinux.org/packages/deepin-wine-douyin)||
