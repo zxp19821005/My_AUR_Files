@@ -240,6 +240,7 @@
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
 |**mapeo-desktop**|[mapeo-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[droppoint-mapeo-desktop](https://aur.archlinux.org/packages/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**marktext**|[marktext-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marktext-appimage)||AUR上未发布|
+|**marvin**|[marvin-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-appimage)|[marvin-appimage](https://aur.archlinux.org/packages/marvin-appimage)||
 |**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
 |**mattermost-desktop**|[mattermost-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mattermost-desktop-appimage)|[mattermost-desktop-appimage](https://aur.archlinux.org/packages/mattermost-desktop-appimage)||
