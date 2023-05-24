@@ -180,10 +180,11 @@
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**ganache**|[ganache-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ganache-appimage)|[ganache-appimage](https://aur.archlinux.org/packages/ganache-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
-|**github-desktop-bin-zh**|[github-desktop-bin-zh](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-bin-zh)|[github-desktop-bin-zh](https://aur.archlinux.org/packages/github-desktop-bin-zh)||
+|**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforcenow-electron**|[geforcenow-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-appimage)|[geforcenow-electron-appimage](https://aur.archlinux.org/packages/geforcenow-electron-appimage)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
-|**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
+|**git-good**|[git-good-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-appimage)|[git-good-appimage](https://aur.archlinux.org/packages/git-good-appimage)||
+|**github-desktop-bin-zh**|[github-desktop-bin-zh](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-bin-zh)|[github-desktop-bin-zh](https://aur.archlinux.org/packages/github-desktop-bin-zh)||
 |**gitify**|[gitify-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify-appimage)|[gitify-appimage](https://aur.archlinux.org/packages/gitify-appimage)||
 |**glyphr-studio-desktop**|[glyphr-studio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-bin)|[glyphr-studio-desktop-appimage](https://aur.archlinux.org/packages/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://aur.archlinux.org/packages/glyphr-studio-desktop-bin)||
 |**glyphr-studio-nativefier**|[glyphr-studio-nativefier](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-nativefier)|[glyphr-studio-nativefier](https://aur.archlinux.org/packages/glyphr-studio-nativefier)||
