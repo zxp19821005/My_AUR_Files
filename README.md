@@ -44,6 +44,7 @@
 |**authme**|[authme-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-appimage)|[authme-appimage](https://aur.archlinux.org/packages/authme-appimage)||
 |**autographa**|[autographa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autographa-bin)|[autographa-bin](https://aur.archlinux.org/packages/autographa-bin)||
 |**avidemux2**|[avidemux2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avidemux2-appimage)||AUR上已删除|
+|**aviutl-package-manager**|[aviutl-package-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aviutl-package-manager-bin)|[aviutl-package-manager-bin](https://aur.archlinux.org/packages/aviutl-package-manager-bin)||
 |**awakened-poe-trade**|[awakened-poe-trade-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/awakened-poe-trade-appimage)|[awakened-poe-trade-appimage](https://aur.archlinux.org/packages/awakened-poe-trade-appimage)||
 |**batch-explorer**|[batch-explorer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-appimage)|[batch-explorer-appimage](https://aur.archlinux.org/packages/batch-explorer-appimage)||
 |**bbg**|[bbg-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-appimage)|[bbg-appimage](https://aur.archlinux.org/packages/bbg-appimage)||
