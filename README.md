@@ -304,6 +304,7 @@
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
 |**open-video-downloader**|[open-video-downloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-video-downloader-appimage)|[open-video-downloader-appimage](https://aur.archlinux.org/packages/open-video-downloader-appimage)||
+|**ostara**|[ostara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ostara-appimage)|[ostara-appimage](https://aur.archlinux.org/packages/ostara-appimage)||
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
 |**p3x-onenote**|[p3x-onenote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-appimage)|[p3x-onenote-appimage](https://aur.archlinux.org/p3x-onenote/p3x-onenote-appimage)||
