@@ -142,6 +142,7 @@
 |**electrocrud**|[electrocrud-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-appimage)|[electrocrud-appimage](https://aur.archlinux.org/packages/electrocrud-appimage)||
 |**electron-mail**|[electron-mail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-mail-appimage)|[electron-mail-appimage](https://aur.archlinux.org/packages/electron-mail-appimage)||
 |**electronreact**|[electronreact-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronreact-appimage)|[electronreact-appimage](https://aur.archlinux.org/packages/electronreact-appimage)||
+|**electron-react-boilerplate**|[electron-react-boilerplate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-react-boilerplate-appimage)|[electron-react-boilerplate-appimage](https://aur.archlinux.org/packages/electron-react-boilerplate-appimage)||
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
