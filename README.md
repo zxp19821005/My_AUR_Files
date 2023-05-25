@@ -329,6 +329,7 @@
 |**positron**|[positron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-appimage)|[positron-appimage](https://aur.archlinux.org/packages/positron-appimage)||
 |**postcat**|[postcat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-appimage)|[postcat-appimage](https://aur.archlinux.org/packages/postcat-appimage)||
 |**postsack**|[postsack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postsack-bin)|[postsack-bin](https://aur.archlinux.org/packages/postsack-bin)||
+|**postybirb**|[postybirb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-appimage)|[postybirb-appimage](https://aur.archlinux.org/packages/postybirb-appimage)||
 |**ppet3**|[ppet3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-appimage)<br>[ppet3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-bin)|[ppet3-appimage](https://aur.archlinux.org/packages/ppet3-appimage)<br>[ppet3-bin](https://aur.archlinux.org/packages/ppet3-bin)||
 |**pplink**|[pplink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pplink-bin)|[pplink-bin](https://aur.archlinux.org/packages/pplink-bin)||
 |**prepros**|[prepros-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prepros-bin)|[prepros-bin](https://aur.archlinux.org/packages/prepros-bin)||
