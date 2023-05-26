@@ -235,6 +235,7 @@
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
 |**knowledge**|[knowledge-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-appimage)|[knowledge-appimage](https://aur.archlinux.org/packages/knowledge-appimage)||
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
+|**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
 |**leapp**|[leapp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/leapp-appimage)|[leapp-appimage](https://aur.archlinux.org/packages/leapp-appimage)||
