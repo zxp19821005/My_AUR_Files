@@ -202,6 +202,7 @@
 |**gopeed**|[gopeed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gopeed-bin)|[gopeed-bin](https://aur.archlinux.org/packages/gopeed-bin)||
 |**gorss**|[gorss](https://github.com/zxp19821005/My_AUR_Files/tree/main/gorss)|[gorss](https://aur.archlinux.org/packages/gorss)||
 |**goshs**|[goshs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goshs-bin)|[goshs-bin](https://aur.archlinux.org/packages/goshs-bin)||
+|**gpt-anywhere**|[gpt-anywhere-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gpt-anywhere-appimage)|[gpt-anywhere-appimage](https://aur.archlinux.org/packages/gpt-anywhere-appimage)||
 |**gptfusion**|[gptfusion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptfusion-appimage)|[gptfusion-appimage](https://aur.archlinux.org/packages/gptfusion-appimage)||
 |**gridea**|[gridea-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-appimage)|[gridea-appimage](https://aur.archlinux.org/packages/gridea-appimage)||
 |**grinplusplus**|[grinplusplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grinplusplus-bin)|[grinplusplus-bin](https://aur.archlinux.org/packages/grinplusplus-bin)||
