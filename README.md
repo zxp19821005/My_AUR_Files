@@ -293,6 +293,7 @@
 |**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
+|**music-you**|[music-you-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-you-appimage)|[music-you-appimage](https://aur.archlinux.org/packages/music-you-appimage)||
 |**myapp-scrapthatpage**|[myapp-scrapthatpage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/myapp-scrapthatpage-bin)|[myapp-scrapthatpage-bin](https://aur.archlinux.org/packages/myapp-scrapthatpage-bin)||
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
 |**neanes**|[neanes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-appimage)|[neanes-appimage](https://aur.archlinux.org/packages/neanes-appimage)||
