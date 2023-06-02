@@ -226,6 +226,7 @@
 |**htbrowser**|[htbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/htbrowser-bin)|[htbrowser-bin](https://aur.archlinux.org/packages/htbrowser-bin)||
 |**httptoolkit**|[httptoolkit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/httptoolkit-appimage)|[httptoolkit-appimage](https://aur.archlinux.org/packages/httptoolkit-appimage)||
 |**hyperamp**|[hyperamp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperamp-appimage)|[hyperamp-appimage](https://aur.archlinux.org/packages/hyperamp-appimage)||
+|**hyper**|[hyper-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyper-appimage)|[hyper-appimage](https://aur.archlinux.org/packages/hyper-appimage)||
 |**hyperkeys**|[hyperkeys-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-appimage)|[hyperkeys-appimage](https://aur.archlinux.org/packages/hyperkeys-appimage)||
 |**icalingua++**|[icalingua++-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-appimage)|[icalingua++-appimage](https://aur.archlinux.org/packages/icalingua++-appimage)||
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
