@@ -285,6 +285,7 @@
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
 |**miteiru**|[miteiru-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-appimage)|[miteiru-appimage](https://aur.archlinux.org/packages/miteiru-appimage)||
+|**mizar**|[mizar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-appimage)|[mizar-appimage](https://aur.archlinux.org/packages/mizar-appimage)||
 |**mmseqs2-search**|[mmseqs2-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-appimage)|[mmseqs2-search-appimage](https://aur.archlinux.org/packages/mmseqs2-search-appimage)||
 |**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)||AUR上已删除|
 |**modv**|[modv-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/modv-appimage)|[modv-appimage](https://aur.archlinux.org/packages/modv-appimage)||
