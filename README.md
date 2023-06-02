@@ -248,6 +248,7 @@
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
 |**kdesktop**|[kdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kdesktop-bin)|[kdesktop-bin](https://aur.archlinux.org/packages/kdesktop-bin)||
 |**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)||应作者要求，已删除|
+|**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
 |**knowledge**|[knowledge-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-appimage)|[knowledge-appimage](https://aur.archlinux.org/packages/knowledge-appimage)||
 |**koishi-desktop**|[koishi-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-appimage)|[koishi-desktop-appimage](https://aur.archlinux.org/packages/koishi-desktop-appimage)||
