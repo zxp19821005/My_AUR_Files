@@ -395,6 +395,7 @@
 |**sabaki**|[sabaki-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-appimage)|[sabaki-appimage](https://aur.archlinux.org/packages/sabaki-appimage)||
 |**sbe**|[sbe-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-appimage)|[sbe-appimage](https://aur.archlinux.org/packages/sbe-appimage)||
 |**selenium-ide**|[selenium-ide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-appimage)|[selenium-ide-appimage](https://aur.archlinux.org/packages/selenium-ide-appimage)||
+|**selvania-launcher**|[selvania-launcher-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/selvania-launcher-appimage)|[selvania-launcher-appimage](https://aur.archlinux.org/packages/selvania-launcher-appimage)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
