@@ -152,6 +152,7 @@
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
 |**envkey**|[envkey-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-appimage)|[envkey-appimage](https://aur.archlinux.org/packages/envkey-appimage)||
+|**epub-reader**|[epub-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader-appimage)|[epub-reader-appimage](https://aur.archlinux.org/packages/epub-reader-appimage)||
 |**esearch**|[esearch-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-appimage)<br>[esearch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/esearch-bin)|[esearch-appimage](https://aur.archlinux.org/packages/esearch-appimage)<br>[esearch-bin](https://aur.archlinux.org/packages/esearch-bin)||
 |**etherealengine-control-center**|[etherealengine-control-center-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-appimage)|[etherealengine-control-center-appimage](https://aur.archlinux.org/packages/etherealengine-control-center-appimage)||
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
