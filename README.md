@@ -189,6 +189,7 @@
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**ganache**|[ganache-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ganache-appimage)|[ganache-appimage](https://aur.archlinux.org/packages/ganache-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
+|**gchat**|[gchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat-bin)|[gchat-bin](https://aur.archlinux.org/packages/gchat-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforcenow-electron**|[geforcenow-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-appimage)|[geforcenow-electron-appimage](https://aur.archlinux.org/packages/geforcenow-electron-appimage)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)||AUR上未发布|
