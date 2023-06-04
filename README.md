@@ -32,6 +32,7 @@
 |**altair**|[altair-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-appimage)<br>[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-appimage](https://aur.archlinux.org/packages/altair-appimage)<br>[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**alva**|[alva-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/alva-appimage)|[alva-appimage](https://aur.archlinux.org/packages/alva-appimage)||
 |**android-knot**|[android-knot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-appimage)|[android-knot-appimage](https://aur.archlinux.org/packages/android-knot-appimage)||
+|**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**aniship**|[aniship-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-appimage)|[aniship-appimage](https://aur.archlinux.org/packages/aniship-appimage)||
 |**anklang**|[anklang-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-appimage)|[anklang-appimage](https://aur.archlinux.org/packages/anklang-appimage)||
