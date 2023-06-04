@@ -145,6 +145,7 @@
 |**devsidecar**|[devsidecar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/devsidecar-appimage)|[devsidecar-appimage](https://aur.archlinux.org/packages/devsidecar-appimage)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
 |**diffuse**|[diffuse-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)<br>[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)|[diffuse-player-appimage](https://aur.archlinux.org/packages/diffuse-player-appimage)<br>[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
+|**distributionz**|[distributionz-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-appimage)|[distributionz-appimage](https://aur.archlinux.org/packages/distributionz-appimage)||
 |**dnschanger**|[dnschanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnschanger-bin)|[dnschanger-bin](https://aur.archlinux.org/packages/dnschanger-bin)||
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
