@@ -364,6 +364,7 @@
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
 |**piclist**|[piclist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-appimage)|[piclist-appimage](https://aur.archlinux.org/packages/piclist-appimage)||
 |**picturama**|[picturama-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-appimage)|[picturama-appimage](https://aur.archlinux.org/packages/picturama-appimage)||
+|**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
