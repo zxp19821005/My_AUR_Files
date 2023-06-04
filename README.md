@@ -507,6 +507,7 @@
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vnote**|[vnote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-appimage)|[vnote-appimage](https://aur.archlinux.org/packages/vnote-appimage)||
 |**vgmtrans**|[vgmtrans-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-appimage)|[vgmtrans-appimage](https://aur.archlinux.org/packages/vgmtrans-appimage)||
+|**video-hub-app**|[video-hub-app-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-appimage)|AUR上他人维护||
 |**walc**|[walc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-appimage)|[walc-appimage](https://aur.archlinux.org/packages/walc-appimage)||
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
