@@ -108,6 +108,7 @@
 |**csbooks**|[csbooks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-appimage)<br>[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-appimage](https://aur.archlinux.org/packages/csbooks-appimage)<br>[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**ctool**|[ctool-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-appimage)|[ctool-appimage](https://aur.archlinux.org/packages/ctool-appimage)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
+|**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
 |**dbgate**|[dbgate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-appimage)|[dbgate-appimage](https://aur.archlinux.org/packages/dbgate-appimage)||
 |**deckboard**|[deckboard-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-appimage)|[deckboard-appimage](https://aur.archlinux.org/packages/deckboard-appimage)||
 |**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
