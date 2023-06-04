@@ -436,6 +436,7 @@
 |**solarwallet**|[solarwallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solarwallet-bin)|[solarwallet-bin](https://aur.archlinux.org/packages/solarwallet-bin)||
 |**sonixd**|[sonixd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-appimage)|[sonixd-appimage](https://aur.archlinux.org/packages/sonixd-appimage)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
+|**southweather**|[southweather-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-appimage)|[southweather-appimage](https://aur.archlinux.org/packages/southweather-appimage)||
 |**spacemesh**|[spacemesh-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spacemesh-appimage)|[spacemesh-appimage](https://aur.archlinux.org/packages/spacemesh-appimage)||
 |**space-snake**|[space-snake-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-snake-appimage)|[space-snake-appimage](https://aur.archlinux.org/packages/space-snake-appimage)||
 |**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
