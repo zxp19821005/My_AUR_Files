@@ -256,6 +256,7 @@
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
 |**interastral-peace-chat**|[interastral-peace-chat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/interastral-peace-chat-appimage)|[interastral-peace-chat-appimage](https://aur.archlinux.org/packages/interastral-peace-chat-appimage)||
+|**intrigue**|[intrigue-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-appimage)|[intrigue-appimage](https://aur.archlinux.org/packages/intrigue-appimage)||
 |**issie**|[issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie-bin](https://aur.archlinux.org/packages/issie-bin)||
 |**japreader**|[japreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/japreader-bin)|[japreader-bin](https://aur.archlinux.org/packages/japreader-bin)||
 |**jasper**|[jasper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasper-bin)|[jasper-bin](https://aur.archlinux.org/packages/jasper-bin)||
