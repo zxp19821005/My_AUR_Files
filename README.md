@@ -434,6 +434,7 @@
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
+|**sqlite3-page-explorer**|[sqlite3-page-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlite3-page-explorer-bin)|[sqlite3-page-explorer-bin](https://aur.archlinux.org/packages/sqlite3-page-explorer-bin)||
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
 |**sshuttle-gui**|[sshuttle-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sshuttle-gui-bin)|[sshuttle-gui-bin](https://aur.archlinux.org/packages/sshuttle-gui-bin)||
 |**stackzy**|[stackzy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stackzy-bin)|[stackzy-bin](https://aur.archlinux.org/packages/stackzy-bin)||
