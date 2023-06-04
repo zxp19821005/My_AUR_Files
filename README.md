@@ -271,6 +271,7 @@
 |**lagrange**|[lagrange-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lagrange-appimage)|[lagrange-appimage](https://aur.archlinux.org/packages/lagrange-appimage)||
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
 |**leapp**|[leapp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/leapp-appimage)|[leapp-appimage](https://aur.archlinux.org/packages/leapp-appimage)||
+|**liground**|[liground-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-appimage)|[liground-appimage](https://aur.archlinux.org/packages/liground-appimage)||
 |**lbry-desktop**|[lbry-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lbry-desktop-appimage)|[lbry-desktop-appimage](https://aur.archlinux.org/packages/lbry-desktop-appimage)||
 |**linked**|[linked-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-appimage)<br>[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-appimage](https://aur.archlinux.org/packages/linked-appimage)<br>[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
 |**lisk-desktop**|[lisk-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-appimage)|[lisk-desktop-appimage](https://aur.archlinux.org/packages/lisk-desktop-appimage)||
