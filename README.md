@@ -334,6 +334,7 @@
 |**notes-nc**|[notes-nc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-appimage)|[notes-nc-appimage](https://aur.archlinux.org/packages/notes-nc-appimage)||
 |**notesnook**|[notesnook-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-appimage)|[notesnook-appimage](https://aur.archlinux.org/packages/notesnook-appimage)||
 |**nteract**|[nteract-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nteract-appimage)|[nteract-appimage](https://aur.archlinux.org/packages/nteract-appimage)||
+|**ntrack**|[ntrack-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-appimage)|[ntrack-appimage](https://aur.archlinux.org/packages/ntrack-appimage)||
 |**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
 |**nuclia**|[nuclia-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-appimage)|[nuclia-appimage](https://aur.archlinux.org/packages/nuclia-appimage)||
 |**numara**|[numara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-appimage)|[numara-appimage](https://aur.archlinux.org/packages/numara-appimage)||
