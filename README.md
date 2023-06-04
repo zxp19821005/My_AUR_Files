@@ -158,6 +158,7 @@
 |**edex-ui**|[edex-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-appimage)||个人自用版|
 |**electrocrud**|[electrocrud-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-appimage)|[electrocrud-appimage](https://aur.archlinux.org/packages/electrocrud-appimage)||
 |**electron-mail**|[electron-mail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-mail-appimage)|[electron-mail-appimage](https://aur.archlinux.org/packages/electron-mail-appimage)||
+|**electron-pdf-viewer**|[electron-pdf-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-bin)|[electron-pdf-viewer-bin](https://aur.archlinux.org/packages/electron-pdf-viewer-bin)||
 |**electronreact**|[electronreact-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronreact-appimage)|[electronreact-appimage](https://aur.archlinux.org/packages/electronreact-appimage)||
 |**electron-react-boilerplate**|[electron-react-boilerplate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-react-boilerplate-appimage)|[electron-react-boilerplate-appimage](https://aur.archlinux.org/packages/electron-react-boilerplate-appimage)||
 |**electron-tools**|[electron-tools-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-tools-appimage)|[electron-tools-appimage](https://aur.archlinux.org/packages/electron-tools-appimage)||
