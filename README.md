@@ -454,6 +454,7 @@
 |**spark-wallet**|[spark-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-wallet-appimage)|[spark-wallet-appimage](https://aur.archlinux.org/packages/spark-wallet-appimage)||
 |**spearmint**|[spearmint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spearmint-bin)|[spearmint-bin](https://aur.archlinux.org/packages/spearmint-bin)||
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
+|**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
 |**sqlite3-page-explorer**|[sqlite3-page-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlite3-page-explorer-bin)|[sqlite3-page-explorer-bin](https://aur.archlinux.org/packages/sqlite3-page-explorer-bin)||
