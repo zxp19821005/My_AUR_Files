@@ -2,6 +2,7 @@
 # 我参与维护及我个人维护的AUR列表
 | **软件包名** | GitHub 地址| AUR地址|备注|
 | :----: | :----: | :----: | :----: |
+|**acodec**|[acodec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/acodec-bin)|[acodec-bin](https://aur.archlinux.org/packages/acodec-bin)||
 |**adbmanage**|[adbmanager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adbmanager-bin)|[adbmanager-bin](https://aur.archlinux.org/packages/adbmanager-bin)||
 |**advanced-passgen**|[advanced-passgen-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-appimage)<br>[advanced-passgen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-bin)|[advanced-passgen-appimage](https://aur.archlinux.org/packages/advanced-passgen-appimage)<br>[advanced-passgen-bin](https://aur.archlinux.org/packages/advanced-passgen-bin)||
 |**advanced-rest-client**|[advanced-rest-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-rest-client-appimage)|[advanced-rest-client-appimage](https://aur.archlinux.org/packages/advanced-rest-client-appimage)||
