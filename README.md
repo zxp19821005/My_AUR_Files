@@ -198,6 +198,7 @@
 |**franz**|[franz-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/franz-appimage)|[franz-appimage](https://aur.archlinux.org/packages/franz-appimage)||
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
 |**fukayo**|[fukayo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-appimage)|[fukayo-appimage](https://aur.archlinux.org/packages/fukayo-appimage)||
+|**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**ganache**|[ganache-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ganache-appimage)|[ganache-appimage](https://aur.archlinux.org/packages/ganache-appimage)||
 |**gargoyle**|[gargoyle-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gargoyle-appimage)||AUR上未提交|
