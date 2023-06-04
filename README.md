@@ -326,6 +326,7 @@
 |**netpad**|[netpad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-appimage)<br>[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-appimage](https://aur.archlinux.org/packages/netpad-appimage)<br>[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**ngrev**|[ngrev-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-appimage)|[ngrev-appimage](https://aur.archlinux.org/packages/ngrev-appimage)||
+|**nheko**|[nheko-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nheko-appimage)|[nheko-appimage](https://aur.archlinux.org/packages/nheko-appimage)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
 |**nodeflow**|[nodeflow-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-appimage)|[nodeflow-appimage](https://aur.archlinux.org/packages/nodeflow-appimage)||
 |**no-fwl**|[no-fwl-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-appimage)|[no-fwl-appimage](https://aur.archlinux.org/packages/no-fwl-appimage)||
