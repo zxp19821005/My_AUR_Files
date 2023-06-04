@@ -275,6 +275,7 @@
 |**linked**|[linked-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-appimage)<br>[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-appimage](https://aur.archlinux.org/packages/linked-appimage)<br>[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
 |**lisk-desktop**|[lisk-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-appimage)|[lisk-desktop-appimage](https://aur.archlinux.org/packages/lisk-desktop-appimage)||
 |**listera-novelreader**|[listera-novelreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/listera-novelreader-bin)|[listera-novelreader-bin](https://aur.archlinux.org/packages/listera-novelreader-bin)||
+|**live-radio-app**|[live-radio-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-radio-app-bin)|[live-radio-app-bin](https://aur.archlinux.org/packages/live-radio-app-bin)||
 |**losslesscut**|[losslesscut-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-appimage)|[losslesscut-appimage](https://aur.archlinux.org/packages/losslesscut-appimage)||
 |**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
 |**lunarcalendar**|[lunarcalendar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-appimage)|[lunarcalendar-appimage](https://aur.archlinux.org/packages/lunarcalendar-appimage)||
