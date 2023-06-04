@@ -425,6 +425,7 @@
 |**space-snake**|[space-snake-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-snake-appimage)|[space-snake-appimage](https://aur.archlinux.org/packages/space-snake-appimage)||
 |**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
 |**spark-transhell**|[spark-transhell](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-transhell)|[spark-transhell](https://aur.archlinux.org/packages/spark-transhell)||
+|**spark-wallet**|[spark-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-wallet-appimage)|[spark-wallet-appimage](https://aur.archlinux.org/packages/spark-wallet-appimage)||
 |**spearmint**|[spearmint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spearmint-bin)|[spearmint-bin](https://aur.archlinux.org/packages/spearmint-bin)||
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
 |**spotube**|[spotube-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotube-appimage)||AUR未提交|
