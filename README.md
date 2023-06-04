@@ -296,6 +296,7 @@
 |**memocast**|[memocast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/memocast-appimage)|[memocast-appimage](https://aur.archlinux.org/packages/memocast-appimage)||
 |**messages4desktop**|[messages4desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/messages4desktop-bin)|[messages4desktop-bin](https://aur.archlinux.org/packages/messages4desktop-bin)||
 |**meteor**|[meteor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/meteor-bin)|[meteor-bin](https://aur.archlinux.org/packages/meteor-bin)||
+|**metronome**|[metronome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/metronome-appimage)|[metronome-appimage](https://aur.archlinux.org/packages/metronome-appimage)||
 |**microsoft-loop**|[unoffical-microsoft-loop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/microsoft-loop-pake)|[unoffical-microsoft-loop-appimage](https://aur.archlinux.org/packages/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://aur.archlinux.org/packages/microsoft-loop-pake)||
 |**migasfree-play**|[migasfree-play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/migasfree-play-bin)|[migasfree-play-bin](https://aur.archlinux.org/packages/migasfree-play-bin)||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
