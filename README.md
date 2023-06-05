@@ -575,6 +575,7 @@
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
 |**yana**|[yana-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-appimage)<br>[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-appimage](https://aur.archlinux.org/packages/yana-appimage)<br>[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yank-note**|[yank-note-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-appimage)|[yank-note-appimage](https://aur.archlinux.org/packages/yank-note-appimage)||
+|**yaradio-yamusic**|[yaradio-yamusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yaradio-yamusic-appimage)|[yaradio-yamusic-appimage](https://aur.archlinux.org/packages/yaradio-yamusic-appimage)||
 |**yarle-evernote-to-md**|[yarle-evernote-to-md-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yarle-evernote-to-md-bin)|[yarle-evernote-to-md-bin](https://aur.archlinux.org/packages/yarle-evernote-to-md-bin)||
 |**yesplaymusic**|[yesplaymusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-appimage)|[yesplaymusic-appimage](https://aur.archlinux.org/packages/yesplaymusic-appimage)||
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
