@@ -298,6 +298,7 @@
 |**mbcord**|[mbcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mbcord-bin)|[mbcord-bin](https://aur.archlinux.org/packages/mbcord-bin)||
 |**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
+|**medict**|[medict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/medict-bin)|[medict-bin](https://aur.archlinux.org/packages/medict-bin)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
 |**memocast**|[memocast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/memocast-appimage)|[memocast-appimage](https://aur.archlinux.org/packages/memocast-appimage)||
 |**messages4desktop**|[messages4desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/messages4desktop-bin)|[messages4desktop-bin](https://aur.archlinux.org/packages/messages4desktop-bin)||
