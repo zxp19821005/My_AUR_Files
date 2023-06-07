@@ -142,6 +142,7 @@
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**deltachat-desktop**|[deltachat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deltachat-desktop-bin)|[deltachat-desktop-bin](https://aur.archlinux.org/packages/deltachat-desktop-bin)||
+|**deskaide**|[deskaide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskaide-appimage)|[deskaide-appimage](https://aur.archlinux.org/packages/deskaide-appimage)||
 |**deskreen**|[deskreen-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskreen-appimage)|[deskreen-appimage](https://aur.archlinux.org/packages/deskreen-appimage)||
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
 |**devsidecar**|[devsidecar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/devsidecar-appimage)|[devsidecar-appimage](https://aur.archlinux.org/packages/devsidecar-appimage)||
