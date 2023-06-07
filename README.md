@@ -290,6 +290,7 @@
 |**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
 |**lunarcalendar**|[lunarcalendar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-appimage)|[lunarcalendar-appimage](https://aur.archlinux.org/packages/lunarcalendar-appimage)||
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
+|**lvce**|[lvce-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-appimage)|[lvce-appimage](https://aur.archlinux.org/packages/lvce-appimage)||
 |**lyricistant**|[lyricistant-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-appimage)|[lyricistant-appimage](https://aur.archlinux.org/packages/lyricistant-appimage)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
 |**mapeo-desktop**|[mapeo-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[droppoint-mapeo-desktop](https://aur.archlinux.org/packages/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
