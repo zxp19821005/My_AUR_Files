@@ -274,6 +274,7 @@
 |**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)||应作者要求，已删除|
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
+|**kiwiirc-desktop**|[kiwiirc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-desktop-bin)|[kiwiirc-desktop-bin](https://aur.archlinux.org/packages/kiwiirc-desktop-bin)||
 |**knowledge**|[knowledge-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-appimage)|[knowledge-appimage](https://aur.archlinux.org/packages/knowledge-appimage)||
 |**koishi-desktop**|[koishi-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-appimage)|[koishi-desktop-appimage](https://aur.archlinux.org/packages/koishi-desktop-appimage)||
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
