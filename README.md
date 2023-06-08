@@ -415,6 +415,7 @@
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quark-player**|[quark-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-appimage)|[quark-player-appimage](https://aur.archlinux.org/packages/quark-player-appimage)||
 |**quasar-todo**|[quasar-todo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-appimage)|[quasar-todo-appimage](https://aur.archlinux.org/packages/quasar-todo-appimage)||
+|**quaternion**|[quaternion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-appimage)|[quaternion-appimage](https://aur.archlinux.org/packages/quaternion-appimage)||
 |**quba**|[quba-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-appimage)|[quba-appimage](https://aur.archlinux.org/packages/quba-appimage)||
 |**query-master**|[query-master-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/query-master-appimage)|[query-master-appimage](https://aur.archlinux.org/packages/query-master-appimage)||
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
