@@ -441,6 +441,7 @@
 |**runjs**|[runjs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/runjs-appimage)|[runjs-appimage](https://aur.archlinux.org/packages/runjs-appimage)||
 |**s5cmd**|[s5cmd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/s5cmd-bin)|[s5cmd-bin](https://aur.archlinux.org/packages/s5cmd-bin)||
 |**sabaki**|[sabaki-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-appimage)|[sabaki-appimage](https://aur.archlinux.org/packages/sabaki-appimage)||
+|**saber**|[saber-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/saber-appimage)|[saber-appimage](https://aur.archlinux.org/packages/saber-appimage)||
 |**salesforce2sql**|[salesforce2sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salesforce2sql-bin)|[salesforce2sql-bin](https://aur.archlinux.org/packages/salesforce2sql-bin)||
 |**sbe**|[sbe-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-appimage)|[sbe-appimage](https://aur.archlinux.org/packages/sbe-appimage)||
 |**selenium-ide**|[selenium-ide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-appimage)|[selenium-ide-appimage](https://aur.archlinux.org/packages/selenium-ide-appimage)||
