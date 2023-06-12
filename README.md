@@ -164,6 +164,7 @@
 |**ecency-surfer**|[ecency-surfer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-appimage)|[ecency-surfer-appimage](https://aur.archlinux.org/packages/ecency-surfer-appimage)||
 |**edex-ui**|[edex-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-appimage)||个人自用版|
 |**electrocrud**|[electrocrud-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-appimage)<br>[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-appimage](https://aur.archlinux.org/packages/electrocrud-appimage)<br>[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
+|**electronim**|[electronim-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronim-appimage)|[electronim-appimage](https://aur.archlinux.org/packages/electronim-appimage)||
 |**electron-mail**|[electron-mail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-mail-appimage)|[electron-mail-appimage](https://aur.archlinux.org/packages/electron-mail-appimage)||
 |**electron-pdf-viewer**|[electron-pdf-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-bin)|[electron-pdf-viewer-bin](https://aur.archlinux.org/packages/electron-pdf-viewer-bin)||
 |**electronreact**|[electronreact-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronreact-appimage)|[electronreact-appimage](https://aur.archlinux.org/packages/electronreact-appimage)||
