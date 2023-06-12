@@ -156,6 +156,7 @@
 |**dostron**|[dostron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dostron-bin)|[dostron-bin](https://aur.archlinux.org/packages/dostron-bin)||
 |**drawio-desktop**|[drawio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-appimage)||AUR上已删除|
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
+|**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
 |**duskplayer**|[duskplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-appimage)|[duskplayer-appimage](https://aur.archlinux.org/packages/duskplayer-appimage)||
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
