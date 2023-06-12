@@ -580,6 +580,7 @@
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**weakauras-companion**|[weakauras-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weakauras-companion-appimage)|[weakauras-companion-appimage](https://aur.archlinux.org/packages/weakauras-companion-appimage)||
 |**webcord**|[webcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcord-appimage)|[webcord-appimage](https://aur.archlinux.org/packages/webcord-appimage)||
+|**webdesktop**|[webdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webdesktop-bin)|[webdesktop-bin](https://aur.archlinux.org/packages/webdesktop-bin)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
 |**web-os-dev-manager**|[web-os-dev-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-appimage)|[web-os-dev-manager-appimage](https://aur.archlinux.org/packages/web-os-dev-manager-appimage)||
 |**wechat-backup**|[wechat-backup](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-backup)|[wechat-backup](https://aur.archlinux.org/packages/wechat-backup)||
