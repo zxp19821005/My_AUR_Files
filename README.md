@@ -287,6 +287,7 @@
 |**koishi-desktop**|[koishi-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-appimage)|[koishi-desktop-appimage](https://aur.archlinux.org/packages/koishi-desktop-appimage)||
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
 |**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
+|**kui**|[kui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kui-bin)|[kui-bin](https://aur.archlinux.org/packages/kui-bin)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
 |**lagrange**|[lagrange-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lagrange-appimage)|[lagrange-appimage](https://aur.archlinux.org/packages/lagrange-appimage)||
 |**laradumps**|[laradumps-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-appimage)|[laradumps-appimage](https://aur.archlinux.org/packages/laradumps-appimage)||
