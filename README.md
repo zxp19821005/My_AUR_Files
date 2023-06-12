@@ -350,6 +350,7 @@
 |**neanes**|[neanes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-appimage)|[neanes-appimage](https://aur.archlinux.org/packages/neanes-appimage)||
 |**netpad**|[netpad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-appimage)<br>[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-appimage](https://aur.archlinux.org/packages/netpad-appimage)<br>[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
+|**nft-viewer**|[nft-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-viewer-bin)|[nft-viewer-bin](https://aur.archlinux.org/packages/nft-viewer-bin)||
 |**ngrev**|[ngrev-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-appimage)|[ngrev-appimage](https://aur.archlinux.org/packages/ngrev-appimage)||
 |**nheko**|[nheko-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nheko-appimage)|[nheko-appimage](https://aur.archlinux.org/packages/nheko-appimage)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
