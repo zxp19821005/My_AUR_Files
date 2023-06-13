@@ -528,6 +528,7 @@
 |**thief**|[thief-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-appimage)|[thief-appimage](https://aur.archlinux.org/packages/thief-appimage)||
 |**thinreports-section-editor**|[thinreports-section-editor-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-appimage)|[thinreports-section-editor-appimage](https://aur.archlinux.org/packages/thinreports-section-editor-appimage)||
 |**thorium**|[thorium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-appimage)|[thorium-appimage](https://aur.archlinux.org/packages/thorium-appimage)||
+|**threema-for-desktop**|[threema-for-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-appimage)|[threema-for-desktop-appimage](https://aur.archlinux.org/packages/threema-for-desktop-appimage)||
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**time-to-leave**|[time-to-leave-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/time-to-leave-bin)|[time-to-leave-bin](https://aur.archlinux.org/packages/time-to-leave-bin)||
