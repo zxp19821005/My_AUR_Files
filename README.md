@@ -2,6 +2,7 @@
 # 我参与维护及我个人维护的AUR列表
 | **软件包名** | GitHub 地址| AUR地址|备注|
 | :----: | :----: | :----: | :----: |
+|**3fa**|[3fa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/3fa-bin)|[3fa-bin](https://aur.archlinux.org/packages/3fa-bin)||
 |**acodec**|[acodec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/acodec-bin)|[acodec-bin](https://aur.archlinux.org/packages/acodec-bin)||
 |**adbmanage**|[adbmanager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adbmanager-bin)|[adbmanager-bin](https://aur.archlinux.org/packages/adbmanager-bin)||
 |**addressbook-desktop**|[addressbook-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/addressbook-desktop-bin)|[addressbook-desktop-bin](https://aur.archlinux.org/packages/addressbook-desktop-bin)||
