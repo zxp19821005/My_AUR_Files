@@ -69,6 +69,7 @@
 |**bilibili**|[bilibili-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-appimage)|[bilibili-appimage](https://aur.archlinux.org/packages/bilibili-appimage)||
 |**bilibilivideodownload**|[bilibilivideodownload-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-appimage)|[bilibilivideodownload-appimage](https://aur.archlinux.org/packages/bilibilivideodownload-appimage)||
 |**blockbench**|[blockbench-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockbench-appimage)|[blockbench-appimage](https://aur.archlinux.org/packages/blockbench-appimage)||
+|**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
 |**blurlyric**|[blurlyric-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blurlyric-bin)|[blurlyric-bin](https://aur.archlinux.org/packages/blurlyric-bin)||
 |**board4you**|[board4you-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/board4you-appimage)|[board4you-appimage](https://aur.archlinux.org/packages/board4you-appimage)||
 |**boats-animator**|[boats-animator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boats-animator-bin)|[boats-animator-bin](https://aur.archlinux.org/packages/boats-animator-bin)||
