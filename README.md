@@ -119,6 +119,7 @@
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
 |**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
 |**data-works**|[data-works-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-appimage)|[data-works-appimage](https://aur.archlinux.org/packages/data-works-appimage)||
+|**datefile**|[datefile-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile-bin)|[datefile-bin](https://aur.archlinux.org/packages/datefile-bin)||
 |**dbgate**|[dbgate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-appimage)|[dbgate-appimage](https://aur.archlinux.org/packages/dbgate-appimage)||
 |**deckboard**|[deckboard-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-appimage)|[deckboard-appimage](https://aur.archlinux.org/packages/deckboard-appimage)||
 |**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
