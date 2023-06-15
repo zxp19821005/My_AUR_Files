@@ -530,6 +530,7 @@
 |**switchhosts**|[switchhosts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-bin)||AUR上由他人维护|
 |**tadabor**|[tadabor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tadabor-bin)|[tadabor-bin](https://aur.archlinux.org/packages/tadabor-bin)||
 |**tagspaces**|[tagspaces-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tagspaces-appimage)|[tagspaces-appimage](https://aur.archlinux.org/packages/tagspaces-appimage)||
+|**tauri-ui**|[tauri-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauri-ui-appimage)|[tauri-ui-appimage](https://aur.archlinux.org/packages/tauri-ui-appimage)||
 |**teams-for-linux**|[teams-for-linux-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/teams-for-linux-appimage)|[teams-for-linux-appimage](https://aur.archlinux.org/packages/teams-for-linux-appimage)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
