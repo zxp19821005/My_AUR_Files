@@ -270,6 +270,7 @@
 |**hoverfly**|[hoverfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoverfly-bin)|[hoverfly-bin](https://aur.archlinux.org/packages/hoverfly-bin)||
 |**htbrowser**|[htbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/htbrowser-bin)|[htbrowser-bin](https://aur.archlinux.org/packages/htbrowser-bin)||
 |**httptoolkit**|[httptoolkit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/httptoolkit-appimage)|[httptoolkit-appimage](https://aur.archlinux.org/packages/httptoolkit-appimage)||
+|**huelectron**|[huelectron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/huelectron-bin)|[huelectron-bin](https://aur.archlinux.org/packages/huelectron-bin)||
 |**hyperamp**|[hyperamp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperamp-appimage)|[hyperamp-appimage](https://aur.archlinux.org/packages/hyperamp-appimage)||
 |**hyper**|[hyper-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyper-appimage)|[hyper-appimage](https://aur.archlinux.org/packages/hyper-appimage)||
 |**hyperkeys**|[hyperkeys-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-appimage)|[hyperkeys-appimage](https://aur.archlinux.org/packages/hyperkeys-appimage)||
