@@ -392,6 +392,7 @@
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
 |**oh-mymd**|[oh-mymd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-appimage)<br>[oh-mymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-bin)|[oh-mymd-appimage](https://aur.archlinux.org/packages/oh-mymd-appimage)<br>[oh-mymd-bin](https://aur.archlinux.org/packages/oh-mymd-bin)||
 |**onekey-wallet**|[onekey-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-appimage)|[onekey-wallet-appimage](https://aur.archlinux.org/packages/onekey-wallet-appimage)||
+|**ooniprobe-desktop**|[ooniprobe-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ooniprobe-desktop-appimage)|[ooniprobe-desktop-appimage](https://aur.archlinux.org/packages/ooniprobe-desktop-appimage)||
 |**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
 |**open-ai-translator**|[open-ai-translator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-appimage)|[open-ai-translator-appimage](https://aur.archlinux.org/packages/open-ai-translator-appimage)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
