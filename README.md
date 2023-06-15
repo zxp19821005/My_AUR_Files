@@ -264,6 +264,7 @@
 |**headset**|[headset-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/headset-bin)|[headset-bin](https://aur.archlinux.org/packages/headset-bin)||
 |**heimer**|[heimer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-appimage)|[heimer-appimage](https://aur.archlinux.org/packages/heimer-appimage)||
 |**helioslauncher**|[helioslauncher-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/helioslauncher-appimage)|[helioslauncher-appimage](https://aur.archlinux.org/packages/helioslauncher-appimage)||
+|**hexhoot**|[hexhoot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexhoot-bin)|[hexhoot-bin](https://aur.archlinux.org/packages/hexhoot-bin)||
 |**hoptodesk**|[hoptodesk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-appimage)|[hoptodesk-appimage](https://aur.archlinux.org/packages/hoptodesk-appimage)||
 |**horanghill**|[horanghill-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/horanghill-bin)|[horanghill-bin](https://aur.archlinux.org/packages/horanghill-bin)||
 |**houdoku**|[houdoku-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku-appimage)|[houdoku-appimage](https://aur.archlinux.org/packages/houdoku-appimage)||
