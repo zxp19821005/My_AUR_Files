@@ -456,6 +456,7 @@
 |**refi-app**|[refi-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/refi-app-bin)|[refi-app-bin](https://aur.archlinux.org/packages/refi-app-bin)||
 |**rekordfix**|[rekordfix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rekordfix-bin)|[rekordfix-bin](https://aur.archlinux.org/packages/rekordfix-bin)||
 |**remoteplaywhatever**|[remoteplaywhatever-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remoteplaywhatever-bin)|[remoteplaywhatever-bin](https://aur.archlinux.org/packages/remoteplaywhatever-bin)||
+|**reqable**|[reqable-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqable-bin)|[reqable-bin](https://aur.archlinux.org/packages/reqable-bin)||
 |**reqnotes**|[reqnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqnotes-bin)|[reqnotes-bin](https://aur.archlinux.org/packages/reqnotes-bin)||
 |**responsivelyapp**|[responsivelyapp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/responsivelyapp-appimage)|[responsivelyapp-appimage](https://aur.archlinux.org/packages/responsivelyapp-appimage)||
 |**revealed**|[revealed-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-appimage)<br>[revealed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-bin)|[revealed-appimage](https://aur.archlinux.org/packages/revealed-appimage)<br>[revealed-bin](https://aur.archlinux.org/packages/revealed-bin)||
