@@ -540,6 +540,7 @@
 |**tesler**|[tesler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tesler-appimage)|[tesler-appimage](https://aur.archlinux.org/packages/tesler-appimage)||
 |**tess**|[tess-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tess-appimage)|[tess-appimage](https://aur.archlinux.org/packages/tess-appimage)||
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
+|**tfiletransfer**|[tfiletransfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tfiletransfer-bin)|[tfiletransfer-bin](https://aur.archlinux.org/packages/tfiletransfer-bin)||
 |**thedesk**|[thedesk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-appimage)|[thedesk-appimage](https://aur.archlinux.org/packages/thedesk-appimage)||
 |**thief**|[thief-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-appimage)|[thief-appimage](https://aur.archlinux.org/packages/thief-appimage)||
 |**thinreports-section-editor**|[thinreports-section-editor-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-appimage)|[thinreports-section-editor-appimage](https://aur.archlinux.org/packages/thinreports-section-editor-appimage)||
