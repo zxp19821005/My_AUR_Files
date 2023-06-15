@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 _pkgname=drawio
 pkgname="${_pkgname}-desktop-appimage"
-pkgver=21.3.7
+pkgver=21.4.0
 pkgrel=1
 pkgdesc="Diagram drawing application built on web technology"
 arch=('x86_64')
@@ -13,10 +13,10 @@ conflicts=("${pkgname%-appimage}" "${_pkgname}")
 depends=('zlib' 'hicolor-icon-theme' 'glibc')
 _install_path="/opt/appimages"
 source=("${_pkgname}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${_pkgname}-x86_64-${pkgver}.AppImage")
-sha256sums=('e5b9889e4dea9d9e02075d214f5070a301c922ed817d01a14431aeff3711c9af')
+sha256sums=('41a0e1fe4115e45b1531ceef4cbe692341ea24adf05fe22ac68beb3a7b038e2a')
 prepare() {
     chmod a+x "${_pkgname}-${pkgver}.AppImage"
-    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract
+    "./${_pkgname}-${pkgver}.AppImage" --appimage-extract > /dev/null
     sed "s|AppRun|${_install_path}/${_pkgname}.AppImage|g" -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
 }
 package() {
