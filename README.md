@@ -306,6 +306,7 @@
 |**knowledge**|[knowledge-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-appimage)|[knowledge-appimage](https://aur.archlinux.org/packages/knowledge-appimage)||
 |**koishi-desktop**|[koishi-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-appimage)|[koishi-desktop-appimage](https://aur.archlinux.org/packages/koishi-desktop-appimage)||
 |**koodo-reader**|[koodo-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/koodo-reader-appimage)|[koodo-reader-appimage](https://aur.archlinux.org/packages/koodo-reader-appimage)||
+|**krux-installer**|[krux-installer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/krux-installer-appimage)|[krux-installer-appimage](https://aur.archlinux.org/packages/krux-installer-appimage)||
 |**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
 |**kui**|[kui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kui-bin)|[kui-bin](https://aur.archlinux.org/packages/kui-bin)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
