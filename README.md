@@ -324,6 +324,7 @@
 |**live-plus-plus**|[live-plus-plus-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-plus-plus-appimage)|[live-plus-plus-appimage](https://aur.archlinux.org/packages/live-plus-plus-appimage)||
 |**live-radio-app**|[live-radio-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-radio-app-bin)|[live-radio-app-bin](https://aur.archlinux.org/packages/live-radio-app-bin)||
 |**losslesscut**|[losslesscut-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-appimage)|[losslesscut-appimage](https://aur.archlinux.org/packages/losslesscut-appimage)||
+|**lotti**|[lotti-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lotti-bin)|[lotti-bin](https://aur.archlinux.org/packages/lotti-bin)||
 |**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
 |**lunarcalendar**|[lunarcalendar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-appimage)|[lunarcalendar-appimage](https://aur.archlinux.org/packages/lunarcalendar-appimage)||
 |**lutris-formatfactory-spark**|[lutris-formatfactory-spark](https://github.com/zxp19821005/My_AUR_Files/tree/main/lutris-formatfactory-spark)|[lutris-formatfactory-spark](https://aur.archlinux.org/packages/lutris-formatfactory-spark)||
