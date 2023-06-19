@@ -422,6 +422,7 @@
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**panwriter**|[panwriter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-appimage)|[panwriter-appimage](https://aur.archlinux.org/packages/panwriter-appimage)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
+|**peersky-browser**|[peersky-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser-bin)|[peersky-browser-bin](https://aur.archlinux.org/packages/peersky-browser-bin)||
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
 |**piclist**|[piclist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-appimage)|[piclist-appimage](https://aur.archlinux.org/packages/piclist-appimage)||
 |**picturama**|[picturama-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-appimage)|[picturama-appimage](https://aur.archlinux.org/packages/picturama-appimage)||
