@@ -604,7 +604,7 @@
 |**ubports-installer**|[ubports-installer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-appimage)|[ubports-installer-appimage](https://aur.archlinux.org/packages/ubports-installer-appimage)||
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
 |**uivonim**|[uivonim-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-appimage)|[uivonim-appimage](https://aur.archlinux.org/packages/uivonim-appimage)||
-|**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|AUR上未发布||
+|**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
 |**unsplash-wallpapers**|[unsplash-wallpapers-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-appimage)|[unsplash-wallpapers-appimage](https://aur.archlinux.org/packages/unsplash-wallpapers-appimage)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
