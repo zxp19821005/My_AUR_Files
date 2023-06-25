@@ -627,7 +627,7 @@
 |**webcord**|[webcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcord-appimage)|[webcord-appimage](https://aur.archlinux.org/packages/webcord-appimage)||
 |**webdesktop**|[webdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webdesktop-bin)|[webdesktop-bin](https://aur.archlinux.org/packages/webdesktop-bin)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
-|**web-os-dev-manager**|[web-os-dev-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-appimage)|[web-os-dev-manager-appimage](https://aur.archlinux.org/packages/web-os-dev-manager-appimage)||
+|**web-os-dev-manager**|[web-os-dev-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-bin)|[web-os-dev-manager-bin](https://aur.archlinux.org/packages/web-os-dev-manager-bin)||
 |**wechat-backup**|[wechat-backup](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-backup)|[wechat-backup](https://aur.archlinux.org/packages/wechat-backup)||
 |**weektodo**|[weektodo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-appimage)<br>[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-appimage](https://aur.archlinux.org/packages/weektodo-appimage)<br>[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
 |**weimail-uos**|[weimail-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/weimail-uos)|[weimail-uos](https://aur.archlinux.org/packages/weimail-uos)||
