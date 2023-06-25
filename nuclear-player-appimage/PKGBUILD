@@ -1,30 +1,29 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname="nuclear-player-appimage"
-pkgver=0.6.21
-pkgrel=2
+_pkgname="nuclear"
+pkgname="${_pkgname}-player-appimage"
+pkgver=0.6.24
+pkgrel=1
+epoch=
 pkgdesc="Streaming music player that finds free music for you"
-arch=("any")
+arch=("x86_64")
 url="https://nuclear.js.org/"
 _githuburl="https://github.com/nukeop/nuclear"
 license=("AGPL3")
-depends=('zlib' 'glibc')
+depends=("hicolor-icon-theme" "zlib")
 options=(!strip)
-optdepends=()
-provides=()
-conflicts=("${pkgname%-appimage}-bin")
+conflicts=("${pkgname%-appimage}")
 _install_path="/opt/appimages"
-source=("${pkgname%-appimage}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${pkgname%-player-appimage}-v${pkgver}.AppImage")
-sha256sums=('881e7359540ed81f4340b112a4c08769b4d668f76afab0da6bf08e0ed9f4f344')
-         
+source=("${pkgname%-appimage}-${pkgver}.AppImage::${_githuburl}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}.AppImage")
+sha256sums=('2462e686827ad6c9e8b8550c9483861f2654866f3ca9430e45612c92e1332212')
+        
 prepare() {
-    chmod a+x "${pkgname%-appimage}-${pkgver}.AppImage"
-    "./${pkgname%-appimage}-${pkgver}.AppImage" --appimage-extract > /dev/null
-    sed 's|AppRun|/opt/appimages/nuclear-player.AppImage|g' -i "${srcdir}/squashfs-root/${pkgname%-player-appimage}.desktop"
+    chmod a+x "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage"
+    "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage" --appimage-extract
+    sed "s|AppRun|${_install_path}/${_pkgname}.AppImage|g" -i "${srcdir}/squashfs-root/${_pkgname}.desktop"
 }
-         
+        
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${pkgname%-appimage}.AppImage"
-    install -Dm644 "${srcdir}/squashfs-root/${pkgname%-player-appimage}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/0x0/apps/${pkgname%-player-appimage}.png" -t "${pkgdir}/usr/share/pixmaps"
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/mime/${pkgname%-player-appimage}.xml" -t "${pkgdir}/usr/share/mime"
+    install -Dm755 "${srcdir}/${_pkgname}-${pkgver}.AppImage" "${pkgdir}/${_install_path}/${_pkgname}.AppImage"
+    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
+    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/0x0/apps/${_pkgname}.png" -t "${pkgdir}/usr/share/pixmaps"
 }
