@@ -207,7 +207,7 @@
 |**ferdium**|[ferdium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferdium-appimage)|[ferdium-appimage](https://aur.archlinux.org/packages/ferdium-appimage)||
 |**ferrum**|[ferrum-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferrum-bin)|[ferrum-bin](https://aur.archlinux.org/packages/ferrum-bin)||
 |**ffuf**|[ffuf-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffuf-bin)|[ffuf-bin](https://aur.archlinux.org/packages/ffuf-bin)||
-|**ficus**|[ficus-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-appimage)|[ficus-appimage](https://aur.archlinux.org/packages/ficus-appimage)||
+|**ficus-electron**|[ficus-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-electron-bin)|[ficus-electron-bin](https://aur.archlinux.org/packages/ficus-electron-bin)||
 |**fifo**|[fifo-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-appimage)|[fifo-browser-appimage](https://aur.archlinux.org/packages/fifo-browser-appimage)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**firefly-desktop**|[firefly-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-desktop-appimage)|[firefly-desktop-appimage](https://aur.archlinux.org/packages/firefly-desktop-appimage)||
