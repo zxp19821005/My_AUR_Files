@@ -482,6 +482,7 @@
 |**revolt-desktop**|[revolt-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-appimage)|[revolt-desktop-appimage](https://aur.archlinux.org/packages/revolt-desktop-appimage)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
+|**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
 |**runjs**|[runjs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/runjs-appimage)|[runjs-appimage](https://aur.archlinux.org/packages/runjs-appimage)||
