@@ -119,7 +119,7 @@
 |**cozydrive**|[cozydrive-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cozydrive-appimage)|[cozydrive-appimage](https://aur.archlinux.org/packages/cozydrive-appimage)||
 |**cpeditor**|[cpeditor-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-appimage)|[cpeditor-appimage](https://aur.archlinux.org/packages/cpeditor-appimage)||
 |**crankshaft**|[crankshaft-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-appimage)|[crankshaft-appimage](https://aur.archlinux.org/packages/crankshaft-appimage)||
-|**csbooks**|[csbooks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-appimage)<br>[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-appimage](https://aur.archlinux.org/packages/csbooks-appimage)<br>[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
+|**csbooks-electron**|[csbooks-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-electron-bin)|[csbooks-electron-bin](https://aur.archlinux.org/packages/csbooks-electron-bin)||
 |**ctool**|[ctool-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-appimage)|[ctool-appimage](https://aur.archlinux.org/packages/ctool-appimage)||
 |**cutter**|[cutter-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cutter-appimage)||AUR上已删除|
 |**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
