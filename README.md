@@ -388,7 +388,6 @@
 |**no-fwl**|[no-fwl-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-appimage)|[no-fwl-appimage](https://aur.archlinux.org/packages/no-fwl-appimage)||
 |**noite**|[noite-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/noite-appimage)|[noite-appimage](https://aur.archlinux.org/packages/noite-appimage)||
 |**nora**|[nora-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-appimage)<br>[nora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-bin)|[nora-appimage](https://aur.archlinux.org/packages/nora-appimage)<br>[nora-bin](https://aur.archlinux.org/packages/nora-bin)||
-|**notable**|[notable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notable-appimage)|[notable-appimage](https://aur.archlinux.org/packages/notable-appimage)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notepad--**|[notepad---appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepad---appimage)|[notepad---appimage](https://aur.archlinux.org/packages/notepad---appimage)||
 |**notes-nc**|[notes-nc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-appimage)|[notes-nc-appimage](https://aur.archlinux.org/packages/notes-nc-appimage)||
