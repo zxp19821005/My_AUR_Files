@@ -281,6 +281,7 @@
 |**hyper**|[hyper-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyper-appimage)|[hyper-appimage](https://aur.archlinux.org/packages/hyper-appimage)||
 |**hyperkeys**|[hyperkeys-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-appimage)|[hyperkeys-appimage](https://aur.archlinux.org/packages/hyperkeys-appimage)||
 |**icalingua++**|[icalingua++-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-appimage)|[icalingua++-appimage](https://aur.archlinux.org/packages/icalingua++-appimage)||
+|**icalingua++-electron**|[icalingua++-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-electron-bin)|[icalingua++-electron-bin](https://aur.archlinux.org/packages/icalingua++-electron-bin)||
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
 |**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
 |**imagine**|[imagine-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-appimage)|[imagine-appimage](https://aur.archlinux.org/packages/imagine-appimage)||
