@@ -432,6 +432,7 @@
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
 |**poi**|[poi-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/poi-appimage)|[poi-appimage](https://aur.archlinux.org/packages/poi-appimage)||
 |**polar**|[polar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-appimage)|[polar-appimage](https://aur.archlinux.org/packages/polar-appimage)||
+|**polyglot**|[polyglot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-appimage)|[polyglot-appimage](https://aur.archlinux.org/packages/polyglot-appimage)||
 |**pomota**|[pomota-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-appimage)|[pomota-appimage](https://aur.archlinux.org/packages/pomota-appimage)||
 |**pomotroid**|[pomotroid-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomotroid-appimage)|[pomotroid-appimage](https://aur.archlinux.org/packages/pomotroid-appimage)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
