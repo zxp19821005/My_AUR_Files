@@ -60,6 +60,7 @@
 |**aviutl-package-manager**|[aviutl-package-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aviutl-package-manager-bin)|[aviutl-package-manager-bin](https://aur.archlinux.org/packages/aviutl-package-manager-bin)||
 |**avogadro2**|[avogadro2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avogadro2-appimage)|[avogadro2-appimage](https://aur.archlinux.org/packages/avogadro2-appimage)||
 |**awakened-poe-trade**|[awakened-poe-trade-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/awakened-poe-trade-appimage)|[awakened-poe-trade-appimage](https://aur.archlinux.org/packages/awakened-poe-trade-appimage)||
+|**basic-blackjack**|[basic-blackjack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/basic-blackjack-bin)|[basic-blackjack-bin](https://aur.archlinux.org/packages/basic-blackjack-bin)||
 |**batch-explorer**|[batch-explorer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-appimage)|[batch-explorer-appimage](https://aur.archlinux.org/packages/batch-explorer-appimage)||
 |**bbg**|[bbg-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-appimage)|[bbg-appimage](https://aur.archlinux.org/packages/bbg-appimage)||
 |**bcrypt-sandbox**|[bcrypt-sandbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bcrypt-sandbox-bin)|[bcrypt-sandbox-bin](https://aur.archlinux.org/packages/bcrypt-sandbox-bin)||
