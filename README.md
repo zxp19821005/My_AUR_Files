@@ -233,7 +233,6 @@
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)|[giada-appimage](https://aur.archlinux.org/packages/giada-appimage)||
 |**git-good**|[git-good-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-appimage)|[git-good-appimage](https://aur.archlinux.org/packages/git-good-appimage)||
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
-|**gitify**|[gitify-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify-appimage)|[gitify-appimage](https://aur.archlinux.org/packages/gitify-appimage)||
 |**glass**|[glass-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glass-appimage)|[glass-appimage](https://aur.archlinux.org/packages/glass-appimage)||
 |**glimboi**|[glimboi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glimboi-bin)|[glimboi-bin](https://aur.archlinux.org/packages/glimboi-bin)||
 |**glyphr-studio-desktop**|[glyphr-studio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-bin)|[glyphr-studio-desktop-appimage](https://aur.archlinux.org/packages/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://aur.archlinux.org/packages/glyphr-studio-desktop-bin)||
