@@ -423,7 +423,7 @@
 |**polyglot**|[polyglot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-appimage)|[polyglot-appimage](https://aur.archlinux.org/packages/polyglot-appimage)||
 |**pomota**|[pomota-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-appimage)|[pomota-appimage](https://aur.archlinux.org/packages/pomota-appimage)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
-|**positron**|[positron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-appimage)|[positron-appimage](https://aur.archlinux.org/packages/positron-appimage)||
+|**positron**|[positron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-bin)|[positron-bin](https://aur.archlinux.org/packages/positron-bin)||
 |**postbird**|[postbird-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-appimage)|[postbird-appimage](https://aur.archlinux.org/packages/postbird-appimage)||
 |**postcat**|[postcat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-appimage)|[postcat-appimage](https://aur.archlinux.org/packages/postcat-appimage)||
 |**postsack**|[postsack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postsack-bin)|[postsack-bin](https://aur.archlinux.org/packages/postsack-bin)||
