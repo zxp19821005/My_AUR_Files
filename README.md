@@ -40,7 +40,7 @@
 |**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**aniship**|[aniship-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-appimage)|[aniship-appimage](https://aur.archlinux.org/packages/aniship-appimage)||
-|**anklang**|[anklang-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-appimage)|[anklang-appimage](https://aur.archlinux.org/packages/anklang-appimage)||
+|**anklang**|[anklang-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-bin)|[anklang-bin](https://aur.archlinux.org/packages/anklang-bin)||
 |**antares-sql**|[antares-sql-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-appimage)<br>[antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-appimage](https://aur.archlinux.org/packages/antares-sql-appimage)<br>[antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
 |**anubias**|[anubias-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-appimage)|[anubias-appimage](https://aur.archlinux.org/packages/anubias-appimage)||
 |**ao**|[ao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)<br>[ao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)||AUR上未提交|
