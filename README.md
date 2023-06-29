@@ -515,7 +515,7 @@
 |**simple-web-server**|[simple-web-server-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server-appimage)|[simple-web-server-appimage](https://aur.archlinux.org/packages/simple-web-server-appimage)||
 |**sixgrid**|[sixgrid-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sixgrid-appimage)|[sixgrid-appimage](https://aur.archlinux.org/packages/sixgrid-appimage)||
 |**slack-on-keys**|[slack-on-keys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slack-on-keys-bin)|[slack-on-keys-bin](https://aur.archlinux.org/packages/slack-on-keys-bin)||
-|**sleek**|[sleek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-appimage)|[sleek-appimage](https://aur.archlinux.org/packages/sleek-appimage)||
+|**sleek**|[sleek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-bin)|[sleek-bin](https://aur.archlinux.org/packages/sleek-bin)||
 |**slic3r**|[slic3r-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-appimage)<br>[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-appimage](https://aur.archlinux.org/packages/slic3r-appimage)<br>[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**snapdrop**|[snapdrop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapdrop-appimage)|[snapdrop-appimage](https://aur.archlinux.org/packages/snapdrop-appimage)||
