@@ -360,7 +360,7 @@
 |**motrix**|[motrix-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-appimage)|[motrix-appimage](https://aur.archlinux.org/packages/motrix-appimage)||
 |**moyu**|[moyu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-appimage)|[moyu-appimage](https://aur.archlinux.org/packages/moyu-appimage)||
 |**mqttx**|[mqttx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-appimage)|[mqttx-appimage](https://aur.archlinux.org/packages/mqttx-appimage)||
-|**muffon**|[muffon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-appimage)<br>[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-appimage](https://aur.archlinux.org/packages/muffon-appimage)<br>[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
+|**muffon**|[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**museeks**|[museeks-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/museeks-appimage)|[museeks-appimage](https://aur.archlinux.org/packages/museeks-appimage)||
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
 |**music-you**|[music-you-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-you-appimage)|[music-you-appimage](https://aur.archlinux.org/packages/music-you-appimage)||
