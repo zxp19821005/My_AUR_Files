@@ -375,7 +375,7 @@
 |**nodeflow**|[nodeflow-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-appimage)|[nodeflow-appimage](https://aur.archlinux.org/packages/nodeflow-appimage)||
 |**no-fwl**|[no-fwl-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-appimage)|[no-fwl-appimage](https://aur.archlinux.org/packages/no-fwl-appimage)||
 |**noite**|[noite-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/noite-appimage)|[noite-appimage](https://aur.archlinux.org/packages/noite-appimage)||
-|**nora**|[nora-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-appimage)<br>[nora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-bin)|[nora-appimage](https://aur.archlinux.org/packages/nora-appimage)<br>[nora-bin](https://aur.archlinux.org/packages/nora-bin)||
+|**nora**|[nora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-bin)|[nora-bin](https://aur.archlinux.org/packages/nora-bin)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notes-nc**|[notes-nc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-appimage)|[notes-nc-appimage](https://aur.archlinux.org/packages/notes-nc-appimage)||
 |**notesnook**|[notesnook-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-appimage)|[notesnook-appimage](https://aur.archlinux.org/packages/notesnook-appimage)||
