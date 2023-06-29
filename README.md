@@ -332,7 +332,7 @@
 |**lvce**|[lvce-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-appimage)|[lvce-appimage](https://aur.archlinux.org/packages/lvce-appimage)||
 |**lyricistant**|[lyricistant-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-appimage)|[lyricistant-appimage](https://aur.archlinux.org/packages/lyricistant-appimage)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
-|**mapeo-desktop**|[mapeo-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[droppoint-mapeo-desktop](https://aur.archlinux.org/packages/mapeo-desktop-appimage)<br>[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
+|**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**marktext**|[marktext-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marktext-appimage)||AUR上未发布|
 |**marvin**|[marvin-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-appimage)|[marvin-appimage](https://aur.archlinux.org/packages/marvin-appimage)||
 |**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
