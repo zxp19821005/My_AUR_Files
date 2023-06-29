@@ -590,7 +590,7 @@
 |**turbowarp-desktop**|[turbowarp-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-appimage)||AUR上已删除|
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**typesense-dashboard**|[typesense-dashboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typesense-dashboard-bin)|[typesense-dashboard-bin](https://aur.archlinux.org/packages/typesense-dashboard-bin)||
-|**ubports-installer**|[ubports-installer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-appimage)|[ubports-installer-appimage](https://aur.archlinux.org/packages/ubports-installer-appimage)||
+|**ubports-installer**|[ubports-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-bin)|[ubports-installer-bin](https://aur.archlinux.org/packages/ubports-installer-bin)||
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
 |**uivonim**|[uivonim-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-appimage)|[uivonim-appimage](https://aur.archlinux.org/packages/uivonim-appimage)||
 |**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
