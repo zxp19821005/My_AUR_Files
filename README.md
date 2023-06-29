@@ -48,7 +48,6 @@
 |**apk-editor-studio**|[apk-editor-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-editor-studio-appimage)|[apk-editor-studio-appimage](https://aur.archlinux.org/packages/apk-editor-studio-appimage)||
 |**apk-installer**|[apk-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer-bin)|[apk-installer-bin](https://aur.archlinux.org/packages/apk-installer-bin)||
 |**apple-music-electron**|[apple-music-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-appimage)|[apple-music-electron-appimage](https://aur.archlinux.org/packages/apple-music-electron-appimage)||
-|**app-outlet**|[app-outlet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/app-outlet-appimage)|[app-outlet-appimage](https://aur.archlinux.org/packages/app-outlet-appimage)||
 |**armcord**|[armcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord-appimage)|[armcord-appimage](https://aur.archlinux.org/packages/armcord-appimage)||
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
 |**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
