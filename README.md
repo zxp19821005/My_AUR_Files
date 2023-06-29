@@ -336,7 +336,6 @@
 |**mediachips**|[mediachips-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-appimage)|[mediachips-appimage](https://aur.archlinux.org/packages/mediachips-appimage)||
 |**medict**|[medict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/medict-bin)|[medict-bin](https://aur.archlinux.org/packages/medict-bin)||
 |**melodie**|[melodie-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-appimage)|[melodie-appimage](https://aur.archlinux.org/packages/melodie-appimage)||
-|**memocast**|[memocast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/memocast-appimage)|[memocast-appimage](https://aur.archlinux.org/packages/memocast-appimage)||
 |**messages4desktop**|[messages4desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/messages4desktop-bin)|[messages4desktop-bin](https://aur.archlinux.org/packages/messages4desktop-bin)||
 |**meteor**|[meteor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/meteor-bin)|[meteor-bin](https://aur.archlinux.org/packages/meteor-bin)||
 |**metronome**|[metronome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/metronome-bin)|[metronome-bin](https://aur.archlinux.org/packages/metronome-bin)||
