@@ -364,7 +364,6 @@
 |**moonfm**|[moonfm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonfm-appimage)|[moonfm-appimage](https://aur.archlinux.org/packages/moonfm-appimage)||
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
-|**moosync**|[moosync-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moosync-appimage)|[moosync-appimage](https://aur.archlinux.org/packages/moosync-appimage)||
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
 |**motrix**|[motrix-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-appimage)|[motrix-appimage](https://aur.archlinux.org/packages/motrix-appimage)||
 |**moyu**|[moyu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-appimage)|[moyu-appimage](https://aur.archlinux.org/packages/moyu-appimage)||
