@@ -400,6 +400,7 @@
 |**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
 |**oh-mymd**|[oh-mymd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-appimage)<br>[oh-mymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-bin)|[oh-mymd-appimage](https://aur.archlinux.org/packages/oh-mymd-appimage)<br>[oh-mymd-bin](https://aur.archlinux.org/packages/oh-mymd-bin)||
+|**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-appimage)|[onekey-wallet-appimage](https://aur.archlinux.org/packages/onekey-wallet-appimage)||
 |**ooniprobe-desktop**|[ooniprobe-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ooniprobe-desktop-appimage)|[ooniprobe-desktop-appimage](https://aur.archlinux.org/packages/ooniprobe-desktop-appimage)||
 |**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
