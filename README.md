@@ -521,7 +521,6 @@
 |**snapdrop**|[snapdrop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapdrop-appimage)|[snapdrop-appimage](https://aur.archlinux.org/packages/snapdrop-appimage)||
 |**sofie-chef**|[sofie-chef-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-appimage)|[sofie-chef-appimage](https://aur.archlinux.org/packages/sofie-chef-appimage)||
 |**solarwallet**|[solarwallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solarwallet-bin)|[solarwallet-bin](https://aur.archlinux.org/packages/solarwallet-bin)||
-|**sonixd**|[sonixd-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-appimage)|[sonixd-appimage](https://aur.archlinux.org/packages/sonixd-appimage)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
 |**southweather**|[southweather-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-appimage)|[southweather-appimage](https://aur.archlinux.org/packages/southweather-appimage)||
 |**spacemesh**|[spacemesh-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spacemesh-appimage)|[spacemesh-appimage](https://aur.archlinux.org/packages/spacemesh-appimage)||
