@@ -656,7 +656,7 @@
 |**xunscore**|[xunscore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xunscore-bin)|[xunscore-bin](https://aur.archlinux.org/packages/xunscore-bin)||
 |**y2mp3**|[y2mp3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/y2mp3-appimage)|[y2mp3-appimage](https://aur.archlinux.org/packages/y2mp3-appimage)||
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
-|**yana**|[yana-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-appimage)<br>[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-appimage](https://aur.archlinux.org/packages/yana-appimage)<br>[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
+|**yana**|[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yank-note**|[yank-note-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-appimage)|[yank-note-appimage](https://aur.archlinux.org/packages/yank-note-appimage)||
 |**yaradio-yamusic**|[yaradio-yamusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yaradio-yamusic-appimage)|[yaradio-yamusic-appimage](https://aur.archlinux.org/packages/yaradio-yamusic-appimage)||
 |**yarle-evernote-to-md**|[yarle-evernote-to-md-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yarle-evernote-to-md-bin)|[yarle-evernote-to-md-bin](https://aur.archlinux.org/packages/yarle-evernote-to-md-bin)||
