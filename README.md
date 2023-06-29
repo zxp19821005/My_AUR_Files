@@ -517,7 +517,7 @@
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**snapdrop**|[snapdrop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapdrop-appimage)|[snapdrop-appimage](https://aur.archlinux.org/packages/snapdrop-appimage)||
 |**sofie-chef**|[sofie-chef-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-appimage)|[sofie-chef-appimage](https://aur.archlinux.org/packages/sofie-chef-appimage)||
-|**solarwallet**|[solarwallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solarwallet-bin)|[solarwallet-bin](https://aur.archlinux.org/packages/solarwallet-bin)||
+|**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
 |**southweather**|[southweather-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-appimage)|[southweather-appimage](https://aur.archlinux.org/packages/southweather-appimage)||
 |**spacemesh**|[spacemesh-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spacemesh-appimage)|[spacemesh-appimage](https://aur.archlinux.org/packages/spacemesh-appimage)||
