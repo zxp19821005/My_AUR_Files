@@ -608,7 +608,6 @@
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
-|**weakauras-companion**|[weakauras-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weakauras-companion-appimage)|[weakauras-companion-appimage](https://aur.archlinux.org/packages/weakauras-companion-appimage)||
 |**webcord**|[webcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcord-appimage)|[webcord-appimage](https://aur.archlinux.org/packages/webcord-appimage)||
 |**webdesktop**|[webdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webdesktop-bin)|[webdesktop-bin](https://aur.archlinux.org/packages/webdesktop-bin)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
