@@ -238,7 +238,7 @@
 |**goofcord**|[goofcord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/goofcord-appimage)|[goofcord-appimage](https://aur.archlinux.org/packages/goofcord-appimage)||
 |**godotpcktool**|[godotpcktool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godotpcktool-bin)|[godotpcktool-bin](https://aur.archlinux.org/packages/godotpcktool-bin)||
 |**google-assistant-unofficial-desktop-client**|[google-assistant-unofficial-desktop-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-appimage)<br>[google-assistant-unofficial-desktop-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-bin)|AUR上未提交<br>[google-assistant-unofficial-desktop-client-bin](https://aur.archlinux.org/packages/google-assistant-unofficial-desktop-client-bin)||
-|**google-docs**|[google-docs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-docs-appimage)|[google-docs-appimage](https://aur.archlinux.org/packages/google-docs-appimage)||
+|**google-docs**|[google-docs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-docs-bin)|[google-docs-bin](https://aur.archlinux.org/packages/google-docs-bin)||
 |**gopeed**|[gopeed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gopeed-bin)|[gopeed-bin](https://aur.archlinux.org/packages/gopeed-bin)||
 |**gorss**|[gorss](https://github.com/zxp19821005/My_AUR_Files/tree/main/gorss)|[gorss](https://aur.archlinux.org/packages/gorss)||
 |**goshs**|[goshs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goshs-bin)|[goshs-bin](https://aur.archlinux.org/packages/goshs-bin)||
