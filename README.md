@@ -152,7 +152,6 @@
 |**deltachat-desktop**|[deltachat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deltachat-desktop-bin)|[deltachat-desktop-bin](https://aur.archlinux.org/packages/deltachat-desktop-bin)||
 |**deskaide**|[deskaide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskaide-appimage)|[deskaide-appimage](https://aur.archlinux.org/packages/deskaide-appimage)||
 |**deskcal**|[deskcal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskcal-bin)|[deskcal-bin](https://aur.archlinux.org/packages/deskcal-bin)||
-|**deskreen**|[deskreen-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskreen-appimage)|[deskreen-appimage](https://aur.archlinux.org/packages/deskreen-appimage)||
 |**desktop-notifier**|[desktop-notifier-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-notifier-appimage)|[desktop-notifier-appimage](https://aur.archlinux.org/packages/desktop-notifier-appimage)||
 |**des-talk**|[des-talk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/des-talk-appimage)|[des-talk-appimage](https://aur.archlinux.org/packages/des-talk-appimage)||
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
