@@ -428,7 +428,6 @@
 |**polar**|[polar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-appimage)|[polar-appimage](https://aur.archlinux.org/packages/polar-appimage)||
 |**polyglot**|[polyglot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-appimage)|[polyglot-appimage](https://aur.archlinux.org/packages/polyglot-appimage)||
 |**pomota**|[pomota-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-appimage)|[pomota-appimage](https://aur.archlinux.org/packages/pomota-appimage)||
-|**pomotroid**|[pomotroid-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomotroid-appimage)|[pomotroid-appimage](https://aur.archlinux.org/packages/pomotroid-appimage)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
 |**positron**|[positron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-appimage)|[positron-appimage](https://aur.archlinux.org/packages/positron-appimage)||
 |**postbird**|[postbird-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-appimage)|[postbird-appimage](https://aur.archlinux.org/packages/postbird-appimage)||
