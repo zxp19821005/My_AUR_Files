@@ -266,7 +266,7 @@
 |**hathor-wallet**|[hathor-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hathor-wallet-appimage)|[hathor-wallet-appimage](https://aur.archlinux.org/packages/hathor-wallet-appimage)||
 |**headphones**|[headphones](https://github.com/zxp19821005/My_AUR_Files/tree/main/headphones)|[headphones](https://aur.archlinux.org/packages/headphones)||
 |**headset**|[headset-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/headset-bin)|[headset-bin](https://aur.archlinux.org/packages/headset-bin)||
-|**heimer**|[heimer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-appimage)|[heimer-appimage](https://aur.archlinux.org/packages/heimer-appimage)||
+|**heimer**|[heimer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-bin)|[heimer-bin](https://aur.archlinux.org/packages/heimer-bin)||
 |**helioslauncher**|[helioslauncher-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/helioslauncher-appimage)|[helioslauncher-appimage](https://aur.archlinux.org/packages/helioslauncher-appimage)||
 |**hexhoot**|[hexhoot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexhoot-bin)|[hexhoot-bin](https://aur.archlinux.org/packages/hexhoot-bin)||
 |**hiregpt**|[hiregpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hiregpt-bin)|[hiregpt-bin](https://aur.archlinux.org/packages/hiregpt-bin)||
