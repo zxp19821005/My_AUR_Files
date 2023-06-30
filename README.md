@@ -227,7 +227,7 @@
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)|[giada-appimage](https://aur.archlinux.org/packages/giada-appimage)||
-|**git-good**|[git-good-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-appimage)|[git-good-appimage](https://aur.archlinux.org/packages/git-good-appimage)||
+|**git-good**|[git-good-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-bin)|[git-good-bin](https://aur.archlinux.org/packages/git-good-bin)||
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
 |**glass**|[glass-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glass-appimage)|[glass-appimage](https://aur.archlinux.org/packages/glass-appimage)||
 |**glimboi**|[glimboi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glimboi-bin)|[glimboi-bin](https://aur.archlinux.org/packages/glimboi-bin)||
