@@ -418,7 +418,7 @@
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
-|**polar**|[polar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-appimage)|[polar-appimage](https://aur.archlinux.org/packages/polar-appimage)||
+|**polar**|[polar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-bin)|[polar-bin](https://aur.archlinux.org/packages/polar-bin)||
 |**polyglot**|[polyglot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-appimage)|[polyglot-appimage](https://aur.archlinux.org/packages/polyglot-appimage)||
 |**pomota**|[pomota-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-appimage)|[pomota-appimage](https://aur.archlinux.org/packages/pomota-appimage)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
