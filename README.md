@@ -493,7 +493,7 @@
 |**silence-speedup**|[silence-speedup-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/silence-speedup-bin)|[silence-speedup-bin](https://aur.archlinux.org/packages/silence-speedup-bin)||
 |**simple-icons**|[simple-icons](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-icons)|[simple-icons](https://aur.archlinux.org/packages/simple-icons)||
 |**simple-irc-client**|[simple-irc-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-irc-client-bin)|[simple-irc-client-bin](https://aur.archlinux.org/packages/simple-irc-client-bin)||
-|**simple-music**|[simple-music-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music-appimage)<br>[simple-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music-bin)|[simple-music-appimage](https://aur.archlinux.org/packages/simple-music-appimage)<br>[simple-music-bin](https://aur.archlinux.org/packages/simple-music-bin)||
+|**simple-music**|[simple-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music-bin)|[simple-music-bin](https://aur.archlinux.org/packages/simple-music-bin)||
 |**simplenote**|[simplenote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/simplenote-appimage)|[simplenote-appimage](https://aur.archlinux.org/packages/simplenote-appimage)||
 |**simple-web-server**|[simple-web-server-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server-appimage)|[simple-web-server-appimage](https://aur.archlinux.org/packages/simple-web-server-appimage)||
 |**sixgrid**|[sixgrid-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sixgrid-appimage)|[sixgrid-appimage](https://aur.archlinux.org/packages/sixgrid-appimage)||
