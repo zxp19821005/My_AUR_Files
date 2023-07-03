@@ -33,6 +33,7 @@
 |**alpaca-electron**|[alpaca-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-bin)|[alpaca-electron-bin](https://aur.archlinux.org/packages/alpaca-electron-bin)||
 |**alpha-badger**|[alpha-badger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpha-badger-bin)|[alpha-badger-bin](https://aur.archlinux.org/packages/alpha-badger-bin)||
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
+|**alspotron**|[alspotron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alspotron-bin)|[alspotron-bin](https://aur.archlinux.org/packages/alspotron-bin)||
 |**altair**|[altair-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-appimage)<br>[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-appimage](https://aur.archlinux.org/packages/altair-appimage)<br>[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**alva**|[alva-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/alva-appimage)|[alva-appimage](https://aur.archlinux.org/packages/alva-appimage)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
