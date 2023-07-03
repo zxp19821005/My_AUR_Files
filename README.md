@@ -207,6 +207,7 @@
 |**ficus-electron**|[ficus-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-electron-bin)|[ficus-electron-bin](https://aur.archlinux.org/packages/ficus-electron-bin)||
 |**fifo**|[fifo-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-appimage)|[fifo-browser-appimage](https://aur.archlinux.org/packages/fifo-browser-appimage)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
+|**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
 |**firefly-desktop**|[firefly-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-desktop-appimage)|[firefly-desktop-appimage](https://aur.archlinux.org/packages/firefly-desktop-appimage)||
 |**android-toolkit**|[android-toolkit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-toolkit-appimage)|[android-toolkit-appimage](https://aur.archlinux.org/packages/android-toolkit-appimage)||
 |**fishing-funds**|[fishing-funds-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-appimage)|[fishing-funds-appimage](https://aur.archlinux.org/packages/fishing-funds-appimage)||
