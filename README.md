@@ -553,6 +553,7 @@
 |**thorium**|[thorium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-appimage)|[thorium-appimage](https://aur.archlinux.org/packages/thorium-appimage)||
 |**threema-for-desktop**|[threema-for-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-appimage)|[threema-for-desktop-appimage](https://aur.archlinux.org/packages/threema-for-desktop-appimage)||
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
+|**tidgi**|[tidgi-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tidgi-appimage)|[tidgi-appimage](https://aur.archlinux.org/packages/tidgi-appimage)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**time-to-leave**|[time-to-leave-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/time-to-leave-bin)|[time-to-leave-bin](https://aur.archlinux.org/packages/time-to-leave-bin)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
