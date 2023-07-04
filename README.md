@@ -100,6 +100,7 @@
 |**chatgptx**|[chatgptx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-appimage)|[chatgptx-appimage](https://aur.archlinux.org/packages/chatgptx-appimage)||
 |**chatpad-ai**|[chatpad-ai-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-appimage)|[chatpad-ai-appimage](https://aur.archlinux.org/packages/chatpad-ai-appimage)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
+|**chinesechesscontrol**|[chinesechesscontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechesscontrol-bin)|[chinesechesscontrol-bin](https://aur.archlinux.org/packages/chinesechesscontrol-bin)||
 |**chord**|[chord-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-appimage)<br>[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-appimage](https://aur.archlinux.org/packages/chord-appimage)<br>[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
 |**chrolog**|[chrolog-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-appimage)<br>[chrolog-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-bin)|[chrolog-appimage](https://aur.archlinux.org/packages/chrolog-appimage)<br>[chrolog-bin](https://aur.archlinux.org/packages/chrolog-bin)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
