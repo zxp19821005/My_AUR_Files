@@ -182,6 +182,7 @@
 |**electron-tools**|[electron-tools-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-tools-appimage)|[electron-tools-appimage](https://aur.archlinux.org/packages/electron-tools-appimage)||
 |**electron-utils**|[electron-utils-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-utils-appimage)|[electron-utils-appimage](https://aur.archlinux.org/packages/electron-utils-appimage)||
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
+|**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
 |**envkey**|[envkey-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-appimage)|[envkey-appimage](https://aur.archlinux.org/packages/envkey-appimage)||
