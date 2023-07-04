@@ -114,6 +114,7 @@
 |**colorpicker**|[colorpicker-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-appimage)|[colorpicker-appimage](https://aur.archlinux.org/packages/colorpicker-appimage)||
 |**commas**|[commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin)|[commas-bin](https://aur.archlinux.org/packages/commas-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
+|**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
 |**copytranslator**|[copytranslator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-appimage)|[copytranslator-appimage](https://aur.archlinux.org/packages/copytranslator-appimage)||
 |**cozydrive**|[cozydrive-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cozydrive-appimage)|[cozydrive-appimage](https://aur.archlinux.org/packages/cozydrive-appimage)||
