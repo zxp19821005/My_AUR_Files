@@ -464,6 +464,7 @@
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
 |**rambox**|[rambox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/rambox-appimage)|[rambox-appimage](https://aur.archlinux.org/packages/rambox-appimage)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin) <br> [rats-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-appimage)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin) <br> [rats-search-appimage](https://aur.archlinux.org/packages/rats-search-appimage)||
+|**realm-studio**|[realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**redisfish**|[redisfish-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisfish-appimage)|[redisfish-appimage](https://aur.archlinux.org/packages/redisfish-appimage)||
 |**redis-gui**|[redis-gui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-appimage)|[redis-gui-appimage](https://aur.archlinux.org/packages/redis-gui-appimage)||
 |**redis-viewer**|[redis-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-bin)|[redis-viewer-bin](https://aur.archlinux.org/packages/redis-viewer-bin)||
