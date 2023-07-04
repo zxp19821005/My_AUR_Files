@@ -35,6 +35,7 @@
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
 |**alspotron**|[alspotron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alspotron-bin)|[alspotron-bin](https://aur.archlinux.org/packages/alspotron-bin)||
 |**altair**|[altair-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-appimage)<br>[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-appimage](https://aur.archlinux.org/packages/altair-appimage)<br>[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
+|**altus**|[altus](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus)|[altus](https://aur.archlinux.org/packages/altus)||
 |**alva**|[alva-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/alva-appimage)|[alva-appimage](https://aur.archlinux.org/packages/alva-appimage)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
 |**android-knot**|[android-knot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-appimage)|[android-knot-appimage](https://aur.archlinux.org/packages/android-knot-appimage)||
@@ -541,7 +542,7 @@
 |**structure**|[structure-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/structure-appimage)|[structure-appimage](https://aur.archlinux.org/packages/structure-appimage)||
 |**subtitler**|[subtitler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-appimage)|[subtitler-appimage](https://aur.archlinux.org/packages/subtitler-appimage)||
 |**subtitle-translator-electron**|[subtitle-translator-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-appimage)<br>[subtitle-translator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-bin)|[subtitle-translator-electron-appimage](https://aur.archlinux.org/packages/subtitle-translator-electron-appimage)<br>[subtitle-translator-electron-bin](https://aur.archlinux.org/packages/subtitle-translator-electron-bin)||
-|**sunbible**|[sunbible-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sunbible-bin)|[sunbible-bin](https://aur.archlinux.org/packages/sunbible-bin)||
+|**sunbible**|[sunbible](https://github.com/zxp19821005/My_AUR_Files/tree/main/sunbible)|[sunbible](https://aur.archlinux.org/packages/sunbible)||
 |**supersonic-desktop**|[supersonic-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supersonic-desktop-bin)|[supersonic-desktop-bin](https://aur.archlinux.org/packages/supersonic-desktop-bin)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**svelte-electron-boilerplate**|[svelte-electron-boilerplate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/svelte-electron-boilerplate-bin)|[svelte-electron-boilerplate-bin](https://aur.archlinux.org/packages/svelte-electron-boilerplate-bin)||
