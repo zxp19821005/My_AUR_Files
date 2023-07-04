@@ -196,6 +196,7 @@
 |**fairshare**|[fairshare-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fairshare-appimage)|[fairshare-appimage](https://aur.archlinux.org/packages/fairshare-appimage)||
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
 |**fastfetch**|[fastfetch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastfetch-bin)|[fastfetch-bin](https://aur.archlinux.org/packages/fastfetch-bin)||
+|**favicon-generator**|[favicon-generator](https://github.com/zxp19821005/My_AUR_Files/tree/main/favicon-generator)|[favicon-generator](https://aur.archlinux.org/packages/favicon-generator)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**fclash**|[fclash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fclash-bin)|[fclash-bin](https://aur.archlinux.org/packages/fclash-bin)||
 |**fdc3-sail**|[fdc3-sail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-appimage)|[fdc3-sail-appimage](https://aur.archlinux.org/packages/fdc3-sail-appimage)||
