@@ -186,7 +186,6 @@
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
 |**envkey**|[envkey-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-appimage)|[envkey-appimage](https://aur.archlinux.org/packages/envkey-appimage)||
 |**epherome**|[epherome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epherome-bin)|[epherome-bin](https://aur.archlinux.org/packages/epherome-bin)||
-|**epub-reader**|[epub-reader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader-appimage)|[epub-reader-appimage](https://aur.archlinux.org/packages/epub-reader-appimage)||
 |**etherealengine-control-center**|[etherealengine-control-center-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-appimage)|[etherealengine-control-center-appimage](https://aur.archlinux.org/packages/etherealengine-control-center-appimage)||
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
 |**eudic-ting-en**|[eudic-ting-en-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-ting-en-appimage)|[eudic-ting-en-appimage](https://aur.archlinux.org/packages/eudic-ting-en-appimage)||
