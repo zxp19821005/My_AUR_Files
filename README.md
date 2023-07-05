@@ -176,7 +176,6 @@
 |**electron-egg**|[electron-egg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-egg-bin)|[electron-egg-bin](https://aur.archlinux.org/packages/electron-egg-bin)||
 |**electron-gpt**|[electron-gpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-gpt-git)|[electron-gpt-git](https://aur.archlinux.org/packages/electron-gpt-git)||
 |**electronim**|[electronim-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronim-appimage)|[electronim-appimage](https://aur.archlinux.org/packages/electronim-appimage)||
-|**electron-mail**|[electron-mail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-mail-appimage)|[electron-mail-appimage](https://aur.archlinux.org/packages/electron-mail-appimage)||
 |**electron-pdf-viewer**|[electron-pdf-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-bin)|[electron-pdf-viewer-bin](https://aur.archlinux.org/packages/electron-pdf-viewer-bin)||
 |**electronreact**|[electronreact-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronreact-appimage)|[electronreact-appimage](https://aur.archlinux.org/packages/electronreact-appimage)||
 |**electron-react-boilerplate**|[electron-react-boilerplate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-react-boilerplate-bin)|[electron-react-boilerplate-bin](https://aur.archlinux.org/packages/electron-react-boilerplate-bin)||
