@@ -355,6 +355,7 @@
 |**microsoft-loop**|[unoffical-microsoft-loop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/microsoft-loop-pake)|[unoffical-microsoft-loop-appimage](https://aur.archlinux.org/packages/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://aur.archlinux.org/packages/microsoft-loop-pake)||
 |**migasfree-play**|[migasfree-play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/migasfree-play-bin)|[migasfree-play-bin](https://aur.archlinux.org/packages/migasfree-play-bin)||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
+|**minify**|[minify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minify-bin)|[minify-bin](https://aur.archlinux.org/packages/minify-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
 |**miteiru**|[miteiru-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-appimage)|[miteiru-appimage](https://aur.archlinux.org/packages/miteiru-appimage)||
 |**mizar**|[mizar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-appimage)|[mizar-appimage](https://aur.archlinux.org/packages/mizar-appimage)||
