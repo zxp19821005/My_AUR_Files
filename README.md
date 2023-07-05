@@ -179,7 +179,6 @@
 |**electron-pdf-viewer**|[electron-pdf-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-bin)|[electron-pdf-viewer-bin](https://aur.archlinux.org/packages/electron-pdf-viewer-bin)||
 |**electronreact**|[electronreact-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronreact-appimage)|[electronreact-appimage](https://aur.archlinux.org/packages/electronreact-appimage)||
 |**electron-react-boilerplate**|[electron-react-boilerplate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-react-boilerplate-bin)|[electron-react-boilerplate-bin](https://aur.archlinux.org/packages/electron-react-boilerplate-bin)||
-|**electron-tools**|[electron-tools-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-tools-appimage)|[electron-tools-appimage](https://aur.archlinux.org/packages/electron-tools-appimage)||
 |**electron-utils**|[electron-utils-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-utils-appimage)|[electron-utils-appimage](https://aur.archlinux.org/packages/electron-utils-appimage)||
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
