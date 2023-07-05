@@ -416,7 +416,6 @@
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-appimage)|[openhome-appimage](https://aur.archlinux.org/packages/openhome-appimage)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
-|**open-video-downloader**|[open-video-downloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-video-downloader-appimage)|[open-video-downloader-appimage](https://aur.archlinux.org/packages/open-video-downloader-appimage)||
 |**orature**|[orature-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orature-bin)|[orature-bin](https://aur.archlinux.org/packages/orature-bin)||
 |**orbitnx**|[orbitnx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orbitnx-bin)|[orbitnx-bin](https://aur.archlinux.org/packages/orbitnx-bin)||
 |**ostara**|[ostara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ostara-appimage)|[ostara-appimage](https://aur.archlinux.org/packages/ostara-appimage)||
