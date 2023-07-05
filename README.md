@@ -558,7 +558,7 @@
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||
 |**tesler**|[tesler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tesler-appimage)|[tesler-appimage](https://aur.archlinux.org/packages/tesler-appimage)||
-|**tess**|[tess-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tess-appimage)<br>[tess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tess-bin)|[tess-appimage](https://aur.archlinux.org/packages/tess-appimage)<br>[tess-bin](https://aur.archlinux.org/packages/tess-bin)||
+|**tess**|[tess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tess-bin)|[tess-bin](https://aur.archlinux.org/packages/tess-bin)||
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
 |**tfiletransfer**|[tfiletransfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tfiletransfer-bin)|[tfiletransfer-bin](https://aur.archlinux.org/packages/tfiletransfer-bin)||
 |**thedesk**|[thedesk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-bin)|[thedesk-bin](https://aur.archlinux.org/packages/thedesk-bin)||
