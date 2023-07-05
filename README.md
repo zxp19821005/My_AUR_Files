@@ -581,6 +581,7 @@
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**timecop**|[timecop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timecop-bin)|[timecop-bin](https://aur.archlinux.org/packages/timecop-bin)||
 |**time-to-leave**|[time-to-leave-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/time-to-leave-bin)|[time-to-leave-bin](https://aur.archlinux.org/packages/time-to-leave-bin)||
+|**timetrace**|[timetrace-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timetrace-bin)|[timetrace-bin](https://aur.archlinux.org/packages/timetrace-bin)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)||
