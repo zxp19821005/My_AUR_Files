@@ -168,7 +168,6 @@
 |**drawio-desktop-electron**|[drawio-desktop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-electron-bin)|[drawio-desktop-electron-bin](https://aur.archlinux.org/packages/drawio-desktop-electron-bin)||
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
 |**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
-|**duskplayer**|[duskplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-appimage)|[duskplayer-appimage](https://aur.archlinux.org/packages/duskplayer-appimage)||
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**ecency-surfer**|[ecency-surfer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-appimage)|[ecency-surfer-appimage](https://aur.archlinux.org/packages/ecency-surfer-appimage)||
