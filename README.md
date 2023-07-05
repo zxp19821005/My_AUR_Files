@@ -676,7 +676,6 @@
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict-bin)|[youdao-dict-bin](https://aur.archlinux.org/packages/youdao-dict-bin)||
 |**youku-uos-electron**|[youku-uos-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-uos-electron-bin)|[youku-uos-electron-bin](https://aur.archlinux.org/packages/youku-uos-electron-bin)||
-|**youtube-downloader**|[youtube-downloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-downloader-appimage)|[youtube-downloader-appimage](https://aur.archlinux.org/packages/youtube-downloader-appimage)||
 |**youtube-smarttv-emu**|[youtube-smarttv-emu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-smarttv-emu-bin)|[youtube-smarttv-emu-bin](https://aur.archlinux.org/packages/youtube-smarttv-emu-bin)||
 |**ytdownloader**|[ytdownloader-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdownloader-appimage)|[ytdownloader-appimage](https://aur.archlinux.org/packages/ytdownloader-appimage)||
 |**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage)<br>[yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage)<br>[yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
