@@ -40,7 +40,7 @@
 |**antares-sql**|[antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
 |**anubias**|[anubias-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-bin)|[anubias-bin](https://aur.archlinux.org/packages/anubias-bin)||
 |**ao**|[ao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)<br>[ao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)||AUR上未提交|
-|**apifox**|[apifox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-appimage)<br>[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-appimage](https://aur.archlinux.org/packages/apifox-appimage)<br>[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
+|**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-editor-studio**|[apk-editor-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-editor-studio-appimage)|[apk-editor-studio-appimage](https://aur.archlinux.org/packages/apk-editor-studio-appimage)||
 |**apk-installer**|[apk-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer-bin)|[apk-installer-bin](https://aur.archlinux.org/packages/apk-installer-bin)||
 |**apple-music-electron**|[apple-music-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-appimage)|[apple-music-electron-appimage](https://aur.archlinux.org/packages/apple-music-electron-appimage)||
