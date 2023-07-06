@@ -606,7 +606,6 @@
 |**uyou-todo**|[uyou-todo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-appimage)|[uyou-todo-appimage](https://aur.archlinux.org/packages/uyou-todo-appimage)||
 |**vagrant-manager**|[vagrant-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-appimage)|[vagrant-manager-appimage](https://aur.archlinux.org/packages/vagrant-manager-appimage)||
 |**vencord-desktop**|[vencord-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vencord-desktop-bin)|[vencord-desktop-bin](https://aur.archlinux.org/packages/vencord-desktop-bin)||
-|**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**vieb**|[vieb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb-appimage)|[vieb-appimage](https://aur.archlinux.org/packages/vieb-appimage)||
 |**vigad**|[vigad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-appimage)|[vigad-appimage](https://aur.archlinux.org/packages/vigad-appimage)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||
