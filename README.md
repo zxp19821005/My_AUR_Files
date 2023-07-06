@@ -387,7 +387,6 @@
 |**nomino**|[nomino-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nomino-bin)|[nomino-bin](https://aur.archlinux.org/packages/nomino-bin)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notes-nc**|[notes-nc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-appimage)|[notes-nc-appimage](https://aur.archlinux.org/packages/notes-nc-appimage)||
-|**notesnook**|[notesnook-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-appimage)|[notesnook-appimage](https://aur.archlinux.org/packages/notesnook-appimage)||
 |**nteract**|[nteract-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nteract-appimage)|[nteract-appimage](https://aur.archlinux.org/packages/nteract-appimage)||
 |**ntrack**|[ntrack-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-appimage)|[ntrack-appimage](https://aur.archlinux.org/packages/ntrack-appimage)||
 |**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
