@@ -37,8 +37,8 @@
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**aniship**|[aniship-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-bin)|[aniship-bin](https://aur.archlinux.org/packages/aniship-bin)||
 |**anklang**|[anklang-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-bin)|[anklang-bin](https://aur.archlinux.org/packages/anklang-bin)||
-|**antares-sql**|[antares-sql-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-appimage)<br>[antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-appimage](https://aur.archlinux.org/packages/antares-sql-appimage)<br>[antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
-|**anubias**|[anubias-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-appimage)|[anubias-appimage](https://aur.archlinux.org/packages/anubias-appimage)||
+|**antares-sql**|[antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
+|**anubias**|[anubias-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-bin)|[anubias-bin](https://aur.archlinux.org/packages/anubias-bin)||
 |**ao**|[ao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)<br>[ao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)||AUR上未提交|
 |**apifox**|[apifox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-appimage)<br>[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-appimage](https://aur.archlinux.org/packages/apifox-appimage)<br>[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-editor-studio**|[apk-editor-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-editor-studio-appimage)|[apk-editor-studio-appimage](https://aur.archlinux.org/packages/apk-editor-studio-appimage)||
