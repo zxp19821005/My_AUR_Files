@@ -31,7 +31,6 @@
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
 |**altair**|[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**altus**|[altus](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus)|[altus](https://aur.archlinux.org/packages/altus)||
-|**alva**|[alva-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/alva-appimage)|[alva-appimage](https://aur.archlinux.org/packages/alva-appimage)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
 |**android-knot**|[android-knot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-appimage)|[android-knot-appimage](https://aur.archlinux.org/packages/android-knot-appimage)||
 |**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
