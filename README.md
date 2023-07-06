@@ -31,7 +31,6 @@
 |**alpaca-electron**|[alpaca-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-bin)|[alpaca-electron-bin](https://aur.archlinux.org/packages/alpaca-electron-bin)||
 |**alpha-badger**|[alpha-badger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpha-badger-bin)|[alpha-badger-bin](https://aur.archlinux.org/packages/alpha-badger-bin)||
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
-|**alspotron**|[alspotron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alspotron-bin)|[alspotron-bin](https://aur.archlinux.org/packages/alspotron-bin)||
 |**altair**|[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**altus**|[altus](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus)|[altus](https://aur.archlinux.org/packages/altus)||
 |**alva**|[alva-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/alva-appimage)|[alva-appimage](https://aur.archlinux.org/packages/alva-appimage)||
