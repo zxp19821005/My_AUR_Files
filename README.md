@@ -374,6 +374,7 @@
 |**neanes**|[neanes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-appimage)|[neanes-appimage](https://aur.archlinux.org/packages/neanes-appimage)||
 |**netpad**|[netpad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-appimage)<br>[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-appimage](https://aur.archlinux.org/packages/netpad-appimage)<br>[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
+|**next-library**|[next-library-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/next-library-bin)|[next-library-bin](https://aur.archlinux.org/packages/next-library-bin)||
 |**nexus-wallet**|[nexus-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nexus-wallet-appimage)|[nexus-wallet-appimage](https://aur.archlinux.org/packages/nexus-wallet-appimage)||
 |**nft-tool**|[nft-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-tool-bin)|[nft-tool-bin](https://aur.archlinux.org/packages/nft-tool-bin)||
 |**nft-viewer**|[nft-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-viewer-bin)|[nft-viewer-bin](https://aur.archlinux.org/packages/nft-viewer-bin)||
