@@ -5,7 +5,7 @@
 |**3fa**|[3fa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/3fa-bin)|[3fa-bin](https://aur.archlinux.org/packages/3fa-bin)||
 |**acodec**|[acodec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/acodec-bin)|[acodec-bin](https://aur.archlinux.org/packages/acodec-bin)||
 |**adbmanage**|[adbmanager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adbmanager-bin)|[adbmanager-bin](https://aur.archlinux.org/packages/adbmanager-bin)||
-|**addressbook-desktop**|[addressbook-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/addressbook-desktop-bin)|[addressbook-desktop-bin](https://aur.archlinux.org/packages/addressbook-desktop-bin)||
+|**addressbook-desktop**|[addressbook-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/addressbook-desktop)|[addressbook-desktop](https://aur.archlinux.org/packages/addressbook-desktop)||
 |**advanced-passgen**|[advanced-passgen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-bin)|[advanced-passgen-bin](https://aur.archlinux.org/packages/advanced-passgen-bin)||
 |**aechoterm**|[aechoterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aechoterm-bin)|[aechoterm-bin](https://aur.archlinux.org/packages/aechoterm-bin)||
 |**aeon**|[aeon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aeon-bin)|[aeon-bin](https://aur.archlinux.org/packages/aeon-bin)||
