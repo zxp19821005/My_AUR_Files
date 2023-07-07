@@ -76,7 +76,7 @@
 |**brs-emu-app**|[brs-emu-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-emu-app-bin)|[brs-emu-app-bin](https://aur.archlinux.org/packages/brs-emu-app-bin)||
 |**bssenglish**|[bssenglish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bssenglish-bin)|[bssenglish-bin](https://aur.archlinux.org/packages/bssenglish-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
-|**buttercup-desktop**|[buttercup-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-appimage)|[buttercup-desktop-appimage](https://aur.archlinux.org/packages/buttercup-desktop-appimage)||
+|**buttercup-desktop**|[buttercup-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-bin)|[buttercup-desktop-bin](https://aur.archlinux.org/packages/buttercup-desktop-bin)||
 |**calamus**|[calamus-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/calamus-appimage)|[calamus-appimage](https://aur.archlinux.org/packages/calamus-appimage)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
