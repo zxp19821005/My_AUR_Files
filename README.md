@@ -80,9 +80,9 @@
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
-|**casterr**|[casterr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/casterr-appimage)|[casterr-appimage](https://aur.archlinux.org/packages/casterr-appimage)||
+|**casterr**|[casterr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/casterr-bin)|[casterr-bin](https://aur.archlinux.org/packages/casterr-bin)||
 |**certmanager-uos**|[certmanager-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/certmanager-uos)|[certmanager-uos](https://aur.archlinux.org/packages/certmanager-uos)||
-|**chain-desktop-wallet**|[chain-desktop-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-appimage)|[chain-desktop-wallet-appimage](https://aur.archlinux.org/packages/chain-desktop-wallet-appimage)||
+|**chain-desktop-wallet**|[chain-desktop-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-bin)|[chain-desktop-wallet-bin](https://aur.archlinux.org/packages/chain-desktop-wallet-bin)||
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
 |**chatall**|[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)|[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)||
 |**chat-gpt**|[chat-gpt-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chat-gpt-appimage)|[chat-gpt-appimage](https://aur.archlinux.org/packages/chat-gpt-appimage)||
