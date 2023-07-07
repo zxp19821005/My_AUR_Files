@@ -160,7 +160,6 @@
 |**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
-|**ecency-surfer**|[ecency-surfer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-appimage)|[ecency-surfer-appimage](https://aur.archlinux.org/packages/ecency-surfer-appimage)||
 |**edex-ui**|[edex-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-appimage)||个人自用版|
 |**electron-egg**|[electron-egg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-egg-bin)|[electron-egg-bin](https://aur.archlinux.org/packages/electron-egg-bin)||
 |**electron-gpt**|[electron-gpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-gpt-git)|[electron-gpt-git](https://aur.archlinux.org/packages/electron-gpt-git)||
