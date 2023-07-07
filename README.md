@@ -42,7 +42,7 @@
 |**ao**|[ao-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)<br>[ao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-appimage)||AUR上未提交|
 |**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
-|**apple-music-electron**|[apple-music-electron-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-appimage)|[apple-music-electron-appimage](https://aur.archlinux.org/packages/apple-music-electron-appimage)||
+|**apple-music-electron**|[apple-music-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-bin)|[apple-music-electron-bin](https://aur.archlinux.org/packages/apple-music-electron-bin)||
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
 |**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
 |**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
