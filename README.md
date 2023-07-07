@@ -73,7 +73,7 @@
 |**botclient**|[botclient-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/botclient-appimage)|[botclient-appimage](https://aur.archlinux.org/packages/botclient-appimage)||
 |**botframework-emulator**|[botframework-emulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/botframework-emulator-appimage)|[botframework-emulator-appimage](https://aur.archlinux.org/packages/botframework-emulator-appimage)||
 |**browser360**|[browser360-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/browser360-bin)|[browser360-bin](https://aur.archlinux.org/packages/browser360-bin)||
-|**brs-emu-app**|[brs-emu-app-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-emu-app-appimage)|[brs-emu-app-appimage](https://aur.archlinux.org/packages/brs-emu-app-appimage)||
+|**brs-emu-app**|[brs-emu-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-emu-app-bin)|[brs-emu-app-bin](https://aur.archlinux.org/packages/brs-emu-app-bin)||
 |**bssenglish**|[bssenglish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bssenglish-bin)|[bssenglish-bin](https://aur.archlinux.org/packages/bssenglish-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
 |**buttercup-desktop**|[buttercup-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-appimage)|[buttercup-desktop-appimage](https://aur.archlinux.org/packages/buttercup-desktop-appimage)||
