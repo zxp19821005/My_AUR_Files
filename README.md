@@ -90,7 +90,7 @@
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
 |**chinesechesscontrol**|[chinesechesscontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechesscontrol-bin)|[chinesechesscontrol-bin](https://aur.archlinux.org/packages/chinesechesscontrol-bin)||
 |**chord**|[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
-|**chrolog**|[chrolog-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-appimage)<br>[chrolog-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-bin)|[chrolog-appimage](https://aur.archlinux.org/packages/chrolog-appimage)<br>[chrolog-bin](https://aur.archlinux.org/packages/chrolog-bin)||
+|**chrolog**|[chrolog-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-bin)|[chrolog-bin](https://aur.archlinux.org/packages/chrolog-bin)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
 |**clamav-desktop**|[clamav-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clamav-desktop-bin)|[clamav-desktop-bin](https://aur.archlinux.org/packages/clamav-desktop-bin)||
 |**clashr-auto**|[clashr-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashr-auto-bin)|[clashr-auto-bin](https://aur.archlinux.org/packages/clashr-auto-bin)||
