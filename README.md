@@ -62,7 +62,6 @@
 |**before-dawn**|[before-dawn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/before-dawn-bin)|[before-dawn-bin](https://aur.archlinux.org/packages/before-dawn-bin)||
 |**benchworx**|[benchworx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/benchworx-bin)|[benchworx-bin](https://aur.archlinux.org/packages/benchworx-bin)||
 |**better-osu-skills**|[better-osu-skills-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/better-osu-skills-appimage)|[better-osu-skills-appimage](https://aur.archlinux.org/packages/better-osu-skills-appimage)||
-|**bilibili**|[bilibili-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-appimage)|[bilibili-appimage](https://aur.archlinux.org/packages/bilibili-appimage)||
 |**bilibilivideodownload**|[bilibilivideodownload-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-appimage)|[bilibilivideodownload-appimage](https://aur.archlinux.org/packages/bilibilivideodownload-appimage)||
 |**blockbench**|[blockbench-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockbench-appimage)|[blockbench-appimage](https://aur.archlinux.org/packages/blockbench-appimage)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
