@@ -45,7 +45,6 @@
 |**apple-music-electron**|[apple-music-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-bin)|[apple-music-electron-bin](https://aur.archlinux.org/packages/apple-music-electron-bin)||
 |**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
 |**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
-|**audacity**|[audacity-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/audacity-appimage)||AUR上已删除|
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
 |**autocut-client**|[autocut-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-client-bin)|[autocut-client-bin](https://aur.archlinux.org/packages/autocut-client-bin)||
