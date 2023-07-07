@@ -306,7 +306,7 @@
 |**kui**|[kui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kui-bin)|[kui-bin](https://aur.archlinux.org/packages/kui-bin)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
 |**lagrange**|[lagrange-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lagrange-appimage)|[lagrange-appimage](https://aur.archlinux.org/packages/lagrange-appimage)||
-|**laradumps**|[laradumps-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-appimage)|[laradumps-appimage](https://aur.archlinux.org/packages/laradumps-appimage)||
+|**laradumps**|[laradumps-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-bin)|[laradumps-bin](https://aur.archlinux.org/packages/laradumps-bin)||
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
 |**leapp**|[leapp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/leapp-appimage)|[leapp-appimage](https://aur.archlinux.org/packages/leapp-appimage)||
 |**liground**|[liground-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-appimage)|[liground-appimage](https://aur.archlinux.org/packages/liground-appimage)||
