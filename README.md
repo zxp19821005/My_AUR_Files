@@ -110,7 +110,7 @@
 |**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile)|[datefile](https://aur.archlinux.org/packages/datefile)||
-|**dbgate**|[dbgate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-appimage)|[dbgate-appimage](https://aur.archlinux.org/packages/dbgate-appimage)||
+|**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin)||
 |**deckboard**|[deckboard-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-appimage)|[deckboard-appimage](https://aur.archlinux.org/packages/deckboard-appimage)||
 |**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
 |**deepin-wine-adrive**|[deepin-wine-adrive](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-adrive)|[deepin-wine-adrive](https://aur.archlinux.org/packages/deepin-wine-adrive)||
