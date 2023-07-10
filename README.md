@@ -104,7 +104,6 @@
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
 |**copytranslator**|[copytranslator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-appimage)|[copytranslator-appimage](https://aur.archlinux.org/packages/copytranslator-appimage)||
-|**cozydrive**|[cozydrive-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cozydrive-appimage)|[cozydrive-appimage](https://aur.archlinux.org/packages/cozydrive-appimage)||
 |**cpeditor**|[cpeditor-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-appimage)|[cpeditor-appimage](https://aur.archlinux.org/packages/cpeditor-appimage)||
 |**crankshaft**|[crankshaft-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-appimage)|[crankshaft-appimage](https://aur.archlinux.org/packages/crankshaft-appimage)||
 |**csbooks-electron**|[csbooks-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-electron-bin)|[csbooks-electron-bin](https://aur.archlinux.org/packages/csbooks-electron-bin)||
