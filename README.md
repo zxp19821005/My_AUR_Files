@@ -259,7 +259,7 @@
 |**hoptodesk**|[hoptodesk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-appimage)|[hoptodesk-appimage](https://aur.archlinux.org/packages/hoptodesk-appimage)||
 |**horanghill**|[horanghill-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/horanghill-bin)|[horanghill-bin](https://aur.archlinux.org/packages/horanghill-bin)||
 |**houdoku**|[houdoku-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku-appimage)|[houdoku-appimage](https://aur.archlinux.org/packages/houdoku-appimage)||
-|**houdunren-camera-electron**|[houdunren-camera-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdunren-camera-electron-bin)|[houdunren-camera-electron-bin](https://aur.archlinux.org/packages/houdunren-camera-electron-bin)||
+|**houdunren-camera**|[houdunren-camera-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdunren-camera-bin)|[houdunren-camera-bin](https://aur.archlinux.org/packages/houdunren-camera-bin)||
 |**hoverfly**|[hoverfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoverfly-bin)|[hoverfly-bin](https://aur.archlinux.org/packages/hoverfly-bin)||
 |**htbrowser**|[htbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/htbrowser-bin)|[htbrowser-bin](https://aur.archlinux.org/packages/htbrowser-bin)||
 |**huelectron**|[huelectron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/huelectron-bin)|[huelectron-bin](https://aur.archlinux.org/packages/huelectron-bin)||
