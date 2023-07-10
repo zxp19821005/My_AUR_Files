@@ -279,7 +279,7 @@
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
 |**issie**|[issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie-bin](https://aur.archlinux.org/packages/issie-bin)||
 |**japreader**|[japreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/japreader-bin)|[japreader-bin](https://aur.archlinux.org/packages/japreader-bin)||
-|**jasper**|[jasper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasper-bin)|[jasper-bin](https://aur.archlinux.org/packages/jasper-bin)||
+|**jasperapp**|[jasperapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasperapp-bin)|[jasperapp-bin](https://aur.archlinux.org/packages/jasperapp-bin)||
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
