@@ -57,7 +57,7 @@
 |**batch-explorer**|[batch-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-bin)|[batch-explorer-bin](https://aur.archlinux.org/packages/batch-explorer-bin)||
 |**bbg**|[bbg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-bin)|[bbg-bin](https://aur.archlinux.org/packages/bbg-bin)||
 |**bcrypt-sandbox**|[bcrypt-sandbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bcrypt-sandbox-bin)|[bcrypt-sandbox-bin](https://aur.archlinux.org/packages/bcrypt-sandbox-bin)||
-|**bdash**|[bdash-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-appimage)|[bdash-appimage](https://aur.archlinux.org/packages/bdash-appimage)||
+|**bdash**|[bdash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-bin)|[bdash-bin](https://aur.archlinux.org/packages/bdash-bin)||
 |**beaker-ng**|[beaker-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/beaker-ng-bin)|[beaker-ng-bin](https://aur.archlinux.org/packages/beaker-ng-bin)||
 |**beam-wallet**|[beam-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-appimage)|[beam-wallet-appimage](https://aur.archlinux.org/packages/beam-wallet-appimage)||
 |**before-dawn**|[before-dawn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/before-dawn-bin)|[before-dawn-bin](https://aur.archlinux.org/packages/before-dawn-bin)||
