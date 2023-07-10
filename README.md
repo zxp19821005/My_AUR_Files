@@ -589,7 +589,7 @@
 |**unsplash-wallpapers**|[unsplash-wallpapers-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-appimage)|[unsplash-wallpapers-appimage](https://aur.archlinux.org/packages/unsplash-wallpapers-appimage)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
 |**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
-|**uyou-todo**|[uyou-todo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-appimage)|[uyou-todo-appimage](https://aur.archlinux.org/packages/uyou-todo-appimage)||
+|**uyou-todo**|[uyou-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-bin)|[uyou-todo-bin](https://aur.archlinux.org/packages/uyou-todo-bin)||
 |**vagrant-manager**|[vagrant-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-appimage)|[vagrant-manager-appimage](https://aur.archlinux.org/packages/vagrant-manager-appimage)||
 |**vencord-desktop**|[vencord-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vencord-desktop-bin)|[vencord-desktop-bin](https://aur.archlinux.org/packages/vencord-desktop-bin)||
 |**vieb**|[vieb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb-appimage)|[vieb-appimage](https://aur.archlinux.org/packages/vieb-appimage)||
