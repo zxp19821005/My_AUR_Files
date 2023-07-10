@@ -106,7 +106,7 @@
 |**copytranslator**|[copytranslator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-appimage)|[copytranslator-appimage](https://aur.archlinux.org/packages/copytranslator-appimage)||
 |**cpeditor**|[cpeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-bin)|[cpeditor-bin](https://aur.archlinux.org/packages/cpeditor-bin)||
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
-|**csbooks-electron**|[csbooks-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-electron-bin)|[csbooks-electron-bin](https://aur.archlinux.org/packages/csbooks-electron-bin)||
+|**csbooks**|[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**ctool**|[ctool-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-appimage)|[ctool-appimage](https://aur.archlinux.org/packages/ctool-appimage)||
 |**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
 |**data-works**|[data-works-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-appimage)|[data-works-appimage](https://aur.archlinux.org/packages/data-works-appimage)||
