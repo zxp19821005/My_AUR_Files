@@ -241,6 +241,7 @@
 |**gotify-tray**|[gotify-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gotify-tray-bin)|[gotify-tray-bin](https://aur.archlinux.org/packages/gotify-tray-bin)||
 |**gpt-anywhere**|[gpt-anywhere-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gpt-anywhere-appimage)|[gpt-anywhere-appimage](https://aur.archlinux.org/packages/gpt-anywhere-appimage)||
 |**gptfusion**|[gptfusion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptfusion-appimage)|[gptfusion-appimage](https://aur.archlinux.org/packages/gptfusion-appimage)||
+|**graphiql-desktop**|[graphiql-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graphiql-desktop-bin)|[graphiql-desktop-bin](https://aur.archlinux.org/packages/graphiql-desktop-bin)||
 |**graycrown**|[graycrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graycrown-bin)|[graycrown-bin](https://aur.archlinux.org/packages/graycrown-bin)||
 |**gridea**|[gridea-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-appimage)|[gridea-appimage](https://aur.archlinux.org/packages/gridea-appimage)||
 |**grinplusplus**|[grinplusplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grinplusplus-bin)|[grinplusplus-bin](https://aur.archlinux.org/packages/grinplusplus-bin)||
