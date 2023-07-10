@@ -108,7 +108,7 @@
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
 |**csbooks**|[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
-|**data-works**|[data-works-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-appimage)|[data-works-appimage](https://aur.archlinux.org/packages/data-works-appimage)||
+|**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile-bin)|[datefile-bin](https://aur.archlinux.org/packages/datefile-bin)||
 |**dbgate**|[dbgate-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-appimage)|[dbgate-appimage](https://aur.archlinux.org/packages/dbgate-appimage)||
 |**deckboard**|[deckboard-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-appimage)|[deckboard-appimage](https://aur.archlinux.org/packages/deckboard-appimage)||
