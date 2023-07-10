@@ -97,7 +97,7 @@
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
 |**coal-launcher**|[coal-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coal-launcher-bin)|[coal-launcher-bin](https://aur.archlinux.org/packages/coal-launcher-bin)||
-|**coinstac**|[coinstac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-appimage)|[coinstac-appimage](https://aur.archlinux.org/packages/coinstac-appimage)||
+|**coinstac-desktop-app**|[coinstac-desktop-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-desktop-app-bin)|[coinstac-desktop-app-bin](https://aur.archlinux.org/packages/coinstac-desktop-app-bin)||
 |**colorpicker**|[colorpicker-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-appimage)|[colorpicker-appimage](https://aur.archlinux.org/packages/colorpicker-appimage)||
 |**commas**|[commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin)|[commas-bin](https://aur.archlinux.org/packages/commas-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
