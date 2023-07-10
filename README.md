@@ -459,7 +459,6 @@
 |**remoteplaywhatever**|[remoteplaywhatever-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remoteplaywhatever-bin)|[remoteplaywhatever-bin](https://aur.archlinux.org/packages/remoteplaywhatever-bin)||
 |**reqable**|[reqable-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqable-bin)|[reqable-bin](https://aur.archlinux.org/packages/reqable-bin)||
 |**reqnotes**|[reqnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqnotes-bin)|[reqnotes-bin](https://aur.archlinux.org/packages/reqnotes-bin)||
-|**responsivelyapp**|[responsivelyapp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/responsivelyapp-appimage)|[responsivelyapp-appimage](https://aur.archlinux.org/packages/responsivelyapp-appimage)||
 |**revealed**|[revealed-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-appimage)<br>[revealed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-bin)|[revealed-appimage](https://aur.archlinux.org/packages/revealed-appimage)<br>[revealed-bin](https://aur.archlinux.org/packages/revealed-bin)||
 |**revolt-desktop**|[revolt-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-appimage)|[revolt-desktop-appimage](https://aur.archlinux.org/packages/revolt-desktop-appimage)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
