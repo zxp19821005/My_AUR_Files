@@ -143,13 +143,12 @@
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
 |**devsidecar**|[devsidecar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/devsidecar-appimage)|[devsidecar-appimage](https://aur.archlinux.org/packages/devsidecar-appimage)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
-|**diffuse**|[diffuse-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)<br>[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-appimage)|[diffuse-player-appimage](https://aur.archlinux.org/packages/diffuse-player-appimage)<br>[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
-|**distributionz**|[distributionz-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-appimage)|[distributionz-appimage](https://aur.archlinux.org/packages/distributionz-appimage)||
+|**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
+|**distributionz**|[distributionz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-bin)|[distributionz-bin](https://aur.archlinux.org/packages/distributionz-bin)||
 |**dnglab**|[dnglab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnglab-bin)|[dnglab-bin](https://aur.archlinux.org/packages/dnglab-bin)||
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)||AUR上已删除|
 |**dosbox-staging**|[dosbox-staging-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dosbox-staging-bin)|[dosbox-staging-bin](https://aur.archlinux.org/packages/dosbox-staging-bin)||
-|**dostron**|[dostron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dostron-bin)|[dostron-bin](https://aur.archlinux.org/packages/dostron-bin)||
 |**drawio-desktop**|[drawio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-appimage)||AUR上已删除|
 |**drawio-desktop-electron**|[drawio-desktop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-electron-bin)|[drawio-desktop-electron-bin](https://aur.archlinux.org/packages/drawio-desktop-electron-bin)||
 |**droppoint**|[droppoint-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-appimage)<br>[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-appimage](https://aur.archlinux.org/packages/droppoint-appimage)<br>[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
