@@ -645,7 +645,7 @@
 |**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage)<br>[yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage)<br>[yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
 |**yuview**|[yuview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-appimage)|[yuview-appimage](https://aur.archlinux.org/packages/yuview-appimage)||
 |**yuvviewer**|[yuvviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuvviewer-bin)|[yuvviewer-bin](https://aur.archlinux.org/packages/yuvviewer-bin)||
-|**zettlr**|[zettlr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/zettlr-appimage)|[zettlr-appimage](https://aur.archlinux.org/packages/zettlr-appimage)||
+|**zettlr**|[zettlr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zettlr-bin)|[zettlr-bin](https://aur.archlinux.org/packages/zettlr-bin)||
 |**ziipoo**|[ziipoo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ziipoo-bin)|[ziipoo-bin](https://aur.archlinux.org/packages/ziipoo-bin)||
 |**znote**|[znote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/znote-appimage)|[znote-appimage](https://aur.archlinux.org/packages/znote-appimage)||
 |**zui**|[zui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zui-bin)|[zui-bin](https://aur.archlinux.org/packages/zui-bin)||
