@@ -165,7 +165,7 @@
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
-|**envkey**|[envkey-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-appimage)|[envkey-appimage](https://aur.archlinux.org/packages/envkey-appimage)||
+|**envkey**|[envkey-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-bin)|[envkey-bin](https://aur.archlinux.org/packages/envkey-bin)||
 |**epherome**|[epherome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epherome-bin)|[epherome-bin](https://aur.archlinux.org/packages/epherome-bin)||
 |**epub-reader**|[epub-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader)|[epub-reader](https://aur.archlinux.org/packages/epub-reader)||
 |**etherealengine-control-center**|[etherealengine-control-center-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-appimage)|[etherealengine-control-center-appimage](https://aur.archlinux.org/packages/etherealengine-control-center-appimage)||
