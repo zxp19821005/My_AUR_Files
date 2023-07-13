@@ -205,7 +205,7 @@
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
 |**frosch**|[frosch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frosch-bin)|[frosch-bin](https://aur.archlinux.org/packages/frosch-bin)||
 |**fsrimageupscaler**|[fsrimageupscaler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsrimageupscaler-bin)|[fsrimageupscaler-bin](https://aur.archlinux.org/packages/fsrimageupscaler-bin)||
-|**fukayo**|[fukayo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-appimage)|[fukayo-appimage](https://aur.archlinux.org/packages/fukayo-appimage)||
+|**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**ganache**|[ganache-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ganache-appimage)|[ganache-appimage](https://aur.archlinux.org/packages/ganache-appimage)||
