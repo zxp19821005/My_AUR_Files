@@ -185,7 +185,7 @@
 |**felida**|[felida-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/felida-bin)|[felida-bin](https://aur.archlinux.org/packages/felida-bin)||
 |**ferrum**|[ferrum-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferrum-bin)|[ferrum-bin](https://aur.archlinux.org/packages/ferrum-bin)||
 |**ffuf**|[ffuf-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffuf-bin)|[ffuf-bin](https://aur.archlinux.org/packages/ffuf-bin)||
-|**ficus-electron**|[ficus-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-electron-bin)|[ficus-electron-bin](https://aur.archlinux.org/packages/ficus-electron-bin)||
+|**ficus**|[ficus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-bin)|[ficus-bin](https://aur.archlinux.org/packages/ficus-bin)||
 |**fifo**|[fifo-browser-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-appimage)|[fifo-browser-appimage](https://aur.archlinux.org/packages/fifo-browser-appimage)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
