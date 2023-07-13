@@ -174,7 +174,7 @@
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin)||
 |**f1mv-lights-integration**|[f1mv-lights-integration-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-bin)|[f1mv-lights-integration-bin](https://aur.archlinux.org/packages/f1mv-lights-integration-bin)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
-|**fairshare**|[fairshare-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fairshare-appimage)|[fairshare-appimage](https://aur.archlinux.org/packages/fairshare-appimage)||
+|**fairshare**|[fairshare-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fairshare-bin)|[fairshare-bin](https://aur.archlinux.org/packages/fairshare-bin)||
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
 |**fastfetch**|[fastfetch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastfetch-bin)|[fastfetch-bin](https://aur.archlinux.org/packages/fastfetch-bin)||
 |**favicon-generator**|[favicon-generator](https://github.com/zxp19821005/My_AUR_Files/tree/main/favicon-generator)|[favicon-generator](https://aur.archlinux.org/packages/favicon-generator)||
