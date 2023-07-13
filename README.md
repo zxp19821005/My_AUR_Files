@@ -216,7 +216,6 @@
 |**git-good**|[git-good-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-bin)|[git-good-bin](https://aur.archlinux.org/packages/git-good-bin)||
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
 |**git-town**|[git-town-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-town-bin)|[git-town-bin](https://aur.archlinux.org/packages/git-town-bin)||
-|**glass**|[glass-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glass-appimage)|[glass-appimage](https://aur.archlinux.org/packages/glass-appimage)||
 |**glimboi**|[glimboi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glimboi-bin)|[glimboi-bin](https://aur.archlinux.org/packages/glimboi-bin)||
 |**glyphr-studio-desktop**|[glyphr-studio-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-bin)|[glyphr-studio-desktop-appimage](https://aur.archlinux.org/packages/glyphr-studio-desktop-appimage)<br>[glyphr-studio-desktop-bin](https://aur.archlinux.org/packages/glyphr-studio-desktop-bin)||
 |**glyphr-studio-nativefier**|[glyphr-studio-nativefier](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-nativefier)|[glyphr-studio-nativefier](https://aur.archlinux.org/packages/glyphr-studio-nativefier)||
@@ -599,6 +598,7 @@
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
+|**webcam-glass**|[webcam-glass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcam-glass-bin)|[webcam-glass-bin](https://aur.archlinux.org/packages/webcam-glass-bin)||
 |**webdesktop**|[webdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webdesktop-bin)|[webdesktop-bin](https://aur.archlinux.org/packages/webdesktop-bin)||
 |**webgal-terre**|[webgal-terre-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webgal-terre-bin)|[webgal-terre-bin](https://aur.archlinux.org/packages/webgal-terre-bin)||
 |**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
