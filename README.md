@@ -172,7 +172,7 @@
 |**eudic**|[eudic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-appimage)|[eudic-appimage](https://aur.archlinux.org/packages/eudic-appimage)||
 |**eudic-ting-en**|[eudic-ting-en-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-ting-en-appimage)|[eudic-ting-en-appimage](https://aur.archlinux.org/packages/eudic-ting-en-appimage)||
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin)||
-|**f1mv-lights-integration**|[f1mv-lights-integration-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-appimage)|[f1mv-lights-integration-appimage](https://aur.archlinux.org/packages/f1mv-lights-integration-appimage)||
+|**f1mv-lights-integration**|[f1mv-lights-integration-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-bin)|[f1mv-lights-integration-bin](https://aur.archlinux.org/packages/f1mv-lights-integration-bin)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
 |**fairshare**|[fairshare-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fairshare-appimage)|[fairshare-appimage](https://aur.archlinux.org/packages/fairshare-appimage)||
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
