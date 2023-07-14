@@ -278,7 +278,6 @@
 |**kanbanflow-app**|[kanbanflow-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-bin)|[kanbanflow-app-bin](https://aur.archlinux.org/packages/kanbanflow-app-bin)||
 |**kcl**|[kcl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kcl-bin)|[kcl-bin](https://aur.archlinux.org/packages/kcl-bin)||
 |**kdesktop**|[kdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kdesktop-bin)|[kdesktop-bin](https://aur.archlinux.org/packages/kdesktop-bin)||
-|**keenwrite**|[keenwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keenwrite-bin)||应作者要求，已删除|
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
 |**kiwiirc-desktop**|[kiwiirc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-desktop-bin)|[kiwiirc-desktop-bin](https://aur.archlinux.org/packages/kiwiirc-desktop-bin)||
