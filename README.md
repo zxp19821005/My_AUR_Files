@@ -260,7 +260,7 @@
 |**icalingua++**|[icalingua++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-bin)|[icalingua++-bin](https://aur.archlinux.org/packages/icalingua++-bin)||
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
 |**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
-|**imagine**|[imagine-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-appimage)|[imagine-appimage](https://aur.archlinux.org/packages/imagine-appimage)||
+|**imagine**|[imagine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-bin)|[imagine-bin](https://aur.archlinux.org/packages/imagine-bin)||
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
 |**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
 |**inethi**|[inethi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inethi-bin)|[inethi-bin](https://aur.archlinux.org/packages/inethi-bin)||
