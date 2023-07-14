@@ -262,7 +262,7 @@
 |**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
 |**imagine**|[imagine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-bin)|[imagine-bin](https://aur.archlinux.org/packages/imagine-bin)||
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
-|**implay**|[implay-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-appimage)||AUR上未发布|
+|**implay**|[implay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-bin)|[implay-bin](https://aur.archlinux.org/packages/implay-bin)||
 |**inethi**|[inethi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inethi-bin)|[inethi-bin](https://aur.archlinux.org/packages/inethi-bin)||
 |**interastral-peace-chat**|[interastral-peace-chat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/interastral-peace-chat-appimage)|[interastral-peace-chat-appimage](https://aur.archlinux.org/packages/interastral-peace-chat-appimage)||
 |**intrigue**|[intrigue-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-appimage)|[intrigue-appimage](https://aur.archlinux.org/packages/intrigue-appimage)||
