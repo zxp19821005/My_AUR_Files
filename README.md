@@ -230,7 +230,7 @@
 |**goshs**|[goshs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goshs-bin)|[goshs-bin](https://aur.archlinux.org/packages/goshs-bin)||
 |**gotepad**|[gotepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gotepad-bin)|[gotepad-bin](https://aur.archlinux.org/packages/gotepad-bin)||
 |**gotify-tray**|[gotify-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gotify-tray-bin)|[gotify-tray-bin](https://aur.archlinux.org/packages/gotify-tray-bin)||
-|**gpt-anywhere**|[gpt-anywhere-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gpt-anywhere-appimage)|[gpt-anywhere-appimage](https://aur.archlinux.org/packages/gpt-anywhere-appimage)||
+|**gpt-anywhere**|[gpt-anywhere-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gpt-anywhere-bin)|[gpt-anywhere-bin](https://aur.archlinux.org/packages/gpt-anywhere-bin)||
 |**gptfusion**|[gptfusion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptfusion-appimage)|[gptfusion-appimage](https://aur.archlinux.org/packages/gptfusion-appimage)||
 |**graphiql-desktop**|[graphiql-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graphiql-desktop-bin)|[graphiql-desktop-bin](https://aur.archlinux.org/packages/graphiql-desktop-bin)||
 |**graycrown**|[graycrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graycrown-bin)|[graycrown-bin](https://aur.archlinux.org/packages/graycrown-bin)||
