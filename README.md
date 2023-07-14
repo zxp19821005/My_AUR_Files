@@ -236,7 +236,7 @@
 |**graycrown**|[graycrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graycrown-bin)|[graycrown-bin](https://aur.archlinux.org/packages/graycrown-bin)||
 |**gridea**|[gridea-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-bin)|[gridea-bin](https://aur.archlinux.org/packages/gridea-bin)||
 |**grinplusplus**|[grinplusplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grinplusplus-bin)|[grinplusplus-bin](https://aur.archlinux.org/packages/grinplusplus-bin)||
-|**grx**|[grx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/grx-appimage)|[grx-appimage](https://aur.archlinux.org/packages/grx-appimage)||
+|**grx**|[grx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grx-bin)|[grx-bin](https://aur.archlinux.org/packages/grx-bin)||
 |**gstarcad**|[gstarcad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gstarcad-bin)|[gstarcad-bin](https://aur.archlinux.org/packages/gstarcad-bin)||
 |**gui-butler**|[gui-butler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gui-butler-bin)|[gui-butler-bin](https://aur.archlinux.org/packages/gui-butler-bin)||
 |**guiscrcpy**|[guiscrcpy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiscrcpy-appimage)|[guiscrcpy-appimage](https://aur.archlinux.org/packages/guiscrcpy-appimage)||
