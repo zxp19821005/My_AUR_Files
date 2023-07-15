@@ -333,7 +333,7 @@
 |**mogan**|[mogan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mogan-bin)|[mogan-bin](https://aur.archlinux.org/packages/mogan-bin)||
 |**monarch**|[monarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monarch-bin)|[monarch-bin](https://aur.archlinux.org/packages/monarch-bin)||
 |**moneydance**|[moneydance-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moneydance-bin)|[moneydance-bin](https://aur.archlinux.org/packages/moneydance-bin)||
-|**monit**|[monit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/monit-appimage)|[monit-appimage](https://aur.archlinux.org/packages/monit-appimage)||
+|**monit**|[monit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monit-bin)|[monit-bin](https://aur.archlinux.org/packages/monit-bin)||
 |**moonfm**|[moonfm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonfm-appimage)|[moonfm-appimage](https://aur.archlinux.org/packages/moonfm-appimage)||
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
