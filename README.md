@@ -291,7 +291,6 @@
 |**lagrange**|[lagrange-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lagrange-appimage)|[lagrange-appimage](https://aur.archlinux.org/packages/lagrange-appimage)||
 |**laradumps**|[laradumps-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-bin)|[laradumps-bin](https://aur.archlinux.org/packages/laradumps-bin)||
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
-|**leapp**|[leapp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/leapp-appimage)|[leapp-appimage](https://aur.archlinux.org/packages/leapp-appimage)||
 |**liground**|[liground-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-appimage)|[liground-appimage](https://aur.archlinux.org/packages/liground-appimage)||
 |**linked**|[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
 |**linwood-butterfly**|[linwood-butterfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linwood-butterfly-bin)|[linwood-butterfly-bin](https://aur.archlinux.org/packages/linwood-butterfly-bin)||
