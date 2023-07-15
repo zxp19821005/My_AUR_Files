@@ -308,7 +308,6 @@
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
-|**marktext**|[marktext-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marktext-appimage)||AUR上未发布|
 |**marvin**|[marvin-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-appimage)|[marvin-appimage](https://aur.archlinux.org/packages/marvin-appimage)||
 |**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
