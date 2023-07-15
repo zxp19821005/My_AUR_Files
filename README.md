@@ -326,7 +326,7 @@
 |**minify**|[minify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minify-bin)|[minify-bin](https://aur.archlinux.org/packages/minify-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
 |**miteiru**|[miteiru-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-bin)|[miteiru-bin](https://aur.archlinux.org/packages/miteiru-bin)||
-|**mizar**|[mizar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-appimage)|[mizar-appimage](https://aur.archlinux.org/packages/mizar-appimage)||
+|**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mmseqs2-search**|[mmseqs2-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-appimage)|[mmseqs2-search-appimage](https://aur.archlinux.org/packages/mmseqs2-search-appimage)||
 |**mockery**|[mockery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockery-bin)|[mockery-bin](https://aur.archlinux.org/packages/mockery-bin)||
 |**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)||AUR上已删除|
