@@ -329,7 +329,6 @@
 |**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mmseqs2-search**|[mmseqs2-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-appimage)|[mmseqs2-search-appimage](https://aur.archlinux.org/packages/mmseqs2-search-appimage)||
 |**mockery**|[mockery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockery-bin)|[mockery-bin](https://aur.archlinux.org/packages/mockery-bin)||
-|**mockoon**|[mockoon-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-appimage)||AUR上已删除|
 |**modv**|[modv-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/modv-appimage)|[modv-appimage](https://aur.archlinux.org/packages/modv-appimage)||
 |**mogan**|[mogan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mogan-bin)|[mogan-bin](https://aur.archlinux.org/packages/mogan-bin)||
 |**monarch**|[monarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monarch-bin)|[monarch-bin](https://aur.archlinux.org/packages/monarch-bin)||
