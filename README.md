@@ -371,7 +371,7 @@
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-appimage)|[onekey-wallet-appimage](https://aur.archlinux.org/packages/onekey-wallet-appimage)||
 |**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
-|**open-ai-translator**|[open-ai-translator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-appimage)|[open-ai-translator-appimage](https://aur.archlinux.org/packages/open-ai-translator-appimage)||
+|**open-ai-translator**|[open-ai-translator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-bin)|[open-ai-translator-bin](https://aur.archlinux.org/packages/open-ai-translator-bin)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-appimage)|[openhome-appimage](https://aur.archlinux.org/packages/openhome-appimage)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
