@@ -362,7 +362,7 @@
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
 |**nuclia**|[nuclia-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-appimage)|[nuclia-appimage](https://aur.archlinux.org/packages/nuclia-appimage)||
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)|[nudge](https://aur.archlinux.org/packages/nudge)||
-|**numara**|[numara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-appimage)|[numara-appimage](https://aur.archlinux.org/packages/numara-appimage)||
+|**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
 |**nxshell**|[nxshell-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-appimage)<br>[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-appimage](https://aur.archlinux.org/packages/nxshell-appimage)<br>[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**nzyme**|[nzyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nzyme-bin)|[nzyme-bin](https://aur.archlinux.org/packages/nzyme-bin)||
 |**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
