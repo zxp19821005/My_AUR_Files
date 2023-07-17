@@ -376,7 +376,6 @@
 |**openhome**|[openhome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-appimage)|[openhome-appimage](https://aur.archlinux.org/packages/openhome-appimage)||
 |**openscad**|[openscad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openscad-appimage)||AUR上已删除|
 |**orature**|[orature-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orature-bin)|[orature-bin](https://aur.archlinux.org/packages/orature-bin)||
-|**orbitnx**|[orbitnx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orbitnx-bin)|[orbitnx-bin](https://aur.archlinux.org/packages/orbitnx-bin)||
 |**ostara**|[ostara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ostara-appimage)|[ostara-appimage](https://aur.archlinux.org/packages/ostara-appimage)||
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
