@@ -343,7 +343,7 @@
 |**music-you**|[music-you-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-you-appimage)|[music-you-appimage](https://aur.archlinux.org/packages/music-you-appimage)||
 |**myapp-scrapthatpage**|[myapp-scrapthatpage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/myapp-scrapthatpage-bin)|[myapp-scrapthatpage-bin](https://aur.archlinux.org/packages/myapp-scrapthatpage-bin)||
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
-|**neanes**|[neanes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-appimage)|[neanes-appimage](https://aur.archlinux.org/packages/neanes-appimage)||
+|**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**netpad**|[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**next-library**|[next-library-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/next-library-bin)|[next-library-bin](https://aur.archlinux.org/packages/next-library-bin)||
