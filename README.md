@@ -404,7 +404,7 @@
 |**podman-desktop-companion**|[podman-desktop-companion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-appimage)|[podman-desktop-companion-appimage](https://aur.archlinux.org/packages/podman-desktop-companion-appimage)||
 |**polar**|[polar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-bin)|[polar-bin](https://aur.archlinux.org/packages/polar-bin)||
 |**polyglot**|[polyglot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-bin)|[polyglot-bin](https://aur.archlinux.org/packages/polyglot-bin)||
-|**pomota**|[pomota-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-appimage)|[pomota-appimage](https://aur.archlinux.org/packages/pomota-appimage)||
+|**pomota**|[pomota-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-bin)|[pomota-bin](https://aur.archlinux.org/packages/pomota-bin)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
 |**positron**|[positron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-bin)|[positron-bin](https://aur.archlinux.org/packages/positron-bin)||
 |**postbird**|[postbird-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-appimage)|[postbird-appimage](https://aur.archlinux.org/packages/postbird-appimage)||
