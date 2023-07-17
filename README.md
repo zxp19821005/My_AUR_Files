@@ -380,7 +380,7 @@
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
 |**ouch**|[ouch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ouch-bin)|[ouch-bin](https://aur.archlinux.org/packages/ouch-bin)||
-|**p3x-onenote**|[p3x-onenote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-appimage)|[p3x-onenote-appimage](https://aur.archlinux.org/p3x-onenote/p3x-onenote-appimage)||
+|**p3x-onenote**|[p3x-onenote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-bin)|[p3x-onenote-bin](https://aur.archlinux.org/packages/p3x-onenote-bin)||
 |**p3x-redis-ui**|[p3x-redis-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-redis-ui-appimage)|[p3x-redis-ui-appimage](https://aur.archlinux.org/p3x-onenote/p3x-redis-ui-appimage)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
