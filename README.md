@@ -353,7 +353,7 @@
 |**ngrev**|[ngrev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-bin)|[ngrev-bin](https://aur.archlinux.org/packages/ngrev-bin)||
 |**nheko**|[nheko-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nheko-appimage)|[nheko-appimage](https://aur.archlinux.org/packages/nheko-appimage)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
-|**nodeflow**|[nodeflow-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-appimage)|[nodeflow-appimage](https://aur.archlinux.org/packages/nodeflow-appimage)||
+|**nodeflow**|[nodeflow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-bin)|[nodeflow-bin](https://aur.archlinux.org/packages/nodeflow-bin)||
 |**no-fwl**|[no-fwl-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-appimage)|[no-fwl-appimage](https://aur.archlinux.org/packages/no-fwl-appimage)||
 |**noite**|[noite-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/noite-appimage)|[noite-appimage](https://aur.archlinux.org/packages/noite-appimage)||
 |**nomino**|[nomino-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nomino-bin)|[nomino-bin](https://aur.archlinux.org/packages/nomino-bin)||
