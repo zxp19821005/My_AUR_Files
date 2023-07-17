@@ -360,7 +360,6 @@
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notes-nc**|[notes-nc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-bin)|[notes-nc-bin](https://aur.archlinux.org/packages/notes-nc-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
-|**nuclear**|[nuclear-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player-appimage)||AUR上删除|
 |**nuclia**|[nuclia-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-appimage)|[nuclia-appimage](https://aur.archlinux.org/packages/nuclia-appimage)||
 |**nudge**|[nudge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge-bin)|[nudge-bin](https://aur.archlinux.org/packages/nudge-bin)||
 |**numara**|[numara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-appimage)|[numara-appimage](https://aur.archlinux.org/packages/numara-appimage)||
