@@ -419,13 +419,13 @@
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
 |**promethium**|[promethium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-bin)|[promethium-bin](https://aur.archlinux.org/packages/promethium-bin)||
 |**protoman**|[protoman-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/protoman-bin)|[protoman-bin](https://aur.archlinux.org/packages/protoman-bin)||
-|**publii**|[publii-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-appimage)|[publii-appimage](https://aur.archlinux.org/packages/publii-appimage)||
+|**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin)|[publii-bin](https://aur.archlinux.org/packages/publii-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**qradiolink**|[qradiolink-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-appimage)|[qradiolink-appimage](https://aur.archlinux.org/packages/qradiolink-appimage)||
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quark-player**|[quark-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-appimage)<br>[quark-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-bin)|[quark-player-appimage](https://aur.archlinux.org/packages/quark-player-appimage)<br>[quark-player-bin](https://aur.archlinux.org/packages/quark-player-bin)||
-|**quasar-todo**|[quasar-todo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-appimage)|[quasar-todo-appimage](https://aur.archlinux.org/packages/quasar-todo-appimage)||
+|**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
 |**quaternion**|[quaternion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-appimage)|[quaternion-appimage](https://aur.archlinux.org/packages/quaternion-appimage)||
 |**quba**|[quba-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-appimage)|[quba-appimage](https://aur.archlinux.org/packages/quba-appimage)||
 |**query-master**|[query-master](https://github.com/zxp19821005/My_AUR_Files/tree/main/query-master)|[query-master](https://aur.archlinux.org/packages/query-master)||
