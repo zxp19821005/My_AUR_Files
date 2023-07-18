@@ -406,6 +406,7 @@
 |**postcat**|[postcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-bin)|[postcat-bin](https://aur.archlinux.org/packages/postcat-bin)||
 |**postsack**|[postsack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postsack-bin)|[postsack-bin](https://aur.archlinux.org/packages/postsack-bin)||
 |**postybirb**|[postybirb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-appimage)|[postybirb-appimage](https://aur.archlinux.org/packages/postybirb-appimage)||
+|**postybirb-plus**|[postybirb-plus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-plus-bin)|[postybirb-plus-bin](https://aur.archlinux.org/packages/postybirb-plus-bin)||
 |**pot-translation**|[pot-translation-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pot-translation-git)|[pot-translation-git](https://aur.archlinux.org/packages/pot-translation-git)||
 |**postybirb-plus**|[postybirb-plus-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-plus-appimage)|[postybirb-plus-appimage](https://aur.archlinux.org/packages/postybirb-plus-appimage)||
 |**ppet3**|[ppet3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-appimage)<br>[ppet3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ppet3-bin)|[ppet3-appimage](https://aur.archlinux.org/packages/ppet3-appimage)<br>[ppet3-bin](https://aur.archlinux.org/packages/ppet3-bin)||
