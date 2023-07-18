@@ -435,7 +435,7 @@
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
 |**realm-studio**|[realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**redisfish**|[redisfish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisfish-bin)|[redisfish-bin](https://aur.archlinux.org/packages/redisfish-bin)||
-|**redis-gui**|[redis-gui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-appimage)|[redis-gui-appimage](https://aur.archlinux.org/packages/redis-gui-appimage)||
+|**redis-gui**|[redis-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-bin)|[redis-gui-bin](https://aur.archlinux.org/packages/redis-gui-bin)||
 |**redis-viewer**|[redis-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-bin)|[redis-viewer-bin](https://aur.archlinux.org/packages/redis-viewer-bin)||
 |**refi-app**|[refi-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/refi-app-bin)|[refi-app-bin](https://aur.archlinux.org/packages/refi-app-bin)||
 |**rekordfix**|[rekordfix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rekordfix-bin)|[rekordfix-bin](https://aur.archlinux.org/packages/rekordfix-bin)||
