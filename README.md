@@ -402,7 +402,7 @@
 |**pomota**|[pomota-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-bin)|[pomota-bin](https://aur.archlinux.org/packages/pomota-bin)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
 |**positron**|[positron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-bin)|[positron-bin](https://aur.archlinux.org/packages/positron-bin)||
-|**postbird**|[postbird-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-appimage)|[postbird-appimage](https://aur.archlinux.org/packages/postbird-appimage)||
+|**postbird**|[postbird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-bin)|[postbird-bin](https://aur.archlinux.org/packages/postbird-bin)||
 |**postcat**|[postcat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-appimage)|[postcat-appimage](https://aur.archlinux.org/packages/postcat-appimage)||
 |**postsack**|[postsack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postsack-bin)|[postsack-bin](https://aur.archlinux.org/packages/postsack-bin)||
 |**postybirb**|[postybirb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-appimage)|[postybirb-appimage](https://aur.archlinux.org/packages/postybirb-appimage)||
