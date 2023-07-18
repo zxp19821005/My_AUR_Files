@@ -385,7 +385,7 @@
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
-|**peersky-browser**|[peersky-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser-bin)|[peersky-browser-bin](https://aur.archlinux.org/packages/peersky-browser-bin)||
+|**peersky-browser**|[peersky-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser)|[peersky-browser](https://aur.archlinux.org/packages/peersky-browser)||
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
