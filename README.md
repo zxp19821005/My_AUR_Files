@@ -307,6 +307,7 @@
 |**lvce**|[lvce-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-bin)|[lvce-bin](https://aur.archlinux.org/packages/lvce-bin)||
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
+|**mailmaster**|[mailmaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailmaster-bin)|[mailmaster-bin](https://aur.archlinux.org/packages/mailmaster-bin)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
 |**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
