@@ -449,7 +449,7 @@
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
 |**s5cmd**|[s5cmd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/s5cmd-bin)|[s5cmd-bin](https://aur.archlinux.org/packages/s5cmd-bin)||
-|**sabaki**|[sabaki-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-appimage)|[sabaki-appimage](https://aur.archlinux.org/packages/sabaki-appimage)||
+|**sabaki**|[sabaki-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-bin)|[sabaki-bin](https://aur.archlinux.org/packages/sabaki-bin)||
 |**saber**|[saber-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/saber-appimage)|[saber-appimage](https://aur.archlinux.org/packages/saber-appimage)||
 |**salesforce2sql**|[salesforce2sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salesforce2sql-bin)|[salesforce2sql-bin](https://aur.archlinux.org/packages/salesforce2sql-bin)||
 |**sbe**|[sbe-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-appimage)|[sbe-appimage](https://aur.archlinux.org/packages/sbe-appimage)||
