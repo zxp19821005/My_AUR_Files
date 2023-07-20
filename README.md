@@ -466,7 +466,6 @@
 |**shoppinglist**|[shoppinglist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shoppinglist-bin)|[shoppinglist-bin](https://aur.archlinux.org/packages/shoppinglist-bin)||
 |**shuffledns**|[shuffledns-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuffledns-bin)|[shuffledns-bin](https://aur.archlinux.org/packages/shuffledns-bin)||
 |**shutter-encoder**|[shutter-encoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutter-encoder-bin)|[shutter-encoder-bin](https://aur.archlinux.org/packages/shutter-encoder-bin)||
-|**sieve**|[sieve-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sieve-appimage)|[sieve-appimage](https://aur.archlinux.org/packages/sieve-appimage)||
 |**sigma-file-manager**|[sigma-file-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-appimage)|[sigma-file-manager-appimage](https://aur.archlinux.org/packages/sigma-file-manager-appimage)||
 |**silence-speedup**|[silence-speedup-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/silence-speedup-bin)|[silence-speedup-bin](https://aur.archlinux.org/packages/silence-speedup-bin)||
 |**simple-icons**|[simple-icons](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-icons)|[simple-icons](https://aur.archlinux.org/packages/simple-icons)||
