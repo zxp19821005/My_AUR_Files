@@ -471,7 +471,7 @@
 |**simple-irc-client**|[simple-irc-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-irc-client-bin)|[simple-irc-client-bin](https://aur.archlinux.org/packages/simple-irc-client-bin)||
 |**simple-music**|[simple-music](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music)|[simple-music](https://aur.archlinux.org/packages/simple-music)||
 |**simple-web-server**|[simple-web-server](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server)|[simple-web-server](https://aur.archlinux.org/packages/simple-web-server)||
-|**sixgrid**|[sixgrid-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/sixgrid-appimage)|[sixgrid-appimage](https://aur.archlinux.org/packages/sixgrid-appimage)||
+|**sixgrid**|[sixgrid-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sixgrid-bin)|[sixgrid-bin](https://aur.archlinux.org/packages/sixgrid-bin)||
 |**slack-on-keys**|[slack-on-keys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slack-on-keys-bin)|[slack-on-keys-bin](https://aur.archlinux.org/packages/slack-on-keys-bin)||
 |**sleek**|[sleek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-bin)|[sleek-bin](https://aur.archlinux.org/packages/sleek-bin)||
 |**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
