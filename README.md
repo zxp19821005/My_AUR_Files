@@ -579,7 +579,7 @@
 |**webcam-glass**|[webcam-glass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcam-glass-bin)|[webcam-glass-bin](https://aur.archlinux.org/packages/webcam-glass-bin)||
 |**webdesktop**|[webdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webdesktop-bin)|[webdesktop-bin](https://aur.archlinux.org/packages/webdesktop-bin)||
 |**webgal-terre**|[webgal-terre-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webgal-terre-bin)|[webgal-terre-bin](https://aur.archlinux.org/packages/webgal-terre-bin)||
-|**webkitty**|[webkitty-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-appimage)|[webkitty-appimage](https://aur.archlinux.org/packages/webkitty-appimage)||
+|**webkitty**|[webkitty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-bin)|[webkitty-bin](https://aur.archlinux.org/packages/webkitty-bin)||
 |**web-os-dev-manager**|[web-os-dev-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-bin)|[web-os-dev-manager-bin](https://aur.archlinux.org/packages/web-os-dev-manager-bin)||
 |**wechat-backup**|[wechat-backup](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-backup)|[wechat-backup](https://aur.archlinux.org/packages/wechat-backup)||
 |**weektodo**|[weektodo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-appimage)<br>[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-appimage](https://aur.archlinux.org/packages/weektodo-appimage)<br>[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
