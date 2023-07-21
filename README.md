@@ -564,7 +564,7 @@
 |**vagrant-manager**|[vagrant-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-appimage)|[vagrant-manager-appimage](https://aur.archlinux.org/packages/vagrant-manager-appimage)||
 |**vencord-desktop**|[vencord-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vencord-desktop-bin)|[vencord-desktop-bin](https://aur.archlinux.org/packages/vencord-desktop-bin)||
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
-|**vigad**|[vigad-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-appimage)|[vigad-appimage](https://aur.archlinux.org/packages/vigad-appimage)||
+|**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||
 |**visualfamilytree**|[visualfamilytree-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-appimage)<br>[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-appimage](https://aur.archlinux.org/packages/visualfamilytree-appimage)<br>[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
