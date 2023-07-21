@@ -548,7 +548,7 @@
 |**ttf-maoken-unbounded-sans**|[ttf-maoken-unbounded-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-unbounded-sans)|[ttf-maoken-unbounded-sans](https://aur.archlinux.org/packages/ttf-maoken-unbounded-sans)||
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
-|**tts-now**|[tts-now-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-now-appimage)|[tts-now-appimage](https://aur.archlinux.org/packages/tts-now-appimage)||
+|**tts-now**|[tts-now-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-now-bin)|[tts-now-bin](https://aur.archlinux.org/packages/tts-now-bin)||
 |**tts-vue**|[tts-vue](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-vue)|[tts-vue](https://aur.archlinux.org/packages/tts-vue)||
 |**tunasync**|[tunasync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tunasync-bin)|[tunasync-bin](https://aur.archlinux.org/packages/tunasync-bin)||
 |**turbowarp-desktop**|[turbowarp-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-appimage)||AUR上已删除|
