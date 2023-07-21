@@ -517,8 +517,7 @@
 |**thedesk**|[thedesk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-bin)|[thedesk-bin](https://aur.archlinux.org/packages/thedesk-bin)||
 |**thief**|[thief-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-bin)|[thief-bin](https://aur.archlinux.org/packages/thief-bin)||
 |**thinreports-section-editor**|[thinreports-section-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-bin)|[thinreports-section-editor-bin](https://aur.archlinux.org/packages/thinreports-section-editor-bin)||
-|**thorium**|[thorium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-appimage)|[thorium-appimage](https://aur.archlinux.org/packages/thorium-appimage)||
-|**threema-for-desktop**|[threema-for-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-appimage)|[threema-for-desktop-appimage](https://aur.archlinux.org/packages/threema-for-desktop-appimage)||
+|**threema-for-desktop**|[threema-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-bin)|[threema-for-desktop-bin](https://aur.archlinux.org/packages/threema-for-desktop-bin)||
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
 |**tilde-podcast**|[tilde-podcast-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-appimage)|[tilde-podcast-appimage](https://aur.archlinux.org/packages/tilde-podcast-appimage)||
 |**timecop**|[timecop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timecop-bin)|[timecop-bin](https://aur.archlinux.org/packages/timecop-bin)||
