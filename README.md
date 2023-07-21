@@ -569,7 +569,7 @@
 |**visualfamilytree**|[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
 |**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vnote**|[vnote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-appimage)|[vnote-appimage](https://aur.archlinux.org/packages/vnote-appimage)||
-|**wai-chat-desktop**|[wai-chat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop-bin)|[wai-chat-desktop-bin](https://aur.archlinux.org/packages/wai-chat-desktop-bin)||
+|**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
 |**vgmtrans**|[vgmtrans-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-appimage)|[vgmtrans-appimage](https://aur.archlinux.org/packages/vgmtrans-appimage)||
 |**video-hub-app**|[video-hub-app-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-appimage)|AUR上他人维护||
 |**walc**|[walc-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-appimage)|[walc-appimage](https://aur.archlinux.org/packages/walc-appimage)||
