@@ -515,7 +515,7 @@
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
 |**tfiletransfer**|[tfiletransfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tfiletransfer-bin)|[tfiletransfer-bin](https://aur.archlinux.org/packages/tfiletransfer-bin)||
 |**thedesk**|[thedesk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-bin)|[thedesk-bin](https://aur.archlinux.org/packages/thedesk-bin)||
-|**thief**|[thief-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-appimage)|[thief-appimage](https://aur.archlinux.org/packages/thief-appimage)||
+|**thief**|[thief-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-bin)|[thief-bin](https://aur.archlinux.org/packages/thief-bin)||
 |**thinreports-section-editor**|[thinreports-section-editor-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-appimage)|[thinreports-section-editor-appimage](https://aur.archlinux.org/packages/thinreports-section-editor-appimage)||
 |**thorium**|[thorium-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-appimage)|[thorium-appimage](https://aur.archlinux.org/packages/thorium-appimage)||
 |**threema-for-desktop**|[threema-for-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-appimage)|[threema-for-desktop-appimage](https://aur.archlinux.org/packages/threema-for-desktop-appimage)||
