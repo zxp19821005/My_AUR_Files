@@ -526,7 +526,7 @@
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
 |**tockler**|[tockler-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-appimage)|[tockler-appimage](https://aur.archlinux.org/packages/tockler-appimage)||
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)||
-|**tomatox**|[tomatox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-appimage)|[tomatox-appimage](https://aur.archlinux.org/packages/tomatox-appimage)||
+|**tomatox**|[tomatox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-bin)|[tomatox-bin](https://aur.archlinux.org/packages/tomatox-bin)||
 |**toughcookies**|[toughcookies-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/toughcookies-appimage)|[toughcookies-appimage](https://aur.archlinux.org/packages/toughcookies-appimage)||
 |**translationcore**|[translationcore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/translationcore-bin)|[translationcore-bin](https://aur.archlinux.org/packages/translationcore-bin)||
 |**transmissionic**|[transmissionic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-appimage)|[transmissionic-appimage](https://aur.archlinux.org/packages/transmissionic-appimage)||
