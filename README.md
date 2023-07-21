@@ -559,7 +559,7 @@
 |**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
 |**unsplash-wallpapers**|[unsplash-wallpapers-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-appimage)|[unsplash-wallpapers-appimage](https://aur.archlinux.org/packages/unsplash-wallpapers-appimage)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
-|**utilso**|[utilso-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-appimage)|[utilso-appimage](https://aur.archlinux.org/packages/utilso-appimage)||
+|**utilso**|[utilso-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-bin)|[utilso-bin](https://aur.archlinux.org/packages/utilso-bin)||
 |**uyou-todo**|[uyou-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-bin)|[uyou-todo-bin](https://aur.archlinux.org/packages/uyou-todo-bin)||
 |**vagrant-manager**|[vagrant-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-appimage)|[vagrant-manager-appimage](https://aur.archlinux.org/packages/vagrant-manager-appimage)||
 |**vencord-desktop**|[vencord-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vencord-desktop-bin)|[vencord-desktop-bin](https://aur.archlinux.org/packages/vencord-desktop-bin)||
