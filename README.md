@@ -481,7 +481,7 @@
 |**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
-|**southweather**|[southweather-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-appimage)|[southweather-appimage](https://aur.archlinux.org/packages/southweather-appimage)||
+|**southweather**|[southweather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-bin)|[southweather-bin](https://aur.archlinux.org/packages/southweather-bin)||
 |**space-snake**|[space-snake-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-snake-appimage)|[space-snake-appimage](https://aur.archlinux.org/packages/space-snake-appimage)||
 |**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
 |**spark-transhell**|[spark-transhell](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-transhell)|[spark-transhell](https://aur.archlinux.org/packages/spark-transhell)||
