@@ -363,6 +363,7 @@
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notes-nc**|[notes-nc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-bin)|[notes-nc-bin](https://aur.archlinux.org/packages/notes-nc-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
+|**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
 |**nuclia**|[nuclia-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-appimage)|[nuclia-appimage](https://aur.archlinux.org/packages/nuclia-appimage)||
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)|[nudge](https://aur.archlinux.org/packages/nudge)||
 |**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
