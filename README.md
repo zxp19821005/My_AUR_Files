@@ -593,7 +593,7 @@
 |**whatsapp-for-linux**|[whatsapp-for-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-bin)|[whatsapp-for-linux-bin](https://aur.archlinux.org/packages/whatsapp-for-linux-bin)||
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
-|**wnr**|[wnr-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-appimage)|[wnr-appimage](https://aur.archlinux.org/packages/wnr-appimage)||
+|**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin) <br> [wolai-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-appimage)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin) <br> [wolai-appimage](https://aur.archlinux.org/packages/wolai-appimage)||
 |**woocommerce-pos**|[woocommerce-pos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-appimage)|[woocommerce-pos-appimage](https://aur.archlinux.org/packages/woocommerce-pos-appimage)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
