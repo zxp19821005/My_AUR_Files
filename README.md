@@ -605,7 +605,7 @@
 |**xm-video-player**|[xm-video-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xm-video-player-bin)|[xm-video-player-bin](https://aur.archlinux.org/packages/xm-video-player-bin)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xpeviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
-|**xplist**|[xplist-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xplist-appimage)|[xplist-appimage](https://aur.archlinux.org/packages/xplist-appimage)||
+|**xplist**|[xplist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xplist-bin)|[xplist-bin](https://aur.archlinux.org/packages/xplist-bin)||
 |**xraygui**|[xraygui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xraygui-bin)|[xraygui-bin](https://aur.archlinux.org/packages/xraygui-bin)||
 |**xunscore**|[xunscore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xunscore-bin)|[xunscore-bin](https://aur.archlinux.org/packages/xunscore-bin)||
 |**y2mp3**|[y2mp3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/y2mp3-appimage)|[y2mp3-appimage](https://aur.archlinux.org/packages/y2mp3-appimage)||
