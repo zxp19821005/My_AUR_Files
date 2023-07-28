@@ -594,14 +594,14 @@
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
-|**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin) <br> [wolai-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-appimage)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin) <br> [wolai-appimage](https://aur.archlinux.org/packages/wolai-appimage)||
+|**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
 |**woocommerce-pos**|[woocommerce-pos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-appimage)|[woocommerce-pos-appimage](https://aur.archlinux.org/packages/woocommerce-pos-appimage)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)||
-|**xbyyunpan**|[xbyyunpan-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xbyyunpan-appimage)|[xbyyunpan-appimage](https://aur.archlinux.org/packages/xbyyunpan-appimage)||
+|**xbyyunpan**|[xbyyunpan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xbyyunpan-bin)|[xbyyunpan-bin](https://aur.archlinux.org/packages/xbyyunpan-bin)||
 |**xiaohongshu**|[unoffical-xiaohongshu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiaohongshu-pake)|[unoffical-xiaohongshu-appimage](https://aur.archlinux.org/packages/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://aur.archlinux.org/packages/xiaohongshu-pake)||
 |**xmachoviewer**|[xmachoviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xmachoviewer-bin)|[xmachoviewer-bin](https://aur.archlinux.org/packages/xmachoviewer-bin)||
-|**x-minecraft-launcher**|[x-minecraft-launcher-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/x-minecraft-launcher-appimage)|[x-minecraft-launcher-appimage](https://aur.archlinux.org/packages/x-minecraft-launcher-appimage)||
+|**x-minecraft-launcher**|[x-minecraft-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/x-minecraft-launcher-bin)|[x-minecraft-launcher-bin](https://aur.archlinux.org/packages/x-minecraft-launcher-bin)||
 |**xm-video-player**|[xm-video-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xm-video-player-appimage)|[xm-video-player-appimage](https://aur.archlinux.org/packages/xm-video-player-appimage)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xournalpp-stable**|[xournalpp-stable-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/xournalpp-stable-appimage)||community中存在,AUR上已删除|
