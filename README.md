@@ -612,7 +612,7 @@
 |**yana**|[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yaradio-yamusic**|[yaradio-yamusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yaradio-yamusic-bin)|[yaradio-yamusic-bin](https://aur.archlinux.org/packages/yaradio-yamusic-bin)||
 |**yarle-evernote-to-md**|[yarle-evernote-to-md-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yarle-evernote-to-md-bin)|[yarle-evernote-to-md-bin](https://aur.archlinux.org/packages/yarle-evernote-to-md-bin)||
-|**yesplaymusic**|[yesplaymusic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-appimage)|[yesplaymusic-appimage](https://aur.archlinux.org/packages/yesplaymusic-appimage)||
+|**yesplaymusic**|[yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-bin)|[yesplaymusic-bin](https://aur.archlinux.org/packages/yesplaymusic-bin)||
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict-bin)|[youdao-dict-bin](https://aur.archlinux.org/packages/youdao-dict-bin)||
 |**youku-uos-electron**|[youku-uos-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-uos-electron-bin)|[youku-uos-electron-bin](https://aur.archlinux.org/packages/youku-uos-electron-bin)||
