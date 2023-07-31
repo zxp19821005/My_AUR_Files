@@ -580,7 +580,6 @@
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
 |**webcam-glass**|[webcam-glass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcam-glass-bin)|[webcam-glass-bin](https://aur.archlinux.org/packages/webcam-glass-bin)||
-|**webdesktop**|[webdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webdesktop-bin)|[webdesktop-bin](https://aur.archlinux.org/packages/webdesktop-bin)||
 |**webgal-terre**|[webgal-terre-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webgal-terre-bin)|[webgal-terre-bin](https://aur.archlinux.org/packages/webgal-terre-bin)||
 |**webkitty**|[webkitty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-bin)|[webkitty-bin](https://aur.archlinux.org/packages/webkitty-bin)||
 |**web-os-dev-manager**|[web-os-dev-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-bin)|[web-os-dev-manager-bin](https://aur.archlinux.org/packages/web-os-dev-manager-bin)||
