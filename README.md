@@ -313,6 +313,7 @@
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
 |**mailmaster**|[mailmaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailmaster-bin)|[mailmaster-bin](https://aur.archlinux.org/packages/mailmaster-bin)||
+|**mailspring**|[mailspring-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring-bin)|[mailspring-bin](https://aur.archlinux.org/packages/mailspring-bin)||
 |**manyi-transformer**|[manyi-transformer](https://github.com/zxp19821005/My_AUR_Files/tree/main/manyi-transformer)|[manyi-transformer](https://aur.archlinux.org/packages/manyi-transformer)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
