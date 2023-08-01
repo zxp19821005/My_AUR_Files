@@ -349,6 +349,7 @@
 |**moyu**|[moyu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-bin)|[moyu-bin](https://aur.archlinux.org/packages/moyu-bin)||
 |**muffon**|[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
+|**musicfree-desktop**|[musicfree-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/musicfree-desktop)|[musicfree-desktop](https://aur.archlinux.org/packages/musicfree-desktop)||
 |**music-you**|[music-you-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-you-appimage)|[music-you-appimage](https://aur.archlinux.org/packages/music-you-appimage)||
 |**myapp-scrapthatpage**|[myapp-scrapthatpage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/myapp-scrapthatpage-bin)|[myapp-scrapthatpage-bin](https://aur.archlinux.org/packages/myapp-scrapthatpage-bin)||
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
