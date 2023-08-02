@@ -53,7 +53,7 @@
 |**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
-|**autocut-client**|[autocut-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-client-bin)|[autocut-client-bin](https://aur.archlinux.org/packages/autocut-client-bin)||
+|**autocut-client**|[autocut-client](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-client)|[autocut-client](https://aur.archlinux.org/packages/autocut-client)||
 |**autographa**|[autographa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autographa-bin)|[autographa-bin](https://aur.archlinux.org/packages/autographa-bin)||
 |**aviutl-package-manager**|[aviutl-package-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aviutl-package-manager-bin)|[aviutl-package-manager-bin](https://aur.archlinux.org/packages/aviutl-package-manager-bin)||
 |**avogadro2**|[avogadro2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avogadro2-appimage)|[avogadro2-appimage](https://aur.archlinux.org/packages/avogadro2-appimage)||
