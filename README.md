@@ -115,7 +115,7 @@
 |**cpeditor**|[cpeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-bin)|[cpeditor-bin](https://aur.archlinux.org/packages/cpeditor-bin)||
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
 |**csbooks**|[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
-|**darkorbit-client**|[darkorbit-client-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-appimage)|[darkorbit-client-appimage](https://aur.archlinux.org/packages/darkorbit-client-appimage)||
+|**darkorbit-client**|[darkorbit-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-bin)|[darkorbit-client-bin](https://aur.archlinux.org/packages/darkorbit-client-bin)||
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile)|[datefile](https://aur.archlinux.org/packages/datefile)||
 |**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin)||
