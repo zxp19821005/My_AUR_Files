@@ -49,7 +49,7 @@
 |**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
 |**apple-music-electron**|[apple-music-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-bin)|[apple-music-electron-bin](https://aur.archlinux.org/packages/apple-music-electron-bin)||
-|**astrofox**|[astrofox-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-appimage)|[astrofox-appimage](https://aur.archlinux.org/packages/astrofox-appimage)||
+|**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
 |**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
