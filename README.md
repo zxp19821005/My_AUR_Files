@@ -143,7 +143,7 @@
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**deltachat-desktop**|[deltachat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deltachat-desktop-bin)|[deltachat-desktop-bin](https://aur.archlinux.org/packages/deltachat-desktop-bin)||
-|**deskaide**|[deskaide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskaide-appimage)|[deskaide-appimage](https://aur.archlinux.org/packages/deskaide-appimage)||
+|**deskaide**|[deskaide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskaide-bin)|[deskaide-bin](https://aur.archlinux.org/packages/deskaide-bin)||
 |**deskcal**|[deskcal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskcal-bin)|[deskcal-bin](https://aur.archlinux.org/packages/deskcal-bin)||
 |**desktop-notifier**|[desktop-notifier-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-notifier-appimage)|[desktop-notifier-appimage](https://aur.archlinux.org/packages/desktop-notifier-appimage)||
 |**des-talk**|[des-talk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/des-talk-appimage)|[des-talk-appimage](https://aur.archlinux.org/packages/des-talk-appimage)||
