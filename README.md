@@ -447,6 +447,7 @@
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
 |**r3play**|[r3play-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-appimage)|[r3play-appimage](https://aur.archlinux.org/packages/r3play-appimage)||
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
+|**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
 |**realm-studio**|[realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**redisfish**|[redisfish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisfish-bin)|[redisfish-bin](https://aur.archlinux.org/packages/redisfish-bin)||
