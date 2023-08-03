@@ -177,8 +177,8 @@
 |**epherome**|[epherome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epherome-bin)|[epherome-bin](https://aur.archlinux.org/packages/epherome-bin)||
 |**epub-reader**|[epub-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader)|[epub-reader](https://aur.archlinux.org/packages/epub-reader)||
 |**etherealengine-control-center**|[etherealengine-control-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-bin)|[etherealengine-control-center-bin](https://aur.archlinux.org/packages/etherealengine-control-center-bin)||
-|**eudic-ting-en**|[eudic-ting-en-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/eudic-ting-en-appimage)|[eudic-ting-en-appimage](https://aur.archlinux.org/packages/eudic-ting-en-appimage)||
 |**eusoft-eudic**|[eusoft-eudic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eudic-bin)|[eusoft-eudic-bin](https://aur.archlinux.org/packages/eusoft-eudic-bin)||
+|**eusoft-ting-en**|[eusoft-ting-en-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-en-bin)|[eusoft-ting-en-bin](https://aur.archlinux.org/packages/eusoft-ting-en-bin)||
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin)||
 |**f1mv-lights-integration**|[f1mv-lights-integration-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-bin)|[f1mv-lights-integration-bin](https://aur.archlinux.org/packages/f1mv-lights-integration-bin)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
