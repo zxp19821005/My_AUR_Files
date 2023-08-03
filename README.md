@@ -148,7 +148,6 @@
 |**desktop-notifier**|[desktop-notifier-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-notifier-appimage)|[desktop-notifier-appimage](https://aur.archlinux.org/packages/desktop-notifier-appimage)||
 |**des-talk**|[des-talk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/des-talk-bin)|[des-talk-bin](https://aur.archlinux.org/packages/des-talk-bin)||
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
-|**devsidecar**|[devsidecar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/devsidecar-appimage)|[devsidecar-appimage](https://aur.archlinux.org/packages/devsidecar-appimage)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**distributionz**|[distributionz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-bin)|[distributionz-bin](https://aur.archlinux.org/packages/distributionz-bin)||
