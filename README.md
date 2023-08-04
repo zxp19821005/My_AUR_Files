@@ -461,6 +461,7 @@
 |**reqable**|[reqable-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqable-bin)|[reqable-bin](https://aur.archlinux.org/packages/reqable-bin)||
 |**reqnotes**|[reqnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqnotes-bin)|[reqnotes-bin](https://aur.archlinux.org/packages/reqnotes-bin)||
 |**revealed**|[revealed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-bin)|[revealed-bin](https://aur.archlinux.org/packages/revealed-bin)||
+|**revenote**|[revenote](https://github.com/zxp19821005/My_AUR_Files/tree/main/revenote)|[revenote](https://aur.archlinux.org/packages/revenote)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
