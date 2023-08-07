@@ -257,7 +257,7 @@
 |**helioslauncher**|[helioslauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/helioslauncher-bin)|[helioslauncher-bin](https://aur.archlinux.org/packages/helioslauncher-bin)||
 |**hexhoot**|[hexhoot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexhoot-bin)|[hexhoot-bin](https://aur.archlinux.org/packages/hexhoot-bin)||
 |**hiregpt**|[hiregpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/hiregpt)|[hiregpt](https://aur.archlinux.org/packages/hiregpt)||
-|**hoptodesk**|[hoptodesk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-appimage)|[hoptodesk-appimage](https://aur.archlinux.org/packages/hoptodesk-appimage)||
+|**hoptodesk**|[hoptodesk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-bin)|[hoptodesk-bin](https://aur.archlinux.org/packages/hoptodesk-bin)||
 |**horanghill**|[horanghill-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/horanghill-bin)|[horanghill-bin](https://aur.archlinux.org/packages/horanghill-bin)||
 |**houdoku**|[houdoku-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku-appimage)|[houdoku-appimage](https://aur.archlinux.org/packages/houdoku-appimage)||
 |**houdunren-camera**|[houdunren-camera-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdunren-camera-bin)|[houdunren-camera-bin](https://aur.archlinux.org/packages/houdunren-camera-bin)||
