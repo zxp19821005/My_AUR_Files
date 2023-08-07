@@ -320,7 +320,6 @@
 |**manyi-transformer**|[manyi-transformer](https://github.com/zxp19821005/My_AUR_Files/tree/main/manyi-transformer)|[manyi-transformer](https://aur.archlinux.org/packages/manyi-transformer)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
-|**masterpdfeditor**|[masterpdfeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masterpdfeditor-bin)||AUR上已删除|
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
 |**mbcord**|[mbcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mbcord-bin)|[mbcord-bin](https://aur.archlinux.org/packages/mbcord-bin)||
 |**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
