@@ -435,7 +435,7 @@
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin)|[publii-bin](https://aur.archlinux.org/packages/publii-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
-|**qradiolink**|[qradiolink-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-appimage)|[qradiolink-appimage](https://aur.archlinux.org/packages/qradiolink-appimage)||
+|**qradiolink**|[qradiolink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-bin)|[qradiolink-bin](https://aur.archlinux.org/packages/qradiolink-bin)||
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quark-player**|[quark-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-appimage)<br>[quark-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-bin)|[quark-player-appimage](https://aur.archlinux.org/packages/quark-player-appimage)<br>[quark-player-bin](https://aur.archlinux.org/packages/quark-player-bin)||
 |**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
