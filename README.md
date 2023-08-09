@@ -607,7 +607,7 @@
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
-|**woocommerce-pos**|[woocommerce-pos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-appimage)|[woocommerce-pos-appimage](https://aur.archlinux.org/packages/woocommerce-pos-appimage)||
+|**woocommerce-pos**|[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)||
 |**xbyyunpan**|[xbyyunpan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xbyyunpan-bin)|[xbyyunpan-bin](https://aur.archlinux.org/packages/xbyyunpan-bin)||
