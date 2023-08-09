@@ -35,6 +35,7 @@
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
 |**altair**|[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**altus**|[altus](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus)|[altus](https://aur.archlinux.org/packages/altus)||
+|**amcrest-desktop**|[amcrest-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amcrest-desktop-bin)|[amcrest-desktop-bin](https://aur.archlinux.org/packages/amcrest-desktop-bin)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
 |**android-knot**|[android-knot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-appimage)|[android-knot-appimage](https://aur.archlinux.org/packages/android-knot-appimage)||
 |**android-toolkit**|[android-toolkit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-toolkit-bin)|[android-toolkit-bin](https://aur.archlinux.org/packages/android-toolkit-bin)||
