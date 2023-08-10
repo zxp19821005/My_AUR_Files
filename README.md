@@ -348,6 +348,7 @@
 |**monarch**|[monarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monarch-bin)|[monarch-bin](https://aur.archlinux.org/packages/monarch-bin)||
 |**moneydance**|[moneydance-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moneydance-bin)|[moneydance-bin](https://aur.archlinux.org/packages/moneydance-bin)||
 |**monit**|[monit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monit-bin)|[monit-bin](https://aur.archlinux.org/packages/monit-bin)||
+|**monokle**|[monokle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monokle-bin)|[monokle-bin](https://aur.archlinux.org/packages/monokle-bin)||
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
