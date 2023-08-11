@@ -185,6 +185,7 @@
 |**eusoft-eudic**|[eusoft-eudic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eudic-bin)|[eusoft-eudic-bin](https://aur.archlinux.org/packages/eusoft-eudic-bin)||
 |**eusoft-frhelper**|[eusoft-frhelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-frhelper-bin)|[eusoft-frhelper-bin](https://aur.archlinux.org/packages/eusoft-frhelper-bin)||
 |**eusoft-ting-en**|[eusoft-ting-en-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-en-bin)|[eusoft-ting-en-bin](https://aur.archlinux.org/packages/eusoft-ting-en-bin)||
+|**eusoft-ting-es**|[eusoft-ting-es-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-es-bin)|[eusoft-ting-es-bin](https://aur.archlinux.org/packages/eusoft-ting-es-bin)||
 |**eusoft-ting-de**|[eusoft-ting-de-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-de-bin)|[eusoft-ting-de-bin](https://aur.archlinux.org/packages/eusoft-ting-de-bin)||
 |**eusoft-ting-fr**|[eusoft-ting-fr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-fr-bin)|[eusoft-ting-fr-bin](https://aur.archlinux.org/packages/eusoft-ting-fr-bin)||
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin)||
