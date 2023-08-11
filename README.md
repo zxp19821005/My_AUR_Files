@@ -93,7 +93,7 @@
 |**chain-desktop-wallet**|[chain-desktop-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-bin)|[chain-desktop-wallet-bin](https://aur.archlinux.org/packages/chain-desktop-wallet-bin)||
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
 |**chatall**|[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)|[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)||
-|**chatgptx**|[chatgptx-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-appimage)|[chatgptx-appimage](https://aur.archlinux.org/packages/chatgptx-appimage)||
+|**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
 |**chengla-linux-unofficial**|[chengla-linux-unofficial-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chengla-linux-unofficial-bin)|[chengla-linux-unofficial-bin](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
