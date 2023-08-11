@@ -181,6 +181,7 @@
 |**epub-reader**|[epub-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader)|[epub-reader](https://aur.archlinux.org/packages/epub-reader)||
 |**etherealengine-control-center**|[etherealengine-control-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-bin)|[etherealengine-control-center-bin](https://aur.archlinux.org/packages/etherealengine-control-center-bin)||
 |**eusoft-dehelper**|[eusoft-dehelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-dehelper-bin)|[eusoft-dehelper-bin](https://aur.archlinux.org/packages/eusoft-dehelper-bin)||
+|**eusoft-eshelper**|[eusoft-eshelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eshelper-bin)|[eusoft-eshelper-bin](https://aur.archlinux.org/packages/eusoft-eshelper-bin)||
 |**eusoft-eudic**|[eusoft-eudic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eudic-bin)|[eusoft-eudic-bin](https://aur.archlinux.org/packages/eusoft-eudic-bin)||
 |**eusoft-frhelper**|[eusoft-frhelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-frhelper-bin)|[eusoft-frhelper-bin](https://aur.archlinux.org/packages/eusoft-frhelper-bin)||
 |**eusoft-ting-en**|[eusoft-ting-en-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-en-bin)|[eusoft-ting-en-bin](https://aur.archlinux.org/packages/eusoft-ting-en-bin)||
