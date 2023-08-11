@@ -166,7 +166,6 @@
 |**ecency-surfer**|[ecency-surfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-bin)|[ecency-surfer-bin](https://aur.archlinux.org/packages/ecency-surfer-bin)||
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
-|**electron-egg**|[electron-egg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-egg-bin)|[electron-egg-bin](https://aur.archlinux.org/packages/electron-egg-bin)||
 |**electron-gpt**|[electron-gpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-gpt-git)|[electron-gpt-git](https://aur.archlinux.org/packages/electron-gpt-git)||
 |**electron-music-player**|[electron-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-music-player)|[electron-music-player](https://aur.archlinux.org/packages/electron-music-player)||
 |**electron-netease-cloud-music**|[electron-netease-cloud-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-netease-cloud-music-bin)|[electron-netease-cloud-music-bin](https://aur.archlinux.org/packages/electron-netease-cloud-music-bin)||
