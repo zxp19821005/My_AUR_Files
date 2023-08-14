@@ -252,7 +252,7 @@
 |**grinplusplus**|[grinplusplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grinplusplus-bin)|[grinplusplus-bin](https://aur.archlinux.org/packages/grinplusplus-bin)||
 |**grx**|[grx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grx-bin)|[grx-bin](https://aur.archlinux.org/packages/grx-bin)||
 |**gstarcad**|[gstarcad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gstarcad-bin)|[gstarcad-bin](https://aur.archlinux.org/packages/gstarcad-bin)||
-|**gui-butler**|[gui-butler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gui-butler-bin)|[gui-butler-bin](https://aur.archlinux.org/packages/gui-butler-bin)||
+|**gui-butler**|[gui-butler](https://github.com/zxp19821005/My_AUR_Files/tree/main/gui-butler)|[gui-butler](https://aur.archlinux.org/packages/gui-butler)||
 |**guiscrcpy**|[guiscrcpy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiscrcpy-appimage)|[guiscrcpy-appimage](https://aur.archlinux.org/packages/guiscrcpy-appimage)||
 |**guiwrapper**|[guiwrapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiwrapper-bin)|[guiwrapper-bin](https://aur.archlinux.org/packages/guiwrapper-bin)||
 |**hathor-wallet**|[hathor-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hathor-wallet-bin)|[hathor-wallet-bin](https://aur.archlinux.org/packages/hathor-wallet-bin)||
