@@ -364,6 +364,7 @@
 |**my-hardware**|[my-hardware-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-hardware-bin)|[my-hardware-bin](https://aur.archlinux.org/packages/my-hardware-bin)||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**netpad**|[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
+|**net-player**|[net-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/net-player)|[net-player](https://aur.archlinux.org/packages/net-player)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**next-library**|[next-library-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/next-library-bin)|[next-library-bin](https://aur.archlinux.org/packages/next-library-bin)||
 |**nexus-wallet**|[nexus-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nexus-wallet-appimage)|[nexus-wallet-appimage](https://aur.archlinux.org/packages/nexus-wallet-appimage)||
