@@ -239,6 +239,7 @@
 |**goofcord**|[goofcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goofcord-bin)|[goofcord-bin](https://aur.archlinux.org/packages/goofcord-bin)||
 |**godotpcktool**|[godotpcktool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godotpcktool-bin)|[godotpcktool-bin](https://aur.archlinux.org/packages/godotpcktool-bin)||
 |**google-assistant-unofficial-desktop-client**|[google-assistant-unofficial-desktop-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-bin)|[google-assistant-unofficial-desktop-client-bin](https://aur.archlinux.org/packages/google-assistant-unofficial-desktop-client-bin)||
+|**google-calender-widget**|[google-calender-widget](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-calender-widget)|[google-calender-widget](https://aur.archlinux.org/packages/google-calender-widget)||
 |**google-docs**|[google-docs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-docs-bin)|[google-docs-bin](https://aur.archlinux.org/packages/google-docs-bin)||
 |**gopeed**|[gopeed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gopeed-bin)|[gopeed-bin](https://aur.archlinux.org/packages/gopeed-bin)||
 |**gorss**|[gorss](https://github.com/zxp19821005/My_AUR_Files/tree/main/gorss)|[gorss](https://aur.archlinux.org/packages/gorss)||
