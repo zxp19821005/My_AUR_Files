@@ -165,6 +165,7 @@
 |**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
+|**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
 |**ecency-surfer**|[ecency-surfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-bin)|[ecency-surfer-bin](https://aur.archlinux.org/packages/ecency-surfer-bin)||
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
