@@ -326,6 +326,7 @@
 |**lunarcalendar**|[lunarcalendar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-appimage)|[lunarcalendar-appimage](https://aur.archlinux.org/packages/lunarcalendar-appimage)||
 |**lvce**|[lvce-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-bin)|[lvce-bin](https://aur.archlinux.org/packages/lvce-bin)||
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
+|**m3u8-downloader**|[m3u8-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/m3u8-downloader-bin)|[m3u8-downloader-bin](https://aur.archlinux.org/packages/m3u8-downloader-bin)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
 |**mailmaster**|[mailmaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailmaster-bin)|[mailmaster-bin](https://aur.archlinux.org/packages/mailmaster-bin)||
 |**mailspring**|[mailspring-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring-bin)|[mailspring-bin](https://aur.archlinux.org/packages/mailspring-bin)||
