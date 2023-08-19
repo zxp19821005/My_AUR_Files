@@ -35,6 +35,7 @@
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
 |**alspotron**|[alspotron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alspotron-bin)|[alspotron-bin](https://aur.archlinux.org/packages/alspotron-bin)||
 |**altair**|[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
+|**altitude-metrix-wallet**|[altitude-metrix-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/altitude-metrix-wallet-appimage)|[altitude-metrix-wallet-appimage](https://aur.archlinux.org/packages/altitude-metrix-wallet-appimage)||
 |**altus**|[altus](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus)|[altus](https://aur.archlinux.org/packages/altus)||
 |**amcrest-desktop**|[amcrest-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amcrest-desktop-bin)|[amcrest-desktop-bin](https://aur.archlinux.org/packages/amcrest-desktop-bin)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
