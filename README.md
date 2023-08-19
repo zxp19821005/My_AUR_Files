@@ -238,6 +238,7 @@
 |**glyphr-studio-desktop**|[glyphr-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-bin)|[glyphr-studio-desktop-bin](https://aur.archlinux.org/packages/glyphr-studio-desktop-bin)||
 |**glyphr-studio-nativefier**|[glyphr-studio-nativefier](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-nativefier)|[glyphr-studio-nativefier](https://aur.archlinux.org/packages/glyphr-studio-nativefier)||
 |**gmail-desktop**|[gmail-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gmail-desktop-bin)|[gmail-desktop-bin](https://aur.archlinux.org/packages/gmail-desktop-bin)||
+|**godmode**|[godmode](https://github.com/zxp19821005/My_AUR_Files/tree/main/godmode)|[godmode](https://aur.archlinux.org/packages/godmode)||
 |**golang-mockery**|[golang-mockery](https://github.com/zxp19821005/My_AUR_Files/tree/main/golang-mockery)|[golang-mockery](https://aur.archlinux.org/packages/golang-mockery)||
 |**goofcord**|[goofcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goofcord-bin)|[goofcord-bin](https://aur.archlinux.org/packages/goofcord-bin)||
 |**godotpcktool**|[godotpcktool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godotpcktool-bin)|[godotpcktool-bin](https://aur.archlinux.org/packages/godotpcktool-bin)||
