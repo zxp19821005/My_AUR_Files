@@ -499,6 +499,7 @@
 |**saber**|[saber-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/saber-appimage)|[saber-appimage](https://aur.archlinux.org/packages/saber-appimage)||
 |**salesforce2sql**|[salesforce2sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salesforce2sql-bin)|[salesforce2sql-bin](https://aur.archlinux.org/packages/salesforce2sql-bin)||
 |**sbe**|[sbe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-bin)|[sbe-bin](https://aur.archlinux.org/packages/sbe-bin)||
+|**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
 |**selenium-ide**|[selenium-ide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-appimage)|[selenium-ide-appimage](https://aur.archlinux.org/packages/selenium-ide-appimage)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
