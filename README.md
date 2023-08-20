@@ -505,6 +505,7 @@
 |**seven-desktop**|[seven-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-desktop-bin)|[seven-desktop-bin](https://aur.archlinux.org/packages/seven-desktop-bin)||
 |**shadowsocks-electron**|[shadowsocks-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shadowsocks-electron-bin)|[shadowsocks-electron-bin](https://aur.archlinux.org/packages/shadowsocks-electron-bin)||
 |**sharefi-electron**|[sharefi-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sharefi-electron-bin)|[sharefi-electron-bin](https://aur.archlinux.org/packages/sharefi-electron-bin)||
+|**shedshield**|[shedshield-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shedshield-bin)|[shedshield-bin](https://aur.archlinux.org/packages/shedshield-bin)||
 |**sheikah-witnet-wallet**|[sheikah-witnet-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sheikah-witnet-wallet-bin)|[sheikah-witnet-wallet-bin](https://aur.archlinux.org/packages/sheikah-witnet-wallet-bin)||
 |**shiba**|[shiba-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shiba-bin)|[shiba-bin](https://aur.archlinux.org/packages/shiba-bin)||
 |**shoppinglist**|[shoppinglist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shoppinglist-bin)|[shoppinglist-bin](https://aur.archlinux.org/packages/shoppinglist-bin)||
