@@ -659,6 +659,7 @@
 |**youtube-desktop**|[youtube-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-desktop-bin)|[youtube-desktop-bin](https://aur.archlinux.org/packages/youtube-desktop-bin)||
 |**youtube-smarttv-emu**|[youtube-smarttv-emu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-smarttv-emu-bin)|[youtube-smarttv-emu-bin](https://aur.archlinux.org/packages/youtube-smarttv-emu-bin)||
 |**yt-dlandcut**|[yt-dlandcut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-dlandcut-bin)|[yt-dlandcut-bin](https://aur.archlinux.org/packages/yt-dlandcut-bin)||
+|**ytdl-desktop**|[ytdl-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdl-desktop)|[ytdl-desktop](https://aur.archlinux.org/packages/ytdl-desktop)||
 |**ytdownloader-gui**|[ytdownloader-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdownloader-gui-bin)|[ytdownloader-gui-bin](https://aur.archlinux.org/packages/ytdownloader-gui-bin)||
 |**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage)<br>[yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage)<br>[yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
 |**yuview**|[yuview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-appimage)|[yuview-appimage](https://aur.archlinux.org/packages/yuview-appimage)||
