@@ -544,6 +544,7 @@
 |**subtitler**|[subtitler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-bin)|[subtitler-bin](https://aur.archlinux.org/packages/subtitler-bin)||
 |**subtitle-translator-electron**|[subtitle-translator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-bin)|[subtitle-translator-electron-bin](https://aur.archlinux.org/packages/subtitle-translator-electron-bin)||
 |**sunbible**|[sunbible](https://github.com/zxp19821005/My_AUR_Files/tree/main/sunbible)|[sunbible](https://aur.archlinux.org/packages/sunbible)||
+|**super-controller**|[super-controller](https://github.com/zxp19821005/My_AUR_Files/tree/main/super-controller)|[super-controller](https://aur.archlinux.org/packages/super-controller)||
 |**supersonic-desktop**|[supersonic-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supersonic-desktop-bin)|[supersonic-desktop-bin](https://aur.archlinux.org/packages/supersonic-desktop-bin)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swesence**|[swesence-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swesence-bin)|[swesence-bin](https://aur.archlinux.org/packages/swesence-bin)||
