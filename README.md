@@ -162,6 +162,7 @@
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**distributionz**|[distributionz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-bin)|[distributionz-bin](https://aur.archlinux.org/packages/distributionz-bin)||
+|**dk-c++**|[dk-c++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dk-c++-bin)|[dk-c++-bin](https://aur.archlinux.org/packages/dk-c++-bin)||
 |**dnglab**|[dnglab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnglab-bin)|[dnglab-bin](https://aur.archlinux.org/packages/dnglab-bin)||
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)|[dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin)||
