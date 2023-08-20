@@ -406,6 +406,7 @@
 |**open-ai-translator**|[open-ai-translator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-bin)|[open-ai-translator-bin](https://aur.archlinux.org/packages/open-ai-translator-bin)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-appimage)|[openhome-appimage](https://aur.archlinux.org/packages/openhome-appimage)||
+|**open-password-manager**|[open-password-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-password-manager-appimage)|[open-password-manager-appimage](https://aur.archlinux.org/packages/open-password-manager-appimage)||
 |**orature**|[orature-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orature-bin)|[orature-bin](https://aur.archlinux.org/packages/orature-bin)||
 |**ostara**|[ostara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ostara-appimage)|[ostara-appimage](https://aur.archlinux.org/packages/ostara-appimage)||
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
