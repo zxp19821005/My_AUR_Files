@@ -641,6 +641,7 @@
 |**wewechat++**|[wewechat++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wewechat++-bin)|[wewechat++-bin](https://aur.archlinux.org/packages/wewechat++-bin)||
 |**whalebird**|[whalebird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whalebird-bin)|[whalebird-bin](https://aur.archlinux.org/packages/whalebird-bin)||
 |**whatsapp-for-linux**|[whatsapp-for-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-bin)|[whatsapp-for-linux-bin](https://aur.archlinux.org/packages/whatsapp-for-linux-bin)||
+|**whisperpix**|[whisperpix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whisperpix-bin)|[whisperpix-bin](https://aur.archlinux.org/packages/whisperpix-bin)||
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
