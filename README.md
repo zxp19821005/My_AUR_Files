@@ -305,6 +305,7 @@
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
 |**kanbanflow-app**|[kanbanflow-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-bin)|[kanbanflow-app-bin](https://aur.archlinux.org/packages/kanbanflow-app-bin)||
 |**kangaroo-max**|[kangaroo-max-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kangaroo-max-bin)|[kangaroo-max-bin](https://aur.archlinux.org/packages/kangaroo-max-bin)||
+|**karbonized**|[karbonized-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/karbonized-bin)|[karbonized-bin](https://aur.archlinux.org/packages/karbonized-bin)||
 |**kcl**|[kcl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kcl-bin)|[kcl-bin](https://aur.archlinux.org/packages/kcl-bin)||
 |**kdesktop**|[kdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kdesktop-bin)|[kdesktop-bin](https://aur.archlinux.org/packages/kdesktop-bin)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
