@@ -506,6 +506,7 @@
 |**sbe**|[sbe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-bin)|[sbe-bin](https://aur.archlinux.org/packages/sbe-bin)||
 |**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
 |**selenium-ide**|[selenium-ide-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-appimage)|[selenium-ide-appimage](https://aur.archlinux.org/packages/selenium-ide-appimage)||
+|**selvania-launcher**|[selvania-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/selvania-launcher-bin)|[selvania-launcher-bin](https://aur.archlinux.org/packages/selvania-launcher-bin)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**sentio**|[sentio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sentio-bin)|[sentio-bin](https://aur.archlinux.org/packages/sentio-bin)||
