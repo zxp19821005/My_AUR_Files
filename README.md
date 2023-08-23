@@ -545,6 +545,7 @@
 |**spark-wallet**|[spark-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-wallet-appimage)|[spark-wallet-appimage](https://aur.archlinux.org/packages/spark-wallet-appimage)||
 |**spearmint-test**|[spearmint-test-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spearmint-test-bin)|[spearmint-test-bin](https://aur.archlinux.org/packages/spearmint-test-bin)||
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
+|**spotbar**|[spotbar](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotbar)|[spotbar](https://aur.archlinux.org/packages/spotbar)||
 |**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
 |**spx-translation**|[spx-translation](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation)|[spx-translation](https://aur.archlinux.org/packages/spx-translation)||
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
