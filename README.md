@@ -419,6 +419,7 @@
 |**onekey-wallet**|[onekey-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-appimage)|[onekey-wallet-appimage](https://aur.archlinux.org/packages/onekey-wallet-appimage)||
 |**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
 |**open-ai-translator**|[open-ai-translator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-bin)|[open-ai-translator-bin](https://aur.archlinux.org/packages/open-ai-translator-bin)||
+|**opencomic**|[opencomic](https://github.com/zxp19821005/My_AUR_Files/tree/main/opencomic)|[opencomic](https://aur.archlinux.org/packages/opencomic)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-appimage)|[openhome-appimage](https://aur.archlinux.org/packages/openhome-appimage)||
 |**open-password-manager**|[open-password-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-password-manager-appimage)|[open-password-manager-appimage](https://aur.archlinux.org/packages/open-password-manager-appimage)||
