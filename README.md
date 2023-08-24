@@ -326,6 +326,7 @@
 |**laradumps**|[laradumps-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-bin)|[laradumps-bin](https://aur.archlinux.org/packages/laradumps-bin)||
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
 |**less-player**|[less-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-bin)|[less-player-bin](https://aur.archlinux.org/packages/less-player-bin)||
+|**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
 |**linked**|[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
 |**linwood-butterfly**|[linwood-butterfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linwood-butterfly-bin)|[linwood-butterfly-bin](https://aur.archlinux.org/packages/linwood-butterfly-bin)||
