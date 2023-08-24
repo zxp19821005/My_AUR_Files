@@ -277,6 +277,7 @@
 |**heimer**|[heimer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-bin)|[heimer-bin](https://aur.archlinux.org/packages/heimer-bin)||
 |**helioslauncher**|[helioslauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/helioslauncher-bin)|[helioslauncher-bin](https://aur.archlinux.org/packages/helioslauncher-bin)||
 |**hexhoot**|[hexhoot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexhoot-bin)|[hexhoot-bin](https://aur.archlinux.org/packages/hexhoot-bin)||
+|**hex-music-player**|[hex-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/hex-music-player)|[hex-music-player](https://aur.archlinux.org/packages/hex-music-player)||
 |**hiregpt**|[hiregpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/hiregpt)|[hiregpt](https://aur.archlinux.org/packages/hiregpt)||
 |**homeassistant-desktop**|[homeassistant-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/homeassistant-desktop-bin)|[homeassistant-desktop-bin](https://aur.archlinux.org/packages/homeassistant-desktop-bin)||
 |**hoptodesk**|[hoptodesk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-bin)|[hoptodesk-bin](https://aur.archlinux.org/packages/hoptodesk-bin)||
