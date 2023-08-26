@@ -638,6 +638,7 @@
 |**utilso**|[utilso-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-bin)|[utilso-bin](https://aur.archlinux.org/packages/utilso-bin)||
 |**uyou-todo**|[uyou-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-bin)|[uyou-todo-bin](https://aur.archlinux.org/packages/uyou-todo-bin)||
 |**vagrant-manager**|[vagrant-manager-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-appimage)|[vagrant-manager-appimage](https://aur.archlinux.org/packages/vagrant-manager-appimage)||
+|**vega-video-editor**|[vega-video-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/vega-video-editor)|[vega-video-editor](https://aur.archlinux.org/packages/vega-video-editor)||
 |**vencord-desktop**|[vencord-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vencord-desktop-bin)|[vencord-desktop-bin](https://aur.archlinux.org/packages/vencord-desktop-bin)||
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
 |**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
