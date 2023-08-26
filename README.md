@@ -497,6 +497,7 @@
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
 |**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
+|**react-explorer**|[react-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/react-explorer-bin)|[react-explorer-bin](https://aur.archlinux.org/packages/react-explorer-bin)||
 |**realm-studio**|[realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**redisfish**|[redisfish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisfish-bin)|[redisfish-bin](https://aur.archlinux.org/packages/redisfish-bin)||
 |**redis-gui**|[redis-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-bin)|[redis-gui-bin](https://aur.archlinux.org/packages/redis-gui-bin)||
