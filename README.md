@@ -292,6 +292,7 @@
 |**hoverfly**|[hoverfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoverfly-bin)|[hoverfly-bin](https://aur.archlinux.org/packages/hoverfly-bin)||
 |**htbrowser**|[htbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/htbrowser-bin)|[htbrowser-bin](https://aur.archlinux.org/packages/htbrowser-bin)||
 |**huelectron**|[huelectron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/huelectron-bin)|[huelectron-bin](https://aur.archlinux.org/packages/huelectron-bin)||
+|**hugin-messenger**|[hugin-messenger](https://github.com/zxp19821005/My_AUR_Files/tree/main/hugin-messenger)|[hugin-messenger](https://aur.archlinux.org/packages/hugin-messenger)||
 |**hype**|[hype](https://github.com/zxp19821005/My_AUR_Files/tree/main/hype)|[hype](https://aur.archlinux.org/packages/hype)||
 |**hyperamp**|[hyperamp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperamp-appimage)|[hyperamp-appimage](https://aur.archlinux.org/packages/hyperamp-appimage)||
 |**hyperkeys**|[hyperkeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-bin)|[hyperkeys-bin](https://aur.archlinux.org/packages/hyperkeys-bin)||
