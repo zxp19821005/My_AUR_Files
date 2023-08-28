@@ -489,6 +489,7 @@
 |**proton-mail-viewer**|[proton-mail-viewer](https://github.com/zxp19821005/My_AUR_Files/tree/main/proton-mail-viewer)|[proton-mail-viewer](https://aur.archlinux.org/packages/proton-mail-viewer)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin)|[publii-bin](https://aur.archlinux.org/packages/publii-bin)||
+|**qcalc**|[qcalc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qcalc-bin)|[qcalc-bin](https://aur.archlinux.org/packages/qcalc-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**qradiolink**|[qradiolink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-bin)|[qradiolink-bin](https://aur.archlinux.org/packages/qradiolink-bin)||
