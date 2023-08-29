@@ -242,6 +242,7 @@
 |**frame-cast**|[frame-cast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-cast-bin)|[frame-cast-bin](https://aur.archlinux.org/packages/frame-cast-bin)||
 |**frappe-books**|[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
+|**frontimer**|[frontimer](https://github.com/zxp19821005/My_AUR_Files/tree/main/frontimer)|[frontimer](https://aur.archlinux.org/packages/frontimer)||
 |**frosch**|[frosch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frosch-bin)|[frosch-bin](https://aur.archlinux.org/packages/frosch-bin)||
 |**fsolauncher**|[fsolauncher](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher)|[fsolauncher](https://aur.archlinux.org/packages/fsolauncher)||
 |**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
