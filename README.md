@@ -597,6 +597,7 @@
 |**supersonic-desktop**|[supersonic-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supersonic-desktop-bin)|[supersonic-desktop-bin](https://aur.archlinux.org/packages/supersonic-desktop-bin)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swarm-desktop**|[swarm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/swarm-desktop)|[swarm-desktop](https://aur.archlinux.org/packages/swarm-desktop)||
+|**swc-mclauncher**|[swc-mclauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swc-mclauncher-bin)|[swc-mclauncher-bin](https://aur.archlinux.org/packages/swc-mclauncher-bin)||
 |**swesence**|[swesence-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swesence-bin)|[swesence-bin](https://aur.archlinux.org/packages/swesence-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**tauri-ui**|[tauri-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauri-ui-appimage)|[tauri-ui-appimage](https://aur.archlinux.org/packages/tauri-ui-appimage)||
