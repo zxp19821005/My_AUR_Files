@@ -168,6 +168,7 @@
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
+|**discord-netflix**|[discord-netflix](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-netflix)|[discord-netflix](https://aur.archlinux.org/packages/discord-netflix)||
 |**distributionz**|[distributionz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-bin)|[distributionz-bin](https://aur.archlinux.org/packages/distributionz-bin)||
 |**dk-c++**|[dk-c++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dk-c++-bin)|[dk-c++-bin](https://aur.archlinux.org/packages/dk-c++-bin)||
 |**dnglab**|[dnglab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnglab-bin)|[dnglab-bin](https://aur.archlinux.org/packages/dnglab-bin)||
