@@ -341,6 +341,7 @@
 |**krux-installer**|[krux-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krux-installer-bin)|[krux-installer-bin](https://aur.archlinux.org/packages/krux-installer-bin)||
 |**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
 |**kui**|[kui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kui-bin)|[kui-bin](https://aur.archlinux.org/packages/kui-bin)||
+|**kuro**|[kuro-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kuro-git)|[kuro-git](https://aur.archlinux.org/packages/kuro-git)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
 |**lagrange**|[lagrange-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lagrange-appimage)|[lagrange-appimage](https://aur.archlinux.org/packages/lagrange-appimage)||
 |**laradumps**|[laradumps-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-bin)|[laradumps-bin](https://aur.archlinux.org/packages/laradumps-bin)||
