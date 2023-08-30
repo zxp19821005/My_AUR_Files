@@ -404,6 +404,7 @@
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
 |**moyu**|[moyu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-bin)|[moyu-bin](https://aur.archlinux.org/packages/moyu-bin)||
+|**mqttx**|[mqttx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-git)|[mqttx-git](https://aur.archlinux.org/packages/mqttx-git)||
 |**muffon**|[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
 |**musicfree-desktop**|[musicfree-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/musicfree-desktop)|[musicfree-desktop](https://aur.archlinux.org/packages/musicfree-desktop)||
