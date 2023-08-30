@@ -465,6 +465,7 @@
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
 |**perplexity-ai-app**|[perplexity-ai-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/perplexity-ai-app)|[perplexity-ai-app](https://aur.archlinux.org/packages/perplexity-ai-app)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
+|**picgo**|[picgo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-git)|[picgo-git](https://aur.archlinux.org/packages/picgo-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
 |**picturama**|[picturama-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-appimage)|[picturama-appimage](https://aur.archlinux.org/packages/picturama-appimage)||
 |**pikatorrent**|[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
