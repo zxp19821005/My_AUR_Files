@@ -315,6 +315,7 @@
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
 |**implay**|[implay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-bin)|[implay-bin](https://aur.archlinux.org/packages/implay-bin)||
 |**inethi**|[inethi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inethi-bin)|[inethi-bin](https://aur.archlinux.org/packages/inethi-bin)||
+|**interactive-data-editor**|[interactive-data-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interactive-data-editor-bin)|[interactive-data-editor-bin](https://aur.archlinux.org/packages/interactive-data-editor-bin)||
 |**interastral-peace-chat**|[interastral-peace-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interastral-peace-chat-bin)|[interastral-peace-chat-bin](https://aur.archlinux.org/packages/interastral-peace-chat-bin)||
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
