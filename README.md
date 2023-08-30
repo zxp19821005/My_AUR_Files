@@ -365,6 +365,7 @@
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
 |**m3u8-downloader**|[m3u8-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/m3u8-downloader-bin)|[m3u8-downloader-bin](https://aur.archlinux.org/packages/m3u8-downloader-bin)||
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
+|**macchatgpt**|[macchatgpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/macchatgpt)|[macchatgpt](https://aur.archlinux.org/packages/macchatgpt)||
 |**mailmaster**|[mailmaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailmaster-bin)|[mailmaster-bin](https://aur.archlinux.org/packages/mailmaster-bin)||
 |**mailspring**|[mailspring-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring-bin)|[mailspring-bin](https://aur.archlinux.org/packages/mailspring-bin)||
 |**manyi-transformer**|[manyi-transformer](https://github.com/zxp19821005/My_AUR_Files/tree/main/manyi-transformer)|[manyi-transformer](https://aur.archlinux.org/packages/manyi-transformer)||
