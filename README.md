@@ -482,6 +482,7 @@
 |**polyglot**|[polyglot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-bin)|[polyglot-bin](https://aur.archlinux.org/packages/polyglot-bin)||
 |**pomodoro**|[pomodoro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomodoro-bin)|[pomodoro-bin](https://aur.archlinux.org/packages/pomodoro-bin)||
 |**pomota**|[pomota-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-bin)|[pomota-bin](https://aur.archlinux.org/packages/pomota-bin)||
+|**pomotro**|[pomotro](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomotro)|[pomotro](https://aur.archlinux.org/packages/pomotro)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
 |**positron**|[positron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-bin)|[positron-bin](https://aur.archlinux.org/packages/positron-bin)||
 |**postbird**|[postbird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-bin)|[postbird-bin](https://aur.archlinux.org/packages/postbird-bin)||
