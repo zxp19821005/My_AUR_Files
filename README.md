@@ -310,6 +310,7 @@
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
 |**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
 |**ih8rtcgui**|[ih8rtcgui](https://github.com/zxp19821005/My_AUR_Files/tree/main/ih8rtcgui)|[ih8rtcgui](https://aur.archlinux.org/packages/ih8rtcgui)||
+|**image-stitching**|[image-stitching](https://github.com/zxp19821005/My_AUR_Files/tree/main/image-stitching)|[image-stitching](https://aur.archlinux.org/packages/image-stitching)||
 |**imagine**|[imagine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-bin)|[imagine-bin](https://aur.archlinux.org/packages/imagine-bin)||
 |**imhex**|[imhex-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/imhex-appimage)|[imhex-appimage](https://aur.archlinux.org/packages/imhex-appimage)||
 |**implay**|[implay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/implay-bin)|[implay-bin](https://aur.archlinux.org/packages/implay-bin)||
