@@ -550,6 +550,7 @@
 |**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
 |**serial-studio**|[serial-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/serial-studio-appimage)|[serial-studio-appimage](https://aur.archlinux.org/packages/serial-studio-appimage)||
 |**seven-desktop**|[seven-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-desktop-bin)|[seven-desktop-bin](https://aur.archlinux.org/packages/seven-desktop-bin)||
+|**seven-waves**|[seven-waves](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves)|[seven-waves](https://aur.archlinux.org/packages/seven-waves)||
 |**shadowsocks-electron**|[shadowsocks-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shadowsocks-electron-bin)|[shadowsocks-electron-bin](https://aur.archlinux.org/packages/shadowsocks-electron-bin)||
 |**sharefi-electron**|[sharefi-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sharefi-electron-bin)|[sharefi-electron-bin](https://aur.archlinux.org/packages/sharefi-electron-bin)||
 |**shedshield**|[shedshield-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shedshield-bin)|[shedshield-bin](https://aur.archlinux.org/packages/shedshield-bin)||
