@@ -136,6 +136,7 @@
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile)|[datefile](https://aur.archlinux.org/packages/datefile)||
 |**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin)||
+|**deadbolt**|[deadbolt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadbolt-bin)|[deadbolt-bin](https://aur.archlinux.org/packages/deadbolt-bin)||
 |**deadboltplusplus**|[deadboltplusplus](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadboltplusplus)|[deadboltplusplus](https://aur.archlinux.org/packages/deadboltplusplus)||
 |**deckboard**|[deckboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-bin)|[deckboard-bin](https://aur.archlinux.org/packages/deckboard-bin)||
 |**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
