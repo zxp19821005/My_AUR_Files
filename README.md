@@ -611,6 +611,7 @@
 |**swc-mclauncher**|[swc-mclauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swc-mclauncher-bin)|[swc-mclauncher-bin](https://aur.archlinux.org/packages/swc-mclauncher-bin)||
 |**swesence**|[swesence-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swesence-bin)|[swesence-bin](https://aur.archlinux.org/packages/swesence-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
+|**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
 |**tauri-ui**|[tauri-ui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauri-ui-appimage)|[tauri-ui-appimage](https://aur.archlinux.org/packages/tauri-ui-appimage)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
