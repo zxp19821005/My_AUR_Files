@@ -126,6 +126,7 @@
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
 |**copytranslator**|[copytranslator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-appimage)|[copytranslator-appimage](https://aur.archlinux.org/packages/copytranslator-appimage)||
+|**cozy-drive**|[cozy-drive-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cozy-drive-bin)|[cozy-drive-bin](https://aur.archlinux.org/packages/cozy-drive-bin)||
 |**cpeditor**|[cpeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-bin)|[cpeditor-bin](https://aur.archlinux.org/packages/cpeditor-bin)||
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
 |**creamplayer**|[creamplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/creamplayer)|[creamplayer](https://aur.archlinux.org/packages/creamplayer)||
