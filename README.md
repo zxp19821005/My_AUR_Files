@@ -576,8 +576,7 @@
 |**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**snippet-notes**|[snippet-notes](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippet-notes)|[snippet-notes](https://aur.archlinux.org/packages/snippet-notes)||
-|**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck)|[snsdeck](https://aur.archlinux.org/packages/snsdeck)||
-|**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
+|**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck)<br>[snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck)<br>[snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)|||**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**somafm-desktop-player**|[somafm-desktop-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/somafm-desktop-player-bin)|[somafm-desktop-player-bin](https://aur.archlinux.org/packages/somafm-desktop-player-bin)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
