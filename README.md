@@ -351,6 +351,7 @@
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
 |**leafview**|[leafview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leafview-bin)|[leafview-bin](https://aur.archlinux.org/packages/leafview-bin)||
 |**less-player**|[less-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-bin)|[less-player-bin](https://aur.archlinux.org/packages/less-player-bin)||
+|**librefancontrol**|[librefancontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librefancontrol-bin)|[librefancontrol-bin](https://aur.archlinux.org/packages/librefancontrol-bin)||
 |**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
 |**linked**|[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
