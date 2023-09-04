@@ -291,6 +291,7 @@
 |**gui-butler**|[gui-butler](https://github.com/zxp19821005/My_AUR_Files/tree/main/gui-butler)|[gui-butler](https://aur.archlinux.org/packages/gui-butler)||
 |**guiscrcpy**|[guiscrcpy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiscrcpy-appimage)|[guiscrcpy-appimage](https://aur.archlinux.org/packages/guiscrcpy-appimage)||
 |**guiwrapper**|[guiwrapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiwrapper-bin)|[guiwrapper-bin](https://aur.archlinux.org/packages/guiwrapper-bin)||
+|**habit-tracker**|[habit-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/habit-tracker-bin)|[habit-tracker-bin](https://aur.archlinux.org/packages/habit-tracker-bin)||
 |**hathor-wallet**|[hathor-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hathor-wallet-bin)|[hathor-wallet-bin](https://aur.archlinux.org/packages/hathor-wallet-bin)||
 |**headphones**|[headphones](https://github.com/zxp19821005/My_AUR_Files/tree/main/headphones)|[headphones](https://aur.archlinux.org/packages/headphones)||
 |**headset**|[headset-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/headset-bin)|[headset-bin](https://aur.archlinux.org/packages/headset-bin)||
