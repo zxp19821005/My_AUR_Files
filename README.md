@@ -354,6 +354,7 @@
 |**librefancontrol**|[librefancontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librefancontrol-bin)|[librefancontrol-bin](https://aur.archlinux.org/packages/librefancontrol-bin)||
 |**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
+|**line-by-line**|[line-by-line-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/line-by-line-bin)|[line-by-line-bin](https://aur.archlinux.org/packages/line-by-line-bin)||
 |**linked**|[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
 |**linwood-butterfly**|[linwood-butterfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linwood-butterfly-bin)|[linwood-butterfly-bin](https://aur.archlinux.org/packages/linwood-butterfly-bin)||
 |**lisk-desktop**|[lisk-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-bin)|[lisk-desktop-bin](https://aur.archlinux.org/packages/lisk-desktop-bin)||
