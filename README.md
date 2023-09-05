@@ -106,6 +106,7 @@
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
 |**chengla-linux-unofficial**|[chengla-linux-unofficial-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chengla-linux-unofficial-bin)|[chengla-linux-unofficial-bin](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)||
+|**chieapp**|[chieapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chieapp-bin)|[chieapp-bin](https://aur.archlinux.org/packages/chieapp-bin)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
 |**chinesechesscontrol**|[chinesechesscontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechesscontrol-bin)|[chinesechesscontrol-bin](https://aur.archlinux.org/packages/chinesechesscontrol-bin)||
 |**chord**|[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
