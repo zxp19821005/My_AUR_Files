@@ -686,7 +686,7 @@
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
 |**uivonim**|[uivonim-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-appimage)|[uivonim-appimage](https://aur.archlinux.org/packages/uivonim-appimage)||
 |**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
-|**unsplash-wallpapers**|[unsplash-wallpapers-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-appimage)|[unsplash-wallpapers-appimage](https://aur.archlinux.org/packages/unsplash-wallpapers-appimage)||
+|**unsplash-wallpapers**|[unsplash-wallpapers-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-bin)|[unsplash-wallpapers-bin](https://aur.archlinux.org/packages/unsplash-wallpapers-bin)||
 |**url-collector**|[url-collector-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/url-collector-bin)|[url-collector-bin](https://aur.archlinux.org/packages/url-collector-bin)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
 |**utilso**|[utilso-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-bin)|[utilso-bin](https://aur.archlinux.org/packages/utilso-bin)||
