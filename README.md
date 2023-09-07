@@ -147,7 +147,6 @@
 |**deepin-wine-adrive**|[deepin-wine-adrive](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-adrive)|[deepin-wine-adrive](https://aur.archlinux.org/packages/deepin-wine-adrive)||
 |**deepin-wine-aliyun-mail**|[deepin-wine-aliyun-mail](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-aliyun-mail)|[deepin-wine-aliyun-mail](https://aur.archlinux.org/packages/deepin-wine-aliyun-mail)||
 |**deepin-wine-baiduwenku**|[deepin-wine-baiduwenku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-baiduwenku)|[deepin-wine-baiduwenku](https://aur.archlinux.org/packages/deepin-wine-baiduwenku)||
-|**deepin-wine-bandizip**|[deepin-wine-bandizip](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-bandizip)|[deepin-wine-bandizip](https://aur.archlinux.org/packages/deepin-wine-bandizip)||
 |**deepin-wine-carrotfantasy**|[deepin-wine-carrotfantasy](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-carrotfantasy)|AUR未上传||
 |**deepin-wine-cntv-cbox**|[deepin-wine-cntv-cbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-cntv-cbox)|[deepin-wine-cntv-cbox](https://aur.archlinux.org/packages/deepin-wine-cntv-cbox)||
 |**deepin-wine-danmoshui**|[deepin-wine-danmoshui](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-danmoshui)|[deepin-wine-danmoshui](https://aur.archlinux.org/packages/deepin-wine-danmoshui)||
