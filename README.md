@@ -10,6 +10,7 @@
 |**aechoterm**|[aechoterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aechoterm-bin)|[aechoterm-bin](https://aur.archlinux.org/packages/aechoterm-bin)||
 |**aeon**|[aeon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aeon-bin)|[aeon-bin](https://aur.archlinux.org/packages/aeon-bin)||
 |**affine**|[affine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-bin)|[affine-bin](https://aur.archlinux.org/packages/affine-bin)||
+|**affine-canary**|[affine-canary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-canary-bin)|[affine-canary-bin](https://aur.archlinux.org/packages/affine-canary-bin)||
 |**ahmyth**|[ahmyth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ahmyth-bin)|[ahmyth-bin](https://aur.archlinux.org/packages/ahmyth-bin)||
 |**air-controller-desktop**|[air-controller-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-appimage)|[air-controller-desktop-appimage](https://aur.archlinux.org/packages/air-controller-desktop-appimage)||
 |**airdrop-tool**|[airdrop-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airdrop-tool-bin)|[airdrop-tool-bin](https://aur.archlinux.org/packages/airdrop-tool-bin)||
