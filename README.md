@@ -461,7 +461,7 @@
 |**nzyme**|[nzyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nzyme-bin)|[nzyme-bin](https://aur.archlinux.org/packages/nzyme-bin)||
 |**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
 |**ocat**|[ocat-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-appimage)|[ocat-appimage](https://aur.archlinux.org/packages/ocat-appimage)||
-|**oh-mymd**|[oh-mymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/oh-mymd-bin)|[oh-mymd-bin](https://aur.archlinux.org/packages/oh-mymd-bin)||
+|**ohmymd**|[ohmymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ohmymd-bin)|[ohmymd-bin](https://aur.archlinux.org/packages/ohmymd-bin)||
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-appimage)|[onekey-wallet-appimage](https://aur.archlinux.org/packages/onekey-wallet-appimage)||
 |**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
