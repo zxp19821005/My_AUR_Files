@@ -115,7 +115,7 @@
 |**chrome-remote-desktop**|[chrome-remote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrome-remote-desktop-bin)|[chrome-remote-desktop-bin](https://aur.archlinux.org/packages/chrome-remote-desktop-bin)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
 |**clamav-desktop**|[clamav-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clamav-desktop-bin)|[clamav-desktop-bin](https://aur.archlinux.org/packages/clamav-desktop-bin)||
-|**clashr-auto**|[clashr-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clashr-auto-bin)|[clashr-auto-bin](https://aur.archlinux.org/packages/clashr-auto-bin)||
+|**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
