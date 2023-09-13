@@ -124,7 +124,7 @@
 |**codex**|[codex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codex-bin)|[codex-bin](https://aur.archlinux.org/packages/codex-bin)||
 |**coinstac-desktop-app**|[coinstac-desktop-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-desktop-app-bin)|[coinstac-desktop-app-bin](https://aur.archlinux.org/packages/coinstac-desktop-app-bin)||
 |**colorpicker-app**|[colorpicker-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-app-bin)|[colorpicker-app-bin](https://aur.archlinux.org/packages/colorpicker-app-bin)||
-|**commas**|[commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin)|[commas-bin](https://aur.archlinux.org/packages/commas-bin)||
+|**commas**|[commas](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas)<br>[commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin)|[commas](https://aur.archlinux.org/packages/commas)<br>[commas-bin](https://aur.archlinux.org/packages/commas-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
