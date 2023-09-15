@@ -501,7 +501,7 @@
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
 |**podman-desktop-companion**|[podman-desktop-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-bin)|[podman-desktop-companion-bin](https://aur.archlinux.org/packages/podman-desktop-companion-bin)||
 |**polar**|[polar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-bin)|[polar-bin](https://aur.archlinux.org/packages/polar-bin)||
-|**polyglot**|[polyglot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-bin)|[polyglot-bin](https://aur.archlinux.org/packages/polyglot-bin)||
+|**polyglot-ai**|[polyglot-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-ai-bin)|[polyglot-ai-bin](https://aur.archlinux.org/packages/polyglot-ai-bin)||
 |**pomodoro**|[pomodoro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomodoro-bin)|[pomodoro-bin](https://aur.archlinux.org/packages/pomodoro-bin)||
 |**pomota**|[pomota-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomota-bin)|[pomota-bin](https://aur.archlinux.org/packages/pomota-bin)||
 |**pomotro**|[pomotro](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomotro)|[pomotro](https://aur.archlinux.org/packages/pomotro)||
