@@ -522,6 +522,7 @@
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
 |**promethium**|[promethium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-bin)|[promethium-bin](https://aur.archlinux.org/packages/promethium-bin)||
+|**prospect-mail-beta**|[prospect-mail-beta-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prospect-mail-beta-bin)|[prospect-mail-beta-bin](https://aur.archlinux.org/packages/prospect-mail-beta-bin)||
 |**protoman**|[protoman-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/protoman-bin)|[protoman-bin](https://aur.archlinux.org/packages/protoman-bin)||
 |**proton-mail-viewer**|[proton-mail-viewer](https://github.com/zxp19821005/My_AUR_Files/tree/main/proton-mail-viewer)|[proton-mail-viewer](https://aur.archlinux.org/packages/proton-mail-viewer)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
