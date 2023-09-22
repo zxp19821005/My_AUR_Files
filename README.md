@@ -493,6 +493,7 @@
 |**peersky-browser**|[peersky-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser)|[peersky-browser](https://aur.archlinux.org/packages/peersky-browser)||
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
 |**perplexity-ai-app**|[perplexity-ai-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/perplexity-ai-app)|[perplexity-ai-app](https://aur.archlinux.org/packages/perplexity-ai-app)||
+|**photo-location-map**|[photo-location-map](https://github.com/zxp19821005/My_AUR_Files/tree/main/photo-location-map)|[photo-location-map](https://aur.archlinux.org/packages/photo-location-map)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
 |**picgo**|[picgo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-git)|[picgo-git](https://aur.archlinux.org/packages/picgo-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
