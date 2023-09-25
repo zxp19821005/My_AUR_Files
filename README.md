@@ -55,7 +55,7 @@
 |**any-sync-gui**|[any-sync-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/any-sync-gui)|[any-sync-gui](https://aur.archlinux.org/packages/any-sync-gui)||
 |**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
-|**apple-music-desktop**|[apple-music-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-desktop)|[apple-music-desktop](https://aur.archlinux.org/packages/apple-music-desktop)||
+|**apple-music**|[apple-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-bin)|[apple-music-bin](https://aur.archlinux.org/packages/apple-music-bin)||
 |**apple-music-electron**|[apple-music-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-bin)|[apple-music-electron-bin](https://aur.archlinux.org/packages/apple-music-electron-bin)||
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
 |**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
