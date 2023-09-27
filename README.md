@@ -707,7 +707,6 @@
 |**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||
 |**visualfamilytree**|[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
-|**vivlio**|[vivlio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vivlio-bin)|[vivlio-bin](https://aur.archlinux.org/packages/vivlio-bin)||
 |**vnote**|[vnote-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-appimage)|[vnote-appimage](https://aur.archlinux.org/packages/vnote-appimage)||
 |**vocechat-desktop**|[vocechat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocechat-desktop-bin)|[vocechat-desktop-bin](https://aur.archlinux.org/packages/vocechat-desktop-bin)||
 |**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
