@@ -132,7 +132,7 @@
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
-|**copytranslator**|[copytranslator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-appimage)|[copytranslator-appimage](https://aur.archlinux.org/packages/copytranslator-appimage)||
+|**copytranslator**|[copytranslator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-bin)|[copytranslator-bin](https://aur.archlinux.org/packages/copytranslator-bin)||
 |**cpeditor**|[cpeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-bin)|[cpeditor-bin](https://aur.archlinux.org/packages/cpeditor-bin)||
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
 |**creamplayer**|[creamplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/creamplayer)|[creamplayer](https://aur.archlinux.org/packages/creamplayer)||
