@@ -528,6 +528,7 @@
 |**prepros**|[prepros-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prepros-bin)|[prepros-bin](https://aur.archlinux.org/packages/prepros-bin)||
 |**primate**|[primate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/primate-bin)|[primate-bin](https://aur.archlinux.org/packages/primate-bin)||
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin)||
+|**privaxy**|[privaxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/privaxy-bin)|[privaxy-bin](https://aur.archlinux.org/packages/privaxy-bin)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
 |**promethium**|[promethium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-bin)|[promethium-bin](https://aur.archlinux.org/packages/promethium-bin)||
