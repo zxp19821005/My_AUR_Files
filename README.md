@@ -671,7 +671,6 @@
 |**toughcookies**|[toughcookies-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/toughcookies-bin)|[toughcookies-bin](https://aur.archlinux.org/packages/toughcookies-bin)||
 |**translationcore**|[translationcore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/translationcore-bin)|[translationcore-bin](https://aur.archlinux.org/packages/translationcore-bin)||
 |**transmissionic**|[transmissionic-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-appimage)|[transmissionic-appimage](https://aur.archlinux.org/packages/transmissionic-appimage)||
-|**tropy**|[tropy-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/tropy-appimage)|[tropy-appimage](https://aur.archlinux.org/packages/tropy-appimage)||
 |**ttf-canger-feibai**|[ttf-canger-feibai](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-feibai)|[ttf-canger-feibai](https://aur.archlinux.org/packages/ttf-canger-feibai)||
 |**ttf-canger-shuyuan**|[ttf-canger-shuyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-shuyuan)|[ttf-canger-shuyuan](https://aur.archlinux.org/packages/ttf-canger-shuyuan)||
 |**ttf-canger-xiaowanzi**|[ttf-canger-xiaowanzi](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-xiaowanzi)|[ttf-canger-xiaowanzi](https://aur.archlinux.org/packages/ttf-canger-xiaowanzi)||
