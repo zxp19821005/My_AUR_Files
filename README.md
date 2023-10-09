@@ -248,6 +248,7 @@
 |**flawesome**|[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
 |**flawless-cut**|[flawless-cut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawless-cut-bin)|[flawless-cut-bin](https://aur.archlinux.org/packages/flawless-cut-bin)||
 |**flb-music-player**|[flb-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flb-music-player-bin)|[flb-music-player-bin](https://aur.archlinux.org/packages/flb-music-player-bin)||
+|**flexplayer**|[flexplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/flexplayer)|[flexplayer](https://aur.archlinux.org/packages/flexplayer)||
 |**flip**|[flip-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flip-bin)|[flip-bin](https://aur.archlinux.org/packages/flip-bin)||
 |**flomo**|[unoffical-flomo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-flomo-appimage)<br>[flomo-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-pake)|[unoffical-flomo-appimage](https://aur.archlinux.org/packages/unoffical-flomo-appimage)<br>[flomo-pake](https://aur.archlinux.org/packages/flomo-pake)||
 |**fmedia**|[fmedia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fmedia-bin)|[fmedia-bin](https://aur.archlinux.org/packages/fmedia-bin)||
