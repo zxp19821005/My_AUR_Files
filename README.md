@@ -757,6 +757,7 @@
 |**xpeviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
 |**xplist**|[xplist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xplist-bin)|[xplist-bin](https://aur.archlinux.org/packages/xplist-bin)||
 |**xraygui**|[xraygui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xraygui-bin)|[xraygui-bin](https://aur.archlinux.org/packages/xraygui-bin)||
+|**xresconv-gui**|[xresconv-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xresconv-gui-bin)|[xresconv-gui-bin](https://aur.archlinux.org/packages/xresconv-gui-bin)||
 |**xunscore**|[xunscore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xunscore-bin)|[xunscore-bin](https://aur.archlinux.org/packages/xunscore-bin)||
 |**y2mp3**|[y2mp3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/y2mp3-appimage)|[y2mp3-appimage](https://aur.archlinux.org/packages/y2mp3-appimage)||
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
