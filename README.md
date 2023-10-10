@@ -741,6 +741,7 @@
 |**whisperpix**|[whisperpix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whisperpix-bin)|[whisperpix-bin](https://aur.archlinux.org/packages/whisperpix-bin)||
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
+|**wire-desktop**|[wire-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wire-desktop-git)|[wire-desktop-git](https://aur.archlinux.org/packages/wire-desktop-git)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
 |**woocommerce-pos**|[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
