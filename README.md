@@ -772,7 +772,7 @@
 |**yesplaymusic**|[yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-bin)|[yesplaymusic-bin](https://aur.archlinux.org/packages/yesplaymusic-bin)||
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict-bin)|[youdao-dict-bin](https://aur.archlinux.org/packages/youdao-dict-bin)||
-|**youku-uos-electron**|[youku-uos-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-uos-electron-bin)|[youku-uos-electron-bin](https://aur.archlinux.org/packages/youku-uos-electron-bin)||
+|**youku**|[youku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-bin)|[youku-bin](https://aur.archlinux.org/packages/youku-bin)||
 |**youtube-desktop**|[youtube-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-desktop-bin)|[youtube-desktop-bin](https://aur.archlinux.org/packages/youtube-desktop-bin)||
 |**youtube-smarttv-emu**|[youtube-smarttv-emu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-smarttv-emu-bin)|[youtube-smarttv-emu-bin](https://aur.archlinux.org/packages/youtube-smarttv-emu-bin)||
 |**yt-dlandcut**|[yt-dlandcut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-dlandcut-bin)|[yt-dlandcut-bin](https://aur.archlinux.org/packages/yt-dlandcut-bin)||
