@@ -496,6 +496,7 @@
 |**pad-md**|[pad-md](https://github.com/zxp19821005/My_AUR_Files/tree/main/pad-md)|[pad-md](https://aur.archlinux.org/packages/pad-md)||
 |**page-builder**|[page-builder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/page-builder-bin)|[page-builder-bin](https://aur.archlinux.org/packages/page-builder-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
+|**passbox**|[passbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/passbox)|[passbox](https://aur.archlinux.org/packages/passbox)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**peersky-browser**|[peersky-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser)|[peersky-browser](https://aur.archlinux.org/packages/peersky-browser)||
