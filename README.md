@@ -241,6 +241,7 @@
 |**fifo-browser**|[fifo-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-bin)|[fifo-browser-bin](https://aur.archlinux.org/packages/fifo-browser-bin)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
+|**fireblocks-recovery-utility**|[fireblocks-recovery-utility-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fireblocks-recovery-utility-bin)|[fireblocks-recovery-utility-bin](https://aur.archlinux.org/packages/fireblocks-recovery-utility-bin)||
 |**firefly-desktop**|[firefly-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-desktop-appimage)|[firefly-desktop-appimage](https://aur.archlinux.org/packages/firefly-desktop-appimage)||
 |**fishing-funds**|[fishing-funds-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-appimage)|[fishing-funds-appimage](https://aur.archlinux.org/packages/fishing-funds-appimage)||
 |**fishpi**|[fishpi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishpi-bin)|[fishpi-bin](https://aur.archlinux.org/packages/fishpi-bin)||
