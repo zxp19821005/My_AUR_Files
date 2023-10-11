@@ -643,6 +643,7 @@
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-appimage)|[steamdepotdownloadergui-appimage](https://aur.archlinux.org/packages/steamdepotdownloadergui-appimage)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
 |**streamdock**|[streamdock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streamdock-bin)|[streamdock-bin](https://aur.archlinux.org/packages/streamdock-bin)||
+|**string-file-manager**|[string-file-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/string-file-manager-bin)|[string-file-manager-bin](https://aur.archlinux.org/packages/string-file-manager-bin)||
 |**structure**|[structure-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/structure-bin)|[structure-bin](https://aur.archlinux.org/packages/structure-bin)||
 |**subtitler**|[subtitler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-bin)|[subtitler-bin](https://aur.archlinux.org/packages/subtitler-bin)||
 |**subtitle-translator-electron**|[subtitle-translator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-bin)|[subtitle-translator-electron-bin](https://aur.archlinux.org/packages/subtitle-translator-electron-bin)||
