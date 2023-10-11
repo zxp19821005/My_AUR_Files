@@ -1,6 +1,6 @@
 #!/bin/bash
-_ELECTRON=/usr/bin/electron24
-_ASAR=/opt/simple-music/resources/app.asar
+_ELECTRON=/usr/bin/electron25
+_ASAR="/opt/electron-music-player/resources/app.asar"
 if [[ $EUID -ne 0 ]] || [[ $ELECTRON_RUN_AS_NODE ]]; then
     exec ${_ELECTRON} ${_ASAR} "$@"
 else
