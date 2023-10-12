@@ -124,7 +124,7 @@
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
-|**cloudpan189-go**|[cloudpan189-go](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-appimage)|[cerebro-appimage](https://aur.archlinux.org/packages/cerebro-appimage)||
+|**cloudpan189-go**|[cloudpan189-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudpan189-go-bin)|[cloudpan189-go-bin](https://aur.archlinux.org/packages/cloudpan189-go-bin)||
 |**coal-launcher**|[coal-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coal-launcher-bin)|[coal-launcher-bin](https://aur.archlinux.org/packages/coal-launcher-bin)||
 |**code-notes**|[code-notes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/code-notes-bin)|[code-notes-bin](https://aur.archlinux.org/packages/code-notes-bin)||
 |**codex**|[codex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codex-bin)|[codex-bin](https://aur.archlinux.org/packages/codex-bin)||
