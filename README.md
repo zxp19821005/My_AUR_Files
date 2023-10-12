@@ -213,7 +213,7 @@
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
 |**envkey**|[envkey-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-bin)|[envkey-bin](https://aur.archlinux.org/packages/envkey-bin)||
 |**epherome**|[epherome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epherome-bin)|[epherome-bin](https://aur.archlinux.org/packages/epherome-bin)||
-|**epub-reader**|[epub-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader)|[epub-reader](https://aur.archlinux.org/packages/epub-reader)||
+|**epub-reader**|[epub-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader)<br>[epub-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader-bin)|[epub-reader](https://aur.archlinux.org/packages/epub-reader)<br>[epub-reader-bin](https://aur.archlinux.org/packages/epub-reader-bin)||
 |**etherealengine-control-center**|[etherealengine-control-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-bin)|[etherealengine-control-center-bin](https://aur.archlinux.org/packages/etherealengine-control-center-bin)||
 |**eusoft-dehelper**|[eusoft-dehelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-dehelper-bin)|[eusoft-dehelper-bin](https://aur.archlinux.org/packages/eusoft-dehelper-bin)||
 |**eusoft-eshelper**|[eusoft-eshelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eshelper-bin)|[eusoft-eshelper-bin](https://aur.archlinux.org/packages/eusoft-eshelper-bin)||
