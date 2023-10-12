@@ -341,7 +341,9 @@
 |**interastral-peace-chat**|[interastral-peace-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interastral-peace-chat-bin)|[interastral-peace-chat-bin](https://aur.archlinux.org/packages/interastral-peace-chat-bin)||
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
-|**issie**|[issie](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie)<br>[issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie](https://aur.archlinux.org/packages/issie)<br>[issie-bin](https://aur.archlinux.org/packages/issie-bin)|||**japreader**|[japreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/japreader-bin)|[japreader-bin](https://aur.archlinux.org/packages/japreader-bin)||
+|**issie**|[issie](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie)<br>[issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie](https://aur.archlinux.org/packages/issie)<br>[issie-bin](https://aur.archlinux.org/packages/issie-bin)||
+|**jan-electron**|[jan-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jan-electron-bin)|[jan-electron-bin](https://aur.archlinux.org/packages/jan-electron-bin)||
+|**japreader**|[japreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/japreader-bin)|[japreader-bin](https://aur.archlinux.org/packages/japreader-bin)||
 |**jasperapp**|[jasperapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasperapp-bin)|[jasperapp-bin](https://aur.archlinux.org/packages/jasperapp-bin)||
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
