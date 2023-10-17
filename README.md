@@ -405,6 +405,7 @@
 |**mailspring**|[mailspring-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring-bin)|[mailspring-bin](https://aur.archlinux.org/packages/mailspring-bin)||
 |**manyi-transformer**|[manyi-transformer](https://github.com/zxp19821005/My_AUR_Files/tree/main/manyi-transformer)|[manyi-transformer](https://aur.archlinux.org/packages/manyi-transformer)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
+|**mark-flowy**|[mark-flowy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mark-flowy-bin)|[mark-flowy-bin](https://aur.archlinux.org/packages/mark-flowy-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
 |**masscode**|[masscode-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-git)<br>[masscode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-bin)|[masscode-git](https://aur.archlinux.org/packages/masscode-git)<br>[masscode-bin](https://aur.archlinux.org/packages/masscode-bin)||
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
