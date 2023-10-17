@@ -442,6 +442,7 @@
 |**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
+|**motrix**|[motrix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-git)|[motrix-git](https://aur.archlinux.org/packages/motrix-git)||
 |**moyu**|[moyu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-bin)|[moyu-bin](https://aur.archlinux.org/packages/moyu-bin)||
 |**mqttx**|[mqttx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-git)|[mqttx-git](https://aur.archlinux.org/packages/mqttx-git)||
 |**mu-epub-viewer**|[mu-epub-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mu-epub-viewer-bin)|[mu-epub-viewer-bin](https://aur.archlinux.org/packages/mu-epub-viewer-bin)||
