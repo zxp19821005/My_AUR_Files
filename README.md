@@ -349,6 +349,7 @@
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
+|**jsonbox**|[jsonbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jsonbox-bin)|[jsonbox-bin](https://aur.archlinux.org/packages/jsonbox-bin)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
 |**kanbanflow-app**|[kanbanflow-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-bin)|[kanbanflow-app-bin](https://aur.archlinux.org/packages/kanbanflow-app-bin)||
