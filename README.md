@@ -662,6 +662,7 @@
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swarm-desktop**|[swarm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/swarm-desktop)|[swarm-desktop](https://aur.archlinux.org/packages/swarm-desktop)||
 |**swc-mclauncher**|[swc-mclauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swc-mclauncher-bin)|[swc-mclauncher-bin](https://aur.archlinux.org/packages/swc-mclauncher-bin)||
+|**swc-ytdownloader**|[swc-ytdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swc-ytdownloader-bin)|[swc-ytdownloader-bin](https://aur.archlinux.org/packages/swc-ytdownloader-bin)||
 |**swesence**|[swesence-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swesence-bin)|[swesence-bin](https://aur.archlinux.org/packages/swesence-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
