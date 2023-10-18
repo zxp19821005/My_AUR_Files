@@ -508,6 +508,7 @@
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**pad-md**|[pad-md](https://github.com/zxp19821005/My_AUR_Files/tree/main/pad-md)|[pad-md](https://aur.archlinux.org/packages/pad-md)||
 |**page-builder**|[page-builder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/page-builder-bin)|[page-builder-bin](https://aur.archlinux.org/packages/page-builder-bin)||
+|**panfu-desktop**|[panfu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panfu-desktop-bin)|[panfu-desktop-bin](https://aur.archlinux.org/packages/panfu-desktop-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
 |**passbox**|[passbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/passbox)|[passbox](https://aur.archlinux.org/packages/passbox)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
