@@ -667,6 +667,7 @@
 |**structure**|[structure-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/structure-bin)|[structure-bin](https://aur.archlinux.org/packages/structure-bin)||
 |**subtitler**|[subtitler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-bin)|[subtitler-bin](https://aur.archlinux.org/packages/subtitler-bin)||
 |**subtitle-translator-electron**|[subtitle-translator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-bin)|[subtitle-translator-electron-bin](https://aur.archlinux.org/packages/subtitle-translator-electron-bin)||
+|**sub-trans**|[sub-trans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sub-trans-bin)|[sub-trans-bin](https://aur.archlinux.org/packages/sub-trans-bin)||
 |**sunbible**|[sunbible](https://github.com/zxp19821005/My_AUR_Files/tree/main/sunbible)|[sunbible](https://aur.archlinux.org/packages/sunbible)||
 |**supalive**|[supalive-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supalive-bin)|[supalive-bin](https://aur.archlinux.org/packages/supalive-bin)||
 |**super-controller**|[super-controller](https://github.com/zxp19821005/My_AUR_Files/tree/main/super-controller)|[super-controller](https://aur.archlinux.org/packages/super-controller)||
