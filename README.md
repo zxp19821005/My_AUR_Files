@@ -107,6 +107,7 @@
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
 |**casterr**|[casterr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/casterr-bin)|[casterr-bin](https://aur.archlinux.org/packages/casterr-bin)||
 |**catcat-dm-react**|[catcat-dm-react](https://github.com/zxp19821005/My_AUR_Files/tree/main/catcat-dm-react)|[catcat-dm-react](https://aur.archlinux.org/packages/catcat-dm-react)||
+|**certbox**|[certbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/certbox-bin)|[certbox-bin](https://aur.archlinux.org/packages/certbox-bin)||
 |**certmanager-uos**|[certmanager-uos](https://github.com/zxp19821005/My_AUR_Files/tree/main/certmanager-uos)|[certmanager-uos](https://aur.archlinux.org/packages/certmanager-uos)||
 |**cgdi**|[cgdi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cgdi-bin)|[cgdi-bin](https://aur.archlinux.org/packages/cgdi-bin)||
 |**chain-desktop-wallet**|[chain-desktop-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-bin)|[chain-desktop-wallet-bin](https://aur.archlinux.org/packages/chain-desktop-wallet-bin)||
