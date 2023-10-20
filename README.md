@@ -154,7 +154,7 @@
 |**deadbolt**|[deadbolt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadbolt-bin)|[deadbolt-bin](https://aur.archlinux.org/packages/deadbolt-bin)||
 |**deadboltplusplus**|[deadboltplusplus](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadboltplusplus)|[deadboltplusplus](https://aur.archlinux.org/packages/deadboltplusplus)||
 |**deckboard**|[deckboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-bin)|[deckboard-bin](https://aur.archlinux.org/packages/deckboard-bin)||
-|**dedao-dl**|[dedao-dl](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl)|[dedao-dl](https://aur.archlinux.org/packages/dedao-dl)||
+|**dedao-dl**|[dedao-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl-bin)|[dedao-dl-bin](https://aur.archlinux.org/packages/dedao-dl-bin)||
 |**deepin-wine-adrive**|[deepin-wine-adrive](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-adrive)|[deepin-wine-adrive](https://aur.archlinux.org/packages/deepin-wine-adrive)||
 |**deepin-wine-aliyun-mail**|[deepin-wine-aliyun-mail](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-aliyun-mail)|[deepin-wine-aliyun-mail](https://aur.archlinux.org/packages/deepin-wine-aliyun-mail)||
 |**deepin-wine-baiduwenku**|[deepin-wine-baiduwenku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-baiduwenku)|[deepin-wine-baiduwenku](https://aur.archlinux.org/packages/deepin-wine-baiduwenku)||
