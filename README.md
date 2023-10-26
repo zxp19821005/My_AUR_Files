@@ -217,6 +217,7 @@
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
 |**elevate**|[elevate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elevate-git)|[elevate-git](https://aur.archlinux.org/packages/elevate-git)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
+|**enotebook**|[enotebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/enotebook-bin)|[enotebook-bin](https://aur.archlinux.org/packages/enotebook-bin)||
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
 |**envkey**|[envkey-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-bin)|[envkey-bin](https://aur.archlinux.org/packages/envkey-bin)||
 |**epherome**|[epherome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epherome-bin)|[epherome-bin](https://aur.archlinux.org/packages/epherome-bin)||
