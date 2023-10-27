@@ -530,6 +530,7 @@
 |**passky-desktop**|[passky-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passky-desktop-bin)|[passky-desktop-bin](https://aur.archlinux.org/packages/passky-desktop-bin)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
+|**peershare**|[peershare](https://github.com/zxp19821005/My_AUR_Files/tree/main/peershare)|[peershare](https://aur.archlinux.org/packages/peershare)||
 |**peersky-browser**|[peersky-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser)|[peersky-browser](https://aur.archlinux.org/packages/peersky-browser)||
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
 |**perplexity-ai-app**|[perplexity-ai-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/perplexity-ai-app)|[perplexity-ai-app](https://aur.archlinux.org/packages/perplexity-ai-app)||
