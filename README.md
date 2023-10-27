@@ -200,6 +200,7 @@
 |**drawio-desktop**|[drawio-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-git)|[drawio-desktop-git](https://aur.archlinux.org/packages/drawio-desktop-git)||
 |**droppoint**|[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
 |**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
+|**duskplayer**|[duskplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-bin)|[duskplayer-bin](https://aur.archlinux.org/packages/duskplayer-bin)||
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
