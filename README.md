@@ -218,6 +218,7 @@
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
 |**elements-latex**|[elements-latex](https://github.com/zxp19821005/My_AUR_Files/tree/main/elements-latex)|[elements-latex](https://aur.archlinux.org/packages/elements-latex)||
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
+|**elephicon**|[elephicon](https://github.com/zxp19821005/My_AUR_Files/tree/main/elephicon)|[elephicon](https://aur.archlinux.org/packages/elephicon)||
 |**elevate**|[elevate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elevate-git)|[elevate-git](https://aur.archlinux.org/packages/elevate-git)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
 |**enotebook**|[enotebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/enotebook-bin)|[enotebook-bin](https://aur.archlinux.org/packages/enotebook-bin)||
