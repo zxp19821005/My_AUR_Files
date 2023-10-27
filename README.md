@@ -270,6 +270,7 @@
 |**fmedia**|[fmedia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fmedia-bin)|[fmedia-bin](https://aur.archlinux.org/packages/fmedia-bin)||
 |**fotograph**|[fotograph-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fotograph-bin)|[fotograph-bin](https://aur.archlinux.org/packages/fotograph-bin)||
 |**frame-cast**|[frame-cast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-cast-bin)|[frame-cast-bin](https://aur.archlinux.org/packages/frame-cast-bin)||
+|**frame-eth**|[frame-eth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-eth-bin)|[frame-eth-bin](https://aur.archlinux.org/packages/frame-eth-bin)||
 |**frappe-books**|[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
 |**freac**|[freac-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-appimage)|[freac-appimage](https://aur.archlinux.org/packages/freac-appimage)||
 |**frigoligo**|[frigoligo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frigoligo-bin)|[frigoligo-bin](https://aur.archlinux.org/packages/frigoligo-bin)||
