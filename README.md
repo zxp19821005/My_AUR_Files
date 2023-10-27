@@ -527,6 +527,7 @@
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
 |**paradise-pi**|[paradise-pi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paradise-pi-bin)|[paradise-pi-bin](https://aur.archlinux.org/packages/paradise-pi-bin)||
 |**passbox**|[passbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/passbox)|[passbox](https://aur.archlinux.org/packages/passbox)||
+|**passky-desktop**|[passky-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passky-desktop-bin)|[passky-desktop-bin](https://aur.archlinux.org/packages/passky-desktop-bin)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**peersky-browser**|[peersky-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser)|[peersky-browser](https://aur.archlinux.org/packages/peersky-browser)||
