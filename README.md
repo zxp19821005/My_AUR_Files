@@ -118,6 +118,7 @@
 |**chain-desktop-wallet**|[chain-desktop-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-bin)|[chain-desktop-wallet-bin](https://aur.archlinux.org/packages/chain-desktop-wallet-bin)||
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
 |**chatall**|[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)|[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)||
+|**chatd**|[chatd](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd)|[chatd](https://aur.archlinux.org/packages/chatd)||
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
 |**chengla-linux-unofficial**|[chengla-linux-unofficial-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chengla-linux-unofficial-bin)|[chengla-linux-unofficial-bin](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)||
@@ -650,6 +651,7 @@
 |**simple-music**|[simple-music](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music)|[simple-music](https://aur.archlinux.org/packages/simple-music)||
 |**simple-web-server**|[simple-web-server](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server)<br>[simple-web-server-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server-bin)|[simple-web-server](https://aur.archlinux.org/packages/simple-web-server)<br>[simple-web-server-bin](https://aur.archlinux.org/packages/simple-web-server-bin)||
 |**sixgrid**|[sixgrid-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sixgrid-bin)|[sixgrid-bin](https://aur.archlinux.org/packages/sixgrid-bin)||
+|**siyuan-note**|[siyuan-note-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/siyuan-note-bin)|[siyuan-note-bin](https://aur.archlinux.org/packages/siyuan-note-bin)|个人自用|
 |**slack-on-keys**|[slack-on-keys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slack-on-keys-bin)|[slack-on-keys-bin](https://aur.archlinux.org/packages/slack-on-keys-bin)||
 |**sleek**|[sleek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-bin)|[sleek-bin](https://aur.archlinux.org/packages/sleek-bin)||
 |**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
