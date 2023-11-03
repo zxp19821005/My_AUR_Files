@@ -671,7 +671,7 @@
 |**space-snake**|[space-snake-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-snake-appimage)|[space-snake-appimage](https://aur.archlinux.org/packages/space-snake-appimage)||
 |**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
 |**spark-transhell**|[spark-transhell](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-transhell)|[spark-transhell](https://aur.archlinux.org/packages/spark-transhell)||
-|**spark-wallet**|[spark-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-wallet-appimage)|[spark-wallet-appimage](https://aur.archlinux.org/packages/spark-wallet-appimage)||
+|**spark-wallet**|[spark-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-wallet-bin)|[spark-wallet-bin](https://aur.archlinux.org/packages/spark-wallet-bin)||
 |**spearmint-test**|[spearmint-test-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spearmint-test-bin)|[spearmint-test-bin](https://aur.archlinux.org/packages/spearmint-test-bin)||
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
 |**spotbar**|[spotbar](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotbar)|[spotbar](https://aur.archlinux.org/packages/spotbar)||
