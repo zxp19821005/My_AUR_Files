@@ -1,6 +1,6 @@
 #!/bin/bash
-_ELECTRON=/usr/bin/electron9
-APPDIR="/usr/lib/glyphr-studio-desktop"
+_ELECTRON=/usr/bin/electron17
+APPDIR="/usr/lib/clamav-desktop"
 export PATH="${APPDIR}:${PATH}"
 export LD_LIBRARY_PATH="${APPDIR}/swiftshader:${LD_LIBRARY_PATH}"
 _ASAR="${APPDIR}/app.asar"
