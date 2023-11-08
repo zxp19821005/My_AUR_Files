@@ -208,6 +208,7 @@
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
 |**electerm**|[electerm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-git)|[electerm-git](https://aur.archlinux.org/packages/electerm-git)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
+|**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
 |**electron-gpt**|[electron-gpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-gpt-git)|[electron-gpt-git](https://aur.archlinux.org/packages/electron-gpt-git)||
 |**electron-music**|[electron-music](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-music)|[electron-music](https://aur.archlinux.org/packages/electron-music)||
