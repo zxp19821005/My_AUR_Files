@@ -1,6 +1,6 @@
 #!/bin/bash
 _ELECTRON=/usr/bin/electron22
-APPDIR="/usr/lib/boats-animator"
+APPDIR="/usr/lib/primate"
 export PATH="${APPDIR}:${PATH}"
 #export LD_LIBRARY_PATH="${APPDIR}/swiftshader:${LD_LIBRARY_PATH}"
 _ASAR="${APPDIR}/app.asar"
