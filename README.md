@@ -90,7 +90,6 @@
 |**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
 |**bluestone**|[bluestone](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluestone)<br>[bluestone-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluestone-bin)|[bluestone](https://aur.archlinux.org/packages/bluestone)<br>[bluestone-bin](https://aur.archlinux.org/packages/bluestone-bin)||
-|**blurlyric**|[blurlyric-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blurlyric-bin)|[blurlyric-bin](https://aur.archlinux.org/packages/blurlyric-bin)||
 |**board4you**|[board4you-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/board4you-bin)|[board4you-bin](https://aur.archlinux.org/packages/board4you-bin)||
 |**boats-animator**|[boats-animator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boats-animator-bin)|[boats-animator-bin](https://aur.archlinux.org/packages/boats-animator-bin)||
 |**bookmarks-manager**|[bookmarks-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookmarks-manager-bin)|[bookmarks-manager-bin](https://aur.archlinux.org/packages/bookmarks-manager-bin)||
