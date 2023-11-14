@@ -288,6 +288,7 @@
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
+|**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat)||
 |**giada**|[giada-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-appimage)|[giada-appimage](https://aur.archlinux.org/packages/giada-appimage)||
 |**git-good**|[git-good-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-bin)|[git-good-bin](https://aur.archlinux.org/packages/git-good-bin)||
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
