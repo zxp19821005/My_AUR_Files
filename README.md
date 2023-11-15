@@ -443,7 +443,6 @@
 |**metronome**|[metronome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/metronome-bin)|[metronome-bin](https://aur.archlinux.org/packages/metronome-bin)||
 |**mic-mutebar**|[mic-mutebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mic-mutebar-bin)|[mic-mutebar-bin](https://aur.archlinux.org/packages/mic-mutebar-bin)||
 |**microsoft-loop**|[unoffical-microsoft-loop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/microsoft-loop-pake)|[unoffical-microsoft-loop-appimage](https://aur.archlinux.org/packages/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://aur.archlinux.org/packages/microsoft-loop-pake)||
-|**migasfree-play**|[migasfree-play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/migasfree-play-bin)|[migasfree-play-bin](https://aur.archlinux.org/packages/migasfree-play-bin)||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**minedigger**|[minedigger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minedigger-bin)|[minedigger-bin](https://aur.archlinux.org/packages/minedigger-bin)||
 |**mini4wdchrono**|[mini4wdchrono-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini4wdchrono-bin)|[mini4wdchrono-bin](https://aur.archlinux.org/packages/mini4wdchrono-bin)||
