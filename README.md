@@ -590,7 +590,6 @@
 |**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
 |**quaternion**|[quaternion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-appimage)|[quaternion-appimage](https://aur.archlinux.org/packages/quaternion-appimage)||
 |**quba**|[quba-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-appimage)|[quba-appimage](https://aur.archlinux.org/packages/quba-appimage)||
-|**query-master**|[query-master](https://github.com/zxp19821005/My_AUR_Files/tree/main/query-master)|[query-master](https://aur.archlinux.org/packages/query-master)||
 |**querym**|[querym-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/querym-bin)|[querym-bin](https://aur.archlinux.org/packages/querym-bin)||
 |**quicknote**|[quicknote](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote)|[quicknote](https://aur.archlinux.org/packages/quicknote)||
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
