@@ -178,6 +178,7 @@
 |**deepin-wine-xiguavideo**|[deepin-wine-xiguavideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-xiguavideo)|[deepin-wine-xiguavideo](https://aur.archlinux.org/packages/deepin-wine-xiguavideo)||
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
+|**deepin-wine-yuque**|[deepin-wine-yuque](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-yuque)|[deepin-wine-yuque](https://aur.archlinux.org/packages/deepin-wine-yuque)||
 |**deltachat-desktop**|[deltachat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deltachat-desktop-bin)|[deltachat-desktop-bin](https://aur.archlinux.org/packages/deltachat-desktop-bin)||
 |**deskaide**|[deskaide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskaide-bin)|[deskaide-bin](https://aur.archlinux.org/packages/deskaide-bin)||
 |**deskcal**|[deskcal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskcal-bin)|[deskcal-bin](https://aur.archlinux.org/packages/deskcal-bin)||
