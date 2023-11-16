@@ -23,7 +23,7 @@ makedepends=(
 install="${pkgname}.install"
 source=(
     "${pkgname%-bin}-${pkgver}.deb::${_downurl}/store/office/${_pkgname}/${_pkgname}_${pkgver}spark14_all.deb"
-    "msmpeg2vdec.dll.7z"
+    "msmpeg2vdec.dll.7z::https://raw.githubusercontent.com/zxp19821005/My_AUR_Files/main/${pkgname}/msmpeg2vdec.dll.7z"
     "LICENSE::https://www.yuque.com/terms"
     "${pkgname%-bin}.sh"
 )
