@@ -372,6 +372,7 @@
 |**js-design**|[js-design-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-appimage)|[js-design-appimage](https://aur.archlinux.org/packages/js-design-appimage)||
 |**jsonbox**|[jsonbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jsonbox-bin)|[jsonbox-bin](https://aur.archlinux.org/packages/jsonbox-bin)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
+|**kaiteki**|[kaiteki-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaiteki-bin)|[kaiteki-bin](https://aur.archlinux.org/packages/kaiteki-bin)||
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
 |**kanbanflow-app**|[kanbanflow-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-bin)|[kanbanflow-app-bin](https://aur.archlinux.org/packages/kanbanflow-app-bin)||
 |**kando**|[kando-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kando-bin)|[kando-bin](https://aur.archlinux.org/packages/kando-bin)||
