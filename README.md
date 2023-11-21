@@ -266,6 +266,7 @@
 |**fishing-funds**|[fishing-funds-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-appimage)|[fishing-funds-appimage](https://aur.archlinux.org/packages/fishing-funds-appimage)||
 |**fishpi**|[fishpi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishpi-bin)|[fishpi-bin](https://aur.archlinux.org/packages/fishpi-bin)||
 |**flaru-player**|[flaru-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flaru-player-bin)|[flaru-player-bin](https://aur.archlinux.org/packages/flaru-player-bin)||
+|**flashpoint**|[flashpoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashpoint-bin)|[flashpoint-bin](https://aur.archlinux.org/packages/flashpoint-bin)||
 |**flashpoint-launcher**|[flashpoint-launcher](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashpoint-launcher)|[flashpoint-launcher](https://aur.archlinux.org/packages/flashpoint-launcher)||
 |**flawesome**|[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
 |**flawless-cut**|[flawless-cut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawless-cut-bin)|[flawless-cut-bin](https://aur.archlinux.org/packages/flawless-cut-bin)||
