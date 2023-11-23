@@ -712,6 +712,7 @@
 |**switchhosts**|[switchhosts-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-git)|[switchhosts-git](https://aur.archlinux.org/packages/switchhosts-git)||
 |**syng**|[syng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/syng-bin)|[syng-bin](https://aur.archlinux.org/packages/syng-bin)||
 |**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
+|**tailspin**|[tailspin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailspin-bin)|[tailspin-bin](https://aur.archlinux.org/packages/tailspin-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||
