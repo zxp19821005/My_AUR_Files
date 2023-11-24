@@ -830,7 +830,7 @@
 |**y2mp3**|[y2mp3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/y2mp3-appimage)|[y2mp3-appimage](https://aur.archlinux.org/packages/y2mp3-appimage)||
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
 |**yana**|[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
-|**yank-note**|[yank-note](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note)|[yank-note](https://aur.archlinux.org/packages/yank-note)||
+|**yank-note**|[yank-note-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-git)<br>[yank-note-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-bin)|[yank-note-git](https://aur.archlinux.org/packages/yank-note-git)<br>[yank-note-bin](https://aur.archlinux.org/packages/yank-note-bin)||
 |**yaradio-yamusic**|[yaradio-yamusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yaradio-yamusic-bin)|[yaradio-yamusic-bin](https://aur.archlinux.org/packages/yaradio-yamusic-bin)||
 |**yarle-evernote-to-md**|[yarle-evernote-to-md-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yarle-evernote-to-md-bin)|[yarle-evernote-to-md-bin](https://aur.archlinux.org/packages/yarle-evernote-to-md-bin)||
 |**yesplaymusic**|[yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-bin)|[yesplaymusic-bin](https://aur.archlinux.org/packages/yesplaymusic-bin)||
