@@ -681,7 +681,7 @@
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
 |**spotbar**|[spotbar](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotbar)|[spotbar](https://aur.archlinux.org/packages/spotbar)||
 |**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
-|**spx-translation**|[spx-translation](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation)|[spx-translation](https://aur.archlinux.org/packages/spx-translation)||
+|**spx-translation**|[spx-translation](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation)<br>[spx-translation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation-bin)|[spx-translation](https://aur.archlinux.org/packages/spx-translation)<br>[spx-translation-bin](https://aur.archlinux.org/packages/spx-translation-bin)||
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
 |**sqlite3-page-explorer**|[sqlite3-page-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlite3-page-explorer-bin)|[sqlite3-page-explorer-bin](https://aur.archlinux.org/packages/sqlite3-page-explorer-bin)||
 |**sqlui-native**|[sqlui-native-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlui-native-bin)|[sqlui-native-bin](https://aur.archlinux.org/packages/sqlui-native-bin)||
