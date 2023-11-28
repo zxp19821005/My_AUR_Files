@@ -617,7 +617,7 @@
 |**rendertune**|[rendertune-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rendertune-bin)|[rendertune-bin](https://aur.archlinux.org/packages/rendertune-bin)||
 |**reqable**|[reqable-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqable-bin)|[reqable-bin](https://aur.archlinux.org/packages/reqable-bin)||
 |**reqnotes**|[reqnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqnotes-bin)|[reqnotes-bin](https://aur.archlinux.org/packages/reqnotes-bin)||
-|**requestly**|[requestly-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/requestly-appimage)|[requestly-appimage](https://aur.archlinux.org/packages/requestly-appimage)||
+|**requestly**|[requestly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/requestly-bin)|[requestly-bin](https://aur.archlinux.org/packages/requestly-bin)||
 |**restfox**|[restfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/restfox-bin)|[restfox-bin](https://aur.archlinux.org/packages/restfox-bin)||
 |**revealed**|[revealed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-bin)|[revealed-bin](https://aur.archlinux.org/packages/revealed-bin)||
 |**revezone**|[revezone](https://github.com/zxp19821005/My_AUR_Files/tree/main/revezone)|[revezone](https://aur.archlinux.org/packages/revezone)||
