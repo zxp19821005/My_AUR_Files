@@ -1,6 +1,6 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=siyuan-git
-pkgver=2.10.16.r0.gfad7f0512
+pkgver=2.11.0.r0.ga75abfb81
 pkgrel=1
 pkgdesc="A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang."
 arch=('any')
@@ -15,24 +15,24 @@ provides=(
     "${pkgname%-git}"
 )
 depends=(
-    'electron25'
+    'electron27'
 )
 makedepends=(
     'gendesk'
     'git'
-    'nodejs>=18.18.2'
-    'npm>=9.8.1'
+    'nvm'
+    'npm'
     'go>=1.21.3'
     'pnpm'
 )
 source=(
-    "${pkgname//-/.}"::"git+${_ghurl}.git"
+    "${pkgname%-git}"::"git+${_ghurl}.git"
     "${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            'cc2ebfbab7be3507a090131219cf76eb05a10b7131a1e9b24552b22fed20098f')
+            'eb673414fef4621fdd24a454b94be674860bdcc262a5a6aa9ada0719e81dc5f7')
 pkgver() {
-    cd "${srcdir}/${pkgname//-/.}"
+    cd "${srcdir}/${pkgname%-git}"
     git describe --long --tags --exclude='*[a-z][a-z]*' | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 _ensure_local_nvm() {
@@ -45,22 +45,22 @@ build() {
     _ensure_local_nvm
     gendesk -q -f -n --categories "Utility" --name="${pkgname%-git}" --exec="${pkgname%-git}"
     sed "2i Name[zh_CN]=思源笔记" -i "${srcdir}/${pkgname%-git}.desktop"
-    cd "${srcdir}/${pkgname//-/.}/app"
+    cd "${srcdir}/${pkgname%-git}/app"
     sed '/- target: "tar.gz"/d' -i electron-builder-linux.yml
     pnpm install --no-frozen-lockfile
     pnpm run build
-    cd "${srcdir}/${pkgname//-/.}/kernel"
+    cd "${srcdir}/${pkgname%-git}/kernel"
     export CGO_ENABLED=1
     #For Chinese Only
     #export GOPROXY=https://goproxy.cn,direct
     go build --tags fts5 -o "../app/kernel-linux/SiYuan-Kernel" -v -ldflags "-s -w -X github.com/siyuan-note/siyuan/kernel/util.Mode=prod"
-    cd "${srcdir}/${pkgname//-/.}/app"
+    cd "${srcdir}/${pkgname%-git}/app"
     pnpm run dist-linux
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname//-/.}/app/build/linux-unpacked/resources/pandoc.zip" -t "${pkgdir}/usr/lib/${pkgname%-git}"
-    cp -r "${srcdir}/${pkgname//-/.}/app/build/linux-unpacked/resources/"{app,appearance,guide,kernel,stage} "${pkgdir}/usr/lib/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname//-/.}/app/appearance/boot/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+    install -Dm644 "${srcdir}/${pkgname%-git}/app/build/linux-unpacked/resources/pandoc.zip" -t "${pkgdir}/usr/lib/${pkgname%-git}"
+    cp -r "${srcdir}/${pkgname%-git}/app/build/linux-unpacked/resources/"{app,appearance,guide,kernel,stage} "${pkgdir}/usr/lib/${pkgname%-git}"
+    install -Dm644 "${srcdir}/${pkgname%-git}/app/appearance/boot/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
     install -Dm644 "${srcdir}/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
 }
