@@ -653,6 +653,7 @@
 |**shedshield**|[shedshield-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shedshield-bin)|[shedshield-bin](https://aur.archlinux.org/packages/shedshield-bin)||
 |**sheikah-witnet-wallet**|[sheikah-witnet-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sheikah-witnet-wallet-bin)|[sheikah-witnet-wallet-bin](https://aur.archlinux.org/packages/sheikah-witnet-wallet-bin)||
 |**shiba**|[shiba-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shiba-bin)|[shiba-bin](https://aur.archlinux.org/packages/shiba-bin)||
+|**shinden-client**|[shinden-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shinden-client-bin)|[shinden-client-bin](https://aur.archlinux.org/packages/shinden-client-bin)||
 |**shoppinglist**|[shoppinglist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shoppinglist-bin)|[shoppinglist-bin](https://aur.archlinux.org/packages/shoppinglist-bin)||
 |**shuffledns**|[shuffledns-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuffledns-bin)|[shuffledns-bin](https://aur.archlinux.org/packages/shuffledns-bin)||
 |**shutter-encoder**|[shutter-encoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutter-encoder-bin)|[shutter-encoder-bin](https://aur.archlinux.org/packages/shutter-encoder-bin)||
