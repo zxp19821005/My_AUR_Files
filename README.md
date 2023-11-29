@@ -795,6 +795,7 @@
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
+|**waveterm**|[waveterm](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm)|[waveterm](https://aur.archlinux.org/packages/waveterm)||
 |**webcam-glass**|[webcam-glass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcam-glass-bin)|[webcam-glass-bin](https://aur.archlinux.org/packages/webcam-glass-bin)||
 |**webeep-sync**|[webeep-sync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webeep-sync-bin)|[webeep-sync-bin](https://aur.archlinux.org/packages/webeep-sync-bin)||
 |**webgal-terre**|[webgal-terre-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webgal-terre-bin)|[webgal-terre-bin](https://aur.archlinux.org/packages/webgal-terre-bin)||
