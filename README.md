@@ -482,6 +482,7 @@
 |**myapp-scrapthatpage**|[myapp-scrapthatpage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/myapp-scrapthatpage-bin)|[myapp-scrapthatpage-bin](https://aur.archlinux.org/packages/myapp-scrapthatpage-bin)||
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
 |**my-hardware**|[my-hardware-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-hardware-bin)|[my-hardware-bin](https://aur.archlinux.org/packages/my-hardware-bin)||
+|**my-yesplaymusic**|[my-yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-yesplaymusic-bin)|[my-yesplaymusic-bin](https://aur.archlinux.org/packages/my-yesplaymusic-bin)||
 |**nativefier-gui**|[nativefier-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nativefier-gui-bin)|[nativefier-gui-bin](https://aur.archlinux.org/packages/nativefier-gui-bin)||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**netpad**|[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
