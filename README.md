@@ -419,7 +419,7 @@
 |**live-plus-plus**|[live-plus-plus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-plus-plus-bin)|[live-plus-plus-bin](https://aur.archlinux.org/packages/live-plus-plus-bin)||
 |**live-radio-app**|[live-radio-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-radio-app-bin)|[live-radio-app-bin](https://aur.archlinux.org/packages/live-radio-app-bin)||
 |**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
-|**losslesscut**|[losslesscut-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-appimage)|[losslesscut-appimage](https://aur.archlinux.org/packages/losslesscut-appimage)||
+|**losslesscut**|[losslesscut-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-git)|[losslesscut-git](https://aur.archlinux.org/packages/losslesscut-git)||
 |**lotti**|[lotti-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lotti-bin)|[lotti-bin](https://aur.archlinux.org/packages/lotti-bin)||
 |**lucashazardous-music-player**|[lucashazardous-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lucashazardous-music-player-bin)|[lucashazardous-music-player-bin](https://aur.archlinux.org/packages/lucashazardous-music-player-bin)||
 |**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
