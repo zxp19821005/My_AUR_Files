@@ -401,6 +401,7 @@
 |**kuro**|[kuro-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kuro-git)|[kuro-git](https://aur.archlinux.org/packages/kuro-git)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
 |**lagrange**|[lagrange-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lagrange-appimage)|[lagrange-appimage](https://aur.archlinux.org/packages/lagrange-appimage)||
+|**lala-companion**|[lala-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lala-companion-bin)|[lala-companion-bin](https://aur.archlinux.org/packages/lala-companion-bin)||
 |**laradumps**|[laradumps-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-bin)|[laradumps-bin](https://aur.archlinux.org/packages/laradumps-bin)||
 |**laravel-kit**|[laravel-kit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laravel-kit-bin)|[laravel-kit-bin](https://aur.archlinux.org/packages/laravel-kit-bin)||
 |**ldtk**|[ldtk-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-appimage)|[ldtk-appimage](https://aur.archlinux.org/packages/ldtk-appimage)||
