@@ -64,7 +64,6 @@
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
 |**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
-|**atom-ng**|[atom-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-ng-bin)|[atom-ng-bin](https://aur.archlinux.org/packages/atom-ng-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
 |**autocut-client**|[autocut-client](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-client)|[autocut-client](https://aur.archlinux.org/packages/autocut-client)||
