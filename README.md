@@ -359,6 +359,7 @@
 |**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
 |**ih8rtcgui**|[ih8rtcgui](https://github.com/zxp19821005/My_AUR_Files/tree/main/ih8rtcgui)|[ih8rtcgui](https://aur.archlinux.org/packages/ih8rtcgui)||
 |**image-ascii-art-tauri**|[image-ascii-art-tauri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/image-ascii-art-tauri-bin)|[image-ascii-art-tauri-bin](https://aur.archlinux.org/packages/image-ascii-art-tauri-bin)||
+|**imageconverter2**|[imageconverter2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imageconverter2-bin)|[imageconverter2-bin](https://aur.archlinux.org/packages/imageconverter2-bin)||
 |**imagefanreloaded-avalonia**|[imagefanreloaded-avalonia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagefanreloaded-avalonia-bin)|[imagefanreloaded-avalonia-bin](https://aur.archlinux.org/packages/imagefanreloaded-avalonia-bin)||
 |**image-stitching**|[image-stitching](https://github.com/zxp19821005/My_AUR_Files/tree/main/image-stitching)|[image-stitching](https://aur.archlinux.org/packages/image-stitching)||
 |**imagine**|[imagine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-bin)|[imagine-bin](https://aur.archlinux.org/packages/imagine-bin)||
