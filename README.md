@@ -50,6 +50,7 @@
 |**android-toolkit**|[android-toolkit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-toolkit-bin)|[android-toolkit-bin](https://aur.archlinux.org/packages/android-toolkit-bin)||
 |**angular-electron**|[angular-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/angular-electron-bin)|[angular-electron-bin](https://aur.archlinux.org/packages/angular-electron-bin)||
 |**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
+|**animestream**|[animestream-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-git)|[animestream-git](https://aur.archlinux.org/packages/animestream-git)||
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**aniship**|[aniship-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-bin)|[aniship-bin](https://aur.archlinux.org/packages/aniship-bin)||
 |**anklang**|[anklang-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-bin)|[anklang-bin](https://aur.archlinux.org/packages/anklang-bin)||
