@@ -1,0 +1,62 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+_pkgname=weixin
+pkgname=wechat-linux-bin
+_sparkname=store.spark-app.wechat-linux-spark
+pkgver=2.1.9
+#_electronversion=25
+pkgrel=1
+pkgdesc="微信原生桌面版"
+arch=("x86_64")
+url="https://wx.qq.com/"
+_sparkurl="https://mirrors.sdu.edu.cn/spark-store//store"
+license=('custom:freeware')
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
+depends=(
+    'alsa-lib'
+    'at-spi2-core'
+    'libxext'
+    'nspr'
+    'libcups'
+    'libx11'
+    'libxfixes'
+    'cairo'
+    'openssl-1.1'
+    'gtk3'
+    'nss'
+    'gdk-pixbuf2'
+    'expat'
+    'libxkbcommon'
+    'pango'
+    'libdrm'
+    'mesa'
+    'libxcomposite'
+    'libxrandr'
+    'libxshmfence'
+    'freetype2'
+    'libxdamage'
+    'libxcb'
+)
+source=(
+    "${pkgname%-bin}-${pkgver}.deb::${_sparkurl}/chat/${_sparkname}/${_sparkname}_${pkgver}_amd64.deb"
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('d3c307e12388e2cc22ecbfca0132fe0f500ab60cb902dbd6ebe810621bd419e5'
+            '48580b226c795ba4d4db1fb7241bbc7ff1746b9a3a9622f5e5c830bffcc35dd8')
+build() {
+    sed "s|@appname@|${pkgname%-bin}|g;s|@runname@|${_pkgname}|g" -i "${srcdir}/${pkgname%-bin}.sh"
+    bsdtar -xf "${srcdir}/data.tar.xz"
+    sed -e "s|Chat;|Network;|g" \
+        -e "s|/opt/apps/${_sparkname}/files/launch.sh|${pkgname%-bin}|g" \
+        -e "s|${_sparkname}|${pkgname%-bin}|g" \
+        -i "${srcdir}/opt/apps/${_sparkname}/entries/applications/${_sparkname}.desktop"
+    sed "s|/opt/apps/${_sparkname}/files|/opt/${pkgname%-bin}|g" -i "${srcdir}/opt/apps/${_sparkname}/files/activate.sh"
+    sed "s|/opt/apps/${_sparkname}/files|/opt/${pkgname%-bin}|g" -i "${srcdir}/opt/apps/${_sparkname}/files/files/${_pkgname}.sh"
+} 
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/opt/${pkgname%-bin}"
+    cp -r "${srcdir}/opt/apps/${_sparkname}/files/"* "${pkgdir}/opt/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/opt/apps/${_sparkname}/entries/applications/${_sparkname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${srcdir}/opt/apps/${_sparkname}/entries/icons/${_sparkname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+}
