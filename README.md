@@ -44,6 +44,7 @@
 |**altitude-metrix-wallet**|[altitude-metrix-wallet-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/altitude-metrix-wallet-appimage)|[altitude-metrix-wallet-appimage](https://aur.archlinux.org/packages/altitude-metrix-wallet-appimage)||
 |**altus**|[altus](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus)<br>[altus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altus-bin)|[altus](https://aur.archlinux.org/packages/altus)<br>[altus-bin](https://aur.archlinux.org/packages/altus-bin)||
 |**amcrest-desktop**|[amcrest-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amcrest-desktop-bin)|[amcrest-desktop-bin](https://aur.archlinux.org/packages/amcrest-desktop-bin)||
+|**amethyst-player**|[amethyst-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amethyst-player-bin)|[amethyst-player-bin](https://aur.archlinux.org/packages/amethyst-player-bin)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
 |**android-knot**|[android-knot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-appimage)|[android-knot-appimage](https://aur.archlinux.org/packages/android-knot-appimage)||
 |**android-toolkit**|[android-toolkit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-toolkit-bin)|[android-toolkit-bin](https://aur.archlinux.org/packages/android-toolkit-bin)||
