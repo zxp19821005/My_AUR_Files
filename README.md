@@ -99,7 +99,7 @@
 |**boostchanger**|[boostchanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-bin)|[boostchanger-bin](https://aur.archlinux.org/packages/boostchanger-bin)||
 |**borg-explorer**|[borg-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/borg-explorer-bin)|[borg-explorer-bin](https://aur.archlinux.org/packages/borg-explorer-bin)||
 |**bot.dev**|[bot.dev](https://github.com/zxp19821005/My_AUR_Files/tree/main/bot.dev)|[bot.dev](https://aur.archlinux.org/packages/bot.dev)||
-|**botclient**|[botclient-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/botclient-appimage)|[botclient-appimage](https://aur.archlinux.org/packages/botclient-appimage)||
+|**botclient**|[botclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botclient-bin)|[botclient-bin](https://aur.archlinux.org/packages/botclient-bin)||
 |**botframework-emulator**|[botframework-emulator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botframework-emulator-bin)|[botframework-emulator-bin](https://aur.archlinux.org/packages/botframework-emulator-bin)||
 |**brisqi**|[brisqi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brisqi-bin)|[brisqi-bin](https://aur.archlinux.org/packages/brisqi-bin)||
 |**broadcast**|[broadcast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/broadcast-bin)|[broadcast-bin](https://aur.archlinux.org/packages/broadcast-bin)||
