@@ -46,7 +46,7 @@
 |**amcrest-desktop**|[amcrest-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amcrest-desktop-bin)|[amcrest-desktop-bin](https://aur.archlinux.org/packages/amcrest-desktop-bin)||
 |**amethyst-player**|[amethyst-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amethyst-player-bin)|[amethyst-player-bin](https://aur.archlinux.org/packages/amethyst-player-bin)||
 |**amphitheatre-desktop**|[amphitheatre-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/amphitheatre-desktop-bin)|[amphitheatre-desktop-bin](https://aur.archlinux.org/packages/amphitheatre-desktop-bin)||
-|**android-knot**|[android-knot-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-appimage)|[android-knot-appimage](https://aur.archlinux.org/packages/android-knot-appimage)||
+|**android-knot**|[android-knot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-knot-bin)|[android-knot-bin](https://aur.archlinux.org/packages/android-knot-bin)||
 |**android-toolkit**|[android-toolkit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-toolkit-bin)|[android-toolkit-bin](https://aur.archlinux.org/packages/android-toolkit-bin)||
 |**angular-electron**|[angular-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/angular-electron-bin)|[angular-electron-bin](https://aur.archlinux.org/packages/angular-electron-bin)||
 |**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
