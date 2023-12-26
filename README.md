@@ -611,6 +611,7 @@
 |**r3play**|[r3play-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-appimage)|[r3play-appimage](https://aur.archlinux.org/packages/r3play-appimage)||
 |**r3playx**|[r3playx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-git)<br>[r3playx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-bin)|[r3playx-git](https://aur.archlinux.org/packages/r3playx-git)<br>[r3playx-bin](https://aur.archlinux.org/packages/r3playx-bin)||
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
+|**random-browser**|[random-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/random-browser-git)|[random-browser-git](https://aur.archlinux.org/packages/random-browser-git)||
 |**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
 |**react-explorer**|[react-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/react-explorer-bin)|[react-explorer-bin](https://aur.archlinux.org/packages/react-explorer-bin)||
