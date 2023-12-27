@@ -5,13 +5,13 @@ _ASAR="${_APPDIR}/@appasar@"
 export PATH="${_APPDIR}:${PATH}"
 export LD_LIBRARY_PATH="${_APPDIR}/swiftshader:${_APPDIR}/lib:${LD_LIBRARY_PATH}"
 export ELECTRON_IS_DEV=0
-export NODE_ENV=production
+export NODE_ENV=debug
 if [[ $EUID -ne 0 ]] || [[ $ELECTRON_RUN_AS_NODE ]]; then
-    cd "${_APPDIR}"
-    exec electron@electronversion@ "${_ASAR}" "$@"
+    cd "${_ASAR}"
+    exec electron@electronversion@ ./ "$@"
     exit
 else
-    cd "${_APPDIR}"
-    exec electron@electronversion@ "${_ASAR}" --no-sandbox "$@"
+    cd "${_ASAR}"
+    exec electron@electronversion@ ./ --no-sandbox "$@"
     exit
 fi
