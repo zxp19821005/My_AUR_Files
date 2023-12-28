@@ -89,7 +89,7 @@
 |**bicep**|[bicep-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bicep-bin)|[bicep-bin](https://aur.archlinux.org/packages/bicep-bin)||
 |**bilibilivideodownload**|[bilibilivideodownload-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-bin)|[bilibilivideodownload-bin](https://aur.archlinux.org/packages/bilibilivideodownload-bin)||
 |**birklehof-tk-getraenkekarte**|[birklehof-tk-getraenkekarte-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/birklehof-tk-getraenkekarte-bin)|[birklehof-tk-getraenkekarte-bin](https://aur.archlinux.org/packages/birklehof-tk-getraenkekarte-bin)||
-|**blinker**|[blinker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-bin)|[blinker-bin](https://aur.archlinux.org/packages/blinker-bin)||
+|**blinker**|[blinker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-git)<br>[blinker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-bin)|[blinker-git](https://aur.archlinux.org/packages/blinker-git)<br>[blinker-bin](https://aur.archlinux.org/packages/blinker-bin)||
 |**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
 |**bluestone**|[bluestone](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluestone)<br>[bluestone-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluestone-bin)|[bluestone](https://aur.archlinux.org/packages/bluestone)<br>[bluestone-bin](https://aur.archlinux.org/packages/bluestone-bin)||
