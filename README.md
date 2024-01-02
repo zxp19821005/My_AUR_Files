@@ -415,7 +415,6 @@
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
 |**line-by-line**|[line-by-line-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/line-by-line-bin)|[line-by-line-bin](https://aur.archlinux.org/packages/line-by-line-bin)||
 |**linked**|[linked-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linked-bin)|[linked-bin](https://aur.archlinux.org/packages/linked-bin)||
-|**linux-assistant**|[linux-assistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linux-assistant-bin)|[linux-assistant-bin](https://aur.archlinux.org/packages/linux-assistant-bin)||
 |**linwood-butterfly**|[linwood-butterfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/linwood-butterfly-bin)|[linwood-butterfly-bin](https://aur.archlinux.org/packages/linwood-butterfly-bin)||
 |**lisk-desktop**|[lisk-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lisk-desktop-bin)|[lisk-desktop-bin](https://aur.archlinux.org/packages/lisk-desktop-bin)||
 |**listen1-desktop**|[listen1-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/listen1-desktop-bin)|[listen1-desktop-bin](https://aur.archlinux.org/packages/listen1-desktop-bin)||
