@@ -782,6 +782,7 @@
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
 |**uivonim**|[uivonim-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-bin)|[uivonim-bin](https://aur.archlinux.org/packages/uivonim-bin)||
 |**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
+|**unoffical-wallhaven-desktop**|[unoffical-wallhaven-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-wallhaven-desktop-git)|[unoffical-wallhaven-desktop-git](https://aur.archlinux.org/packages/unoffical-wallhaven-desktop-git)||
 |**unsplash-wallpapers**|[unsplash-wallpapers-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-bin)|[unsplash-wallpapers-bin](https://aur.archlinux.org/packages/unsplash-wallpapers-bin)||
 |**upscayl**|[upscayl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/upscayl-git)|[upscayl-git](https://aur.archlinux.org/packages/upscayl-git)||
 |**url-collector**|[url-collector-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/url-collector-bin)|[url-collector-bin](https://aur.archlinux.org/packages/url-collector-bin)||
