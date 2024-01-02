@@ -13,6 +13,7 @@
 |**affine-canary**|[affine-canary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-canary-bin)|[affine-canary-bin](https://aur.archlinux.org/packages/affine-canary-bin)||
 |**agendapp**|[agendapp](https://github.com/zxp19821005/My_AUR_Files/tree/main/agendapp)|[agendapp](https://aur.archlinux.org/packages/agendapp)||
 |**ahmyth**|[ahmyth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ahmyth-bin)|[ahmyth-bin](https://aur.archlinux.org/packages/ahmyth-bin)||
+|**aihub**|[aihub](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub)<br>[aihub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub-bin)|[aihub](https://aur.archlinux.org/packages/aihub)<br>[aihub-bin](https://aur.archlinux.org/packages/aihub-bin)||
 |**air-controller-desktop**|[air-controller-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-bin)|[air-controller-desktop-bin](https://aur.archlinux.org/packages/air-controller-desktop-bin)||
 |**airdrop-tool**|[airdrop-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airdrop-tool-bin)|[airdrop-tool-bin](https://aur.archlinux.org/packages/airdrop-tool-bin)||
 |**airgorah**|[airgorah-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airgorah-bin)|[airgorah-bin](https://aur.archlinux.org/packages/airgorah-bin)||
