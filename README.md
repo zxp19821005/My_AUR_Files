@@ -473,7 +473,7 @@
 |**monit**|[monit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monit-bin)|[monit-bin](https://aur.archlinux.org/packages/monit-bin)||
 |**monokle**|[monokle](https://github.com/zxp19821005/My_AUR_Files/tree/main/monokle)<br>[monokle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monokle-bin)|[monokle](https://aur.archlinux.org/packages/monokle)<br>[monokle-bin](https://aur.archlinux.org/packages/monokle-bin)||
 |**monolith-code**|[monolith-code-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monolith-code-bin)|[monolith-code-bin](https://aur.archlinux.org/packages/monolith-code-bin)||
-|**moonplayer**|[moonplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-appimage)|[moonplayer-appimage](https://aur.archlinux.org/packages/moonplayer-appimage)||
+|**moonplayer**|[moonplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-bin)|[moonplayer-bin](https://aur.archlinux.org/packages/moonplayer-bin)||
 |**moose**|[moose-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-appimage)|[moose-appimage](https://aur.archlinux.org/packages/moose-appimage)||
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
 |**motrix**|[motrix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-git)|[motrix-git](https://aur.archlinux.org/packages/motrix-git)||
