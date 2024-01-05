@@ -595,7 +595,6 @@
 |**protoman**|[protoman-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/protoman-bin)|[protoman-bin](https://aur.archlinux.org/packages/protoman-bin)||
 |**proton-mail-viewer**|[proton-mail-viewer](https://github.com/zxp19821005/My_AUR_Files/tree/main/proton-mail-viewer)|[proton-mail-viewer](https://aur.archlinux.org/packages/proton-mail-viewer)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
-|**pygc**|[pygc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pygc-bin)|[pygc-bin](https://aur.archlinux.org/packages/pygc-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin)|[publii-bin](https://aur.archlinux.org/packages/publii-bin)||
 |**qcalc**|[qcalc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qcalc-bin)|[qcalc-bin](https://aur.archlinux.org/packages/qcalc-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
