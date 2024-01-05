@@ -635,7 +635,7 @@
 |**revezone**|[revezone](https://github.com/zxp19821005/My_AUR_Files/tree/main/revezone)|[revezone](https://aur.archlinux.org/packages/revezone)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ricochlime**|[ricochlime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ricochlime-bin)|[ricochlime-bin](https://aur.archlinux.org/packages/ricochlime-bin)||
-|**ripes**|[ripes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-appimage)|[ripes-appimage](https://aur.archlinux.org/packages/ripes-appimage)||
+|**ripes**|[ripes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-bin)|[ripes-bin](https://aur.archlinux.org/packages/ripes-bin)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick)<br>[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick](https://aur.archlinux.org/packages/rubick)<br>[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
