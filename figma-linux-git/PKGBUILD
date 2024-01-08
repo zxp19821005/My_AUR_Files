@@ -1,66 +1,75 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 # Contributor: iFlygo
-_pkgname=figma-linux
-pkgname="${_pkgname}-git"
-pkgver=0.11.0.r45.gc186d4b
+pkgname=figma-linux-git
+pkgver=0.11.2.r7.g21a518c
+_electronversion=27
+_nodeversion=18
 pkgrel=1
-pkgdesc="An unofficial Electron-based Figma desktop app,the first interface design tool based in the browser, making it easier for teams to create software."
 arch=('any')
+pkgdesc="The collaborative interface design tool. Unofficial Figma desktop client for Linux"
 url="https://github.com/Figma-Linux/figma-linux"
-license=('GPL2')
-conflicts=("${_pkgname}")
-provides=("${_pkgname}=${pkgver}")
+license=("GPL2")
+provides=("${pkgname%-git}")
+conflicts=("${pkgname%-git}")
 depends=(
-    'electron27'
-    'gtk3'
-    'gdk-pixbuf2'
-    'libxext'
-    'libx11'
-    'hicolor-icon-theme'
-    'pango'
-    'nss'
-    'nspr'
-    'sqlite'
-    'at-spi2-core'
-    'systemd-libs'
-    'libdbusmenu-glib'
-    'libdbusmenu-gtk3'
+  "electron${_electronversion}"
+  'hicolor-icon-theme'
+  'libdbusmenu-glib'
+  'libdbusmenu-gtk3'
 )
 makedepends=(
-    'gendesk'
-    'git'
-    'nodejs>=18.11.18'
-    'npm>=9.8.1'
+  'git'
+  'nvm'
+  'npm'
+  'xdg-utils'
 )
 source=(
-    "${_pkgname}"::"git+${url}.git"
-    "${_pkgname}.sh"
+  "${pkgname%-git}.git::git+${url}.git"
+  "${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '27b40ca59adaecf65b181228a1afb0c829c34659c62301e823ec6ba6926aa293')
+            'd4272fed78cdcacd9edfb019134ac485d65b43f4d8c7a4179edbaed56af9b231')
 pkgver() {
-    cd "${srcdir}/${_pkgname}"
-    git describe --long --tags --exclude='*[a-z][a-z]*' | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
+  cd "${srcdir}/${pkgname%-git}.git"
+  git describe --long --tags --exclude='*[a-z][a-z]*' | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
+}
+_ensure_local_nvm() {
+  export NVM_DIR="${srcdir}/.nvm"
+  source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+  nvm install "${_nodeversion}"
+  nvm use "${_nodeversion}"
 }
 build() {
-    gendesk -q -f -n --pkgname "${_pkgname}" --categories "Utility" --name="${_pkgname}" --exec="${_pkgname}"
-    cd "${srcdir}/${_pkgname}"
-    sed -e '62,73d' -e 's|"output": "build/installers"|"output": "out"|g' -i config/builder.json
-    npm install --no-frozen-lockfile
-    npm run package
+  sed -e "s|@electronversion@|${_electronversion}|" \
+      -e "s|@appname@|${pkgname%-git}|g" \
+      -e "s|@appasar@|app|g" \
+      -i "${srcdir}/${pkgname%-git}.sh"
+  _ensure_local_nvm
+  cd "${srcdir}/${pkgname%-git}.git"
+  export npm_config_build_from_source=true
+  export npm_config_cache="${srcdir}/.npm_cache"
+  export ELECTRON_SKIP_BINARY_DOWNLOAD=1
+  export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
+  export ELECTRONVERSION="${_electronversion}"
+  sed '62,73d' -i config/builder.json
+  npm install --no-frozen-lockfile
+  npm run build
+  npm run package
+  sed "s|/opt/${pkgname%-git}/${pkgname%-git}|${pkgname%-git}|g" -i "resources/${pkgname%-git}.desktop"
 }
+
 package() {
-    install -Dm755 "${srcdir}/${_pkgname}.sh" "${pkgdir}/usr/bin/${_pkgname}"
-    install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/lib/${CARCH}-linux-gnu/"* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
-    install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/usr/lib/${CARCH}-linux-gnu/"*.* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
-    install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/usr/lib/${CARCH}-linux-gnu/nss/"* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib/nss"
-    install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/swiftshader/"* -t "${pkgdir}/usr/lib/${pkgname%-git}/swiftshader"
-    for _icons in 24x24 36x36 48x48 64x64 96x96 128x128 256x256 512x512;do
-        install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png"
-    done
-    install -Dm644 "${srcdir}/${_pkgname}/out/linux-unpacked/icons/scalable.svg" \
-            "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${_pkgname}.svg"
-    install -Dm644 "${srcdir}/${_pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+  install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-git}"
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/lib/${CARCH}-linux-gnu/"* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/usr/lib/${CARCH}-linux-gnu/"*.* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/usr/lib/${CARCH}-linux-gnu/nss/"* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib/nss"
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/swiftshader/"* -t "${pkgdir}/usr/lib/${pkgname%-git}/swiftshader"
+  for _icons in 24x24 36x36 48x48 64x64 96x96 128x128 256x256 512x512;do
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/icons/${_icons}.png" \
+      "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"
+  done
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/build/installers/linux-unpacked/icons/scalable.svg" \
+    "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-git}.svg"
+  install -Dm644 "${srcdir}/${pkgname%-git}.git/resources/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
 }
