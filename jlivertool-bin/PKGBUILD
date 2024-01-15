@@ -1,50 +1,38 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=jlivertool
-_pkgname=JLiverTool
-pkgver=1.4.1
-_electronversion=15
-pkgrel=2
+pkgname=jlivertool-bin
+pkgver=2.0.0
+_electronversion=26
+pkgrel=1
 pkgdesc="Bilibili 弹幕机"
-arch=('any')
+arch=('x86_64')
 url="https://github.com/Xinrea/JLiverTool"
 license=('MIT')
-provides=("${pkgname}")
-conflicts=("${pkgname}")
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
 depends=(
     "electron${_electronversion}"
-)
-makedepends=(
-    'npm'
-    'nodejs'
-    'gendesk'
-    'git'
+    'java-runtime'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${url}.git#tag=v${pkgver}"
-    "${pkgname}.sh"
+    "${pkgname%-bin}-${pkgver}.pacman::${url}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}.pacman"
+    "LICENSE-${pkgver}.md::https://raw.githubusercontent.com/Xinrea/JLiverTool/v${pkgver}/LICENSE.md"
+    "${pkgname%-bin}.sh"
 )
-sha256sums=('SKIP'
-            '8915ca75d453698df81f7f3305cce6869f4261d754d90f0c3724b73c7b24ca84')
+sha256sums=('8411e1a9c1d58dc2a8483b201aa44531d06c174de57f1bf2404b1c9b6df22247'
+            '5d86e387ac33cf32eee9c968d38483a30567690b843c3768b35fe4bc55b455a8'
+            'd4272fed78cdcacd9edfb019134ac485d65b43f4d8c7a4179edbaed56af9b231')
 build() {
     sed -e "s|@electronversion@|${_electronversion}|" \
-        -e "s|@appname@|${pkgname}|g" \
+        -e "s|@appname@|${pkgname%-bin}|g" \
         -e "s|@appasar@|app.asar|g" \
-        -i "${srcdir}/${pkgname}.sh"
-    gendesk -q -f -n --categories "Utility" --name "${_pkgname}" --exec "${pkgname}"
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    export npm_config_build_from_source=true
-    export npm_config_cache="${srcdir}/.npm_cache"
-    export ELECTRON_SKIP_BINARY_DOWNLOAD=1
-    export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
-    export ELECTRONVERSION="${_electronversion}"
-    sed "s|-mw|-l|g" -i package.json
-    npm install
-    npm run build
+        -i "${srcdir}/${pkgname%-bin}.sh"
+    sed "s|/opt/${pkgname%-bin}/${pkgname%-bin}|${pkgname%-bin}|g" -i "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/dist/linux-unpacked/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/dist/linux-unpacked/swiftshader/"* -t "${pkgdir}/usr/lib/${pkgname}/swiftshader"
-    install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/opt/${pkgname%-bin}/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -r "${srcdir}/opt/${pkgname%-bin}/resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/usr/share/icons/hicolor/512x512/apps//${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
+    install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
 }
