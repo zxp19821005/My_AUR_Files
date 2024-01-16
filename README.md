@@ -109,6 +109,7 @@
 |**browser360**|[browser360-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/browser360-bin)|[browser360-bin](https://aur.archlinux.org/packages/browser360-bin)||
 |**brs-emu-app**|[brs-emu-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-emu-app-bin)|[brs-emu-app-bin](https://aur.archlinux.org/packages/brs-emu-app-bin)||
 |**bssenglish**|[bssenglish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bssenglish-bin)|[bssenglish-bin](https://aur.archlinux.org/packages/bssenglish-bin)||
+|**budgeted-ui**|[budgeted-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/budgeted-ui-bin)|[budgeted-ui-bin](https://aur.archlinux.org/packages/budgeted-ui-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
 |**buttercup-desktop**|[buttercup-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-bin)|[buttercup-desktop-bin](https://aur.archlinux.org/packages/buttercup-desktop-bin)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
