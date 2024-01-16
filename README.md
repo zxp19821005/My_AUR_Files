@@ -248,6 +248,7 @@
 |**eusoft-ting-fr**|[eusoft-ting-fr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-fr-bin)|[eusoft-ting-fr-bin](https://aur.archlinux.org/packages/eusoft-ting-fr-bin)||
 |**everytime**|[everytime](https://github.com/zxp19821005/My_AUR_Files/tree/main/everytime)|[everytime](https://aur.archlinux.org/packages/everytime)||
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin)||
+|**explorama**|[explorama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/explorama-bin)|[explorama-bin](https://aur.archlinux.org/packages/explorama-bin)||
 |**ezytdl**|[ezytdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ezytdl-bin)|[ezytdl-bin](https://aur.archlinux.org/packages/ezytdl-bin)||
 |**f1mv-lights-integration**|[f1mv-lights-integration-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-bin)|[f1mv-lights-integration-bin](https://aur.archlinux.org/packages/f1mv-lights-integration-bin)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
