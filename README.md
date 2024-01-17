@@ -879,7 +879,7 @@
 |**ytm-dlp-gui**|[ytm-dlp-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytm-dlp-gui)<br>[ytm-dlp-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytm-dlp-gui-bin)|[ytm-dlp-gui](https://aur.archlinux.org/packages/ytm-dlp-gui)<br>[ytm-dlp-gui-bin](https://aur.archlinux.org/packages/ytm-dlp-gui-bin)||
 |**yt-music-player**|[yt-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-music-player)|[yt-music-player](https://aur.archlinux.org/packages/yt-music-player)||
 |**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage)<br>[yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage)<br>[yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
-|**yuview**|[yuview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-appimage)|[yuview-appimage](https://aur.archlinux.org/packages/yuview-appimage)||
+|**yuview**|[yuview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-bin)|[yuview-bin](https://aur.archlinux.org/packages/yuview-bin)||
 |**yuvviewer**|[yuvviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuvviewer-bin)|[yuvviewer-bin](https://aur.archlinux.org/packages/yuvviewer-bin)||
 |**zhiximind-desktop**|[zhiximind-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zhiximind-desktop-bin)|[zhiximind-desktop-bin](https://aur.archlinux.org/packages/zhiximind-desktop-bin)||
 |**ziipoo**|[ziipoo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ziipoo-bin)|[ziipoo-bin](https://aur.archlinux.org/packages/ziipoo-bin)||
