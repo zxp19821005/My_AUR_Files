@@ -657,7 +657,7 @@
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**sentio**|[sentio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sentio-bin)|[sentio-bin](https://aur.archlinux.org/packages/sentio-bin)||
 |**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
-|**serial-studio**|[serial-studio-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/serial-studio-appimage)|[serial-studio-appimage](https://aur.archlinux.org/packages/serial-studio-appimage)||
+|**serial-studio**|[serial-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serial-studio-bin)|[serial-studio-bin](https://aur.archlinux.org/packages/serial-studio-bin)||
 |**serina**|[serina-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serina-bin)|[serina-bin](https://aur.archlinux.org/packages/serina-bin)||
 |**seven-desktop**|[seven-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-desktop-bin)|[seven-desktop-bin](https://aur.archlinux.org/packages/seven-desktop-bin)||
 |**seven-waves**|[seven-waves](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves)|[seven-waves](https://aur.archlinux.org/packages/seven-waves)||
