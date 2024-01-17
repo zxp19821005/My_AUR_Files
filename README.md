@@ -567,7 +567,7 @@
 |**pikatorrent**|[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
 |**pitv**|[pitv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pitv-bin)|[pitv-bin](https://aur.archlinux.org/packages/pitv-bin)||
 |**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
-|**planes**|[planes-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/planes-appimage)|[planes-appimage](https://aur.archlinux.org/packages/planes-appimage)||
+|**planes**|[planes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/planes-bin)|[planes-bin](https://aur.archlinux.org/packages/planes-bin)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**plow**|[plow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plow-bin)|[plow-bin](https://aur.archlinux.org/packages/plow-bin)||
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
