@@ -529,7 +529,7 @@
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-bin)|[onekey-wallet-bin](https://aur.archlinux.org/packages/onekey-wallet-bin)||
 |**onote**|[onote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onote-bin)|[onote-bin](https://aur.archlinux.org/packages/onote-bin)||
-|**opal**|[opal-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-appimage)|[opal-appimage](https://aur.archlinux.org/packages/opal-appimage)||
+|**opal-player**|[opal-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-player-bin)|[opal-player-bin](https://aur.archlinux.org/packages/opal-player-bin)||
 |**open-ai-translator**|[open-ai-translator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ai-translator-bin)|[open-ai-translator-bin](https://aur.archlinux.org/packages/open-ai-translator-bin)||
 |**opencomic**|[opencomic](https://github.com/zxp19821005/My_AUR_Files/tree/main/opencomic)|[opencomic](https://aur.archlinux.org/packages/opencomic)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
