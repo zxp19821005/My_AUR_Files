@@ -609,7 +609,7 @@
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quark-player**|[quark-player-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-appimage)<br>[quark-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quark-player-bin)|[quark-player-appimage](https://aur.archlinux.org/packages/quark-player-appimage)<br>[quark-player-bin](https://aur.archlinux.org/packages/quark-player-bin)||
 |**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
-|**quaternion**|[quaternion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-appimage)|[quaternion-appimage](https://aur.archlinux.org/packages/quaternion-appimage)||
+|**quaternion**|[quaternion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-bin)|[quaternion-bin](https://aur.archlinux.org/packages/quaternion-bin)||
 |**quba**|[quba-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-appimage)|[quba-appimage](https://aur.archlinux.org/packages/quba-appimage)||
 |**querym**|[querym-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/querym-bin)|[querym-bin](https://aur.archlinux.org/packages/querym-bin)||
 |**quicknote**|[quicknote](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote)|[quicknote](https://aur.archlinux.org/packages/quicknote)||
