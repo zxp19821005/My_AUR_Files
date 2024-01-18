@@ -75,7 +75,7 @@
 |**autographa**|[autographa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autographa-bin)|[autographa-bin](https://aur.archlinux.org/packages/autographa-bin)||
 |**autorecord-manager**|[autorecord-manager](https://github.com/zxp19821005/My_AUR_Files/tree/main/autorecord-manager)|[autorecord-manager](https://aur.archlinux.org/packages/autorecord-manager)||
 |**aviutl-package-manager**|[aviutl-package-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aviutl-package-manager-bin)|[aviutl-package-manager-bin](https://aur.archlinux.org/packages/aviutl-package-manager-bin)||
-|**avogadro2**|[avogadro2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/avogadro2-appimage)|[avogadro2-appimage](https://aur.archlinux.org/packages/avogadro2-appimage)||
+|**avogadro2**|[avogadro2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/avogadro2-bin)|[avogadro2-bin](https://aur.archlinux.org/packages/avogadro2-bin)||
 |**awakened-poe-trade**|[awakened-poe-trade-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awakened-poe-trade-bin)|[awakened-poe-trade-bin](https://aur.archlinux.org/packages/awakened-poe-trade-bin)||
 |**awsaml**|[awsaml-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awsaml-bin)|[awsaml-bin](https://aur.archlinux.org/packages/awsaml-bin)||
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
