@@ -107,7 +107,7 @@
 |**brisqi**|[brisqi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brisqi-bin)|[brisqi-bin](https://aur.archlinux.org/packages/brisqi-bin)||
 |**broadcast**|[broadcast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/broadcast-bin)|[broadcast-bin](https://aur.archlinux.org/packages/broadcast-bin)||
 |**browser360**|[browser360-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/browser360-bin)|[browser360-bin](https://aur.archlinux.org/packages/browser360-bin)||
-|**brs-emu-app**|[brs-emu-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-emu-app-bin)|[brs-emu-app-bin](https://aur.archlinux.org/packages/brs-emu-app-bin)||
+|**brs-desktop**|[brs-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-desktop-bin)|[brs-desktop-bin](https://aur.archlinux.org/packages/brs-desktop-bin)||
 |**bssenglish**|[bssenglish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bssenglish-bin)|[bssenglish-bin](https://aur.archlinux.org/packages/bssenglish-bin)||
 |**budgeted-ui**|[budgeted-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/budgeted-ui-bin)|[budgeted-ui-bin](https://aur.archlinux.org/packages/budgeted-ui-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
