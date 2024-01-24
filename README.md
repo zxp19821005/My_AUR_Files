@@ -130,7 +130,6 @@
 |**chieapp**|[chieapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chieapp-bin)|[chieapp-bin](https://aur.archlinux.org/packages/chieapp-bin)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
 |**chinesechesscontrol**|[chinesechesscontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechesscontrol-bin)|[chinesechesscontrol-bin](https://aur.archlinux.org/packages/chinesechesscontrol-bin)||
-|**chord**|[chord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chord-bin)|[chord-bin](https://aur.archlinux.org/packages/chord-bin)||
 |**chrolog**|[chrolog-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrolog-bin)|[chrolog-bin](https://aur.archlinux.org/packages/chrolog-bin)||
 |**chrome-remote-desktop**|[chrome-remote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chrome-remote-desktop-bin)|[chrome-remote-desktop-bin](https://aur.archlinux.org/packages/chrome-remote-desktop-bin)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
