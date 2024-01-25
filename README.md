@@ -299,6 +299,7 @@
 |**frosch**|[frosch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frosch-bin)|[frosch-bin](https://aur.archlinux.org/packages/frosch-bin)||
 |**fsolauncher**|[fsolauncher](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher)|[fsolauncher](https://aur.archlinux.org/packages/fsolauncher)||
 |**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
+|**fuzzynote**|[fuzzynote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fuzzynote-bin)|[fuzzynote-bin](https://aur.archlinux.org/packages/fuzzynote-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**fxradio**|[fxradio](https://github.com/zxp19821005/My_AUR_Files/tree/main/fxradio)|[fxradio](https://aur.archlinux.org/packages/fxradio)||
 |**yakuza**|[yakuza-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakuza-bin)|[yakuza-bin](https://aur.archlinux.org/packages/yakuza-bin)||
