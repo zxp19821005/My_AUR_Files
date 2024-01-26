@@ -766,6 +766,7 @@
 |**timecop**|[timecop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timecop-bin)|[timecop-bin](https://aur.archlinux.org/packages/timecop-bin)||
 |**time-to-leave**|[time-to-leave-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/time-to-leave-bin)|[time-to-leave-bin](https://aur.archlinux.org/packages/time-to-leave-bin)||
 |**timetrace**|[timetrace-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timetrace-bin)|[timetrace-bin](https://aur.archlinux.org/packages/timetrace-bin)||
+|**tiny-rdm**|[tiny-rdm](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-rdm)<br>[tiny-rdm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-rdm-git)|[tiny-rdm](https://aur.archlinux.org/packages/tiny-rdm)<br>[tiny-rdm-git](https://aur.archlinux.org/packages/tiny-rdm-git)||
 |**tithree**|[tithree](https://github.com/zxp19821005/My_AUR_Files/tree/main/tithree)|[tithree](https://aur.archlinux.org/packages/tithree)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
 |**tm-desktop**|[tm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tm-desktop-bin)|[tm-desktop-bin](https://aur.archlinux.org/packages/tm-desktop-bin)||
