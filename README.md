@@ -848,6 +848,7 @@
 |**wewechat++**|[wewechat++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wewechat++-bin)|[wewechat++-bin](https://aur.archlinux.org/packages/wewechat++-bin)||
 |**whalebird**|[whalebird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whalebird-bin)|[whalebird-bin](https://aur.archlinux.org/packages/whalebird-bin)||
 |**whatsapp-electron**|[whatsapp-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-electron-bin)|[whatsapp-electron-bin](https://aur.archlinux.org/packages/whatsapp-electron-bin)||
+|**whatstron**|[whatstron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatstron-bin)|[whatstron-bin](https://aur.archlinux.org/packages/whatstron-bin)||
 |**whatsapp-for-linux**|[whatsapp-for-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-bin)|[whatsapp-for-linux-bin](https://aur.archlinux.org/packages/whatsapp-for-linux-bin)||
 |**whisperpix**|[whisperpix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whisperpix-bin)|[whisperpix-bin](https://aur.archlinux.org/packages/whisperpix-bin)||
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
