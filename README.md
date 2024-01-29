@@ -566,6 +566,7 @@
 |**passky-desktop**|[passky-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passky-desktop-bin)|[passky-desktop-bin](https://aur.archlinux.org/packages/passky-desktop-bin)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
 |**paster**|[paster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paster-bin)|[paster-bin](https://aur.archlinux.org/packages/paster-bin)||
+|**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**pear-rec**|[pear-rec](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec)<br>[pear-rec-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-git)|[pear-rec](https://aur.archlinux.org/packages/pear-rec)<br>[pear-rec-git](https://aur.archlinux.org/packages/pear-rec-git)||
 |**peershare**|[peershare](https://github.com/zxp19821005/My_AUR_Files/tree/main/peershare)|[peershare](https://aur.archlinux.org/packages/peershare)||
