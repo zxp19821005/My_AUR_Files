@@ -629,7 +629,7 @@
 |**querym**|[querym-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/querym-bin)|[querym-bin](https://aur.archlinux.org/packages/querym-bin)||
 |**quicknote**|[quicknote](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote)|[quicknote](https://aur.archlinux.org/packages/quicknote)||
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage)<br>[qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
-|**r3play**|[r3play-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-appimage)|[r3play-appimage](https://aur.archlinux.org/packages/r3play-appimage)||
+|**r3play**|[r3play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-bin)|[r3play-bin](https://aur.archlinux.org/packages/r3play-bin)||
 |**r3playx**|[r3playx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-git)<br>[r3playx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-bin)|[r3playx-git](https://aur.archlinux.org/packages/r3playx-git)<br>[r3playx-bin](https://aur.archlinux.org/packages/r3playx-bin)||
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
 |**random-browser**|[random-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/random-browser-git)|[random-browser-git](https://aur.archlinux.org/packages/random-browser-git)||
