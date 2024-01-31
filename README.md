@@ -700,7 +700,7 @@
 |**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**snailfm**|[snailfm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snailfm-bin)|[snailfm-bin](https://aur.archlinux.org/packages/snailfm-bin)||
-|**snapmail**|[snapmail-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapmail-appimage)|[snapmail-appimage](https://aur.archlinux.org/packages/snapmail-appimage)||
+|**snapmail**|[snapmail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapmail-bin)|[snapmail-bin](https://aur.archlinux.org/packages/snapmail-bin)||
 |**snippet-notes**|[snippet-notes](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippet-notes)|[snippet-notes](https://aur.archlinux.org/packages/snippet-notes)||
 |**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck)<br>[snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck)<br>[snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)|||**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
