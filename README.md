@@ -158,6 +158,7 @@
 |**csbooks**|[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**ctool-electron**|[ctool-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-electron-bin)|[ctool-electron-bin](https://aur.archlinux.org/packages/ctool-electron-bin)||
 |**cubytext**|[cubytext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cubytext-bin)|[cubytext-bin](https://aur.archlinux.org/packages/cubytext-bin)||
+|**cultivation**|[cultivation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation-bin)|[cultivation-bin](https://aur.archlinux.org/packages/cultivation-bin)||
 |**cycode**|[cycode](https://github.com/zxp19821005/My_AUR_Files/tree/main/cycode)|[cycode](https://aur.archlinux.org/packages/cycode)||
 |**darkorbit-client**|[darkorbit-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-bin)|[darkorbit-client-bin](https://aur.archlinux.org/packages/darkorbit-client-bin)||
 |**darkwrite**|[darkwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkwrite-bin)|[darkwrite-bin](https://aur.archlinux.org/packages/darkwrite-bin)||
