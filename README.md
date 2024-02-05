@@ -324,6 +324,7 @@
 |**go-dsp-guitar**|[go-dsp-guitar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/go-dsp-guitar-bin)|[go-dsp-guitar-bin](https://aur.archlinux.org/packages/go-dsp-guitar-bin)||
 |**google-assistant-unofficial-desktop-client**|[google-assistant-unofficial-desktop-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-bin)|[google-assistant-unofficial-desktop-client-bin](https://aur.archlinux.org/packages/google-assistant-unofficial-desktop-client-bin)||
 |**google-calender-widget**|[google-calender-widget](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-calender-widget)|[google-calender-widget](https://aur.archlinux.org/packages/google-calender-widget)||
+|**google-chat-linux**|[google-chat-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-chat-linux)|[google-chat-linux](https://aur.archlinux.org/packages/google-chat-linux)||
 |**google-docs**|[google-docs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-docs-bin)|[google-docs-bin](https://aur.archlinux.org/packages/google-docs-bin)||
 |**google-messages**|[google-messages-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-messages-bin)|[google-messages-bin](https://aur.archlinux.org/packages/google-messages-bin)||
 |**goovpn**|[goovpn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goovpn-bin)|[goovpn-bin](https://aur.archlinux.org/packages/goovpn-bin)||
