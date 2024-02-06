@@ -1,55 +1,48 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=git-it-electron-git
-_appname=Git-it
-pkgver=5.2.2.r363.ga4d3c00
-_electronversion=28
-pkgrel=1
-pkgdesc="A Desktop App for Learning Git and GitHub"
-arch=('any')
-url="https://github.com/Git-it-App/git-it-electron"
-license=('BSD')
-conflicts=("${pkgname%-git}")
-provides=("${pkgname%-git}")
+pkgname=open-password-manager-bin
+_pkgname=OpenPasswordManager
+pkgver=1.3.0
+_electronversion=16
+pkgrel=2
+pkgdesc="A browser and desktop password manager. The app can run either in browser, or as a desktop app."
+arch=('x86_64')
+url="https://github.com/dd060606/OpenPasswordManager"
+license=('GPL3')
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
 depends=(
     "electron${_electronversion}"
+    'dbus-glib'
+    'libdbusmenu-glib'
+    'gtk2'
 )
 makedepends=(
-    'gendesk'
-    'git'
-    'nodejs'
-    'npm'
+    'squashfuse'
+    'asar'
 )
 source=(
-    "${pkgname%-git}::git+${url}.git"
-    "${pkgname%-git}.sh"
+    "${pkgname%-bin}-${pkgver}.AppImage::${url}/releases/download/${pkgver}/${_pkgname}-setup-1.2.0.AppImage"
+    "${pkgname%-bin}.sh"
 )
-sha256sums=('SKIP'
-            '5ce46265f0335b03568aa06f7b4c57c5f8ffade7a226489ea39796be91a511bf')
-pkgver() {
-    cd "${srcdir}/${pkgname%-git}"
-    git describe --long --tags --exclude='*[a-z][a-z]*' | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
-}
+sha256sums=('a5948956826102b42732cce5260d67ebb7ccda78ca61216134170c9240320a7b'
+            '0fb7b939a071f4a08476bdd5aa143d2aa8cd335c83309f9919be16cd5c3e2014')
 build() {
-    sed -e "s|@electronversion@|${_electronversion}|" \
-        -e "s|@appname@|${pkgname%-git}|g" \
-        -e "s|@appasar@|app|g" \
-        -i "${srcdir}/${pkgname%-git}.sh"
-    gendesk -q -f -n --categories "Utility" --name "${_appname}" --exec "${pkgname%-git}"
-    cd "${srcdir}/${pkgname%-git}"
-    export npm_config_build_from_source=true
-    export npm_config_cache="${srcdir}/.npm_cache"
-    export ELECTRON_SKIP_BINARY_DOWNLOAD=1
-    export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
-    export ELECTRONVERSION="${_electronversion}"
-    npm install
-    npm run build
-    npm run pack-lin
+    sed -e "s|@electronversion@|${_electronversion}|g" \
+        -e "s|@appname@|${pkgname%-bin}|g" \
+        -e "s|@runname@|app.asar|g" \
+        -i "${srcdir}/${pkgname%-bin}.sh"
+    chmod a+x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage"
+    "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" --appimage-extract > /dev/null
+    sed "s|AppRun --no-sandbox|${pkgname%-bin}|g" -i "${srcdir}/squashfs-root/${pkgname%-bin}.desktop"
+    asar e "${srcdir}/squashfs-root/resources/app.asar" "${srcdir}/app.asar.unpacked"
+    cp "${srcdir}/squashfs-root/resources/app-update.yml" "${srcdir}/app.asar.unpacked/dev-app-update.yml"
+    asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
-    cp -r "${srcdir}/${pkgname%-git}/out/${_appname}-linux-x64/resources/"{app,i18n} "${pkgdir}/usr/lib/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}/assets/${pkgname%-electron-git}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "${srcdir}/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/${pkgname%-git}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/squashfs-root/usr/lib/"* -t "${pkgdir}/usr/lib/${pkgname%-bin}/lib"
+    install -Dm644 "${srcdir}/squashfs-root/swiftshader/"* -t "${pkgdir}/usr/lib/${pkgname%-bin}/swiftshader"
+    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/0x0/apps/${pkgname%-bin}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+    install -Dm644 "${srcdir}/squashfs-root/${pkgname%-bin}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
