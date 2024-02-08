@@ -470,6 +470,7 @@
 |**media-hoarder**|[media-hoarder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-hoarder-bin)|[media-hoarder-bin](https://aur.archlinux.org/packages/media-hoarder-bin)||
 |**medict**|[medict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/medict-bin)|[medict-bin](https://aur.archlinux.org/packages/medict-bin)||
 |**melodie**|[melodie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-bin)|[melodie-bin](https://aur.archlinux.org/packages/melodie-bin)||
+|**melt-mdeditor**|[melt-mdeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/melt-mdeditor-git)|[melt-mdeditor-git](https://aur.archlinux.org/packages/melt-mdeditor-git)||
 |**meteor-todo-desktop**|[meteor-todo-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/meteor-todo-desktop)<br>[meteor-todo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/meteor-todo-desktop-bin)|[meteor-todo-desktop](https://aur.archlinux.org/packages/meteor-todo-desktop)<br>[meteor-todo-desktop-bin](https://aur.archlinux.org/packages/meteor-todo-desktop-bin)||
 |**metronome**|[metronome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/metronome-bin)|[metronome-bin](https://aur.archlinux.org/packages/metronome-bin)||
 |**mic-mutebar**|[mic-mutebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mic-mutebar-bin)|[mic-mutebar-bin](https://aur.archlinux.org/packages/mic-mutebar-bin)||
