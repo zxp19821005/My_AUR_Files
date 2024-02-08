@@ -442,6 +442,7 @@
 |**live2d-kanban-desktop**|[live2d-kanban-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/live2d-kanban-desktop)<br>[live2d-kanban-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live2d-kanban-desktop-bin)|[live2d-kanban-desktop](https://aur.archlinux.org/packages/live2d-kanban-desktop)<br>[live2d-kanban-desktop-bin](https://aur.archlinux.org/packages/live2d-kanban-desktop-bin)||
 |**live-plus-plus**|[live-plus-plus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-plus-plus-bin)|[live-plus-plus-bin](https://aur.archlinux.org/packages/live-plus-plus-bin)||
 |**live-radio-app**|[live-radio-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-radio-app-bin)|[live-radio-app-bin](https://aur.archlinux.org/packages/live-radio-app-bin)||
+|**localchat**|[localchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/localchat-bin)|[localchat-bin](https://aur.archlinux.org/packages/localchat-bin)||
 |**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
 |**losslesscut**|[losslesscut-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-git)|[losslesscut-git](https://aur.archlinux.org/packages/losslesscut-git)||
 |**lotti**|[lotti-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lotti-bin)|[lotti-bin](https://aur.archlinux.org/packages/lotti-bin)||
