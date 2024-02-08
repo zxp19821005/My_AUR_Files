@@ -853,6 +853,7 @@
 |**webgal-terre**|[webgal-terre-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webgal-terre-bin)|[webgal-terre-bin](https://aur.archlinux.org/packages/webgal-terre-bin)||
 |**webkitty**|[webkitty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-bin)|[webkitty-bin](https://aur.archlinux.org/packages/webkitty-bin)||
 |**web-os-dev-manager**|[web-os-dev-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-bin)|[web-os-dev-manager-bin](https://aur.archlinux.org/packages/web-os-dev-manager-bin)||
+|**webtorrent-desktop**|[webtorrent-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webtorrent-desktop-git)|[webtorrent-desktop-git](https://aur.archlinux.org/packages/webtorrent-desktop-git)||
 |**wechat-linux**|[wechat-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-linux-bin)|AUR上未发布|
 |**weektodo**|[weektodo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-appimage)<br>[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-appimage](https://aur.archlinux.org/packages/weektodo-appimage)<br>[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
 |**weimail**|[weimail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weimail-bin)|[weimail-bin](https://aur.archlinux.org/packages/weimail-bin)||
