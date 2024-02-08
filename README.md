@@ -354,6 +354,7 @@
 |**helioslauncher**|[helioslauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/helioslauncher-bin)|[helioslauncher-bin](https://aur.archlinux.org/packages/helioslauncher-bin)||
 |**hexhoot**|[hexhoot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexhoot-bin)|[hexhoot-bin](https://aur.archlinux.org/packages/hexhoot-bin)||
 |**hex-music-player**|[hex-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/hex-music-player)|[hex-music-player](https://aur.archlinux.org/packages/hex-music-player)||
+|**hexopress**|[hexopress-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexopress-git)|[hexopress-git](https://aur.archlinux.org/packages/hexopress-git)||
 |**hihat**|[hihat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hihat-git)|[hihat-git](https://aur.archlinux.org/packages/hihat-git)||
 |**hiregpt**|[hiregpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/hiregpt)|[hiregpt](https://aur.archlinux.org/packages/hiregpt)||
 |**homeassistant-desktop**|[homeassistant-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/homeassistant-desktop-bin)|[homeassistant-desktop-bin](https://aur.archlinux.org/packages/homeassistant-desktop-bin)||
