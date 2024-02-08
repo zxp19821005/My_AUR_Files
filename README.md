@@ -770,6 +770,7 @@
 |**thoughts**|[thoughts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thoughts-bin)|[thoughts-bin](https://aur.archlinux.org/packages/thoughts-bin)||
 |**threema-for-desktop**|[threema-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-bin)|[threema-for-desktop-bin](https://aur.archlinux.org/packages/threema-for-desktop-bin)||
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
+|**tidgi-desktop**|[tidgi-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tidgi-desktop-git)|[tidgi-desktop-git](https://aur.archlinux.org/packages/tidgi-desktop-git)||
 |**tilde-podcast**|[tilde-podcast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-bin)|[tilde-podcast-bin](https://aur.archlinux.org/packages/tilde-podcast-bin)||
 |**timecop**|[timecop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timecop-bin)|[timecop-bin](https://aur.archlinux.org/packages/timecop-bin)||
 |**time-to-leave**|[time-to-leave-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/time-to-leave-bin)|[time-to-leave-bin](https://aur.archlinux.org/packages/time-to-leave-bin)||
