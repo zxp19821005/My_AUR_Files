@@ -677,6 +677,7 @@
 |**saber**|[saber-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/saber-bin)|[saber-bin](https://aur.archlinux.org/packages/saber-bin)||
 |**saberfy**|[saberfy](https://github.com/zxp19821005/My_AUR_Files/tree/main/saberfy)|[saberfy](https://aur.archlinux.org/packages/saberfy)||
 |**salesforce2sql**|[salesforce2sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salesforce2sql-bin)|[salesforce2sql-bin](https://aur.archlinux.org/packages/salesforce2sql-bin)||
+|**salvage**|[salvage-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/salvage-git)|[salvage-git](https://aur.archlinux.org/packages/salvage-git)||
 |**sbe**|[sbe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-bin)|[sbe-bin](https://aur.archlinux.org/packages/sbe-bin)||
 |**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
 |**scripthaus**|[scripthaus-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus-git)|[scripthaus-git](https://aur.archlinux.org/packages/scripthaus-git)||
