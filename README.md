@@ -277,7 +277,7 @@
 |**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
 |**fireblocks-recovery-utility**|[fireblocks-recovery-utility-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fireblocks-recovery-utility-bin)|[fireblocks-recovery-utility-bin](https://aur.archlinux.org/packages/fireblocks-recovery-utility-bin)||
 |**firefly-iota-desktop**|[firefly-iota-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-iota-desktop-bin)|[firefly-iota-desktop-bin](https://aur.archlinux.org/packages/firefly-iota-desktop-bin)||
-|**firefly-shimmer-desktop**|[firefly-shimmer-desktop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-shimmer-desktop-appimage)|[firefly-shimmer-desktop-appimage](https://aur.archlinux.org/packages/firefly-shimmer-desktop-appimage)||
+|**firefly-shimmer-desktop**|[firefly-shimmer-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-shimmer-desktop-bin)|[firefly-shimmer-desktop-bin](https://aur.archlinux.org/packages/firefly-shimmer-desktop-bin)||
 |**fishing-funds**|[fishing-funds-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-bin)|[fishing-funds-bin](https://aur.archlinux.org/packages/fishing-funds-bin)||
 |**fishpi**|[fishpi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishpi-bin)|[fishpi-bin](https://aur.archlinux.org/packages/fishpi-bin)||
 |**flaru-player**|[flaru-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flaru-player-bin)|[flaru-player-bin](https://aur.archlinux.org/packages/flaru-player-bin)||
