@@ -720,7 +720,7 @@
 |**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck)<br>[snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck)<br>[snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)|||**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**somafm-desktop-player**|[somafm-desktop-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/somafm-desktop-player-bin)|[somafm-desktop-player-bin](https://aur.archlinux.org/packages/somafm-desktop-player-bin)||
-|**sonixd**|[sonixd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd-bin)|[sonixd-bin](https://aur.archlinux.org/packages/sonixd-bin)||
+|**sonixd**|[sonixd](https://github.com/zxp19821005/My_AUR_Files/tree/main/sonixd)|[sonixd](https://aur.archlinux.org/packages/sonixd)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
 |**southweather**|[southweather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-bin)|[southweather-bin](https://aur.archlinux.org/packages/southweather-bin)||
 |**spacemesh**|[spacemesh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spacemesh-bin)|[spacemesh-bin](https://aur.archlinux.org/packages/spacemesh-bin)||
