@@ -1,0 +1,49 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+#Contributor: j.r <j.r@jugendhacker.de>
+pkgname=sonixd-bin
+_pkgname=Sonixd
+pkgver=0.15.5
+_electronversion=22
+pkgrel=2
+pkgdesc="A full-featured Subsonic/Jellyfin compatible desktop music player"
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://github.com/jeffvli/sonixd"
+license=('GPL-3.0-only')
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
+depends=(
+    "electron${_electronversion}"
+    'hicolor-icon-theme'
+)
+makedepends=(
+    'gendesk'
+)
+options=('!strip')
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.tar.xz::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-arm64.tar.xz")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.tar.xz::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-x64.tar.xz")
+source=(
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('0fb7b939a071f4a08476bdd5aa143d2aa8cd335c83309f9919be16cd5c3e2014')
+sha256sums_aarch64=('06dd401a9811823ce98d0d690b300ff63b49ac91c6dd9732e6f9de83c5aa3859')
+sha256sums_x86_64=('0eb17e5e84369ece254aa29a95642ae05218c1168b2fc2d51e9a707300e40bb7')
+build() {
+    sed -e "s|@electronversion@|${_electronversion}|g" \
+        -e "s|@appname@|${pkgname%-bin}|g" \
+        -e "s|@runname@|app.asar|g" \
+        -i "${srcdir}/${pkgname%-bin}.sh"
+    gendesk -q -f -n --categories="AudioVideo" --name "${_pkgname}" --exec "${pkgname%-bin} %U"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/${_pkgname}-${pkgver}-"*/resources/app.asar -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -r "${srcdir}/${_pkgname}-${pkgver}-"*/resources/{app.asar.unpacked,assets} "${pkgdir}/usr/lib/${pkgname%-bin}"
+    for _icons in 16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 1024x1024;do
+        install -Dm644 "${srcdir}/${_pkgname}-${pkgver}-"*/resources/assets/icons/"${_icons}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png"
+    done
+    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+}
