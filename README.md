@@ -588,7 +588,7 @@
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
 |**picgo**|[picgo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-git)|[picgo-git](https://aur.archlinux.org/packages/picgo-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
-|**picturama**|[picturama-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-appimage)|[picturama-appimage](https://aur.archlinux.org/packages/picturama-appimage)||
+|**picturama**|[picturama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-bin)|[picturama-bin](https://aur.archlinux.org/packages/picturama-bin)||
 |**pikatorrent**|[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
 |**pitv**|[pitv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pitv-bin)|[pitv-bin](https://aur.archlinux.org/packages/pitv-bin)||
 |**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
