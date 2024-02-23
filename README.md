@@ -658,6 +658,7 @@
 |**rekordfix**|[rekordfix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rekordfix-bin)|[rekordfix-bin](https://aur.archlinux.org/packages/rekordfix-bin)||
 |**remoteplaywhatever**|[remoteplaywhatever-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remoteplaywhatever-bin)|[remoteplaywhatever-bin](https://aur.archlinux.org/packages/remoteplaywhatever-bin)||
 |**rendertune**|[rendertune-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rendertune-bin)|[rendertune-bin](https://aur.archlinux.org/packages/rendertune-bin)||
+|**repath-studio**|[repath-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/repath-studio-bin)|[repath-studio-bin](https://aur.archlinux.org/packages/repath-studio-bin)||
 |**reqable**|[reqable-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqable-bin)|[reqable-bin](https://aur.archlinux.org/packages/reqable-bin)||
 |**reqnotes**|[reqnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqnotes-bin)|[reqnotes-bin](https://aur.archlinux.org/packages/reqnotes-bin)||
 |**requestly**|[requestly-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/requestly-git)<br>[requestly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/requestly-bin)|[requestly-git](https://aur.archlinux.org/packages/requestly-git)<br>[requestly-bin](https://aur.archlinux.org/packages/requestly-bin)||
