@@ -890,6 +890,7 @@
 |**xbyyunpan**|[xbyyunpan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xbyyunpan-bin)|[xbyyunpan-bin](https://aur.archlinux.org/packages/xbyyunpan-bin)||
 |**xchat**|[xchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xchat-bin)|[xchat-bin](https://aur.archlinux.org/packages/xchat-bin)||
 |**xiaohongshu**|[unoffical-xiaohongshu-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiaohongshu-pake)|[unoffical-xiaohongshu-appimage](https://aur.archlinux.org/packages/unoffical-xiaohongshu-appimage)<br>[xiaohongshu-pake](https://aur.archlinux.org/packages/xiaohongshu-pake)||
+|**xiguavideo**|[xiguavideo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiguavideo-bin)|[xiguavideo-bin](https://aur.archlinux.org/packages/xiguavideo-bin)||
 |**xilinota**|[xilinota-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xilinota-bin)|[xilinota-bin](https://aur.archlinux.org/packages/xilinota-bin)||
 |**xmachoviewer**|[xmachoviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xmachoviewer-bin)|[xmachoviewer-bin](https://aur.archlinux.org/packages/xmachoviewer-bin)||
 |**x-minecraft-launcher**|[x-minecraft-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/x-minecraft-launcher-bin)|[x-minecraft-launcher-bin](https://aur.archlinux.org/packages/x-minecraft-launcher-bin)||
