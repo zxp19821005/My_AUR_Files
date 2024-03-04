@@ -489,7 +489,7 @@
 |**miteiru**|[miteiru](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru)<br>[miteiru-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-bin)|[miteiru](https://aur.archlinux.org/packages/miteiru)<br>[miteiru-bin](https://aur.archlinux.org/packages/miteiru-bin)||
 |**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mkfont**|[mkfont](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkfont)|[mkfont](https://aur.archlinux.org/packages/mkfont)||
-|**mmseqs2-search**|[mmseqs2-search-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-appimage)|[mmseqs2-search-appimage](https://aur.archlinux.org/packages/mmseqs2-search-appimage)||
+|**mmseqs2-search**|[mmseqs2-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-bin)|[mmseqs2-search-bin](https://aur.archlinux.org/packages/mmseqs2-search-bin)||
 |**mockery**|[mockery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockery-bin)|[mockery-bin](https://aur.archlinux.org/packages/mockery-bin)||
 |**mockoon**|[mockoon](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon)<br>[mockoon-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-git)|[mockoon](https://aur.archlinux.org/packages/mockoon)<br>[mockoon-git](https://aur.archlinux.org/packages/mockoon-git)||
 |**modv**|[modv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/modv-bin)|[modv-bin](https://aur.archlinux.org/packages/modv-bin)||
