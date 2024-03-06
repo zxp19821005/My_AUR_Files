@@ -543,6 +543,7 @@
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
 |**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
 |**nuclia**|[nuclia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-bin)|[nuclia-bin](https://aur.archlinux.org/packages/nuclia-bin)||
+|**nuclia-sync-agent**|[nuclia-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-sync-agent-bin)|[nuclia-sync-agent-bin](https://aur.archlinux.org/packages/nuclia-sync-agent-bin)||
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)|[nudge](https://aur.archlinux.org/packages/nudge)||
 |**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
 |**nvm-desktop**|[nvm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop)|[nvm-desktop](https://aur.archlinux.org/packages/nvm-desktop)||
