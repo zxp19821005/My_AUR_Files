@@ -540,6 +540,7 @@
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notes-nc**|[notes-nc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-bin)|[notes-nc-bin](https://aur.archlinux.org/packages/notes-nc-bin)||
 |**notesnook**|[notesnook](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook)|[notesnook](https://aur.archlinux.org/packages/notesnook)||
+|**notesnook-electron**|[notesnook-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-electron-bin)|[notesnook-electron-bin](https://aur.archlinux.org/packages/notesnook-electron-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
 |**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
 |**nuclia**|[nuclia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-bin)|[nuclia-bin](https://aur.archlinux.org/packages/nuclia-bin)||
