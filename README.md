@@ -853,6 +853,7 @@
 |**vookiimageviewer**|[vookiimageviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vookiimageviewer-bin)|[vookiimageviewer-bin](https://aur.archlinux.org/packages/vookiimageviewer-bin)||
 |**vscodius**|[vscodius-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodius-bin)|[vscodius-bin](https://aur.archlinux.org/packages/vscodius-bin)||
 |**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
+|**vfox**|[vfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vfox-bin)|[vfox-bin](https://aur.archlinux.org/packages/vfox-bin)||
 |**vgmtrans**|[vgmtrans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-bin)|[vgmtrans-bin](https://aur.archlinux.org/packages/vgmtrans-bin)||
 |**video-hub-app**|[video-hub-app-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-appimage)|AUR上他人维护||
 |**walc**|[walc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-bin)|[walc-bin](https://aur.archlinux.org/packages/walc-bin)||
