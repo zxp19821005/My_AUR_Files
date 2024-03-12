@@ -886,6 +886,7 @@
 |**wiznoteplus**|[wiznoteplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wiznoteplus-bin)|[wiznoteplus-bin](https://aur.archlinux.org/packages/wiznoteplus-bin)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
+|**woniu-ali**|[woniu-ali-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woniu-ali-bin)|[woniu-ali-bin](https://aur.archlinux.org/packages/woniu-ali-bin)||
 |**woocommerce-pos**|[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**woterm**|[woterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woterm-bin)|[woterm-bin](https://aur.archlinux.org/packages/woterm-bin)||
