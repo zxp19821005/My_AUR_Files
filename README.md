@@ -95,6 +95,7 @@
 |**blinker**|[blinker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-git)<br>[blinker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-bin)|[blinker-git](https://aur.archlinux.org/packages/blinker-git)<br>[blinker-bin](https://aur.archlinux.org/packages/blinker-bin)||
 |**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
+|**blueknight**|[blueknight-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blueknight-bin)|[blueknight-bin](https://aur.archlinux.org/packages/blueknight-bin)||
 |**bluestone**|[bluestone](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluestone)<br>[bluestone-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluestone-bin)|[bluestone](https://aur.archlinux.org/packages/bluestone)<br>[bluestone-bin](https://aur.archlinux.org/packages/bluestone-bin)||
 |**board4you**|[board4you-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/board4you-bin)|[board4you-bin](https://aur.archlinux.org/packages/board4you-bin)||
 |**boats-animator**|[boats-animator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boats-animator-bin)|[boats-animator-bin](https://aur.archlinux.org/packages/boats-animator-bin)||
