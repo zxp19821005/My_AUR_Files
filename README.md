@@ -751,6 +751,7 @@
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
 |**sshuttle-gui**|[sshuttle-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sshuttle-gui-bin)|[sshuttle-gui-bin](https://aur.archlinux.org/packages/sshuttle-gui-bin)||
 |**stackzy**|[stackzy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stackzy-bin)|[stackzy-bin](https://aur.archlinux.org/packages/stackzy-bin)||
+|**stage-retriever**|[stage-retriever](https://github.com/zxp19821005/My_AUR_Files/tree/main/stage-retriever)|[stage-retriever](https://aur.archlinux.org/packages/stage-retriever)||
 |**stampnyaa**|[stampnyaa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stampnyaa-bin)|[stampnyaa-bin](https://aur.archlinux.org/packages/stampnyaa-bin)||
 |**station**|[station-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/station-bin)|[station-bin](https://aur.archlinux.org/packages/station-bin)||
 |**statusify**|[statusify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/statusify-bin)|[statusify-bin](https://aur.archlinux.org/packages/statusify-bin)||
