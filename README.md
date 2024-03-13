@@ -377,7 +377,7 @@
 |**huelectron**|[huelectron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/huelectron-bin)|[huelectron-bin](https://aur.archlinux.org/packages/huelectron-bin)||
 |**hugin-messenger**|[hugin-messenger](https://github.com/zxp19821005/My_AUR_Files/tree/main/hugin-messenger)<br>[hugin-messenger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hugin-messenger-bin)|[hugin-messenger](https://aur.archlinux.org/packages/hugin-messenger)<br>[hugin-messenger-bin](https://aur.archlinux.org/packages/hugin-messenger-bin)||
 |**hype**|[hype](https://github.com/zxp19821005/My_AUR_Files/tree/main/hype)|[hype](https://aur.archlinux.org/packages/hype)||
-|**hyperamp**|[hyperamp-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperamp-appimage)|[hyperamp-appimage](https://aur.archlinux.org/packages/hyperamp-appimage)||
+|**hyperamp**|[hyperamp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperamp-bin)|[hyperamp-bin](https://aur.archlinux.org/packages/hyperamp-bin)||
 |**hyper**|[hyper-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyper-git)|[hyper-git](https://aur.archlinux.org/packages/hyper-git)||
 |**hyperkeys**|[hyperkeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-bin)|[hyperkeys-bin](https://aur.archlinux.org/packages/hyperkeys-bin)||
 |**icalingua++**|[icalingua++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-bin)|[icalingua++-bin](https://aur.archlinux.org/packages/icalingua++-bin)||
