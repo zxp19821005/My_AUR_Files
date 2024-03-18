@@ -695,7 +695,7 @@
 |**salvage**|[salvage-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/salvage-git)|[salvage-git](https://aur.archlinux.org/packages/salvage-git)||
 |**sbe**|[sbe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-bin)|[sbe-bin](https://aur.archlinux.org/packages/sbe-bin)||
 |**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
-|**scripthaus**|[scripthaus-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus-git)|[scripthaus-git](https://aur.archlinux.org/packages/scripthaus-git)||
+|**scripthaus**|[scripthaus](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus)<br>[scripthaus-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus-git)|[scripthaus](https://aur.archlinux.org/packages/scripthaus)<br>[scripthaus-git](https://aur.archlinux.org/packages/scripthaus-git)||
 |**selenium-ide**|[selenium-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-bin)|[selenium-ide-bin](https://aur.archlinux.org/packages/selenium-ide-bin)||
 |**selvania-launcher**|[selvania-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/selvania-launcher-bin)|[selvania-launcher-bin](https://aur.archlinux.org/packages/selvania-launcher-bin)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
