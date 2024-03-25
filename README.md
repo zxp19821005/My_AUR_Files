@@ -540,7 +540,6 @@
 |**node-snapdrop-electron**|[node-snapdrop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/node-snapdrop-electron-bin)|[node-snapdrop-electron-bin](https://aur.archlinux.org/packages/node-snapdrop-electron-bin)||
 |**no-fwl**|[no-fwl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-bin)|[no-fwl-bin](https://aur.archlinux.org/packages/no-fwl-bin)||
 |**noi-desktop**|[noi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/noi-desktop-bin)|[noi-desktop-bin](https://aur.archlinux.org/packages/noi-desktop-bin)||
-|**noite**|[noite-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/noite-appimage)|[noite-appimage](https://aur.archlinux.org/packages/noite-appimage)||
 |**nomino**|[nomino-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nomino-bin)|[nomino-bin](https://aur.archlinux.org/packages/nomino-bin)||
 |**nora**|[nora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-bin)|[nora-bin](https://aur.archlinux.org/packages/nora-bin)||
 |**nostr-relay-tray**|[nostr-relay-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nostr-relay-tray-bin)|[nostr-relay-tray-bin](https://aur.archlinux.org/packages/nostr-relay-tray-bin)||
