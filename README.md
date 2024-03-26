@@ -87,6 +87,7 @@
 |**bdash**|[bdash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-bin)|[bdash-bin](https://aur.archlinux.org/packages/bdash-bin)||
 |**beam-wallet**|[beam-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-bin)|[beam-wallet-bin](https://aur.archlinux.org/packages/beam-wallet-bin)||
 |**bear-graph**|[bear-graph](https://github.com/zxp19821005/My_AUR_Files/tree/main/bear-graph)|[bear-graph](https://aur.archlinux.org/packages/bear-graph)||
+|**beekeeper-studio**|[beekeeper-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/beekeeper-studio-git)|[beekeeper-studio-git](https://aur.archlinux.org/packages/beekeeper-studio-git)||
 |**before-dawn**|[before-dawn](https://github.com/zxp19821005/My_AUR_Files/tree/main/before-dawn)<br>[before-dawn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/before-dawn-bin)|[before-dawn](https://aur.archlinux.org/packages/before-dawn)<br>[before-dawn-bin](https://aur.archlinux.org/packages/before-dawn-bin)|||**benchworx**|[benchworx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/benchworx-bin)|[benchworx-bin](https://aur.archlinux.org/packages/benchworx-bin)||
 |**better-osu-skills**|[better-osu-skills-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/better-osu-skills-bin)|[better-osu-skills-bin](https://aur.archlinux.org/packages/better-osu-skills-bin)||
 |**bettersoundcloud**|[bettersoundcloud](https://github.com/zxp19821005/My_AUR_Files/tree/main/bettersoundcloud)|[bettersoundcloud](https://aur.archlinux.org/packages/bettersoundcloud)||
