@@ -484,6 +484,7 @@
 |**mediachips**|[mediachips-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-bin)|[mediachips-bin](https://aur.archlinux.org/packages/mediachips-bin)||
 |**media-hoarder**|[media-hoarder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-hoarder-bin)|[media-hoarder-bin](https://aur.archlinux.org/packages/media-hoarder-bin)||
 |**medict**|[medict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/medict-bin)|[medict-bin](https://aur.archlinux.org/packages/medict-bin)||
+|**medis**|[medis-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/medis-git)|[medis-git](https://aur.archlinux.org/packages/medis-git)||
 |**melodie**|[melodie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-bin)|[melodie-bin](https://aur.archlinux.org/packages/melodie-bin)||
 |**melt-mdeditor**|[melt-mdeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/melt-mdeditor-git)|[melt-mdeditor-git](https://aur.archlinux.org/packages/melt-mdeditor-git)||
 |**meteor-todo-desktop**|[meteor-todo-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/meteor-todo-desktop)<br>[meteor-todo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/meteor-todo-desktop-bin)|[meteor-todo-desktop](https://aur.archlinux.org/packages/meteor-todo-desktop)<br>[meteor-todo-desktop-bin](https://aur.archlinux.org/packages/meteor-todo-desktop-bin)||
