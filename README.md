@@ -762,6 +762,7 @@
 |**stampnyaa**|[stampnyaa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stampnyaa-bin)|[stampnyaa-bin](https://aur.archlinux.org/packages/stampnyaa-bin)||
 |**station**|[station-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/station-bin)|[station-bin](https://aur.archlinux.org/packages/station-bin)||
 |**statusify**|[statusify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/statusify-bin)|[statusify-bin](https://aur.archlinux.org/packages/statusify-bin)||
+|**stealthplane**|[stealthplane-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stealthplane-bin)|[stealthplane-bin](https://aur.archlinux.org/packages/stealthplane-bin)||
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-bin)|[steamdepotdownloadergui-bin](https://aur.archlinux.org/packages/steamdepotdownloadergui-bin)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
 |**streambop**|[streambop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streambop-bin)|[streambop-bin](https://aur.archlinux.org/packages/streambop-bin)||
