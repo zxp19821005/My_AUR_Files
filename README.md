@@ -320,6 +320,7 @@
 |**giada**|[giada-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-bin)|[giada-bin](https://aur.archlinux.org/packages/giada-bin)||
 |**git-good**|[git-good-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-bin)|[git-good-bin](https://aur.archlinux.org/packages/git-good-bin)||
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
+|**gitify**|[gitify](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify)|[gitify](https://aur.archlinux.org/packages/gitify)||
 |**git-it-electron**|[git-it-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-it-electron-git)|[git-it-electron-git](https://aur.archlinux.org/packages/git-it-electron-git)||
 |**git-town**|[git-town-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-town-bin)|[git-town-bin](https://aur.archlinux.org/packages/git-town-bin)||
 |**glimboi**|[glimboi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glimboi-bin)|[glimboi-bin](https://aur.archlinux.org/packages/glimboi-bin)||
