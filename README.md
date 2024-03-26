@@ -94,6 +94,7 @@
 |**bicep**|[bicep-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bicep-bin)|[bicep-bin](https://aur.archlinux.org/packages/bicep-bin)||
 |**bilibili**|[bilibili](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili)<br>[bilibili-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-bin)|[bilibili](https://aur.archlinux.org/packages/bilibili)<br>[bilibili-bin](https://aur.archlinux.org/packages/bilibili-bin)||
 |**bilibilivideodownload**|[bilibilivideodownload-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-bin)|[bilibilivideodownload-bin](https://aur.archlinux.org/packages/bilibilivideodownload-bin)||
+|**bilive-danmaku**|[bilive-danmaku-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilive-danmaku-git)|[bilive-danmaku-git](https://aur.archlinux.org/packages/bilive-danmaku-git)||
 |**binggpt-ee**|[binggpt-ee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/binggpt-ee-bin)|[binggpt-ee-bin](https://aur.archlinux.org/packages/binggpt-ee-bin)||
 |**blinker**|[blinker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-git)<br>[blinker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-bin)|[blinker-git](https://aur.archlinux.org/packages/blinker-git)<br>[blinker-bin](https://aur.archlinux.org/packages/blinker-bin)||
 |**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
