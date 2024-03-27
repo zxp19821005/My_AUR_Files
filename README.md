@@ -214,7 +214,9 @@
 |**dk-c++**|[dk-c++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dk-c++-bin)|[dk-c++-bin](https://aur.archlinux.org/packages/dk-c++-bin)||
 |**dnglab**|[dnglab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnglab-bin)|[dnglab-bin](https://aur.archlinux.org/packages/dnglab-bin)||
 |**dockit**|[dockit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dockit-bin)|[dockit-bin](https://aur.archlinux.org/packages/dockit-bin)||
-|**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)<br>[dooble-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-git)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)<br>[dooble-git](https://aur.archlinux.org/packages/dooble-git)|||**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)|[dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin)||
+|**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)<br>[dooble-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-git)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)<br>[dooble-git](https://aur.archlinux.org/packages/dooble-git)||
+|**doomguy**|[doomguy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/doomguy-git)|[doomguy-git](https://aur.archlinux.org/packages/doomguy-git)||
+|**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)|[dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin)||
 |**dosbox-staging**|[dosbox-staging-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dosbox-staging-bin)|[dosbox-staging-bin](https://aur.archlinux.org/packages/dosbox-staging-bin)||
 |**drawio-desktop**|[drawio-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-git)|[drawio-desktop-git](https://aur.archlinux.org/packages/drawio-desktop-git)||
 |**droppoint**|[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
