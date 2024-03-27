@@ -534,6 +534,7 @@
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**netpad**|[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
 |**net-player**|[net-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/net-player)|[net-player](https://aur.archlinux.org/packages/net-player)||
+|**netron**|[netron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/netron-git)|[netron-git](https://aur.archlinux.org/packages/netron-git)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**newpad**|[newpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/newpad-bin)|[newpad-bin](https://aur.archlinux.org/packages/newpad-bin)||
 |**next-library**|[next-library-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/next-library-bin)|[next-library-bin](https://aur.archlinux.org/packages/next-library-bin)||
