@@ -669,7 +669,7 @@
 |**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
 |**react-explorer**|[react-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/react-explorer-bin)|[react-explorer-bin](https://aur.archlinux.org/packages/react-explorer-bin)||
-|**realm-studio**|[realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
+|**realm-studio**|[realm-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-git)<br>[realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-git](https://aur.archlinux.org/packages/realm-studio-git)<br>[realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**rebaslight**|[rebaslight-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rebaslight-bin)|[rebaslight-bin](https://aur.archlinux.org/packages/rebaslight-bin)||
 |**recode-converter**|[recode-converter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/recode-converter-bin)|[recode-converter-bin](https://aur.archlinux.org/packages/recode-converter-bin)||
 |**redisfish**|[redisfish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisfish-bin)|[redisfish-bin](https://aur.archlinux.org/packages/redisfish-bin)||
