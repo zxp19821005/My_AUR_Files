@@ -117,7 +117,7 @@
 |**bssenglish**|[bssenglish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bssenglish-bin)|[bssenglish-bin](https://aur.archlinux.org/packages/bssenglish-bin)||
 |**budgeted-ui**|[budgeted-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/budgeted-ui-bin)|[budgeted-ui-bin](https://aur.archlinux.org/packages/budgeted-ui-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
-|**buttercup-desktop**|[buttercup-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-bin)|[buttercup-desktop-bin](https://aur.archlinux.org/packages/buttercup-desktop-bin)||
+|**buttercup-desktop**|[buttercup-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-git)<br>[buttercup-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-bin)|[buttercup-desktop-git](https://aur.archlinux.org/packages/buttercup-desktop-git)<br>[buttercup-desktop-bin](https://aur.archlinux.org/packages/buttercup-desktop-bin)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
