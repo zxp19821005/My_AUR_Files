@@ -38,6 +38,7 @@
 |**alimama-fanyuanti**   | [alimama-fanyuanti](https://github.com/zxp19821005/My_AUR_Files/tree/main/alimama-fanyuanti)      | [woff2-alimama-fanyuanti](https://aur.archlinux.org/packages/woff2-alimama-fanyuanti) <br> [woff-alimama-fanyuanti](https://aur.archlinux.org/packages/woff-alimama-fanyuanti) <br> [ttf-alimama-fanyuanti](https://aur.archlinux.org/packages/alimama-fanyuanti)||
 |**aliyun-adrive**|[aliyun-adrive-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aliyun-adrive-bin)|[aliyun-adrive-bin](https://aur.archlinux.org/packages/aliyun-adrive-bin)||
 |**aliyun-cli**|[aliyun-cli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aliyun-cli-bin)|[aliyun-cli-bin](https://aur.archlinux.org/packages/aliyun-cli-bin)||
+|**aliyunpan-odomu**|[aliyunpan-odomu-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aliyunpan-odomu-git)|[aliyunpan-odomu-git](https://aur.archlinux.org/packages/aliyunpan-odomu-git)||
 |**alpaca-electron**|[alpaca-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-bin)|[alpaca-electron-bin](https://aur.archlinux.org/packages/alpaca-electron-bin)||
 |**alpha-badger**|[alpha-badger](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpha-badger)|[alpha-badger](https://aur.archlinux.org/packages/alpha-badger)||
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
