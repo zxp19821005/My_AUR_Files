@@ -568,6 +568,7 @@
 |**notepad--**|[notepad--](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepad--)|[notepad--](https://aur.archlinux.org/packages/notepad--)||
 |**notes-nc**|[notes-nc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-bin)|[notes-nc-bin](https://aur.archlinux.org/packages/notes-nc-bin)||
 |**notesnook**|[notesnook](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook)<br>[notesnook-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-git)|[notesnook](https://aur.archlinux.org/packages/notesnook)<br>[notesnook-git](https://aur.archlinux.org/packages/notesnook-git)||
+|**notesphere**|[notesphere-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesphere-git)|[notesphere-git](https://aur.archlinux.org/packages/notesphere-git)||
 |**notesnook-electron**|[notesnook-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-electron-bin)|[notesnook-electron-bin](https://aur.archlinux.org/packages/notesnook-electron-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
 |**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
