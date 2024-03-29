@@ -508,6 +508,7 @@
 |**mini4wdchrono**|[mini4wdchrono-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini4wdchrono-bin)|[mini4wdchrono-bin](https://aur.archlinux.org/packages/mini4wdchrono-bin)||
 |**minify**|[minify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minify-bin)|[minify-bin](https://aur.archlinux.org/packages/minify-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
+|**miru**|[miru-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miru-git)|[miru-git](https://aur.archlinux.org/packages/miru-git)||
 |**miteiru**|[miteiru](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru)<br>[miteiru-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-bin)|[miteiru](https://aur.archlinux.org/packages/miteiru)<br>[miteiru-bin](https://aur.archlinux.org/packages/miteiru-bin)||
 |**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mkfont**|[mkfont](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkfont)|[mkfont](https://aur.archlinux.org/packages/mkfont)||
