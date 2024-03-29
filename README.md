@@ -492,6 +492,7 @@
 |**mechakeys**|[mechakeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mechakeys-bin)|[mechakeys-bin](https://aur.archlinux.org/packages/mechakeys-bin)||
 |**mediachips**|[mediachips-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-bin)|[mediachips-bin](https://aur.archlinux.org/packages/mediachips-bin)||
 |**media-hoarder**|[media-hoarder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-hoarder-bin)|[media-hoarder-bin](https://aur.archlinux.org/packages/media-hoarder-bin)||
+|**media-player-electron**|[media-player-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-player-electron-git)|[media-player-electron-git](https://aur.archlinux.org/packages/media-player-electron-git)||
 |**medict**|[medict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/medict-bin)|[medict-bin](https://aur.archlinux.org/packages/medict-bin)||
 |**medis**|[medis-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/medis-git)|[medis-git](https://aur.archlinux.org/packages/medis-git)||
 |**melodie**|[melodie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-bin)|[melodie-bin](https://aur.archlinux.org/packages/melodie-bin)||
@@ -605,6 +606,7 @@
 |**passbox**|[passbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/passbox)|[passbox](https://aur.archlinux.org/packages/passbox)||
 |**passky-desktop**|[passky-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passky-desktop-bin)|[passky-desktop-bin](https://aur.archlinux.org/packages/passky-desktop-bin)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
+|**password-strength-checker**|[password-strength-checker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/password-strength-checker-bin)|[password-strength-checker-bin](https://aur.archlinux.org/packages/password-strength-checker-bin)||
 |**paster**|[paster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paster-bin)|[paster-bin](https://aur.archlinux.org/packages/paster-bin)||
 |**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
