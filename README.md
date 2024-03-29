@@ -666,6 +666,7 @@
 |**prospect-mail-beta**|[prospect-mail-beta-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prospect-mail-beta-bin)|[prospect-mail-beta-bin](https://aur.archlinux.org/packages/prospect-mail-beta-bin)||
 |**protoman**|[protoman-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/protoman-bin)|[protoman-bin](https://aur.archlinux.org/packages/protoman-bin)||
 |**proton-mail-viewer**|[proton-mail-viewer](https://github.com/zxp19821005/My_AUR_Files/tree/main/proton-mail-viewer)|[proton-mail-viewer](https://aur.archlinux.org/packages/proton-mail-viewer)||
+|**proxy-manager**|[proxy-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/proxy-manager-git)|[proxy-manager-git](https://aur.archlinux.org/packages/proxy-manager-git)||
 |**proxypin**|[proxypin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/proxypin-bin)|[proxypin-bin](https://aur.archlinux.org/packages/proxypin-bin)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin)|[publii-bin](https://aur.archlinux.org/packages/publii-bin)||
