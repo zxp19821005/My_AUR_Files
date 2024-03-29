@@ -2,14 +2,14 @@
 pkgname=ttf-harmonyos-sans
 _pkgname="HarmonyOS Sans"
 pkgver=2022.7.4
-pkgrel=4
+pkgrel=5
 pkgdesc="HarmonyOS Sans 字体"
 arch=("any")
 url='https://developer.harmonyos.com/cn/design/resource'
 license=("LicenseRef-custom")
 conflicts=("${pkgname//ttf-/}")
 source=(
-    "${pkgname}-${pkgver}.zip::https://developer.harmonyos.com/resource/image/design/res/download/general/${_pkgname// /-}.zip"
+    "${pkgname}-${pkgver}.zip::https://developer.huawei.com/images/download/general/${_pkgname// /-}.zip"
 )
 sha256sums=('fb02c86e358cd9aad8d4dfa957ee502381e7ee2e94499a9133add4324b6ce69a')
 package() {
