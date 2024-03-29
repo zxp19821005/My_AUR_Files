@@ -596,6 +596,7 @@
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**pad-md**|[pad-md](https://github.com/zxp19821005/My_AUR_Files/tree/main/pad-md)|[pad-md](https://aur.archlinux.org/packages/pad-md)||
 |**page-builder**|[page-builder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/page-builder-bin)|[page-builder-bin](https://aur.archlinux.org/packages/page-builder-bin)||
+|**palletone**|[palletone-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/palletone-git)|[palletone-git](https://aur.archlinux.org/packages/palletone-git)||
 |**panfu-desktop**|[panfu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panfu-desktop-bin)|[panfu-desktop-bin](https://aur.archlinux.org/packages/panfu-desktop-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
 |**paradise-pi**|[paradise-pi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paradise-pi-bin)|[paradise-pi-bin](https://aur.archlinux.org/packages/paradise-pi-bin)||
