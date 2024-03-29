@@ -260,6 +260,7 @@
 |**escrcpy**|[escrcpy](https://github.com/zxp19821005/My_AUR_Files/tree/main/escrcpy)<br>[escrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/escrcpy-bin)|[escrcpy](https://aur.archlinux.org/packages/escrcpy)<br>[escrcpy-bin](https://aur.archlinux.org/packages/escrcpy-bin)||
 |**e-search**|[e-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/e-search-bin)|[e-search-bin](https://aur.archlinux.org/packages/e-search-bin)||
 |**etcher**|[etcher-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/etcher-git)|[etcher-git](https://aur.archlinux.org/packages/etcher-git)||
+|**etcher-ng**|[etcher-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etcher-ng-bin)|[etcher-ng-bin](https://aur.archlinux.org/packages/etcher-ng-bin)||
 |**etherealengine-control-center**|[etherealengine-control-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-bin)|[etherealengine-control-center-bin](https://aur.archlinux.org/packages/etherealengine-control-center-bin)||
 |**eusoft-dehelper**|[eusoft-dehelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-dehelper-bin)|[eusoft-dehelper-bin](https://aur.archlinux.org/packages/eusoft-dehelper-bin)||
 |**eusoft-eshelper**|[eusoft-eshelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eshelper-bin)|[eusoft-eshelper-bin](https://aur.archlinux.org/packages/eusoft-eshelper-bin)||
