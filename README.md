@@ -401,6 +401,7 @@
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
 |**igdm**|[igdm-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-appimage)<br>[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|<br>[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
 |**ih8rtcgui**|[ih8rtcgui](https://github.com/zxp19821005/My_AUR_Files/tree/main/ih8rtcgui)|[ih8rtcgui](https://aur.archlinux.org/packages/ih8rtcgui)||
+|**image2pattern**|[image2pattern-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/image2pattern-git)|[image2pattern-git](https://aur.archlinux.org/packages/image2pattern-git)||
 |**image-ascii-art-tauri**|[image-ascii-art-tauri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/image-ascii-art-tauri-bin)|[image-ascii-art-tauri-bin](https://aur.archlinux.org/packages/image-ascii-art-tauri-bin)||
 |**imageconverter2**|[imageconverter2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imageconverter2-bin)|[imageconverter2-bin](https://aur.archlinux.org/packages/imageconverter2-bin)||
 |**imagefanreloaded-avalonia**|[imagefanreloaded-avalonia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagefanreloaded-avalonia-bin)|[imagefanreloaded-avalonia-bin](https://aur.archlinux.org/packages/imagefanreloaded-avalonia-bin)||
