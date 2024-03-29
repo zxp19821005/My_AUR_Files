@@ -122,6 +122,7 @@
 |**buttercup-desktop**|[buttercup-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-git)<br>[buttercup-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-bin)|[buttercup-desktop-git](https://aur.archlinux.org/packages/buttercup-desktop-git)<br>[buttercup-desktop-bin](https://aur.archlinux.org/packages/buttercup-desktop-bin)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
+|**caprine-ng**|[caprine-ng-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-ng-git)|[caprine-ng-git](https://aur.archlinux.org/packages/caprine-ng-git)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
 |**casterr**|[casterr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/casterr-bin)|[casterr-bin](https://aur.archlinux.org/packages/casterr-bin)||
 |**catcat-dm-react**|[catcat-dm-react](https://github.com/zxp19821005/My_AUR_Files/tree/main/catcat-dm-react)|[catcat-dm-react](https://aur.archlinux.org/packages/catcat-dm-react)||
