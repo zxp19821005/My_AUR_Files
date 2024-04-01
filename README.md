@@ -285,7 +285,7 @@
 |**feidao**|[feidao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-bin)|[feidao-bin](https://aur.archlinux.org/packages/feidao-bin)||
 |**felida**|[felida-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/felida-bin)|[felida-bin](https://aur.archlinux.org/packages/felida-bin)||
 |**ferrum**|[ferrum-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferrum-bin)|[ferrum-bin](https://aur.archlinux.org/packages/ferrum-bin)||
-|**ffbox**|[ffbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox)|[ffbox](https://aur.archlinux.org/packages/ffbox)||
+|**ffbox**|[ffbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox)<br>[ffbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox-bin)|[ffbox](https://aur.archlinux.org/packages/ffbox)<br>[ffbox-bin](https://aur.archlinux.org/packages/ffbox-bin)||
 |**ffuf**|[ffuf-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffuf-bin)|[ffuf-bin](https://aur.archlinux.org/packages/ffuf-bin)||
 |**ficus**|[ficus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-bin)|[ficus-bin](https://aur.archlinux.org/packages/ficus-bin)||
 |**fifo-browser**|[fifo-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-bin)|[fifo-browser-bin](https://aur.archlinux.org/packages/fifo-browser-bin)||
