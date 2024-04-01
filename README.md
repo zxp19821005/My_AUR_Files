@@ -944,7 +944,6 @@
 |**xiguavideo**|[xiguavideo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xiguavideo-bin)|[xiguavideo-bin](https://aur.archlinux.org/packages/xiguavideo-bin)||
 |**xilinota**|[xilinota-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xilinota-bin)|[xilinota-bin](https://aur.archlinux.org/packages/xilinota-bin)||
 |**xmachoviewer**|[xmachoviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xmachoviewer-bin)|[xmachoviewer-bin](https://aur.archlinux.org/packages/xmachoviewer-bin)||
-|**x-minecraft-launcher**|[x-minecraft-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/x-minecraft-launcher-bin)|[x-minecraft-launcher-bin](https://aur.archlinux.org/packages/x-minecraft-launcher-bin)||
 |**xm-video-player**|[xm-video-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xm-video-player-bin)|[xm-video-player-bin](https://aur.archlinux.org/packages/xm-video-player-bin)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xpeviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
