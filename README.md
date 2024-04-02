@@ -238,10 +238,11 @@
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
 |**electron-gpt**|[electron-gpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-gpt-git)|[electron-gpt-git](https://aur.archlinux.org/packages/electron-gpt-git)||
+|**electronim**|[electronim-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronim-bin)|[electronim-bin](https://aur.archlinux.org/packages/electronim-bin)||
 |**electron-music**|[electron-music](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-music)|[electron-music](https://aur.archlinux.org/packages/electron-music)||
 |**electron-music-player**|[electron-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-music-player)|[electron-music-player](https://aur.archlinux.org/packages/electron-music-player)||
 |**electron-netease-cloud-music**|[electron-netease-cloud-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-netease-cloud-music-bin)|[electron-netease-cloud-music-bin](https://aur.archlinux.org/packages/electron-netease-cloud-music-bin)||
-|**electronim**|[electronim-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronim-bin)|[electronim-bin](https://aur.archlinux.org/packages/electronim-bin)||
+|**electron-netease-cloud-music**|[electron-netease-cloud-music-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-netease-cloud-music-git)|[electron-netease-cloud-music-git](https://aur.archlinux.org/packages/electron-netease-cloud-music-git)||
 |**electron-pdf-viewer**|[electron-pdf-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-bin)|[electron-pdf-viewer-bin](https://aur.archlinux.org/packages/electron-pdf-viewer-bin)||
 |**electron-s3-file-manager**|[electron-s3-file-manager](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-s3-file-manager)|[electron-s3-file-manager](https://aur.archlinux.org/packages/electron-s3-file-manager)||
 |**electron-utils**|[electron-utils-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-utils-bin)|[electron-utils-bin](https://aur.archlinux.org/packages/electron-utils-bin)||
