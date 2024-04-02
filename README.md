@@ -442,6 +442,7 @@
 |**kiwiirc-server**|[kiwiirc-server-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-server-bin)|[kiwiirc-server-bin](https://aur.archlinux.org/packages/kiwiirc-server-bin)||
 |**knowledge-canvas**|[knowledge-canvas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-canvas-bin)|[knowledge-canvas-bin](https://aur.archlinux.org/packages/knowledge-canvas-bin)||
 |**knowte**|[knowte-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowte-bin)|[knowte-bin](https://aur.archlinux.org/packages/knowte-bin)||
+|**koala-client**|[koala-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koala-client-bin)|[koala-client-bin](https://aur.archlinux.org/packages/koala-client-bin)||
 |**koishi-desktop**|[koishi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-bin)|[koishi-desktop-bin](https://aur.archlinux.org/packages/koishi-desktop-bin)||
 |**krux-installer**|[krux-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krux-installer-bin)|[krux-installer-bin](https://aur.archlinux.org/packages/krux-installer-bin)||
 |**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
