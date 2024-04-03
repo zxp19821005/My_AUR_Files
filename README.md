@@ -347,6 +347,7 @@
 |**goofcord**|[goofcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goofcord-bin)|[goofcord-bin](https://aur.archlinux.org/packages/goofcord-bin)||
 |**godotpcktool**|[godotpcktool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godotpcktool-bin)|[godotpcktool-bin](https://aur.archlinux.org/packages/godotpcktool-bin)||
 |**go-dsp-guitar**|[go-dsp-guitar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/go-dsp-guitar-bin)|[go-dsp-guitar-bin](https://aur.archlinux.org/packages/go-dsp-guitar-bin)||
+|**goinload**|[goinload-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goinload-bin)|[goinload-bin](https://aur.archlinux.org/packages/goinload-bin)||
 |**google-assistant-unofficial-desktop-client**|[google-assistant-unofficial-desktop-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-assistant-unofficial-desktop-client-bin)|[google-assistant-unofficial-desktop-client-bin](https://aur.archlinux.org/packages/google-assistant-unofficial-desktop-client-bin)||
 |**google-calender-widget**|[google-calender-widget](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-calender-widget)|[google-calender-widget](https://aur.archlinux.org/packages/google-calender-widget)||
 |**google-chat-linux**|[google-chat-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-chat-linux)|[google-chat-linux](https://aur.archlinux.org/packages/google-chat-linux)||
