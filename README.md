@@ -137,6 +137,7 @@
 |**chatd**|[chatd](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd)<br>[chatd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd-bin)|[chatd](https://aur.archlinux.org/packages/chatd)<br>[chatd-bin](https://aur.archlinux.org/packages/chatd-bin)||
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
+|**chatspot**|[chatspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatspot-bin)|[chatspot-bin](https://aur.archlinux.org/packages/chatspot-bin)||
 |**chengla-linux-unofficial**|[chengla-linux-unofficial-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chengla-linux-unofficial-bin)|[chengla-linux-unofficial-bin](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)||
 |**chieapp**|[chieapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chieapp-bin)|[chieapp-bin](https://aur.archlinux.org/packages/chieapp-bin)||
 |**chinesechess**|[chinesechess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chinesechess-bin)|[chinesechess-bin](https://aur.archlinux.org/packages/chinesechess-bin)||
