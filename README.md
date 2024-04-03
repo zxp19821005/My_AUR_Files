@@ -461,6 +461,7 @@
 |**lepton**|[lepton-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lepton-bin)|[lepton-bin](https://aur.archlinux.org/packages/lepton-bin)||
 |**less-player**|[less-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-bin)<br>[less-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-git)|[less-player-bin](https://aur.archlinux.org/packages/less-player-bin)<br>[less-player-git](https://aur.archlinux.org/packages/less-player-git)||
 |**lettura**|[lettura-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lettura-bin)|[lettura-bin](https://aur.archlinux.org/packages/lettura-bin)||
+|**lexicanter**|[lexicanter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lexicanter-bin)|[lexicanter-bin](https://aur.archlinux.org/packages/lexicanter-bin)||
 |**librefancontrol**|[librefancontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librefancontrol-bin)|[librefancontrol-bin](https://aur.archlinux.org/packages/librefancontrol-bin)||
 |**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
