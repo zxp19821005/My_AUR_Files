@@ -972,6 +972,7 @@
 |**youku**|[youku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-bin)|[youku-bin](https://aur.archlinux.org/packages/youku-bin)||
 |**youtube-desktop**|[youtube-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-desktop-bin)|[youtube-desktop-bin](https://aur.archlinux.org/packages/youtube-desktop-bin)||
 |**youtube-music-for-desktop**|[youtube-music-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-for-desktop-bin)|[youtube-music-for-desktop-bin](https://aur.archlinux.org/packages/youtube-music-for-desktop-bin)||
+|**youtube-music-next**|[youtube-music-next-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-next-bin)|[youtube-music-next-bin](https://aur.archlinux.org/packages/youtube-music-next-bin)||
 |**youtube-smarttv-emu**|[youtube-smarttv-emu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-smarttv-emu-bin)|[youtube-smarttv-emu-bin](https://aur.archlinux.org/packages/youtube-smarttv-emu-bin)||
 |**yt-dlandcut**|[yt-dlandcut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-dlandcut-bin)|[yt-dlandcut-bin](https://aur.archlinux.org/packages/yt-dlandcut-bin)||
 |**ytdl-desktop**|[ytdl-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdl-desktop)|[ytdl-desktop](https://aur.archlinux.org/packages/ytdl-desktop)||
