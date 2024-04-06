@@ -14,6 +14,7 @@
 |**agendapp**|[agendapp](https://github.com/zxp19821005/My_AUR_Files/tree/main/agendapp)|[agendapp](https://aur.archlinux.org/packages/agendapp)||
 |**ahmyth**|[ahmyth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ahmyth-bin)|[ahmyth-bin](https://aur.archlinux.org/packages/ahmyth-bin)||
 |**ai-browser**|[ai-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-browser-git)|[ai-browser-git](https://aur.archlinux.org/packages/ai-browser-git)||
+|**ai-chat**|[ai-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-chat-bin)|[ai-chat-bin](https://aur.archlinux.org/packages/ai-chat-bin)||
 |**ai-gate**|[ai-gate](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-gate)|[ai-gate](https://aur.archlinux.org/packages/ai-gate)||
 |**aihub**|[aihub](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub)<br>[aihub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub-bin)|[aihub](https://aur.archlinux.org/packages/aihub)<br>[aihub-bin](https://aur.archlinux.org/packages/aihub-bin)||
 |**air-controller-desktop**|[air-controller-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-bin)|[air-controller-desktop-bin](https://aur.archlinux.org/packages/air-controller-desktop-bin)||
@@ -133,7 +134,6 @@
 |**chain-desktop-wallet**|[chain-desktop-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-bin)|[chain-desktop-wallet-bin](https://aur.archlinux.org/packages/chain-desktop-wallet-bin)||
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
 |**chatall**|[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)|[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)||
-|**chatbar**|[chatbar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatbar-bin)|[chatbar-bin](https://aur.archlinux.org/packages/chatbar-bin)||
 |**chatd**|[chatd](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd)<br>[chatd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd-bin)|[chatd](https://aur.archlinux.org/packages/chatd)<br>[chatd-bin](https://aur.archlinux.org/packages/chatd-bin)||
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||

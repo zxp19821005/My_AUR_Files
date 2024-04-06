@@ -1,13 +1,13 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=chatbar-bin
-_pkgname="Chat Bar"
-pkgver=1.1.1
+pkgname=ai-chat-bin
+_pkgname="AI Chat"
+pkgver=1.2.1
 _electronversion=28
 pkgrel=1
-pkgdesc="ChatGPT in the menu Bar"
+pkgdesc="A cross-platform desktop application that provides quick access to chatbots like OpenAI ChatGPT from the menu bar (tray)"
 arch=('x86_64')
 url="https://www.chatbar.top/"
-_ghurl="https://github.com/rabrain/chat-bar-site"
+_ghurl="https://github.com/rabrain/ai-chat"
 license=('LicenseRef-unknown')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
@@ -18,10 +18,10 @@ makedepends=(
     'fuse2'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /}-${pkgver}.AppImage"
+    "${pkgname%-bin}-${pkgver}.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /-}-${pkgver}-linux-${CARCH}.AppImage"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('c0cea150a76ebb1d19befc00b4238892319b00e647c2ec1d2566bbd98c3ccc56'
+sha256sums=('17ec960cf353bbc4567d952f1eb4eed3730ac1e1722237fbe4d5104281c2bddb'
             'dc0c5ca385ad81a08315a91655c7c064b5bf110eada55e61265633ae198b39f8')
 build() {
     chmod a+x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage"
@@ -32,7 +32,7 @@ package() {
     sed -e "s|@electronversion@|${_electronversion}|g" \
         -e "s|@appname@|${pkgname%-bin}|g" \
         -e "s|@runname@|app.asar|g" \
-        -e "s|@options@||g" \
+        -e "s|@options@|env ELECTRON_OZONE_PLATFORM_HINT=auto|g" \
         -i "${srcdir}/${pkgname%-bin}.sh"
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm644 "${srcdir}/squashfs-root/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
