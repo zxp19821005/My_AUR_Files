@@ -639,6 +639,7 @@
 |**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**pear-rec**|[pear-rec](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec)<br>[pear-rec-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-git)|[pear-rec](https://aur.archlinux.org/packages/pear-rec)<br>[pear-rec-git](https://aur.archlinux.org/packages/pear-rec-git)||
+|**pedax**|[pedax-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pedax-bin)|[pedax-bin](https://aur.archlinux.org/packages/pedax-bin)||
 |**peershare**|[peershare](https://github.com/zxp19821005/My_AUR_Files/tree/main/peershare)|[peershare](https://aur.archlinux.org/packages/peershare)||
 |**peersky-browser**|[peersky-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/peersky-browser)|[peersky-browser](https://aur.archlinux.org/packages/peersky-browser)||
 |**pennywise**|[pennywise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pennywise-bin)|[pennywise-bin](https://aur.archlinux.org/packages/pennywise-bin)||
