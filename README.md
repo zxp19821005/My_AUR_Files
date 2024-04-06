@@ -176,6 +176,7 @@
 |**cubytext**|[cubytext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cubytext-bin)|[cubytext-bin](https://aur.archlinux.org/packages/cubytext-bin)||
 |**cultivation**|[cultivation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation-bin)|[cultivation-bin](https://aur.archlinux.org/packages/cultivation-bin)||
 |**cycode**|[cycode](https://github.com/zxp19821005/My_AUR_Files/tree/main/cycode)|[cycode](https://aur.archlinux.org/packages/cycode)||
+|**daily-diary**|[daily-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/daily-diary-bin)|[daily-diary-bin](https://aur.archlinux.org/packages/daily-diary-bin)||
 |**darkorbit-client**|[darkorbit-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-bin)|[darkorbit-client-bin](https://aur.archlinux.org/packages/darkorbit-client-bin)||
 |**darkwrite**|[darkwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkwrite-bin)|[darkwrite-bin](https://aur.archlinux.org/packages/darkwrite-bin)||
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
