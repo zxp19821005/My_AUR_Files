@@ -137,6 +137,7 @@
 |**chatall**|[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)|[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)||
 |**chatd**|[chatd](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd)<br>[chatd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd-bin)|[chatd](https://aur.archlinux.org/packages/chatd)<br>[chatd-bin](https://aur.archlinux.org/packages/chatd-bin)||
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
+|**chatnio**|[chatnio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatnio-bin)|[chatnio-bin](https://aur.archlinux.org/packages/chatnio-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
 |**chatspot**|[chatspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatspot-bin)|[chatspot-bin](https://aur.archlinux.org/packages/chatspot-bin)||
 |**chengla-linux-unofficial**|[chengla-linux-unofficial-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chengla-linux-unofficial-bin)|[chengla-linux-unofficial-bin](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)||
