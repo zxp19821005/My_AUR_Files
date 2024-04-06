@@ -322,7 +322,7 @@
 |**frigoligo**|[frigoligo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frigoligo-bin)|[frigoligo-bin](https://aur.archlinux.org/packages/frigoligo-bin)||
 |**frontimer**|[frontimer](https://github.com/zxp19821005/My_AUR_Files/tree/main/frontimer)<br>[frontimer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frontimer-bin)|[frontimer](https://aur.archlinux.org/packages/frontimer)<br>[frontimer-bin](https://aur.archlinux.org/packages/frontimer-bin)||
 |**frosch**|[frosch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frosch-bin)|[frosch-bin](https://aur.archlinux.org/packages/frosch-bin)||
-|**fsolauncher**|[fsolauncher](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher)|[fsolauncher](https://aur.archlinux.org/packages/fsolauncher)||
+|**fsolauncher**|[fsolauncher](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher)<br>[fsolauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher-bin)|[fsolauncher](https://aur.archlinux.org/packages/fsolauncher)<br>[fsolauncher-bin](https://aur.archlinux.org/packages/fsolauncher-bin)||
 |**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
 |**fuzzynote**|[fuzzynote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fuzzynote-bin)|[fuzzynote-bin](https://aur.archlinux.org/packages/fuzzynote-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
