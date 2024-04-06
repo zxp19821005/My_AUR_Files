@@ -57,6 +57,7 @@
 |**android-toolkit**|[android-toolkit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/android-toolkit-bin)|[android-toolkit-bin](https://aur.archlinux.org/packages/android-toolkit-bin)||
 |**angular-electron**|[angular-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/angular-electron-bin)|[angular-electron-bin](https://aur.archlinux.org/packages/angular-electron-bin)||
 |**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
+|**animeclient**|[animeclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animeclient-bin)|[animeclient-bin](https://aur.archlinux.org/packages/animeclient-bin)||
 |**animestream**|[animestream-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-git)<br>[animestream-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-bin)|[animestream-git](https://aur.archlinux.org/packages/animestream-git)<br>[animestream-bin](https://aur.archlinux.org/packages/animestream-bin)||
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**aniship**|[aniship-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-bin)|[aniship-bin](https://aur.archlinux.org/packages/aniship-bin)||
@@ -370,6 +371,7 @@
 |**graphiql-desktop**|[graphiql-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graphiql-desktop-bin)|[graphiql-desktop-bin](https://aur.archlinux.org/packages/graphiql-desktop-bin)||
 |**graycrown**|[graycrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graycrown-bin)|[graycrown-bin](https://aur.archlinux.org/packages/graycrown-bin)||
 |**gridea**|[gridea-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-bin)|[gridea-bin](https://aur.archlinux.org/packages/gridea-bin)||
+|**gridplayer**|[gridplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridplayer-appimage)|[gridplayer-appimage](https://aur.archlinux.org/packages/gridplayer-appimage)||
 |**grinplusplus**|[grinplusplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grinplusplus-bin)|[grinplusplus-bin](https://aur.archlinux.org/packages/grinplusplus-bin)||
 |**grx**|[grx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/grx-bin)|[grx-bin](https://aur.archlinux.org/packages/grx-bin)||
 |**gstarcad**|[gstarcad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gstarcad-bin)|[gstarcad-bin](https://aur.archlinux.org/packages/gstarcad-bin)||
