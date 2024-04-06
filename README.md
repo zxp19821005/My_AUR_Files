@@ -426,6 +426,7 @@
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
 |**issie**|[issie](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie)<br>[issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie](https://aur.archlinux.org/packages/issie)<br>[issie-bin](https://aur.archlinux.org/packages/issie-bin)||
+|**jammer**|[jammer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/jammer-appimage)|[jammer-appimage](https://aur.archlinux.org/packages/jammer-appimage)||
 |**jan**|[jan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jan-bin)|[jan-bin](https://aur.archlinux.org/packages/jan-bin)||
 |**japreader**|[japreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/japreader-bin)|[japreader-bin](https://aur.archlinux.org/packages/japreader-bin)||
 |**jasperapp**|[jasperapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasperapp-bin)|[jasperapp-bin](https://aur.archlinux.org/packages/jasperapp-bin)||
