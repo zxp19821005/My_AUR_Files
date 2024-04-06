@@ -818,6 +818,7 @@
 |**streamdock**|[streamdock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streamdock-bin)|[streamdock-bin](https://aur.archlinux.org/packages/streamdock-bin)||
 |**string-file-manager**|[string-file-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/string-file-manager-bin)|[string-file-manager-bin](https://aur.archlinux.org/packages/string-file-manager-bin)||
 |**structure**|[structure-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/structure-bin)|[structure-bin](https://aur.archlinux.org/packages/structure-bin)||
+|**strumpract**|[strumpract-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/strumpract-bin)|[strumpract-bin](https://aur.archlinux.org/packages/strumpract-bin)||
 |**subtitler**|[subtitler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-bin)|[subtitler-bin](https://aur.archlinux.org/packages/subtitler-bin)||
 |**subtitle-translator-electron**|[subtitle-translator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-bin)|[subtitle-translator-electron-bin](https://aur.archlinux.org/packages/subtitle-translator-electron-bin)||
 |**sub-trans**|[sub-trans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sub-trans-bin)|[sub-trans-bin](https://aur.archlinux.org/packages/sub-trans-bin)||
