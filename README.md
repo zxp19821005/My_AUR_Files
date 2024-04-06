@@ -551,6 +551,7 @@
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
 |**motrix**|[motrix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-git)|[motrix-git](https://aur.archlinux.org/packages/motrix-git)||
 |**moyu**|[moyu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-bin)|[moyu-bin](https://aur.archlinux.org/packages/moyu-bin)||
+|**mpc-qt**|[mpc-qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mpc-qt-bin)|[mpc-qt-bin](https://aur.archlinux.org/packages/mpc-qt-bin)||
 |**mqttx**|[mqttx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-git)|[mqttx-git](https://aur.archlinux.org/packages/mqttx-git)||
 |**mubu**|[mubu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mubu-bin)|[mubu-bin](https://aur.archlinux.org/packages/mubu-bin)||
 |**mudita-center**|[mudita-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mudita-center-bin)|[mudita-center-bin](https://aur.archlinux.org/packages/mudita-center-bin)||
