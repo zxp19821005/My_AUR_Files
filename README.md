@@ -180,6 +180,7 @@
 |**daily-diary**|[daily-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/daily-diary-bin)|[daily-diary-bin](https://aur.archlinux.org/packages/daily-diary-bin)||
 |**darkorbit-client**|[darkorbit-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-bin)|[darkorbit-client-bin](https://aur.archlinux.org/packages/darkorbit-client-bin)||
 |**darkwrite**|[darkwrite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkwrite-bin)|[darkwrite-bin](https://aur.archlinux.org/packages/darkwrite-bin)||
+|**dash-player**|[dash-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dash-player-bin)|[dash-player-bin](https://aur.archlinux.org/packages/dash-player-bin)||
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile)|[datefile](https://aur.archlinux.org/packages/datefile)||
 |**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin)||
