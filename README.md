@@ -18,7 +18,7 @@
 |**ai-browser**|[ai-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-browser-git)|[ai-browser-git](https://aur.archlinux.org/packages/ai-browser-git)||
 |**ai-chat**|[ai-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-chat-bin)|[ai-chat-bin](https://aur.archlinux.org/packages/ai-chat-bin)||
 |**ai-gate**|[ai-gate](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-gate)|[ai-gate](https://aur.archlinux.org/packages/ai-gate)||
-|**aihub**|[aihub](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub)<br>[aihub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub-bin)|[aihub](https://aur.archlinux.org/packages/aihub)<br>[aihub-bin](https://aur.archlinux.org/packages/aihub-bin)||
+|**aihub**|[aihub](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub)<br>[aihub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub-bin)<br>[aihub-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aihub-git)|[aihub](https://aur.archlinux.org/packages/aihub)<br>[aihub-bin](https://aur.archlinux.org/packages/aihub-bin)<br>[aihub-git](https://aur.archlinux.org/packages/aihub-git)||
 |**air-controller-desktop**|[air-controller-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-bin)|[air-controller-desktop-bin](https://aur.archlinux.org/packages/air-controller-desktop-bin)||
 |**airdrop-tool**|[airdrop-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airdrop-tool-bin)|[airdrop-tool-bin](https://aur.archlinux.org/packages/airdrop-tool-bin)||
 |**airgorah**|[airgorah-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airgorah-bin)|[airgorah-bin](https://aur.archlinux.org/packages/airgorah-bin)||
