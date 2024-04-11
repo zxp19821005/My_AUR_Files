@@ -959,6 +959,7 @@
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
 |**wire-desktop**|[wire-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wire-desktop-git)|[wire-desktop-git](https://aur.archlinux.org/packages/wire-desktop-git)||
 |**wiznoteplus**|[wiznoteplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wiznoteplus-bin)|[wiznoteplus-bin](https://aur.archlinux.org/packages/wiznoteplus-bin)||
+|**wj-markdown-editor**|[wj-markdown-editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wj-markdown-editor-git)|[wj-markdown-editor-git](https://aur.archlinux.org/packages/wj-markdown-editor-git)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
 |**woniu-ali**|[woniu-ali-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woniu-ali-bin)|[woniu-ali-bin](https://aur.archlinux.org/packages/woniu-ali-bin)||
