@@ -906,6 +906,7 @@
 |**tunasync**|[tunasync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tunasync-bin)|[tunasync-bin](https://aur.archlinux.org/packages/tunasync-bin)||
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**typesense-dashboard**|[typesense-dashboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typesense-dashboard-bin)|[typesense-dashboard-bin](https://aur.archlinux.org/packages/typesense-dashboard-bin)||
+|**typora-free-with-plugin**|[typora-free-with-plugin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typora-free-with-plugin)|[typora-free-with-plugin](https://aur.archlinux.org/packages/typora-free-with-plugin)||
 |**ubports-installer**|[ubports-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-bin)|[ubports-installer-bin](https://aur.archlinux.org/packages/ubports-installer-bin)||
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
 |**uivonim**|[uivonim-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-bin)|[uivonim-bin](https://aur.archlinux.org/packages/uivonim-bin)||
