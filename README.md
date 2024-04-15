@@ -321,6 +321,7 @@
 |**flip**|[flip-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flip-bin)|[flip-bin](https://aur.archlinux.org/packages/flip-bin)||
 |**flomo**|[unoffical-flomo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-flomo-appimage)<br>[flomo-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-pake)|[unoffical-flomo-appimage](https://aur.archlinux.org/packages/unoffical-flomo-appimage)<br>[flomo-pake](https://aur.archlinux.org/packages/flomo-pake)||
 |**fmedia**|[fmedia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fmedia-bin)|[fmedia-bin](https://aur.archlinux.org/packages/fmedia-bin)||
+|**focustune**|[focustune-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/focustune-git)|[focustune-git](https://aur.archlinux.org/packages/focustune-git)||
 |**fontastic**|[fontastic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fontastic-bin)|[fontastic-bin](https://aur.archlinux.org/packages/fontastic-bin)||
 |**fooyin**|[fooyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fooyin)<br>[fooyin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fooyin-bin)|[fooyin](https://aur.archlinux.org/packages/fooyin)<br>[fooyin-bin](https://aur.archlinux.org/packages/fooyin-bin)||
 |**fotograph**|[fotograph-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fotograph-bin)|[fotograph-bin](https://aur.archlinux.org/packages/fotograph-bin)||
