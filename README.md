@@ -1026,5 +1026,6 @@
 |**ziipoo**|[ziipoo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ziipoo-bin)|[ziipoo-bin](https://aur.archlinux.org/packages/ziipoo-bin)||
 |**znote**|[znote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/znote-bin)|[znote-bin](https://aur.archlinux.org/packages/znote-bin)||
 |**zui**|[zui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zui-bin)|[zui-bin](https://aur.archlinux.org/packages/zui-bin)||
+|**zulip-desktop**|[zulip-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zulip-desktop-git)|[zulip-desktop-git](https://aur.archlinux.org/packages/zulip-desktop-git)||
 |**zxinfo-file-browser**|[zxinfo-file-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zxinfo-file-browser-git)<br>[zxinfo-file-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zxinfo-file-browser-bin)|[zxinfo-file-browser-git](https://aur.archlinux.org/packages/zxinfo-file-browser-git)<br>[zxinfo-file-browser-bin](https://aur.archlinux.org/packages/zxinfo-file-browser-bin)||
 |**zyplayer**|[zyplayer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zyplayer-git)<br>[zyplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zyplayer-bin)|[zyplayer-git](https://aur.archlinux.org/packages/zyplayer-git)<br>[zyplayer-bin](https://aur.archlinux.org/packages/zyplayer-bin)||
