@@ -500,6 +500,7 @@
 |**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
 |**lunarcalendar**|[lunarcalendar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-appimage)|[lunarcalendar-appimage](https://aur.archlinux.org/packages/lunarcalendar-appimage)||
 |**lvce**|[lvce-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-bin)|[lvce-bin](https://aur.archlinux.org/packages/lvce-bin)||
+|**lx-music-desktop**|[lx-music-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lx-music-desktop-bin)||自用版|
 |**lyrically**|[lyrically-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyrically-bin)|[lyrically-bin](https://aur.archlinux.org/packages/lyrically-bin)||
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
 |**m3u8downloader**|[m3u8downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/m3u8downloader-bin)|[m3u8downloader-bin](https://aur.archlinux.org/packages/m3u8downloader-bin)||
