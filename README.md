@@ -220,6 +220,7 @@
 |**desktop-schedule**|[desktop-schedule-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-schedule-bin)|[desktop-schedule-bin](https://aur.archlinux.org/packages/desktop-schedule-bin)||
 |**des-talk**|[des-talk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/des-talk-bin)|[des-talk-bin](https://aur.archlinux.org/packages/des-talk-bin)||
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
+|**devhub**|[devhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devhub-bin)|[devhub-bin](https://aur.archlinux.org/packages/devhub-bin)||
 |**dialogcraft**|[dialogcraft](https://github.com/zxp19821005/My_AUR_Files/tree/main/dialogcraft)<br>[dialogcraft-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dialogcraft-bin)|[dialogcraft](https://aur.archlinux.org/packages/dialogcraft)<br>[dialogcraft-bin](https://aur.archlinux.org/packages/dialogcraft-bin)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
