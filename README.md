@@ -449,6 +449,7 @@
 |**js-design-electron**|[js-design-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-electron-bin)|[js-design-electron-bin](https://aur.archlinux.org/packages/js-design-electron-bin)||
 |**jlivertool**|[jlivertool](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool)<br>[jlivertool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool-bin)|[jlivertool](https://aur.archlinux.org/packages/jlivertool)<br>[jlivertool-bin](https://aur.archlinux.org/packages/jlivertool-bin)||
 |**jsonbox**|[jsonbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jsonbox-bin)|[jsonbox-bin](https://aur.archlinux.org/packages/jsonbox-bin)||
+|**justwrite**|[justwrite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/justwrite-git)|[justwrite-git](https://aur.archlinux.org/packages/justwrite-git)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
 |**kaiteki**|[kaiteki-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaiteki-bin)|[kaiteki-bin](https://aur.archlinux.org/packages/kaiteki-bin)||
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
