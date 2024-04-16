@@ -322,6 +322,7 @@
 |**flexplayer**|[flexplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/flexplayer)|[flexplayer](https://aur.archlinux.org/packages/flexplayer)||
 |**flip**|[flip-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flip-bin)|[flip-bin](https://aur.archlinux.org/packages/flip-bin)||
 |**flomo**|[unoffical-flomo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-flomo-appimage)<br>[flomo-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-pake)|[unoffical-flomo-appimage](https://aur.archlinux.org/packages/unoffical-flomo-appimage)<br>[flomo-pake](https://aur.archlinux.org/packages/flomo-pake)||
+|**fluent-reader**|[fluent-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluent-reader-git)|[fluent-reader-git](https://aur.archlinux.org/packages/fluent-reader-git)||
 |**fmedia**|[fmedia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fmedia-bin)|[fmedia-bin](https://aur.archlinux.org/packages/fmedia-bin)||
 |**focustune**|[focustune-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/focustune-git)|[focustune-git](https://aur.archlinux.org/packages/focustune-git)||
 |**fontastic**|[fontastic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fontastic-bin)|[fontastic-bin](https://aur.archlinux.org/packages/fontastic-bin)||
