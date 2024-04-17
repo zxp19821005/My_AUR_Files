@@ -99,6 +99,7 @@
 |**bettersoundcloud**|[bettersoundcloud](https://github.com/zxp19821005/My_AUR_Files/tree/main/bettersoundcloud)|[bettersoundcloud](https://aur.archlinux.org/packages/bettersoundcloud)||
 |**bicep**|[bicep-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bicep-bin)|[bicep-bin](https://aur.archlinux.org/packages/bicep-bin)||
 |**bilibili**|[bilibili](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili)<br>[bilibili-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-bin)|[bilibili](https://aur.archlinux.org/packages/bilibili)<br>[bilibili-bin](https://aur.archlinux.org/packages/bilibili-bin)||
+|**bilibili-manga-downloader**|[bilibili-manga-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-manga-downloader-bin)|[bilibili-manga-downloader-bin](https://aur.archlinux.org/packages/bilibili-manga-downloader-bin)||
 |**bilibilivideodownload**|[bilibilivideodownload-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-bin)|[bilibilivideodownload-bin](https://aur.archlinux.org/packages/bilibilivideodownload-bin)||
 |**bilive-danmaku**|[bilive-danmaku-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilive-danmaku-git)|[bilive-danmaku-git](https://aur.archlinux.org/packages/bilive-danmaku-git)||
 |**binggpt-ee**|[binggpt-ee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/binggpt-ee-bin)|[binggpt-ee-bin](https://aur.archlinux.org/packages/binggpt-ee-bin)||
