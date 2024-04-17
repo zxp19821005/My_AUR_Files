@@ -770,6 +770,7 @@
 |**salesforce2sql**|[salesforce2sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salesforce2sql-bin)|[salesforce2sql-bin](https://aur.archlinux.org/packages/salesforce2sql-bin)||
 |**salvage**|[salvage-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/salvage-git)|[salvage-git](https://aur.archlinux.org/packages/salvage-git)||
 |**sbe**|[sbe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-bin)|[sbe-bin](https://aur.archlinux.org/packages/sbe-bin)||
+|**screen-area-share**|[screen-area-share-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-area-share-bin)|[screen-area-share-bin](https://aur.archlinux.org/packages/screen-area-share-bin)||
 |**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
 |**scripthaus**|[scripthaus](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus)<br>[scripthaus-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus-git)|[scripthaus](https://aur.archlinux.org/packages/scripthaus)<br>[scripthaus-git](https://aur.archlinux.org/packages/scripthaus-git)||
 |**scriptorium**|[scriptorium-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scriptorium-git)|[scriptorium-git](https://aur.archlinux.org/packages/scriptorium-git)||
