@@ -798,6 +798,7 @@
 |**shutu-client**|[shutu-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutu-client-bin)|[shutu-client-bin](https://aur.archlinux.org/packages/shutu-client-bin)||
 |**sigma-file-manager**|[sigma-file-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-git)|[sigma-file-manager-git](https://aur.archlinux.org/packages/sigma-file-manager-git)||
 |**silence-speedup**|[silence-speedup-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/silence-speedup-bin)|[silence-speedup-bin](https://aur.archlinux.org/packages/silence-speedup-bin)||
+|**silex-desktop**|[silex-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/silex-desktop-bin)|[silex-desktop-bin](https://aur.archlinux.org/packages/silex-desktop-bin)||
 |**simple-icons**|[simple-icons](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-icons)|[simple-icons](https://aur.archlinux.org/packages/simple-icons)||
 |**simple-inventory**|[simple-inventory-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-inventory-bin)|[simple-inventory-bin](https://aur.archlinux.org/packages/simple-inventory-bin)||
 |**simple-irc-client**|[simple-irc-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-irc-client-bin)|[simple-irc-client-bin](https://aur.archlinux.org/packages/simple-irc-client-bin)||
