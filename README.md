@@ -67,6 +67,7 @@
 |**antares-sql**|[antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
 |**anubias**|[anubias-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-bin)|[anubias-bin](https://aur.archlinux.org/packages/anubias-bin)||
 |**any-sync-gui**|[any-sync-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/any-sync-gui)|[any-sync-gui](https://aur.archlinux.org/packages/any-sync-gui)||
+|**anythingllm-desktop**|[anythingllm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anythingllm-desktop-bin)|[anythingllm-desktop-bin](https://aur.archlinux.org/packages/anythingllm-desktop-bin)||
 |**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
 |**appimagepool**|[appimagepool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/appimagepool-bin)|[appimagepool-bin](https://aur.archlinux.org/packages/appimagepool-bin)||
