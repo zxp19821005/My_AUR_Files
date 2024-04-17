@@ -858,6 +858,7 @@
 |**sunbible**|[sunbible](https://github.com/zxp19821005/My_AUR_Files/tree/main/sunbible)|[sunbible](https://aur.archlinux.org/packages/sunbible)||
 |**supalive**|[supalive-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supalive-bin)|[supalive-bin](https://aur.archlinux.org/packages/supalive-bin)||
 |**super-controller**|[super-controller](https://github.com/zxp19821005/My_AUR_Files/tree/main/super-controller)|[super-controller](https://aur.archlinux.org/packages/super-controller)||
+|**superfile**|[superfile-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/superfile-bin)|[superfile-bin](https://aur.archlinux.org/packages/superfile-bin)||
 |**supersonic-desktop**|[supersonic-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supersonic-desktop-bin)|[supersonic-desktop-bin](https://aur.archlinux.org/packages/supersonic-desktop-bin)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swarm-desktop**|[swarm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/swarm-desktop)|[swarm-desktop](https://aur.archlinux.org/packages/swarm-desktop)||
