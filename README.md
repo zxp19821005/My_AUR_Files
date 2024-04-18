@@ -3,6 +3,7 @@
 | **软件包名** | GitHub 地址| AUR地址|备注|
 | :----: | :----: | :----: | :----: |
 |**3fa**|[3fa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/3fa-bin)|[3fa-bin](https://aur.archlinux.org/packages/3fa-bin)||
+|**abstreet**|[abstreet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/abstreet-bin)|[abstreet-bin](https://aur.archlinux.org/packages/abstreet-bin)||
 |**acast**|[acast](https://github.com/zxp19821005/My_AUR_Files/tree/main/acast)|[acast](https://aur.archlinux.org/packages/acast)||
 |**acodec**|[acodec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/acodec-bin)|[acodec-bin](https://aur.archlinux.org/packages/acodec-bin)||
 |**adagate**|[adagate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adagate-bin)|[adagate-bin](https://aur.archlinux.org/packages/adagate-bin)||
