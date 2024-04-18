@@ -251,6 +251,7 @@
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
 |**electron30**|[electron30-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-bin)|[electron30-bin](https://aur.archlinux.org/packages/electron30-bin)||
+|**electron31**|[electron31-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron31-bin)|[electron31-bin](https://aur.archlinux.org/packages/electron31-bin)||
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
 |**electron-gpt**|[electron-gpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-gpt-git)|[electron-gpt-git](https://aur.archlinux.org/packages/electron-gpt-git)||
@@ -289,6 +290,7 @@
 |**eusoft-ting-es**|[eusoft-ting-es-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-es-bin)|[eusoft-ting-es-bin](https://aur.archlinux.org/packages/eusoft-ting-es-bin)||
 |**eusoft-ting-de**|[eusoft-ting-de-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-de-bin)|[eusoft-ting-de-bin](https://aur.archlinux.org/packages/eusoft-ting-de-bin)||
 |**eusoft-ting-fr**|[eusoft-ting-fr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-ting-fr-bin)|[eusoft-ting-fr-bin](https://aur.archlinux.org/packages/eusoft-ting-fr-bin)||
+|**evernote-for-linux**|[evernote-for-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/evernote-for-linux-bin)|[evernote-for-linux-bin](https://aur.archlinux.org/packages/evernote-for-linux-bin)||
 |**everytime**|[everytime](https://github.com/zxp19821005/My_AUR_Files/tree/main/everytime)|[everytime](https://aur.archlinux.org/packages/everytime)||
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin)||
 |**explorama**|[explorama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/explorama-bin)|[explorama-bin](https://aur.archlinux.org/packages/explorama-bin)||
