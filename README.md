@@ -874,6 +874,7 @@
 |**syng**|[syng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/syng-bin)|[syng-bin](https://aur.archlinux.org/packages/syng-bin)||
 |**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
 |**tauview**|[tauview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauview-bin)|[tauview-bin](https://aur.archlinux.org/packages/tauview-bin)||
+|**tbls**|[tbls-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tbls-bin)|[tbls-bin](https://aur.archlinux.org/packages/tbls-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**tenpi-music-player**|[tenpi-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tenpi-music-player-bin)|[tenpi-music-player-bin](https://aur.archlinux.org/packages/tenpi-music-player-bin)||
