@@ -353,6 +353,7 @@
 |**yakuza**|[yakuza-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakuza-bin)|[yakuza-bin](https://aur.archlinux.org/packages/yakuza-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
+|**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat)||
