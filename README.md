@@ -951,6 +951,7 @@
 |**utools**|[utools-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utools-bin)|[utools-bin](https://aur.archlinux.org/packages/utools-bin)||
 |**uyou-todo**|[uyou-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-bin)|[uyou-todo-bin](https://aur.archlinux.org/packages/uyou-todo-bin)||
 |**vagrant-manager**|[vagrant-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-bin)|[vagrant-manager-bin](https://aur.archlinux.org/packages/vagrant-manager-bin)||
+|**vale**|[vale-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vale-bin)|[vale-bin](https://aur.archlinux.org/packages/vale-bin)||
 |**vega-video-editor**|[vega-video-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/vega-video-editor)|[vega-video-editor](https://aur.archlinux.org/packages/vega-video-editor)||
 |**vesktop**|[vesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vesktop-bin)|[vesktop-bin](https://aur.archlinux.org/packages/vesktop-bin)||
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
