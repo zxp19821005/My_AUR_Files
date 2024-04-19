@@ -175,6 +175,7 @@
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
 |**copytranslator**|[copytranslator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-bin)|[copytranslator-bin](https://aur.archlinux.org/packages/copytranslator-bin)||
+|**cosmonium**|[cosmonium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cosmonium-bin)|[cosmonium-bin](https://aur.archlinux.org/packages/cosmonium-bin)||
 |**cpeditor**|[cpeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-bin)|[cpeditor-bin](https://aur.archlinux.org/packages/cpeditor-bin)||
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
 |**craze**|[craze](https://github.com/zxp19821005/My_AUR_Files/tree/main/craze)|[craze](https://aur.archlinux.org/packages/craze)||
