@@ -405,6 +405,7 @@
 |**headset**|[headset-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/headset-bin)|[headset-bin](https://aur.archlinux.org/packages/headset-bin)||
 |**heimer**|[heimer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-bin)|[heimer-bin](https://aur.archlinux.org/packages/heimer-bin)||
 |**helioslauncher**|[helioslauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/helioslauncher-bin)|[helioslauncher-bin](https://aur.archlinux.org/packages/helioslauncher-bin)||
+|**helio-workstation**|[helio-workstation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/helio-workstation-bin)|[helio-workstation-bin](https://aur.archlinux.org/packages/helio-workstation-bin)||
 |**hexhoot**|[hexhoot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexhoot-bin)|[hexhoot-bin](https://aur.archlinux.org/packages/hexhoot-bin)||
 |**hex-music-player**|[hex-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/hex-music-player)|[hex-music-player](https://aur.archlinux.org/packages/hex-music-player)||
 |**hexopress**|[hexopress](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexopress)<br>[hexopress-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexopress-git)|[hexopress](https://aur.archlinux.org/packages/hexopress)<br>[hexopress-git](https://aur.archlinux.org/packages/hexopress-git)||
