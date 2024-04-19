@@ -90,6 +90,7 @@
 |**awsaml**|[awsaml-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awsaml-bin)|[awsaml-bin](https://aur.archlinux.org/packages/awsaml-bin)||
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
 |**barklarm**|[barklarm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/barklarm-bin)|[barklarm-bin](https://aur.archlinux.org/packages/barklarm-bin)||
+|**basic-blackjack**|[basic-blackjack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/basic-blackjack-bin)|[basic-blackjack-bin](https://aur.archlinux.org/packages/basic-blackjack-bin)||
 |**batch-explorer**|[batch-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-bin)|[batch-explorer-bin](https://aur.archlinux.org/packages/batch-explorer-bin)||
 |**bbg**|[bbg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-bin)|[bbg-bin](https://aur.archlinux.org/packages/bbg-bin)||
 |**bcrypt-sandbox**|[bcrypt-sandbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bcrypt-sandbox-bin)|[bcrypt-sandbox-bin](https://aur.archlinux.org/packages/bcrypt-sandbox-bin)||
