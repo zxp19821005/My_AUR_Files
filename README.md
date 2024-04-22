@@ -117,7 +117,6 @@
 |**bookmarks-manager**|[bookmarks-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookmarks-manager-bin)|[bookmarks-manager-bin](https://aur.archlinux.org/packages/bookmarks-manager-bin)||
 |**bookord**|[bookord-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookord-git)|[bookord-git](https://aur.archlinux.org/packages/bookord-git)||
 |**boostchanger**|[boostchanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-bin)|[boostchanger-bin](https://aur.archlinux.org/packages/boostchanger-bin)||
-|**boost-note**|[boost-note-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boost-note-bin)|[boost-note-bin](https://aur.archlinux.org/packages/boost-note-bin)||
 |**borg-explorer**|[borg-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/borg-explorer-bin)|[borg-explorer-bin](https://aur.archlinux.org/packages/borg-explorer-bin)||
 |**boson**|[boson-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/boson-git)|[boson-git](https://aur.archlinux.org/packages/boson-git)||
 |**bot.dev**|[bot.dev](https://github.com/zxp19821005/My_AUR_Files/tree/main/bot.dev)|[bot.dev](https://aur.archlinux.org/packages/bot.dev)||
