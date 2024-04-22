@@ -616,6 +616,7 @@
 |**noi-desktop**|[noi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/noi-desktop-bin)|[noi-desktop-bin](https://aur.archlinux.org/packages/noi-desktop-bin)||
 |**nomino**|[nomino-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nomino-bin)|[nomino-bin](https://aur.archlinux.org/packages/nomino-bin)||
 |**nora**|[nora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-bin)<br>[nora-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/nora-git)|[nora-bin](https://aur.archlinux.org/packages/nora-bin)<br>[nora-git](https://aur.archlinux.org/packages/nora-git)||
+|**nostromo**|[nostromo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nostromo-bin)|[nostromo-bin](https://aur.archlinux.org/packages/nostromo-bin)||
 |**nostr-relay-tray**|[nostr-relay-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nostr-relay-tray-bin)|[nostr-relay-tray-bin](https://aur.archlinux.org/packages/nostr-relay-tray-bin)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notely**|[notely-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notely-git)|[notely-git](https://aur.archlinux.org/packages/notely-git)||
