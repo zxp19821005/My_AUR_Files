@@ -339,6 +339,7 @@
 |**focustune**|[focustune-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/focustune-git)|[focustune-git](https://aur.archlinux.org/packages/focustune-git)||
 |**fontastic**|[fontastic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fontastic-bin)|[fontastic-bin](https://aur.archlinux.org/packages/fontastic-bin)||
 |**fooyin**|[fooyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fooyin)<br>[fooyin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fooyin-bin)|[fooyin](https://aur.archlinux.org/packages/fooyin)<br>[fooyin-bin](https://aur.archlinux.org/packages/fooyin-bin)||
+|**fortio**|[fortio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fortio-bin)|[fortio-bin](https://aur.archlinux.org/packages/fortio-bin)||
 |**fotograph**|[fotograph-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fotograph-bin)|[fotograph-bin](https://aur.archlinux.org/packages/fotograph-bin)||
 |**fotoluks-manager**|[fotoluks-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fotoluks-manager-git)|[fotoluks-manager-git](https://aur.archlinux.org/packages/fotoluks-manager-git)||
 |**frame-cast**|[frame-cast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-cast-bin)|[frame-cast-bin](https://aur.archlinux.org/packages/frame-cast-bin)||
