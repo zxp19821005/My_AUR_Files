@@ -802,7 +802,7 @@
 |**serial-studio**|[serial-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serial-studio-bin)|[serial-studio-bin](https://aur.archlinux.org/packages/serial-studio-bin)||
 |**serina**|[serina-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serina-bin)|[serina-bin](https://aur.archlinux.org/packages/serina-bin)||
 |**seven-desktop**|[seven-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-desktop-bin)|[seven-desktop-bin](https://aur.archlinux.org/packages/seven-desktop-bin)||
-|**seven-waves**|[seven-waves](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves)|[seven-waves](https://aur.archlinux.org/packages/seven-waves)||
+|**seven-waves**|[seven-waves](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves)<br>[seven-waves-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves-git)|[seven-waves](https://aur.archlinux.org/packages/seven-waves)<br>[seven-waves-git](https://aur.archlinux.org/packages/seven-waves-git)||
 |**sharefi-electron**|[sharefi-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sharefi-electron-bin)|[sharefi-electron-bin](https://aur.archlinux.org/packages/sharefi-electron-bin)||
 |**sharing-gui**|[sharing-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/sharing-gui)|[sharing-gui](https://aur.archlinux.org/packages/sharing-gui)||
 |**shedshield**|[shedshield-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shedshield-bin)|[shedshield-bin](https://aur.archlinux.org/packages/shedshield-bin)||
