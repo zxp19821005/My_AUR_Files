@@ -243,7 +243,7 @@
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)|[dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin)||
 |**dosbox-staging**|[dosbox-staging-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dosbox-staging-bin)|[dosbox-staging-bin](https://aur.archlinux.org/packages/dosbox-staging-bin)||
 |**drawio-desktop**|[drawio-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-git)|[drawio-desktop-git](https://aur.archlinux.org/packages/drawio-desktop-git)||
-|**droppoint**|[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)|[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)||
+|**droppoint**|[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin)<br>[droppoint-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-git)|[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin)<br>[droppoint-git](https://aur.archlinux.org/packages/droppoint-git)||
 |**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
 |**duskplayer**|[duskplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-bin)|[duskplayer-bin](https://aur.archlinux.org/packages/duskplayer-bin)||
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
