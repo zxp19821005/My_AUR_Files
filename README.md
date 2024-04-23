@@ -457,6 +457,7 @@
 |**jan**|[jan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jan-bin)|[jan-bin](https://aur.archlinux.org/packages/jan-bin)||
 |**japreader**|[japreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/japreader-bin)|[japreader-bin](https://aur.archlinux.org/packages/japreader-bin)||
 |**jasperapp**|[jasperapp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasperapp-bin)|[jasperapp-bin](https://aur.archlinux.org/packages/jasperapp-bin)||
+|**jd-tool**|[jd-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jd-tool-bin)|[jd-tool-bin](https://aur.archlinux.org/packages/jd-tool-bin)||
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
 |**joindesktop**|[joindesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joindesktop-bin)|[joindesktop-bin](https://aur.archlinux.org/packages/joindesktop-bin)||
