@@ -577,6 +577,7 @@
 |**moonplayer**|[moonplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moonplayer-bin)|[moonplayer-bin](https://aur.archlinux.org/packages/moonplayer-bin)||
 |**moose**|[moose-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moose-bin)|[moose-bin](https://aur.archlinux.org/packages/moose-bin)||
 |**mootool**|[mootool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mootool-bin)|[mootool-bin](https://aur.archlinux.org/packages/mootool-bin)||
+|**moq**|[moq-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moq-bin)|[moq-bin](https://aur.archlinux.org/packages/moq-bin)||
 |**motrix**|[motrix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/motrix-git)|[motrix-git](https://aur.archlinux.org/packages/motrix-git)||
 |**moyu**|[moyu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-bin)|[moyu-bin](https://aur.archlinux.org/packages/moyu-bin)||
 |**mpc-qt**|[mpc-qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mpc-qt-bin)|[mpc-qt-bin](https://aur.archlinux.org/packages/mpc-qt-bin)||
