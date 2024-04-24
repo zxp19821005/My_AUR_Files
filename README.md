@@ -714,7 +714,7 @@
 |**postbird**|[postbird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-bin)|[postbird-bin](https://aur.archlinux.org/packages/postbird-bin)||
 |**postcat**|[postcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-bin)|[postcat-bin](https://aur.archlinux.org/packages/postcat-bin)||
 |**postsack**|[postsack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postsack-bin)|[postsack-bin](https://aur.archlinux.org/packages/postsack-bin)||
-|**postybirb**|[postybirb-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-appimage)|[postybirb-appimage](https://aur.archlinux.org/packages/postybirb-appimage)||
+|**postybirb**|[postybirb](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb)<br>[postybirb-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-bin)<br>[postybirb-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-git)|[postybirb](https://aur.archlinux.org/packages/postybirb)<br>[postybirb-bin](https://aur.archlinux.org/packages/postybirb-bin)<br>[postybirb-git](https://aur.archlinux.org/packages/postybirb-git)||
 |**postybirb-plus**|[postybirb-plus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-plus-bin)|[postybirb-plus-bin](https://aur.archlinux.org/packages/postybirb-plus-bin)||
 |**pot-translation**|[pot-translation-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pot-translation-git)|[pot-translation-git](https://aur.archlinux.org/packages/pot-translation-git)||
 |**postybirb-plus**|[postybirb-plus-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/postybirb-plus-appimage)|[postybirb-plus-appimage](https://aur.archlinux.org/packages/postybirb-plus-appimage)||
