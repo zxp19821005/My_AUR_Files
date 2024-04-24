@@ -587,7 +587,7 @@
 |**mqttx**|[mqttx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-git)|[mqttx-git](https://aur.archlinux.org/packages/mqttx-git)||
 |**mubu**|[mubu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mubu-bin)|[mubu-bin](https://aur.archlinux.org/packages/mubu-bin)||
 |**mudita-center**|[mudita-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mudita-center-bin)|[mudita-center-bin](https://aur.archlinux.org/packages/mudita-center-bin)||
-|**mu-epub-viewer**|[mu-epub-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mu-epub-viewer-bin)|[mu-epub-viewer-bin](https://aur.archlinux.org/packages/mu-epub-viewer-bin)||
+|**mu-epub-viewer**|[mu-epub-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mu-epub-viewer-bin)<br>[mu-epub-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mu-epub-viewer-git)|[mu-epub-viewer-bin](https://aur.archlinux.org/packages/mu-epub-viewer-bin)<br>[mu-epub-viewer-git](https://aur.archlinux.org/packages/mu-epub-viewer-git)||
 |**muffon**|[muffon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/muffon-bin)|[muffon-bin](https://aur.archlinux.org/packages/muffon-bin)||
 |**musicat**|[musicat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/musicat-git)|[musicat-git](https://aur.archlinux.org/packages/musicat-git)||
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
