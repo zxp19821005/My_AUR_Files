@@ -146,7 +146,7 @@
 |**cgdi**|[cgdi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cgdi-bin)|[cgdi-bin](https://aur.archlinux.org/packages/cgdi-bin)||
 |**chain-desktop-wallet**|[chain-desktop-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chain-desktop-wallet-bin)|[chain-desktop-wallet-bin](https://aur.archlinux.org/packages/chain-desktop-wallet-bin)||
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
-|**chatall**|[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)|[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)||
+|**chatall**|[chatall](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall)<br>[chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin)<br>[chatall-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-git)|[chatall](https://aur.archlinux.org/packages/chatall)<br>[chatall-bin](https://aur.archlinux.org/packages/chatall-bin)<br>[chatall-git](https://aur.archlinux.org/packages/chatall-git)||
 |**chatd**|[chatd](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd)<br>[chatd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd-bin)|[chatd](https://aur.archlinux.org/packages/chatd)<br>[chatd-bin](https://aur.archlinux.org/packages/chatd-bin)||
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatnio**|[chatnio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatnio-bin)|[chatnio-bin](https://aur.archlinux.org/packages/chatnio-bin)||
