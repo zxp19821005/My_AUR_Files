@@ -1017,6 +1017,7 @@
 |**woniu-ali**|[woniu-ali-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woniu-ali-bin)|[woniu-ali-bin](https://aur.archlinux.org/packages/woniu-ali-bin)||
 |**woocommerce-pos**|[woocommerce-pos](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos)<br>[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos](https://aur.archlinux.org/packages/woocommerce-pos)<br>[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
+|**wordpress-studio**|[wordpress-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wordpress-studio-git)|[wordpress-studio-git](https://aur.archlinux.org/packages/wordpress-studio-git)||
 |**work-log-ify**|[work-log-ify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/work-log-ify-git)|[work-log-ify-git](https://aur.archlinux.org/packages/work-log-ify-git)||
 |**woterm**|[woterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woterm-bin)|[woterm-bin](https://aur.archlinux.org/packages/woterm-bin)||
 |**wp-desktop**|[wp-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wp-desktop-bin)|[wp-desktop-bin](https://aur.archlinux.org/packages/wp-desktop-bin)||
