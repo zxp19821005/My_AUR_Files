@@ -703,6 +703,7 @@
 |**podman-desktop-companion**|[podman-desktop-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-bin)|[podman-desktop-companion-bin](https://aur.archlinux.org/packages/podman-desktop-companion-bin)||
 |**poi**|[poi-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/poi-git)|[poi-git](https://aur.archlinux.org/packages/poi-git)||
 |**polar**|[polar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-bin)|[polar-bin](https://aur.archlinux.org/packages/polar-bin)||
+|**polybase**|[polybase-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/polybase-git)|[polybase-git](https://aur.archlinux.org/packages/polybase-git)||
 |**polyglot-ai**|[polyglot-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-ai-bin)|[polyglot-ai-bin](https://aur.archlinux.org/packages/polyglot-ai-bin)||
 |**pomodoro**|[pomodoro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomodoro-bin)|[pomodoro-bin](https://aur.archlinux.org/packages/pomodoro-bin)||
 |**pomodoro-timer**|[pomodoro-timer](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomodoro-timer)|[pomodoro-timer](https://aur.archlinux.org/packages/pomodoro-timer)||
