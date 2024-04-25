@@ -2,8 +2,8 @@
 pkgname=deskcal-bin
 _appname=Deskcal
 pkgver=1.0.6
-_electronversion=20
-pkgrel=9
+_electronversion=13
+pkgrel=10
 pkgdesc="An unofficial cross-platform desktop Google Calendar application."
 arch=('x86_64')
 url="https://github.com/cognophile/Deskcal"
@@ -11,7 +11,7 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}-bin"
+    "electron${_electronversion}"
     'nodejs'
 )
 makedepends=(
