@@ -346,6 +346,7 @@
 |**frame-eth**|[frame-eth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-eth-bin)|[frame-eth-bin](https://aur.archlinux.org/packages/frame-eth-bin)||
 |**frappe-books**|[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
 |**freac**|[freac-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/freac-bin)|[freac-bin](https://aur.archlinux.org/packages/freac-bin)||
+|**freedomgpt**|[freedomgpt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/freedomgpt-git)|[freedomgpt-git](https://aur.archlinux.org/packages/freedomgpt-git)||
 |**frigoligo**|[frigoligo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frigoligo-bin)|[frigoligo-bin](https://aur.archlinux.org/packages/frigoligo-bin)||
 |**frontimer**|[frontimer](https://github.com/zxp19821005/My_AUR_Files/tree/main/frontimer)<br>[frontimer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frontimer-bin)|[frontimer](https://aur.archlinux.org/packages/frontimer)<br>[frontimer-bin](https://aur.archlinux.org/packages/frontimer-bin)||
 |**frosch**|[frosch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frosch-bin)|[frosch-bin](https://aur.archlinux.org/packages/frosch-bin)||
