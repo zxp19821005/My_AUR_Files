@@ -826,7 +826,7 @@
 |**simple-web-server**|[simple-web-server](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server)<br>[simple-web-server-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-web-server-bin)|[simple-web-server](https://aur.archlinux.org/packages/simple-web-server)<br>[simple-web-server-bin](https://aur.archlinux.org/packages/simple-web-server-bin)||
 |**singland**|[singland-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/singland-bin)|[singland-bin](https://aur.archlinux.org/packages/singland-bin)||
 |**sixgrid**|[sixgrid-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sixgrid-bin)|[sixgrid-bin](https://aur.archlinux.org/packages/sixgrid-bin)||
-|**siyuan**|[siyuan-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/siyuan-git)|[siyuan-git](https://aur.archlinux.org/packages/siyuan-git)||
+|**siyuan**|[siyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/siyuan)<br>[siyuan-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/siyuan-git)|[siyuan](https://aur.archlinux.org/packages/siyuan)<br>[siyuan-git](https://aur.archlinux.org/packages/siyuan-git)||
 |**siyuan-note**|[siyuan-note-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/siyuan-note-bin)|[siyuan-note-bin](https://aur.archlinux.org/packages/siyuan-note-bin)||
 |**skm**|[skm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/skm-bin)|[skm-bin](https://aur.archlinux.org/packages/skm-bin)||
 |**slack-on-keys**|[slack-on-keys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slack-on-keys-bin)|[slack-on-keys-bin](https://aur.archlinux.org/packages/slack-on-keys-bin)||
