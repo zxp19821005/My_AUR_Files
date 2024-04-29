@@ -953,6 +953,7 @@
 |**typora-free-with-plugin**|[typora-free-with-plugin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typora-free-with-plugin)|[typora-free-with-plugin](https://aur.archlinux.org/packages/typora-free-with-plugin)||
 |**typst-book**|[typst-book-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typst-book-bin)|[typst-book-bin](https://aur.archlinux.org/packages/typst-book-bin)||
 |**ubports-installer**|[ubports-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-bin)|[ubports-installer-bin](https://aur.archlinux.org/packages/ubports-installer-bin)||
+|**udeler**|[udeler](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler)<br>[udeler-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-git)|[udeler](https://aur.archlinux.org/packages/udeler)<br>[udeler-git](https://aur.archlinux.org/packages/udeler-git)||
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
 |**uivonim**|[uivonim-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-bin)<br>[uivonim-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-git)|[uivonim-bin](https://aur.archlinux.org/packages/uivonim-bin)<br>[uivonim-git](https://aur.archlinux.org/packages/uivonim-git)||
 |**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
