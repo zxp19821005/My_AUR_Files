@@ -763,6 +763,7 @@
 |**recode-converter**|[recode-converter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/recode-converter-bin)|[recode-converter-bin](https://aur.archlinux.org/packages/recode-converter-bin)||
 |**redisfish**|[redisfish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisfish-bin)|[redisfish-bin](https://aur.archlinux.org/packages/redisfish-bin)||
 |**redis-gui**|[redis-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-bin)|[redis-gui-bin](https://aur.archlinux.org/packages/redis-gui-bin)||
+|**redisinsight**|[redisinsight-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisinsight-git)|[redisinsight-git](https://aur.archlinux.org/packages/redisinsight-git)||
 |**redis-viewer**|[redis-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-bin)|[redis-viewer-bin](https://aur.archlinux.org/packages/redis-viewer-bin)||
 |**redpanda-cpp**|[redpanda-cpp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redpanda-cpp-bin)|[redpanda-cpp-bin](https://aur.archlinux.org/packages/redpanda-cpp-bin)||
 |**refi-app**|[refi-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/refi-app-bin)|[refi-app-bin](https://aur.archlinux.org/packages/refi-app-bin)||
