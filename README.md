@@ -921,7 +921,6 @@
 |**tiny-rdm**|[tiny-rdm](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-rdm)<br>[tiny-rdm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-rdm-git)|[tiny-rdm](https://aur.archlinux.org/packages/tiny-rdm)<br>[tiny-rdm-git](https://aur.archlinux.org/packages/tiny-rdm-git)||
 |**tithree**|[tithree](https://github.com/zxp19821005/My_AUR_Files/tree/main/tithree)|[tithree](https://aur.archlinux.org/packages/tithree)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
-|**tm-desktop**|[tm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tm-desktop-bin)|[tm-desktop-bin](https://aur.archlinux.org/packages/tm-desktop-bin)||
 |**tockler**|[tockler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-bin)|[tockler-bin](https://aur.archlinux.org/packages/tockler-bin)||
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)<br>[todometer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-git)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)<br>[todometer-git](https://aur.archlinux.org/packages/todometer-git)||
 |**tomatox**|[tomatox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-bin)|[tomatox-bin](https://aur.archlinux.org/packages/tomatox-bin)||
