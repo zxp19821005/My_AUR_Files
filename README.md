@@ -75,6 +75,7 @@
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
 |**appimagepool**|[appimagepool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/appimagepool-bin)|[appimagepool-bin](https://aur.archlinux.org/packages/appimagepool-bin)||
 |**apple-music**|[apple-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-bin)|[apple-music-bin](https://aur.archlinux.org/packages/apple-music-bin)||
+|**apple-music-electron**|[apple-music-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-git)|[apple-music-electron-git](https://aur.archlinux.org/packages/apple-music-electron-git)||
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
 |**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
