@@ -257,7 +257,7 @@
 |**ecency-surfer**|[ecency-surfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-bin)|[ecency-surfer-bin](https://aur.archlinux.org/packages/ecency-surfer-bin)||
 |**ecloud**|[ecloud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecloud-bin)|[ecloud-bin](https://aur.archlinux.org/packages/ecloud-bin)||
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
-|**electerm**|[electerm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-git)|[electerm-git](https://aur.archlinux.org/packages/electerm-git)||
+|**electerm**|[electerm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-bin)<br>[electerm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-git)|自用)<br>[electerm-git](https://aur.archlinux.org/packages/electerm-git)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
 |**electron30**|[electron30-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-bin)|[electron30-bin](https://aur.archlinux.org/packages/electron30-bin)||
