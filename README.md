@@ -92,6 +92,7 @@
 |**awakened-poe-trade**|[awakened-poe-trade-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awakened-poe-trade-bin)|[awakened-poe-trade-bin](https://aur.archlinux.org/packages/awakened-poe-trade-bin)||
 |**awsaml**|[awsaml-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awsaml-bin)|[awsaml-bin](https://aur.archlinux.org/packages/awsaml-bin)||
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
+|**baidu-translate-client**|[baidu-translate-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-client-bin)|自用版||
 |**baize-toolbox**|[baize-toolbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/baize-toolbox-git)|[baize-toolbox-git](https://aur.archlinux.org/packages/baize-toolbox-git)||
 |**barklarm**|[barklarm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/barklarm-bin)|[barklarm-bin](https://aur.archlinux.org/packages/barklarm-bin)||
 |**basic-blackjack**|[basic-blackjack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/basic-blackjack-bin)|[basic-blackjack-bin](https://aur.archlinux.org/packages/basic-blackjack-bin)||
