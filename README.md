@@ -363,8 +363,8 @@
 |**fuzzynote**|[fuzzynote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fuzzynote-bin)|[fuzzynote-bin](https://aur.archlinux.org/packages/fuzzynote-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**fxradio**|[fxradio](https://github.com/zxp19821005/My_AUR_Files/tree/main/fxradio)|[fxradio](https://aur.archlinux.org/packages/fxradio)||
-|**yakuza**|[yakuza-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakuza-bin)|[yakuza-bin](https://aur.archlinux.org/packages/yakuza-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
+|**gameclock**|[gameclock-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-git)|[gameclock-git](https://aur.archlinux.org/packages/gameclock-git)||
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
@@ -1060,6 +1060,7 @@
 |**xuanxuan**|[xuanxuan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xuanxuan-bin)|[xuanxuan-bin](https://aur.archlinux.org/packages/xuanxuan-bin)||
 |**xunscore**|[xunscore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xunscore-bin)|[xunscore-bin](https://aur.archlinux.org/packages/xunscore-bin)||
 |**y2mp3**|[y2mp3-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/y2mp3-appimage)|[y2mp3-appimage](https://aur.archlinux.org/packages/y2mp3-appimage)||
+|**yakuza**|[yakuza-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakuza-bin)|[yakuza-bin](https://aur.archlinux.org/packages/yakuza-bin)||
 |**yakyak**|[yakyak-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakyak-bin)|[yakyak-bin](https://aur.archlinux.org/packages/yakyak-bin)||
 |**yana**|[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yank-note**|[yank-note](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note)<br>[yank-note-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-bin)<br>[yank-note-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-git)|[yank-note](https://aur.archlinux.org/packages/yank-note)<br>[yank-note-bin](https://aur.archlinux.org/packages/yank-note-bin)<br>[yank-note-git](https://aur.archlinux.org/packages/yank-note-git)||
