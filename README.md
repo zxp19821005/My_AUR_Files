@@ -687,6 +687,7 @@
 |**passbox**|[passbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/passbox)|[passbox](https://aur.archlinux.org/packages/passbox)||
 |**passky-desktop**|[passky-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passky-desktop-bin)|[passky-desktop-bin](https://aur.archlinux.org/packages/passky-desktop-bin)||
 |**passwordsafe**|[passwordsafe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsafe-bin)|[passwordsafe-bin](https://aur.archlinux.org/packages/passwordsafe-bin)||
+|**passwordsecure**|[passwordsecure-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsecure-bin)|[passwordsecure-bin](https://aur.archlinux.org/packages/passwordsecure-bin)||
 |**password-strength-checker**|[password-strength-checker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/password-strength-checker-bin)|[password-strength-checker-bin](https://aur.archlinux.org/packages/password-strength-checker-bin)||
 |**paster**|[paster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paster-bin)|[paster-bin](https://aur.archlinux.org/packages/paster-bin)||
 |**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)||
