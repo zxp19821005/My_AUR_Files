@@ -328,6 +328,7 @@
 |**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
 |**finance-manager**|[finance-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/finance-manager-git)|[finance-manager-git](https://aur.archlinux.org/packages/finance-manager-git)||
 |**fireblocks-recovery-utility**|[fireblocks-recovery-utility-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fireblocks-recovery-utility-bin)|[fireblocks-recovery-utility-bin](https://aur.archlinux.org/packages/fireblocks-recovery-utility-bin)||
+|**firefly-canary-desktop**|[firefly-canary-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-canary-desktop-bin)|[firefly-canary-desktop-bin](https://aur.archlinux.org/packages/firefly-canary-desktop-bin)||
 |**firefly-iota-desktop**|[firefly-iota-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-iota-desktop-bin)|[firefly-iota-desktop-bin](https://aur.archlinux.org/packages/firefly-iota-desktop-bin)||
 |**firefly-shimmer-desktop**|[firefly-shimmer-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-shimmer-desktop-bin)|[firefly-shimmer-desktop-bin](https://aur.archlinux.org/packages/firefly-shimmer-desktop-bin)||
 |**fishing-funds**|[fishing-funds-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-bin)|[fishing-funds-bin](https://aur.archlinux.org/packages/fishing-funds-bin)||
