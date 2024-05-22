@@ -99,7 +99,7 @@
 |**batch-explorer**|[batch-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-bin)|[batch-explorer-bin](https://aur.archlinux.org/packages/batch-explorer-bin)||
 |**bbg**|[bbg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-bin)|[bbg-bin](https://aur.archlinux.org/packages/bbg-bin)||
 |**bcrypt-sandbox**|[bcrypt-sandbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bcrypt-sandbox-bin)|[bcrypt-sandbox-bin](https://aur.archlinux.org/packages/bcrypt-sandbox-bin)||
-|**bdash**|[bdash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-bin)|[bdash-bin](https://aur.archlinux.org/packages/bdash-bin)||
+|**bdash**|[bdash-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-bin)<br>[bdash-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bdash-git)|[bdash-bin](https://aur.archlinux.org/packages/bdash-bin)<br>[bdash-git](https://aur.archlinux.org/packages/bdash-git)||
 |**beam-wallet**|[beam-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/beam-wallet-bin)|[beam-wallet-bin](https://aur.archlinux.org/packages/beam-wallet-bin)||
 |**bear-graph**|[bear-graph](https://github.com/zxp19821005/My_AUR_Files/tree/main/bear-graph)|[bear-graph](https://aur.archlinux.org/packages/bear-graph)||
 |**beekeeper-studio**|[beekeeper-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/beekeeper-studio-git)|[beekeeper-studio-git](https://aur.archlinux.org/packages/beekeeper-studio-git)||
