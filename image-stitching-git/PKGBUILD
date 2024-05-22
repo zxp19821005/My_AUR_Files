@@ -1,28 +1,29 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-# Contributor: iFlygo
-pkgname=figma-linux-git
-_pkgname=Figma-linux
-pkgver=0.11.3.r3.gb33dd1d
-_electronversion=29
+pkgname=image-stitching-git
+_pkgname="${pkgname%-git}-electron-app"
+_appname="AI Image Stitcher"
+pkgver=1.4.r1.gf07e2cd
+_electronversion=27
 _nodeversion=18
 pkgrel=1
-arch=("any")
-pkgdesc="The collaborative interface design tool. Unofficial Figma desktop client for Linux"
-url="https://github.com/Figma-Linux/figma-linux"
-license=("GPL-2.0-only")
-provides=("${pkgname%-git}")
+pkgdesc="This Image Stitcher was specifically built to stitch images in a horizontal layout one after the other from left to right. Primarily used for stitching multiple seperate images of a single scratch together."
+arch=('any')
+url="https://github.com/DevanshuSawant/image-stitching-electron-app"
+license=('MIT')
 conflicts=("${pkgname%-git}")
+provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
     "electron${_electronversion}"
-    'libdbusmenu-gtk3'
-    'libdbusmenu-glib'
+    'python'
+    'python-setuptools'
+    'nodejs'
 )
 makedepends=(
     'gendesk'
-    'git'
-    'nvm'
     'npm'
+    'nvm'
     'curl'
+    'git'
 )
 source=(
     "${pkgname%-git}.git::git+${url}.git"
@@ -34,7 +35,6 @@ pkgver() {
     cd "${srcdir}/${pkgname%-git}.git"
     git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g'
 }
-
 _ensure_local_nvm() {
     export NVM_DIR="${srcdir}/.nvm"
     source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
@@ -43,13 +43,13 @@ _ensure_local_nvm() {
 }
 build() {
     sed -e "s|@electronversion@|${_electronversion}|" \
-        -e "s|@appname@|${pkgname}|g" \
+        -e "s|@appname@|${pkgname%-git}|g" \
         -e "s|@runname@|app.asar|g" \
-        -e "s|@cfgdirname@|${pkgname%-git}|g" \
+        -e "s|@cfgdirname@|${pkgname}|g" \
         -e "s|@options@|env ELECTRON_OZONE_PLATFORM_HINT=auto|g" \
         -i "${srcdir}/${pkgname%-git}.sh"
     _ensure_local_nvm
-    gendesk -f -n -q --pkgname="${pkgname%-git}" --pkgdesc="${pkgdesc}" --categories="Utility" --name="${_pkgname}" --exec="${pkgname} %U"
+    gendesk -f -n -q --pkgname="${pkgname%-git}" --pkgdesc="${pkgdesc}" --categories="Utility" --name="${_pkgname}" --exec="${pkgname%-git} %U"
     cd "${srcdir}/${pkgname%-git}.git"
     export npm_config_build_from_source=true
     export npm_config_cache="${srcdir}/.npm_cache"
@@ -66,23 +66,14 @@ build() {
     else
         echo "Your network is OK."
     fi
-    sed "s|--config=config/builder.json -l|--config=config/builder.json -l --dir|g" -i package.json
-    sed 's|"output": "build/installers"|"output": "build"|g' -i config/builder.json
-    npm install --no-frozen-lockfile
+    sed "s|\/\/ asar|asar|g" -i forge.config.js
+    npm install
     npm run package
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux-"*/resources/app.asar -t "${pkgdir}/usr/lib/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux-"*/icons/* -t "${pkgdir}/usr/lib/${pkgname%-git}/icons"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux-"*/lib/*/* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux-"*/usr/lib/*/*.* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux-"*/usr/lib/*/nss/* -t "${pkgdir}/usr/lib/${pkgname%-git}/lib"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux-"*/swiftshader/* -t "${pkgdir}/usr/lib/${pkgname%-git}/swiftshader"
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/out/${_appname}-linux-"*/resources/app.asar -t "${pkgdir}/usr/lib/${pkgname%-git}"
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/src/assets/square-smt-logo.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}"
     install -Dm644 "${srcdir}/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    for _icons in 24x24 36x36 48x48 64x64 72x72 96x96 128x128 192x192 256x256 384x384 512x512 scalable;do
-        install -Dm644 "${srcdir}/${pkgname%-git}.git/lib/icons/${_icons}."* \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}."*
-    done
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/out/${_appname}-linux-"*/LICENSE* -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
