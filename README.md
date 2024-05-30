@@ -184,7 +184,7 @@
 |**copytranslator**|[copytranslator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-bin)|[copytranslator-bin](https://aur.archlinux.org/packages/copytranslator-bin)||
 |**cosmonium**|[cosmonium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cosmonium-bin)|[cosmonium-bin](https://aur.archlinux.org/packages/cosmonium-bin)||
 |**cpeditor**|[cpeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cpeditor-bin)|[cpeditor-bin](https://aur.archlinux.org/packages/cpeditor-bin)||
-|**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)||
+|**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin)<br>[crankshaft-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-git)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin)<br>[crankshaft-client-git](https://aur.archlinux.org/packages/crankshaft-client-git)||
 |**craze**|[craze](https://github.com/zxp19821005/My_AUR_Files/tree/main/craze)|[craze](https://aur.archlinux.org/packages/craze)||
 |**creamplayer**|[creamplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/creamplayer)|[creamplayer](https://aur.archlinux.org/packages/creamplayer)||
 |**cryptique**|[cryptique-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cryptique-git)|[cryptique-git](https://aur.archlinux.org/packages/cryptique-git)||
