@@ -670,7 +670,6 @@
 |**ostara**|[ostara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ostara-appimage)|[ostara-appimage](https://aur.archlinux.org/packages/ostara-appimage)||
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
-|**ouch**|[ouch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ouch-bin)|[ouch-bin](https://aur.archlinux.org/packages/ouch-bin)||
 |**outdated-snake**|[outdated-snake-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/outdated-snake-git)|[outdated-snake-git](https://aur.archlinux.org/packages/outdated-snake-git)||
 |**out-of-mind**|[out-of-mind-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/out-of-mind-git)|[out-of-mind-git](https://aur.archlinux.org/packages/out-of-mind-git)||
 |**overvue**|[overvue-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/overvue-git)|[overvue-git](https://aur.archlinux.org/packages/overvue-git)||
