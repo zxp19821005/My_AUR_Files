@@ -65,7 +65,7 @@
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**aniship**|[aniship-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-bin)|[aniship-bin](https://aur.archlinux.org/packages/aniship-bin)||
 |**anklang**|[anklang-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-bin)|[anklang-bin](https://aur.archlinux.org/packages/anklang-bin)||
-|**another-redis-desktop-manager**|[another-redis-desktop-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/another-redis-desktop-manager-bin)|[another-redis-desktop-manager-bin](https://aur.archlinux.org/packages/another-redis-desktop-manager-bin)||
+|**another-redis-desktop-manager**|[another-redis-desktop-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/another-redis-desktop-manager-bin)<br>[another-redis-desktop-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/another-redis-desktop-manager-git)|[another-redis-desktop-manager-bin](https://aur.archlinux.org/packages/another-redis-desktop-manager-bin)<br>[another-redis-desktop-manager-git](https://aur.archlinux.org/packages/another-redis-desktop-manager-git)||
 |**antares-sql**|[antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
 |**anubias**|[anubias-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-bin)|[anubias-bin](https://aur.archlinux.org/packages/anubias-bin)||
 |**any-sync-gui**|[any-sync-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/any-sync-gui)|[any-sync-gui](https://aur.archlinux.org/packages/any-sync-gui)||
