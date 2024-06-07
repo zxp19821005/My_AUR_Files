@@ -136,6 +136,7 @@
 |**budgeted-ui**|[budgeted-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/budgeted-ui-bin)|[budgeted-ui-bin](https://aur.archlinux.org/packages/budgeted-ui-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
 |**buttercup-desktop**|[buttercup-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-git)<br>[buttercup-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/buttercup-desktop-bin)|[buttercup-desktop-git](https://aur.archlinux.org/packages/buttercup-desktop-git)<br>[buttercup-desktop-bin](https://aur.archlinux.org/packages/buttercup-desktop-bin)||
+|**bytebackup**|[bytebackup-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bytebackup-git)|[bytebackup-git](https://aur.archlinux.org/packages/bytebackup-git)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**caprine-ng**|[caprine-ng-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-ng-git)|[caprine-ng-git](https://aur.archlinux.org/packages/caprine-ng-git)||
@@ -580,6 +581,7 @@
 |**miteiru**|[miteiru](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru)<br>[miteiru-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-bin)|[miteiru](https://aur.archlinux.org/packages/miteiru)<br>[miteiru-bin](https://aur.archlinux.org/packages/miteiru-bin)||
 |**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mkfont**|[mkfont](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkfont)|[mkfont](https://aur.archlinux.org/packages/mkfont)||
+|**mkeditor**|[mkeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkeditor-git)|[mkeditor-git](https://aur.archlinux.org/packages/mkeditor-git)||
 |**mmseqs2-search**|[mmseqs2-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-bin)|[mmseqs2-search-bin](https://aur.archlinux.org/packages/mmseqs2-search-bin)||
 |**mockery**|[mockery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockery-bin)|[mockery-bin](https://aur.archlinux.org/packages/mockery-bin)||
 |**mockoon**|[mockoon](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon)<br>[mockoon-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-git)|[mockoon](https://aur.archlinux.org/packages/mockoon)<br>[mockoon-git](https://aur.archlinux.org/packages/mockoon-git)||
