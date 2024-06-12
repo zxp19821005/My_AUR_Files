@@ -546,6 +546,7 @@
 |**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
 |**macchatgpt**|[macchatgpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/macchatgpt)|[macchatgpt](https://aur.archlinux.org/packages/macchatgpt)||
 |**maduchat-frontend**|[maduchat-frontend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maduchat-frontend-bin)|[maduchat-frontend-bin](https://aur.archlinux.org/packages/maduchat-frontend-bin)||
+|**magicavoxel-launcher**|[magicavoxel-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/magicavoxel-launcher-bin)|[magicavoxel-launcher-bin](https://aur.archlinux.org/packages/magicavoxel-launcher-bin)||
 |**magic-eye**|[magic-eye-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/magic-eye-bin)|[magic-eye-bin](https://aur.archlinux.org/packages/magic-eye-bin)||
 |**mailmaster**|[mailmaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailmaster-bin)|[mailmaster-bin](https://aur.archlinux.org/packages/mailmaster-bin)||
 |**mailspring**|[mailspring](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring)<br>[mailspring-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring-bin)|[mailspring](https://aur.archlinux.org/packages/mailspring)<br>[mailspring-bin](https://aur.archlinux.org/packages/mailspring-bin)||
