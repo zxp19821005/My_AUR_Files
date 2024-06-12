@@ -1001,6 +1001,7 @@
 |**vnstat-client**|[vnstat-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnstat-client-git)|[vnstat-client-git](https://aur.archlinux.org/packages/vnstat-client-git)||
 |**vocechat-desktop**|[vocechat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocechat-desktop-bin)|[vocechat-desktop-bin](https://aur.archlinux.org/packages/vocechat-desktop-bin)||
 |**vookiimageviewer**|[vookiimageviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vookiimageviewer-bin)|[vookiimageviewer-bin](https://aur.archlinux.org/packages/vookiimageviewer-bin)||
+|**vscodium-electron**|[vscodium-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodium-electron-bin)|[vscodium-electron-bin](https://aur.archlinux.org/packages/vscodium-electron-bin)||
 |**vscodius**|[vscodius-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodius-bin)|[vscodius-bin](https://aur.archlinux.org/packages/vscodius-bin)||
 |**vtm**|[vtm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vtm-bin)|[vtm-bin](https://aur.archlinux.org/packages/vtm-bin)||
 |**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
