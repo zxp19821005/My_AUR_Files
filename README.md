@@ -536,6 +536,7 @@
 |**lucashazardous-music-player**|[lucashazardous-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lucashazardous-music-player-bin)|[lucashazardous-music-player-bin](https://aur.archlinux.org/packages/lucashazardous-music-player-bin)||
 |**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
 |**lunarcalendar**|[lunarcalendar-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-appimage)|[lunarcalendar-appimage](https://aur.archlinux.org/packages/lunarcalendar-appimage)||
+|**lunarwolf**|[lunarwolf-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarwolf-git)|[lunarwolf-git](https://aur.archlinux.org/packages/lunarwolf-git)||
 |**lvce**|[lvce-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-bin)|[lvce-bin](https://aur.archlinux.org/packages/lvce-bin)||
 |**lx-music-desktop**|[lx-music-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lx-music-desktop-bin)||自用版|
 |**lyrically**|[lyrically-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyrically-bin)|[lyrically-bin](https://aur.archlinux.org/packages/lyrically-bin)||
