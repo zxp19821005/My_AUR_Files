@@ -979,6 +979,7 @@
 |**ubports-installer**|[ubports-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-bin)|[ubports-installer-bin](https://aur.archlinux.org/packages/ubports-installer-bin)||
 |**udeler**|[udeler](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler)<br>[udeler-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-git)|[udeler](https://aur.archlinux.org/packages/udeler)<br>[udeler-git](https://aur.archlinux.org/packages/udeler-git)||
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
+|**ueli**|[ueli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ueli-bin)|[ueli-bin](https://aur.archlinux.org/packages/ueli-bin)||
 |**uivonim**|[uivonim-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-bin)<br>[uivonim-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/uivonim-git)|[uivonim-bin](https://aur.archlinux.org/packages/uivonim-bin)<br>[uivonim-git](https://aur.archlinux.org/packages/uivonim-git)||
 |**ulogviewer**|[ulogviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ulogviewer-bin)|[ulogviewer-bin](https://aur.archlinux.org/packages/ulogviewer-bin)||
 |**unoffical-wallhaven-desktop**|[unoffical-wallhaven-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-wallhaven-desktop-git)|[unoffical-wallhaven-desktop-git](https://aur.archlinux.org/packages/unoffical-wallhaven-desktop-git)||
