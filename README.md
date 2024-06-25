@@ -373,6 +373,7 @@
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
+|**gensokyo**|[gensokyo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gensokyo-bin)|[gensokyo-bin](https://aur.archlinux.org/packages/gensokyo-bin)||
 |**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat)<br>[ghost-chat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat-git)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat)<br>[ghost-chat-git](https://aur.archlinux.org/packages/ghost-chat-git)||
 |**giada**|[giada-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-bin)|[giada-bin](https://aur.archlinux.org/packages/giada-bin)||
 |**git-good**|[git-good-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-bin)|[git-good-bin](https://aur.archlinux.org/packages/git-good-bin)||
