@@ -663,6 +663,7 @@
 |**ohmymd**|[ohmymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ohmymd-bin)|[ohmymd-bin](https://aur.archlinux.org/packages/ohmymd-bin)||
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-bin)|[onekey-wallet-bin](https://aur.archlinux.org/packages/onekey-wallet-bin)||
+|**onemouse**|[onemouse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onemouse-bin)|[onemouse-bin](https://aur.archlinux.org/packages/onemouse-bin)||
 |**only-refs**|[only-refs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/only-refs-bin)|[only-refs-bin](https://aur.archlinux.org/packages/only-refs-bin)||
 |**onote**|[onote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onote-bin)|[onote-bin](https://aur.archlinux.org/packages/onote-bin)||
 |**ooniprobe-desktop**|[ooniprobe-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ooniprobe-desktop-bin)|[ooniprobe-desktop-bin](https://aur.archlinux.org/packages/ooniprobe-desktop-bin)||
