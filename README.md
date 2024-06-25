@@ -262,6 +262,7 @@
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
 |**electerm**|[electerm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-bin)<br>[electerm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-git)|自用)<br>[electerm-git](https://aur.archlinux.org/packages/electerm-git)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
+|**electron17**|[electron17-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron17-bin)|[electron17-bin](https://aur.archlinux.org/packages/electron17-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
 |**electron30**|[electron30-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-bin)|[electron30-bin](https://aur.archlinux.org/packages/electron30-bin)||
 |**electron31**|[electron31-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron31-bin)|[electron31-bin](https://aur.archlinux.org/packages/electron31-bin)||
