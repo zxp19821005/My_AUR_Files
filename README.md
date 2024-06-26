@@ -264,6 +264,7 @@
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
 |**electron10**|[electron10-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron10-bin)|[electron10-bin](https://aur.archlinux.org/packages/electron10-bin)||
 |**electron11**|[electron11-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron11-bin)|[electron11-bin](https://aur.archlinux.org/packages/electron11-bin)||
+|**electron12**|[electron12-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron12-bin)|[electron12-bin](https://aur.archlinux.org/packages/electron12-bin)||
 |**electron13**|[electron13-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron13-bin)|[electron13-bin](https://aur.archlinux.org/packages/electron13-bin)||
 |**electron14**|[electron14-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron14-bin)|[electron14-bin](https://aur.archlinux.org/packages/electron14-bin)||
 |**electron15**|[electron15-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron15-bin)|[electron15-bin](https://aur.archlinux.org/packages/electron15-bin)||
