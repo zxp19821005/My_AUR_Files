@@ -269,6 +269,7 @@
 |**electron17**|[electron17-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron17-bin)|[electron17-bin](https://aur.archlinux.org/packages/electron17-bin)||
 |**electron18**|[electron18-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron18-bin)|[electron18-bin](https://aur.archlinux.org/packages/electron18-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
+|**electron21**|[electron21-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron21-bin)|[electron21-bin](https://aur.archlinux.org/packages/electron21-bin)||
 |**electron30**|[electron30-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-bin)|[electron30-bin](https://aur.archlinux.org/packages/electron30-bin)||
 |**electron31**|[electron31-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron31-bin)|[electron31-bin](https://aur.archlinux.org/packages/electron31-bin)||
 |**electron32**|[electron32-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron32-bin)|[electron32-bin](https://aur.archlinux.org/packages/electron32-bin)||
