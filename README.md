@@ -273,6 +273,7 @@
 |**electron30**|[electron30-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-bin)|[electron30-bin](https://aur.archlinux.org/packages/electron30-bin)||
 |**electron31**|[electron31-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron31-bin)|[electron31-bin](https://aur.archlinux.org/packages/electron31-bin)||
 |**electron32**|[electron32-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron32-bin)|[electron32-bin](https://aur.archlinux.org/packages/electron32-bin)||
+|**electron9**|[electron9-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron9-bin)|[electron9-bin](https://aur.archlinux.org/packages/electron9-bin)||
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
 |**electron-devdocs**|[electron-devdocs-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-devdocs-git)|[electron-devdocs-git](https://aur.archlinux.org/packages/electron-devdocs-git)||
