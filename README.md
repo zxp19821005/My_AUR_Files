@@ -263,6 +263,7 @@
 |**electerm**|[electerm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-bin)<br>[electerm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-git)|自用)<br>[electerm-git](https://aur.archlinux.org/packages/electerm-git)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
 |**electron13**|[electron13-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron13-bin)|[electron13-bin](https://aur.archlinux.org/packages/electron13-bin)||
+|**electron15**|[electron15-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron15-bin)|[electron15-bin](https://aur.archlinux.org/packages/electron15-bin)||
 |**electron16**|[electron16-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron16-bin)|[electron16-bin](https://aur.archlinux.org/packages/electron16-bin)||
 |**electron17**|[electron17-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron17-bin)|[electron17-bin](https://aur.archlinux.org/packages/electron17-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
