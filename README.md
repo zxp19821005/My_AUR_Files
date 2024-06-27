@@ -1046,7 +1046,6 @@
 |**weimail**|[weimail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weimail-bin)|[weimail-bin](https://aur.archlinux.org/packages/weimail-bin)||
 |**werckmeister**|[werckmeister-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/werckmeister-bin)|[werckmeister-bin](https://aur.archlinux.org/packages/werckmeister-bin)||
 |**weread**|[unoffical-weread-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-weread-appimage)<br>[weread-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/weread-pake)|[unoffical-weread-appimage](https://aur.archlinux.org/packages/unoffical-weread-appimage)<br>[weread-pake](https://aur.archlinux.org/packages/weread-pake)||
-|**wewechat++**|[wewechat++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wewechat++-bin)|[wewechat++-bin](https://aur.archlinux.org/packages/wewechat++-bin)||
 |**whalebird**|[whalebird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whalebird-bin)|[whalebird-bin](https://aur.archlinux.org/packages/whalebird-bin)||
 |**whatsapp-electron**|[whatsapp-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-electron-bin)|[whatsapp-electron-bin](https://aur.archlinux.org/packages/whatsapp-electron-bin)||
 |**whatstron**|[whatstron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatstron-bin)|[whatstron-bin](https://aur.archlinux.org/packages/whatstron-bin)||
