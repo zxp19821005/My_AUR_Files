@@ -597,6 +597,7 @@
 |**miru**|[miru-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miru-git)|[miru-git](https://aur.archlinux.org/packages/miru-git)||
 |**miru-viewer**|[miru-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miru-viewer-git)|[miru-viewer-git](https://aur.archlinux.org/packages/miru-viewer-git)||
 |**miteiru**|[miteiru](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru)<br>[miteiru-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-bin)|[miteiru](https://aur.archlinux.org/packages/miteiru)<br>[miteiru-bin](https://aur.archlinux.org/packages/miteiru-bin)||
+|**miuzcpc**|[miuzcpc-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miuzcpc-git)|[miuzcpc-git](https://aur.archlinux.org/packages/miuzcpc-git)||
 |**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mkfont**|[mkfont](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkfont)|[mkfont](https://aur.archlinux.org/packages/mkfont)||
 |**mkeditor**|[mkeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkeditor-git)|[mkeditor-git](https://aur.archlinux.org/packages/mkeditor-git)||
