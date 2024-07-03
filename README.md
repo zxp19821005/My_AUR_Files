@@ -1063,6 +1063,7 @@
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
 |**woniu-ali**|[woniu-ali-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woniu-ali-bin)|[woniu-ali-bin](https://aur.archlinux.org/packages/woniu-ali-bin)||
 |**woocommerce-pos**|[woocommerce-pos](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos)<br>[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos](https://aur.archlinux.org/packages/woocommerce-pos)<br>[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
+|**wora**|[wora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-bin)<br>[wora-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-git)|[wora-bin](https://aur.archlinux.org/packages/wora-bin)<br>[wora-git](https://aur.archlinux.org/packages/wora-git)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**wordpress-studio**|[wordpress-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wordpress-studio-git)|[wordpress-studio-git](https://aur.archlinux.org/packages/wordpress-studio-git)||
 |**work-log-ify**|[work-log-ify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/work-log-ify-git)|[work-log-ify-git](https://aur.archlinux.org/packages/work-log-ify-git)||
