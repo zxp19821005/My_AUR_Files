@@ -737,6 +737,7 @@
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**plow**|[plow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plow-bin)|[plow-bin](https://aur.archlinux.org/packages/plow-bin)||
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
+|**pocketyoutube**|[pocketyoutube-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocketyoutube-git)|[pocketyoutube-git](https://aur.archlinux.org/packages/pocketyoutube-git)||
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
 |**podman-desktop-companion**|[podman-desktop-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-bin)|[podman-desktop-companion-bin](https://aur.archlinux.org/packages/podman-desktop-companion-bin)||
 |**poi**|[poi-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/poi-git)|[poi-git](https://aur.archlinux.org/packages/poi-git)||
