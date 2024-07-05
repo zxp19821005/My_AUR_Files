@@ -1100,6 +1100,7 @@
 |**youdao-dict**|[youdao-dict](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict)|[youdao-dict](https://aur.archlinux.org/packages/youdao-dict)||
 |**youku**|[youku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-bin)|[youku-bin](https://aur.archlinux.org/packages/youku-bin)||
 |**youtube-desktop**|[youtube-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-desktop-bin)|[youtube-desktop-bin](https://aur.archlinux.org/packages/youtube-desktop-bin)||
+|**youtube-downloader**|[youtube-downloader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-downloader-git)|[youtube-downloader-git](https://aur.archlinux.org/packages/youtube-downloader-git)||
 |**youtube-music-for-desktop**|[youtube-music-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-for-desktop-bin)|[youtube-music-for-desktop-bin](https://aur.archlinux.org/packages/youtube-music-for-desktop-bin)||
 |**youtube-music-next**|[youtube-music-next-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-next-bin)|[youtube-music-next-bin](https://aur.archlinux.org/packages/youtube-music-next-bin)||
 |**youtube-smarttv-emu**|[youtube-smarttv-emu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-smarttv-emu-bin)|[youtube-smarttv-emu-bin](https://aur.archlinux.org/packages/youtube-smarttv-emu-bin)||
