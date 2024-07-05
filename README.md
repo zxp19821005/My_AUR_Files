@@ -653,6 +653,7 @@
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
 |**nodeflow**|[nodeflow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-bin)|[nodeflow-bin](https://aur.archlinux.org/packages/nodeflow-bin)||
 |**node-snapdrop-electron**|[node-snapdrop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/node-snapdrop-electron-bin)|[node-snapdrop-electron-bin](https://aur.archlinux.org/packages/node-snapdrop-electron-bin)||
+|**node-toolkit**|[node-toolkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/node-toolkit-git)|[node-toolkit-git](https://aur.archlinux.org/packages/node-toolkit-git)||
 |**no-fwl**|[no-fwl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-bin)|[no-fwl-bin](https://aur.archlinux.org/packages/no-fwl-bin)||
 |**noi-desktop**|[noi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/noi-desktop-bin)|[noi-desktop-bin](https://aur.archlinux.org/packages/noi-desktop-bin)||
 |**nomino**|[nomino-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nomino-bin)|[nomino-bin](https://aur.archlinux.org/packages/nomino-bin)||
