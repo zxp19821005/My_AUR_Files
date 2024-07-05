@@ -967,6 +967,7 @@
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)<br>[todometer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-git)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)<br>[todometer-git](https://aur.archlinux.org/packages/todometer-git)||
 |**tomatox**|[tomatox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-bin)|[tomatox-bin](https://aur.archlinux.org/packages/tomatox-bin)||
 |**tome**|[tome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tome-bin)|[tome-bin](https://aur.archlinux.org/packages/tome-bin)||
+|**torepe**|[torepe-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/torepe-git)|[torepe-git](https://aur.archlinux.org/packages/torepe-git)||
 |**toughcookies**|[toughcookies-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/toughcookies-bin)|[toughcookies-bin](https://aur.archlinux.org/packages/toughcookies-bin)||
 |**translationcore**|[translationcore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/translationcore-bin)|[translationcore-bin](https://aur.archlinux.org/packages/translationcore-bin)||
 |**transmissionic**|[transmissionic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-bin)|[transmissionic-bin](https://aur.archlinux.org/packages/transmissionic-bin)||
