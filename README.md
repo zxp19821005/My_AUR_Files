@@ -985,6 +985,7 @@
 |**ttf-harmonyos-sans**|[ttf-harmonyos-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-harmonyos-sans)|[ttf-harmonyos-sans](https://aur.archlinux.org/packages/ttf-harmonyos-sans)||
 |**ttf-honor-sans**|[ttf-honor-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-honor-sans)|[ttf-honor-sans](https://aur.archlinux.org/packages/ttf-honor-sans)||
 |**ttf-i-ming-fonts**|[ttf-i-ming-fonts](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-i-ming-fonts)|[ttf-i-ming-fonts](https://aur.archlinux.org/packages/ttf-i-ming-fonts)||
+|**ttf-kingnam-bobohei**|[ttf-kingnam-bobohei](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-bobohei)|[ttf-kingnam-bobohei](https://aur.archlinux.org/packages/ttf-kingnam-bobohei)||
 |**ttf-kingnam-maiyuan**|[ttf-kingnam-maiyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-maiyuan)|[ttf-kingnam-maiyuan](https://aur.archlinux.org/packages/ttf-kingnam-maiyuan)||
 |**ttf-kingnam-yuanmo**|[ttf-kingnam-yuanmo](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-kingnam-yuanmo)|[ttf-kingnam-yuanmo](https://aur.archlinux.org/packages/ttf-kingnam-yuanmo)||
 |**ttf-maoken-heavy-labourer**|[ttf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-heavy-labourer)|[ttf-maoken-heavy-labourer](https://aur.archlinux.org/packages/ttf-maoken-heavy-labourer)||
