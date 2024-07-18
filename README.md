@@ -672,7 +672,7 @@
 |**nuclia-sync-agent**|[nuclia-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-sync-agent-bin)|[nuclia-sync-agent-bin](https://aur.archlinux.org/packages/nuclia-sync-agent-bin)||
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)|[nudge](https://aur.archlinux.org/packages/nudge)||
 |**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
-|**nvm-desktop**|[nvm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop)|[nvm-desktop](https://aur.archlinux.org/packages/nvm-desktop)||
+|**nvm-desktop**|[nvm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop)<br>[nvm-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-git)|[nvm-desktop](https://aur.archlinux.org/packages/nvm-desktop)<br>[nvm-desktop-git](https://aur.archlinux.org/packages/nvm-desktop-git)||
 |**nxshell**|[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**nzyme**|[nzyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nzyme-bin)|[nzyme-bin](https://aur.archlinux.org/packages/nzyme-bin)||
 |**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
