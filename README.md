@@ -634,6 +634,7 @@
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
 |**my-hardware**|[my-hardware-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-hardware-bin)|[my-hardware-bin](https://aur.archlinux.org/packages/my-hardware-bin)||
 |**my-yesplaymusic**|[my-yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-yesplaymusic-bin)|[my-yesplaymusic-bin](https://aur.archlinux.org/packages/my-yesplaymusic-bin)||
+|**napcat**|[napcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/napcat-bin)|[napcat-bin](https://aur.archlinux.org/packages/napcat-bin)||
 |**nativefier-gui**|[nativefier-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nativefier-gui-bin)|[nativefier-gui-bin](https://aur.archlinux.org/packages/nativefier-gui-bin)||
 |**nats-js-client**|[nats-js-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nats-js-client-bin)|[nats-js-client-bin](https://aur.archlinux.org/packages/nats-js-client-bin)||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
