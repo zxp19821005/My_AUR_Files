@@ -568,6 +568,7 @@
 |**mailmaster**|[mailmaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailmaster-bin)|[mailmaster-bin](https://aur.archlinux.org/packages/mailmaster-bin)||
 |**mailspring**|[mailspring](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring)<br>[mailspring-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mailspring-bin)|[mailspring](https://aur.archlinux.org/packages/mailspring)<br>[mailspring-bin](https://aur.archlinux.org/packages/mailspring-bin)||
 |**manyi-transformer**|[manyi-transformer](https://github.com/zxp19821005/My_AUR_Files/tree/main/manyi-transformer)|[manyi-transformer](https://aur.archlinux.org/packages/manyi-transformer)||
+|**map-download**|[map-download-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/map-download-git)|[map-download-git](https://aur.archlinux.org/packages/map-download-git)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
 |**markflowy**|[markflowy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/markflowy-bin)|[markflowy-bin](https://aur.archlinux.org/packages/markflowy-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
