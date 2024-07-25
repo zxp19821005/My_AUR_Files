@@ -647,6 +647,7 @@
 |**newpad**|[newpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/newpad-bin)<br>[newpad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/newpad-git)|[newpad-bin](https://aur.archlinux.org/packages/newpad-bin)<br>[newpad-git](https://aur.archlinux.org/packages/newpad-git)||
 |**next-library**|[next-library-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/next-library-bin)|[next-library-bin](https://aur.archlinux.org/packages/next-library-bin)||
 |**nexus-wallet**|[nexus-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nexus-wallet-bin)|[nexus-wallet-bin](https://aur.archlinux.org/packages/nexus-wallet-bin)||
+|**nfs-browser**|[nfs-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nfs-browser-bin)|[nfs-browser-bin](https://aur.archlinux.org/packages/nfs-browser-bin)||
 |**nft-tool**|[nft-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-tool-bin)|[nft-tool-bin](https://aur.archlinux.org/packages/nft-tool-bin)||
 |**nft-viewer**|[nft-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-viewer-bin)|[nft-viewer-bin](https://aur.archlinux.org/packages/nft-viewer-bin)||
 |**ngrev**|[ngrev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-bin)|[ngrev-bin](https://aur.archlinux.org/packages/ngrev-bin)||
