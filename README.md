@@ -735,6 +735,7 @@
 |**pharmaspot**|[pharmaspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pharmaspot-bin)|[pharmaspot-bin](https://aur.archlinux.org/packages/pharmaspot-bin)||
 |**photo-location-map**|[photo-location-map](https://github.com/zxp19821005/My_AUR_Files/tree/main/photo-location-map)|[photo-location-map](https://aur.archlinux.org/packages/photo-location-map)||
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
+|**phpwebstudy**|[phpwebstudy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/phpwebstudy-bin)|[phpwebstudy-bin](https://aur.archlinux.org/packages/phpwebstudy-bin)||
 |**picgo**|[picgo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-git)|[picgo-git](https://aur.archlinux.org/packages/picgo-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
 |**picturama**|[picturama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-bin)|[picturama-bin](https://aur.archlinux.org/packages/picturama-bin)||
