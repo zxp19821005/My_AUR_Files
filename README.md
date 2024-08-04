@@ -948,6 +948,7 @@
 |**tdl**|[tdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tdl-bin)|[tdl-bin](https://aur.archlinux.org/packages/tdl-bin)||
 |**tencent-docs-electron**|[tencent-docs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-docs-electron-bin)|[tencent-docs-electron-bin](https://aur.archlinux.org/packages/tencent-docs-electron-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
+|**tencentvideo**|[tencentvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencentvideo)|自用版||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**tenpi-music-player**|[tenpi-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tenpi-music-player-bin)|[tenpi-music-player-bin](https://aur.archlinux.org/packages/tenpi-music-player-bin)||
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||

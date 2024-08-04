@@ -1,0 +1,51 @@
+#Maintainer: weearc <q19981121@163.com>
+pkgname=tencentvideo
+_pkgname=tenvideo_universal
+_appname=TencentVideo
+_zhsname="腾讯视频"
+pkgver=1.0.10
+_electronversion=7
+pkgrel=2
+pkgdesc="China's leading online video media platform."
+arch=('x86_64')
+url="https://v.qq.com"
+license=('LicenseRef-custom')
+provides=(
+	"${pkgname%-bin}=${pkgver}"
+)
+conflicts=(
+	"${pkgname%-bin}"
+	"tenvideo"
+)
+depends=(
+    "electron${_electronversion}"
+)
+source=(
+	"${pkgname%-bin}-${pkgver}.rpm::https://dldir1.qq.com/qqtv/linux/Tenvideo_universal-${pkgver}.${arch}.rpm"
+	"LICENSE.htm::https://www.qq.com/contract20180827.htm"
+	"${pkgname%-bin}.sh"
+)
+sha256sums=('5f26f0cf722dac9dd764abbb860d709de3122f756e8e29e20944b40ac2e17fd1'
+            '94db2c6cb14d3be14985d8854bcc73f85563726885b900b844e3481f42f83739'
+            '2b2e8aeed33fd71c521e49fd54fb2fa81218d16aef8bccb88d77909055ab8051')
+build() {
+    sed -e "s|@electronversion@|${_electronversion}|g" \
+        -e "s|@appname@|${pkgname%-bin}|g" \
+        -e "s|@runname@|app|g" \
+        -e "s|@cfgdirname@|${_pkgname}|g" \
+        -e "s|@options@||g" \
+        -i "${srcdir}/${pkgname%-bin}.sh"
+    sed "s|\/opt\/_zhsname\/${pkgname%-bin}|${pkgname%-bin}|g;s|${_appname}|${pkgname%-bin}|g" \
+		-i "${srcdir}/usr/share/applications/${_appname}.desktop"
+}
+package() {
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/opt/${_zhsname}/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/opt/${_zhsname}/swiftshader/"* -t "${pkgdir}/usr/lib/${pkgname%-bin}/swiftshader"
+    install -Dm644 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	for _icons in 16x16 22x22 24x24 32x32 36x36 48x48 64x64 72x72 96x96 128x128 256x256;do
+    	install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${_appname}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png"
+	done
+    install -Dm644 "${srcdir}/LICENSE.htm" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
