@@ -1077,6 +1077,7 @@
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
 |**wire-desktop**|[wire-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wire-desktop-git)|[wire-desktop-git](https://aur.archlinux.org/packages/wire-desktop-git)||
 |**witsy**|[witsy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/witsy-bin)|[witsy-bin](https://aur.archlinux.org/packages/witsy-bin)||
+|**wiznote-desktop**|[wiznote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wiznote-desktop-bin)|[wiznote-desktop-bin](https://aur.archlinux.org/packages/wiznote-desktop-bin)||
 |**wiznoteplus**|[wiznoteplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wiznoteplus-bin)|[wiznoteplus-bin](https://aur.archlinux.org/packages/wiznoteplus-bin)||
 |**wj-markdown-editor**|[wj-markdown-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wj-markdown-editor-bin)<br>[wj-markdown-editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wj-markdown-editor-git)|[wj-markdown-editor-bin](https://aur.archlinux.org/packages/wj-markdown-editor-bin)<br>[wj-markdown-editor-git](https://aur.archlinux.org/packages/wj-markdown-editor-git)||
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
