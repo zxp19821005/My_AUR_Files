@@ -1010,6 +1010,7 @@
 |**tts-now**|[tts-now-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-now-bin)|[tts-now-bin](https://aur.archlinux.org/packages/tts-now-bin)||
 |**tts-vue**|[tts-vue](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-vue)|[tts-vue](https://aur.archlinux.org/packages/tts-vue)||
 |**tunasync**|[tunasync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tunasync-bin)|[tunasync-bin](https://aur.archlinux.org/packages/tunasync-bin)||
+|**turbowarp-desktop**|[turbowarp-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-git)|[turbowarp-desktop-git](https://aur.archlinux.org/packages/turbowarp-desktop-git)||
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**typesense-dashboard**|[typesense-dashboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typesense-dashboard-bin)|[typesense-dashboard-bin](https://aur.archlinux.org/packages/typesense-dashboard-bin)||
 |**typora-free-with-plugin**|[typora-free-with-plugin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typora-free-with-plugin)|[typora-free-with-plugin](https://aur.archlinux.org/packages/typora-free-with-plugin)||
