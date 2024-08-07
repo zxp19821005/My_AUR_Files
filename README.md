@@ -594,6 +594,7 @@
 |**metronome**|[metronome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/metronome-bin)|[metronome-bin](https://aur.archlinux.org/packages/metronome-bin)||
 |**mic-mutebar**|[mic-mutebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mic-mutebar-bin)|[mic-mutebar-bin](https://aur.archlinux.org/packages/mic-mutebar-bin)||
 |**microsoft-loop**|[unoffical-microsoft-loop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/microsoft-loop-pake)|[unoffical-microsoft-loop-appimage](https://aur.archlinux.org/packages/unoffical-microsoft-loop-appimage)<br>[microsoft-loop-pake](https://aur.archlinux.org/packages/microsoft-loop-pake)||
+|**mihomo-party**|[mihomo-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mihomo-party-bin)|自用版||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**minedigger**|[minedigger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minedigger-bin)|[minedigger-bin](https://aur.archlinux.org/packages/minedigger-bin)||
 |**mingo**|[mingo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mingo-bin)|[mingo-bin](https://aur.archlinux.org/packages/mingo-bin)||
