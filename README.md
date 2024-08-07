@@ -987,6 +987,7 @@
 |**transmissionic**|[transmissionic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-bin)|[transmissionic-bin](https://aur.archlinux.org/packages/transmissionic-bin)||
 |**trep-tracker**|[trep-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trep-tracker-bin)|[trep-tracker-bin](https://aur.archlinux.org/packages/trep-tracker-bin)||
 |**trilium-cn**|[trilium-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trilium-cn-bin)|自用版|
+|**triliumnext**|[triliumnext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/triliumnext-bin)|[triliumnext-bin](https://aur.archlinux.org/packages/triliumnext-bin)||
 |**tssh**|[tssh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tssh-bin)|[tssh-bin](https://aur.archlinux.org/packages/tssh-bin)||
 |**ttf-canger-feibai**|[ttf-canger-feibai](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-feibai)|[ttf-canger-feibai](https://aur.archlinux.org/packages/ttf-canger-feibai)||
 |**ttf-canger-shuyuan**|[ttf-canger-shuyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-shuyuan)|[ttf-canger-shuyuan](https://aur.archlinux.org/packages/ttf-canger-shuyuan)||
