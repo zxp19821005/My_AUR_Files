@@ -976,6 +976,7 @@
 |**timetrace**|[timetrace-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timetrace-bin)|[timetrace-bin](https://aur.archlinux.org/packages/timetrace-bin)||
 |**timetracker**|[timetracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timetracker-bin)|[timetracker-bin](https://aur.archlinux.org/packages/timetracker-bin)||
 |**tiny-rdm**|[tiny-rdm](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-rdm)<br>[tiny-rdm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-rdm-git)|[tiny-rdm](https://aur.archlinux.org/packages/tiny-rdm)<br>[tiny-rdm-git](https://aur.archlinux.org/packages/tiny-rdm-git)||
+|**tiny-webserver-gtk4**|[tiny-webserver-gtk4-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-webserver-gtk4-bin)|[tiny-webserver-gtk4-bin](https://aur.archlinux.org/packages/tiny-webserver-gtk4-bin)||
 |**tishare-desktop**|[tishare-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tishare-desktop-bin)|[tishare-desktop-bin](https://aur.archlinux.org/packages/tishare-desktop-bin)||
 |**tithree**|[tithree](https://github.com/zxp19821005/My_AUR_Files/tree/main/tithree)|[tithree](https://aur.archlinux.org/packages/tithree)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
