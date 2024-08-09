@@ -612,6 +612,7 @@
 |**mockery**|[mockery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockery-bin)|[mockery-bin](https://aur.archlinux.org/packages/mockery-bin)||
 |**mockoon**|[mockoon](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon)<br>[mockoon-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockoon-git)|[mockoon](https://aur.archlinux.org/packages/mockoon)<br>[mockoon-git](https://aur.archlinux.org/packages/mockoon-git)||
 |**modv**|[modv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/modv-bin)|[modv-bin](https://aur.archlinux.org/packages/modv-bin)||
+|**moebits-music-player**|[moebits-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moebits-music-player-bin)|[moebits-music-player-bin](https://aur.archlinux.org/packages/moebits-music-player-bin)||
 |**mogan**|[mogan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mogan-bin)|[mogan-bin](https://aur.archlinux.org/packages/mogan-bin)||
 |**monarch**|[monarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/monarch-bin)|[monarch-bin](https://aur.archlinux.org/packages/monarch-bin)||
 |**moneydance**|[moneydance-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moneydance-bin)|[moneydance-bin](https://aur.archlinux.org/packages/moneydance-bin)||
