@@ -601,6 +601,7 @@
 |**mini4wdchrono**|[mini4wdchrono-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini4wdchrono-bin)|[mini4wdchrono-bin](https://aur.archlinux.org/packages/mini4wdchrono-bin)||
 |**minify**|[minify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minify-bin)|[minify-bin](https://aur.archlinux.org/packages/minify-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
+|**minterm**|[minterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minterm-bin)|[minterm-bin](https://aur.archlinux.org/packages/minterm-bin)||
 |**miru**|[miru-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miru-git)|[miru-git](https://aur.archlinux.org/packages/miru-git)||
 |**miru-viewer**|[miru-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miru-viewer-git)|[miru-viewer-git](https://aur.archlinux.org/packages/miru-viewer-git)||
 |**miteiru**|[miteiru](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru)<br>[miteiru-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/miteiru-bin)|[miteiru](https://aur.archlinux.org/packages/miteiru)<br>[miteiru-bin](https://aur.archlinux.org/packages/miteiru-bin)||
