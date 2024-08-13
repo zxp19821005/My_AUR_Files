@@ -1,6 +1,6 @@
 # Maintainer: Michael Asher <michael@wesolveeverything.com>
 pkgname=electerm-bin
-pkgver=1.39.99
+pkgver=1.39.103
 _electronversion=26
 pkgrel=1
 pkgdesc="An electron-based SSH/SFTP Connection manager and terminal"
@@ -32,9 +32,9 @@ source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.deb::${_ghurl}/releases/downloa
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-amd64.deb")
 sha256sums=('a9b7ccf11bec7796b217a7575d3324c16613a46bfc899e72ec2c11da28d0991e'
             '2b2e8aeed33fd71c521e49fd54fb2fa81218d16aef8bccb88d77909055ab8051')
-sha256sums_aarch64=('56ce9b21f500196a685b7d78254a81f8a7f6d6dce8decd48f9d8042f3250257b')
-sha256sums_armv7h=('a3a60db02b7f0bf69591f12e4822b8e56994157c7a56067a2b9bae961faaf256')
-sha256sums_x86_64=('c18855141d5bb8929b41eb1c991d929fe943c4194c9c80671472f803e3574f11')
+sha256sums_aarch64=('9c2e5022febc065a98daefba56545a347007c07582fb185a222deb08751df169')
+sha256sums_armv7h=('148d568e9d8a6a32f69770142f381600da502a366903d1ca437fef9281df20ef')
+sha256sums_x86_64=('c077a98d414c476bd3b6d418374bb0cf6c57d2cf0ee33d954d1af6be9b67de93')
 build() {
     sed -e "s|@electronversion@|${_electronversion}|g" \
         -e "s|@appname@|${pkgname%-bin}|g" \
