@@ -447,6 +447,7 @@
 |**hexpick**|[hexpick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexpick-bin)|[hexpick-bin](https://aur.archlinux.org/packages/hexpick-bin)||
 |**hihat**|[hihat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hihat-git)|[hihat-git](https://aur.archlinux.org/packages/hihat-git)||
 |**hiregpt**|[hiregpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/hiregpt)|[hiregpt](https://aur.archlinux.org/packages/hiregpt)||
+|**hollama**|[hollama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hollama-bin)|[hollama-bin](https://aur.archlinux.org/packages/hollama-bin)||
 |**homeassistant-desktop**|[homeassistant-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/homeassistant-desktop-bin)|[homeassistant-desktop-bin](https://aur.archlinux.org/packages/homeassistant-desktop-bin)||
 |**hoptodesk**|[hoptodesk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoptodesk-bin)|[hoptodesk-bin](https://aur.archlinux.org/packages/hoptodesk-bin)||
 |**horanghill**|[horanghill-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/horanghill-bin)|[horanghill-bin](https://aur.archlinux.org/packages/horanghill-bin)||
