@@ -228,6 +228,7 @@
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
 |**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR上未提交|
 |**deepin-wine-yuque**|[deepin-wine-yuque](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-yuque)|[deepin-wine-yuque](https://aur.archlinux.org/packages/deepin-wine-yuque)||
+|**deepnotes**|[deepnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepnotes-bin)|[deepnotes-bin](https://aur.archlinux.org/packages/deepnotes-bin)||
 |**deskaide**|[deskaide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskaide-bin)|[deskaide-bin](https://aur.archlinux.org/packages/deskaide-bin)||
 |**deskcal**|[deskcal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskcal-bin)|[deskcal-bin](https://aur.archlinux.org/packages/deskcal-bin)||
 |**deskgpt**|[deskgpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskgpt-bin)|[deskgpt-bin](https://aur.archlinux.org/packages/deskgpt-bin)||
