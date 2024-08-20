@@ -632,6 +632,7 @@
 |**mpc-qt**|[mpc-qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mpc-qt-bin)|[mpc-qt-bin](https://aur.archlinux.org/packages/mpc-qt-bin)||
 |**mqtt5-explorer**|[mqtt5-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqtt5-explorer-bin)|[mqtt5-explorer-bin](https://aur.archlinux.org/packages/mqtt5-explorer-bin)||
 |**mqttx**|[mqttx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-git)|[mqttx-git](https://aur.archlinux.org/packages/mqttx-git)||
+|**ms-365-electron**|[ms-365-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/ms-365-electron)|[ms-365-electron](https://aur.archlinux.org/packages/ms-365-electron)||
 |**mubu**|[mubu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mubu-bin)|[mubu-bin](https://aur.archlinux.org/packages/mubu-bin)||
 |**mudita-center**|[mudita-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mudita-center-bin)|[mudita-center-bin](https://aur.archlinux.org/packages/mudita-center-bin)||
 |**mu-epub-viewer**|[mu-epub-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mu-epub-viewer-bin)<br>[mu-epub-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mu-epub-viewer-git)|[mu-epub-viewer-bin](https://aur.archlinux.org/packages/mu-epub-viewer-bin)<br>[mu-epub-viewer-git](https://aur.archlinux.org/packages/mu-epub-viewer-git)||
