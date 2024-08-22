@@ -241,6 +241,7 @@
 |**devhub**|[devhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devhub-bin)|[devhub-bin](https://aur.archlinux.org/packages/devhub-bin)||
 |**dialogcraft**|[dialogcraft](https://github.com/zxp19821005/My_AUR_Files/tree/main/dialogcraft)<br>[dialogcraft-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dialogcraft-bin)|[dialogcraft](https://aur.archlinux.org/packages/dialogcraft)<br>[dialogcraft-bin](https://aur.archlinux.org/packages/dialogcraft-bin)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
+|**dida365**|[dida365-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dida365-bin)|[dida365-bin](https://aur.archlinux.org/packages/dida365-bin)||
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**dilidili**|[dilidili-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dilidili-git)|[dilidili-git](https://aur.archlinux.org/packages/dilidili-git)||
 |**discord-netflix**|[discord-netflix](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-netflix)|[discord-netflix](https://aur.archlinux.org/packages/discord-netflix)||
