@@ -169,6 +169,7 @@
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**clickercompanion**|[clickercompanion](https://github.com/zxp19821005/My_AUR_Files/tree/main/clickercompanion)|[clickercompanion](https://aur.archlinux.org/packages/clickercompanion)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
+|**cloudhub**|[cloudhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudhub-bin)|[cloudhub-bin](https://aur.archlinux.org/packages/cloudhub-bin)||
 |**cloudpan189-go**|[cloudpan189-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudpan189-go-bin)|[cloudpan189-go-bin](https://aur.archlinux.org/packages/cloudpan189-go-bin)||
 |**coal-launcher**|[coal-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coal-launcher-bin)|[coal-launcher-bin](https://aur.archlinux.org/packages/coal-launcher-bin)||
 |**codegpt**|[codegpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codegpt-bin)|[codegpt-bin](https://aur.archlinux.org/packages/codegpt-bin)||
