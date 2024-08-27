@@ -120,6 +120,7 @@
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
 |**blueknight**|[blueknight-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blueknight-bin)|[blueknight-bin](https://aur.archlinux.org/packages/blueknight-bin)||
 |**boats-animator**|[boats-animator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boats-animator-bin)|[boats-animator-bin](https://aur.archlinux.org/packages/boats-animator-bin)||
+|**bonbon-browser**|[bonbon-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bonbon-browser-git)|[bonbon-browser-git](https://aur.archlinux.org/packages/bonbon-browser-git)||
 |**bookmarks-manager**|[bookmarks-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookmarks-manager-bin)|[bookmarks-manager-bin](https://aur.archlinux.org/packages/bookmarks-manager-bin)||
 |**bookord**|[bookord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookord-bin)<br>[bookord-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bookord-git)|[bookord-bin](https://aur.archlinux.org/packages/bookord-bin)<br>[bookord-git](https://aur.archlinux.org/packages/bookord-git)||
 |**boostchanger**|[boostchanger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boostchanger-bin)|[boostchanger-bin](https://aur.archlinux.org/packages/boostchanger-bin)||
