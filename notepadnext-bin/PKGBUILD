@@ -1,0 +1,49 @@
+# Maintainer: begin-theadventure <begin-thecontact.ncncb at dralias dot com>
+pkgname=notepadnext-bin
+_pkgname=NotepadNext
+pkgver=0.8
+pkgrel=1
+pkgdesc="A cross-platform, reimplementation of Notepad++ (binary release)"
+url="https://github.com/dail8859/NotepadNext"
+license=('GPL-3.0-only')
+arch=('x86_64')
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
+depends=(
+  'libglvnd'
+  'libgpg-error'
+  'libxcb'
+  'fontconfig'
+  'freetype2'
+)
+makedepends=(
+  'fuse2'
+)
+options=(
+  "!strip"
+)
+source=(
+  "${pkgname%-bin}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-${CARCH}.AppImage"
+  "${pkgname%-bin}.sh"
+)
+sha256sums=('7a7628cd6ff8c605c2696da178f0a8cf3dcf733ba66ddcd992ce515d1433720f'
+            'fb50da095804aea76ed6f0c29d58aaf16721b0d4799b7b750edfb6935123ab1a')
+build() {
+  sed -e "s|@appname@|${pkgname%-bin}|" \
+      -e "s|@runname@|${_pkgname}|g" \
+      -i "${srcdir}/${pkgname%-bin}.sh"
+  chmod a+x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage"
+  "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" --appimage-extract > /dev/null
+  sed "s|Exec=${_pkgname}|Exec=${pkgname%-bin}|g;s|Icon=${_pkgname}|Icon=${pkgname%-bin}|g" \
+    -i "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop"
+}
+package() {
+  install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+  install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+  cp -r "${srcdir}/squashfs-root/usr/"{bin,lib,plugins,translations} "${pkgdir}/usr/lib/${pkgname%-bin}"
+  install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/${_pkgname}.svg" \
+    "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
+  install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/mimetypes/${_pkgname}.svg" \
+    "${pkgdir}/usr/share/icons/hicolor/scalable/mimetypes/${pkgname%-bin}.svg"
+  install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+}
