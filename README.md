@@ -776,7 +776,7 @@
 |**picgo**|[picgo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-git)|[picgo-git](https://aur.archlinux.org/packages/picgo-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
 |**picturama**|[picturama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-bin)|[picturama-bin](https://aur.archlinux.org/packages/picturama-bin)||
-|**pikatorrent**|[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
+|**pikatorrent**|[pikatorrent-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-git)<br>[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-git](https://aur.archlinux.org/packages/pikatorrent-git)<br>[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
 |**pitv**|[pitv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pitv-bin)|[pitv-bin](https://aur.archlinux.org/packages/pitv-bin)||
 |**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
 |**planes**|[planes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/planes-bin)|[planes-bin](https://aur.archlinux.org/packages/planes-bin)||
