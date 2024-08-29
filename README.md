@@ -875,7 +875,7 @@
 |**saber**|[saber-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/saber-bin)|[saber-bin](https://aur.archlinux.org/packages/saber-bin)||
 |**saberfy**|[saberfy](https://github.com/zxp19821005/My_AUR_Files/tree/main/saberfy)|[saberfy](https://aur.archlinux.org/packages/saberfy)||
 |**salesforce2sql**|[salesforce2sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salesforce2sql-bin)|[salesforce2sql-bin](https://aur.archlinux.org/packages/salesforce2sql-bin)||
-|**salvage**|[salvage-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/salvage-git)|[salvage-git](https://aur.archlinux.org/packages/salvage-git)||
+|**salvage**|[salvage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/salvage-bin)<br>[salvage-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/salvage-git)|[salvage-bin](https://aur.archlinux.org/packages/salvage-bin)<br>[salvage-git](https://aur.archlinux.org/packages/salvage-git)||
 |**saturn-desktop**|[saturn-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/saturn-desktop-bin)|[saturn-desktop-bin](https://aur.archlinux.org/packages/saturn-desktop-bin)||
 |**sbe**|[sbe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sbe-bin)|[sbe-bin](https://aur.archlinux.org/packages/sbe-bin)||
 |**screen-area-share**|[screen-area-share-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-area-share-bin)|[screen-area-share-bin](https://aur.archlinux.org/packages/screen-area-share-bin)||
