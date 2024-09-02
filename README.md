@@ -517,6 +517,7 @@
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
 |**joindesktop**|[joindesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joindesktop-bin)|[joindesktop-bin](https://aur.archlinux.org/packages/joindesktop-bin)||
+|**joystick**|[joystick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joystick-bin)|[joystick-bin](https://aur.archlinux.org/packages/joystick-bin)||
 |**js-design-electron**|[js-design-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-electron-bin)|[js-design-electron-bin](https://aur.archlinux.org/packages/js-design-electron-bin)||
 |**jlivertool**|[jlivertool](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool)<br>[jlivertool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool-bin)|[jlivertool](https://aur.archlinux.org/packages/jlivertool)<br>[jlivertool-bin](https://aur.archlinux.org/packages/jlivertool-bin)||
 |**jsonbox**|[jsonbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jsonbox-bin)|[jsonbox-bin](https://aur.archlinux.org/packages/jsonbox-bin)||
