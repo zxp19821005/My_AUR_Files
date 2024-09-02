@@ -668,6 +668,7 @@
 |**myapp-scrapthatpage**|[myapp-scrapthatpage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/myapp-scrapthatpage-bin)|[myapp-scrapthatpage-bin](https://aur.archlinux.org/packages/myapp-scrapthatpage-bin)||
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
 |**my-hardware**|[my-hardware-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-hardware-bin)|[my-hardware-bin](https://aur.archlinux.org/packages/my-hardware-bin)||
+|**my-ocr**|[my-ocr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-ocr-bin)|[my-ocr-bin](https://aur.archlinux.org/packages/my-ocr-bin)||
 |**my-yesplaymusic**|[my-yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-yesplaymusic-bin)|[my-yesplaymusic-bin](https://aur.archlinux.org/packages/my-yesplaymusic-bin)||
 |**napcat**|[napcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/napcat-bin)|[napcat-bin](https://aur.archlinux.org/packages/napcat-bin)||
 |**nativefier-gui**|[nativefier-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nativefier-gui-bin)|[nativefier-gui-bin](https://aur.archlinux.org/packages/nativefier-gui-bin)||
