@@ -530,6 +530,7 @@
 |**kangaroo-max**|[kangaroo-max-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kangaroo-max-bin)|[kangaroo-max-bin](https://aur.archlinux.org/packages/kangaroo-max-bin)||
 |**karbonized**|[karbonized-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/karbonized-bin)|[karbonized-bin](https://aur.archlinux.org/packages/karbonized-bin)||
 |**kcl**|[kcl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kcl-bin)|[kcl-bin](https://aur.archlinux.org/packages/kcl-bin)||
+|**keep-audio-alive**|[keep-audio-alive-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keep-audio-alive-git)|[keep-audio-alive-git](https://aur.archlinux.org/packages/keep-audio-alive-git)||
 |**keeweb**|[keeweb-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keeweb-git)|[keeweb-git](https://aur.archlinux.org/packages/keeweb-git)||
 |**keyopen**|[keyopen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keyopen-bin)|[keyopen-bin](https://aur.archlinux.org/packages/keyopen-bin)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
