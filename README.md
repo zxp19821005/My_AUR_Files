@@ -628,6 +628,7 @@
 |**minedigger**|[minedigger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minedigger-bin)|[minedigger-bin](https://aur.archlinux.org/packages/minedigger-bin)||
 |**mingo**|[mingo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mingo-bin)|[mingo-bin](https://aur.archlinux.org/packages/mingo-bin)||
 |**mini4wdchrono**|[mini4wdchrono-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini4wdchrono-bin)|[mini4wdchrono-bin](https://aur.archlinux.org/packages/mini4wdchrono-bin)||
+|**minif-browser**|[minif-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minif-browser-bin)|[minif-browser-bin](https://aur.archlinux.org/packages/minif-browser-bin)||
 |**minify**|[minify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minify-bin)|[minify-bin](https://aur.archlinux.org/packages/minify-bin)||
 |**mini-music**|[mini-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini-music-bin)|[mini-music-bin](https://aur.archlinux.org/packages/mini-music-bin)||
 |**minterm**|[minterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minterm-bin)|[minterm-bin](https://aur.archlinux.org/packages/minterm-bin)||
