@@ -1018,6 +1018,7 @@
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
 |**tockler**|[tockler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-bin)|[tockler-bin](https://aur.archlinux.org/packages/tockler-bin)||
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin)<br>[todometer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-git)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin)<br>[todometer-git](https://aur.archlinux.org/packages/todometer-git)||
+|**tomato-radio-automation**|[tomato-radio-automation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomato-radio-automation-bin)|[tomato-radio-automation-bin](https://aur.archlinux.org/packages/tomato-radio-automation-bin)||
 |**tomatox**|[tomatox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-bin)|[tomatox-bin](https://aur.archlinux.org/packages/tomatox-bin)||
 |**tome**|[tome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tome-bin)|[tome-bin](https://aur.archlinux.org/packages/tome-bin)||
 |**torepe**|[torepe-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/torepe-git)|[torepe-git](https://aur.archlinux.org/packages/torepe-git)||
