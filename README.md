@@ -864,6 +864,7 @@
 |**redpanda-cpp**|[redpanda-cpp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redpanda-cpp-bin)|[redpanda-cpp-bin](https://aur.archlinux.org/packages/redpanda-cpp-bin)||
 |**refi-app**|[refi-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/refi-app-bin)|[refi-app-bin](https://aur.archlinux.org/packages/refi-app-bin)||
 |**rekordfix**|[rekordfix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rekordfix-bin)|[rekordfix-bin](https://aur.archlinux.org/packages/rekordfix-bin)||
+|**remindr**|[remindr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remindr-bin)|[remindr-bin](https://aur.archlinux.org/packages/remindr-bin)||
 |**remoteplaywhatever**|[remoteplaywhatever-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remoteplaywhatever-bin)|[remoteplaywhatever-bin](https://aur.archlinux.org/packages/remoteplaywhatever-bin)||
 |**rendertune**|[rendertune-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rendertune-bin)|[rendertune-bin](https://aur.archlinux.org/packages/rendertune-bin)||
 |**reor**|[reor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reor-bin)|[reor-bin](https://aur.archlinux.org/packages/reor-bin)||
