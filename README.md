@@ -580,6 +580,7 @@
 |**live-radio-app**|[live-radio-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-radio-app-bin)|[live-radio-app-bin](https://aur.archlinux.org/packages/live-radio-app-bin)||
 |**llocal**|[llocal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/llocal-bin)|[llocal-bin](https://aur.archlinux.org/packages/llocal-bin)||
 |**localchat**|[localchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/localchat-bin)|[localchat-bin](https://aur.archlinux.org/packages/localchat-bin)||
+|**localjson**|[localjson-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/localjson-git)|[localjson-git](https://aur.archlinux.org/packages/localjson-git)||
 |**local-llama**|[local-llama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/local-llama-bin)<br>[local-llama-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/local-llama-git)|[local-llama-bin](https://aur.archlinux.org/packages/local-llama-bin)<br>[local-llama-git](https://aur.archlinux.org/packages/local-llama-git)||
 |**lode**|[lode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lode-bin)|[lode-bin](https://aur.archlinux.org/packages/lode-bin)||
 |**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
