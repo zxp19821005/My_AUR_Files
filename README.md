@@ -241,6 +241,7 @@
 |**des-talk**|[des-talk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/des-talk-bin)|[des-talk-bin](https://aur.archlinux.org/packages/des-talk-bin)||
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
 |**devhub**|[devhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devhub-bin)|[devhub-bin](https://aur.archlinux.org/packages/devhub-bin)||
+|**devkitty**|[devkitty](https://github.com/zxp19821005/My_AUR_Files/tree/main/devkitty)<br>[devkitty-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/devkitty-git)|[devkitty](https://aur.archlinux.org/packages/devkitty)<br>[devkitty-git](https://aur.archlinux.org/packages/devkitty-git)||
 |**dialogcraft**|[dialogcraft](https://github.com/zxp19821005/My_AUR_Files/tree/main/dialogcraft)<br>[dialogcraft-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dialogcraft-bin)|[dialogcraft](https://aur.archlinux.org/packages/dialogcraft)<br>[dialogcraft-bin](https://aur.archlinux.org/packages/dialogcraft-bin)||
 |**dicionario.js**|[dicionario.js-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dicionario.js-bin)|[dicionario.js-bin](https://aur.archlinux.org/packages/dicionario.js-bin)||
 |**dida365**|[dida365-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dida365-bin)|[dida365-bin](https://aur.archlinux.org/packages/dida365-bin)||
