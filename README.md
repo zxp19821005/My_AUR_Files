@@ -542,6 +542,7 @@
 |**kcl**|[kcl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kcl-bin)|[kcl-bin](https://aur.archlinux.org/packages/kcl-bin)||
 |**keep-audio-alive**|[keep-audio-alive-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keep-audio-alive-git)|[keep-audio-alive-git](https://aur.archlinux.org/packages/keep-audio-alive-git)||
 |**keeweb**|[keeweb-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keeweb-git)|[keeweb-git](https://aur.archlinux.org/packages/keeweb-git)||
+|**key-echo**|[key-echo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/key-echo-bin)|[key-echo-bin](https://aur.archlinux.org/packages/key-echo-bin)||
 |**keyopen**|[keyopen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keyopen-bin)|[keyopen-bin](https://aur.archlinux.org/packages/keyopen-bin)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
