@@ -802,6 +802,7 @@
 |**pocketyoutube**|[pocketyoutube-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocketyoutube-git)|[pocketyoutube-git](https://aur.archlinux.org/packages/pocketyoutube-git)||
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
 |**podman-desktop-companion**|[podman-desktop-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-companion-bin)|[podman-desktop-companion-bin](https://aur.archlinux.org/packages/podman-desktop-companion-bin)||
+|**podman-desktop**|[podman-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-git)|[podman-desktop-git](https://aur.archlinux.org/packages/podman-desktop-git)||
 |**poi**|[poi-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/poi-git)|[poi-git](https://aur.archlinux.org/packages/poi-git)||
 |**polar**|[polar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-bin)|[polar-bin](https://aur.archlinux.org/packages/polar-bin)||
 |**polybase**|[polybase-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/polybase-git)|[polybase-git](https://aur.archlinux.org/packages/polybase-git)||
