@@ -682,6 +682,7 @@
 |**music-dl**|[music-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-dl-bin)|[music-dl-bin](https://aur.archlinux.org/packages/music-dl-bin)||
 |**musicfree-desktop**|[musicfree-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/musicfree-desktop)<br>[musicfree-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/musicfree-desktop-bin)<br>[musicfree-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/musicfree-desktop-git)|[musicfree-desktop](https://aur.archlinux.org/packages/musicfree-desktop)<br>[musicfree-desktop-bin](https://aur.archlinux.org/packages/musicfree-desktop-bin)<br>[musicfree-desktop-git](https://aur.archlinux.org/packages/musicfree-desktop-git)||
 |**music-you**|[music-you-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/music-you-bin)|[music-you-bin](https://aur.archlinux.org/packages/music-you-bin)||
+|**mustang**|[mustang-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mustang-bin)|[mustang-bin](https://aur.archlinux.org/packages/mustang-bin)||
 |**mxiv**|[mxiv-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mxiv-git)|[mxiv-git](https://aur.archlinux.org/packages/mxiv-git)||
 |**myapp-scrapthatpage**|[myapp-scrapthatpage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/myapp-scrapthatpage-bin)|[myapp-scrapthatpage-bin](https://aur.archlinux.org/packages/myapp-scrapthatpage-bin)||
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
