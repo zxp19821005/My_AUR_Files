@@ -390,6 +390,7 @@
 |**fluent-reader**|[fluent-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluent-reader-git)|[fluent-reader-git](https://aur.archlinux.org/packages/fluent-reader-git)||
 |**fmedia**|[fmedia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fmedia-bin)|[fmedia-bin](https://aur.archlinux.org/packages/fmedia-bin)||
 |**focustune**|[focustune-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/focustune-git)|[focustune-git](https://aur.archlinux.org/packages/focustune-git)||
+|**follow**|[follow](https://github.com/zxp19821005/My_AUR_Files/tree/main/follow)<br>[follow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/follow-bin)<br>[follow-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/follow-git)|[follow](https://aur.archlinux.org/packages/follow)<br>[follow-bin](https://aur.archlinux.org/packages/follow-bin)<br>[follow-git](https://aur.archlinux.org/packages/follow-git)||
 |**fontastic**|[fontastic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fontastic-bin)|[fontastic-bin](https://aur.archlinux.org/packages/fontastic-bin)||
 |**fooyin**|[fooyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fooyin)<br>[fooyin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fooyin-bin)|[fooyin](https://aur.archlinux.org/packages/fooyin)<br>[fooyin-bin](https://aur.archlinux.org/packages/fooyin-bin)||
 |**fortio**|[fortio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fortio-bin)|[fortio-bin](https://aur.archlinux.org/packages/fortio-bin)||
