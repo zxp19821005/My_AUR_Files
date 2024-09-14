@@ -80,6 +80,7 @@
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
 |**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
+|**atlasify**|[atlasify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlasify-git)|[atlasify-git](https://aur.archlinux.org/packages/atlasify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
@@ -887,6 +888,7 @@
 |**ricochlime**|[ricochlime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ricochlime-bin)|[ricochlime-bin](https://aur.archlinux.org/packages/ricochlime-bin)||
 |**ringer-client-desktop**|[ringer-client-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringer-client-desktop)|[ringer-client-desktop](https://aur.archlinux.org/packages/ringer-client-desktop)||
 |**ripes**|[ripes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-bin)|[ripes-bin](https://aur.archlinux.org/packages/ripes-bin)||
+|**rocketchat-desktop**|[rocketchat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rocketchat-desktop-git)|[rocketchat-desktop-git](https://aur.archlinux.org/packages/rocketchat-desktop-git)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick)<br>[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick](https://aur.archlinux.org/packages/rubick)<br>[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
