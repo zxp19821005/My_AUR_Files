@@ -80,7 +80,7 @@
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
 |**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
-|**atlasify**|[atlasify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlasify-git)|[atlasify-git](https://aur.archlinux.org/packages/atlasify-git)||
+|**atlasify**|[atlasify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlasify-bin)<br>[atlasify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlasify-git)|[atlasify-bin](https://aur.archlinux.org/packages/atlasify-bin)<br>[atlasify-git](https://aur.archlinux.org/packages/atlasify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
