@@ -780,6 +780,7 @@
 |**passwordsecure**|[passwordsecure-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/passwordsecure-bin)|[passwordsecure-bin](https://aur.archlinux.org/packages/passwordsecure-bin)||
 |**password-strength-checker**|[password-strength-checker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/password-strength-checker-bin)|[password-strength-checker-bin](https://aur.archlinux.org/packages/password-strength-checker-bin)||
 |**paster**|[paster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paster-bin)|[paster-bin](https://aur.archlinux.org/packages/paster-bin)||
+|**pause-desktop**|[pause-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pause-desktop-bin)|[pause-desktop-bin](https://aur.archlinux.org/packages/pause-desktop-bin)||
 |**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)||
 |**pdmaner**|[pdmaner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-appimage)|[pdmaner-appimage](https://aur.archlinux.org/packages/pdmaner-appimage)||
 |**pear-rec**|[pear-rec](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec)<br>[pear-rec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-bin)<br>[pear-rec-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-git)|[pear-rec](https://aur.archlinux.org/packages/pear-rec)<br>[pear-rec-bin](https://aur.archlinux.org/packages/pear-rec-bin)<br>[pear-rec-git](https://aur.archlinux.org/packages/pear-rec-git)||
