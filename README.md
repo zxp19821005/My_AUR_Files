@@ -173,6 +173,7 @@
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**clickercompanion**|[clickercompanion](https://github.com/zxp19821005/My_AUR_Files/tree/main/clickercompanion)|[clickercompanion](https://aur.archlinux.org/packages/clickercompanion)||
+|**cli-fetch**|[cli-fetch-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cli-fetch-git)|[cli-fetch-git](https://aur.archlinux.org/packages/cli-fetch-git)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudhub**|[cloudhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudhub-bin)|[cloudhub-bin](https://aur.archlinux.org/packages/cloudhub-bin)||
 |**cloudpan189-go**|[cloudpan189-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudpan189-go-bin)|[cloudpan189-go-bin](https://aur.archlinux.org/packages/cloudpan189-go-bin)||
