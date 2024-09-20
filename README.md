@@ -80,7 +80,7 @@
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
 |**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
-|**atlasify**|[atlasify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlasify-bin)<br>[atlasify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlasify-git)|[atlasify-bin](https://aur.archlinux.org/packages/atlasify-bin)<br>[atlasify-git](https://aur.archlinux.org/packages/atlasify-git)||
+|**atlassify**|[atlassify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-bin)<br>[atlassify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-git)|[atlassify-bin](https://aur.archlinux.org/packages/atlassify-bin)<br>[atlassify-git](https://aur.archlinux.org/packages/atlassify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
@@ -369,7 +369,7 @@
 |**fifo-browser**|[fifo-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-bin)|[fifo-browser-bin](https://aur.archlinux.org/packages/fifo-browser-bin)||
 |**figma-linux**|[figma-linux-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/figma-linux-git)|[figma-linux-git](https://aur.archlinux.org/packages/figma-linux-git)||
 |**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
-|**filen-desktop**|[filen-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/filen-desktop-git)|[filen-desktop-git](https://aur.archlinux.org/packages/filen-desktop-git)||
+|**filen-desktop**|[filen-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filen-desktop-bin)<br>[filen-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/filen-desktop-git)|[filen-desktop-bin](https://aur.archlinux.org/packages/filen-desktop-bin)<br>[filen-desktop-git](https://aur.archlinux.org/packages/filen-desktop-git)||
 |**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
 |**finance-manager**|[finance-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/finance-manager-git)|[finance-manager-git](https://aur.archlinux.org/packages/finance-manager-git)||
 |**fireblocks-recovery-utility**|[fireblocks-recovery-utility-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fireblocks-recovery-utility-bin)|[fireblocks-recovery-utility-bin](https://aur.archlinux.org/packages/fireblocks-recovery-utility-bin)||
