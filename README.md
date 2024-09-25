@@ -212,7 +212,7 @@
 |**dash-player**|[dash-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dash-player-bin)<br>[dash-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dash-player-git)|[dash-player-bin](https://aur.archlinux.org/packages/dash-player-bin)<br>[dash-player-git](https://aur.archlinux.org/packages/dash-player-git)||
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile)|[datefile](https://aur.archlinux.org/packages/datefile)||
-|**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin)||
+|**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin)<br>[dbgate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-git)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin)<br>[dbgate-git](https://aur.archlinux.org/packages/dbgate-git)||
 |**deadbolt**|[deadbolt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadbolt-bin)|[deadbolt-bin](https://aur.archlinux.org/packages/deadbolt-bin)||
 |**deadboltplusplus**|[deadboltplusplus](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadboltplusplus)|[deadboltplusplus](https://aur.archlinux.org/packages/deadboltplusplus)||
 |**deckboard**|[deckboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-bin)|[deckboard-bin](https://aur.archlinux.org/packages/deckboard-bin)||
