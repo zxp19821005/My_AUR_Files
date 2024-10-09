@@ -1118,6 +1118,7 @@
 |**vocechat-desktop**|[vocechat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocechat-desktop-bin)|[vocechat-desktop-bin](https://aur.archlinux.org/packages/vocechat-desktop-bin)||
 |**vookiimageviewer**|[vookiimageviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vookiimageviewer-bin)|[vookiimageviewer-bin](https://aur.archlinux.org/packages/vookiimageviewer-bin)||
 |**voosweeper**|[voosweeper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/voosweeper-bin)|[voosweeper-bin](https://aur.archlinux.org/packages/voosweeper-bin)||
+|**vrc-photo-viewer**|[vrc-photo-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vrc-photo-viewer-git)|[vrc-photo-viewer-git](https://aur.archlinux.org/packages/vrc-photo-viewer-git)||
 |**vscode-bookmark**|[vscode-bookmark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscode-bookmark-bin)|[vscode-bookmark-bin](https://aur.archlinux.org/packages/vscode-bookmark-bin)||
 |**vscodium-electron**|[vscodium-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodium-electron-bin)|[vscodium-electron-bin](https://aur.archlinux.org/packages/vscodium-electron-bin)||
 |**vscodius**|[vscodius-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodius-bin)|[vscodius-bin](https://aur.archlinux.org/packages/vscodius-bin)||
