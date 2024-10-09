@@ -726,6 +726,7 @@
 |**nostr-relay-tray**|[nostr-relay-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nostr-relay-tray-bin)|[nostr-relay-tray-bin](https://aur.archlinux.org/packages/nostr-relay-tray-bin)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notely**|[notely-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notely-git)|[notely-git](https://aur.archlinux.org/packages/notely-git)||
+|**note-mark**|[note-mark-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/note-mark-git)|[note-mark-git](https://aur.archlinux.org/packages/note-mark-git)||
 |**notepad--**|[notepad--](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepad--)|[notepad--](https://aur.archlinux.org/packages/notepad--)||
 |**notepadnext**|[notepadnext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepadnext-bin)|自用版||
 |**notes-nc**|[notes-nc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notes-nc-bin)|[notes-nc-bin](https://aur.archlinux.org/packages/notes-nc-bin)||
