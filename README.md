@@ -711,6 +711,7 @@
 |**nfs-browser**|[nfs-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nfs-browser-bin)|[nfs-browser-bin](https://aur.archlinux.org/packages/nfs-browser-bin)||
 |**nft-tool**|[nft-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-tool-bin)|[nft-tool-bin](https://aur.archlinux.org/packages/nft-tool-bin)||
 |**nft-viewer**|[nft-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nft-viewer-bin)|[nft-viewer-bin](https://aur.archlinux.org/packages/nft-viewer-bin)||
+|**nginx-ui**|[nginx-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nginx-ui-bin)|[nginx-ui-bin](https://aur.archlinux.org/packages/nginx-ui-bin)||
 |**ngrev**|[ngrev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-bin)|[ngrev-bin](https://aur.archlinux.org/packages/ngrev-bin)||
 |**nheko**|[nheko-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nheko-appimage)|[nheko-appimage](https://aur.archlinux.org/packages/nheko-appimage)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
