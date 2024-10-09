@@ -1088,6 +1088,7 @@
 |**typesense-dashboard**|[typesense-dashboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typesense-dashboard-bin)|[typesense-dashboard-bin](https://aur.archlinux.org/packages/typesense-dashboard-bin)||
 |**typora-free-with-plugin**|[typora-free-with-plugin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typora-free-with-plugin)|[typora-free-with-plugin](https://aur.archlinux.org/packages/typora-free-with-plugin)||
 |**typst-book**|[typst-book-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typst-book-bin)|[typst-book-bin](https://aur.archlinux.org/packages/typst-book-bin)||
+|**tyrogit-client**|[tyrogit-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tyrogit-client-git)|[tyrogit-client-git](https://aur.archlinux.org/packages/tyrogit-client-git)||
 |**ubports-installer**|[ubports-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-bin)|[ubports-installer-bin](https://aur.archlinux.org/packages/ubports-installer-bin)||
 |**udeler**|[udeler](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler)<br>[udeler-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-git)|[udeler](https://aur.archlinux.org/packages/udeler)<br>[udeler-git](https://aur.archlinux.org/packages/udeler-git)||
 |**udeler-pro**|[udeler-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-pro-bin)|[udeler-pro-bin](https://aur.archlinux.org/packages/udeler-pro-bin)||
