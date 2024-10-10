@@ -262,6 +262,7 @@
 |**dnglab**|[dnglab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnglab-bin)|[dnglab-bin](https://aur.archlinux.org/packages/dnglab-bin)||
 |**dnschanger-desktop**|[dnschanger-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnschanger-desktop-bin)|[dnschanger-desktop-bin](https://aur.archlinux.org/packages/dnschanger-desktop-bin)||
 |**dockit**|[dockit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dockit-bin)|[dockit-bin](https://aur.archlinux.org/packages/dockit-bin)||
+|**docspedia**|[docspedia-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/docspedia-git)|[docspedia-git](https://aur.archlinux.org/packages/docspedia-git)||
 |**dooble**|[dooble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-bin)<br>[dooble-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dooble-git)|[dooble-bin](https://aur.archlinux.org/packages/dooble-bin)<br>[dooble-git](https://aur.archlinux.org/packages/dooble-git)||
 |**doomguy**|[doomguy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/doomguy-git)|[doomguy-git](https://aur.archlinux.org/packages/doomguy-git)||
 |**dopamine**|[dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin)<br>[dopamine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-git)|[dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin)<br>[dopamine-git](https://aur.archlinux.org/packages/dopamine-git)||
