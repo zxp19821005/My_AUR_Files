@@ -855,6 +855,7 @@
 |**qradiolink**|[qradiolink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qradiolink-bin)|[qradiolink-bin](https://aur.archlinux.org/packages/qradiolink-bin)||
 |**qrocad-desktop**|[qrocad-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocad-desktop-bin)|[qrocad-desktop-bin](https://aur.archlinux.org/packages/qrocad-desktop-bin)||
 |**qrocrown**|[qrocrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocrown-bin)|[qrocrown-bin](https://aur.archlinux.org/packages/qrocrown-bin)||
+|**qtscrcpy**|[qtscrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtscrcpy-bin)|[qtscrcpy-bin](https://aur.archlinux.org/packages/qtscrcpy-bin)||
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
 |**quaternion**|[quaternion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-bin)|[quaternion-bin](https://aur.archlinux.org/packages/quaternion-bin)||
