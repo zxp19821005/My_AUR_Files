@@ -132,6 +132,7 @@
 |**bot.dev**|[bot.dev](https://github.com/zxp19821005/My_AUR_Files/tree/main/bot.dev)|[bot.dev](https://aur.archlinux.org/packages/bot.dev)||
 |**botclient**|[botclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botclient-bin)|[botclient-bin](https://aur.archlinux.org/packages/botclient-bin)||
 |**botframework-emulator**|[botframework-emulator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botframework-emulator-bin)|[botframework-emulator-bin](https://aur.archlinux.org/packages/botframework-emulator-bin)||
+|**botgem**|[botgem-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botgem-bin)|[botgem-bin](https://aur.archlinux.org/packages/botgem-bin)||
 |**brisk**|[brisk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brisk-bin)|[brisk-bin](https://aur.archlinux.org/packages/brisk-bin)||
 |**brisqi**|[brisqi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brisqi-bin)|[brisqi-bin](https://aur.archlinux.org/packages/brisqi-bin)||
 |**broadcast**|[broadcast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/broadcast-bin)|[broadcast-bin](https://aur.archlinux.org/packages/broadcast-bin)||
