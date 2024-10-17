@@ -960,6 +960,7 @@
 |**sleek**|[sleek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sleek-bin)|[sleek-bin](https://aur.archlinux.org/packages/sleek-bin)||
 |**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
+|**smpl**|[smpl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/smpl-git)|[smpl-git](https://aur.archlinux.org/packages/smpl-git)||
 |**snailfm**|[snailfm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snailfm-bin)|[snailfm-bin](https://aur.archlinux.org/packages/snailfm-bin)||
 |**snapmail**|[snapmail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapmail-bin)|[snapmail-bin](https://aur.archlinux.org/packages/snapmail-bin)||
 |**snippet-notes**|[snippet-notes](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippet-notes)|[snippet-notes](https://aur.archlinux.org/packages/snippet-notes)||
