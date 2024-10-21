@@ -1141,6 +1141,7 @@
 |**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
+|**wasistlos**|[wasistlos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wasistlos-appimage)|[wasistlos-appimage](https://aur.archlinux.org/packages/wasistlos-appimage)||
 |**waveterm**|[waveterm](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm)<br>[waveterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm-bin)<br>[waveterm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm-git)|[waveterm](https://aur.archlinux.org/packages/waveterm)<br>[waveterm-bin](https://aur.archlinux.org/packages/waveterm-bin)<br>[waveterm-git](https://aur.archlinux.org/packages/waveterm-git)||
 |**wavy**|[wavy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wavy-bin)|[wavy-bin](https://aur.archlinux.org/packages/wavy-bin)||
 |**webcam-glass**|[webcam-glass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcam-glass-bin)<br>[webcam-glass-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webcam-glass-git)|[webcam-glass-bin](https://aur.archlinux.org/packages/webcam-glass-bin)<br>[webcam-glass-git](https://aur.archlinux.org/packages/webcam-glass-git)||
@@ -1158,7 +1159,6 @@
 |**whalebird**|[whalebird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whalebird-bin)<br>[whalebird-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/whalebird-git)|[whalebird-bin](https://aur.archlinux.org/packages/whalebird-bin)<br>[whalebird-git](https://aur.archlinux.org/packages/whalebird-git)||
 |**whatsapp-electron**|[whatsapp-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-electron-bin)|[whatsapp-electron-bin](https://aur.archlinux.org/packages/whatsapp-electron-bin)||
 |**whatstron**|[whatstron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatstron-bin)|[whatstron-bin](https://aur.archlinux.org/packages/whatstron-bin)||
-|**whatsapp-for-linux**|[whatsapp-for-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-for-linux-bin)|[whatsapp-for-linux-bin](https://aur.archlinux.org/packages/whatsapp-for-linux-bin)||
 |**whisperpix**|[whisperpix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whisperpix-bin)|[whisperpix-bin](https://aur.archlinux.org/packages/whisperpix-bin)||
 |**windterm**|[windterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/windterm-bin)|[windterm-bin](https://aur.archlinux.org/packages/windterm-bin)||
 |**winggifeditor**|[winggifeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winggifeditor-bin)|[winggifeditor-bin](https://aur.archlinux.org/packages/winggifeditor-bin)||
