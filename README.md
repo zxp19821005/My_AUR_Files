@@ -189,7 +189,6 @@
 |**colorpicker-app**|[colorpicker-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-app-bin)|[colorpicker-app-bin](https://aur.archlinux.org/packages/colorpicker-app-bin)||
 |**colour-contrast-analyser**|[colour-contrast-analyser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colour-contrast-analyser-bin)|[colour-contrast-analyser-bin](https://aur.archlinux.org/packages/colour-contrast-analyser-bin)||
 |**comet**|[comet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/comet-bin)|[comet-bin](https://aur.archlinux.org/packages/comet-bin)||
-|**command-circle**|[command-circle-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/command-circle-git)|[command-circle-git](https://aur.archlinux.org/packages/command-circle-git)||
 |**commas**|[commas](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas)<br>[commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin)<br>[commas-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-git)|[commas](https://aur.archlinux.org/packages/commas)<br>[commas-bin](https://aur.archlinux.org/packages/commas-bin)<br>[commas-git](https://aur.archlinux.org/packages/commas-git)||
 |**compasscad**|[compasscad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/compasscad-bin)|[compasscad-bin](https://aur.archlinux.org/packages/compasscad-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
@@ -903,6 +902,7 @@
 |**ripes**|[ripes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-bin)|[ripes-bin](https://aur.archlinux.org/packages/ripes-bin)||
 |**rocketchat-desktop**|[rocketchat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rocketchat-desktop-git)|[rocketchat-desktop-git](https://aur.archlinux.org/packages/rocketchat-desktop-git)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
+|**round-drop**|[round-drop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/round-drop-git)|[round-drop-git](https://aur.archlinux.org/packages/round-drop-git)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick)<br>[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick](https://aur.archlinux.org/packages/rubick)<br>[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
 |**rustii**|[rustii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rustii-bin)|[rustii-bin](https://aur.archlinux.org/packages/rustii-bin)||
