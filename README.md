@@ -1152,6 +1152,7 @@
 |**webgal-terre**|[webgal-terre-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webgal-terre-bin)|[webgal-terre-bin](https://aur.archlinux.org/packages/webgal-terre-bin)||
 |**webkitty**|[webkitty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/webkitty-bin)|[webkitty-bin](https://aur.archlinux.org/packages/webkitty-bin)||
 |**web-os-dev-manager**|[web-os-dev-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-os-dev-manager-bin)|[web-os-dev-manager-bin](https://aur.archlinux.org/packages/web-os-dev-manager-bin)||
+|**webp-converter**|[webp-converter-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webp-converter-git)|[webp-converter-git](https://aur.archlinux.org/packages/webp-converter-git)||
 |**webs-tray**|[webs-tray-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webs-tray-git)|[webs-tray-git](https://aur.archlinux.org/packages/webs-tray-git)||
 |**webtorrent-desktop**|[webtorrent-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webtorrent-desktop-git)|[webtorrent-desktop-git](https://aur.archlinux.org/packages/webtorrent-desktop-git)||
 |**wechat-linux**|[wechat-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-linux-bin)|AUR上未发布|
