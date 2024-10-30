@@ -1128,6 +1128,7 @@
 |**visualfamilytree**|[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
 |**vnote**|[vnote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-bin)|[vnote-bin](https://aur.archlinux.org/packages/vnote-bin)||
 |**vnstat-client**|[vnstat-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnstat-client-git)|[vnstat-client-git](https://aur.archlinux.org/packages/vnstat-client-git)||
+|**vocallia**|[vocallia-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocallia-git)|[vocallia-git](https://aur.archlinux.org/packages/vocallia-git)||
 |**vocechat-desktop**|[vocechat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocechat-desktop-bin)|[vocechat-desktop-bin](https://aur.archlinux.org/packages/vocechat-desktop-bin)||
 |**vookiimageviewer**|[vookiimageviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vookiimageviewer-bin)|[vookiimageviewer-bin](https://aur.archlinux.org/packages/vookiimageviewer-bin)||
 |**voosweeper**|[voosweeper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/voosweeper-bin)|[voosweeper-bin](https://aur.archlinux.org/packages/voosweeper-bin)||
