@@ -545,6 +545,7 @@
 |**jlivertool**|[jlivertool](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool)<br>[jlivertool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool-bin)|[jlivertool](https://aur.archlinux.org/packages/jlivertool)<br>[jlivertool-bin](https://aur.archlinux.org/packages/jlivertool-bin)||
 |**jm-desktop**|[jm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jm-desktop-bin)|[jm-desktop-bin](https://aur.archlinux.org/packages/jm-desktop-bin)||
 |**jsonbox**|[jsonbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jsonbox-bin)|[jsonbox-bin](https://aur.archlinux.org/packages/jsonbox-bin)||
+|**jumble**|[jumble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jumble-bin)|[jumble-bin](https://aur.archlinux.org/packages/jumble-bin)||
 |**justwrite**|[justwrite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/justwrite-git)|[justwrite-git](https://aur.archlinux.org/packages/justwrite-git)||
 |**kaas**|[kaas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaas-bin)|[kaas-bin](https://aur.archlinux.org/packages/kaas-bin)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
