@@ -1037,6 +1037,7 @@
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||
 |**tesler**|[tesler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tesler-bin)|[tesler-bin](https://aur.archlinux.org/packages/tesler-bin)||
 |**tess**|[tess-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tess-bin)|[tess-bin](https://aur.archlinux.org/packages/tess-bin)||
+|**text-diff-view**|[text-diff-view-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/text-diff-view-bin)|[text-diff-view-bin](https://aur.archlinux.org/packages/text-diff-view-bin)||
 |**textspace**|[textspace-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/textspace-git)|[textspace-git](https://aur.archlinux.org/packages/textspace-git)||
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
 |**tfiletransfer**|[tfiletransfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tfiletransfer-bin)|[tfiletransfer-bin](https://aur.archlinux.org/packages/tfiletransfer-bin)||
