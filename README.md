@@ -276,7 +276,8 @@
 |**duskplayer**|[duskplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-bin)|[duskplayer-bin](https://aur.archlinux.org/packages/duskplayer-bin)||
 |**dust3d**|[dust3d-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dust3d-git)|[dust3d-git](https://aur.archlinux.org/packages/dust3d-git)||
 |**dutor**|[dutor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dutor-bin)|[dutor-bin](https://aur.archlinux.org/packages/dutor-bin)||
-|**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||
+|**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||\
+|**eaglergrab**|[eaglergrab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eaglergrab-bin)|[eaglergrab-bin](https://aur.archlinux.org/packages/eaglergrab-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
 |**ecency-surfer**|[ecency-surfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-bin)|[ecency-surfer-bin](https://aur.archlinux.org/packages/ecency-surfer-bin)||
