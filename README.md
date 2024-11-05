@@ -853,6 +853,7 @@
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin)||
 |**privaxy**|[privaxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/privaxy-bin)|[privaxy-bin](https://aur.archlinux.org/packages/privaxy-bin)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
+|**projectforge**|[projectforge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projectforge-bin)|[projectforge-bin](https://aur.archlinux.org/packages/projectforge-bin)||
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
 |**promethium**|[promethium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-bin)|[promethium-bin](https://aur.archlinux.org/packages/promethium-bin)||
 |**prospect-mail**|[prospect-mail](https://github.com/zxp19821005/My_AUR_Files/tree/main/prospect-mail)|[prospect-mail](https://aur.archlinux.org/packages/prospect-mail)||
