@@ -692,6 +692,7 @@
 |**mouse-automator**|[mouse-automator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mouse-automator-bin)|[mouse-automator-bin](https://aur.archlinux.org/packages/mouse-automator-bin)||
 |**moyu**|[moyu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/moyu-bin)|[moyu-bin](https://aur.archlinux.org/packages/moyu-bin)||
 |**mpc-qt**|[mpc-qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mpc-qt-bin)|[mpc-qt-bin](https://aur.archlinux.org/packages/mpc-qt-bin)||
+|**mq3t**|[mq3t-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mq3t-bin)|[mq3t-bin](https://aur.archlinux.org/packages/mq3t-bin)||
 |**mqtt5-explorer**|[mqtt5-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqtt5-explorer-bin)|[mqtt5-explorer-bin](https://aur.archlinux.org/packages/mqtt5-explorer-bin)||
 |**mqttx**|[mqttx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mqttx-git)|[mqttx-git](https://aur.archlinux.org/packages/mqttx-git)||
 |**ms-365-electron**|[ms-365-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/ms-365-electron)|[ms-365-electron](https://aur.archlinux.org/packages/ms-365-electron)||
