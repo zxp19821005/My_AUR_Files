@@ -544,6 +544,7 @@
 |**jasper-km**|[jasper-km-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jasper-km-bin)|[jasper-km-bin](https://aur.archlinux.org/packages/jasper-km-bin)||
 |**jd-tool**|[jd-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jd-tool-bin)|[jd-tool-bin](https://aur.archlinux.org/packages/jd-tool-bin)||
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
+|**jet-pilot**|[jet-pilot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jet-pilot-bin)|[jet-pilot-bin](https://aur.archlinux.org/packages/jet-pilot-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
 |**joindesktop**|[joindesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joindesktop-bin)|[joindesktop-bin](https://aur.archlinux.org/packages/joindesktop-bin)||
 |**joystick**|[joystick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joystick-bin)|[joystick-bin](https://aur.archlinux.org/packages/joystick-bin)||
