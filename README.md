@@ -1242,6 +1242,7 @@
 |**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage)<br>[yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage)<br>[yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
 |**yuview**|[yuview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-bin)|[yuview-bin](https://aur.archlinux.org/packages/yuview-bin)||
 |**yuvviewer**|[yuvviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuvviewer-bin)|[yuvviewer-bin](https://aur.archlinux.org/packages/yuvviewer-bin)||
+|**zebar**|[zebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zebar-bin)|[zebar-bin](https://aur.archlinux.org/packages/zebar-bin)||
 |**zen-adblocker**|[zen-adblocker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zen-adblocker-git)|[zen-adblocker-git](https://aur.archlinux.org/packages/zen-adblocker-git)||
 |**zenshin**|[zenshin-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zenshin-git)|[zenshin-git](https://aur.archlinux.org/packages/zenshin-git)||
 |**zerochess**|[zerochess-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zerochess-git)|[zerochess-git](https://aur.archlinux.org/packages/zerochess-git)||
