@@ -916,6 +916,7 @@
 |**reticulum-meshchat**|[reticulum-meshchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reticulum-meshchat-bin)|[reticulum-meshchat-bin](https://aur.archlinux.org/packages/reticulum-meshchat-bin)||
 |**revealed**|[revealed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-bin)|[revealed-bin](https://aur.archlinux.org/packages/revealed-bin)||
 |**revezone**|[revezone](https://github.com/zxp19821005/My_AUR_Files/tree/main/revezone)|[revezone](https://aur.archlinux.org/packages/revezone)||
+|**revolt-desktop**|[revolt-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop)<br>[revolt-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-bin)|[revolt-desktop](https://aur.archlinux.org/packages/revolt-desktop)<br>[revolt-desktop-bin](https://aur.archlinux.org/packages/revolt-desktop-bin)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ricochlime**|[ricochlime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ricochlime-bin)|[ricochlime-bin](https://aur.archlinux.org/packages/ricochlime-bin)||
 |**ringer-client-desktop**|[ringer-client-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringer-client-desktop)|[ringer-client-desktop](https://aur.archlinux.org/packages/ringer-client-desktop)||
