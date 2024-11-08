@@ -431,6 +431,7 @@
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
+|**geforce-infinity**|[geforce-infinity-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforce-infinity-bin)|[geforce-infinity-bin](https://aur.archlinux.org/packages/geforce-infinity-bin)||
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**gemini-desktop**|[gemini-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gemini-desktop-git)|[gemini-desktop-git](https://aur.archlinux.org/packages/gemini-desktop-git)||
 |**gensokyo**|[gensokyo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gensokyo-bin)|[gensokyo-bin](https://aur.archlinux.org/packages/gensokyo-bin)||
