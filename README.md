@@ -734,6 +734,7 @@
 |**ngrev**|[ngrev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-bin)|[ngrev-bin](https://aur.archlinux.org/packages/ngrev-bin)||
 |**nheko**|[nheko-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/nheko-appimage)|[nheko-appimage](https://aur.archlinux.org/packages/nheko-appimage)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
+|**nipaplay**|[nipaplay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nipaplay-bin)|[nipaplay-bin](https://aur.archlinux.org/packages/nipaplay-bin)||
 |**nodeflow**|[nodeflow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-bin)|[nodeflow-bin](https://aur.archlinux.org/packages/nodeflow-bin)||
 |**node-snapdrop-electron**|[node-snapdrop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/node-snapdrop-electron-bin)|[node-snapdrop-electron-bin](https://aur.archlinux.org/packages/node-snapdrop-electron-bin)||
 |**node-toolkit**|[node-toolkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/node-toolkit-git)|[node-toolkit-git](https://aur.archlinux.org/packages/node-toolkit-git)||
