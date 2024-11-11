@@ -24,6 +24,7 @@
 |**air-controller-desktop**|[air-controller-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-bin)|[air-controller-desktop-bin](https://aur.archlinux.org/packages/air-controller-desktop-bin)||
 |**airdrop-tool**|[airdrop-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airdrop-tool-bin)|[airdrop-tool-bin](https://aur.archlinux.org/packages/airdrop-tool-bin)||
 |**airgorah**|[airgorah-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airgorah-bin)|[airgorah-bin](https://aur.archlinux.org/packages/airgorah-bin)||
+|**airlift**|[airlift-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airlift-bin)|[airlift-bin](https://aur.archlinux.org/packages/airlift-bin)||
 |**ai-writer**|[ai-writer](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-writer)|[ai-writer](https://aur.archlinux.org/packages/ai-writer)||
 |**akuse**|[akuse](https://github.com/zxp19821005/My_AUR_Files/tree/main/akuse)<br>[akuse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/akuse-bin)<br>[akuse-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/akuse-git)|[akuse](https://aur.archlinux.org/packages/akuse)<br>[akuse-bin](https://aur.archlinux.org/packages/akuse-bin)<br>[akuse-git](https://aur.archlinux.org/packages/akuse-git)||
 |**albumate**|[albumate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/albumate-bin)|[albumate-bin](https://aur.archlinux.org/packages/albumate-bin)||
