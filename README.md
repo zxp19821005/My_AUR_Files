@@ -594,6 +594,7 @@
 |**laravel-kit**|[laravel-kit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laravel-kit-bin)|[laravel-kit-bin](https://aur.archlinux.org/packages/laravel-kit-bin)||
 |**ldtk**|[ldtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-bin)|[ldtk-bin](https://aur.archlinux.org/packages/ldtk-bin)||
 |**leafview**|[leafview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leafview-bin)|[leafview-bin](https://aur.archlinux.org/packages/leafview-bin)||
+|**leavepad**|[leavepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-bin)|[leavepad-bin](https://aur.archlinux.org/packages/leavepad-bin)||
 |**lemmy-modder-app**|[lemmy-modder-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lemmy-modder-app-bin)|[lemmy-modder-app-bin](https://aur.archlinux.org/packages/lemmy-modder-app-bin)||
 |**lepton**|[lepton-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lepton-bin)|[lepton-bin](https://aur.archlinux.org/packages/lepton-bin)||
 |**leser**|[leser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leser-git)|[leser-git](https://aur.archlinux.org/packages/leser-git)||
