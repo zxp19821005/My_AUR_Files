@@ -537,6 +537,7 @@
 |**infoz**|[infoz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/infoz-bin)|[infoz-bin](https://aur.archlinux.org/packages/infoz-bin)||
 |**inkdown**|[inkdown](https://github.com/zxp19821005/My_AUR_Files/tree/main/inkdown)<br>[inkdown-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/inkdown-git)|[inkdown](https://aur.archlinux.org/packages/inkdown)<br>[inkdown-git](https://aur.archlinux.org/packages/inkdown-git)||
 |**inner-ink**|[inner-ink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inner-ink-bin)|[inner-ink-bin](https://aur.archlinux.org/packages/inner-ink-bin)||
+|**input-remapper**|[input-remapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/input-remapper-bin)|[input-remapper-bin](https://aur.archlinux.org/packages/input-remapper-bin)||
 |**interactive-data-editor**|[interactive-data-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interactive-data-editor-bin)|[interactive-data-editor-bin](https://aur.archlinux.org/packages/interactive-data-editor-bin)||
 |**interastral-peace-chat**|[interastral-peace-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interastral-peace-chat-bin)|[interastral-peace-chat-bin](https://aur.archlinux.org/packages/interastral-peace-chat-bin)||
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
