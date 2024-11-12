@@ -659,6 +659,7 @@
 |**media-player-electron**|[media-player-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-player-electron-git)|[media-player-electron-git](https://aur.archlinux.org/packages/media-player-electron-git)||
 |**medict**|[medict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/medict-bin)|[medict-bin](https://aur.archlinux.org/packages/medict-bin)||
 |**medis**|[medis-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/medis-git)|[medis-git](https://aur.archlinux.org/packages/medis-git)||
+|**megacubo**|[megacubo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/megacubo-bin)|[megacubo-bin](https://aur.archlinux.org/packages/megacubo-bin)||
 |**melodie**|[melodie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodie-bin)|[melodie-bin](https://aur.archlinux.org/packages/melodie-bin)||
 |**melodify**|[melodify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/melodify-bin)|[melodify-bin](https://aur.archlinux.org/packages/melodify-bin)||
 |**melt-mdeditor**|[melt-mdeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/melt-mdeditor-git)|[melt-mdeditor-git](https://aur.archlinux.org/packages/melt-mdeditor-git)||
