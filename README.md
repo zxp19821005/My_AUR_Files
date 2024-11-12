@@ -191,6 +191,7 @@
 |**codex**|[codex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codex-bin)|[codex-bin](https://aur.archlinux.org/packages/codex-bin)||
 |**coinstac-desktop-app**|[coinstac-desktop-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-desktop-app-bin)|[coinstac-desktop-app-bin](https://aur.archlinux.org/packages/coinstac-desktop-app-bin)||
 |**colony-player**|[colony-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colony-player-bin)|[colony-player-bin](https://aur.archlinux.org/packages/colony-player-bin)||
+
 |**colorpicker-app**|[colorpicker-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-app-bin)|[colorpicker-app-bin](https://aur.archlinux.org/packages/colorpicker-app-bin)||
 |**colour-contrast-analyser**|[colour-contrast-analyser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colour-contrast-analyser-bin)|[colour-contrast-analyser-bin](https://aur.archlinux.org/packages/colour-contrast-analyser-bin)||
 |**comet**|[comet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/comet-bin)|[comet-bin](https://aur.archlinux.org/packages/comet-bin)||
@@ -1000,7 +1001,9 @@
 |**snailfm**|[snailfm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snailfm-bin)|[snailfm-bin](https://aur.archlinux.org/packages/snailfm-bin)||
 |**snapmail**|[snapmail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapmail-bin)|[snapmail-bin](https://aur.archlinux.org/packages/snapmail-bin)||
 |**snippet-notes**|[snippet-notes](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippet-notes)|[snippet-notes](https://aur.archlinux.org/packages/snippet-notes)||
-|**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck)<br>[snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck)<br>[snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)|||**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
+|**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck)<br>[snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck)<br>[snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)||
+|**soar**|[soar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soar-bin)|[soar-bin](https://aur.archlinux.org/packages/soar-bin)||
+|**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**solidtime**|[solidtime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solidtime-bin)|[solidtime-bin](https://aur.archlinux.org/packages/solidtime-bin)||
 |**somafm-desktop-player**|[somafm-desktop-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/somafm-desktop-player-bin)|[somafm-desktop-player-bin](https://aur.archlinux.org/packages/somafm-desktop-player-bin)||
