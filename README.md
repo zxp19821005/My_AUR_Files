@@ -929,6 +929,7 @@
 |**revolt-desktop**|[revolt-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop)<br>[revolt-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-bin)|[revolt-desktop](https://aur.archlinux.org/packages/revolt-desktop)<br>[revolt-desktop-bin](https://aur.archlinux.org/packages/revolt-desktop-bin)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
 |**ricochlime**|[ricochlime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ricochlime-bin)|[ricochlime-bin](https://aur.archlinux.org/packages/ricochlime-bin)||
+|**ringcentral-community-app**|[ringcentral-community-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringcentral-community-app-bin)|[ringcentral-community-app-bin](https://aur.archlinux.org/packages/ringcentral-community-app-bin)||
 |**ringer-client-desktop**|[ringer-client-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringer-client-desktop)|[ringer-client-desktop](https://aur.archlinux.org/packages/ringer-client-desktop)||
 |**ripes**|[ripes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-bin)|[ripes-bin](https://aur.archlinux.org/packages/ripes-bin)||
 |**rocketchat-desktop**|[rocketchat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rocketchat-desktop-git)|[rocketchat-desktop-git](https://aur.archlinux.org/packages/rocketchat-desktop-git)||
