@@ -559,6 +559,7 @@
 |**jello**|[jello-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jello-bin)|[jello-bin](https://aur.archlinux.org/packages/jello-bin)||
 |**jet-pilot**|[jet-pilot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jet-pilot-bin)|[jet-pilot-bin](https://aur.archlinux.org/packages/jet-pilot-bin)||
 |**jimud**|[jimud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jimud-bin)|[jimud-bin](https://aur.archlinux.org/packages/jimud-bin)||
+|**jitsi-meet-desktop**|[jitsi-meet-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/jitsi-meet-desktop-git)|[jitsi-meet-desktop-git](https://aur.archlinux.org/packages/jitsi-meet-desktop-git)||
 |**joindesktop**|[joindesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joindesktop-bin)|[joindesktop-bin](https://aur.archlinux.org/packages/joindesktop-bin)||
 |**joystick**|[joystick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joystick-bin)|[joystick-bin](https://aur.archlinux.org/packages/joystick-bin)||
 |**joy-xtream-player**|[joy-xtream-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/joy-xtream-player-git)|[joy-xtream-player-git](https://aur.archlinux.org/packages/joy-xtream-player-git)||
