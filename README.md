@@ -255,6 +255,7 @@
 |**deskgpt**|[deskgpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deskgpt-bin)|[deskgpt-bin](https://aur.archlinux.org/packages/deskgpt-bin)||
 |**desktop-notifier**|[desktop-notifier-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-notifier-appimage)|[desktop-notifier-appimage](https://aur.archlinux.org/packages/desktop-notifier-appimage)||
 |**desktop-schedule**|[desktop-schedule-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-schedule-bin)|[desktop-schedule-bin](https://aur.archlinux.org/packages/desktop-schedule-bin)||
+|**desktop-wakatime**|[desktop-wakatime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/desktop-wakatime-bin)|[desktop-wakatime-bin](https://aur.archlinux.org/packages/desktop-wakatime-bin)||
 |**des-talk**|[des-talk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/des-talk-bin)|[des-talk-bin](https://aur.archlinux.org/packages/des-talk-bin)||
 |**devbox**|[devbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devbox-bin)|[devbox-bin](https://aur.archlinux.org/packages/devbox-bin)||
 |**devhub**|[devhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/devhub-bin)|[devhub-bin](https://aur.archlinux.org/packages/devhub-bin)||
