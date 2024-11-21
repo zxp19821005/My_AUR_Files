@@ -1033,6 +1033,7 @@
 |**spark-wallet**|[spark-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-wallet-bin)|[spark-wallet-bin](https://aur.archlinux.org/packages/spark-wallet-bin)||
 |**spearmint-test**|[spearmint-test-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spearmint-test-bin)|[spearmint-test-bin](https://aur.archlinux.org/packages/spearmint-test-bin)||
 |**speek**|[speek-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/speek-appimage)|[speek-appimage](https://aur.archlinux.org/packages/speek-appimage)||
+|**spie**|[spie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spie-bin)|[spie-bin](https://aur.archlinux.org/packages/spie-bin)||
 |**spine-viewer**|[spine-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/spine-viewer-git)|[spine-viewer-git](https://aur.archlinux.org/packages/spine-viewer-git)||
 |**splayer**|[splayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-bin)<br>[splayer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-git)|[splayer-bin](https://aur.archlinux.org/packages/splayer-bin)<br>[splayer-git](https://aur.archlinux.org/packages/splayer-git)||
 |**spotbar**|[spotbar](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotbar)|[spotbar](https://aur.archlinux.org/packages/spotbar)||
