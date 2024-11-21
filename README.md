@@ -346,6 +346,7 @@
 |**electron-widgets**|[electron-widgets-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-widgets-bin)<br>[electron-widgets-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-widgets-git)|[electron-widgets-bin](https://aur.archlinux.org/packages/electron-widgets-bin)<br>[electron-widgets-git](https://aur.archlinux.org/packages/electron-widgets-git)||
 |**electronwmd**|[electronwmd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electronwmd-bin)|[electronwmd-bin](https://aur.archlinux.org/packages/electronwmd-bin)||
 |**electron-youtube-music**|[electron-youtube-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-youtube-music-bin)|[electron-youtube-music-bin](https://aur.archlinux.org/packages/electron-youtube-music-bin)||
+|**elemental-notes**|[elemental-notes-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemental-notes-git)|[elemental-notes-git](https://aur.archlinux.org/packages/elemental-notes-git)||
 |**elements-latex**|[elements-latex](https://github.com/zxp19821005/My_AUR_Files/tree/main/elements-latex)|[elements-latex](https://aur.archlinux.org/packages/elements-latex)||
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
 |**elephicon**|[elephicon](https://github.com/zxp19821005/My_AUR_Files/tree/main/elephicon)|[elephicon](https://aur.archlinux.org/packages/elephicon)||
