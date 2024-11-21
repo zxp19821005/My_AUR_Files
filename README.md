@@ -956,6 +956,7 @@
 |**round-drop**|[round-drop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/round-drop-git)|[round-drop-git](https://aur.archlinux.org/packages/round-drop-git)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick)<br>[rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick](https://aur.archlinux.org/packages/rubick)<br>[rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
+|**runjs-electron**|[runjs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/runjs-electron-bin)|[runjs-electron-bin](https://aur.archlinux.org/packages/runjs-electron-bin)||
 |**rustii**|[rustii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rustii-bin)|[rustii-bin](https://aur.archlinux.org/packages/rustii-bin)||
 |**s5cmd**|[s5cmd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/s5cmd-bin)|[s5cmd-bin](https://aur.archlinux.org/packages/s5cmd-bin)||
 |**sabaki**|[sabaki-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-bin)<br>[sabaki-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sabaki-git)|[sabaki-bin](https://aur.archlinux.org/packages/sabaki-bin)<br>[sabaki-git](https://aur.archlinux.org/packages/sabaki-git)||
