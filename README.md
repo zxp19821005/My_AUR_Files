@@ -95,6 +95,7 @@
 |**autographa**|[autographa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autographa-bin)|[autographa-bin](https://aur.archlinux.org/packages/autographa-bin)||
 |**autorecord-manager**|[autorecord-manager](https://github.com/zxp19821005/My_AUR_Files/tree/main/autorecord-manager)|[autorecord-manager](https://aur.archlinux.org/packages/autorecord-manager)||
 |**avaloniatftpclient**|[avaloniatftpclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/avaloniatftpclient-bin)|[avaloniatftpclient-bin](https://aur.archlinux.org/packages/avaloniatftpclient-bin)||
+|**avaloniavisualbasic**|[avaloniavisualbasic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/avaloniavisualbasic-bin)|[avaloniavisualbasic-bin](https://aur.archlinux.org/packages/avaloniavisualbasic-bin)||
 |**avda**|[avda-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/avda-bin)|[avda-bin](https://aur.archlinux.org/packages/avda-bin)||
 |**aviutl-package-manager**|[aviutl-package-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aviutl-package-manager-bin)|[aviutl-package-manager-bin](https://aur.archlinux.org/packages/aviutl-package-manager-bin)||
 |**avogadro2**|[avogadro2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/avogadro2-bin)|[avogadro2-bin](https://aur.archlinux.org/packages/avogadro2-bin)||
