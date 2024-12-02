@@ -294,6 +294,7 @@
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||\
 |**eaglergrab**|[eaglergrab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eaglergrab-bin)|[eaglergrab-bin](https://aur.archlinux.org/packages/eaglergrab-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
+|**easyedit**|[easyedit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyedit-git)|[easyedit-git](https://aur.archlinux.org/packages/easyedit-git)||
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
 |**ecency-surfer**|[ecency-surfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-bin)|[ecency-surfer-bin](https://aur.archlinux.org/packages/ecency-surfer-bin)||
 |**ecloud**|[ecloud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecloud-bin)|[ecloud-bin](https://aur.archlinux.org/packages/ecloud-bin)||
