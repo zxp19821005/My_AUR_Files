@@ -218,6 +218,7 @@
 |**cubytext**|[cubytext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cubytext-bin)|[cubytext-bin](https://aur.archlinux.org/packages/cubytext-bin)||
 |**cultivation**|[cultivation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation-bin)|[cultivation-bin](https://aur.archlinux.org/packages/cultivation-bin)||
 |**cuttletron**|[cuttletron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-bin)|[cuttletron-bin](https://aur.archlinux.org/packages/cuttletron-bin)||
+|**cuuri**|[cuuri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuuri-bin)|[cuuri-bin](https://aur.archlinux.org/packages/cuuri-bin)||
 |**cycode**|[cycode](https://github.com/zxp19821005/My_AUR_Files/tree/main/cycode)|[cycode](https://aur.archlinux.org/packages/cycode)||
 |**daily-diary**|[daily-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/daily-diary-bin)|[daily-diary-bin](https://aur.archlinux.org/packages/daily-diary-bin)||
 |**darkorbit-client**|[darkorbit-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/darkorbit-client-bin)|[darkorbit-client-bin](https://aur.archlinux.org/packages/darkorbit-client-bin)||
@@ -347,6 +348,7 @@
 |**electron-music-player**|[electron-music-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-music-player)|[electron-music-player](https://aur.archlinux.org/packages/electron-music-player)||
 |**electron-netease-cloud-music**|[electron-netease-cloud-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-netease-cloud-music-bin)|[electron-netease-cloud-music-bin](https://aur.archlinux.org/packages/electron-netease-cloud-music-bin)||
 |**electron-netease-cloud-music**|[electron-netease-cloud-music-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-netease-cloud-music-git)|[electron-netease-cloud-music-git](https://aur.archlinux.org/packages/electron-netease-cloud-music-git)||
+|**electron-notes**|[electron-notes-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-notes-git)|[electron-notes-git](https://aur.archlinux.org/packages/electron-notes-git)||
 |**electron-pdf-viewer**|[electron-pdf-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-bin) <br> [electron-pdf-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-pdf-viewer-git)|[electron-pdf-viewer-bin](https://aur.archlinux.org/packages/electron-pdf-viewer-bin) <br> [electron-pdf-viewer-git](https://aur.archlinux.org/packages/electron-pdf-viewer-git)||
 |**electron-s3-file-manager**|[electron-s3-file-manager](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-s3-file-manager)|[electron-s3-file-manager](https://aur.archlinux.org/packages/electron-s3-file-manager)||
 |**electron-utils**|[electron-utils-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-utils-bin)|[electron-utils-bin](https://aur.archlinux.org/packages/electron-utils-bin)||
