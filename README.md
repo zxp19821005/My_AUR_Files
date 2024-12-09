@@ -672,6 +672,7 @@
 |**manyi-transformer**|[manyi-transformer](https://github.com/zxp19821005/My_AUR_Files/tree/main/manyi-transformer)|[manyi-transformer](https://aur.archlinux.org/packages/manyi-transformer)||
 |**map-download**|[map-download-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/map-download-git)|[map-download-git](https://aur.archlinux.org/packages/map-download-git)||
 |**mapeo-desktop**|[mapeo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mapeo-desktop-bin)|[mapeo-desktop-bin](https://aur.archlinux.org/packages/mapeo-desktop-bin)||
+|**marchen**|[marchen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marchen-bin)|[marchen-bin](https://aur.archlinux.org/packages/marchen-bin)||
 |**markflowy**|[markflowy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/markflowy-bin)|[markflowy-bin](https://aur.archlinux.org/packages/markflowy-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
 |**masscode**|[masscode-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-git) <br> [masscode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-bin)|[masscode-git](https://aur.archlinux.org/packages/masscode-git) <br> [masscode-bin](https://aur.archlinux.org/packages/masscode-bin)||
