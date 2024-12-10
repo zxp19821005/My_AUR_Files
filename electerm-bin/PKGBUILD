@@ -1,9 +1,9 @@
 # Maintainer: Michael Asher <michael@wesolveeverything.com>
 pkgname=electerm-bin
-pkgver=1.40.16
+pkgver=1.50.65
 _electronversion=26
 pkgrel=1
-pkgdesc="An electron-based SSH/SFTP Connection manager and terminal"
+pkgdesc="An electron-based SSH/SFTP Connection manager and terminal.(Prebuilt version.Use system-wide electron)"
 arch=(
     'aarch64'
     'armv7h'
@@ -16,7 +16,6 @@ provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
     "electron${_electronversion}"
-    'java-runtime'
 )
 options=(
     '!strip'
@@ -26,14 +25,14 @@ source=(
     "LICENSE-${pkgver}::https://raw.githubusercontent.com/electerm/electerm/v${pkgver}/LICENSE"
     "${pkgname%-bin}.sh"
 )
-source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-arm64.deb")
-source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-armv7l.deb")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-amd64.deb")
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-aarch64.rpm")
+source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-armv7l.rpm")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-x86_64.rpm")
 sha256sums=('a9b7ccf11bec7796b217a7575d3324c16613a46bfc899e72ec2c11da28d0991e'
             '291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
-sha256sums_aarch64=('38c0d39088506e12850f0661c4d67d75be158a5367ab3b51a73b21eff5e1de75')
-sha256sums_armv7h=('5765d080601a27d9f3d0d056b0517d6c4773e888008decfb23281e4ab5aa1c19')
-sha256sums_x86_64=('9bc3de49fbdb2b343fbf847720218cd5f954b8eb3d174f291cf4be315ccf1cee')
+sha256sums_aarch64=('4c49a8f2467317c972361bac461ee1e081458f6f220f3c14f8f7f20d71eed39b')
+sha256sums_armv7h=('e35a408a280cb3c70f9042d300fa066f3775a32f15c97705c03078921286dd4e')
+sha256sums_x86_64=('a334fb415b5bc539b7980ac5090ca11106946486e3396661166f25b434859db8')
 build() {
     sed -e "
         s/@electronversion@/${_electronversion}/g
@@ -42,15 +41,13 @@ build() {
         s/@cfgdirname@/${pkgname%-bin}/g
         s/@options@//g
     " -i "${srcdir}/${pkgname%-bin}.sh"
-    bsdtar -xf "${srcdir}/data."*
     sed -i "s/\/opt\/${pkgname%-bin}\/${pkgname%-bin}/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm644 "${srcdir}/opt/${pkgname%-bin}/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -r "${srcdir}/opt/${pkgname%-bin}/resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/${pkgname%-bin}/resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname%-bin}"
     install -Dm644 "${srcdir}/usr/share/icons/hicolor/128x128/apps/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
     install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/usr/share/doc/${pkgname%-bin}/changelog.gz" -t "${pkgdir}/usr/share/doc/${pkgname%-bin}"
     install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
