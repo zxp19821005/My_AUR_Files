@@ -1199,6 +1199,7 @@
 |**unoffical-wallhaven-desktop**|[unoffical-wallhaven-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-wallhaven-desktop-git)|[unoffical-wallhaven-desktop-git](https://aur.archlinux.org/packages/unoffical-wallhaven-desktop-git)||
 |**unsplash-wallpapers**|[unsplash-wallpapers-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/unsplash-wallpapers-bin)|[unsplash-wallpapers-bin](https://aur.archlinux.org/packages/unsplash-wallpapers-bin)||
 |**unyo**|[unyo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/unyo-bin)|[unyo-bin](https://aur.archlinux.org/packages/unyo-bin)||
+|**up2share-desktop**|[up2share-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/up2share-desktop-git)|[up2share-desktop-git](https://aur.archlinux.org/packages/up2share-desktop-git)||
 |**upscayl**|[upscayl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/upscayl-git)|[upscayl-git](https://aur.archlinux.org/packages/upscayl-git)||
 |**url-collector**|[url-collector-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/url-collector-bin)|[url-collector-bin](https://aur.archlinux.org/packages/url-collector-bin)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
