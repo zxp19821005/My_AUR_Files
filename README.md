@@ -966,6 +966,7 @@
 |**remindr**|[remindr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remindr-bin)|[remindr-bin](https://aur.archlinux.org/packages/remindr-bin)||
 |**remoteplaywhatever**|[remoteplaywhatever-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/remoteplaywhatever-bin)|[remoteplaywhatever-bin](https://aur.archlinux.org/packages/remoteplaywhatever-bin)||
 |**rem-player**|[rem-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rem-player-bin)|[rem-player-bin](https://aur.archlinux.org/packages/rem-player-bin)||
+|**rename-photos**|[rename-photos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rename-photos-bin)|[rename-photos-bin](https://aur.archlinux.org/packages/rename-photos-bin)||
 |**rendertune**|[rendertune-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rendertune-bin)|[rendertune-bin](https://aur.archlinux.org/packages/rendertune-bin)||
 |**reor**|[reor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reor-bin)|[reor-bin](https://aur.archlinux.org/packages/reor-bin)||
 |**repath-studio**|[repath-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/repath-studio-bin)|[repath-studio-bin](https://aur.archlinux.org/packages/repath-studio-bin)||
