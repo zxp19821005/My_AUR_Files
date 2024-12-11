@@ -1023,6 +1023,7 @@
 |**shoppinglist**|[shoppinglist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shoppinglist-bin)|[shoppinglist-bin](https://aur.archlinux.org/packages/shoppinglist-bin)||
 |**shuffledns**|[shuffledns-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuffledns-bin)|[shuffledns-bin](https://aur.archlinux.org/packages/shuffledns-bin)||
 |**shuli**|[shuli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuli-bin)|[shuli-bin](https://aur.archlinux.org/packages/shuli-bin)||
+|**shutdown-scheduler**|[shutdown-scheduler-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutdown-scheduler-git)|[shutdown-scheduler-git](https://aur.archlinux.org/packages/shutdown-scheduler-git)||
 |**shutter-encoder**|[shutter-encoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutter-encoder-bin)|[shutter-encoder-bin](https://aur.archlinux.org/packages/shutter-encoder-bin)||
 |**shutu-client**|[shutu-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutu-client-bin)|[shutu-client-bin](https://aur.archlinux.org/packages/shutu-client-bin)||
 |**sigma-file-manager**|[sigma-file-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sigma-file-manager-git)|[sigma-file-manager-git](https://aur.archlinux.org/packages/sigma-file-manager-git)||
