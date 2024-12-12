@@ -832,6 +832,8 @@
 |**openhome**|[openhome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-bin)|[openhome-bin](https://aur.archlinux.org/packages/openhome-bin)||
 |**open-password-manager**|[open-password-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-password-manager-bin)|[open-password-manager-bin](https://aur.archlinux.org/packages/open-password-manager-bin)||
 |**orature**|[orature-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orature-bin)|[orature-bin](https://aur.archlinux.org/packages/orature-bin)||
+|**orca-writer**|[orca-writer](https://github.com/zxp19821005/My_AUR_Files/tree/main/orca-writer)|[orca-writer](https://aur.archlinux.org/packages/orca-writer)||
+|**osmon**|[osmon-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/osmon-git)|[osmon-git](https://aur.archlinux.org/packages/osmon-git)||
 |**ostara**|[ostara-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/ostara-appimage)|[ostara-appimage](https://aur.archlinux.org/packages/ostara-appimage)||
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
