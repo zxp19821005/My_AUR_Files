@@ -680,6 +680,7 @@
 |**marchen**|[marchen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marchen-bin)|[marchen-bin](https://aur.archlinux.org/packages/marchen-bin)||
 |**markflowy**|[markflowy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/markflowy-bin)|[markflowy-bin](https://aur.archlinux.org/packages/markflowy-bin)||
 |**marvin**|[marvin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/marvin-bin)|[marvin-bin](https://aur.archlinux.org/packages/marvin-bin)||
+|**masiro**|[masiro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masiro-bin)|[masiro-bin](https://aur.archlinux.org/packages/masiro-bin)||
 |**masscode**|[masscode-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-git) <br> [masscode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-bin)|[masscode-git](https://aur.archlinux.org/packages/masscode-git) <br> [masscode-bin](https://aur.archlinux.org/packages/masscode-bin)||
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
 |**mbcord**|[mbcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mbcord-bin)|[mbcord-bin](https://aur.archlinux.org/packages/mbcord-bin)||
