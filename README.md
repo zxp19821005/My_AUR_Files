@@ -88,6 +88,7 @@
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
 |**atlassify**|[atlassify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-bin) <br> [atlassify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-git)|[atlassify-bin](https://aur.archlinux.org/packages/atlassify-bin) <br> [atlassify-git](https://aur.archlinux.org/packages/atlassify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
+|**atv-remote**|[atv-remote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atv-remote-bin)|[atv-remote-bin](https://aur.archlinux.org/packages/atv-remote-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
 |**autocut-client**|[autocut-client](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-client)|[autocut-client](https://aur.archlinux.org/packages/autocut-client)||
