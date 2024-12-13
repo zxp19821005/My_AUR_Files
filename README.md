@@ -1132,6 +1132,7 @@
 |**text-diff-view**|[text-diff-view-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/text-diff-view-bin)|[text-diff-view-bin](https://aur.archlinux.org/packages/text-diff-view-bin)||
 |**textspace**|[textspace-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/textspace-git)|[textspace-git](https://aur.archlinux.org/packages/textspace-git)||
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
+|**text-vision**|[text-vision-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/text-vision-git)|[text-vision-git](https://aur.archlinux.org/packages/text-vision-git)||
 |**tfiletransfer**|[tfiletransfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tfiletransfer-bin)|[tfiletransfer-bin](https://aur.archlinux.org/packages/tfiletransfer-bin)||
 |**thedesk-client**|[thedesk-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-client-bin)|[thedesk-client-bin](https://aur.archlinux.org/packages/thedesk-client-bin)||
 |**the-password-manager**|[the-password-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/the-password-manager-git)|[the-password-manager-git](https://aur.archlinux.org/packages/the-password-manager-git)||
