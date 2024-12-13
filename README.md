@@ -684,6 +684,7 @@
 |**masiro**|[masiro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masiro-bin)|[masiro-bin](https://aur.archlinux.org/packages/masiro-bin)||
 |**masscode**|[masscode-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-git) <br> [masscode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/masscode-bin)|[masscode-git](https://aur.archlinux.org/packages/masscode-git) <br> [masscode-bin](https://aur.archlinux.org/packages/masscode-bin)||
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
+|**mawejs**|[mawejs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mawejs-bin)|[mawejs-bin](https://aur.archlinux.org/packages/mawejs-bin)||
 |**mbcord**|[mbcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mbcord-bin)|[mbcord-bin](https://aur.archlinux.org/packages/mbcord-bin)||
 |**mdsilo**|[mdsilo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdsilo-bin)|[mdsilo-bin](https://aur.archlinux.org/packages/mdsilo-bin)||
 |**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
