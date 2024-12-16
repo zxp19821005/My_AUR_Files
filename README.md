@@ -660,7 +660,7 @@
 |**lost-dutchman-mine**|[lost-dutchman-mine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lost-dutchman-mine-git)|[lost-dutchman-mine-git](https://aur.archlinux.org/packages/lost-dutchman-mine-git)||
 |**lotti**|[lotti-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lotti-bin)|[lotti-bin](https://aur.archlinux.org/packages/lotti-bin)||
 |**lucashazardous-music-player**|[lucashazardous-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lucashazardous-music-player-bin)|[lucashazardous-music-player-bin](https://aur.archlinux.org/packages/lucashazardous-music-player-bin)||
-|**lumen**|[lumen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-bin)|[lumen-bin](https://aur.archlinux.org/packages/lumen-bin)||
+|**lumen-desktop**|[lumen-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lumen-desktop-bin)|[lumen-desktop-bin](https://aur.archlinux.org/packages/lumen-desktop-bin)||
 |**lunarcalendar**|[lunarcalendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarcalendar-bin)|[lunarcalendar-bin](https://aur.archlinux.org/packages/lunarcalendar-bin)||
 |**lunarwolf**|[lunarwolf-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lunarwolf-git)|[lunarwolf-git](https://aur.archlinux.org/packages/lunarwolf-git)||
 |**lvce**|[lvce-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lvce-bin)|[lvce-bin](https://aur.archlinux.org/packages/lvce-bin)||
