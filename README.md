@@ -550,6 +550,7 @@
 |**hyperamp**|[hyperamp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperamp-bin)|[hyperamp-bin](https://aur.archlinux.org/packages/hyperamp-bin)||
 |**hyper**|[hyper-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyper-git)|[hyper-git](https://aur.archlinux.org/packages/hyper-git)||
 |**hyperkeys**|[hyperkeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hyperkeys-bin)|[hyperkeys-bin](https://aur.archlinux.org/packages/hyperkeys-bin)||
+|**ibattery**|[ibattery-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ibattery-git)|[ibattery-git](https://aur.archlinux.org/packages/ibattery-git)||
 |**icalingua++**|[icalingua++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-bin)|[icalingua++-bin](https://aur.archlinux.org/packages/icalingua++-bin)||
 |**iceborne**|[iceborne](https://github.com/zxp19821005/My_AUR_Files/tree/main/iceborne)|[iceborne](https://aur.archlinux.org/packages/iceborne)||
 |**icxor**|[icxor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/icxor-git)|[icxor-git](https://aur.archlinux.org/packages/icxor-git)||
