@@ -1022,6 +1022,7 @@
 |**selenium-ide**|[selenium-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-bin)|[selenium-ide-bin](https://aur.archlinux.org/packages/selenium-ide-bin)||
 |**selvania-launcher**|[selvania-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/selvania-launcher-bin)|[selvania-launcher-bin](https://aur.archlinux.org/packages/selvania-launcher-bin)||
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
+|**seekr**|[seekr](https://github.com/zxp19821005/My_AUR_Files/tree/main/seekr)<br>[seekr-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/seekr-git)|[seekr](https://aur.archlinux.org/packages/seekr)<br>[seekr-git](https://aur.archlinux.org/packages/seekr-git)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
 |**sentio**|[sentio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sentio-bin)|[sentio-bin](https://aur.archlinux.org/packages/sentio-bin)||
 |**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
