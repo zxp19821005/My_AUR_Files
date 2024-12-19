@@ -1132,7 +1132,7 @@
 |**teamide**|[teamide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teamide-bin)|[teamide-bin](https://aur.archlinux.org/packages/teamide-bin)||
 |**tencent-docs-electron**|[tencent-docs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-docs-electron-bin)|[tencent-docs-electron-bin](https://aur.archlinux.org/packages/tencent-docs-electron-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
-|**tencentvideo**|[tencentvideo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencentvideo-bin)|[tencentvideo-bin](https://aur.archlinux.org/packages/tencentvideo-bin)||
+|**tencentvideo**|[tencentvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencentvideo)|[tencentvideo](https://aur.archlinux.org/packages/tencentvideo)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||
 |**tesler**|[tesler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tesler-bin)|[tesler-bin](https://aur.archlinux.org/packages/tesler-bin)||
