@@ -867,6 +867,7 @@
 |**panfu-desktop**|[panfu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panfu-desktop-bin)|[panfu-desktop-bin](https://aur.archlinux.org/packages/panfu-desktop-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
 |**paradise-pi**|[paradise-pi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paradise-pi-bin)|[paradise-pi-bin](https://aur.archlinux.org/packages/paradise-pi-bin)||
+|**paragraph-editor**|[paragraph-editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/paragraph-editor-git)|[paragraph-editor-git](https://aur.archlinux.org/packages/paragraph-editor-git)||
 |**parseit**|[parseit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/parseit-git)|[parseit-git](https://aur.archlinux.org/packages/parseit-git)||
 |**parsify-desktop**|[parsify-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/parsify-desktop)|[parsify-desktop](https://aur.archlinux.org/packages/parsify-desktop)||
 |**passbox**|[passbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/passbox)|[passbox](https://aur.archlinux.org/packages/passbox)||
