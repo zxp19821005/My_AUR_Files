@@ -453,6 +453,7 @@
 |**fscan**|[fscan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fscan-bin)|[fscan-bin](https://aur.archlinux.org/packages/fscan-bin)||
 |**fsolauncher**|[fsolauncher](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher) <br> [fsolauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher-bin)|[fsolauncher](https://aur.archlinux.org/packages/fsolauncher) <br> [fsolauncher-bin](https://aur.archlinux.org/packages/fsolauncher-bin)||
 |**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
+|**fumble**|[fumble-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fumble-git)|[fumble-git](https://aur.archlinux.org/packages/fumble-git)||
 |**fuzzynote**|[fuzzynote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fuzzynote-bin)|[fuzzynote-bin](https://aur.archlinux.org/packages/fuzzynote-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**fxradio**|[fxradio](https://github.com/zxp19821005/My_AUR_Files/tree/main/fxradio)|[fxradio](https://aur.archlinux.org/packages/fxradio)||
