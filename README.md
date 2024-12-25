@@ -728,6 +728,7 @@
 |**miuzcpc**|[miuzcpc-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/miuzcpc-git)|[miuzcpc-git](https://aur.archlinux.org/packages/miuzcpc-git)||
 |**mizar**|[mizar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mizar-bin)|[mizar-bin](https://aur.archlinux.org/packages/mizar-bin)||
 |**mkfont**|[mkfont](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkfont)|[mkfont](https://aur.archlinux.org/packages/mkfont)||
+|**mmimage**|[mmimage-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmimage-git)|[mmimage-git](https://aur.archlinux.org/packages/mmimage-git)||
 |**mkeditor**|[mkeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkeditor-bin) <br> [mkeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mkeditor-git)|[mkeditor-bin](https://aur.archlinux.org/packages/mkeditor-bin) <br> [mkeditor-git](https://aur.archlinux.org/packages/mkeditor-git)||
 |**mmseqs2-search**|[mmseqs2-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mmseqs2-search-bin)|[mmseqs2-search-bin](https://aur.archlinux.org/packages/mmseqs2-search-bin)||
 |**mockery**|[mockery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mockery-bin)|[mockery-bin](https://aur.archlinux.org/packages/mockery-bin)||
