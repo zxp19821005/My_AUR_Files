@@ -1,0 +1,49 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+pkgname=hillstonesecureconnect-bin
+_pkgname='HillstoneSecureConnect'
+pkgver=5.5.0.11556
+pkgrel=1
+pkgdesc="HillstoneSecureConnect is a software for establishing remote connections, supporting mobile devices, Windows, Mac, Linux and other devices.(Prebuilt version)"
+arch=('x86_64')
+url="https://www.hillstonenet.com/"
+license=('LicenseRef-custom')
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
+options=(
+    '!strip'
+)
+depends=(
+    'libx11'
+    'libxkbcommon-x11'
+    'libxrender'
+    'libxext'
+    'libglvnd'
+    'dbus'
+    'freetype2'
+    'fontconfig'
+)
+source=(
+    "${_pkgname}-${pkgver}-1.${CARCH}.rpm"
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('71f83181551991ebb9e2bb64d701fef7214b015fa8bb31b051f2a18fd751c968'
+            'b3e9c2ea2115387e381b4f66d286e59c0ad4a16b94eed5313b03ce05fadc8863')
+prepare() {
+    sed -e "
+        s/@appname@/${pkgname%-bin}/g
+        s/@runname@/${_pkgname}/g
+    " -i "${srcdir}/${pkgname%-bin}.sh"
+    sed -i "s/\/opt\/${_pkgname}/\/usr\/lib\/${pkgname%-bin}/g" "${srcdir}/opt/${_pkgname}/services/${_pkgname}.service"
+    sed -e "
+        s/\/opt\/${_pkgname}\/bin\/${_pkgname}/${pkgname%-bin}/g
+        s/\/opt\/${_pkgname}\/${_pkgname}.svg/${pkgname%-bin}/g
+    " -i "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/${_pkgname}/"* "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/opt/${_pkgname}/${_pkgname}.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
+    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${srcdir}/opt/${_pkgname}/services/${_pkgname}.service" "${pkgdir}/usr/lib/systemd/system/${pkgname%-bin}.service"
+}

@@ -531,6 +531,7 @@
 |**hexopress**|[hexopress](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexopress) <br> [hexopress-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexopress-git)|[hexopress](https://aur.archlinux.org/packages/hexopress) <br> [hexopress-git](https://aur.archlinux.org/packages/hexopress-git)||
 |**hexpick**|[hexpick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hexpick-bin)|[hexpick-bin](https://aur.archlinux.org/packages/hexpick-bin)||
 |**hihat**|[hihat](https://github.com/zxp19821005/My_AUR_Files/tree/main/hihat) <br> [hihat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hihat-bin)|[hihat](https://aur.archlinux.org/packages/hihat) <br> [hihat-bin](https://aur.archlinux.org/packages/hihat-bin)||
+|**hillstonesecureconnect**|[hillstonesecureconnect-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hillstonesecureconnect-bin)|[hillstonesecureconnect-bin](https://aur.archlinux.org/packages/hillstonesecureconnect-bin)||
 |**hiregpt**|[hiregpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/hiregpt)|[hiregpt](https://aur.archlinux.org/packages/hiregpt)||
 |**hollama**|[hollama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hollama-bin)|[hollama-bin](https://aur.archlinux.org/packages/hollama-bin)||
 |**homeassistant-desktop**|[homeassistant-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/homeassistant-desktop-bin)|[homeassistant-desktop-bin](https://aur.archlinux.org/packages/homeassistant-desktop-bin)||
