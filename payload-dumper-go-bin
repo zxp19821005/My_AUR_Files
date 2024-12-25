@@ -21,5 +21,5 @@ sha256sums_aarch64=('2512b2a57556f12c24304898363fa9640b8485b6ead3f2184e253c4890f
 sha256sums_armv7h=('61463a27388041a18b478f9c97671e75afbf19b9a002293038dcc3a40bb5c5cc')
 sha256sums_x86_64=('1b973d521cda71268ddbaa0388fe28d6a94b370c58e21352137c5f9077b0bfe7')
 package() {
-	install -Dm755 "${pkgname%-bin}" -t "$pkgdir/usr/bin/"
+    install -Dm755 "${pkgname%-bin}" -t "$pkgdir/usr/bin/"
 }
