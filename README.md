@@ -574,6 +574,7 @@
 |**input-remapper**|[input-remapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/input-remapper-bin)|[input-remapper-bin](https://aur.archlinux.org/packages/input-remapper-bin)||
 |**interactive-data-editor**|[interactive-data-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interactive-data-editor-bin)|[interactive-data-editor-bin](https://aur.archlinux.org/packages/interactive-data-editor-bin)||
 |**interastral-peace-chat**|[interastral-peace-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interastral-peace-chat-bin)|[interastral-peace-chat-bin](https://aur.archlinux.org/packages/interastral-peace-chat-bin)||
+|**interview-coder**|[interview-coder-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/interview-coder-git)|[interview-coder-git](https://aur.archlinux.org/packages/interview-coder-git)||
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
 |**issie**|[issie](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie) <br> [issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie](https://aur.archlinux.org/packages/issie) <br> [issie-bin](https://aur.archlinux.org/packages/issie-bin)||
