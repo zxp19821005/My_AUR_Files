@@ -567,6 +567,7 @@
 |**image-ascii-art-tauri**|[image-ascii-art-tauri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/image-ascii-art-tauri-bin)|[image-ascii-art-tauri-bin](https://aur.archlinux.org/packages/image-ascii-art-tauri-bin)||
 |**imageconverter2**|[imageconverter2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imageconverter2-bin)|[imageconverter2-bin](https://aur.archlinux.org/packages/imageconverter2-bin)||
 |**imagefanreloaded-avalonia**|[imagefanreloaded-avalonia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagefanreloaded-avalonia-bin)|[imagefanreloaded-avalonia-bin](https://aur.archlinux.org/packages/imagefanreloaded-avalonia-bin)||
+|**imagenie**|[imagenie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagenie-bin)|[imagenie-bin](https://aur.archlinux.org/packages/imagenie-bin)||
 |**imagenormalizer**|[imagenormalizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagenormalizer-bin)|[imagenormalizer-bin](https://aur.archlinux.org/packages/imagenormalizer-bin)||
 |**image-stitching**|[image-stitching-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/image-stitching-git)|[image-stitching-git](https://aur.archlinux.org/packages/image-stitching-git)||
 |**imagine**|[imagine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/imagine-bin)|[imagine-bin](https://aur.archlinux.org/packages/imagine-bin)||
