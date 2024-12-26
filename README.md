@@ -1197,6 +1197,7 @@
 |**trezor-suite**|[trezor-suite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trezor-suite-bin)|[trezor-suite-bin](https://aur.archlinux.org/packages/trezor-suite-bin)||
 |**trilium-cn**|[trilium-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trilium-cn-bin)|自用版|
 |**triliumnext**|[triliumnext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/triliumnext-bin)|[triliumnext-bin](https://aur.archlinux.org/packages/triliumnext-bin)||
+|**trufos**|[trufos-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/trufos-git)|[trufos-git](https://aur.archlinux.org/packages/trufos-git)||
 |**tssh**|[tssh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tssh-bin)|[tssh-bin](https://aur.archlinux.org/packages/tssh-bin)||
 |**ttf-canger-feibai**|[ttf-canger-feibai](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-feibai)|[ttf-canger-feibai](https://aur.archlinux.org/packages/ttf-canger-feibai)||
 |**ttf-canger-shuyuan**|[ttf-canger-shuyuan](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-canger-shuyuan)|[ttf-canger-shuyuan](https://aur.archlinux.org/packages/ttf-canger-shuyuan)||
