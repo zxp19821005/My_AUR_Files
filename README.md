@@ -1150,7 +1150,7 @@
 |**teamide**|[teamide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teamide-bin)|[teamide-bin](https://aur.archlinux.org/packages/teamide-bin)||
 |**tencent-docs-electron**|[tencent-docs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-docs-electron-bin)|[tencent-docs-electron-bin](https://aur.archlinux.org/packages/tencent-docs-electron-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
-|**tencentvideo**|[tencentvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencentvideo)|[tencentvideo](https://aur.archlinux.org/packages/tencentvideo)||
+|**tenvideo**|[tenvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tenvideo)|[tenvideo](https://aur.archlinux.org/packages/tenvideo)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
 |**termv-rs**|[termv-rs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termv-rs)|[termv-rs](https://aur.archlinux.org/packages/termv-rs)||
 |**terraform-provider-alibabacloudstack**|[terraform-provider-alibabacloudstack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/terraform-provider-alibabacloudstack-bin)|[terraform-provider-alibabacloudstack-bin](https://aur.archlinux.org/packages/terraform-provider-alibabacloudstack-bin)||
