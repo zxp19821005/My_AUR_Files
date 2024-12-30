@@ -1052,6 +1052,7 @@
 |**shibuya**|[shibuya-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shibuya-bin)|[shibuya-bin](https://aur.archlinux.org/packages/shibuya-bin)||
 |**sheikah-witnet-wallet**|[sheikah-witnet-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sheikah-witnet-wallet-bin)|[sheikah-witnet-wallet-bin](https://aur.archlinux.org/packages/sheikah-witnet-wallet-bin)||
 |**shinden-client**|[shinden-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shinden-client-bin)|[shinden-client-bin](https://aur.archlinux.org/packages/shinden-client-bin)||
+|**shiroa**|[shiroa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shiroa-bin)|[shiroa-bin](https://aur.archlinux.org/packages/shiroa-bin)||
 |**shoppinglist**|[shoppinglist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shoppinglist-bin)|[shoppinglist-bin](https://aur.archlinux.org/packages/shoppinglist-bin)||
 |**shuffledns**|[shuffledns-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuffledns-bin)|[shuffledns-bin](https://aur.archlinux.org/packages/shuffledns-bin)||
 |**shuli**|[shuli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuli-bin)|[shuli-bin](https://aur.archlinux.org/packages/shuli-bin)||
@@ -1228,7 +1229,6 @@
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**typesense-dashboard**|[typesense-dashboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typesense-dashboard-bin)|[typesense-dashboard-bin](https://aur.archlinux.org/packages/typesense-dashboard-bin)||
 |**typora-free-with-plugin**|[typora-free-with-plugin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typora-free-with-plugin)|[typora-free-with-plugin](https://aur.archlinux.org/packages/typora-free-with-plugin)||
-|**typst-book**|[typst-book-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typst-book-bin)|[typst-book-bin](https://aur.archlinux.org/packages/typst-book-bin)||
 |**tyrogit-client**|[tyrogit-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tyrogit-client-git)|[tyrogit-client-git](https://aur.archlinux.org/packages/tyrogit-client-git)||
 |**ubports-installer**|[ubports-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ubports-installer-bin)|[ubports-installer-bin](https://aur.archlinux.org/packages/ubports-installer-bin)||
 |**udeler**|[udeler](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler) <br> [udeler-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/udeler-git)|[udeler](https://aur.archlinux.org/packages/udeler) <br> [udeler-git](https://aur.archlinux.org/packages/udeler-git)||
