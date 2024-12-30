@@ -6,6 +6,7 @@
 |**abstreet**|[abstreet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/abstreet-bin)|[abstreet-bin](https://aur.archlinux.org/packages/abstreet-bin)||
 |**acast**|[acast](https://github.com/zxp19821005/My_AUR_Files/tree/main/acast)|[acast](https://aur.archlinux.org/packages/acast)||
 |**acodec**|[acodec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/acodec-bin)|[acodec-bin](https://aur.archlinux.org/packages/acodec-bin)||
+|**actual**|[actual-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/actual-bin)|[actual-bin](https://aur.archlinux.org/packages/actual-bin)||
 |**adagate**|[adagate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adagate-bin)|[adagate-bin](https://aur.archlinux.org/packages/adagate-bin)||
 |**adbmanage**|[adbmanager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/adbmanager-bin)|[adbmanager-bin](https://aur.archlinux.org/packages/adbmanager-bin)||
 |**advanced-passgen**|[advanced-passgen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/advanced-passgen-bin)|[advanced-passgen-bin](https://aur.archlinux.org/packages/advanced-passgen-bin)||
