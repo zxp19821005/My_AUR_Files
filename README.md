@@ -161,6 +161,7 @@
 |**caesium-image-compressor**|[caesium-image-compressor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/caesium-image-compressor-bin)|[caesium-image-compressor-bin](https://aur.archlinux.org/packages/caesium-image-compressor-bin)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
+|**calt**|[calt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/calt-git)|[calt-git](https://aur.archlinux.org/packages/calt-git)||
 |**caprine**|[caprine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-bin)<br>[caprine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-git)|[caprine-bin](https://aur.archlinux.org/packages/caprine-bin)<br>[caprine-git](https://aur.archlinux.org/packages/caprine-git)||
 |**caprine-ng**|[caprine-ng-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-ng-git)|[caprine-ng-git](https://aur.archlinux.org/packages/caprine-ng-git)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
