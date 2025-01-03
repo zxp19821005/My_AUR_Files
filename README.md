@@ -590,6 +590,7 @@
 |**interview-coder**|[interview-coder-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/interview-coder-git)|[interview-coder-git](https://aur.archlinux.org/packages/interview-coder-git)||
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
+|**ipv6prefixfilter**|[ipv6prefixfilter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ipv6prefixfilter-bin)|[ipv6prefixfilter-bin](https://aur.archlinux.org/packages/ipv6prefixfilter-bin)||
 |**issie**|[issie](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie) <br> [issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie](https://aur.archlinux.org/packages/issie) <br> [issie-bin](https://aur.archlinux.org/packages/issie-bin)||
 |**itime**|[itime-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/itime-git)|[itime-git](https://aur.archlinux.org/packages/itime-git)||
 |**jammer**|[jammer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jammer-bin)|[jammer-bin](https://aur.archlinux.org/packages/jammer-bin)||
