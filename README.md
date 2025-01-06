@@ -921,6 +921,7 @@
 |**pihead-gui**|[pihead-gui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pihead-gui-git)|[pihead-gui-git](https://aur.archlinux.org/packages/pihead-gui-git)||
 |**pikatorrent**|[pikatorrent-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-git) <br> [pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-git](https://aur.archlinux.org/packages/pikatorrent-git) <br> [pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
 |**pinac-workspace**|[pinac-workspace-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pinac-workspace-git)|[pinac-workspace-git](https://aur.archlinux.org/packages/pinac-workspace-git)||
+|**pipelab**|[pipelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pipelab-bin)|[pipelab-bin](https://aur.archlinux.org/packages/pipelab-bin)||
 |**pip-player**|[pip-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pip-player-git)|[pip-player-git](https://aur.archlinux.org/packages/pip-player-git)||
 |**pitv**|[pitv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pitv-bin)|[pitv-bin](https://aur.archlinux.org/packages/pitv-bin)||
 |**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
