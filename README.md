@@ -952,6 +952,7 @@
 |**pplink**|[pplink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pplink-bin)|[pplink-bin](https://aur.archlinux.org/packages/pplink-bin)||
 |**prepros**|[prepros-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prepros-bin)|[prepros-bin](https://aur.archlinux.org/packages/prepros-bin)||
 |**primate**|[primate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/primate-bin)|[primate-bin](https://aur.archlinux.org/packages/primate-bin)||
+|**printnotes**|[printnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/printnotes-bin)|[printnotes-bin](https://aur.archlinux.org/packages/printnotes-bin)||
 |**priori-db**|[priori-db-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/priori-db-bin)|[priori-db-bin](https://aur.archlinux.org/packages/priori-db-bin)||
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin)||
 |**privaxy**|[privaxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/privaxy-bin)|[privaxy-bin](https://aur.archlinux.org/packages/privaxy-bin)||
