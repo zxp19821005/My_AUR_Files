@@ -200,6 +200,7 @@
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudhub**|[cloudhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudhub-bin)|[cloudhub-bin](https://aur.archlinux.org/packages/cloudhub-bin)||
 |**cloudpan189-go**|[cloudpan189-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudpan189-go-bin)|[cloudpan189-go-bin](https://aur.archlinux.org/packages/cloudpan189-go-bin)||
+|**clues**|[clues-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/clues-git)|[clues-git](https://aur.archlinux.org/packages/clues-git)||
 |**coal-launcher**|[coal-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coal-launcher-bin)|[coal-launcher-bin](https://aur.archlinux.org/packages/coal-launcher-bin)||
 |**codefuse-ide**|[codefuse-ide-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/codefuse-ide-git)|[codefuse-ide-git](https://aur.archlinux.org/packages/codefuse-ide-git)||
 |**codegpt**|[codegpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codegpt-bin)|[codegpt-bin](https://aur.archlinux.org/packages/codegpt-bin)||
