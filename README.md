@@ -1201,6 +1201,7 @@
 |**tinytotp**|[tinytotp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tinytotp-bin)|[tinytotp-bin](https://aur.archlinux.org/packages/tinytotp-bin)||
 |**tiny-webserver-gtk4**|[tiny-webserver-gtk4-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiny-webserver-gtk4-bin)|[tiny-webserver-gtk4-bin](https://aur.archlinux.org/packages/tiny-webserver-gtk4-bin)||
 |**tishare-desktop**|[tishare-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tishare-desktop-bin)|[tishare-desktop-bin](https://aur.archlinux.org/packages/tishare-desktop-bin)||
+|**titan-rcs**|[titan-rcs-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/titan-rcs-git)|[titan-rcs-git](https://aur.archlinux.org/packages/titan-rcs-git)||
 |**tithree**|[tithree](https://github.com/zxp19821005/My_AUR_Files/tree/main/tithree)|[tithree](https://aur.archlinux.org/packages/tithree)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
 |**tockler**|[tockler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-bin)|[tockler-bin](https://aur.archlinux.org/packages/tockler-bin)||
