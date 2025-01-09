@@ -1,0 +1,85 @@
+# Maintainer: zhullyb <zhullyb [at] outlook dot com>
+# Maintainer: yjun <jerrysteve1101 at gmail dot com>
+# Contributor: Bruce Zhang <zttt183525594@gmail.com>
+# Contributor: witt <1989161762 at qq dot com>
+pkgname=dingtalk-bin
+_debname="com.alibabainc.${pkgname%-bin}"
+# https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Update/other/amd64/linux_dingtalk_update_package_gray.json
+pkgver=7.6.25.4122001
+pkgrel=2
+pkgdesc="DingTalk,钉钉"
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://www.dingtalk.com/"
+_dlurl="https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release"
+provides=(
+    "${_debname}=${pkgver}"
+    "${pkgname%-bin}=${pkgver}"
+)
+conflicts=(
+    "${_debname}"
+)
+replaces=(
+    "${_debname}"
+)
+license=('LicenseRef-custom')
+options=(
+    '!strip'
+)
+depends=(
+    'glu'
+    'gtk2'
+    'libxcrypt-compat'
+    'qt5-tools'
+    'qt5-x11extras'
+    'qt5-multimedia'
+    'qt5-svg'
+    'ffmpeg'
+    'gtk3'
+    'alsa-lib'
+    'nss'
+    'nspr'
+)
+optdepends=(
+    'zenity: fix crashes when downloading files, not required on kde.'
+    'libxss: fix tray icon functionality in gnome.'
+    'qt5-wayland: needed in wayland'
+)
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${_debname}_${pkgver}_arm64.deb")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${_debname}_${pkgver}_amd64.deb")
+source=(
+    "${pkgname%-bin}.svg"
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
+            '061fd1f5ed8e3a92130f181435348e3bfce11d0cd6ee69ce52e27f4bc76554ea')
+sha256sums_aarch64=('7a4454d874ac86ab03f9bed70c188757f26a41ea82a2788e672ee4df8fa7942f')
+sha256sums_x86_64=('163ce5aa3fc02e06008a9115c5d93b15493cdcab200ecb5c1d85688db2be683e')
+prepare() {
+    sed -e "
+        s/@appname@/${pkgname%-bin}/g
+        s/@runname@/${_debname}/g
+    " -i "${srcdir}/${pkgname%-bin}.sh"
+    bsdtar -xf "${srcdir}/data."*
+    sed -e "
+        s/\/opt\/apps\/${_debname}\/files\/Elevator.sh/${pkgname%-bin}/g
+        s/\/opt\/apps\/${_debname}\/files\/logo.ico/${pkgname%-bin}/g
+        s/Chat/Network/g
+    " -i "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop"
+    # fix chinese input in workbench
+    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libgtk-x11-2.0.so.*
+    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
+    # remove unused lib
+    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libcurl.so.4,libz*}
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/opt/${pkgname%-bin}/release"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/apps/${_debname}/files/"*-Release*/* "${pkgdir}/opt/${pkgname%-bin}/release"
+    install -Dm644 "${srcdir}/opt/apps/${_debname}/files/version" -t "${pkgdir}/opt/${debname%-bin}"
+    install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${srcdir}/${pkgname%-bin}.svg" -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
+    install -Dm644 "${srcdir}/opt/apps/${_debname}/files/doc/${_debname}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
