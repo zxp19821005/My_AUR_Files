@@ -800,6 +800,7 @@
 |**nats-js-client**|[nats-js-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nats-js-client-bin)|[nats-js-client-bin](https://aur.archlinux.org/packages/nats-js-client-bin)||
 |**navicat-premium-lite-cs**|[navicat-premium-lite-cs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/navicat-premium-lite-cs-appimage)|自用版||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
+|**nerimity-desktop**|[nerimity-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop)|[nerimity-desktop](https://aur.archlinux.org/packages/nerimity-desktop)||
 |**netease-cloud-music-gtk**|[netease-cloud-music-gtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netease-cloud-music-gtk-bin)|[netease-cloud-music-gtk-bin](https://aur.archlinux.org/packages/netease-cloud-music-gtk-bin)||
 |**netmount**|[netmount-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netmount-bin)|[netmount-bin](https://aur.archlinux.org/packages/netmount-bin)||
 |**netpad**|[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
