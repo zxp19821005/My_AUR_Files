@@ -1304,6 +1304,7 @@
 |**vscodius**|[vscodius-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodius-bin)|[vscodius-bin](https://aur.archlinux.org/packages/vscodius-bin)||
 |**vtm**|[vtm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vtm-bin)|[vtm-bin](https://aur.archlinux.org/packages/vtm-bin)||
 |**vudit**|[vudit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vudit-git)|[vudit-git](https://aur.archlinux.org/packages/vudit-git)||
+|**vutronmusic**|[vutronmusic](https://github.com/zxp19821005/My_AUR_Files/tree/main/vutronmusic)<br>[vutronmusic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vutronmusic-git)|[vutronmusic](https://aur.archlinux.org/packages/vutronmusic)<br>[vutronmusic-git](https://aur.archlinux.org/packages/vutronmusic-git)||
 |**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
 |**vfox**|[vfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vfox-bin)|[vfox-bin](https://aur.archlinux.org/packages/vfox-bin)||
 |**vgmtrans**|[vgmtrans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-bin)|[vgmtrans-bin](https://aur.archlinux.org/packages/vgmtrans-bin)||
