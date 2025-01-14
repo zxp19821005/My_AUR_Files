@@ -1155,6 +1155,7 @@
 |**stealthplane**|[stealthplane-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stealthplane-bin)|[stealthplane-bin](https://aur.archlinux.org/packages/stealthplane-bin)||
 |**steamachievementnotifier**|[steamachievementnotifier-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamachievementnotifier-bin)|[steamachievementnotifier-bin](https://aur.archlinux.org/packages/steamachievementnotifier-bin)||
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-bin)|[steamdepotdownloadergui-bin](https://aur.archlinux.org/packages/steamdepotdownloadergui-bin)||
+|**stockholm-trekkers-playlist-maker**|[stockholm-trekkers-playlist-maker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stockholm-trekkers-playlist-maker-bin)|[stockholm-trekkers-playlist-maker-bin](https://aur.archlinux.org/packages/stockholm-trekkers-playlist-maker-bin)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
 |**streambop**|[streambop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streambop-bin)|[streambop-bin](https://aur.archlinux.org/packages/streambop-bin)||
 |**streamdock**|[streamdock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streamdock-bin)|[streamdock-bin](https://aur.archlinux.org/packages/streamdock-bin)||
