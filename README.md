@@ -320,6 +320,7 @@
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
 |**ecency-surfer**|[ecency-surfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecency-surfer-bin)|[ecency-surfer-bin](https://aur.archlinux.org/packages/ecency-surfer-bin)||
 |**ecloud**|[ecloud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecloud-bin)|[ecloud-bin](https://aur.archlinux.org/packages/ecloud-bin)||
+|**edex-ui**|[edex-ui](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui)|[edex-ui](https://aur.archlinux.org/packages/edex-ui)||
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
 |**elastron**|[elastron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elastron-bin)|[elastron-bin](https://aur.archlinux.org/packages/elastron-bin)||
 |**elecap**|[elecap-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elecap-git)|[elecap-git](https://aur.archlinux.org/packages/elecap-git)||
