@@ -73,6 +73,7 @@
 |**animeclient**|[animeclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animeclient-bin)|[animeclient-bin](https://aur.archlinux.org/packages/animeclient-bin)||
 |**animestream**|[animestream-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-git) <br> [animestream-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-bin)|[animestream-git](https://aur.archlinux.org/packages/animestream-git) <br> [animestream-bin](https://aur.archlinux.org/packages/animestream-bin)||
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
+|**animu**|[animu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animu-bin)|[animu-bin](https://aur.archlinux.org/packages/animu-bin)||
 |**aniship**|[aniship-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniship-bin)|[aniship-bin](https://aur.archlinux.org/packages/aniship-bin)||
 |**anklang**|[anklang-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anklang-bin)|[anklang-bin](https://aur.archlinux.org/packages/anklang-bin)||
 |**annimate**|[annimate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/annimate-bin)|[annimate-bin](https://aur.archlinux.org/packages/annimate-bin)||
