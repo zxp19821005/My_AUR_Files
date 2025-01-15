@@ -1149,6 +1149,7 @@
 |**sqlitestudio**|[sqlitestudio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlitestudio-bin)|[sqlitestudio-bin](https://aur.archlinux.org/packages/sqlitestudio-bin)||
 |**sqlui-native**|[sqlui-native-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlui-native-bin)|[sqlui-native-bin](https://aur.archlinux.org/packages/sqlui-native-bin)||
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
+|**ssh-config-editor**|[ssh-config-editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ssh-config-editor-git)|[ssh-config-editor-git](https://aur.archlinux.org/packages/ssh-config-editor-git)||
 |**sshuttle-gui**|[sshuttle-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sshuttle-gui-bin)|[sshuttle-gui-bin](https://aur.archlinux.org/packages/sshuttle-gui-bin)||
 |**stackzy**|[stackzy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stackzy-bin)|[stackzy-bin](https://aur.archlinux.org/packages/stackzy-bin)||
 |**stage-retriever**|[stage-retriever](https://github.com/zxp19821005/My_AUR_Files/tree/main/stage-retriever)|[stage-retriever](https://aur.archlinux.org/packages/stage-retriever)||
