@@ -888,6 +888,7 @@
 |**otf-cjk-standards-logo-font**|[otf-cjk-standards-logo-font](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-cjk-standards-logo-font)|[otf-cjk-standards-logo-font](https://aur.archlinux.org/packages/otf-cjk-standards-logo-font)||
 |**otf-maoken-heavy-labourer**|[otf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/otf-maoken-heavy-labourer)|[otf-maoken-heavy-labourer](https://aur.archlinux.org/packages/otf-maoken-heavy-labourer)||
 |**outdated-snake**|[outdated-snake-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/outdated-snake-git)|[outdated-snake-git](https://aur.archlinux.org/packages/outdated-snake-git)||
+|**outerbase-studio-desktop**|[outerbase-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/outerbase-studio-desktop-bin)|[outerbase-studio-desktop-bin](https://aur.archlinux.org/packages/outerbase-studio-desktop-bin)||
 |**out-of-mind**|[out-of-mind-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/out-of-mind-git)|[out-of-mind-git](https://aur.archlinux.org/packages/out-of-mind-git)||
 |**o-vault**|[o-vault-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/o-vault-bin)|[o-vault-bin](https://aur.archlinux.org/packages/o-vault-bin)||
 |**overlay-spirit**|[overlay-spirit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/overlay-spirit-git)|[overlay-spirit-git](https://aur.archlinux.org/packages/overlay-spirit-git)||
