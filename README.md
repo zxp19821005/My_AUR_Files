@@ -385,7 +385,6 @@
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
 |**elephicon**|[elephicon](https://github.com/zxp19821005/My_AUR_Files/tree/main/elephicon)|[elephicon](https://aur.archlinux.org/packages/elephicon)||
 |**elevate**|[elevate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elevate-git)|[elevate-git](https://aur.archlinux.org/packages/elevate-git)||
-|**emusik**|[emusik-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/emusik-bin)|[emusik-bin](https://aur.archlinux.org/packages/emusik-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
 |**encryptednotepad2**|[encryptednotepad2-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/encryptednotepad2-git)|[encryptednotepad2-git](https://aur.archlinux.org/packages/encryptednotepad2-git)||
 |**enotebook**|[enotebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/enotebook-bin)|[enotebook-bin](https://aur.archlinux.org/packages/enotebook-bin)||
@@ -543,6 +542,7 @@
 |**he3-tools**|[he3-tools-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/he3-tools-bin)|[he3-tools-bin](https://aur.archlinux.org/packages/he3-tools-bin)||
 |**habit-tracker**|[habit-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/habit-tracker-bin)|[habit-tracker-bin](https://aur.archlinux.org/packages/habit-tracker-bin)||
 |**hackerpad**|[hackerpad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hackerpad-git)|[hackerpad-git](https://aur.archlinux.org/packages/hackerpad-git)||
+|**harmony**|[harmony-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/harmony-bin)|[harmony-bin](https://aur.archlinux.org/packages/harmony-bin)||
 |**hathor-wallet**|[hathor-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hathor-wallet-bin)|[hathor-wallet-bin](https://aur.archlinux.org/packages/hathor-wallet-bin)||
 |**hawkpass**|[hawkpass-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hawkpass-git)|[hawkpass-git](https://aur.archlinux.org/packages/hawkpass-git)||
 |**headermaker**|[headermaker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/headermaker-git)|[headermaker-git](https://aur.archlinux.org/packages/headermaker-git)||
