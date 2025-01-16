@@ -700,6 +700,7 @@
 |**localjson**|[localjson-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/localjson-git)|[localjson-git](https://aur.archlinux.org/packages/localjson-git)||
 |**local-llama**|[local-llama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/local-llama-bin) <br> [local-llama-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/local-llama-git)|[local-llama-bin](https://aur.archlinux.org/packages/local-llama-bin) <br> [local-llama-git](https://aur.archlinux.org/packages/local-llama-git)||
 |**lode**|[lode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lode-bin)|[lode-bin](https://aur.archlinux.org/packages/lode-bin)||
+|**lofi**|[lofi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lofi-bin)|[lofi-bin](https://aur.archlinux.org/packages/lofi-bin)||
 |**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
 |**losslesscut**|[losslesscut-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-git)|[losslesscut-git](https://aur.archlinux.org/packages/losslesscut-git)||
 |**lost-dutchman-mine**|[lost-dutchman-mine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lost-dutchman-mine-git)|[lost-dutchman-mine-git](https://aur.archlinux.org/packages/lost-dutchman-mine-git)||
