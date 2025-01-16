@@ -429,6 +429,7 @@
 |**fdc3-sail**|[fdc3-sail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-bin)|[fdc3-sail-bin](https://aur.archlinux.org/packages/fdc3-sail-bin)||
 |**feidao**|[feidao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-bin)|[feidao-bin](https://aur.archlinux.org/packages/feidao-bin)||
 |**feishu**|[feishu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feishu-bin)|自用版||
+|**feiyu-desktop**|[feiyu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feiyu-desktop-bin)|[feiyu-desktop-bin](https://aur.archlinux.org/packages/feiyu-desktop-bin)||
 |**felida**|[felida-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/felida-bin)|[felida-bin](https://aur.archlinux.org/packages/felida-bin)||
 |**ferrum**|[ferrum-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferrum-bin)|[ferrum-bin](https://aur.archlinux.org/packages/ferrum-bin)||
 |**ffbox**|[ffbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox) <br> [ffbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox-bin) <br> [ffbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox-git)|[ffbox](https://aur.archlinux.org/packages/ffbox) <br> [ffbox-bin](https://aur.archlinux.org/packages/ffbox-bin) <br> [ffbox-git](https://aur.archlinux.org/packages/ffbox-git)||
