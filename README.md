@@ -299,6 +299,7 @@
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**dilidili**|[dilidili-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dilidili-git)|[dilidili-git](https://aur.archlinux.org/packages/dilidili-git)||
 |**dingtalk**|[dingtalk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dingtalk-bin)||自用版|
+|**discord-account-manager**|[discord-account-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-account-manager-git)|[discord-account-manager-git](https://aur.archlinux.org/packages/discord-account-manager-git)||
 |**discord-history-tracker**|[discord-history-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-history-tracker-bin)|[discord-history-tracker-bin](https://aur.archlinux.org/packages/discord-history-tracker-bin)||
 |**discord-netflix**|[discord-netflix](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-netflix)|[discord-netflix](https://aur.archlinux.org/packages/discord-netflix)||
 |**distributionz**|[distributionz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-bin)|[distributionz-bin](https://aur.archlinux.org/packages/distributionz-bin)||
