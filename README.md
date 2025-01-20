@@ -1190,6 +1190,7 @@
 |**strumpract**|[strumpract-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/strumpract-bin)|[strumpract-bin](https://aur.archlinux.org/packages/strumpract-bin)||
 |**subtitler**|[subtitler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitler-bin)|[subtitler-bin](https://aur.archlinux.org/packages/subtitler-bin)||
 |**subtitle-translator-electron**|[subtitle-translator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtitle-translator-electron-bin)|[subtitle-translator-electron-bin](https://aur.archlinux.org/packages/subtitle-translator-electron-bin)||
+|**subtrack**|[subtrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/subtrack-bin)|[subtrack-bin](https://aur.archlinux.org/packages/subtrack-bin)||
 |**sub-trans**|[sub-trans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sub-trans-bin)|[sub-trans-bin](https://aur.archlinux.org/packages/sub-trans-bin)||
 |**sunbible**|[sunbible](https://github.com/zxp19821005/My_AUR_Files/tree/main/sunbible)|[sunbible](https://aur.archlinux.org/packages/sunbible)||
 |**supalive**|[supalive-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supalive-bin)|[supalive-bin](https://aur.archlinux.org/packages/supalive-bin)||
