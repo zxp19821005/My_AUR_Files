@@ -823,6 +823,7 @@
 |**my-ocr**|[my-ocr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-ocr-bin)|[my-ocr-bin](https://aur.archlinux.org/packages/my-ocr-bin)||
 |**my-yesplaymusic**|[my-yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-yesplaymusic-bin)|[my-yesplaymusic-bin](https://aur.archlinux.org/packages/my-yesplaymusic-bin)||
 |**napcat**|[napcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/napcat-bin)|[napcat-bin](https://aur.archlinux.org/packages/napcat-bin)||
+|**native-facebook**|[native-facebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/native-facebook-bin)|[native-facebook-bin](https://aur.archlinux.org/packages/native-facebook-bin)||
 |**nativefier-gui**|[nativefier-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nativefier-gui-bin)|[nativefier-gui-bin](https://aur.archlinux.org/packages/nativefier-gui-bin)||
 |**nats-js-client**|[nats-js-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nats-js-client-bin)|[nats-js-client-bin](https://aur.archlinux.org/packages/nats-js-client-bin)||
 |**navicat-premium-lite-cs**|[navicat-premium-lite-cs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/navicat-premium-lite-cs-appimage)|自用版||
