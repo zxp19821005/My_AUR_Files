@@ -967,6 +967,7 @@
 |**planes**|[planes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/planes-bin)|[planes-bin](https://aur.archlinux.org/packages/planes-bin)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**plow**|[plow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plow-bin)|[plow-bin](https://aur.archlinux.org/packages/plow-bin)||
+|**plutonia**|[plutonia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plutonia-bin)|[plutonia-bin](https://aur.archlinux.org/packages/plutonia-bin)||
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
 |**pocketyoutube**|[pocketyoutube-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocketyoutube-git)|[pocketyoutube-git](https://aur.archlinux.org/packages/pocketyoutube-git)||
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
