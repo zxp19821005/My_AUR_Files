@@ -860,6 +860,7 @@
 |**nostromo**|[nostromo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nostromo-bin)|[nostromo-bin](https://aur.archlinux.org/packages/nostromo-bin)||
 |**nostr-relay-tray**|[nostr-relay-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nostr-relay-tray-bin)|[nostr-relay-tray-bin](https://aur.archlinux.org/packages/nostr-relay-tray-bin)||
 |**notebook**|[notebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notebook-bin)|[notebook-bin](https://aur.archlinux.org/packages/notebook-bin)||
+|**note-gen**|[note-gen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/note-gen-bin)|[note-gen-bin](https://aur.archlinux.org/packages/note-gen-bin)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notely**|[notely-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notely-git)|[notely-git](https://aur.archlinux.org/packages/notely-git)||
 |**note-mark**|[note-mark-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/note-mark-git)|[note-mark-git](https://aur.archlinux.org/packages/note-mark-git)||
