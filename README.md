@@ -1345,6 +1345,7 @@
 |**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
 |**vfox**|[vfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vfox-bin)|[vfox-bin](https://aur.archlinux.org/packages/vfox-bin)||
 |**vgmtrans**|[vgmtrans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-bin)|[vgmtrans-bin](https://aur.archlinux.org/packages/vgmtrans-bin)||
+|**via-desktop**|[via-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/via-desktop-bin)|[via-desktop-bin](https://aur.archlinux.org/packages/via-desktop-bin)||
 |**video-chapter-injector**|[video-chapter-injector-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-chapter-injector-bin)|[video-chapter-injector-bin](https://aur.archlinux.org/packages/video-chapter-injector-bin)||
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
 |**walc**|[walc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-bin)|[walc-bin](https://aur.archlinux.org/packages/walc-bin)||
