@@ -21,9 +21,10 @@ if [[ -f "${_FLAGS_FILE}" ]]; then
         fi
     done < "${_FLAGS_FILE}"
 fi
-cd "${_APPDIR}"
-if [[ "${EUID}" -ne 0 ]] || [[ "${ELECTRON_RUN_AS_NODE}" ]]; then
-    exec electron@electronversion@ "${_RUNNAME}" ${_OPTIONS} "${_USER_FLAGS[@]}" "$@"
+cd "${_APPDIR}" || { echo "Failed to change directory to ${_APPDIR}"; exit 1; }
+if [ "${XDG_SESSION_TYPE}" = "wayland" ]; then
+   unset DISPLAY
+   exec electron@electronversion@ "${_APPDIR}/out/cli.js" --enable-features=UseOzonePlatform --ozone-platform=wayland "${_APPDIR}/@appname@.js" "$@"
 else
-    exec electron@electronversion@ "${_RUNNAME}" ${_OPTIONS} --no-sandbox "${_USER_FLAGS[@]}" "$@"
+   ELECTRON_RUN_AS_NODE=1 exec electron@electronversion@ "${_APPDIR}/out/cli.js" "${_APPDIR}/@appname@.js" "$@"
 fi
