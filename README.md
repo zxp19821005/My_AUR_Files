@@ -433,6 +433,7 @@
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**fdc3-sail**|[fdc3-sail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-bin)|[fdc3-sail-bin](https://aur.archlinux.org/packages/fdc3-sail-bin)||
 |**feidao**|[feidao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-bin)|[feidao-bin](https://aur.archlinux.org/packages/feidao-bin)||
+|**feishin-electron**|[feishin-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feishin-electron-bin)|[feishin-electron-bin](https://aur.archlinux.org/packages/feishin-electron-bin)||
 |**feishu**|[feishu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feishu-bin)|自用版||
 |**feiyu-desktop**|[feiyu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feiyu-desktop-bin)|[feiyu-desktop-bin](https://aur.archlinux.org/packages/feiyu-desktop-bin)||
 |**felida**|[felida-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/felida-bin)|[felida-bin](https://aur.archlinux.org/packages/felida-bin)||
