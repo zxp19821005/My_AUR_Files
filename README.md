@@ -396,6 +396,7 @@
 |**elephicon**|[elephicon](https://github.com/zxp19821005/My_AUR_Files/tree/main/elephicon)|[elephicon](https://aur.archlinux.org/packages/elephicon)||
 |**elevate**|[elevate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elevate-git)|[elevate-git](https://aur.archlinux.org/packages/elevate-git)||
 |**emsmediasystem**|[emsmediasystem-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/emsmediasystem-bin)|[emsmediasystem-bin](https://aur.archlinux.org/packages/emsmediasystem-bin)||
+|**emudeck**|[emudeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/emudeck-bin)|[emudeck-bin](https://aur.archlinux.org/packages/emudeck-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
 |**encryptednotepad2**|[encryptednotepad2-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/encryptednotepad2-git)|[encryptednotepad2-git](https://aur.archlinux.org/packages/encryptednotepad2-git)||
 |**enotebook**|[enotebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/enotebook-bin)|[enotebook-bin](https://aur.archlinux.org/packages/enotebook-bin)||
