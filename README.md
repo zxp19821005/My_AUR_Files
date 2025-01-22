@@ -1215,6 +1215,7 @@
 |**syng**|[syng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/syng-bin)|[syng-bin](https://aur.archlinux.org/packages/syng-bin)||
 |**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
 |**taobaomaicaiti**|[taobaomaicaiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/taobaomaicaiti)|[taobaomaicaiti](https://aur.archlinux.org/packages/taobaomaicaiti)||
+|**taratormusic**|[taratormusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/taratormusic-bin)|[taratormusic-bin](https://aur.archlinux.org/packages/taratormusic-bin)||
 |**tauview**|[tauview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauview-bin) <br> [tauview-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauview-git)|[tauview-bin](https://aur.archlinux.org/packages/tauview-bin) <br> [tauview-git](https://aur.archlinux.org/packages/tauview-git)||
 |**tbls**|[tbls-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tbls-bin)|[tbls-bin](https://aur.archlinux.org/packages/tbls-bin)||
 |**tdl**|[tdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tdl-bin)|[tdl-bin](https://aur.archlinux.org/packages/tdl-bin)||
