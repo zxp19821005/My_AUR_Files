@@ -1422,6 +1422,7 @@
 |**xm-video-player**|[xm-video-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xm-video-player-bin)|[xm-video-player-bin](https://aur.archlinux.org/packages/xm-video-player-bin)||
 |**xnview-xnsketch**|[xnview-xnsketch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xnview-xnsketch-bin)|[xnview-xnsketch-bin](https://aur.archlinux.org/packages/xnview-xnsketch-bin)||
 |**xpeviewer**|[xpeviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpeviewer-bin)|[xpeviewer-bin](https://aur.archlinux.org/packages/xpeviewer-bin)||
+|**xpipe**|[xpipe-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xpipe-bin)|[xpipe-bin](https://aur.archlinux.org/packages/xpipe-bin)||
 |**xplist**|[xplist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xplist-bin)|[xplist-bin](https://aur.archlinux.org/packages/xplist-bin)||
 |**xraygui**|[xraygui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xraygui-bin)|[xraygui-bin](https://aur.archlinux.org/packages/xraygui-bin)||
 |**xresconv-gui**|[xresconv-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xresconv-gui-bin)|[xresconv-gui-bin](https://aur.archlinux.org/packages/xresconv-gui-bin)||
