@@ -981,6 +981,7 @@
 |**poddycast**|[poddycast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/poddycast-bin)|[poddycast-bin](https://aur.archlinux.org/packages/poddycast-bin)||
 |**podman-desktop**|[podman-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/podman-desktop-git)|[podman-desktop-git](https://aur.archlinux.org/packages/podman-desktop-git)||
 |**poi**|[poi-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/poi-git)|[poi-git](https://aur.archlinux.org/packages/poi-git)||
+|**pointless**|[pointless-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pointless-bin)|[pointless-bin](https://aur.archlinux.org/packages/pointless-bin)||
 |**polar**|[polar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polar-bin)|[polar-bin](https://aur.archlinux.org/packages/polar-bin)||
 |**polybase**|[polybase-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/polybase-git)|[polybase-git](https://aur.archlinux.org/packages/polybase-git)||
 |**polyglot-ai**|[polyglot-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/polyglot-ai-bin)|[polyglot-ai-bin](https://aur.archlinux.org/packages/polyglot-ai-bin)||
