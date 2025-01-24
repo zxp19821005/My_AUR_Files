@@ -1079,6 +1079,7 @@
 |**ringcentral-community-app**|[ringcentral-community-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringcentral-community-app-bin)|[ringcentral-community-app-bin](https://aur.archlinux.org/packages/ringcentral-community-app-bin)||
 |**ringer-client-desktop**|[ringer-client-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringer-client-desktop)|[ringer-client-desktop](https://aur.archlinux.org/packages/ringer-client-desktop)||
 |**ripes**|[ripes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-bin)|[ripes-bin](https://aur.archlinux.org/packages/ripes-bin)||
+|**risuai**|[risuai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/risuai-bin)|[risuai-bin](https://aur.archlinux.org/packages/risuai-bin)||
 |**rocketchat-desktop**|[rocketchat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rocketchat-desktop-git)|[rocketchat-desktop-git](https://aur.archlinux.org/packages/rocketchat-desktop-git)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
 |**round-drop**|[round-drop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/round-drop-git)|[round-drop-git](https://aur.archlinux.org/packages/round-drop-git)||
