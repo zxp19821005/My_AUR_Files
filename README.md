@@ -138,6 +138,7 @@
 |**bimbala-desktop**|[bimbala-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bimbala-desktop-bin)|[bimbala-desktop-bin](https://aur.archlinux.org/packages/bimbala-desktop-bin)||
 |**binggpt-ee**|[binggpt-ee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/binggpt-ee-bin)|[binggpt-ee-bin](https://aur.archlinux.org/packages/binggpt-ee-bin)||
 |**blinker**|[blinker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-git) <br> [blinker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-bin)|[blinker-git](https://aur.archlinux.org/packages/blinker-git) <br> [blinker-bin](https://aur.archlinux.org/packages/blinker-bin)||
+|**blink-player**|[blink-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blink-player-bin)|[blink-player-bin](https://aur.archlinux.org/packages/blink-player-bin)||
 |**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
 |**blockyfish-client**|[blockyfish-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockyfish-client-bin)|[blockyfish-client-bin](https://aur.archlinux.org/packages/blockyfish-client-bin)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
