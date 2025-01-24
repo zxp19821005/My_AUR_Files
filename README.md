@@ -470,6 +470,7 @@
 |**flomo**|[flomo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-bin)|[flomo-bin](https://aur.archlinux.org/packages/flomo-bin)||
 |**flowtestai**|[flowtestai-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/flowtestai-git)|[flowtestai-git](https://aur.archlinux.org/packages/flowtestai-git)||
 |**fluent-reader**|[fluent-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluent-reader-git)|[fluent-reader-git](https://aur.archlinux.org/packages/fluent-reader-git)||
+|**fluxy**|[fluxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluxy-bin)|[fluxy-bin](https://aur.archlinux.org/packages/fluxy-bin)||
 |**fmedia**|[fmedia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fmedia-bin)|[fmedia-bin](https://aur.archlinux.org/packages/fmedia-bin)||
 |**focustune**|[focustune-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/focustune-git)|[focustune-git](https://aur.archlinux.org/packages/focustune-git)||
 |**follow**|[follow](https://github.com/zxp19821005/My_AUR_Files/tree/main/follow) <br> [follow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/follow-bin) <br> [follow-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/follow-git)|[follow](https://aur.archlinux.org/packages/follow) <br> [follow-bin](https://aur.archlinux.org/packages/follow-bin) <br> [follow-git](https://aur.archlinux.org/packages/follow-git)||
