@@ -1225,6 +1225,7 @@
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**switchhosts**|[switchhosts](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts)<br>[switchhosts-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-git)|[switchhosts](https://aur.archlinux.org/packages/switchhosts)<br>[switchhosts-git](https://aur.archlinux.org/packages/switchhosts-git)||
 |**syng**|[syng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/syng-bin)|[syng-bin](https://aur.archlinux.org/packages/syng-bin)||
+|**tabby-electron**|[tabby-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tabby-electron-bin)|[tabby-electron-bin](https://aur.archlinux.org/packages/tabby-electron-bin)||
 |**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
 |**taobaomaicaiti**|[taobaomaicaiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/taobaomaicaiti)|[taobaomaicaiti](https://aur.archlinux.org/packages/taobaomaicaiti)||
 |**taratormusic**|[taratormusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/taratormusic-bin)|[taratormusic-bin](https://aur.archlinux.org/packages/taratormusic-bin)||
