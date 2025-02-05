@@ -338,7 +338,7 @@
 |**edex-ui**|[edex-ui](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui)|[edex-ui](https://aur.archlinux.org/packages/edex-ui)||
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
 |**elastron**|[elastron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elastron-bin)|[elastron-bin](https://aur.archlinux.org/packages/elastron-bin)||
-|**elecap**|[elecap-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elecap-git)|[elecap-git](https://aur.archlinux.org/packages/elecap-git)||
+|**elecap**|[elecap-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elecap-bin)<br>[elecap-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elecap-git)|[elecap-bin](https://aur.archlinux.org/packages/elecap-bin)<br>[elecap-git](https://aur.archlinux.org/packages/elecap-git)||
 |**electerm**|[electerm](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm)<br>[electerm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electerm-git)|[electerm](https://aur.archlinux.org/packages/electerm)<br>[electerm-git](https://aur.archlinux.org/packages/electerm-git)||
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
