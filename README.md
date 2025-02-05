@@ -1217,6 +1217,7 @@
 |**super-controller**|[super-controller](https://github.com/zxp19821005/My_AUR_Files/tree/main/super-controller)|[super-controller](https://aur.archlinux.org/packages/super-controller)||
 |**superfile**|[superfile-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/superfile-bin)|[superfile-bin](https://aur.archlinux.org/packages/superfile-bin)||
 |**supersonic-desktop**|[supersonic-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supersonic-desktop-bin)|[supersonic-desktop-bin](https://aur.archlinux.org/packages/supersonic-desktop-bin)||
+|**supersplashbros2**|[supersplashbros2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/supersplashbros2-bin)|[supersplashbros2-bin](https://aur.archlinux.org/packages/supersplashbros2-bin)||
 |**suwell-reader**|[suwell-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/suwell-reader-bin)|[suwell-reader-bin](https://aur.archlinux.org/packages/suwell-reader-bin)||
 |**swarm-desktop**|[swarm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/swarm-desktop)|[swarm-desktop](https://aur.archlinux.org/packages/swarm-desktop)||
 |**swc-mclauncher**|[swc-mclauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swc-mclauncher-bin)|[swc-mclauncher-bin](https://aur.archlinux.org/packages/swc-mclauncher-bin)||
