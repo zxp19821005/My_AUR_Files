@@ -1029,6 +1029,7 @@
 |**proxypin**|[proxypin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/proxypin-bin)|[proxypin-bin](https://aur.archlinux.org/packages/proxypin-bin)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin) <br> [publii-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-git)|[publii-bin](https://aur.archlinux.org/packages/publii-bin) <br> [publii-git](https://aur.archlinux.org/packages/publii-git)||
+|**pulse-browser**|[pulse-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulse-browser-git)|[pulse-browser-git](https://aur.archlinux.org/packages/pulse-browser-git)||
 |**qcalc**|[qcalc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qcalc-bin)|[qcalc-bin](https://aur.archlinux.org/packages/qcalc-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
