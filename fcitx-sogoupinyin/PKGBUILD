@@ -1,0 +1,52 @@
+# Maintainer: Hao Zhang <hao [AT] hao-zhang.com>
+# Contributor: Bian Jiaping <ssbianjp [AT] gmail.com>
+# Contributor: Jove Yu <yushijun110 [AT] gmail.com>
+# Contributor: csslayer <wengxt [AT] gmail.com>
+# Contributor: Felix Yan <felixonmars [AT] gmail.com>
+pkgname=fcitx-sogoupinyin
+pkgver=4.2.1.145
+pkgrel=2
+pkgdesc="Sogou Pinyin for Linux"
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://shurufa.sogou.com/linux"
+_dlurl="https://ime-sec.gtimg.com/202502061903"
+license=("LicenseRef-custom")
+depends=(
+    'fcitx'
+    'opencc'
+    'libidn11'
+    'qt5-declarative'
+    'qt5-svg'
+    'fcitx-qt5'
+    'fcitx-qt6'
+    'fcitx-configtool'
+    'libxss'
+    'gsettings-qt'
+)
+optdepends=(
+    'kcm-fcitx: KDE Config Module for Fcitx'
+)
+options=(
+    '!strip'
+)
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/76648b42ebdb7fa167e0ff8e0ac73313/pc/dl/gzindex/1680521473/${pkgname:6}_${pkgver}_arm64.deb")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/6399f54d2909d5fd1eab22e005b1fd76/pc/dl/gzindex/1680521603/${pkgname:6}_${pkgver}_amd64.deb")
+sha256sums_aarch64=('216341466a2972a0cf912db21adda0e613f15a8b562398fc9da0516cdafcc1ae')
+sha256sums_x86_64=('3111af17a6abddd80b856aa9c1f579a137d69f3d735ead936ddb6e5f08b59f3b')
+prepare(){
+    bsdtar -xf "${srcdir}/data."*
+    rm -rf "${srcdir}/opt/${pkgname:6}/files/"{bin/qt.conf,lib/qt5}
+    find "${srcdir}/opt/${pkgname:6}/files/"{.license,share} -type d -exec chmod 755 {} +
+    find "${srcdir}/opt/${pkgname:6}/files/"{.license,share} -type f -exec chmod 755 {} +
+}
+package(){
+    install -Dm644 "${srcdir}/etc/X11/Xsession.d/72sogoupinyinsogouimebs" -t "${pkgdir}/etc/X11/Xsession.d"
+    install -Dm644 "${srcdir}/etc/xdg/autostart/"* -t "${pkgdir}/etc/xdg/autostart"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt" "${pkgdir}"
+    install -Dm755 "${srcdir}/usr/lib/"*-linux-gnu/fcitx/* -t "${pkgdir}/usr/lib/fcitx"
+    install -Dm644 "${srcdir}/usr/share/applications/"* -t "${pkgdir}/usr/share/applications"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/share/"{doc,fcitx,icons} "${pkgdir}/usr/share"
+}

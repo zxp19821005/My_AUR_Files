@@ -436,6 +436,7 @@
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
 |**favicon-generator**|[favicon-generator](https://github.com/zxp19821005/My_AUR_Files/tree/main/favicon-generator)|[favicon-generator](https://aur.archlinux.org/packages/favicon-generator)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
+|**fcitx-sogoupinyin**|[fcitx-sogoupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-sogoupinyin)||自用版|
 |**fdc3-sail**|[fdc3-sail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-bin)|[fdc3-sail-bin](https://aur.archlinux.org/packages/fdc3-sail-bin)||
 |**feidao**|[feidao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-bin)|[feidao-bin](https://aur.archlinux.org/packages/feidao-bin)||
 |**feishin-electron**|[feishin-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feishin-electron-bin)|[feishin-electron-bin](https://aur.archlinux.org/packages/feishin-electron-bin)||
