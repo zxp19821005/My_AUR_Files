@@ -896,6 +896,7 @@
 |**octa-electron**|[octa-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/octa-electron)|[octa-electron](https://aur.archlinux.org/packages/octa-electron)||
 |**ohmymd**|[ohmymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ohmymd-bin)|[ohmymd-bin](https://aur.archlinux.org/packages/ohmymd-bin)||
 |**ollama-chat-desktop**|[ollama-chat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-chat-desktop-git)|[ollama-chat-desktop-git](https://aur.archlinux.org/packages/ollama-chat-desktop-git)||
+|**ollama-runner**|[ollama-runner-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-runner-git)|[ollama-runner-git](https://aur.archlinux.org/packages/ollama-runner-git)||
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-bin)|[onekey-wallet-bin](https://aur.archlinux.org/packages/onekey-wallet-bin)||
 |**onemouse**|[onemouse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onemouse-bin)|[onemouse-bin](https://aur.archlinux.org/packages/onemouse-bin)||
