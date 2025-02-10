@@ -1484,7 +1484,7 @@
 |**zhiximind-desktop**|[zhiximind-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zhiximind-desktop-bin)|[zhiximind-desktop-bin](https://aur.archlinux.org/packages/zhiximind-desktop-bin)||
 |**ziipoo**|[ziipoo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ziipoo-bin)|[ziipoo-bin](https://aur.archlinux.org/packages/ziipoo-bin)||
 |**znote**|[znote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/znote-bin)|[znote-bin](https://aur.archlinux.org/packages/znote-bin)||
-|**zoraxy**|[zoraxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zoraxy-bin)|[zoraxy-bin](https://aur.archlinux.org/packages/zoraxy-bin)||
+|**zoraxy**|[zoraxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zoraxy-bin)<br>[zoraxy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zoraxy-git)|[zoraxy-bin](https://aur.archlinux.org/packages/zoraxy-bin)<br>[zoraxy-git](https://aur.archlinux.org/packages/zoraxy-git)||
 |**zui**|[zui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zui-bin)|[zui-bin](https://aur.archlinux.org/packages/zui-bin)||
 |**zulip-desktop**|[zulip-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zulip-desktop-git)|[zulip-desktop-git](https://aur.archlinux.org/packages/zulip-desktop-git)||
 |**zxinfo-file-browser**|[zxinfo-file-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zxinfo-file-browser-git) <br> [zxinfo-file-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zxinfo-file-browser-bin)|[zxinfo-file-browser-git](https://aur.archlinux.org/packages/zxinfo-file-browser-git) <br> [zxinfo-file-browser-bin](https://aur.archlinux.org/packages/zxinfo-file-browser-bin)||
