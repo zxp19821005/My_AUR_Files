@@ -1259,7 +1259,7 @@
 |**the-password-manager**|[the-password-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/the-password-manager-git)|[the-password-manager-git](https://aur.archlinux.org/packages/the-password-manager-git)||
 |**thief**|[thief-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-bin)|[thief-bin](https://aur.archlinux.org/packages/thief-bin)||
 |**thinreports-section-editor**|[thinreports-section-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-bin)|[thinreports-section-editor-bin](https://aur.archlinux.org/packages/thinreports-section-editor-bin)||
-|**this-week**|[this-week-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/this-week-bin)|[this-week-bin](https://aur.archlinux.org/packages/this-week-bin)||
+|**thisweek**|[thisweek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thisweek-bin)|[thisweek-bin](https://aur.archlinux.org/packages/thisweek-bin)||
 |**thorium-reader**|[thorium-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-reader-git)|[thorium-reader-git](https://aur.archlinux.org/packages/thorium-reader-git)||
 |**thoughts**|[thoughts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thoughts-bin)|[thoughts-bin](https://aur.archlinux.org/packages/thoughts-bin)||
 |**threatbrowser**|[threatbrowser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/threatbrowser-git)|[threatbrowser-git](https://aur.archlinux.org/packages/threatbrowser-git)||
