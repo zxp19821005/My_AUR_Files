@@ -1,0 +1,16 @@
+# Maintainer: Eikano <lcuoin@gmail.com>
+# Contributor: kccat <kg.kg.gl+aur at gmail dot com>
+pkgname=ttf-opposans
+_pkgname="OPPO Sans"
+pkgver=20241205
+pkgrel=1
+pkgdesc="OPPO Sans"
+arch=('any')
+license=('LicenseRef-custom')
+url='https://open.oppomobile.com/new/developmentDoc/info?id=13223'
+source=("${pkgname}-${pkgver}.zip::https://openfs.oppomobile.com/open/oop/202412/05/0f155015fff7700fbbcef7fa2aad78dc.zip")
+sha256sums=('4a314ad9446d0ba86fde57f18dbe8b7376c32dd5cdf6e3c8119a5d1ccf934ba8')
+package() {
+	install -Dm644 "${srcdir}/${_pkgname// /_}_4.0/${_pkgname} 4.0.ttf" "${pkgdir}/usr/share/fonts/opposans/${_pkgname// /}-Regular.ttf"
+	install -Dm644 "${srcdir}/${_pkgname// /_}_4.0/${_pkgname} 4.0 License Notice.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+}
