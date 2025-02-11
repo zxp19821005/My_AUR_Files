@@ -1476,6 +1476,7 @@
 |**ytm-dlp-gui**|[ytm-dlp-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytm-dlp-gui) <br> [ytm-dlp-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytm-dlp-gui-bin)|[ytm-dlp-gui](https://aur.archlinux.org/packages/ytm-dlp-gui) <br> [ytm-dlp-gui-bin](https://aur.archlinux.org/packages/ytm-dlp-gui-bin)||
 |**yts-streaming**|[yts-streaming-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yts-streaming-bin)|[yts-streaming-bin](https://aur.archlinux.org/packages/yts-streaming-bin)||
 |**yuque**|[unoffical-yuque-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-yuque-appimage) <br> [yuque-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuque-pake)|[unoffical-yuque-appimage](https://aur.archlinux.org/packages/unoffical-yuque-appimage) <br> [yuque-pake](https://aur.archlinux.org/packages/yuque-pake)||
+|**yusic**|[yusic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yusic-git)|[yusic-git](https://aur.archlinux.org/packages/yusic-git)||
 |**yuview**|[yuview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-bin)|[yuview-bin](https://aur.archlinux.org/packages/yuview-bin)||
 |**yuvviewer**|[yuvviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuvviewer-bin)|[yuvviewer-bin](https://aur.archlinux.org/packages/yuvviewer-bin)||
 |**yyetsbot**|[yyetsbot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yyetsbot-bin)|[yyetsbot-bin](https://aur.archlinux.org/packages/yyetsbot-bin)||
