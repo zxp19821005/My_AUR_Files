@@ -697,6 +697,7 @@
 |**ldtk**|[ldtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-bin)|[ldtk-bin](https://aur.archlinux.org/packages/ldtk-bin)||
 |**leafview**|[leafview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leafview-bin)|[leafview-bin](https://aur.archlinux.org/packages/leafview-bin)||
 |**leavepad**|[leavepad](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad) <br> [leavepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-bin) <br> [leavepad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-git)|[leavepad](https://aur.archlinux.org/packages/leavepad) <br> [leavepad-bin](https://aur.archlinux.org/packages/leavepad-bin) <br> [leavepad-git](https://aur.archlinux.org/packages/leavepad-git)||
+|**lecture-player**|[lecture-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lecture-player-git)|[lecture-player-git](https://aur.archlinux.org/packages/lecture-player-git)||
 |**lego-spike**|[lego-spike-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lego-spike-git)|[lego-spike-git](https://aur.archlinux.org/packages/lego-spike-git)||
 |**lemmy-modder-app**|[lemmy-modder-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lemmy-modder-app-bin)|[lemmy-modder-app-bin](https://aur.archlinux.org/packages/lemmy-modder-app-bin)||
 |**lepton**|[lepton-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lepton-bin)|[lepton-bin](https://aur.archlinux.org/packages/lepton-bin)||
