@@ -1355,7 +1355,7 @@
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**venom86**|[venom86-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/venom86-bin)|[venom86-bin](https://aur.archlinux.org/packages/venom86-bin)||
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
-|**video-subtitle-master**|[video-subtitle-master-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-subtitle-master-git)|[video-subtitle-master-git](https://aur.archlinux.org/packages/video-subtitle-master-git)||
+|**video-subtitle-master**|[video-subtitle-master-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-subtitle-master-bin)<br>[video-subtitle-master-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-subtitle-master-git)|[video-subtitle-master-bin](https://aur.archlinux.org/packages/video-subtitle-master-bin)<br>[video-subtitle-master-git](https://aur.archlinux.org/packages/video-subtitle-master-git)||
 |**vieb**|[vieb](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb)|[vieb](https://aur.archlinux.org/packages/vieb)||
 |**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||\
