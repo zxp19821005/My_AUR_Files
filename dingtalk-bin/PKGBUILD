@@ -6,7 +6,7 @@ pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
 # https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Update/other/amd64/linux_dingtalk_update_package_gray.json
 pkgver=7.6.25.4122001
-pkgrel=3
+pkgrel=4
 pkgdesc="DingTalk,钉钉"
 arch=(
     'aarch64'
@@ -47,8 +47,8 @@ optdepends=(
     'libxss: fix tray icon functionality in gnome.'
     'qt5-wayland: needed in wayland'
 )
-source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${_debname}_${pkgver}_arm64.deb")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${_debname}_${pkgver}_amd64.deb")
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/0211/${_debname}_${pkgver}_arm64.deb")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/0211/${_debname}_${pkgver}_amd64.deb")
 source=(
     "${pkgname%-bin}.svg"
     "${pkgname%-bin}.sh"
@@ -73,7 +73,7 @@ prepare() {
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
     # remove unused lib
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libcurl.so.4,libz*}
-    execstack -c "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{dingtalk_dll,libconference_new}.so
+    execstack -c "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{"${pkgname%-bin}"_dll,libconference_new}.so
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
