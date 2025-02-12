@@ -129,6 +129,7 @@
 |**behavior3editor**|[behavior3editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/behavior3editor-git)|[behavior3editor-git](https://aur.archlinux.org/packages/behavior3editor-git)||
 |**better-osu-skills**|[better-osu-skills-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/better-osu-skills-bin)|[better-osu-skills-bin](https://aur.archlinux.org/packages/better-osu-skills-bin)||
 |**bettersoundcloud**|[bettersoundcloud](https://github.com/zxp19821005/My_AUR_Files/tree/main/bettersoundcloud)|[bettersoundcloud](https://aur.archlinux.org/packages/bettersoundcloud)||
+|**betterx-desktop**|[betterx-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/betterx-desktop-bin)|[betterx-desktop-bin](https://aur.archlinux.org/packages/betterx-desktop-bin)||
 |**bicep**|[bicep-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bicep-bin)|[bicep-bin](https://aur.archlinux.org/packages/bicep-bin)||
 |**bilibili**|[bilibili](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili) <br> [bilibili-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-bin)|[bilibili](https://aur.archlinux.org/packages/bilibili) <br> [bilibili-bin](https://aur.archlinux.org/packages/bilibili-bin)||
 |**bilibili-manga-downloader**|[bilibili-manga-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-manga-downloader-bin)|[bilibili-manga-downloader-bin](https://aur.archlinux.org/packages/bilibili-manga-downloader-bin)||
