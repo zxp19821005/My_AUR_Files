@@ -962,6 +962,7 @@
 |**perplexity-ai-app**|[perplexity-ai-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/perplexity-ai-app)|[perplexity-ai-app](https://aur.archlinux.org/packages/perplexity-ai-app)||
 |**perrito-ws**|[perrito-ws](https://github.com/zxp19821005/My_AUR_Files/tree/main/perrito-ws) <br> [perrito-ws-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/perrito-ws-git)|[perrito-ws](https://aur.archlinux.org/packages/perrito-ws) <br> [perrito-ws-git](https://aur.archlinux.org/packages/perrito-ws-git)||
 |**pflux**|[pflux-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pflux-git)|[pflux-git](https://aur.archlinux.org/packages/pflux-git)||
+|**pgdm-ui**|[pgdm-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pgdm-ui-bin)|[pgdm-ui-bin](https://aur.archlinux.org/packages/pgdm-ui-bin)||
 |**pgmanage**|[pgmanage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pgmanage-bin)|[pgmanage-bin](https://aur.archlinux.org/packages/pgmanage-bin)||
 |**pguirestore**|[pguirestore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pguirestore-bin)|[pguirestore-bin](https://aur.archlinux.org/packages/pguirestore-bin)||
 |**pharmaspot**|[pharmaspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pharmaspot-bin) <br> [pharmaspot-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pharmaspot-git)|[pharmaspot-bin](https://aur.archlinux.org/packages/pharmaspot-bin) <br> [pharmaspot-git](https://aur.archlinux.org/packages/pharmaspot-git)||
