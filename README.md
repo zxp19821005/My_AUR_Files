@@ -975,6 +975,7 @@
 |**photosir-himirage**|[photosir-himirage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/photosir-himirage-bin)|[photosir-himirage-bin](https://aur.archlinux.org/packages/photosir-himirage-bin)||
 |**phpwebstudy**|[phpwebstudy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/phpwebstudy-bin) <br> [phpwebstudy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/phpwebstudy-git)|[phpwebstudy-bin](https://aur.archlinux.org/packages/phpwebstudy-bin) <br> [phpwebstudy-git](https://aur.archlinux.org/packages/phpwebstudy-git)||
 |**piano-trainer**|[piano-trainer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piano-trainer-bin)|[piano-trainer-bin](https://aur.archlinux.org/packages/piano-trainer-bin)||
+|**picgo-electron**|[picgo-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-electron)|[picgo-electron](https://aur.archlinux.org/packages/picgo-electron)||
 |**picgo**|[picgo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/picgo-git)|[picgo-git](https://aur.archlinux.org/packages/picgo-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
 |**picturama**|[picturama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-bin)|[picturama-bin](https://aur.archlinux.org/packages/picturama-bin)||
