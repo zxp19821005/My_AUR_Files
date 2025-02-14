@@ -7,7 +7,7 @@ _projectname=electron
 _major=35
 _pkgname="${_projectname}${_major}"
 pkgname="${_pkgname}"-bin
-_subver='0.0-beta.4'
+_subver='0.0-beta.6'
 _pkgver="${_major}.${_subver}"
 pkgver="${_pkgver/-}"
 pkgrel=1
@@ -40,6 +40,10 @@ optdepends=(
     'trash-cli: file deletion support (trash-put)'
     "xdg-utils: open URLs with desktop's default (xdg-email, xdg-open)"
 )
+noextract=(
+    "${_pkgname}-chromedriver-${pkgver}-${CARCH}.zip"
+    "${_pkgname}-${pkgver}-${CARCH}.zip"
+)
 source_aarch64=(
     "${_pkgname}-chromedriver-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver}/chromedriver-v${_pkgver}-linux-arm64.zip"
     "${_pkgname}-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver}/electron-v${_pkgver}-linux-arm64.zip"
@@ -52,17 +56,22 @@ source_x86_64=(
     "${_pkgname}-chromedriver-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver}/chromedriver-v${_pkgver}-linux-x64.zip"
     "${_pkgname}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver}/electron-v${_pkgver}-linux-x64.zip"
 )
-sha256sums_aarch64=('118d015b0f5738bfb2679bf1e4389947fae9631c609d2b33fd8041f45b868590'
-                    '3eb3284de699611b5bf5b623546ad23a6709ddee000911d27f1fc4c3112cd988')
-sha256sums_armv7h=('4af146d36b5261b4013a0ba42bba4ad3824e8b08d60d5015e03f6387b793b5b4'
-                   '81bf4efb77e6ba84d132b7a8dc3eb8a4a522cb51ad11ebb7d38272a4c92d1b13')
-sha256sums_x86_64=('70e81355031d13c6c1fccbda3de098779a160363a46a22f53b7bc056485b5ae7'
-                   '6a350c364ce4f2f18e6c6b9fa8815920badfde55c2519aca2c78e775a50dce84')
+sha256sums_aarch64=('3f236322083b7b00e0c696b23fd93d06254cc4d24f89598251507071ad96f2d1'
+                    '53723d968e6b2bf8e3bf6513e24105552a67ab5ad8374d9bbe22446491b353df')
+sha256sums_armv7h=('8565acae340da87c7ea0483a6ec4eb6779c6b291d680dfad3ad6041c3ae04b8b'
+                   '43fc6ff936f9fdc4209f99168b1ac5d4bbd92631fcc070611361ad21bff8b67e')
+sha256sums_x86_64=('d08d4bcc8a7e975a4a4fd150a3871554ff32ac082d5ecdc7a64f485be128efc5'
+                   'a111b3e77953fe178ee4e0d7e1952124c07c53724bbb9350fc8f5f3e3675c203')
+prepare() {
+    install -Dm755 -d "${srcdir}/${_pkgname}"
+    bsdtar -xf "${srcdir}/${_pkgname}-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
+    bsdtar -xf "${srcdir}/${_pkgname}-chromedriver-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
+    rm -rf "${srcdir}/${_pkgname}/gen"
+    chmod u+s "${srcdir}/${_pkgname}/chrome-sandbox"
+}
 package() {
-    install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${_pkgname}"}
-    find "${srcdir}" -mindepth 1 -maxdepth 1 -type f ! -name "*.zip" ! -name "LICENSE*" -exec cp -r --no-preserve=ownership --preserve=mode -t "${pkgdir}/usr/lib/${_pkgname}/." {} +
-    cp -r --no-preserve=ownership --preserve=mode "${srcdir}/"{locales,resources} "${pkgdir}/usr/lib/${_pkgname}"
-    chmod u+s "${pkgdir}/usr/lib/${_pkgname}/chrome-sandbox"
+    install -Dm755 -d "${pkgdir}/usr/"{bin,lib}
+    cp -r --no-preserve=ownership --preserve=mode "${srcdir}/${_pkgname}" "${pkgdir}/usr/lib"
     ln -nfs "/usr/lib/${_pkgname}/${_projectname}" "${pkgdir}/usr/bin/${_pkgname}"
-    install -Dm644 "${srcdir}/LICENSE"* -t "${pkgdir}/usr/share/licenses/${pkgname}"
+    install -Dm644 "${srcdir}/${_pkgname}/LICENSE"* -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
