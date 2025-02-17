@@ -687,6 +687,7 @@
 |**knowledge-canvas**|[knowledge-canvas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-canvas-bin)|[knowledge-canvas-bin](https://aur.archlinux.org/packages/knowledge-canvas-bin)||
 |**knowte**|[knowte-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowte-bin)|[knowte-bin](https://aur.archlinux.org/packages/knowte-bin)||
 |**koala-client**|[koala-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koala-client-bin)|[koala-client-bin](https://aur.archlinux.org/packages/koala-client-bin)||
+|**kobo2notion**|[kobo2notion-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kobo2notion-git)|[kobo2notion-git](https://aur.archlinux.org/packages/kobo2notion-git)||
 |**koishi-desktop**|[koishi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-bin)|[koishi-desktop-bin](https://aur.archlinux.org/packages/koishi-desktop-bin)||
 |**kpt**|[kpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kpt-bin)|[kpt-bin](https://aur.archlinux.org/packages/kpt-bin)||
 |**krowbar**|[krowbar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krowbar-bin)|[krowbar-bin](https://aur.archlinux.org/packages/krowbar-bin)||
