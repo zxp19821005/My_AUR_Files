@@ -236,6 +236,7 @@
 |**container-desktop**|[container-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/container-desktop-bin)|[container-desktop-bin](https://aur.archlinux.org/packages/container-desktop-bin)||
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
+|**copyman**|[copyman-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/copyman-git)|[copyman-git](https://aur.archlinux.org/packages/copyman-git)||
 |**copytranslator**|[copytranslator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-bin)|[copytranslator-bin](https://aur.archlinux.org/packages/copytranslator-bin)||
 |**corewatch**|[corewatch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/corewatch-bin)|[corewatch-bin](https://aur.archlinux.org/packages/corewatch-bin)||
 |**cosmonium**|[cosmonium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cosmonium-bin)|[cosmonium-bin](https://aur.archlinux.org/packages/cosmonium-bin)||
