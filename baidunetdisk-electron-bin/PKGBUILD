@@ -1,0 +1,51 @@
+# Contributor: Ariel AxionL <i at axionl dot me>
+# Contributor: Astro Benzene <universebenzene at sina dot com>
+# Contributor: lilydjwg <lilydjwg at gmail dot com>
+# This PKGBUILD is directly modified from aur/baidunetdisk-bin
+_appname=baidunetdisk
+pkgname="${_appname}-electron"
+pkgver=4.17.7
+_electronversion=11
+pkgrel=2
+pkgdesc="Baidu Net Disk - a cloud storage client (Linux Version). Run with system electron."
+arch=('x86_64')
+depends=(
+    "electron${_electronversion}"
+    'nodejs'
+)
+conflicts=("${_appname}")
+prodives=("${_appname}=${pkgver}")
+url="https://pan.baidu.com"
+license=('LicenseRef-custom')
+options=('!strip')
+source=(
+    "${pkgname}-${pkgver}.rpm::https://6b36d0-1882103434.antpcdn.com:19001/b/pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/${pkgver}/${_appname}_${pkgver}_${CARCH}.rpm"
+    "LICENSE.html::${url}/disk/main#/protocol/duty_mobi"
+    "${pkgname}.sh"
+)
+sha256sums=('23244d957d33247d8e75727d2f808d95428f930019be82baa5d4e4c189fc989d'
+            '331a673531dcbefd4fb4df2261a596b48f1afcb0a640cd41df5cb91e5e8086e2'
+            '291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
+prepare() {
+    sed -e "
+        s/@electronversion@/${_electronversion}/g
+        s/@appname@/${pkgname}/g
+        s/@runname@/resources\/app.asar/g
+        s/@cfgdirname@/${_pkgname}/g
+        s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
+    " -i "${srcdir}/${pkgname}.sh"
+    sed -e "
+        s/\/opt\/${_appname}\/${_appname}/${pkgname}/g
+        s/Icon=${_appname}/Icon=${pkgname}/g
+    " -i "${srcdir}/usr/share/applications/${_appname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+    install -Dm644 "${srcdir}/opt/${_appname}/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname}/resources"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/${_appname}/resources/"{app.asar.unpacked,cacert.pem,version} "${pkgdir}/usr/lib/${pkgname}/resources"
+    install -Dm644 "${srcdir}/opt/${_appname}/"{libbnusdk.so,libbrowserengine.so,libkernel.so,libminosagent.so,libplayer.so} -t "${pkgdir}/usr/lib/${pkgname}"
+    install -Dm644 "${srcdir}/opt/${_appname}/swiftshader/"* -t "${pkgdir}/usr/lib/${pkgname}/swiftshader"
+    install -Dm644 "${srcdir}/usr/share/icons/hicolor/scalable/apps/${_appname}.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname}.svg"
+    install -Dm644 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+    install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}

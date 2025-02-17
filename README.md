@@ -113,6 +113,7 @@
 |**axonops-workbench**|[axonops-workbench-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/axonops-workbench-bin)|[axonops-workbench-bin](https://aur.archlinux.org/packages/axonops-workbench-bin)||
 |**aya**|[aya-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aya-bin)|[aya-bin](https://aur.archlinux.org/packages/aya-bin)||
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
+|**baidunetdisk-electron**|[baidunetdisk-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidunetdisk-electron-bin)||自用版|
 |**baidu-translate-client**|[baidu-translate-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-client-bin)|自用版||
 |**baiduwenku**|[baiduwenku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baiduwenku-bin)|[baiduwenku-bin](https://aur.archlinux.org/packages/baiduwenku-bin)||
 |**baize-toolbox**|[baize-toolbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/baize-toolbox-git)|[baize-toolbox-git](https://aur.archlinux.org/packages/baize-toolbox-git)||
