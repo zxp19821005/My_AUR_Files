@@ -921,6 +921,7 @@
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-bin)|[openhome-bin](https://aur.archlinux.org/packages/openhome-bin)||
 |**openhud**|[openhud-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhud-git)|[openhud-git](https://aur.archlinux.org/packages/openhud-git)||
+|**openmarch**|[openmarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openmarch-bin)|[openmarch-bin](https://aur.archlinux.org/packages/openmarch-bin)||
 |**open-password-manager**|[open-password-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-password-manager-bin)|[open-password-manager-bin](https://aur.archlinux.org/packages/open-password-manager-bin)||
 |**orature**|[orature-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/orature-bin)|[orature-bin](https://aur.archlinux.org/packages/orature-bin)||
 |**orca-writer**|[orca-writer](https://github.com/zxp19821005/My_AUR_Files/tree/main/orca-writer)|[orca-writer](https://aur.archlinux.org/packages/orca-writer)||
