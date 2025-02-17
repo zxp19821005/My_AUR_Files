@@ -205,6 +205,7 @@
 |**chunksize-checker**|[chunksize-checker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chunksize-checker-git)|[chunksize-checker-git](https://aur.archlinux.org/packages/chunksize-checker-git)||
 |**chyle**|[chyle-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chyle-bin)|[chyle-bin](https://aur.archlinux.org/packages/chyle-bin)||
 |**cinematic**|[cinematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cinematic-bin) <br> [cinematic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cinematic-git)|[cinematic-bin](https://aur.archlinux.org/packages/cinematic-bin) <br> [cinematic-git](https://aur.archlinux.org/packages/cinematic-git)||
+|**circle-chain-desktop**|[circle-chain-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/circle-chain-desktop-git)|[circle-chain-desktop-git](https://aur.archlinux.org/packages/circle-chain-desktop-git)||
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)||自用版|
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
