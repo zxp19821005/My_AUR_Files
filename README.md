@@ -1274,7 +1274,7 @@
 |**thief**|[thief-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-bin)|[thief-bin](https://aur.archlinux.org/packages/thief-bin)||
 |**thinreports-section-editor**|[thinreports-section-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-bin)|[thinreports-section-editor-bin](https://aur.archlinux.org/packages/thinreports-section-editor-bin)||
 |**thisweek**|[thisweek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thisweek-bin)|[thisweek-bin](https://aur.archlinux.org/packages/thisweek-bin)||
-|**thorium-reader**|[thorium-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-reader-git)|[thorium-reader-git](https://aur.archlinux.org/packages/thorium-reader-git)||
+|**thorium-reader**|[thorium-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-reader)<br>[thorium-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/thorium-reader-git)|[thorium-reader](https://aur.archlinux.org/packages/thorium-reader)<br>[thorium-reader-git](https://aur.archlinux.org/packages/thorium-reader-git)||
 |**thoughts**|[thoughts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thoughts-bin)|[thoughts-bin](https://aur.archlinux.org/packages/thoughts-bin)||
 |**threatbrowser**|[threatbrowser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/threatbrowser-git)|[threatbrowser-git](https://aur.archlinux.org/packages/threatbrowser-git)||
 |**threema-for-desktop**|[threema-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-bin)|[threema-for-desktop-bin](https://aur.archlinux.org/packages/threema-for-desktop-bin)||
