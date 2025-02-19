@@ -692,6 +692,7 @@
 |**kpt**|[kpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kpt-bin)|[kpt-bin](https://aur.archlinux.org/packages/kpt-bin)||
 |**krowbar**|[krowbar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krowbar-bin)|[krowbar-bin](https://aur.archlinux.org/packages/krowbar-bin)||
 |**krux-installer**|[krux-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krux-installer-bin)|[krux-installer-bin](https://aur.archlinux.org/packages/krux-installer-bin)||
+|**krypt-pad**|[krypt-pad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/krypt-pad-git)|[krypt-pad-git](https://aur.archlinux.org/packages/krypt-pad-git)||
 |**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
 |**kui**|[kui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kui-bin)|[kui-bin](https://aur.archlinux.org/packages/kui-bin)||
 |**kuro**|[kuro-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kuro-git)|[kuro-git](https://aur.archlinux.org/packages/kuro-git)||
