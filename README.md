@@ -913,6 +913,7 @@
 |**ollama-runner**|[ollama-runner-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-runner-git)|[ollama-runner-git](https://aur.archlinux.org/packages/ollama-runner-git)||
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-bin)|[onekey-wallet-bin](https://aur.archlinux.org/packages/onekey-wallet-bin)||
+|**one-api**|[one-api-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-api-bin)|[one-api-bin](https://aur.archlinux.org/packages/one-api-bin)||
 |**onemouse**|[onemouse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onemouse-bin)|[onemouse-bin](https://aur.archlinux.org/packages/onemouse-bin)||
 |**oneplay**|[oneplay-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/oneplay-git)|[oneplay-git](https://aur.archlinux.org/packages/oneplay-git)||
 |**onlook**|[onlook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onlook-bin) <br> [onlook-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/onlook-git)|[onlook-bin](https://aur.archlinux.org/packages/onlook-bin) <br> [onlook-git](https://aur.archlinux.org/packages/onlook-git)||
