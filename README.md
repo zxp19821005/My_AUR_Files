@@ -790,6 +790,7 @@
 |**mihomo-party**|[mihomo-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mihomo-party-bin)|自用版||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**minedigger**|[minedigger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minedigger-bin)|[minedigger-bin](https://aur.archlinux.org/packages/minedigger-bin)||
+|**mine-knowledge-mma**|[mine-knowledge-mma-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mine-knowledge-mma-bin)|[mine-knowledge-mma-bin](https://aur.archlinux.org/packages/mine-knowledge-mma-bin)||
 |**mingo**|[mingo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mingo-bin)|[mingo-bin](https://aur.archlinux.org/packages/mingo-bin)||
 |**mini4wdchrono**|[mini4wdchrono-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini4wdchrono-bin)|[mini4wdchrono-bin](https://aur.archlinux.org/packages/mini4wdchrono-bin)||
 |**minif-browser**|[minif-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minif-browser-bin)|[minif-browser-bin](https://aur.archlinux.org/packages/minif-browser-bin)||
