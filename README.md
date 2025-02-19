@@ -732,6 +732,7 @@
 |**lode**|[lode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lode-bin)|[lode-bin](https://aur.archlinux.org/packages/lode-bin)||
 |**lofi**|[lofi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lofi-bin)|[lofi-bin](https://aur.archlinux.org/packages/lofi-bin)||
 |**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
+|**logseq-desktop-electron**|[logseq-desktop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/logseq-desktop-electron-bin)|[logseq-desktop-electron-bin](https://aur.archlinux.org/packages/logseq-desktop-electron-bin)||
 |**losslesscut**|[losslesscut-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-git)|[losslesscut-git](https://aur.archlinux.org/packages/losslesscut-git)||
 |**lost-dutchman-mine**|[lost-dutchman-mine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lost-dutchman-mine-git)|[lost-dutchman-mine-git](https://aur.archlinux.org/packages/lost-dutchman-mine-git)||
 |**lotti**|[lotti-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lotti-bin)|[lotti-bin](https://aur.archlinux.org/packages/lotti-bin)||
