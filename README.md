@@ -705,6 +705,7 @@
 |**laravel-kit**|[laravel-kit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laravel-kit-bin)|[laravel-kit-bin](https://aur.archlinux.org/packages/laravel-kit-bin)||
 |**ldtk**|[ldtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-bin)|[ldtk-bin](https://aur.archlinux.org/packages/ldtk-bin)||
 |**leafview**|[leafview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leafview-bin)|[leafview-bin](https://aur.archlinux.org/packages/leafview-bin)||
+|**leanote**|[leanote](https://github.com/zxp19821005/My_AUR_Files/tree/main/leanote)|[leanote](https://aur.archlinux.org/packages/leanote)||
 |**leavepad**|[leavepad](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad) <br> [leavepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-bin) <br> [leavepad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-git)|[leavepad](https://aur.archlinux.org/packages/leavepad) <br> [leavepad-bin](https://aur.archlinux.org/packages/leavepad-bin) <br> [leavepad-git](https://aur.archlinux.org/packages/leavepad-git)||
 |**lecture-player**|[lecture-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lecture-player-git)|[lecture-player-git](https://aur.archlinux.org/packages/lecture-player-git)||
 |**lego-spike**|[lego-spike-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lego-spike-git)|[lego-spike-git](https://aur.archlinux.org/packages/lego-spike-git)||
