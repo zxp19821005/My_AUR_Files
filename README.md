@@ -1064,6 +1064,7 @@
 |**qrocrown**|[qrocrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocrown-bin)|[qrocrown-bin](https://aur.archlinux.org/packages/qrocrown-bin)||
 |**qtscrcpy**|[qtscrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtscrcpy-bin)|[qtscrcpy-bin](https://aur.archlinux.org/packages/qtscrcpy-bin)||
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
+|**quadrant**|[quadrant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quadrant-bin)|[quadrant-bin](https://aur.archlinux.org/packages/quadrant-bin)||
 |**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
 |**quaternion**|[quaternion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-bin)|[quaternion-bin](https://aur.archlinux.org/packages/quaternion-bin)||
 |**quba**|[quba-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-bin)|[quba-bin](https://aur.archlinux.org/packages/quba-bin)||
