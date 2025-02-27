@@ -953,6 +953,7 @@
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
 |**pad-md**|[pad-md](https://github.com/zxp19821005/My_AUR_Files/tree/main/pad-md)|[pad-md](https://aur.archlinux.org/packages/pad-md)||
 |**page-builder**|[page-builder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/page-builder-bin)|[page-builder-bin](https://aur.archlinux.org/packages/page-builder-bin)||
+|**pakeplus**|[pakeplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pakeplus-bin)|[pakeplus-bin](https://aur.archlinux.org/packages/pakeplus-bin)||
 |**palletone**|[palletone-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/palletone-git)|[palletone-git](https://aur.archlinux.org/packages/palletone-git)||
 |**pandora-box**|[pandora-box](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box)<br>[pandora-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box-bin)<br>[pandora-box-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box-git)|[pandora-box](https://aur.archlinux.org/packages/pandora-box)<br>[pandora-box-bin](https://aur.archlinux.org/packages/pandora-box-bin)<br>[pandora-box-git](https://aur.archlinux.org/packages/pandora-box-git)||
 |**panfu-desktop**|[panfu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panfu-desktop-bin)|[panfu-desktop-bin](https://aur.archlinux.org/packages/panfu-desktop-bin)||
