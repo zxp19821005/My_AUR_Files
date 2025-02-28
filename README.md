@@ -775,6 +775,7 @@
 |**mater**|[mater-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mater-bin)|[mater-bin](https://aur.archlinux.org/packages/mater-bin)||
 |**mawejs**|[mawejs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mawejs-bin)|[mawejs-bin](https://aur.archlinux.org/packages/mawejs-bin)||
 |**mbcord**|[mbcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mbcord-bin)|[mbcord-bin](https://aur.archlinux.org/packages/mbcord-bin)||
+|**md-minutes-generator**|[md-minutes-generator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-minutes-generator-bin)|[md-minutes-generator-bin](https://aur.archlinux.org/packages/md-minutes-generator-bin)||
 |**mdsilo**|[mdsilo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdsilo-bin)|[mdsilo-bin](https://aur.archlinux.org/packages/mdsilo-bin)||
 |**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
 |**mechakeys**|[mechakeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mechakeys-bin)|[mechakeys-bin](https://aur.archlinux.org/packages/mechakeys-bin)||
