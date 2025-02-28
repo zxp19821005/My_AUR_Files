@@ -678,6 +678,7 @@
 |**keep-audio-alive**|[keep-audio-alive-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keep-audio-alive-git)|[keep-audio-alive-git](https://aur.archlinux.org/packages/keep-audio-alive-git)||
 |**keeweb**|[keeweb-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keeweb-git)|[keeweb-git](https://aur.archlinux.org/packages/keeweb-git)||
 |**key-echo**|[key-echo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/key-echo-bin)|[key-echo-bin](https://aur.archlinux.org/packages/key-echo-bin)||
+|**keylight-commander**|[keylight-commander-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keylight-commander-bin)|[keylight-commander-bin](https://aur.archlinux.org/packages/keylight-commander-bin)||
 |**keyopen**|[keyopen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keyopen-bin)|[keyopen-bin](https://aur.archlinux.org/packages/keyopen-bin)||
 |**khiops-covisualization**|[khiops-covisualization-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/khiops-covisualization-bin)|[khiops-covisualization-bin](https://aur.archlinux.org/packages/khiops-covisualization-bin)||
 |**khiops-visualization**|[khiops-visualization-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/khiops-visualization-bin)|[khiops-visualization-bin](https://aur.archlinux.org/packages/khiops-visualization-bin)||
