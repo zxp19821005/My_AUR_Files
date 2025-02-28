@@ -1445,6 +1445,7 @@
 |**whatsapp-desktop-client**|[whatsapp-desktop-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-desktop-client-git)|[whatsapp-desktop-client-git](https://aur.archlinux.org/packages/whatsapp-desktop-client-git)||
 |**whatsapp-electron**|[whatsapp-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatsapp-electron-bin)|[whatsapp-electron-bin](https://aur.archlinux.org/packages/whatsapp-electron-bin)||
 |**whatstron**|[whatstron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whatstron-bin)|[whatstron-bin](https://aur.archlinux.org/packages/whatstron-bin)||
+|**whispering**|[whispering-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whispering-bin)|[whispering-bin](https://aur.archlinux.org/packages/whispering-bin)||
 |**whisperpix**|[whisperpix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whisperpix-bin)|[whisperpix-bin](https://aur.archlinux.org/packages/whisperpix-bin)||
 |**windows95**|[windows95-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/windows95-git)|[windows95-git](https://aur.archlinux.org/packages/windows95-git)||
 |**windpix**|[windpix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/windpix-git)|[windpix-git](https://aur.archlinux.org/packages/windpix-git)||
