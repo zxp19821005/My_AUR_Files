@@ -1221,7 +1221,6 @@
 |**splayer**|[splayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-bin) <br> [splayer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-git)|[splayer-bin](https://aur.archlinux.org/packages/splayer-bin) <br> [splayer-git](https://aur.archlinux.org/packages/splayer-git)||
 |**spotbar**|[spotbar](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotbar)|[spotbar](https://aur.archlinux.org/packages/spotbar)||
 |**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
-|**spotifox**|[spotifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotifox-bin)|[spotifox-bin](https://aur.archlinux.org/packages/spotifox-bin)||
 |**spotify-electron**|[spotify-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotify-electron-bin)|[spotify-electron-bin](https://aur.archlinux.org/packages/spotify-electron-bin)||
 |**spx-translation**|[spx-translation](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation) <br> [spx-translation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation-bin)|[spx-translation](https://aur.archlinux.org/packages/spx-translation) <br> [spx-translation-bin](https://aur.archlinux.org/packages/spx-translation-bin)||
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
