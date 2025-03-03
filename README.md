@@ -755,7 +755,6 @@
 |**lyricistant**|[lyricistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lyricistant-bin)|[lyricistant-bin](https://aur.archlinux.org/packages/lyricistant-bin)||
 |**m3u8downloader**|[m3u8downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/m3u8downloader-bin)|[m3u8downloader-bin](https://aur.archlinux.org/packages/m3u8downloader-bin)||
 |**m3u8-downloader**|[m3u8-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/m3u8-downloader-bin)|[m3u8-downloader-bin](https://aur.archlinux.org/packages/m3u8-downloader-bin)||
-|**maa-x**|[maa-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maa-x-bin)|[maa-x-bin](https://aur.archlinux.org/packages/maa-x-bin)||
 |**macchatgpt**|[macchatgpt](https://github.com/zxp19821005/My_AUR_Files/tree/main/macchatgpt)|[macchatgpt](https://aur.archlinux.org/packages/macchatgpt)||
 |**maduchat-frontend**|[maduchat-frontend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/maduchat-frontend-bin)|[maduchat-frontend-bin](https://aur.archlinux.org/packages/maduchat-frontend-bin)||
 |**magicavoxel-launcher**|[magicavoxel-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/magicavoxel-launcher-bin)|[magicavoxel-launcher-bin](https://aur.archlinux.org/packages/magicavoxel-launcher-bin)||
