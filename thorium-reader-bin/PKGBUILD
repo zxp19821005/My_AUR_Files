@@ -5,7 +5,7 @@ pkgname="${_pkgname}-reader-bin"
 _appname=Thorium
 pkgver=3.1.0
 _electronversion=34
-pkgrel=1
+pkgrel=99
 pkgdesc="Cross-platform desktop reading app based on the Readium Desktop toolkit.(Prebuilt version.Use system-wide electron)"
 arch=(
     'aarch64'
