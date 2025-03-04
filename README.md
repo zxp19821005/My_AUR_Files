@@ -109,7 +109,7 @@
 |**aviutl-package-manager**|[aviutl-package-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aviutl-package-manager-bin)|[aviutl-package-manager-bin](https://aur.archlinux.org/packages/aviutl-package-manager-bin)||
 |**avogadro2**|[avogadro2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/avogadro2-bin)|[avogadro2-bin](https://aur.archlinux.org/packages/avogadro2-bin)||
 |**awakened-poe-trade**|[awakened-poe-trade-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awakened-poe-trade-bin)|[awakened-poe-trade-bin](https://aur.archlinux.org/packages/awakened-poe-trade-bin)||
-|**awsaml**|[awsaml-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awsaml-bin)|[awsaml-bin](https://aur.archlinux.org/packages/awsaml-bin)||
+|**awsaml**|[awsaml-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/awsaml-bin)<br>[awsaml-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/awsaml-git)|[awsaml-bin](https://aur.archlinux.org/packages/awsaml-bin)<br>[awsaml-git](https://aur.archlinux.org/packages/awsaml-git)||
 |**axonops-workbench**|[axonops-workbench-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/axonops-workbench-bin)|[axonops-workbench-bin](https://aur.archlinux.org/packages/axonops-workbench-bin)||
 |**aya**|[aya-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aya-bin)|[aya-bin](https://aur.archlinux.org/packages/aya-bin)||
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
