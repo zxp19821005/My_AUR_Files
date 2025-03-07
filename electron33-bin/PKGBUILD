@@ -7,7 +7,7 @@ _projectname=electron
 _major=33
 _pkgname="${_projectname}${_major}"
 pkgname="${_pkgname}"-bin
-_subver="4.2"
+_subver='4.3'
 _pkgver="${_major}.${_subver}"
 pkgver="${_pkgver/-/.}"
 pkgrel=1
@@ -52,12 +52,12 @@ source_x86_64=(
     "${_pkgname}-chromedriver-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver}/chromedriver-v${_pkgver}-linux-x64.zip"
     "${_pkgname}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver}/electron-v${_pkgver}-linux-x64.zip"
 )
-sha256sums_aarch64=('f4f0cfdfc02beab23df4fa30b09adee8e4d4b7c8674e75747fdbcb5aa612f62b'
-                    '0707c59025e9de913e155e54434afe5f9833b09da4f0f4f87653ac2194d01629')
-sha256sums_armv7h=('04ab8fa11c0d14bf948b71b1edaa2e5d4038f6e9926eba7401c6d2141af13053'
-                   'e77a264223bb1f81224e14dff3682a00f111a4610d342dfd71e4c82e4c605055')
-sha256sums_x86_64=('d7a4970c2a4fea0fcddee022d19cea6a911d3ce1695fc257de70a86d37c85d50'
-                   '6f34eb4c27c2acc313f6b711ad798c840768f05eec083eccaf41579823f96add')
+sha256sums_aarch64=('1e02eb6c463069ab6a6e835c12f9258caee5fcfca959f14a676a03d0df650fa9'
+                    '10c2abca8baa52f5fac1ddf48450135ea321e8e2d177598798232ad8ea268f77')
+sha256sums_armv7h=('258df5b303f49c9c5b5e70947eb4530bf1a59ce1b8578c2ad137aa1dfb85b645'
+                   'e485d0e0d5a7e923e9060e34a0473b561a7e1f58d878e856cd86562a30d9fb9e')
+sha256sums_x86_64=('9fd0d0c010de003d68ae4bbce57241f6d8a9d852d98c708412a3490fd48bca51'
+                   '3d14f1447654542bafd40736a131478fa2496955533043f21e306b06c923cf65')
 prepare() {
     install -Dm755 -d "${srcdir}/${_pkgname}"
     bsdtar -xf "${srcdir}/${_pkgname}-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
