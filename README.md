@@ -976,7 +976,7 @@
 |**paster**|[paster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paster-bin)|[paster-bin](https://aur.archlinux.org/packages/paster-bin)||
 |**pause-desktop**|[pause-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pause-desktop-bin)|[pause-desktop-bin](https://aur.archlinux.org/packages/pause-desktop-bin)||
 |**payload-dumper-go**|[payload-dumper-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/payload-dumper-go-bin)|[payload-dumper-go-bin](https://aur.archlinux.org/packages/payload-dumper-go-bin)||
-|**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)||
+|**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)<br>[pdf4qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt-bin)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)<br>[pdf4qt-bin](https://aur.archlinux.org/packages/pdf4qt-bin)||
 |**pdmaner**|[pdmaner-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-bin)|[pdmaner-bin](https://aur.archlinux.org/packages/pdmaner-bin)||
 |**pear-rec**|[pear-rec](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec) <br> [pear-rec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-bin) <br> [pear-rec-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-git)|[pear-rec](https://aur.archlinux.org/packages/pear-rec) <br> [pear-rec-bin](https://aur.archlinux.org/packages/pear-rec-bin) <br> [pear-rec-git](https://aur.archlinux.org/packages/pear-rec-git)||
 |**pedax**|[pedax-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pedax-bin)|[pedax-bin](https://aur.archlinux.org/packages/pedax-bin)||
