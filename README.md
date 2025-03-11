@@ -1495,6 +1495,7 @@
 |**yarle-evernote-to-md**|[yarle-evernote-to-md-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yarle-evernote-to-md-bin)|[yarle-evernote-to-md-bin](https://aur.archlinux.org/packages/yarle-evernote-to-md-bin)||
 |**yaste**|[yaste-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yaste-git)|[yaste-git](https://aur.archlinux.org/packages/yaste-git)||
 |**yesplaymusic**|[yesplaymusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-bin) <br> [yesplaymusic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yesplaymusic-git)|[yesplaymusic-bin](https://aur.archlinux.org/packages/yesplaymusic-bin) <br> [yesplaymusic-git](https://aur.archlinux.org/packages/yesplaymusic-git)||
+|**yidongbangong**|[yidongbangong-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yidongbangong-bin)|[yidongbangong-bin](https://aur.archlinux.org/packages/yidongbangong-bin)||
 |**ynote-desktop**|[ynote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ynote-desktop-bin)|[ynote-desktop-bin](https://aur.archlinux.org/packages/ynote-desktop-bin)||
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict)|[youdao-dict](https://aur.archlinux.org/packages/youdao-dict)||
