@@ -181,6 +181,7 @@
 |**caprine-ng**|[caprine-ng-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-ng-git)|[caprine-ng-git](https://aur.archlinux.org/packages/caprine-ng-git)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
 |**casterr**|[casterr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/casterr-bin)|[casterr-bin](https://aur.archlinux.org/packages/casterr-bin)||
+|**catalystplus-desktop**|[catalystplus-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/catalystplus-desktop-bin)|[catalystplus-desktop-bin](https://aur.archlinux.org/packages/catalystplus-desktop-bin)||
 |**catcat-dm-react**|[catcat-dm-react](https://github.com/zxp19821005/My_AUR_Files/tree/main/catcat-dm-react)|[catcat-dm-react](https://aur.archlinux.org/packages/catcat-dm-react)||
 |**celeste-client**|[celeste-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/celeste-client-bin)|[celeste-client-bin](https://aur.archlinux.org/packages/celeste-client-bin)||
 |**cerebro**|[cerebro-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cerebro-git)|[cerebro-git](https://aur.archlinux.org/packages/cerebro-git)||
