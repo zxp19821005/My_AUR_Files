@@ -1017,6 +1017,7 @@
 |**pixzip-lite**|[pixzip-lite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixzip-lite-git)|[pixzip-lite-git](https://aur.archlinux.org/packages/pixzip-lite-git)||
 |**planes**|[planes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/planes-bin)|[planes-bin](https://aur.archlinux.org/packages/planes-bin)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
+|**plexamp**|[plexamp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plexamp-bin)|[plexamp-bin](https://aur.archlinux.org/packages/plexamp-bin)||
 |**plow**|[plow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plow-bin)|[plow-bin](https://aur.archlinux.org/packages/plow-bin)||
 |**plutonia**|[plutonia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plutonia-bin)|[plutonia-bin](https://aur.archlinux.org/packages/plutonia-bin)||
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
