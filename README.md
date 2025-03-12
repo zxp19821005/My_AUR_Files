@@ -1095,6 +1095,7 @@
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
 |**rauthy**|[rauthy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rauthy-bin)|[rauthy-bin](https://aur.archlinux.org/packages/rauthy-bin)||
 |**react-explorer**|[react-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/react-explorer-bin)|[react-explorer-bin](https://aur.archlinux.org/packages/react-explorer-bin)||
+|**reader-project**|[reader-project-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reader-project-bin)|[reader-project-bin](https://aur.archlinux.org/packages/reader-project-bin)||
 |**realesrgan-gui**|[realesrgan-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realesrgan-gui-bin)|[realesrgan-gui-bin](https://aur.archlinux.org/packages/realesrgan-gui-bin)||
 |**realm-studio**|[realm-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-git) <br> [realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-git](https://aur.archlinux.org/packages/realm-studio-git) <br> [realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**rebaslight**|[rebaslight-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rebaslight-bin)|[rebaslight-bin](https://aur.archlinux.org/packages/rebaslight-bin)||
