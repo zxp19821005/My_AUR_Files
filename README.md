@@ -137,6 +137,7 @@
 |**bilibili-manga-downloader**|[bilibili-manga-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibili-manga-downloader-bin)|[bilibili-manga-downloader-bin](https://aur.archlinux.org/packages/bilibili-manga-downloader-bin)||
 |**bilibilivideodownload**|[bilibilivideodownload-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilibilivideodownload-bin)|[bilibilivideodownload-bin](https://aur.archlinux.org/packages/bilibilivideodownload-bin)||
 |**bili-liveluckdraw**|[bili-liveluckdraw-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bili-liveluckdraw-bin)|[bili-liveluckdraw-bin](https://aur.archlinux.org/packages/bili-liveluckdraw-bin)||
+|**bili-shadowreplay**|[bili-shadowreplay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bili-shadowreplay-bin)|[bili-shadowreplay-bin](https://aur.archlinux.org/packages/bili-shadowreplay-bin)||
 |**biliup-app**|[biliup-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/biliup-app-bin)|[biliup-app-bin](https://aur.archlinux.org/packages/biliup-app-bin)||
 |**bilive-danmaku**|[bilive-danmaku-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilive-danmaku-git)|[bilive-danmaku-git](https://aur.archlinux.org/packages/bilive-danmaku-git)||
 |**bimbala-desktop**|[bimbala-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bimbala-desktop-bin)|[bimbala-desktop-bin](https://aur.archlinux.org/packages/bimbala-desktop-bin)||
