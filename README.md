@@ -528,6 +528,7 @@
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**gemini-desktop**|[gemini-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gemini-desktop-git)|[gemini-desktop-git](https://aur.archlinux.org/packages/gemini-desktop-git)||
 |**gensokyo**|[gensokyo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gensokyo-bin)|[gensokyo-bin](https://aur.archlinux.org/packages/gensokyo-bin)||
+|**geolocator**|[geolocator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geolocator-bin)|[geolocator-bin](https://aur.archlinux.org/packages/geolocator-bin)||
 |**geratron**|[geratron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/geratron-git)|[geratron-git](https://aur.archlinux.org/packages/geratron-git)||
 |**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat) <br> [ghost-chat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat-git)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat) <br> [ghost-chat-git](https://aur.archlinux.org/packages/ghost-chat-git)||
 |**ghost-downloader**|[ghost-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-downloader-bin)|[ghost-downloader-bin](https://aur.archlinux.org/packages/ghost-downloader-bin)||
