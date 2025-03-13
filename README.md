@@ -321,6 +321,7 @@
 |**discord-history-tracker**|[discord-history-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-history-tracker-bin)|[discord-history-tracker-bin](https://aur.archlinux.org/packages/discord-history-tracker-bin)||
 |**discord-netflix**|[discord-netflix](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-netflix)|[discord-netflix](https://aur.archlinux.org/packages/discord-netflix)||
 |**distributionz**|[distributionz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/distributionz-bin)|[distributionz-bin](https://aur.archlinux.org/packages/distributionz-bin)||
+|**divicards**|[divicards-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/divicards-bin)|[divicards-bin](https://aur.archlinux.org/packages/divicards-bin)||
 |**dk-c++**|[dk-c++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dk-c++-bin)|[dk-c++-bin](https://aur.archlinux.org/packages/dk-c++-bin)||
 |**dnd-overlay-tool**|[dnd-overlay-tool-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnd-overlay-tool-git)|[dnd-overlay-tool-git](https://aur.archlinux.org/packages/dnd-overlay-tool-git)||
 |**dnglab**|[dnglab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dnglab-bin)|[dnglab-bin](https://aur.archlinux.org/packages/dnglab-bin)||
