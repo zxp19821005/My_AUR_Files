@@ -1243,6 +1243,7 @@
 |**stapxs-qq-lite**|[stapxs-qq-lite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stapxs-qq-lite-bin)|[stapxs-qq-lite-bin](https://aur.archlinux.org/packages/stapxs-qq-lite-bin)||
 |**station**|[station-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/station-bin)|[station-bin](https://aur.archlinux.org/packages/station-bin)||
 |**statusify**|[statusify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/statusify-bin)|[statusify-bin](https://aur.archlinux.org/packages/statusify-bin)||
+|**stayreal**|[stayreal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stayreal-bin)|[stayreal-bin](https://aur.archlinux.org/packages/stayreal-bin)||
 |**stealthplane**|[stealthplane-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stealthplane-bin)|[stealthplane-bin](https://aur.archlinux.org/packages/stealthplane-bin)||
 |**steamachievementnotifier**|[steamachievementnotifier-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamachievementnotifier-bin)|[steamachievementnotifier-bin](https://aur.archlinux.org/packages/steamachievementnotifier-bin)||
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-bin)|[steamdepotdownloadergui-bin](https://aur.archlinux.org/packages/steamdepotdownloadergui-bin)||
