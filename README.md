@@ -339,6 +339,7 @@
 |**drawpen**|[drawpen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawpen-bin)|[drawpen-bin](https://aur.archlinux.org/packages/drawpen-bin)||
 |**droppoint**|[droppoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-bin) <br> [droppoint-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/droppoint-git)|[droppoint-bin](https://aur.archlinux.org/packages/droppoint-bin) <br> [droppoint-git](https://aur.archlinux.org/packages/droppoint-git)||
 |**dtv**|[dtv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dtv-bin)|[dtv-bin](https://aur.archlinux.org/packages/dtv-bin)||
+|**duckling**|[duckling-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duckling-bin)|[duckling-bin](https://aur.archlinux.org/packages/duckling-bin)||
 |**duolingo-desktop**|[duolingo-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duolingo-desktop-bin)|[duolingo-desktop-bin](https://aur.archlinux.org/packages/duolingo-desktop-bin)||
 |**dupe-clear**|[dupe-clear-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dupe-clear-git)|[dupe-clear-git](https://aur.archlinux.org/packages/dupe-clear-git)||
 |**duskplayer**|[duskplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/duskplayer-bin)|[duskplayer-bin](https://aur.archlinux.org/packages/duskplayer-bin)||
