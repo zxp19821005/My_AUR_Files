@@ -871,6 +871,7 @@
 |**nativefier-gui**|[nativefier-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nativefier-gui-bin)|[nativefier-gui-bin](https://aur.archlinux.org/packages/nativefier-gui-bin)||
 |**nats-js-client**|[nats-js-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nats-js-client-bin)|[nats-js-client-bin](https://aur.archlinux.org/packages/nats-js-client-bin)||
 |**navicat-premium-lite-cs**|[navicat-premium-lite-cs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/navicat-premium-lite-cs-appimage)|自用版||
+|**navithingy**|[navithingy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/navithingy-bin)|[navithingy-bin](https://aur.archlinux.org/packages/navithingy-bin)||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**nerimity-desktop**|[nerimity-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop)<br>[nerimity-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop-bin)|[nerimity-desktop](https://aur.archlinux.org/packages/nerimity-desktop)<br>[nerimity-desktop-bin](https://aur.archlinux.org/packages/nerimity-desktop-bin)||
 |**netease-cloud-music-gtk**|[netease-cloud-music-gtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netease-cloud-music-gtk-bin)|[netease-cloud-music-gtk-bin](https://aur.archlinux.org/packages/netease-cloud-music-gtk-bin)||
