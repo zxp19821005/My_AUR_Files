@@ -789,7 +789,7 @@
 |**mawejs**|[mawejs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mawejs-bin)|[mawejs-bin](https://aur.archlinux.org/packages/mawejs-bin)||
 |**md-minutes-generator**|[md-minutes-generator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-minutes-generator-bin)|[md-minutes-generator-bin](https://aur.archlinux.org/packages/md-minutes-generator-bin)||
 |**mdsilo**|[mdsilo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdsilo-bin)|[mdsilo-bin](https://aur.archlinux.org/packages/mdsilo-bin)||
-|**md-tauri**|[md-tauri-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-tauri-git)|[md-tauri-git](https://aur.archlinux.org/packages/md-tauri-git)||
+|**md-tauri**|[md-tauri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-tauri-bin)<br>[md-tauri-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-tauri-git)|[md-tauri-bin](https://aur.archlinux.org/packages/md-tauri-bin)<br>[md-tauri-git](https://aur.archlinux.org/packages/md-tauri-git)||
 |**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
 |**mechakeys**|[mechakeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mechakeys-bin)|[mechakeys-bin](https://aur.archlinux.org/packages/mechakeys-bin)||
 |**mediachips**|[mediachips-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-bin)|[mediachips-bin](https://aur.archlinux.org/packages/mediachips-bin)||
