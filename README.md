@@ -1288,6 +1288,7 @@
 |**synergetica**|[synergetica-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/synergetica-bin)|[synergetica-bin](https://aur.archlinux.org/packages/synergetica-bin)||
 |**syng**|[syng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/syng-bin)|[syng-bin](https://aur.archlinux.org/packages/syng-bin)||
 |**tabby-electron**|[tabby-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tabby-electron-bin)|[tabby-electron-bin](https://aur.archlinux.org/packages/tabby-electron-bin)||
+|**tablite**|[tablite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tablite-git)|[tablite-git](https://aur.archlinux.org/packages/tablite-git)||
 |**tailchat-desktop**|[tailchat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/tailchat-desktop)|[tailchat-desktop](https://aur.archlinux.org/packages/tailchat-desktop)||
 |**taobaomaicaiti**|[taobaomaicaiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/taobaomaicaiti)|[taobaomaicaiti](https://aur.archlinux.org/packages/taobaomaicaiti)||
 |**taratormusic**|[taratormusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/taratormusic-bin)|[taratormusic-bin](https://aur.archlinux.org/packages/taratormusic-bin)||
