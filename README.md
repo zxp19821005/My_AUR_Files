@@ -1260,6 +1260,7 @@
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-bin)|[steamdepotdownloadergui-bin](https://aur.archlinux.org/packages/steamdepotdownloadergui-bin)||
 |**stockholm-trekkers-playlist-maker**|[stockholm-trekkers-playlist-maker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stockholm-trekkers-playlist-maker-bin)|[stockholm-trekkers-playlist-maker-bin](https://aur.archlinux.org/packages/stockholm-trekkers-playlist-maker-bin)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
+|**streaker**|[streaker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streaker-bin)|[streaker-bin](https://aur.archlinux.org/packages/streaker-bin)||
 |**streambop**|[streambop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streambop-bin)|[streambop-bin](https://aur.archlinux.org/packages/streambop-bin)||
 |**streamdock**|[streamdock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streamdock-bin)|[streamdock-bin](https://aur.archlinux.org/packages/streamdock-bin)||
 |**stremio-web-desktop**|[stremio-web-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stremio-web-desktop-bin)|[stremio-web-desktop-bin](https://aur.archlinux.org/packages/stremio-web-desktop-bin)||
