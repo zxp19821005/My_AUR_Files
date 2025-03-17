@@ -720,6 +720,7 @@
 |**lanzouyun-pan**|[lanzouyun-pan](https://github.com/zxp19821005/My_AUR_Files/tree/main/lanzouyun-pan)|[lanzouyun-pan](https://aur.archlinux.org/packages/lanzouyun-pan)||
 |**laradumps**|[laradumps-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laradumps-bin)|[laradumps-bin](https://aur.archlinux.org/packages/laradumps-bin)||
 |**laravel-kit**|[laravel-kit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/laravel-kit-bin)|[laravel-kit-bin](https://aur.archlinux.org/packages/laravel-kit-bin)||
+|**lavascope**|[lavascope-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lavascope-bin)|[lavascope-bin](https://aur.archlinux.org/packages/lavascope-bin)||
 |**ldtk**|[ldtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ldtk-bin)|[ldtk-bin](https://aur.archlinux.org/packages/ldtk-bin)||
 |**leafview**|[leafview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leafview-bin)|[leafview-bin](https://aur.archlinux.org/packages/leafview-bin)||
 |**leanote**|[leanote](https://github.com/zxp19821005/My_AUR_Files/tree/main/leanote)|[leanote](https://aur.archlinux.org/packages/leanote)||
