@@ -461,7 +461,6 @@
 |**feishin-electron**|[feishin-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feishin-electron-bin)|[feishin-electron-bin](https://aur.archlinux.org/packages/feishin-electron-bin)||
 |**feishu**|[feishu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feishu-bin)|自用版||
 |**feiyu-desktop**|[feiyu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feiyu-desktop-bin)|[feiyu-desktop-bin](https://aur.archlinux.org/packages/feiyu-desktop-bin)||
-|**felida**|[felida-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/felida-bin)|[felida-bin](https://aur.archlinux.org/packages/felida-bin)||
 |**ferrum**|[ferrum-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ferrum-bin)|[ferrum-bin](https://aur.archlinux.org/packages/ferrum-bin)||
 |**ffbox**|[ffbox](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox) <br> [ffbox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox-bin) <br> [ffbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffbox-git)|[ffbox](https://aur.archlinux.org/packages/ffbox) <br> [ffbox-bin](https://aur.archlinux.org/packages/ffbox-bin) <br> [ffbox-git](https://aur.archlinux.org/packages/ffbox-git)||
 |**ffuf**|[ffuf-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ffuf-bin)|[ffuf-bin](https://aur.archlinux.org/packages/ffuf-bin)||
