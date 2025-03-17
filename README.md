@@ -479,7 +479,7 @@
 |**firefly-shimmer-desktop**|[firefly-shimmer-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/firefly-shimmer-desktop-bin)|[firefly-shimmer-desktop-bin](https://aur.archlinux.org/packages/firefly-shimmer-desktop-bin)||
 |**fishing-funds**|[fishing-funds-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-bin) <br> [fishing-funds-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishing-funds-git)|[fishing-funds-bin](https://aur.archlinux.org/packages/fishing-funds-bin) <br> [fishing-funds-git](https://aur.archlinux.org/packages/fishing-funds-git)||
 |**fishpi**|[fishpi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishpi-bin)|[fishpi-bin](https://aur.archlinux.org/packages/fishpi-bin)||
-|**flaru-player**|[flaru-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flaru-player-bin)|[flaru-player-bin](https://aur.archlinux.org/packages/flaru-player-bin)||
+|**flare-player**|[flare-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flare-player-bin)|[flare-player-bin](https://aur.archlinux.org/packages/flare-player-bin)||
 |**flashorama**|[flashorama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashorama-bin)|[flashorama-bin](https://aur.archlinux.org/packages/flashorama-bin)||
 |**flashpoint**|[flashpoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashpoint-bin)|[flashpoint-bin](https://aur.archlinux.org/packages/flashpoint-bin)||
 |**flashpoint-launcher**|[flashpoint-launcher](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashpoint-launcher)|[flashpoint-launcher](https://aur.archlinux.org/packages/flashpoint-launcher)||
