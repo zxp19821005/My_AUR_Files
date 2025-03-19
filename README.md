@@ -417,6 +417,7 @@
 |**elemntary**|[elemntary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/elemntary-bin)|[elemntary-bin](https://aur.archlinux.org/packages/elemntary-bin)||
 |**elephicon**|[elephicon](https://github.com/zxp19821005/My_AUR_Files/tree/main/elephicon)|[elephicon](https://aur.archlinux.org/packages/elephicon)||
 |**elevate**|[elevate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/elevate-git)|[elevate-git](https://aur.archlinux.org/packages/elevate-git)||
+|**embertune**|[embertune-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/embertune-bin)|[embertune-bin](https://aur.archlinux.org/packages/embertune-bin)||
 |**emsmediasystem**|[emsmediasystem-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/emsmediasystem-bin)|[emsmediasystem-bin](https://aur.archlinux.org/packages/emsmediasystem-bin)||
 |**emudeck**|[emudeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/emudeck-bin)|[emudeck-bin](https://aur.archlinux.org/packages/emudeck-bin)||
 |**encrypt0r**|[encrypt0r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/encrypt0r-bin)|[encrypt0r-bin](https://aur.archlinux.org/packages/encrypt0r-bin)||
