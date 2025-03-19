@@ -1300,6 +1300,7 @@
 |**tcgtools**|[tcgtools-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tcgtools-git)|[tcgtools-git](https://aur.archlinux.org/packages/tcgtools-git)||
 |**tdl**|[tdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tdl-bin)|[tdl-bin](https://aur.archlinux.org/packages/tdl-bin)||
 |**teamide**|[teamide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teamide-bin)|[teamide-bin](https://aur.archlinux.org/packages/teamide-bin)||
+|**teams-for-linux-electron**|[teams-for-linux-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teams-for-linux-electron-bin)|[teams-for-linux-electron-bin](https://aur.archlinux.org/packages/teams-for-linux-electron-bin)||
 |**tencent-docs-electron**|[tencent-docs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-docs-electron-bin)|[tencent-docs-electron-bin](https://aur.archlinux.org/packages/tencent-docs-electron-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**tenvideo**|[tenvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tenvideo)|[tenvideo](https://aur.archlinux.org/packages/tenvideo)||
