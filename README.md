@@ -1025,6 +1025,7 @@
 |**pipelab**|[pipelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pipelab-bin)|[pipelab-bin](https://aur.archlinux.org/packages/pipelab-bin)||
 |**pip-player**|[pip-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pip-player-git)|[pip-player-git](https://aur.archlinux.org/packages/pip-player-git)||
 |**pitv**|[pitv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pitv-bin)|[pitv-bin](https://aur.archlinux.org/packages/pitv-bin)||
+|**pixelflow**|[pixelflow](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelflow)|[pixelflow](https://aur.archlinux.org/packages/pixelflow)||
 |**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
 |**pixes**|[pixes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixes-bin)|[pixes-bin](https://aur.archlinux.org/packages/pixes-bin)||
 |**pixzip-lite**|[pixzip-lite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixzip-lite-git)|[pixzip-lite-git](https://aur.archlinux.org/packages/pixzip-lite-git)||
