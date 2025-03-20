@@ -1270,6 +1270,7 @@
 |**streaker**|[streaker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streaker-bin)|[streaker-bin](https://aur.archlinux.org/packages/streaker-bin)||
 |**streambop**|[streambop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streambop-bin)|[streambop-bin](https://aur.archlinux.org/packages/streambop-bin)||
 |**streamdock**|[streamdock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streamdock-bin)|[streamdock-bin](https://aur.archlinux.org/packages/streamdock-bin)||
+|**stremio-enhanced**|[stremio-enhanced-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stremio-enhanced-bin)|[stremio-enhanced-bin](https://aur.archlinux.org/packages/stremio-enhanced-bin)||
 |**stremio-web-desktop**|[stremio-web-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stremio-web-desktop-bin)|[stremio-web-desktop-bin](https://aur.archlinux.org/packages/stremio-web-desktop-bin)||
 |**string-file-manager**|[string-file-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/string-file-manager-bin)|[string-file-manager-bin](https://aur.archlinux.org/packages/string-file-manager-bin)||
 |**structure**|[structure-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/structure-bin)|[structure-bin](https://aur.archlinux.org/packages/structure-bin)||
