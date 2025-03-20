@@ -1329,6 +1329,7 @@
 |**threatbrowser**|[threatbrowser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/threatbrowser-git)|[threatbrowser-git](https://aur.archlinux.org/packages/threatbrowser-git)||
 |**threema-for-desktop**|[threema-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/threema-for-desktop-bin)|[threema-for-desktop-bin](https://aur.archlinux.org/packages/threema-for-desktop-bin)||
 |**tiantianmazi**|[tiantianmazi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiantianmazi-bin)|[tiantianmazi-bin](https://aur.archlinux.org/packages/tiantianmazi-bin)||
+|**tiddlywiki-app**|[tiddlywiki-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tiddlywiki-app-bin)|[tiddlywiki-app-bin](https://aur.archlinux.org/packages/tiddlywiki-app-bin)||
 |**tidgi-desktop**|[tidgi-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tidgi-desktop-git) <br> [tidgi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tidgi-desktop-bin)|[tidgi-desktop-git](https://aur.archlinux.org/packages/tidgi-desktop-git) <br> [tidgi-desktop-bin](https://aur.archlinux.org/packages/tidgi-desktop-bin)||
 |**tilde-podcast**|[tilde-podcast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tilde-podcast-bin)|[tilde-podcast-bin](https://aur.archlinux.org/packages/tilde-podcast-bin)||
 |**timecop**|[timecop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/timecop-bin)|[timecop-bin](https://aur.archlinux.org/packages/timecop-bin)||
