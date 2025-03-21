@@ -699,6 +699,7 @@
 |**khiops-covisualization**|[khiops-covisualization-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/khiops-covisualization-bin)|[khiops-covisualization-bin](https://aur.archlinux.org/packages/khiops-covisualization-bin)||
 |**khiops-visualization**|[khiops-visualization-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/khiops-visualization-bin)|[khiops-visualization-bin](https://aur.archlinux.org/packages/khiops-visualization-bin)||
 |**kick-vod-downloader**|[kick-vod-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kick-vod-downloader-bin)|[kick-vod-downloader-bin](https://aur.archlinux.org/packages/kick-vod-downloader-bin)||
+|**kilo**|[kilo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kilo-git)|[kilo-git](https://aur.archlinux.org/packages/kilo-git)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
 |**kiwiirc-desktop**|[kiwiirc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-desktop-bin)|[kiwiirc-desktop-bin](https://aur.archlinux.org/packages/kiwiirc-desktop-bin)||
