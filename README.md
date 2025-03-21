@@ -683,6 +683,7 @@
 |**kaas**|[kaas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaas-bin)|[kaas-bin](https://aur.archlinux.org/packages/kaas-bin)||
 |**kahla**|[kahla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kahla-bin)|[kahla-bin](https://aur.archlinux.org/packages/kahla-bin)||
 |**kaiteki**|[kaiteki-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaiteki-bin)|[kaiteki-bin](https://aur.archlinux.org/packages/kaiteki-bin)||
+|**kaleido-client**|[kaleido-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaleido-client-git)|[kaleido-client-git](https://aur.archlinux.org/packages/kaleido-client-git)||
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
 |**kanbanflow-app**|[kanbanflow-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-bin) <br> [kanbanflow-app-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-git)|[kanbanflow-app-bin](https://aur.archlinux.org/packages/kanbanflow-app-bin) <br> [kanbanflow-app-git](https://aur.archlinux.org/packages/kanbanflow-app-git)||
 |**kando**|[kando-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kando-bin)|[kando-bin](https://aur.archlinux.org/packages/kando-bin)||
