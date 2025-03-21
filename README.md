@@ -118,6 +118,7 @@
 |**baidu-translate-client**|[baidu-translate-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-client-bin)|自用版||
 |**baiduwenku**|[baiduwenku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baiduwenku-bin)|[baiduwenku-bin](https://aur.archlinux.org/packages/baiduwenku-bin)||
 |**baize-toolbox**|[baize-toolbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/baize-toolbox-git)|[baize-toolbox-git](https://aur.archlinux.org/packages/baize-toolbox-git)||
+|**bananas**|[bananas](https://github.com/zxp19821005/My_AUR_Files/tree/main/bananas)|[bananas](https://aur.archlinux.org/packages/bananas)||
 |**barklarm**|[barklarm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/barklarm-bin)|[barklarm-bin](https://aur.archlinux.org/packages/barklarm-bin)||
 |**basic-blackjack**|[basic-blackjack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/basic-blackjack-bin)|[basic-blackjack-bin](https://aur.archlinux.org/packages/basic-blackjack-bin)||
 |**batch-explorer**|[batch-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-bin)|[batch-explorer-bin](https://aur.archlinux.org/packages/batch-explorer-bin)||
