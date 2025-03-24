@@ -216,6 +216,7 @@
 |**circle-chain-desktop**|[circle-chain-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/circle-chain-desktop-git)|[circle-chain-desktop-git](https://aur.archlinux.org/packages/circle-chain-desktop-git)||
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)||自用版|
+|**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
 |**cli-fetch**|[cli-fetch-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cli-fetch-git)|[cli-fetch-git](https://aur.archlinux.org/packages/cli-fetch-git)||

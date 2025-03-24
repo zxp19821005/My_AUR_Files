@@ -1,0 +1,49 @@
+# Maintainer: Azure Zeng <weedycn at outlook dot com>
+# Contributor: Pylogmon <pylogmon@outlook.com>
+_appname=clash-verge
+pkgname="${_appname}-rev-bin"
+_pkgname='Clash Verge'
+pkgver=2.1.2
+pkgrel=1
+pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri.(Prebuilt version)"
+arch=(
+    'aarch64'
+    'armv7h'
+    'x86_64'
+)
+url="https://www.clashverge.dev/"
+_ghurl="https://github.com/clash-verge-rev/clash-verge-rev"
+license=('GPL-3.0-only')
+conflicts=(
+    "${pkgname%-bin}"
+    "${pkgname%-alpha}"
+    "${_appname}"
+)
+provides=("${pkgname%-bin}=${pkgver}")
+depends=(
+    'webkit2gtk-4.1'
+    'gtk3'
+    'libayatana-appindicator'
+)
+options=('!strip')
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.aarch64.rpm")
+source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.armhfp.rpm")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.x86_64.rpm")
+sha512sums_aarch64=('29dd4e49b35333b5e0b92ce4b35575f988ce1496ddf1978d33ed80021622f30775caa86154110f0d8ca42f5b3ac1cde1fda587ebc58e7076d3d033a3b1f76faf')
+sha512sums_armv7h=('da38d8a7e89e44b79cdbdb43d3f1b33010981c6bd16d73dd9d104cbc554d2c9117c2d95a2e29d45d2b5856f447a57d94d9ae94c944e125c801851244f860cbe9')
+sha512sums_x86_64=('937c3c0971404aff9583b0c5ae8584974de095c546cad7794a9365f4bfc7c9c4d6f190dcaf0a7d5d7915668cb69ac0e0897c1d0a75cc359fac37378426dae886')
+prepare() {
+    sed -i -e "
+        s/Development/Network/g
+        s/Icon=${_appname}/Icon=${pkgname%-bin}/g
+    " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "$pkgdir/usr"
+    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    for _icons in "${_icon_sizes[@]}";do
+        install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${_appname}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps/${pkgname%-bin}.png"
+    done
+}
