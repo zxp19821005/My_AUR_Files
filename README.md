@@ -1114,6 +1114,7 @@
 |**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
 |**rauthy**|[rauthy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rauthy-bin)|[rauthy-bin](https://aur.archlinux.org/packages/rauthy-bin)||
+|**rclone-ui**|[rclone-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rclone-ui-bin)|[rclone-ui-bin](https://aur.archlinux.org/packages/rclone-ui-bin)||
 |**react-explorer**|[react-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/react-explorer-bin)|[react-explorer-bin](https://aur.archlinux.org/packages/react-explorer-bin)||
 |**reader-project**|[reader-project-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reader-project-bin)|[reader-project-bin](https://aur.archlinux.org/packages/reader-project-bin)||
 |**realesrgan-gui**|[realesrgan-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realesrgan-gui-bin)|[realesrgan-gui-bin](https://aur.archlinux.org/packages/realesrgan-gui-bin)||
