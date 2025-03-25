@@ -527,6 +527,7 @@
 |**fuzzynote**|[fuzzynote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fuzzynote-bin)|[fuzzynote-bin](https://aur.archlinux.org/packages/fuzzynote-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**fxradio**|[fxradio](https://github.com/zxp19821005/My_AUR_Files/tree/main/fxradio)|[fxradio](https://aur.archlinux.org/packages/fxradio)||
+|**fylepad**|[fylepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fylepad-bin)|[fylepad-bin](https://aur.archlinux.org/packages/fylepad-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**gameclock**|[gameclock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-bin) <br> [gameclock-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-git)|[gameclock-bin](https://aur.archlinux.org/packages/gameclock-bin) <br> [gameclock-git](https://aur.archlinux.org/packages/gameclock-git)||
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
