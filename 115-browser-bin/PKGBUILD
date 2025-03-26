@@ -1,0 +1,62 @@
+# Maintainer: taotieren <admin@taotieren.com>
+pkgname=115-browser-bin
+_pkgname=115br
+_appname=115Browser
+pkgver=35.11.0.3
+pkgrel=99
+pkgdesc="115 Browser / 115 浏览器"
+arch=('x86_64')
+url="https://115.com/product_browser"
+license=('LicenseRef-scancode-commercial-license')
+provides=("${pkgname%-bin}")
+conflicts=("${pkgname%-bin}")
+options=(!strip !debug)
+depends=(
+    'expat'
+    'libidn2'
+    'libcups'
+    'openssl-1.1'
+    'mesa'
+    'nss'
+    'at-spi2-core'
+    'nspr'
+    'alsa-lib'
+    'libxrandr'
+    'cairo'
+    'libxkbcommon'
+    'libxdamage'
+    'libxcomposite'
+    'pango'
+)
+source=(
+    "${pkgname%-bin}-${pkgver}.deb::https://down.115.com/client/115pc/lin/${_pkgname}_v${pkgver}.deb"
+    "LICENSE.html::http://115.com/privacy.html"
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('7860ed113023d5be595b0a5f8a06e8fee70f7fc3b8e0df88b31b81bcd56d0439'
+            '2c0831bf217535569e747589c8c374d81b2dc6c965d1cc7fcf4b2e89ba95cdfa'
+            '1bb3391bfe0f0a76d96ae3fcec1d7e981384e9536cec06009dfe5348b4d2b7c9')
+prepare() {
+    sed -i -e "
+        s/@appname@/${pkgname%-bin}/g
+        s/@runname@/${_appname}/g
+    " "${srcdir}/${pkgname%-bin}.sh"
+    bsdtar -xf "${srcdir}/data."*
+    sed -i -e "
+        /Exec=/d
+        /Icon=/d
+    " "${srcdir}/usr/share/applications/${_appname}.desktop"
+    sed -i -e "
+        4i\Exec=${pkgname%-bin}
+        5i\Icon=${pkgname%-bin}
+    " "${srcdir}/usr/share/applications/${_appname}.desktop"
+    chmod 755 "${srcdir}/usr/local/${_appname}/extensions"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/local/${_appname}/"* "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${srcdir}/usr/local/${_appname}/res/${_appname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+    install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
