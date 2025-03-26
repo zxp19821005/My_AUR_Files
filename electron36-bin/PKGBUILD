@@ -7,9 +7,9 @@ _projectname=electron
 _major=36
 _pkgname="${_projectname}${_major}"
 pkgname="${_pkgname}"-bin
-_subver='0.0_alpha.2'
+_subver='0.0-alpha.5'
 _pkgver="${_major}.${_subver}"
-pkgver="${_pkgver/-/.}"
+pkgver="${_pkgver/-}"
 pkgrel=1
 pkgdesc="Build cross platform desktop apps with web technologies — prebuilt"
 arch=(
@@ -52,17 +52,17 @@ source_x86_64=(
     "${_pkgname}-chromedriver-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/chromedriver-v${_pkgver//_/-}-linux-x64.zip"
     "${_pkgname}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/electron-v${_pkgver//_/-}-linux-x64.zip"
 )
-sha256sums_aarch64=('411b00255daed4b52c5b09e17db15fe2600fc8b3484784a50ce3cde0391a3acd'
-                    '715e81c1e6ff85228a4b8b6c4776aed6db24b4b96f66bc0c9196174657805f97')
-sha256sums_armv7h=('ac17a2735c5ad268fde29bcd083179a6b0e9dc776e5e2f7be228c06451b78625'
-                   '3694673a88fa8ca61cc730515c018ff463a2ee30675f02dc54ab2cbef2f39a0e')
-sha256sums_x86_64=('1876fc0a58e398f5ba802c3d85ff1775b99d6db046dde5f6ec71c18626e71f85'
-                   '87f9df7f8a6fe5b02d6f6c2724562d80096af867574cc0e653ac538ef2919e1e')
+sha256sums_aarch64=('c01a4cb7a2fc572f21376064f068ae3b70bc89efeff3d3b3b272246d4f37df07'
+                    '6fed5df510e6db29f4d5c14c4a8a43c3b2c44f7da6935c2c4cd087d2315eb16c')
+sha256sums_armv7h=('983f641821667cc0c47a570c61b3142ebbb7f2392dd4a0f763d7b91796db5eef'
+                   '8cec91c4823be8a5aea22e1e0499632466be1dbf004ad880cab3cec36d336337')
+sha256sums_x86_64=('8dfba1b730e5c8f23181e5c29b63509e8a81aac3065f973ead80811bd0847f4b'
+                   'fe0df0dd7a41004bebb8c2d76ad6d33d1c2637bd62f2d770cc83496a78ceb64b')
 prepare() {
     install -Dm755 -d "${srcdir}/${_pkgname}"
     bsdtar -xf "${srcdir}/${_pkgname}-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
     bsdtar -xf "${srcdir}/${_pkgname}-chromedriver-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
-    rm -rf "${srcdir}/${_pkgname}/gen"
+    rm -rf "${srcdir}/${_pkgname}/"{gen,chromedriver.debug}
     chmod u+s "${srcdir}/${_pkgname}/chrome-sandbox"
 }
 package() {
