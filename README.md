@@ -741,6 +741,7 @@
 |**lepton**|[lepton-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lepton-bin)|[lepton-bin](https://aur.archlinux.org/packages/lepton-bin)||
 |**leser**|[leser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leser-git)|[leser-git](https://aur.archlinux.org/packages/leser-git)||
 |**less-player**|[less-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-bin) <br> [less-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-git)|[less-player-bin](https://aur.archlinux.org/packages/less-player-bin) <br> [less-player-git](https://aur.archlinux.org/packages/less-player-git)||
+|**less-reader**|[less-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-reader-git)|[less-reader-git](https://aur.archlinux.org/packages/less-reader-git)||
 |**lettura**|[lettura-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lettura-bin)|[lettura-bin](https://aur.archlinux.org/packages/lettura-bin)||
 |**lexicanter**|[lexicanter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lexicanter-bin)|[lexicanter-bin](https://aur.archlinux.org/packages/lexicanter-bin)||
 |**librelinkupdesktop**|[librelinkupdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librelinkupdesktop-bin)|[librelinkupdesktop-bin](https://aur.archlinux.org/packages/librelinkupdesktop-bin)||
