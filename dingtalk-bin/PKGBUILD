@@ -5,8 +5,8 @@
 pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
 # https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Update/other/amd64/linux_dingtalk_update_package_gray.json
-pkgver=7.6.25.4122001
-pkgrel=4
+pkgver=7.6.45.5032501
+pkgrel=99
 pkgdesc="DingTalk,钉钉"
 arch=(
     'aarch64'
@@ -42,21 +42,24 @@ depends=(
     'nss'
     'nspr'
 )
+makedepends=(
+    'execstack'
+)
 optdepends=(
     'zenity: fix crashes when downloading files, not required on kde.'
     'libxss: fix tray icon functionality in gnome.'
     'qt5-wayland: needed in wayland'
 )
-source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/0211/${_debname}_${pkgver}_arm64.deb")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/0211/${_debname}_${pkgver}_amd64.deb")
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${_debname}_${pkgver}_arm64.deb")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${_debname}_${pkgver}_amd64.deb")
 source=(
     "${pkgname%-bin}.svg"
     "${pkgname%-bin}.sh"
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
-            'c1fa842e0bb322ca3f03c38dbb34eb61e57122dfb918ee90959fef6d6bdf4d0d')
-sha256sums_aarch64=('7a4454d874ac86ab03f9bed70c188757f26a41ea82a2788e672ee4df8fa7942f')
-sha256sums_x86_64=('163ce5aa3fc02e06008a9115c5d93b15493cdcab200ecb5c1d85688db2be683e')
+            '3e1ce1cfa5d686e733897fe5cdbc04c2322a240ae11ce1a33b82e6959221bc75')
+sha256sums_aarch64=('436f0875b287423175132f408ef884f180cc6ecd1702c4cc57d4f2e475da8204')
+sha256sums_x86_64=('c41dd0c9f5e958710ebb4fb2ec5be7acf8e2c515ff1803071aa4232192fab199')
 prepare() {
     sed -e "
         s/@appname@/${pkgname%-bin}/g
