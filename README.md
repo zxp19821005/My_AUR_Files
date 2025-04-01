@@ -1017,7 +1017,7 @@
 |**pflux**|[pflux-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pflux-git)|[pflux-git](https://aur.archlinux.org/packages/pflux-git)||
 |**pgdm-ui**|[pgdm-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pgdm-ui-bin)|[pgdm-ui-bin](https://aur.archlinux.org/packages/pgdm-ui-bin)||
 |**pgmanage**|[pgmanage-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pgmanage-bin)|[pgmanage-bin](https://aur.archlinux.org/packages/pgmanage-bin)||
-|**pguirestore**|[pguirestore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pguirestore-bin)|[pguirestore-bin](https://aur.archlinux.org/packages/pguirestore-bin)||
+|**pguirestore**|[pguirestore](https://github.com/zxp19821005/My_AUR_Files/tree/main/pguirestore)<br>[pguirestore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pguirestore-bin)|[pguirestore](https://aur.archlinux.org/packages/pguirestore)<br>[pguirestore-bin](https://aur.archlinux.org/packages/pguirestore-bin)||
 |**pharmaspot**|[pharmaspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pharmaspot-bin) <br> [pharmaspot-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pharmaspot-git)|[pharmaspot-bin](https://aur.archlinux.org/packages/pharmaspot-bin) <br> [pharmaspot-git](https://aur.archlinux.org/packages/pharmaspot-git)||
 |**phoenix-auth**|[phoenix-auth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/phoenix-auth-bin)|[phoenix-auth-bin](https://aur.archlinux.org/packages/phoenix-auth-bin)||
 |**phonotate**|[phonotate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/phonotate-git)|[phonotate-git](https://aur.archlinux.org/packages/phonotate-git)||
