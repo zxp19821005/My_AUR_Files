@@ -2,7 +2,7 @@
 pkgname=115-browser-bin
 _pkgname=115br
 _appname=115Browser
-pkgver=35.11.0.3
+pkgver=35.12.0.2
 pkgrel=99
 pkgdesc="115 Browser / 115 浏览器"
 arch=('x86_64')
@@ -33,8 +33,8 @@ source=(
     "LICENSE.html::http://115.com/privacy.html"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('7860ed113023d5be595b0a5f8a06e8fee70f7fc3b8e0df88b31b81bcd56d0439'
-            '2c0831bf217535569e747589c8c374d81b2dc6c965d1cc7fcf4b2e89ba95cdfa'
+sha256sums=('6e6dbc92bade6c43e6c4baecea7a96ab76098189c656e9bcb429fb2be85de83d'
+            'e65199037614ec40eae799f013d007a9252d1b870ec9406fffd7f0aaee3951f1'
             '1bb3391bfe0f0a76d96ae3fcec1d7e981384e9536cec06009dfe5348b4d2b7c9')
 prepare() {
     sed -i -e "
