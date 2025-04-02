@@ -1163,6 +1163,7 @@
 |**risuai**|[risuai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/risuai-bin)|[risuai-bin](https://aur.archlinux.org/packages/risuai-bin)||
 |**rocketchat-desktop**|[rocketchat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rocketchat-desktop-git)|[rocketchat-desktop-git](https://aur.archlinux.org/packages/rocketchat-desktop-git)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
+|**rotore**|[rotore-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotore-git)|[rotore-git](https://aur.archlinux.org/packages/rotore-git)||
 |**round-drop**|[round-drop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/round-drop-git)|[round-drop-git](https://aur.archlinux.org/packages/round-drop-git)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick) <br> [rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick](https://aur.archlinux.org/packages/rubick) <br> [rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
