@@ -559,6 +559,7 @@
 |**go-blueprint**|[go-blueprint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/go-blueprint-bin)|[go-blueprint-bin](https://aur.archlinux.org/packages/go-blueprint-bin)||
 |**godoos**|[godoos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godoos-bin)|[godoos-bin](https://aur.archlinux.org/packages/godoos-bin)||
 |**godot-hub**|[godot-hub-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/godot-hub-git)|[godot-hub-git](https://aur.archlinux.org/packages/godot-hub-git)||
+|**godot-launcher**|[godot-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godot-launcher-bin)|[godot-launcher-bin](https://aur.archlinux.org/packages/godot-launcher-bin)||
 |**godmode**|[godmode](https://github.com/zxp19821005/My_AUR_Files/tree/main/godmode) <br> [godmode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godmode-bin)|[godmode](https://aur.archlinux.org/packages/godmode) <br> [godmode-bin](https://aur.archlinux.org/packages/godmode-bin)||
 |**godspeed**|[godspeed-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/godspeed-git)|[godspeed-git](https://aur.archlinux.org/packages/godspeed-git)||
 |**goofcord**|[goofcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goofcord-bin)|[goofcord-bin](https://aur.archlinux.org/packages/goofcord-bin)||
