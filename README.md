@@ -1566,6 +1566,7 @@
 |**youtube-music-for-desktop**|[youtube-music-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-for-desktop-bin)|[youtube-music-for-desktop-bin](https://aur.archlinux.org/packages/youtube-music-for-desktop-bin)||
 |**youtube-music-next**|[youtube-music-next-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-next-bin)|[youtube-music-next-bin](https://aur.archlinux.org/packages/youtube-music-next-bin)||
 |**youtube-smarttv-emu**|[youtube-smarttv-emu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-smarttv-emu-bin)|[youtube-smarttv-emu-bin](https://aur.archlinux.org/packages/youtube-smarttv-emu-bin)||
+|**youtube-transcript-fetcher**|[youtube-transcript-fetcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-transcript-fetcher-bin)|[youtube-transcript-fetcher-bin](https://aur.archlinux.org/packages/youtube-transcript-fetcher-bin)||
 |**yozo-office**|[yozo-office](https://github.com/zxp19821005/My_AUR_Files/tree/main/yozo-office)|[yozo-office](https://aur.archlinux.org/packages/yozo-office)||
 |**ytdesk**|[ytdesk-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdesk-git)|[ytdesk-git](https://aur.archlinux.org/packages/ytdesk-git)||
 |**yt-dlandcut**|[yt-dlandcut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-dlandcut-bin)|[yt-dlandcut-bin](https://aur.archlinux.org/packages/yt-dlandcut-bin)||
