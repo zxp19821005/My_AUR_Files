@@ -346,6 +346,7 @@
 |**dosbox-staging**|[dosbox-staging-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dosbox-staging-bin)|[dosbox-staging-bin](https://aur.archlinux.org/packages/dosbox-staging-bin)||
 |**dragonrealms-phoenix**|[dragonrealms-phoenix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dragonrealms-phoenix-bin)|[dragonrealms-phoenix-bin](https://aur.archlinux.org/packages/dragonrealms-phoenix-bin)||
 |**drakonhub**|[drakonhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drakonhub-bin)|[drakonhub-bin](https://aur.archlinux.org/packages/drakonhub-bin)||
+|**drawdb-client**|[drawdb-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawdb-client-git)|[drawdb-client-git](https://aur.archlinux.org/packages/drawdb-client-git)||
 |**drakontech**|[drakontech-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drakontech-bin)|[drakontech-bin](https://aur.archlinux.org/packages/drakontech-bin)||
 |**drawio-desktop**|[drawio-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawio-desktop-git)|[drawio-desktop-git](https://aur.archlinux.org/packages/drawio-desktop-git)||
 |**drawpen**|[drawpen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drawpen-bin)|[drawpen-bin](https://aur.archlinux.org/packages/drawpen-bin)||
