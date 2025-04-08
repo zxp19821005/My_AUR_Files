@@ -1342,7 +1342,6 @@
 |**texturelab**|[texturelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/texturelab-bin)|[texturelab-bin](https://aur.archlinux.org/packages/texturelab-bin)||
 |**text-vision**|[text-vision-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/text-vision-git)|[text-vision-git](https://aur.archlinux.org/packages/text-vision-git)||
 |**tfiletransfer**|[tfiletransfer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tfiletransfer-bin)|[tfiletransfer-bin](https://aur.archlinux.org/packages/tfiletransfer-bin)||
-|**thedesk-client**|[thedesk-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thedesk-client-bin)|[thedesk-client-bin](https://aur.archlinux.org/packages/thedesk-client-bin)||
 |**the-password-manager**|[the-password-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/the-password-manager-git)|[the-password-manager-git](https://aur.archlinux.org/packages/the-password-manager-git)||
 |**thief**|[thief-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thief-bin)|[thief-bin](https://aur.archlinux.org/packages/thief-bin)||
 |**thinreports-section-editor**|[thinreports-section-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/thinreports-section-editor-bin)|[thinreports-section-editor-bin](https://aur.archlinux.org/packages/thinreports-section-editor-bin)||
