@@ -149,7 +149,6 @@
 |**binggpt-ee**|[binggpt-ee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/binggpt-ee-bin)|[binggpt-ee-bin](https://aur.archlinux.org/packages/binggpt-ee-bin)||
 |**bitclient**|[bitclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitclient-bin)|[bitclient-bin](https://aur.archlinux.org/packages/bitclient-bin)||
 |**bitshares-astro-ui**|[bitshares-astro-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitshares-astro-ui-bin)|[bitshares-astro-ui-bin](https://aur.archlinux.org/packages/bitshares-astro-ui-bin)||
-|**blinker**|[blinker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-git) <br> [blinker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blinker-bin)|[blinker-git](https://aur.archlinux.org/packages/blinker-git) <br> [blinker-bin](https://aur.archlinux.org/packages/blinker-bin)||
 |**blink-player**|[blink-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blink-player-bin)|[blink-player-bin](https://aur.archlinux.org/packages/blink-player-bin)||
 |**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
 |**blockyfish-client**|[blockyfish-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockyfish-client-bin)|[blockyfish-client-bin](https://aur.archlinux.org/packages/blockyfish-client-bin)||
@@ -542,7 +541,6 @@
 |**geforce-infinity**|[geforce-infinity-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforce-infinity-bin)|[geforce-infinity-bin](https://aur.archlinux.org/packages/geforce-infinity-bin)||
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**gemini-desktop**|[gemini-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gemini-desktop-git)|[gemini-desktop-git](https://aur.archlinux.org/packages/gemini-desktop-git)||
-|**gensokyo**|[gensokyo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gensokyo-bin)|[gensokyo-bin](https://aur.archlinux.org/packages/gensokyo-bin)||
 |**geolocator**|[geolocator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geolocator-bin)|[geolocator-bin](https://aur.archlinux.org/packages/geolocator-bin)||
 |**geratron**|[geratron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/geratron-git)|[geratron-git](https://aur.archlinux.org/packages/geratron-git)||
 |**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat) <br> [ghost-chat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat-git)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat) <br> [ghost-chat-git](https://aur.archlinux.org/packages/ghost-chat-git)||
@@ -1517,7 +1515,7 @@
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
 |**woniu-ali**|[woniu-ali-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woniu-ali-bin)|[woniu-ali-bin](https://aur.archlinux.org/packages/woniu-ali-bin)||
-|**woocommerce-pos**|[woocommerce-pos](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos) <br> [woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos](https://aur.archlinux.org/packages/woocommerce-pos) <br> [woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
+|**woocommerce-pos**|[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
 |**wora**|[wora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-bin) <br> [wora-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-git)|[wora-bin](https://aur.archlinux.org/packages/wora-bin) <br> [wora-git](https://aur.archlinux.org/packages/wora-git)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**wordpress-studio**|[wordpress-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wordpress-studio-git)|[wordpress-studio-git](https://aur.archlinux.org/packages/wordpress-studio-git)||
