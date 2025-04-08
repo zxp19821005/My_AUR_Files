@@ -86,6 +86,7 @@
 |**any-sync-gui**|[any-sync-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/any-sync-gui)|[any-sync-gui](https://aur.archlinux.org/packages/any-sync-gui)||
 |**anythingllm-desktop**|[anythingllm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anythingllm-desktop-bin)|[anythingllm-desktop-bin](https://aur.archlinux.org/packages/anythingllm-desktop-bin)||
 |**anytxt**|[anytxt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anytxt-bin)|[anytxt-bin](https://aur.archlinux.org/packages/anytxt-bin)||
+|**ao**|[ao-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ao-git)|[ao-git](https://aur.archlinux.org/packages/ao-git)||
 |**apifox**|[apifox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apifox-bin)|[apifox-bin](https://aur.archlinux.org/packages/apifox-bin)||
 |**apk-editor-studio**|[apk-editor-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-editor-studio-bin)|[apk-editor-studio-bin](https://aur.archlinux.org/packages/apk-editor-studio-bin)||
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
