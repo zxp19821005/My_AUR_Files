@@ -150,7 +150,6 @@
 |**bitclient**|[bitclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitclient-bin)|[bitclient-bin](https://aur.archlinux.org/packages/bitclient-bin)||
 |**bitshares-astro-ui**|[bitshares-astro-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitshares-astro-ui-bin)|[bitshares-astro-ui-bin](https://aur.archlinux.org/packages/bitshares-astro-ui-bin)||
 |**blink-player**|[blink-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blink-player-bin)|[blink-player-bin](https://aur.archlinux.org/packages/blink-player-bin)||
-|**blix**|[blix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blix-bin)|[blix-bin](https://aur.archlinux.org/packages/blix-bin)||
 |**blockyfish-client**|[blockyfish-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockyfish-client-bin)|[blockyfish-client-bin](https://aur.archlinux.org/packages/blockyfish-client-bin)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
 |**blueknight**|[blueknight-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blueknight-bin)|[blueknight-bin](https://aur.archlinux.org/packages/blueknight-bin)||
@@ -237,7 +236,6 @@
 |**codefuse-ide**|[codefuse-ide-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/codefuse-ide-git)|[codefuse-ide-git](https://aur.archlinux.org/packages/codefuse-ide-git)||
 |**codegpt**|[codegpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codegpt-bin)|[codegpt-bin](https://aur.archlinux.org/packages/codegpt-bin)||
 |**codenest**|[codenest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codenest-bin)|[codenest-bin](https://aur.archlinux.org/packages/codenest-bin)||
-|**code-notes**|[code-notes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/code-notes-bin)|[code-notes-bin](https://aur.archlinux.org/packages/code-notes-bin)||
 |**codequill**|[codequill-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codequill-bin)|[codequill-bin](https://aur.archlinux.org/packages/codequill-bin)||
 |**codex**|[codex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codex-bin)|[codex-bin](https://aur.archlinux.org/packages/codex-bin)||
 |**coinstac-desktop-app**|[coinstac-desktop-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-desktop-app-bin)|[coinstac-desktop-app-bin](https://aur.archlinux.org/packages/coinstac-desktop-app-bin)||
@@ -445,7 +443,6 @@
 |**e-search**|[e-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/e-search-bin)|[e-search-bin](https://aur.archlinux.org/packages/e-search-bin)||
 |**etcher**|[etcher-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/etcher-git)|[etcher-git](https://aur.archlinux.org/packages/etcher-git)||
 |**etcher-ng**|[etcher-ng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etcher-ng-bin)|[etcher-ng-bin](https://aur.archlinux.org/packages/etcher-ng-bin)||
-|**etherealengine-control-center**|[etherealengine-control-center-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/etherealengine-control-center-bin)|[etherealengine-control-center-bin](https://aur.archlinux.org/packages/etherealengine-control-center-bin)||
 |**eusoft-dehelper**|[eusoft-dehelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-dehelper-bin)|[eusoft-dehelper-bin](https://aur.archlinux.org/packages/eusoft-dehelper-bin)||
 |**eusoft-eshelper**|[eusoft-eshelper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eshelper-bin)|[eusoft-eshelper-bin](https://aur.archlinux.org/packages/eusoft-eshelper-bin)||
 |**eusoft-eudic**|[eusoft-eudic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eusoft-eudic-bin)|[eusoft-eudic-bin](https://aur.archlinux.org/packages/eusoft-eudic-bin)||
@@ -1103,7 +1100,6 @@
 |**qtscrcpy**|[qtscrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtscrcpy-bin)|[qtscrcpy-bin](https://aur.archlinux.org/packages/qtscrcpy-bin)||
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quadrant**|[quadrant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quadrant-bin)|[quadrant-bin](https://aur.archlinux.org/packages/quadrant-bin)||
-|**quasar-todo**|[quasar-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quasar-todo-bin)|[quasar-todo-bin](https://aur.archlinux.org/packages/quasar-todo-bin)||
 |**quaternion**|[quaternion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-bin)|[quaternion-bin](https://aur.archlinux.org/packages/quaternion-bin)||
 |**quba**|[quba-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-bin)|[quba-bin](https://aur.archlinux.org/packages/quba-bin)||
 |**querym**|[querym-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/querym-bin)|[querym-bin](https://aur.archlinux.org/packages/querym-bin)||
