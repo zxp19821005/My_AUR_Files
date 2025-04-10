@@ -1146,7 +1146,6 @@
 |**restfox**|[restfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/restfox-bin)|[restfox-bin](https://aur.archlinux.org/packages/restfox-bin)||
 |**retext**|[retext-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/retext-git)|[retext-git](https://aur.archlinux.org/packages/retext-git)||
 |**reticulum-meshchat**|[reticulum-meshchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reticulum-meshchat-bin)|[reticulum-meshchat-bin](https://aur.archlinux.org/packages/reticulum-meshchat-bin)||
-|**revealed**|[revealed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revealed-bin)|[revealed-bin](https://aur.archlinux.org/packages/revealed-bin)||
 |**revezone**|[revezone](https://github.com/zxp19821005/My_AUR_Files/tree/main/revezone)|[revezone](https://aur.archlinux.org/packages/revezone)||
 |**revolt-desktop**|[revolt-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop) <br> [revolt-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-bin) <br> [revolt-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/revolt-desktop-git)|[revolt-desktop](https://aur.archlinux.org/packages/revolt-desktop) <br> [revolt-desktop-bin](https://aur.archlinux.org/packages/revolt-desktop-bin) <br> [revolt-desktop-git](https://aur.archlinux.org/packages/revolt-desktop-git)||
 |**rgsm**|[rgsm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rgsm-bin)|[rgsm-bin](https://aur.archlinux.org/packages/rgsm-bin)||
