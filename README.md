@@ -92,7 +92,6 @@
 |**apk-installer**|[apk-installer](https://github.com/zxp19821005/My_AUR_Files/tree/main/apk-installer)|[apk-installer](https://aur.archlinux.org/packages/apk-installer)||
 |**appimagepool**|[appimagepool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/appimagepool-bin)|[appimagepool-bin](https://aur.archlinux.org/packages/appimagepool-bin)||
 |**apple-music**|[apple-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-bin)|[apple-music-bin](https://aur.archlinux.org/packages/apple-music-bin)||
-|**apple-music-electron**|[apple-music-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/apple-music-electron-git)|[apple-music-electron-git](https://aur.archlinux.org/packages/apple-music-electron-git)||
 |**apprhyme**|[apprhyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apprhyme-bin)|[apprhyme-bin](https://aur.archlinux.org/packages/apprhyme-bin)||
 |**aquaquill**|[aquaquill-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aquaquill-git)|[aquaquill-git](https://aur.archlinux.org/packages/aquaquill-git)||
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
