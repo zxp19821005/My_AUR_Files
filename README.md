@@ -1243,7 +1243,6 @@
 |**soulfire**|[soulfire-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soulfire-bin)|[soulfire-bin](https://aur.archlinux.org/packages/soulfire-bin)||
 |**soundcloud-rpc**|[soundcloud-rpc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundcloud-rpc-bin)<br>[soundcloud-rpc-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundcloud-rpc-git)|[soundcloud-rpc-bin](https://aur.archlinux.org/packages/soundcloud-rpc-bin)<br>[soundcloud-rpc-git](https://aur.archlinux.org/packages/soundcloud-rpc-git)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
-|**southweather**|[southweather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/southweather-bin)|[southweather-bin](https://aur.archlinux.org/packages/southweather-bin)||
 |**space-client**|[space-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-client-bin)|[space-client-bin](https://aur.archlinux.org/packages/space-client-bin)||
 |**spacemesh**|[spacemesh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spacemesh-bin)|[spacemesh-bin](https://aur.archlinux.org/packages/spacemesh-bin)||
 |**space-snake**|[space-snake-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-snake-bin)|[space-snake-bin](https://aur.archlinux.org/packages/space-snake-bin)||
