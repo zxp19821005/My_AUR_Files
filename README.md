@@ -1181,7 +1181,6 @@
 |**secret-diary**|[secret-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/secret-diary-bin)|[secret-diary-bin](https://aur.archlinux.org/packages/secret-diary-bin)||
 |**seekr**|[seekr](https://github.com/zxp19821005/My_AUR_Files/tree/main/seekr)<br>[seekr-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/seekr-git)|[seekr](https://aur.archlinux.org/packages/seekr)<br>[seekr-git](https://aur.archlinux.org/packages/seekr-git)||
 |**sengi**|[sengi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sengi-bin)|[sengi-bin](https://aur.archlinux.org/packages/sengi-bin)||
-|**sentio**|[sentio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sentio-bin)|[sentio-bin](https://aur.archlinux.org/packages/sentio-bin)||
 |**serialportassistant**|[serialportassistant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serialportassistant-bin)|[serialportassistant-bin](https://aur.archlinux.org/packages/serialportassistant-bin)||
 |**serial-studio**|[serial-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serial-studio-bin)|[serial-studio-bin](https://aur.archlinux.org/packages/serial-studio-bin)||
 |**serina**|[serina-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serina-bin)|[serina-bin](https://aur.archlinux.org/packages/serina-bin)||
