@@ -715,6 +715,7 @@
 |**kobo2notion**|[kobo2notion-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kobo2notion-git)|[kobo2notion-git](https://aur.archlinux.org/packages/kobo2notion-git)||
 |**koishi-desktop**|[koishi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-bin)|[koishi-desktop-bin](https://aur.archlinux.org/packages/koishi-desktop-bin)||
 |**kpt**|[kpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kpt-bin)|[kpt-bin](https://aur.archlinux.org/packages/kpt-bin)||
+|**krillinai**|[krillinai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krillinai-bin)|[krillinai-bin](https://aur.archlinux.org/packages/krillinai-bin)||
 |**krowbar**|[krowbar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krowbar-bin)|[krowbar-bin](https://aur.archlinux.org/packages/krowbar-bin)||
 |**krux-installer**|[krux-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krux-installer-bin)|[krux-installer-bin](https://aur.archlinux.org/packages/krux-installer-bin)||
 |**krypt-pad**|[krypt-pad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/krypt-pad-git)|[krypt-pad-git](https://aur.archlinux.org/packages/krypt-pad-git)||
