@@ -1564,7 +1564,7 @@
 |**yuview**|[yuview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-bin)|[yuview-bin](https://aur.archlinux.org/packages/yuview-bin)||
 |**yuvviewer**|[yuvviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuvviewer-bin)|[yuvviewer-bin](https://aur.archlinux.org/packages/yuvviewer-bin)||
 |**yyetsbot**|[yyetsbot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yyetsbot-bin)|[yyetsbot-bin](https://aur.archlinux.org/packages/yyetsbot-bin)||
-|**zasper**|[zasper-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-git)|[zasper-git](https://aur.archlinux.org/packages/zasper-git)||
+|**zasper**|[zasper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-bin)<br>[zasper-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-git)|[zasper-bin](https://aur.archlinux.org/packages/zasper-bin)<br>[zasper-git](https://aur.archlinux.org/packages/zasper-git)||
 |**zebar**|[zebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zebar-bin)|[zebar-bin](https://aur.archlinux.org/packages/zebar-bin)||
 |**zen-adblocker**|[zen-adblocker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zen-adblocker-git)|[zen-adblocker-git](https://aur.archlinux.org/packages/zen-adblocker-git)||
 |**zenshin**|[zenshin-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zenshin-git)|[zenshin-git](https://aur.archlinux.org/packages/zenshin-git)||
