@@ -686,7 +686,6 @@
 |**jumble**|[jumble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jumble-bin)|[jumble-bin](https://aur.archlinux.org/packages/jumble-bin)||
 |**justwrite**|[justwrite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/justwrite-git)|[justwrite-git](https://aur.archlinux.org/packages/justwrite-git)||
 |**kaas**|[kaas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaas-bin)|[kaas-bin](https://aur.archlinux.org/packages/kaas-bin)||
-|**kaiteki**|[kaiteki-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaiteki-bin)|[kaiteki-bin](https://aur.archlinux.org/packages/kaiteki-bin)||
 |**kaleido-client**|[kaleido-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaleido-client-git)|[kaleido-client-git](https://aur.archlinux.org/packages/kaleido-client-git)||
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
 |**kanbanflow-app**|[kanbanflow-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-bin) <br> [kanbanflow-app-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kanbanflow-app-git)|[kanbanflow-app-bin](https://aur.archlinux.org/packages/kanbanflow-app-bin) <br> [kanbanflow-app-git](https://aur.archlinux.org/packages/kanbanflow-app-git)||
@@ -1447,7 +1446,6 @@
 |**vocallia**|[vocallia-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocallia-git)|[vocallia-git](https://aur.archlinux.org/packages/vocallia-git)||
 |**vocechat-desktop**|[vocechat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocechat-desktop-bin)|[vocechat-desktop-bin](https://aur.archlinux.org/packages/vocechat-desktop-bin)||
 |**vookiimageviewer**|[vookiimageviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vookiimageviewer-bin)|[vookiimageviewer-bin](https://aur.archlinux.org/packages/vookiimageviewer-bin)||
-|**voosweeper**|[voosweeper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/voosweeper-bin)|[voosweeper-bin](https://aur.archlinux.org/packages/voosweeper-bin)||
 |**vrc-photo-viewer**|[vrc-photo-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vrc-photo-viewer-git)|[vrc-photo-viewer-git](https://aur.archlinux.org/packages/vrc-photo-viewer-git)||
 |**vscode-bookmark**|[vscode-bookmark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscode-bookmark-bin)|[vscode-bookmark-bin](https://aur.archlinux.org/packages/vscode-bookmark-bin)||
 |**vscodium-electron**|[vscodium-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodium-electron-bin)|[vscodium-electron-bin](https://aur.archlinux.org/packages/vscodium-electron-bin)||
