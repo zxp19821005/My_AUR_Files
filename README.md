@@ -223,7 +223,6 @@
 |**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
-|**cli-fetch**|[cli-fetch-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cli-fetch-git)|[cli-fetch-git](https://aur.archlinux.org/packages/cli-fetch-git)||
 |**clipharbor**|[clipharbor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipharbor-bin)|[clipharbor-bin](https://aur.archlinux.org/packages/clipharbor-bin)||
 |**clipio**|[clipio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipio-git)|[clipio-git](https://aur.archlinux.org/packages/clipio-git)||
 |**clouddm-personal**|[clouddm-personal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clouddm-personal-bin)|[clouddm-personal-bin](https://aur.archlinux.org/packages/clouddm-personal-bin)||
