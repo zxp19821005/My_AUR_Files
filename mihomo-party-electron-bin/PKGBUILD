@@ -1,6 +1,6 @@
 _pkgname=mihomo-party
 pkgname="${_pkgname}-electron-bin"
-pkgver=1.7.2
+pkgver=1.7.3
 _electronversion=34
 pkgrel=99
 pkgdesc=":electron: Another Mihomo GUI.(Prebuilt version.Use system-wide electron)"
@@ -30,10 +30,9 @@ source=(
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-x86_64.rpm")
-
 sha256sums=('291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
-sha256sums_aarch64=('04d986630844617a2028713293d133d2b1081c18c42dcade126a1a2fd6e825b6')
-sha256sums_x86_64=('eb3ae624a57ff71b5d35835799153d9816bfbae62a4f607bee46bcd92228fc16')
+sha256sums_aarch64=('414fe048e818ed06d99bce8e3d45a22f384d32ce80c1d2c1e8f05094635498f5')
+sha256sums_x86_64=('bf3f54963f791dc055e0a5a56c25712c0eb30a5ea06cfe420c4778b9771eca15')
 prepare() {
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
@@ -50,6 +49,7 @@ prepare() {
     asar e "${srcdir}/opt/${_pkgname}/resources/app.asar" "${srcdir}/app.asar.unpacked"
     find "${srcdir}/app.asar.unpacked/out" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
     asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
+    rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-arm64"
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
