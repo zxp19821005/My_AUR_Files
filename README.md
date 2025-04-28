@@ -521,7 +521,6 @@
 |**frosch**|[frosch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frosch-bin)|[frosch-bin](https://aur.archlinux.org/packages/frosch-bin)||
 |**frpc-desktop**|[frpc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frpc-desktop-bin)|[frpc-desktop-bin](https://aur.archlinux.org/packages/frpc-desktop-bin)||
 |**fscan**|[fscan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fscan-bin)|[fscan-bin](https://aur.archlinux.org/packages/fscan-bin)||
-|**fsolauncher**|[fsolauncher](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher) <br> [fsolauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fsolauncher-bin)|[fsolauncher](https://aur.archlinux.org/packages/fsolauncher) <br> [fsolauncher-bin](https://aur.archlinux.org/packages/fsolauncher-bin)||
 |**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
 |**fumble**|[fumble-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fumble-git)|[fumble-git](https://aur.archlinux.org/packages/fumble-git)||
 |**fury**|[fury-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fury-git)|[fury-git](https://aur.archlinux.org/packages/fury-git)||
@@ -1425,7 +1424,6 @@
 |**uyou-todo**|[uyou-todo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/uyou-todo-bin)|[uyou-todo-bin](https://aur.archlinux.org/packages/uyou-todo-bin)||
 |**vagrant-manager**|[vagrant-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-bin) <br> [vagrant-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vagrant-manager-git)|[vagrant-manager-bin](https://aur.archlinux.org/packages/vagrant-manager-bin) <br> [vagrant-manager-git](https://aur.archlinux.org/packages/vagrant-manager-git)||
 |**valhalla-app**|[valhalla-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/valhalla-app-bin)|[valhalla-app-bin](https://aur.archlinux.org/packages/valhalla-app-bin)||
-|**vega-video-editor**|[vega-video-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/vega-video-editor)|[vega-video-editor](https://aur.archlinux.org/packages/vega-video-editor)||
 |**vesktop**|[vesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vesktop-bin)|[vesktop-bin](https://aur.archlinux.org/packages/vesktop-bin)||
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**venom86**|[venom86-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/venom86-bin)|[venom86-bin](https://aur.archlinux.org/packages/venom86-bin)||
