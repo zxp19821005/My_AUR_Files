@@ -11,6 +11,7 @@ arch=(
     'x86_64'
 )
 url="https://github.com/Geoxor/Amethyst"
+_ghurl="https://github.com/Geoxor/Amethyst"
 license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
