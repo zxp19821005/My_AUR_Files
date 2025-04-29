@@ -10,8 +10,7 @@ arch=(
     'aarch64'
     'x86_64'
 )
-url="https://amethyst.pages.dev/"
-_ghurl="https://github.com/Geoxor/Amethyst"
+url="https://github.com/Geoxor/Amethyst"
 license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
