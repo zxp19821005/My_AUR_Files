@@ -2,7 +2,7 @@
 pkgname=115-browser-bin
 _pkgname=115br
 _appname=115Browser
-pkgver=35.12.0.2
+pkgver=35.18.0
 pkgrel=99
 pkgdesc="115 Browser / 115 浏览器"
 arch=('x86_64')
@@ -10,7 +10,10 @@ url="https://115.com/product_browser"
 license=('LicenseRef-scancode-commercial-license')
 provides=("${pkgname%-bin}")
 conflicts=("${pkgname%-bin}")
-options=(!strip !debug)
+options=(
+    '!strip'
+    '!debug'
+)
 depends=(
     'expat'
     'libidn2'
@@ -33,7 +36,7 @@ source=(
     "LICENSE.html::http://115.com/privacy.html"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('6e6dbc92bade6c43e6c4baecea7a96ab76098189c656e9bcb429fb2be85de83d'
+sha256sums=('438a807fb5ba7b5809fb3010f816cf09ce5182baa190e33abea00dded8f2201a'
             'e65199037614ec40eae799f013d007a9252d1b870ec9406fffd7f0aaee3951f1'
             '1bb3391bfe0f0a76d96ae3fcec1d7e981384e9536cec06009dfe5348b4d2b7c9')
 prepare() {
