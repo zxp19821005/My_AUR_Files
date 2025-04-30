@@ -538,7 +538,7 @@
 |**geolocator**|[geolocator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geolocator-bin)|[geolocator-bin](https://aur.archlinux.org/packages/geolocator-bin)||
 |**geratron**|[geratron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/geratron-git)|[geratron-git](https://aur.archlinux.org/packages/geratron-git)||
 |**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat) <br> [ghost-chat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat-git)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat) <br> [ghost-chat-git](https://aur.archlinux.org/packages/ghost-chat-git)||
-|**ghost-downloader**|[ghost-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-downloader-bin)|[ghost-downloader-bin](https://aur.archlinux.org/packages/ghost-downloader-bin)||
+|**ghost-downloader**|[ghost-downloader](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-downloader)<br>[ghost-downloader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-downloader-git)|[ghost-downloader](https://aur.archlinux.org/packages/ghost-downloader)<br>[ghost-downloader-git](https://aur.archlinux.org/packages/ghost-downloader-git)||
 |**giada**|[giada-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-bin)|[giada-bin](https://aur.archlinux.org/packages/giada-bin)||
 |**giopic**|[giopic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/giopic-git)|[giopic-git](https://aur.archlinux.org/packages/giopic-git)||
 |**git-good**|[git-good-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-good-bin)|[git-good-bin](https://aur.archlinux.org/packages/git-good-bin)||
