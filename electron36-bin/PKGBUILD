@@ -7,7 +7,7 @@ _projectname=electron
 _major=36
 _pkgname="${_projectname}${_major}"
 pkgname="${_pkgname}"-bin
-_subver='0.0-beta.7'
+_subver='0.1'
 _pkgver="${_major}.${_subver}"
 pkgver="${_pkgver/-}"
 pkgrel=1
@@ -56,12 +56,12 @@ source_x86_64=(
     "${_pkgname}-chromedriver-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/chromedriver-v${_pkgver//_/-}-linux-x64.zip"
     "${_pkgname}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/electron-v${_pkgver//_/-}-linux-x64.zip"
 )
-sha256sums_aarch64=('6dbe3401067f94d1a8fb09b94afecd5d556e3a838781b355841831b6be370db7'
-                    'f45e67d392e8573bbfe743a0305245883da5ea73de9c5391abd401f487685c87')
-sha256sums_armv7h=('c4e60d970c047bea7728c118bd77f2ef8aa9b34efdcddb37e0f30d4575ec6b9a'
-                   '9cbedcc0ae2cc6b4f7080e197ba4295fd80cf4f660344bd994dd56b9974226e0')
-sha256sums_x86_64=('4a5188c9611d20a19c7206f9cd8261452c9164685445cc041549723e1bace1f5'
-                   '941dcfcd92c863617b276fc5df309d3c499a0deed6989bf5615dc2cad280e7db')
+sha256sums_aarch64=('c83262215fffe65fbdd65d6861562eb7de00550a899e03b0804cbd034439f8cf'
+                    '0f52b0b63502f149ac7368c2fe193d3e4ad36f8bca3ba03391e7b76f773ba213')
+sha256sums_armv7h=('9aebaa475bb5d7e74525b6c4fbf28ddcd26ab60a41f441d323072db194685b8d'
+                   '09d5a2349ac61a30d5f6b78cd903d0710dee21fff6228a9830d883a33ba7c76e')
+sha256sums_x86_64=('5c3acd7fad8e637acb7b92756f54715d60f04d77df35b043c02c4be8aa88e7a4'
+                   '9dd968c8e0c0a9e0e31b675a79253345f848d0ded8f9194a771caf954788b48d')
 prepare() {
     install -Dm755 -d "${srcdir}/${_pkgname}"
     bsdtar -xf "${srcdir}/${_pkgname}-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
@@ -73,5 +73,6 @@ package() {
     install -Dm755 -d "${pkgdir}/usr/"{bin,lib}
     cp -r --no-preserve=ownership --preserve=mode "${srcdir}/${_pkgname}" "${pkgdir}/usr/lib"
     ln -nfs "/usr/lib/${_pkgname}/${_projectname}" "${pkgdir}/usr/bin/${_pkgname}"
+    rm -rf "${pkgdir}/usr/lib/${_pkgname}/LICENSE"*
     install -Dm644 "${srcdir}/${_pkgname}/LICENSE"* -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
