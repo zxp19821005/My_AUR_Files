@@ -241,7 +241,6 @@
 |**colony-player**|[colony-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colony-player-bin)|[colony-player-bin](https://aur.archlinux.org/packages/colony-player-bin)||
 |**colorpicker-app**|[colorpicker-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-app-bin)|[colorpicker-app-bin](https://aur.archlinux.org/packages/colorpicker-app-bin)||
 |**colour-contrast-analyser**|[colour-contrast-analyser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colour-contrast-analyser-bin)|[colour-contrast-analyser-bin](https://aur.archlinux.org/packages/colour-contrast-analyser-bin)||
-|**comet**|[comet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/comet-bin)|[comet-bin](https://aur.archlinux.org/packages/comet-bin)||
 |**commas**|[commas](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas) <br> [commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin) <br> [commas-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-git)|[commas](https://aur.archlinux.org/packages/commas) <br> [commas-bin](https://aur.archlinux.org/packages/commas-bin) <br> [commas-git](https://aur.archlinux.org/packages/commas-git)||
 |**compasscad**|[compasscad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/compasscad-bin)|[compasscad-bin](https://aur.archlinux.org/packages/compasscad-bin)||
 |**compress-o**|[compress-o-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/compress-o-bin)|[compress-o-bin](https://aur.archlinux.org/packages/compress-o-bin)||
