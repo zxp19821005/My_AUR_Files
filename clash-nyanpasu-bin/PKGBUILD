@@ -9,28 +9,30 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-  'webkit2gtk'
-  'gtk3'
-  'libayatana-appindicator'
+    'webkit2gtk'
+    'gtk3'
+    'libayatana-appindicator'
+    'mihomo'
 )
 optdepends=(
-  'clash-rs: custom protocol network proxy, coding with rust'
+    'clash: A rule based proxy in Go'
+    'clash-rs: custom protocol network proxy, coding with rust'
 )
 options=(
-  '!strip'
+    '!strip'
 )
 source=("${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-1.${CARCH}.rpm")
 sha256sums=('4a9bb44238f6173d4d83402945659b5c64efd96c227e420b1528a4b2a70dea8a')
 prepare() {
-  rm -rf "${srcdir}/usr/bin/"{clash,chash-rs,mohomo-alpha}
-  sed -i "s/Development/Network/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    rm -rf "${srcdir}/usr/bin/"{clash,clash-rs,mihomo,mihomo-alpha}
+    sed -i "s/Development/Network/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
-  install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-  cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "${pkgdir}/usr"
-  for _icons in "${_icon_sizes[@]}";do
+    install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "${pkgdir}/usr"
+    for _icons in "${_icon_sizes[@]}";do
     install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
-      -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
-  done
-  install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+        -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
+    done
+    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }
