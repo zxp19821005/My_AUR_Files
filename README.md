@@ -489,7 +489,6 @@
 |**fishpi**|[fishpi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fishpi-bin)|[fishpi-bin](https://aur.archlinux.org/packages/fishpi-bin)||
 |**flare-player**|[flare-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flare-player-bin)|[flare-player-bin](https://aur.archlinux.org/packages/flare-player-bin)||
 |**flashorama**|[flashorama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashorama-bin)|[flashorama-bin](https://aur.archlinux.org/packages/flashorama-bin)||
-|**flashpoint**|[flashpoint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashpoint-bin)|[flashpoint-bin](https://aur.archlinux.org/packages/flashpoint-bin)||
 |**flashpoint-launcher**|[flashpoint-launcher](https://github.com/zxp19821005/My_AUR_Files/tree/main/flashpoint-launcher)|[flashpoint-launcher](https://aur.archlinux.org/packages/flashpoint-launcher)||
 |**flawesome**|[flawesome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawesome-bin)|[flawesome-bin](https://aur.archlinux.org/packages/flawesome-bin)||
 |**flawless-cut**|[flawless-cut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flawless-cut-bin)|[flawless-cut-bin](https://aur.archlinux.org/packages/flawless-cut-bin)||
