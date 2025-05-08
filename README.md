@@ -1052,7 +1052,6 @@
 |**pomotro**|[pomotro](https://github.com/zxp19821005/My_AUR_Files/tree/main/pomotro)|[pomotro](https://aur.archlinux.org/packages/pomotro)||
 |**popcorn-fx**|[popcorn-fx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/popcorn-fx-bin)|[popcorn-fx-bin](https://aur.archlinux.org/packages/popcorn-fx-bin)||
 |**positron**|[positron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/positron-bin)|[positron-bin](https://aur.archlinux.org/packages/positron-bin)||
-|**possible**|[possible-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/possible-git)|[possible-git](https://aur.archlinux.org/packages/possible-git)||
 |**postbird**|[postbird-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postbird-bin)|[postbird-bin](https://aur.archlinux.org/packages/postbird-bin)||
 |**postcat**|[postcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/postcat-bin)|[postcat-bin](https://aur.archlinux.org/packages/postcat-bin)||
 |**postkid**|[postkid-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/postkid-git)|[postkid-git](https://aur.archlinux.org/packages/postkid-git)||
