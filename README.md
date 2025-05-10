@@ -224,7 +224,6 @@
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
 |**clipharbor**|[clipharbor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipharbor-bin)|[clipharbor-bin](https://aur.archlinux.org/packages/clipharbor-bin)||
-|**clipio**|[clipio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipio-git)|[clipio-git](https://aur.archlinux.org/packages/clipio-git)||
 |**clouddm-personal**|[clouddm-personal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clouddm-personal-bin)|[clouddm-personal-bin](https://aur.archlinux.org/packages/clouddm-personal-bin)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudhub**|[cloudhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudhub-bin)|[cloudhub-bin](https://aur.archlinux.org/packages/cloudhub-bin)||
@@ -795,7 +794,7 @@
 |**mawejs**|[mawejs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mawejs-bin)|[mawejs-bin](https://aur.archlinux.org/packages/mawejs-bin)||
 |**mdsilo**|[mdsilo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdsilo-bin)|[mdsilo-bin](https://aur.archlinux.org/packages/mdsilo-bin)||
 |**md-tauri**|[md-tauri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-tauri-bin)<br>[md-tauri-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/md-tauri-git)|[md-tauri-bin](https://aur.archlinux.org/packages/md-tauri-bin)<br>[md-tauri-git](https://aur.archlinux.org/packages/md-tauri-git)||
-|**mdview**|[mdview-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-appimage)|[mdview-appimage](https://aur.archlinux.org/packages/mdview-appimage)||
+|**mdview**|[mdview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-bin)|[mdview-bin](https://aur.archlinux.org/packages/mdview-bin)||
 |**mechakeys**|[mechakeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mechakeys-bin)|[mechakeys-bin](https://aur.archlinux.org/packages/mechakeys-bin)||
 |**mediachips**|[mediachips-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-bin)|[mediachips-bin](https://aur.archlinux.org/packages/mediachips-bin)||
 |**mediago**|[mediago-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediago-bin) <br> [mediago-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediago-git)|[mediago-bin](https://aur.archlinux.org/packages/mediago-bin) <br> [mediago-git](https://aur.archlinux.org/packages/mediago-git)||
