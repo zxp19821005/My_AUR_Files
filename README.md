@@ -2,7 +2,6 @@
 # 我参与维护及我个人维护的 AUR 列表
 | **软件包名** | GitHub 地址| AUR 地址|备注|
 | :----: | :----: | :----: | :----: |
-|**3fa**|[3fa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/3fa-bin)|[3fa-bin](https://aur.archlinux.org/packages/3fa-bin)||
 |**18xx-maker**|[18xx-maker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/18xx-maker-git)|[18xx-maker-git](https://aur.archlinux.org/packages/18xx-maker-git)||
 |**115-browser**|[115-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/115-browser-bin)|自用版||
 |**abstreet**|[abstreet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/abstreet-bin)|[abstreet-bin](https://aur.archlinux.org/packages/abstreet-bin)||
