@@ -474,7 +474,6 @@
 |**ficus**|[ficus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ficus-bin)|[ficus-bin](https://aur.archlinux.org/packages/ficus-bin)||
 |**fifo-browser**|[fifo-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fifo-browser-bin)|[fifo-browser-bin](https://aur.archlinux.org/packages/fifo-browser-bin)||
 |**figma-linux**|[figma-linux-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/figma-linux-git)|[figma-linux-git](https://aur.archlinux.org/packages/figma-linux-git)||
-|**filecentipede**|[filecentipede-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filecentipede-bin)|[filecentipede-bin](https://aur.archlinux.org/packages/filecentipede-bin)||
 |**filen-desktop**|[filen-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filen-desktop-bin) <br> [filen-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/filen-desktop-git)|[filen-desktop-bin](https://aur.archlinux.org/packages/filen-desktop-bin) <br> [filen-desktop-git](https://aur.archlinux.org/packages/filen-desktop-git)||
 |**filesync**|[filesync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/filesync-bin)|[filesync-bin](https://aur.archlinux.org/packages/filesync-bin)||
 |**final2x**|[final2x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/final2x-bin)|[final2x-bin](https://aur.archlinux.org/packages/final2x-bin)||
