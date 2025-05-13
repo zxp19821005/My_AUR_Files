@@ -736,6 +736,7 @@
 |**lettura**|[lettura-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lettura-bin)|[lettura-bin](https://aur.archlinux.org/packages/lettura-bin)||
 |**lexicanter**|[lexicanter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lexicanter-bin)|[lexicanter-bin](https://aur.archlinux.org/packages/lexicanter-bin)||
 |**librelinkupdesktop**|[librelinkupdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librelinkupdesktop-bin)|[librelinkupdesktop-bin](https://aur.archlinux.org/packages/librelinkupdesktop-bin)||
+|**libvgm**|[libvgm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/libvgm-git)||自用版|
 |**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
 |**line-by-line**|[line-by-line-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/line-by-line-bin)|[line-by-line-bin](https://aur.archlinux.org/packages/line-by-line-bin)||
