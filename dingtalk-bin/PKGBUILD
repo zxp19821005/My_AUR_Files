@@ -5,7 +5,7 @@
 pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
 # https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Update/other/amd64/linux_dingtalk_update_package_gray.json
-pkgver=7.6.45.5032501
+pkgver=7.6.45.5041701
 pkgrel=99
 pkgdesc="DingTalk,钉钉"
 arch=(
@@ -58,19 +58,20 @@ source=(
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
             '3e1ce1cfa5d686e733897fe5cdbc04c2322a240ae11ce1a33b82e6959221bc75')
-sha256sums_aarch64=('436f0875b287423175132f408ef884f180cc6ecd1702c4cc57d4f2e475da8204')
-sha256sums_x86_64=('c41dd0c9f5e958710ebb4fb2ec5be7acf8e2c515ff1803071aa4232192fab199')
+sha256sums_aarch64=('f253281e23221b0a9ee36691ac7b0f7e063bf77c25dc284abbde667bb8dbcb09')
+sha256sums_x86_64=('1d7bd5908ad0817580e4d2af71580978eb4afa4483e9adf25c90799f22cdab35')
 prepare() {
-    sed -e "
+    sed -i -e "
         s/@appname@/${pkgname%-bin}/g
         s/@runname@/${_debname}/g
-    " -i "${srcdir}/${pkgname%-bin}.sh"
+    " "${srcdir}/${pkgname%-bin}.sh"
     bsdtar -xf "${srcdir}/data."*
-    sed -e "
+    sed -i -e "
         s/\/opt\/apps\/${_debname}\/files\/Elevator.sh/${pkgname%-bin}/g
         s/\/opt\/apps\/${_debname}\/files\/logo.ico/${pkgname%-bin}/g
+        s/Comment=/Comment=${pkgdesc}/g
         s/Chat/Network/g
-    " -i "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop"
+    " "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop"
     # fix chinese input in workbench
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libgtk-x11-2.0.so.*
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
