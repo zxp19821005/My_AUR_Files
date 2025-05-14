@@ -1,6 +1,6 @@
 pkgname=clash-nyanpasu-bin
 pkgver=1.6.1
-pkgrel=1
+pkgrel=99
 pkgdesc="A Clash GUI based on tauri. Clash Nyanpasu! (∠・ω< )⌒☆​"
 arch=('x86_64')
 url="https://nyanpasu.elaina.moe/"
@@ -11,7 +11,6 @@ conflicts=("${pkgname%-bin}")
 depends=(
     'webkit2gtk'
     'gtk3'
-    'libayatana-appindicator'
     'mihomo'
 )
 optdepends=(
@@ -30,6 +29,7 @@ prepare() {
 package() {
     install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
     cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "${pkgdir}/usr"
+    _icon_sizes=(32x32 128x128 256x256@2)
     for _icons in "${_icon_sizes[@]}";do
     install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
         -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
