@@ -1226,6 +1226,7 @@
 |**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck) <br> [snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck) <br> [snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)||
 |**soar**|[soar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soar-bin)|[soar-bin](https://aur.archlinux.org/packages/soar-bin)||
 |**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
+|**sokuji**|[sokuji-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sokuji-bin)|[sokuji-bin](https://aur.archlinux.org/packages/sokuji-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**solidtime**|[solidtime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solidtime-bin)|[solidtime-bin](https://aur.archlinux.org/packages/solidtime-bin)||
 |**somafm-desktop-player**|[somafm-desktop-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/somafm-desktop-player-bin)|[somafm-desktop-player-bin](https://aur.archlinux.org/packages/somafm-desktop-player-bin)||
