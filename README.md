@@ -1021,7 +1021,6 @@
 |**pihead-gui**|[pihead-gui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pihead-gui-git)|[pihead-gui-git](https://aur.archlinux.org/packages/pihead-gui-git)||
 |**pikatorrent**|[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
 |**pinac-workspace**|[pinac-workspace-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pinac-workspace-git)|[pinac-workspace-git](https://aur.archlinux.org/packages/pinac-workspace-git)||
-|**pintomind-player**|[pintomind-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pintomind-player-git)|[pintomind-player-git](https://aur.archlinux.org/packages/pintomind-player-git)||
 |**pipelab**|[pipelab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pipelab-bin)|[pipelab-bin](https://aur.archlinux.org/packages/pipelab-bin)||
 |**pip-player**|[pip-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pip-player-git)|[pip-player-git](https://aur.archlinux.org/packages/pip-player-git)||
 |**pitv**|[pitv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pitv-bin)|[pitv-bin](https://aur.archlinux.org/packages/pitv-bin)||
