@@ -1215,6 +1215,7 @@
 |**slic3r**|[slic3r-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/slic3r-bin)|[slic3r-bin](https://aur.archlinux.org/packages/slic3r-bin)||
 |**slimjet**|[slimjet](https://github.com/zxp19821005/My_AUR_Files/tree/main/slimjet)|[slimjet](https://aur.archlinux.org/packages/slimjet)||
 |**smart-contract-obfuscator**|[smart-contract-obfuscator-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/smart-contract-obfuscator-git)|[smart-contract-obfuscator-git](https://aur.archlinux.org/packages/smart-contract-obfuscator-git)||
+|**smartsub**|[smartsub-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/smartsub-git)|[smartsub-git](https://aur.archlinux.org/packages/smartsub-git)||
 |**smpl**|[smpl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/smpl-git)|[smpl-git](https://aur.archlinux.org/packages/smpl-git)||
 |**snailfm**|[snailfm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snailfm-bin)|[snailfm-bin](https://aur.archlinux.org/packages/snailfm-bin)||
 |**snapmail**|[snapmail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snapmail-bin)|[snapmail-bin](https://aur.archlinux.org/packages/snapmail-bin)||
@@ -1422,7 +1423,7 @@
 |**veyon**|[veyon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/veyon-bin)|[veyon-bin](https://aur.archlinux.org/packages/veyon-bin)||
 |**venom86**|[venom86-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/venom86-bin)|[venom86-bin](https://aur.archlinux.org/packages/venom86-bin)||
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
-|**video-subtitle-master**|[video-subtitle-master-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-subtitle-master-bin)<br>[video-subtitle-master-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-subtitle-master-git)|[video-subtitle-master-bin](https://aur.archlinux.org/packages/video-subtitle-master-bin)<br>[video-subtitle-master-git](https://aur.archlinux.org/packages/video-subtitle-master-git)||
+|**video-subtitle-master**|[video-subtitle-master-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-subtitle-master-bin)|[video-subtitle-master-bin](https://aur.archlinux.org/packages/video-subtitle-master-bin)||
 |**vieb**|[vieb](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb)|[vieb](https://aur.archlinux.org/packages/vieb)||
 |**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||

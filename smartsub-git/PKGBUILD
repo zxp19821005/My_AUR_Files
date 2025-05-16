@@ -1,13 +1,16 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=video-subtitle-master-git
-_pkgname='Video Subtitle Master'
+pkgname=smartsub-git
+_pkgname=SmartSub
 _zhsname='妙幕'
-pkgver=2.0.3.r1.g9a9fb83
+pkgver=2.3.6.r0.ge10614e
 _electronversion=30
 _nodeversion=20
 pkgrel=1
-pkgdesc="a powerful desktop application for batch generating subtitles for videos and translating them into other languages.(Use system-wide electron)"
-arch=('any')
+pkgdesc="Generate subtitle files for video or audio in batches, and support subtitle translation. Support Baidu, Volcano, OpenAI, Olama, Deepseek and other translations.(Use system-wide electron)"
+arch=(
+    'aarch64'
+    'x86_64'
+)
 url="https://github.com/buxuku/SmartSub"
 license=('MIT')
 conflicts=("${pkgname%-git}")
@@ -16,6 +19,7 @@ depends=(
     "electron${_electronversion}"
     'python-openai-whisper'
     'nodejs'
+    'ffmpeg'
 )
 makedepends=(
     'gendesk'
@@ -44,6 +48,7 @@ _ensure_local_nvm() {
     nvm use "${_nodeversion}"
 }
 prepare() {
+    cd "${srcdir}/${pkgname%-git}.git"
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
         s/@appname@/${pkgname%-git}/g
@@ -52,9 +57,13 @@ prepare() {
         s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
     " "${srcdir}/${pkgname%-git}.sh"
     _ensure_local_nvm
-    gendesk -q -f -n --pkgname="${pkgname%-git}" --pkgdesc="${pkgdesc}" --categories="AudioVideo" --name="${_pkgname}" --exec="${pkgname%-git} %U"
-    sed -i "5i\Name[zh_CN]=${_zhsname}" "${srcdir}/${pkgname%-git}.desktop"
-    cd "${srcdir}/${pkgname%-git}.git"
+    gendesk -q -f -n \
+        --pkgname="${pkgname%-git}" \
+        --pkgdesc="${pkgdesc}" \
+        --categories="AudioVideo" \
+        --name="${_pkgname}" \
+        --exec="${pkgname%-git} %U"
+    sed -i "5i\Name[zh_CN]=${_zhsname}" "${pkgname%-git}.desktop"
     export ELECTRON_SKIP_BINARY_DOWNLOAD=1
     export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
     HOME="${srcdir}/.electron-gyp"
@@ -73,6 +82,7 @@ prepare() {
             echo 'linkWorkspacePackages true'
             echo 'fetchRetries 3'
             echo 'fetchRetryTimeout 10000'
+            echo 'networkConcurrency 10'
         } >> .yarnrc
         find ./ -type f -name "yarn.lock" -exec sed -i "s/registry.yarnpkg.com/registry.npmmirror.com/g" {} +
     fi
@@ -84,12 +94,21 @@ build() {
     local electronDist="/usr/lib/electron${_electronversion}"
     NODE_ENV=production     yarn run build
     NODE_ENV=production     yarn electron-builder --linux dir -c.electronDist="${electronDist}" --config=electron-builder.yml
+    ln -sf "/usr/bin/ffmpeg" "${srcdir}/${pkgname%-git}.git/dist/linux-"*/resources/app.asar.unpacked/node_modules/ffmpeg-static/ffmpeg
+    case "${CARCH}" in
+        aarch64)
+            ln -sf "/usr/bin/ffmpeg" "${srcdir}/${pkgname%-git}.git/dist/linux-"*/resources/app.asar.unpacked/node_modules/@ffmpeg-installer/linux-arm64/ffmpeg
+            ;;
+        x86_64)
+            ln -sf "/usr/bin/ffmpeg" "${srcdir}/${pkgname%-git}.git/dist/linux-"*/resources/app.asar.unpacked/node_modules/@ffmpeg-installer/linux-x64/ffmpeg
+            ;;
+    esac
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
     install -Dm644 "${srcdir}/${pkgname%-git}.git/dist/linux-"*/resources/app.asar -t "${pkgdir}/usr/lib/${pkgname%-git}"
     cp -Pr --no-preserve=ownership "${srcdir}/${pkgname%-git}.git/dist/linux-"*/resources/app.asar.unpacked "${pkgdir}/usr/lib/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
     install -Dm644 "${srcdir}/${pkgname%-git}.git/resources/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
     install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
