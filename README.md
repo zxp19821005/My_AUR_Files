@@ -1454,7 +1454,6 @@
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
 |**walc**|[walc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-bin)|[walc-bin](https://aur.archlinux.org/packages/walc-bin)||
 |**wallet-recovery-wizard**|[wallet-recovery-wizard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wallet-recovery-wizard-bin)|[wallet-recovery-wizard-bin](https://aur.archlinux.org/packages/wallet-recovery-wizard-bin)||
-|**wapiti**|[wapiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/wapiti)|[wapiti](https://aur.archlinux.org/packages/wapiti)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
 |**wasistlos**|[wasistlos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/wasistlos-appimage)|[wasistlos-appimage](https://aur.archlinux.org/packages/wasistlos-appimage)||
