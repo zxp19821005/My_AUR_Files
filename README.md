@@ -223,6 +223,7 @@
 |**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
+|**clip-editor**|[clip-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clip-editor-bin)|[clip-editor-bin](https://aur.archlinux.org/packages/clip-editor-bin)||
 |**clipharbor**|[clipharbor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipharbor-bin)|[clipharbor-bin](https://aur.archlinux.org/packages/clipharbor-bin)||
 |**clouddm-personal**|[clouddm-personal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clouddm-personal-bin)|[clouddm-personal-bin](https://aur.archlinux.org/packages/clouddm-personal-bin)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
