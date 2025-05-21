@@ -263,6 +263,7 @@
 |**cryptique**|[cryptique-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cryptique-git)|[cryptique-git](https://aur.archlinux.org/packages/cryptique-git)||
 |**csbooks**|[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
 |**ctool-electron**|[ctool-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ctool-electron-bin)|[ctool-electron-bin](https://aur.archlinux.org/packages/ctool-electron-bin)||
+|**cuby**|[cuby-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuby-git)|[cuby-git](https://aur.archlinux.org/packages/cuby-git)||
 |**cubytext**|[cubytext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cubytext-bin)|[cubytext-bin](https://aur.archlinux.org/packages/cubytext-bin)||
 |**cultivation**|[cultivation](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation)<br>[cultivation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation-bin)|[cultivation](https://aur.archlinux.org/packages/cultivation)<br>[cultivation-bin](https://aur.archlinux.org/packages/cultivation-bin)||
 |**currency-converter**|[currency-converter-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/currency-converter-git)|[currency-converter-git](https://aur.archlinux.org/packages/currency-converter-git)||
@@ -1432,6 +1433,7 @@
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||
 |**vilauncher**|[vilauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vilauncher-bin)|[vilauncher-bin](https://aur.archlinux.org/packages/vilauncher-bin)||
 |**vimp**|[vimp-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vimp-git)|[vimp-git](https://aur.archlinux.org/packages/vimp-git)||
+|**vis-launcher**|[vis-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vis-launcher-bin)|[vis-launcher-bin](https://aur.archlinux.org/packages/vis-launcher-bin)||
 |**visty**|[visty-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/visty-git)|[visty-git](https://aur.archlinux.org/packages/visty-git)||
 |**vlsm-interfacing**|[vlsm-interfacing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-git)|[vlsm-interfacing-git](https://aur.archlinux.org/packages/vlsm-interfacing-git)||
 |**vnite**|[vnite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnite-git)|[vnite-git](https://aur.archlinux.org/packages/vnite-git)||
