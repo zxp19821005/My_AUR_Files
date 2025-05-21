@@ -1188,6 +1188,7 @@
 |**sharing-gui**|[sharing-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/sharing-gui)|[sharing-gui](https://aur.archlinux.org/packages/sharing-gui)||
 |**shedshield**|[shedshield-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shedshield-bin)|[shedshield-bin](https://aur.archlinux.org/packages/shedshield-bin)||
 |**shibuya**|[shibuya-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shibuya-bin)|[shibuya-bin](https://aur.archlinux.org/packages/shibuya-bin)||
+|**shimmer**|[shimmer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/shimmer-git)|[shimmer-git](https://aur.archlinux.org/packages/shimmer-git)||
 |**sheikah-witnet-wallet**|[sheikah-witnet-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sheikah-witnet-wallet-bin)|[sheikah-witnet-wallet-bin](https://aur.archlinux.org/packages/sheikah-witnet-wallet-bin)||
 |**shellzilla**|[shellzilla-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shellzilla-bin)|[shellzilla-bin](https://aur.archlinux.org/packages/shellzilla-bin)||
 |**shinden-client**|[shinden-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shinden-client-bin)|[shinden-client-bin](https://aur.archlinux.org/packages/shinden-client-bin)||
