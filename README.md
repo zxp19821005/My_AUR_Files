@@ -204,6 +204,7 @@
 |**chatnio**|[chatnio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatnio-bin)|[chatnio-bin](https://aur.archlinux.org/packages/chatnio-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
 |**chatspot**|[chatspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatspot-bin)|[chatspot-bin](https://aur.archlinux.org/packages/chatspot-bin)||
+|**chatterbox**|[chatterbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatterbox-git)|[chatterbox-git](https://aur.archlinux.org/packages/chatterbox-git)||
 |**chengla-linux-unofficial**|[chengla-linux-unofficial-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chengla-linux-unofficial-bin)|[chengla-linux-unofficial-bin](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)||
 |**cherry-studio-electron**|[cherry-studio-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cherry-studio-electron-bin)|[cherry-studio-electron-bin](https://aur.archlinux.org/packages/cherry-studio-electron-bin)||
 |**cherry-studio**|[cherry-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cherry-studio-git)|[cherry-studio-git](https://aur.archlinux.org/packages/cherry-studio-git)||
