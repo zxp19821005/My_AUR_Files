@@ -934,6 +934,7 @@
 |**nvm-desktop**|[nvm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop) <br> [nvm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-bin) <br> [nvm-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-git)|[nvm-desktop](https://aur.archlinux.org/packages/nvm-desktop) <br> [nvm-desktop-bin](https://aur.archlinux.org/packages/nvm-desktop-bin) <br> [nvm-desktop-git](https://aur.archlinux.org/packages/nvm-desktop-git)||
 |**nxshell**|[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**nzyme**|[nzyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nzyme-bin)|[nzyme-bin](https://aur.archlinux.org/packages/nzyme-bin)||
+|**oba-live-tool**|[oba-live-tool-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/oba-live-tool-git)|[oba-live-tool-git](https://aur.archlinux.org/packages/oba-live-tool-git)||
 |**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
 |**ocat**|[ocat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-bin)|[ocat-bin](https://aur.archlinux.org/packages/ocat-bin)||
 |**octa-electron**|[octa-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/octa-electron)|[octa-electron](https://aur.archlinux.org/packages/octa-electron)||
