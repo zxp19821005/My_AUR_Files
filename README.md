@@ -982,6 +982,7 @@
 |**painting-droid**|[painting-droid-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/painting-droid-bin)|[painting-droid-bin](https://aur.archlinux.org/packages/painting-droid-bin)||
 |**pakeplus**|[pakeplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pakeplus-bin)|[pakeplus-bin](https://aur.archlinux.org/packages/pakeplus-bin)||
 |**palletone**|[palletone-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/palletone-git)|[palletone-git](https://aur.archlinux.org/packages/palletone-git)||
+|**panda-app**|[panda-app-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/panda-app-git)|[panda-app-git](https://aur.archlinux.org/packages/panda-app-git)||
 |**pandora-box**|[pandora-box](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box)<br>[pandora-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box-bin)<br>[pandora-box-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box-git)|[pandora-box](https://aur.archlinux.org/packages/pandora-box)<br>[pandora-box-bin](https://aur.archlinux.org/packages/pandora-box-bin)<br>[pandora-box-git](https://aur.archlinux.org/packages/pandora-box-git)||
 |**panfu-desktop**|[panfu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panfu-desktop-bin)|[panfu-desktop-bin](https://aur.archlinux.org/packages/panfu-desktop-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
