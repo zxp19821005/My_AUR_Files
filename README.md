@@ -940,6 +940,7 @@
 |**objtoschematic**|[objtoschematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/objtoschematic-bin)|[objtoschematic-bin](https://aur.archlinux.org/packages/objtoschematic-bin)||
 |**ocat**|[ocat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ocat-bin)|[ocat-bin](https://aur.archlinux.org/packages/ocat-bin)||
 |**octa-electron**|[octa-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/octa-electron)|[octa-electron](https://aur.archlinux.org/packages/octa-electron)||
+|**odoo-manager**|[odoo-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/odoo-manager-bin)|[odoo-manager-bin](https://aur.archlinux.org/packages/odoo-manager-bin)||
 |**ohmymd**|[ohmymd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ohmymd-bin)|[ohmymd-bin](https://aur.archlinux.org/packages/ohmymd-bin)||
 |**ollama-chat-desktop**|[ollama-chat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-chat-desktop-git)|[ollama-chat-desktop-git](https://aur.archlinux.org/packages/ollama-chat-desktop-git)||
 |**ollama-runner**|[ollama-runner-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-runner-git)|[ollama-runner-git](https://aur.archlinux.org/packages/ollama-runner-git)||
