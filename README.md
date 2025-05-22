@@ -237,6 +237,7 @@
 |**codegpt**|[codegpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codegpt-bin)|[codegpt-bin](https://aur.archlinux.org/packages/codegpt-bin)||
 |**codenest**|[codenest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codenest-bin)|[codenest-bin](https://aur.archlinux.org/packages/codenest-bin)||
 |**codequill**|[codequill-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codequill-bin)|[codequill-bin](https://aur.archlinux.org/packages/codequill-bin)||
+|**coderadio**|[coderadio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/coderadio-git)|[coderadio-git](https://aur.archlinux.org/packages/coderadio-git)||
 |**codex**|[codex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codex-bin)|[codex-bin](https://aur.archlinux.org/packages/codex-bin)||
 |**coinstac-desktop-app**|[coinstac-desktop-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-desktop-app-bin)|[coinstac-desktop-app-bin](https://aur.archlinux.org/packages/coinstac-desktop-app-bin)||
 |**colony-player**|[colony-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colony-player-bin)|[colony-player-bin](https://aur.archlinux.org/packages/colony-player-bin)||
