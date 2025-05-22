@@ -1509,6 +1509,7 @@
 |**windpix**|[windpix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/windpix-git)|[windpix-git](https://aur.archlinux.org/packages/windpix-git)||
 |**windterm**|[windterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/windterm-bin)|[windterm-bin](https://aur.archlinux.org/packages/windterm-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
+|**winkey**|[winkey-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/winkey-git)|[winkey-git](https://aur.archlinux.org/packages/winkey-git)||
 |**wire-desktop**|[wire-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wire-desktop-git)|[wire-desktop-git](https://aur.archlinux.org/packages/wire-desktop-git)||
 |**witsy**|[witsy](https://github.com/zxp19821005/My_AUR_Files/tree/main/witsy) <br> [witsy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/witsy-bin) <br> [witsy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/witsy-git)|[witsy](https://aur.archlinux.org/packages/witsy) <br> [witsy-bin](https://aur.archlinux.org/packages/witsy-bin) <br> [witsy-git](https://aur.archlinux.org/packages/witsy-git)||
 |**wiznote-desktop**|[wiznote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wiznote-desktop-bin)|[wiznote-desktop-bin](https://aur.archlinux.org/packages/wiznote-desktop-bin)||
