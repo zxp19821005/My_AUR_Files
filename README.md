@@ -102,6 +102,7 @@
 |**atom-chess**|[atom-chess-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-chess-git)|[atom-chess-git](https://aur.archlinux.org/packages/atom-chess-git)||
 |**atv-remote**|[atv-remote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atv-remote-bin)|[atv-remote-bin](https://aur.archlinux.org/packages/atv-remote-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
+|**autho-iptv**|[autho-iptv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autho-iptv-bin)|[autho-iptv-bin](https://aur.archlinux.org/packages/autho-iptv-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
 |**autocut-client**|[autocut-client](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-client)|[autocut-client](https://aur.archlinux.org/packages/autocut-client)||
 |**autocut**|[autocut-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/autocut-git)|[autocut-git](https://aur.archlinux.org/packages/autocut-git)||
