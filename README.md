@@ -405,6 +405,7 @@
 |**electron34**|[electron34-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron34-bin)|[electron34-bin](https://aur.archlinux.org/packages/electron34-bin)||
 |**electron35**|[electron35-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron35-bin)|[electron35-bin](https://aur.archlinux.org/packages/electron35-bin)||
 |**electron36**|[electron36-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron36-bin)|[electron36-bin](https://aur.archlinux.org/packages/electron36-bin)||
+|**electron36-castlab**|[electron36-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron36-castlab-bin)|[electron36-castlab-bin](https://aur.archlinux.org/packages/electron36-castlab-bin)||
 |**electron37**|[electron37-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron37-bin)|[electron37-bin](https://aur.archlinux.org/packages/electron37-bin)||
 |**electron-builder**|[electron-builder](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-builder)|[electron-builder](https://aur.archlinux.org/packages/electron-builder)||
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
