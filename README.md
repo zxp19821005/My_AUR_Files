@@ -399,11 +399,17 @@
 |**electron28**|[electron28-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron28-bin)|[electron28-bin](https://aur.archlinux.org/packages/electron28-bin)||
 |**electron29**|[electron29-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron29-bin)|[electron29-bin](https://aur.archlinux.org/packages/electron29-bin)||
 |**electron30**|[electron30-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-bin)|[electron30-bin](https://aur.archlinux.org/packages/electron30-bin)||
+|**electron30-castlab**|[electron30-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron30-castlab-bin)|[electron30-castlab-bin](https://aur.archlinux.org/packages/electron30-castlab-bin)||
 |**electron31**|[electron31-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron31-bin)|[electron31-bin](https://aur.archlinux.org/packages/electron31-bin)||
+|**electron31-castlab**|[electron31-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron31-castlab-bin)|[electron31-castlab-bin](https://aur.archlinux.org/packages/electron31-castlab-bin)||
 |**electron32**|[electron32-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron32-bin)|[electron32-bin](https://aur.archlinux.org/packages/electron32-bin)||
+|**electron32-castlab**|[electron32-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron32-castlab-bin)|[electron32-castlab-bin](https://aur.archlinux.org/packages/electron32-castlab-bin)||
 |**electron33**|[electron33-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron33-bin)|[electron33-bin](https://aur.archlinux.org/packages/electron33-bin)||
+|**electron33-castlab**|[electron33-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron33-castlab-bin)|[electron33-castlab-bin](https://aur.archlinux.org/packages/electron33-castlab-bin)||
 |**electron34**|[electron34-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron34-bin)|[electron34-bin](https://aur.archlinux.org/packages/electron34-bin)||
+|**electron34-castlab**|[electron34-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron34-castlab-bin)|[electron34-castlab-bin](https://aur.archlinux.org/packages/electron34-castlab-bin)||
 |**electron35**|[electron35-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron35-bin)|[electron35-bin](https://aur.archlinux.org/packages/electron35-bin)||
+|**electron35-castlab**|[electron35-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron35-castlab-bin)|[electron35-castlab-bin](https://aur.archlinux.org/packages/electron35-castlab-bin)||
 |**electron36**|[electron36-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron36-bin)|[electron36-bin](https://aur.archlinux.org/packages/electron36-bin)||
 |**electron36-castlab**|[electron36-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron36-castlab-bin)|[electron36-castlab-bin](https://aur.archlinux.org/packages/electron36-castlab-bin)||
 |**electron37**|[electron37-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron37-bin)|[electron37-bin](https://aur.archlinux.org/packages/electron37-bin)||
