@@ -1110,6 +1110,7 @@
 |**quaternion**|[quaternion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-bin)|[quaternion-bin](https://aur.archlinux.org/packages/quaternion-bin)||
 |**quba**|[quba-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quba-bin)|[quba-bin](https://aur.archlinux.org/packages/quba-bin)||
 |**querym**|[querym-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/querym-bin)|[querym-bin](https://aur.archlinux.org/packages/querym-bin)||
+|**quick-jot**|[quick-jot-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/quick-jot-git)|[quick-jot-git](https://aur.archlinux.org/packages/quick-jot-git)||
 |**quicknote**|[quicknote](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote) <br> [quicknote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote-bin) <br> [quicknote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote-git)|[quicknote](https://aur.archlinux.org/packages/quicknote) <br> [quicknote-bin](https://aur.archlinux.org/packages/quicknote-bin) <br> [quicknote-git](https://aur.archlinux.org/packages/quicknote-git)||
 |**quickpdfjoin**|[quickpdfjoin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quickpdfjoin-bin)|[quickpdfjoin-bin](https://aur.archlinux.org/packages/quickpdfjoin-bin)||
 |**quory**|[quory-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quory-bin)|[quory-bin](https://aur.archlinux.org/packages/quory-bin)||
