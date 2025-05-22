@@ -252,6 +252,7 @@
 |**container-desktop**|[container-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/container-desktop-bin)|[container-desktop-bin](https://aur.archlinux.org/packages/container-desktop-bin)||
 |**converse**|[converse](https://github.com/zxp19821005/My_AUR_Files/tree/main/converse)|[converse](https://aur.archlinux.org/packages/converse)||
 |**coolterm**|[coolterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coolterm-bin)|[coolterm-bin](https://aur.archlinux.org/packages/coolterm-bin)||
+|**copicseal**|[copicseal-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/copicseal-git)|[copicseal-git](https://aur.archlinux.org/packages/copicseal-git)||
 |**copybook**|[copybook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copybook-bin)|[copybook-bin](https://aur.archlinux.org/packages/copybook-bin)||
 |**copyman**|[copyman-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copyman-bin)<br>[copyman-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/copyman-git)|[copyman-bin](https://aur.archlinux.org/packages/copyman-bin)<br>[copyman-git](https://aur.archlinux.org/packages/copyman-git)||
 |**copytranslator**|[copytranslator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/copytranslator-bin)|[copytranslator-bin](https://aur.archlinux.org/packages/copytranslator-bin)||
