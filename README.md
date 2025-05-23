@@ -607,6 +607,7 @@
 |**he3-tools**|[he3-tools-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/he3-tools-bin)|[he3-tools-bin](https://aur.archlinux.org/packages/he3-tools-bin)||
 |**habit-tracker**|[habit-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/habit-tracker-bin)|[habit-tracker-bin](https://aur.archlinux.org/packages/habit-tracker-bin)||
 |**hackerpad**|[hackerpad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hackerpad-git)|[hackerpad-git](https://aur.archlinux.org/packages/hackerpad-git)||
+|**handbook**|[handbook-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/handbook-git)|[handbook-git](https://aur.archlinux.org/packages/handbook-git)||
 |**harmony**|[harmony-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/harmony-bin)|[harmony-bin](https://aur.archlinux.org/packages/harmony-bin)||
 |**hathor-wallet**|[hathor-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hathor-wallet-bin)|[hathor-wallet-bin](https://aur.archlinux.org/packages/hathor-wallet-bin)||
 |**hawkpass**|[hawkpass-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hawkpass-git)|[hawkpass-git](https://aur.archlinux.org/packages/hawkpass-git)||
