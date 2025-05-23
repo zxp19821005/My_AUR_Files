@@ -1118,6 +1118,7 @@
 |**r2uploader**|[r2uploader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r2uploader-bin)|[r2uploader-bin](https://aur.archlinux.org/packages/r2uploader-bin)||
 |**r3play**|[r3play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-bin)|[r3play-bin](https://aur.archlinux.org/packages/r3play-bin)||
 |**r3playx**|[r3playx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-git) <br> [r3playx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-bin)|[r3playx-git](https://aur.archlinux.org/packages/r3playx-git) <br> [r3playx-bin](https://aur.archlinux.org/packages/r3playx-bin)||
+|**r5-wallet**|[r5-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r5-wallet-bin)|[r5-wallet-bin](https://aur.archlinux.org/packages/r5-wallet-bin)||
 |**rabbitremotecontrol**|[rabbitremotecontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rabbitremotecontrol-bin)|[rabbitremotecontrol-bin](https://aur.archlinux.org/packages/rabbitremotecontrol-bin)||
 |**rainbow-bridge**|[rainbow-bridge-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rainbow-bridge-git)|[rainbow-bridge-git](https://aur.archlinux.org/packages/rainbow-bridge-git)||
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
