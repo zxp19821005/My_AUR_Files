@@ -227,6 +227,7 @@
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
 |**clip-editor**|[clip-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clip-editor-bin)|[clip-editor-bin](https://aur.archlinux.org/packages/clip-editor-bin)||
 |**clipharbor**|[clipharbor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipharbor-bin)|[clipharbor-bin](https://aur.archlinux.org/packages/clipharbor-bin)||
+|**clippy**|[clippy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clippy-bin)|[clippy-bin](https://aur.archlinux.org/packages/clippy-bin)||
 |**clouddm-personal**|[clouddm-personal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clouddm-personal-bin)|[clouddm-personal-bin](https://aur.archlinux.org/packages/clouddm-personal-bin)||
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudhub**|[cloudhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudhub-bin)|[cloudhub-bin](https://aur.archlinux.org/packages/cloudhub-bin)||
