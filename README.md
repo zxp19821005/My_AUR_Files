@@ -1562,6 +1562,7 @@
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict)|[youdao-dict](https://aur.archlinux.org/packages/youdao-dict)||
 |**youku**|[youku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-bin)|[youku-bin](https://aur.archlinux.org/packages/youku-bin)||
+|**youtube-app**|[youtube-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-app-bin)|[youtube-app-bin](https://aur.archlinux.org/packages/youtube-app-bin)||
 |**youtube-desktop**|[youtube-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-desktop-bin)|[youtube-desktop-bin](https://aur.archlinux.org/packages/youtube-desktop-bin)||
 |**youtube-downloader**|[youtube-downloader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-downloader-git)|[youtube-downloader-git](https://aur.archlinux.org/packages/youtube-downloader-git)||
 |**youtube-music-for-desktop**|[youtube-music-for-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-music-for-desktop-bin)|[youtube-music-for-desktop-bin](https://aur.archlinux.org/packages/youtube-music-for-desktop-bin)||
