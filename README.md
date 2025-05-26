@@ -512,7 +512,6 @@
 |**flipt**|[flipt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flipt-bin)|[flipt-bin](https://aur.archlinux.org/packages/flipt-bin)||
 |**flomo**|[unoffical-flomo-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-flomo-appimage) <br> [flomo-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-pake)|[unoffical-flomo-appimage](https://aur.archlinux.org/packages/unoffical-flomo-appimage) <br> [flomo-pake](https://aur.archlinux.org/packages/flomo-pake)||
 |**flomo**|[flomo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flomo-bin)|[flomo-bin](https://aur.archlinux.org/packages/flomo-bin)||
-|**flow-browser**|[flow-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flow-browser-bin)<br>[flow-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/flow-browser-git)|[flow-browser-bin](https://aur.archlinux.org/packages/flow-browser-bin)<br>[flow-browser-git](https://aur.archlinux.org/packages/flow-browser-git)||
 |**flowtestai**|[flowtestai-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/flowtestai-git)|[flowtestai-git](https://aur.archlinux.org/packages/flowtestai-git)||
 |**fluent-reader**|[fluent-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fluent-reader-git)|[fluent-reader-git](https://aur.archlinux.org/packages/fluent-reader-git)||
 |**flux-editor**|[flux-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/flux-editor-bin)|[flux-editor-bin](https://aur.archlinux.org/packages/flux-editor-bin)||
