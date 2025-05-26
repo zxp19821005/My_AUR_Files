@@ -1,9 +1,9 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 _appname=clash-for-windows
-pkgname=${_appname}-zh-bin
+pkgname="${_appname}-zh-bin"
 _pkgname=Clash.for.Windows
 pkgver=0.20.39
-_electronversion=29
+_electronversion=36
 pkgrel=1
 pkgdesc="A Windows/macOS/Linux GUI based on Clash and Electron.Chinese version.(Prebuilt version.Use system-wide electron).clash for windows汉化版."
 arch=(
@@ -17,10 +17,8 @@ conflicts=(
     "${_appname}"
 )
 depends=(
-    'alsa-lib'
-    'gtk3'
-    'nss'
-    'nspr'
+    "electron${_electronversion}"
+    'nodejs'
 )
 makedepends=(
     'gendesk'
@@ -33,23 +31,33 @@ options=(
     '!strip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.png::https://raw.githubusercontent.com/Z-Siqi/Clash-for-Windows_Chinese/CFW-V${pkgver}_OPT-1/app/main/dist/electron/static/imgs/icon_512.png"
-    "LICENSE-${pkgver}.txt::https://raw.githubusercontent.com/Z-Siqi/Clash-for-Windows_Chinese/CFW-V${pkgver}_OPT-1/app/main/ABOUT/LICENSE.electron.txt"
+    "${pkgname%-bin}-${pkgver}.png::https://raw.githubusercontent.com/Z-Siqi/Clash-for-Windows_Chinese/${pkgver}.2/app/main/dist/electron/static/imgs/icon_512.png"
+    "LICENSE-${pkgver}.txt::https://raw.githubusercontent.com/Z-Siqi/Clash-for-Windows_Chinese/${pkgver}.2/app/main/ABOUT/LICENSE.electron.txt"
 )
-source_aarch64=("${pkgname}-${pkgver}-aarch64-linux.tar.gz::${url}/releases/download/CFW-V${pkgver}_OPT-1/${_pkgname}-${pkgver}-Opt.1-linux-arm64.tar.gz")
-source_x86_64=("${pkgname}-${pkgver}-x86_64-linux.tar.gz::${url}/releases/download/CFW-V${pkgver}_OPT-1/${_pkgname}-${pkgver}-Opt.1-linux-x64.tar.gz")
+source_aarch64=("${pkgname}-${pkgver}-aarch64-linux.tar.gz::${url}/releases/download/${pkgver}.2/${_pkgname}-${pkgver}-Opt.2-linux-arm64.tar.gz")
+source_x86_64=("${pkgname}-${pkgver}-x86_64-linux.tar.gz::${url}/releases/download/${pkgver}.2/${_pkgname}-${pkgver}-Opt.2-linux-x64.tar.gz")
 sha256sums=('6ac969baa665cbaafb52b67d5d9236e42a16bebfdcc204d9225dc210035e1232'
-            '5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d')
-sha256sums_aarch64=('3b5ad2265ccc63144e49102d4f08b657a32cd25718ba348ee041ba5963c74bb0')
-sha256sums_x86_64=('6276df96e1d774b3e3128c57b91bde859147ddcfcf0383c98edd3b3e959e67d9')
+            'a9df6af6e4f50efabeaf0cd1203c6520192fc1edddf7f2cc326582196cf62819')
+sha256sums_aarch64=('79db71916e29e3b5a6b30b0175355bc0e835bd9f1a4bc376b8f783b950317996')
+sha256sums_x86_64=('7681db6d4e6e56b27a1d2727f810ddd41c75c747749d848faa6469206a1fff0b')
 prepare() {
-    gendesk -q -f -n --pkgname="${pkgname%-bin}" --pkgdesc="${pkgdesc}" --categories="Network" --name="${_pkgname}" --exec="${pkgname%-bin} --no-sandbox %U"
+    gendesk -q -f -n \
+        --pkgname="${pkgname%-bin}" \
+        --pkgdesc="${pkgdesc}" \
+        --categories="Network" \
+        --name="${_pkgname}" \
+        --exec="${pkgname%-bin} --no-sandbox %U"
+    _file_list=(chrome_100_percent.pak chrome_200_percent.pak chrome-sandbox icudtl.dat libEGL.so libffmpeg.so \
+		libGLESv2.so libvk_swiftshader.so libvulkan.so.1 resources.pak vk_swiftshader_icd.json)
+	for _files in "${_file_list[@]}";do
+		ln -sf "/usr/lib/electron${_electronversion}/${_files}" "${srcdir}/${_pkgname}-${pkgver}-"*/"${_files}"
+	done
 }
 package() {
-   install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname%-bin}"}
-   cp -Pr --no-preserve=ownership "${srcdir}/${_pkgname}-${pkgver}-"*/*  "${pkgdir}/usr/lib/${pkgname%-bin}"
-   ln -sf "/usr/lib/${pkgname%-bin}/cfw" "${pkgdir}/usr/bin/${pkgname%-bin}"
-   install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
-   install -Dm644 "${srcdir}/${pkgname%-bin}-${pkgver}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-   install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname%-bin}"}
+    cp -Pr --no-preserve=ownership "${srcdir}/${_pkgname}-${pkgver}-"*/*  "${pkgdir}/usr/lib/${pkgname%-bin}"
+    ln -sf "/usr/lib/${pkgname%-bin}/cfw" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+    install -Dm644 "${srcdir}/${pkgname%-bin}-${pkgver}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }
