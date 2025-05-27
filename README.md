@@ -720,6 +720,7 @@
 |**kiwiirc-desktop**|[kiwiirc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-desktop-bin)|[kiwiirc-desktop-bin](https://aur.archlinux.org/packages/kiwiirc-desktop-bin)||
 |**kiwiirc-server**|[kiwiirc-server-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-server-bin)|[kiwiirc-server-bin](https://aur.archlinux.org/packages/kiwiirc-server-bin)||
 |**kiwix-js-electron**|[kiwix-js-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwix-js-electron-bin)|[kiwix-js-electron-bin](https://aur.archlinux.org/packages/kiwix-js-electron-bin)||
+|**klive-ide**|[klive-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/klive-ide-bin)|[klive-ide-bin](https://aur.archlinux.org/packages/klive-ide-bin)||
 |**knowledge-canvas**|[knowledge-canvas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowledge-canvas-bin)|[knowledge-canvas-bin](https://aur.archlinux.org/packages/knowledge-canvas-bin)||
 |**knowte**|[knowte-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/knowte-bin)|[knowte-bin](https://aur.archlinux.org/packages/knowte-bin)||
 |**koala-client**|[koala-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koala-client-bin)|[koala-client-bin](https://aur.archlinux.org/packages/koala-client-bin)||
