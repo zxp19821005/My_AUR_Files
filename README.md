@@ -1387,6 +1387,7 @@
 |**translationcore**|[translationcore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/translationcore-bin)|[translationcore-bin](https://aur.archlinux.org/packages/translationcore-bin)||
 |**transmissionic**|[transmissionic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-bin)|[transmissionic-bin](https://aur.archlinux.org/packages/transmissionic-bin)||
 |**tray-link**|[tray-link-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tray-link-bin)|[tray-link-bin](https://aur.archlinux.org/packages/tray-link-bin)||
+|**treo**|[treo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/treo-git)|[treo-git](https://aur.archlinux.org/packages/treo-git)||
 |**trep-tracker**|[trep-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trep-tracker-bin)|[trep-tracker-bin](https://aur.archlinux.org/packages/trep-tracker-bin)||
 |**trezor-suite**|[trezor-suite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trezor-suite-bin)|[trezor-suite-bin](https://aur.archlinux.org/packages/trezor-suite-bin)||
 |**trilium-cn**|[trilium-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trilium-cn-bin)|自用版|
