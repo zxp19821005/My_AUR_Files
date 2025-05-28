@@ -150,6 +150,7 @@
 |**bitshares-astro-ui**|[bitshares-astro-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitshares-astro-ui-bin)|[bitshares-astro-ui-bin](https://aur.archlinux.org/packages/bitshares-astro-ui-bin)||
 |**blink-player**|[blink-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blink-player-bin)|[blink-player-bin](https://aur.archlinux.org/packages/blink-player-bin)||
 |**blockyfish-client**|[blockyfish-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blockyfish-client-bin)|[blockyfish-client-bin](https://aur.archlinux.org/packages/blockyfish-client-bin)||
+|**blot**|[blot-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blot-git)|[blot-git](https://aur.archlinux.org/packages/blot-git)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
 |**blueknight**|[blueknight-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blueknight-bin)|[blueknight-bin](https://aur.archlinux.org/packages/blueknight-bin)||
 |**boats-animator**|[boats-animator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boats-animator-bin)|[boats-animator-bin](https://aur.archlinux.org/packages/boats-animator-bin)||
