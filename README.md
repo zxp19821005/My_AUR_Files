@@ -480,6 +480,7 @@
 |**fairshare**|[fairshare-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fairshare-bin)|[fairshare-bin](https://aur.archlinux.org/packages/fairshare-bin)||
 |**falkor**|[falkor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/falkor-bin)|[falkor-bin](https://aur.archlinux.org/packages/falkor-bin)||
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
+|**fastnote**|[fastnote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastnote-git)|[fastnote-git](https://aur.archlinux.org/packages/fastnote-git)||
 |**favicon-generator**|[favicon-generator](https://github.com/zxp19821005/My_AUR_Files/tree/main/favicon-generator)|[favicon-generator](https://aur.archlinux.org/packages/favicon-generator)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**fcitx-sogoupinyin**|[fcitx-sogoupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-sogoupinyin)||自用版|
