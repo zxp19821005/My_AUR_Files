@@ -1,5 +1,5 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=alice-ai-assient-bin
+pkgname=alice-app-bin
 _pkgname=Alice.app
 _appname=electron-vue-vite
 pkgver=1.0.2
