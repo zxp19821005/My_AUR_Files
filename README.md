@@ -1197,6 +1197,7 @@
 |**screen-area-share**|[screen-area-share-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-area-share-bin)|[screen-area-share-bin](https://aur.archlinux.org/packages/screen-area-share-bin)||
 |**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
 |**scripthaus**|[scripthaus](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus) <br> [scripthaus-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus-git)|[scripthaus](https://aur.archlinux.org/packages/scripthaus) <br> [scripthaus-git](https://aur.archlinux.org/packages/scripthaus-git)||
+|**scripts-manager**|[scripts-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripts-manager-git)|[scripts-manager-git](https://aur.archlinux.org/packages/scripts-manager-git)||
 |**scriptorium**|[scriptorium-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scriptorium-git)|[scriptorium-git](https://aur.archlinux.org/packages/scriptorium-git)||
 |**select-launcher**|[select-launcher-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/select-launcher-git)|[select-launcher-git](https://aur.archlinux.org/packages/select-launcher-git)||
 |**selenium-ide**|[selenium-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/selenium-ide-bin)|[selenium-ide-bin](https://aur.archlinux.org/packages/selenium-ide-bin)||
