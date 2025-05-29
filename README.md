@@ -718,6 +718,7 @@
 |**keyopen**|[keyopen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keyopen-bin)|[keyopen-bin](https://aur.archlinux.org/packages/keyopen-bin)||
 |**khiops-covisualization**|[khiops-covisualization-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/khiops-covisualization-bin)|[khiops-covisualization-bin](https://aur.archlinux.org/packages/khiops-covisualization-bin)||
 |**khiops-visualization**|[khiops-visualization-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/khiops-visualization-bin)|[khiops-visualization-bin](https://aur.archlinux.org/packages/khiops-visualization-bin)||
+|**kick-talk**|[kick-talk-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kick-talk-git)|[kick-talk-git](https://aur.archlinux.org/packages/kick-talk-git)||
 |**kick-vod-downloader**|[kick-vod-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kick-vod-downloader-bin)|[kick-vod-downloader-bin](https://aur.archlinux.org/packages/kick-vod-downloader-bin)||
 |**kilo**|[kilo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kilo-git)|[kilo-git](https://aur.archlinux.org/packages/kilo-git)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
@@ -1468,6 +1469,7 @@
 |**vlsm-interfacing**|[vlsm-interfacing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-git)|[vlsm-interfacing-git](https://aur.archlinux.org/packages/vlsm-interfacing-git)||
 |**vnite**|[vnite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnite-git)|[vnite-git](https://aur.archlinux.org/packages/vnite-git)||
 |**visualfamilytree**|[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
+|**vixie**|[vixie-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vixie-git)|[vixie-git](https://aur.archlinux.org/packages/vixie-git)||
 |**vnote**|[vnote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-bin)|[vnote-bin](https://aur.archlinux.org/packages/vnote-bin)||
 |**vnstat-client**|[vnstat-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnstat-client-git)|[vnstat-client-git](https://aur.archlinux.org/packages/vnstat-client-git)||
 |**vocallia**|[vocallia-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocallia-git)|[vocallia-git](https://aur.archlinux.org/packages/vocallia-git)||
