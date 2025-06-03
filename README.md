@@ -969,7 +969,7 @@
 |**one-api**|[one-api-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-api-bin)|[one-api-bin](https://aur.archlinux.org/packages/one-api-bin)||
 |**onemouse**|[onemouse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onemouse-bin)|[onemouse-bin](https://aur.archlinux.org/packages/onemouse-bin)||
 |**oneplay**|[oneplay-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/oneplay-git)|[oneplay-git](https://aur.archlinux.org/packages/oneplay-git)||
-|**onlook**|[onlook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onlook-bin) <br> [onlook-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/onlook-git)|[onlook-bin](https://aur.archlinux.org/packages/onlook-bin) <br> [onlook-git](https://aur.archlinux.org/packages/onlook-git)||
+|**onlook**|[onlook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onlook-bin)|[onlook-bin](https://aur.archlinux.org/packages/onlook-bin)||
 |**only-refs**|[only-refs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/only-refs-bin)|[only-refs-bin](https://aur.archlinux.org/packages/only-refs-bin)||
 |**onote**|[onote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onote-bin)|[onote-bin](https://aur.archlinux.org/packages/onote-bin)||
 |**ooniprobe-desktop**|[ooniprobe-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ooniprobe-desktop-bin)|[ooniprobe-desktop-bin](https://aur.archlinux.org/packages/ooniprobe-desktop-bin)||
