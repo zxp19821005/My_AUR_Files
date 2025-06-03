@@ -1223,6 +1223,7 @@
 |**shinden-client**|[shinden-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shinden-client-bin)|[shinden-client-bin](https://aur.archlinux.org/packages/shinden-client-bin)||
 |**shiroa**|[shiroa-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shiroa-bin)|[shiroa-bin](https://aur.archlinux.org/packages/shiroa-bin)||
 |**shoppinglist**|[shoppinglist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shoppinglist-bin)|[shoppinglist-bin](https://aur.archlinux.org/packages/shoppinglist-bin)||
+|**shotscreen**|[shotscreen-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/shotscreen-git)|[shotscreen-git](https://aur.archlinux.org/packages/shotscreen-git)||
 |**shuffledns**|[shuffledns-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuffledns-bin)|[shuffledns-bin](https://aur.archlinux.org/packages/shuffledns-bin)||
 |**shuli**|[shuli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shuli-bin)|[shuli-bin](https://aur.archlinux.org/packages/shuli-bin)||
 |**shutdown-scheduler**|[shutdown-scheduler-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/shutdown-scheduler-git)|[shutdown-scheduler-git](https://aur.archlinux.org/packages/shutdown-scheduler-git)||
