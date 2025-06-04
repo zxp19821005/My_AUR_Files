@@ -1585,6 +1585,7 @@
 |**ytdesk**|[ytdesk-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdesk-git)|[ytdesk-git](https://aur.archlinux.org/packages/ytdesk-git)||
 |**yt-dlandcut**|[yt-dlandcut-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-dlandcut-bin)|[yt-dlandcut-bin](https://aur.archlinux.org/packages/yt-dlandcut-bin)||
 |**ytdl-desktop**|[ytdl-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdl-desktop)|[ytdl-desktop](https://aur.archlinux.org/packages/ytdl-desktop)||
+|**yt-dlp-gui**|[yt-dlp-gui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yt-dlp-gui-git)|[yt-dlp-gui-git](https://aur.archlinux.org/packages/yt-dlp-gui-git)||
 |**ytdownloader-gui**|[ytdownloader-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytdownloader-gui-bin)|[ytdownloader-gui-bin](https://aur.archlinux.org/packages/ytdownloader-gui-bin)||
 |**ytm-dlp-gui**|[ytm-dlp-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytm-dlp-gui) <br> [ytm-dlp-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ytm-dlp-gui-bin)|[ytm-dlp-gui](https://aur.archlinux.org/packages/ytm-dlp-gui) <br> [ytm-dlp-gui-bin](https://aur.archlinux.org/packages/ytm-dlp-gui-bin)||
 |**yts-streaming**|[yts-streaming-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yts-streaming-bin)|[yts-streaming-bin](https://aur.archlinux.org/packages/yts-streaming-bin)||
