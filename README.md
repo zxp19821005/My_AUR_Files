@@ -543,6 +543,7 @@
 |**fukayo**|[fukayo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fukayo-bin)|[fukayo-bin](https://aur.archlinux.org/packages/fukayo-bin)||
 |**fumble**|[fumble-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fumble-git)|[fumble-git](https://aur.archlinux.org/packages/fumble-git)||
 |**fury**|[fury-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fury-git)|[fury-git](https://aur.archlinux.org/packages/fury-git)||
+|**fusionkit**|[fusionkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fusionkit-git)|[fusionkit-git](https://aur.archlinux.org/packages/fusionkit-git)||
 |**fuzzynote**|[fuzzynote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fuzzynote-bin)|[fuzzynote-bin](https://aur.archlinux.org/packages/fuzzynote-bin)||
 |**fvc**|[fvc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fvc-bin)|[fvc-bin](https://aur.archlinux.org/packages/fvc-bin)||
 |**fxradio**|[fxradio](https://github.com/zxp19821005/My_AUR_Files/tree/main/fxradio)|[fxradio](https://aur.archlinux.org/packages/fxradio)||
