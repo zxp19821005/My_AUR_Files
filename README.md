@@ -1117,6 +1117,7 @@
 |**qcalc**|[qcalc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qcalc-bin)|[qcalc-bin](https://aur.archlinux.org/packages/qcalc-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
+|**qmusicplayer**|[qmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmusicplayer-bin)|[qmusicplayer-bin](https://aur.archlinux.org/packages/qmusicplayer-bin)||
 |**qrocad-desktop**|[qrocad-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocad-desktop-bin)|[qrocad-desktop-bin](https://aur.archlinux.org/packages/qrocad-desktop-bin)||
 |**qrocrown**|[qrocrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocrown-bin)|[qrocrown-bin](https://aur.archlinux.org/packages/qrocrown-bin)||
 |**qtscrcpy**|[qtscrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtscrcpy-bin)|[qtscrcpy-bin](https://aur.archlinux.org/packages/qtscrcpy-bin)||
