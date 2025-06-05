@@ -1566,6 +1566,7 @@
 |**xuanxuan**|[xuanxuan-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xuanxuan-bin)|[xuanxuan-bin](https://aur.archlinux.org/packages/xuanxuan-bin)||
 |**xunscore**|[xunscore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xunscore-bin)|[xunscore-bin](https://aur.archlinux.org/packages/xunscore-bin)||
 |**y2mp3**|[y2mp3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/y2mp3-bin)|[y2mp3-bin](https://aur.archlinux.org/packages/y2mp3-bin)||
+|**yahee-music-player**|[yahee-music-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yahee-music-player-git)|[yahee-music-player-git](https://aur.archlinux.org/packages/yahee-music-player-git)||
 |**yakuza**|[yakuza-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yakuza-bin)|[yakuza-bin](https://aur.archlinux.org/packages/yakuza-bin)||
 |**yana**|[yana-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yana-bin)|[yana-bin](https://aur.archlinux.org/packages/yana-bin)||
 |**yank-note**|[yank-note](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note) <br> [yank-note-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-bin) <br> [yank-note-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/yank-note-git)|[yank-note](https://aur.archlinux.org/packages/yank-note) <br> [yank-note-bin](https://aur.archlinux.org/packages/yank-note-bin) <br> [yank-note-git](https://aur.archlinux.org/packages/yank-note-git)||
