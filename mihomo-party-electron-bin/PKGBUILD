@@ -20,7 +20,7 @@ conflicts=(
 )
 depends=(
     "electron${_electronversion}"
-    'mihomo'
+    #'mihomo'
 )
 optdepends=(
     'libappindicator-gtk3: Allow mihomo-party to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library).'
@@ -50,8 +50,8 @@ prepare() {
     asar e "${srcdir}/opt/${_pkgname}/resources/app.asar" "${srcdir}/app.asar.unpacked"
     find "${srcdir}/app.asar.unpacked/out" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
     asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
-    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
-    rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-arm64"
+    #ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
+    rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
