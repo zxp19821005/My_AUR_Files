@@ -267,6 +267,7 @@
 |**crankshaft-client**|[crankshaft-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-bin) <br> [crankshaft-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/crankshaft-client-git)|[crankshaft-client-bin](https://aur.archlinux.org/packages/crankshaft-client-bin) <br> [crankshaft-client-git](https://aur.archlinux.org/packages/crankshaft-client-git)||
 |**craze**|[craze](https://github.com/zxp19821005/My_AUR_Files/tree/main/craze)|[craze](https://aur.archlinux.org/packages/craze)||
 |**creamplayer**|[creamplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/creamplayer)|[creamplayer](https://aur.archlinux.org/packages/creamplayer)||
+|**cribarth-music-player**|[cribarth-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cribarth-music-player-bin)|[cribarth-music-player-bin](https://aur.archlinux.org/packages/cribarth-music-player-bin)||
 |**crossy-clipboard**|[crossy-clipboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/crossy-clipboard-bin)|[crossy-clipboard-bin](https://aur.archlinux.org/packages/crossy-clipboard-bin)||
 |**cryptique**|[cryptique-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cryptique-git)|[cryptique-git](https://aur.archlinux.org/packages/cryptique-git)||
 |**csbooks**|[csbooks-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/csbooks-bin)|[csbooks-bin](https://aur.archlinux.org/packages/csbooks-bin)||
