@@ -657,6 +657,7 @@
 |**ibattery**|[ibattery-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ibattery-git)|[ibattery-git](https://aur.archlinux.org/packages/ibattery-git)||
 |**icalingua++**|[icalingua++-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/icalingua++-bin)|[icalingua++-bin](https://aur.archlinux.org/packages/icalingua++-bin)||
 |**iceborne**|[iceborne](https://github.com/zxp19821005/My_AUR_Files/tree/main/iceborne)|[iceborne](https://aur.archlinux.org/packages/iceborne)||
+|**icloud-wrapper**|[icloud-wrapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/icloud-wrapper-bin)|[icloud-wrapper-bin](https://aur.archlinux.org/packages/icloud-wrapper-bin)||
 |**icxor**|[icxor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/icxor-git)|[icxor-git](https://aur.archlinux.org/packages/icxor-git)||
 |**ifind**|[ifind-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ifind-bin)|[ifind-bin](https://aur.archlinux.org/packages/ifind-bin)||
 |**igdm**|[igdm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/igdm-bin)|[igdm-bin](https://aur.archlinux.org/packages/igdm-bin)||
