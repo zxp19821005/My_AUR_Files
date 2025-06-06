@@ -1104,6 +1104,7 @@
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
 |**promethium**|[promethium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-bin)|[promethium-bin](https://aur.archlinux.org/packages/promethium-bin)||
 |**prompt-booster**|[prompt-booster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prompt-booster-bin)|[prompt-booster-bin](https://aur.archlinux.org/packages/prompt-booster-bin)||
+|**promptly**|[promptly-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/promptly-git)|[promptly-git](https://aur.archlinux.org/packages/promptly-git)||
 |**prontus**|[prontus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/prontus-bin)|[prontus-bin](https://aur.archlinux.org/packages/prontus-bin)||
 |**prospect-mail**|[prospect-mail](https://github.com/zxp19821005/My_AUR_Files/tree/main/prospect-mail)|[prospect-mail](https://aur.archlinux.org/packages/prospect-mail)||
 |**protoman**|[protoman-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/protoman-bin)|[protoman-bin](https://aur.archlinux.org/packages/protoman-bin)||
