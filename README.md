@@ -478,6 +478,7 @@
 |**evernote-for-linux**|[evernote-for-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/evernote-for-linux-bin)|[evernote-for-linux-bin](https://aur.archlinux.org/packages/evernote-for-linux-bin)||
 |**everytime**|[everytime](https://github.com/zxp19821005/My_AUR_Files/tree/main/everytime)|[everytime](https://aur.archlinux.org/packages/everytime)||
 |**excel-parser-processor**|[excel-parser-processor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-bin) <br> [excel-parser-processor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/excel-parser-processor-git)|[excel-parser-processor-bin](https://aur.archlinux.org/packages/excel-parser-processor-bin) <br> [excel-parser-processor-git](https://aur.archlinux.org/packages/excel-parser-processor-git)||
+|**expertisex**|[expertisex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/expertisex-bin)|[expertisex-bin](https://aur.archlinux.org/packages/expertisex-bin)||
 |**explorama**|[explorama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/explorama-bin)|[explorama-bin](https://aur.archlinux.org/packages/explorama-bin)||
 |**extraterm**|[extraterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/extraterm-bin)|[extraterm-bin](https://aur.archlinux.org/packages/extraterm-bin)||
 |**ezytdl**|[ezytdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ezytdl-bin)|[ezytdl-bin](https://aur.archlinux.org/packages/ezytdl-bin)||
