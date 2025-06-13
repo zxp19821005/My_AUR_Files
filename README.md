@@ -376,6 +376,7 @@
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
 |**easyedit**|[easyedit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyedit-bin)<br>[easyedit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyedit-git)|[easyedit-bin](https://aur.archlinux.org/packages/easyedit-bin)<br>[easyedit-git](https://aur.archlinux.org/packages/easyedit-git)||
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
+|**echolab**|[echolab-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/echolab-git)|[echolab-git](https://aur.archlinux.org/packages/echolab-git)||
 |**ecloud**|[ecloud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecloud-bin)|[ecloud-bin](https://aur.archlinux.org/packages/ecloud-bin)||
 |**edex-ui**|[edex-ui](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui)<br>[edex-ui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-git)|[edex-ui](https://aur.archlinux.org/packages/edex-ui)<br>[edex-ui-git](https://aur.archlinux.org/packages/edex-ui-git)||
 |**edgetx-buddy**|[edgetx-buddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/edgetx-buddy-bin)|[edgetx-buddy-bin](https://aur.archlinux.org/packages/edgetx-buddy-bin)||
