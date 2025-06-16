@@ -959,6 +959,7 @@
 |**notesnook**|[notesnook](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook) <br> [notesnook-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-git)|[notesnook](https://aur.archlinux.org/packages/notesnook) <br> [notesnook-git](https://aur.archlinux.org/packages/notesnook-git)||
 |**notion-desktop**|[notion-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notion-desktop-git)|[notion-desktop-git](https://aur.archlinux.org/packages/notion-desktop-git)||
 |**notesnook-electron**|[notesnook-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notesnook-electron-bin)|[notesnook-electron-bin](https://aur.archlinux.org/packages/notesnook-electron-bin)||
+|**notifica-task**|[notifica-task-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notifica-task-git)|[notifica-task-git](https://aur.archlinux.org/packages/notifica-task-git)||
 |**novel-tree-desktop**|[novel-tree-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/novel-tree-desktop-git)|[novel-tree-desktop-git](https://aur.archlinux.org/packages/novel-tree-desktop-git)||
 |**novelwriter**|[novelwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/novelwriter-bin)|[novelwriter-bin](https://aur.archlinux.org/packages/novelwriter-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
