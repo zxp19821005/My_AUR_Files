@@ -1195,6 +1195,7 @@
 |**ringer-client-desktop**|[ringer-client-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/ringer-client-desktop)|[ringer-client-desktop](https://aur.archlinux.org/packages/ringer-client-desktop)||
 |**ripes**|[ripes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ripes-bin)|[ripes-bin](https://aur.archlinux.org/packages/ripes-bin)||
 |**risuai**|[risuai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/risuai-bin)|[risuai-bin](https://aur.archlinux.org/packages/risuai-bin)||
+|**rlm-license-generator**|[rlm-license-generator-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rlm-license-generator-git)|[rlm-license-generator-git](https://aur.archlinux.org/packages/rlm-license-generator-git)||
 |**rocketchat-desktop**|[rocketchat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rocketchat-desktop-git)|[rocketchat-desktop-git](https://aur.archlinux.org/packages/rocketchat-desktop-git)||
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
 |**rotore**|[rotore-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotore-git)|[rotore-git](https://aur.archlinux.org/packages/rotore-git)||
