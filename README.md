@@ -126,6 +126,7 @@
 |**baize-toolbox**|[baize-toolbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/baize-toolbox-git)|[baize-toolbox-git](https://aur.archlinux.org/packages/baize-toolbox-git)||
 |**bananas**|[bananas](https://github.com/zxp19821005/My_AUR_Files/tree/main/bananas)|[bananas](https://aur.archlinux.org/packages/bananas)||
 |**barklarm**|[barklarm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/barklarm-bin)|[barklarm-bin](https://aur.archlinux.org/packages/barklarm-bin)||
+|**bar-lobby**|[bar-lobby-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bar-lobby-bin)|[bar-lobby-bin](https://aur.archlinux.org/packages/bar-lobby-bin)||
 |**basic-blackjack**|[basic-blackjack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/basic-blackjack-bin)|[basic-blackjack-bin](https://aur.archlinux.org/packages/basic-blackjack-bin)||
 |**batch-explorer**|[batch-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/batch-explorer-bin)|[batch-explorer-bin](https://aur.archlinux.org/packages/batch-explorer-bin)||
 |**bbg**|[bbg-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bbg-bin)|[bbg-bin](https://aur.archlinux.org/packages/bbg-bin)||
