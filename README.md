@@ -1351,6 +1351,7 @@
 |**swesence**|[swesence-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swesence-bin)|[swesence-bin](https://aur.archlinux.org/packages/swesence-bin)||
 |**swifty**|[swifty-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/swifty-bin)|[swifty-bin](https://aur.archlinux.org/packages/swifty-bin)||
 |**switchhosts**|[switchhosts](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts)<br>[switchhosts-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-bin)<br>[switchhosts-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/switchhosts-git)|[switchhosts](https://aur.archlinux.org/packages/switchhosts)<br>[switchhosts-bin](https://aur.archlinux.org/packages/switchhosts-bin)<br>[switchhosts-git](https://aur.archlinux.org/packages/switchhosts-git)||
+|**symphonie**|[symphonie-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/symphonie-git)|[symphonie-git](https://aur.archlinux.org/packages/symphonie-git)||
 |**synergetica**|[synergetica-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/synergetica-bin)|[synergetica-bin](https://aur.archlinux.org/packages/synergetica-bin)||
 |**syng**|[syng-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/syng-bin)|[syng-bin](https://aur.archlinux.org/packages/syng-bin)||
 |**tabby-electron**|[tabby-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tabby-electron-bin)|[tabby-electron-bin](https://aur.archlinux.org/packages/tabby-electron-bin)||
