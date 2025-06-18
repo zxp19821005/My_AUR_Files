@@ -248,6 +248,7 @@
 |**coderadio**|[coderadio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/coderadio-git)|[coderadio-git](https://aur.archlinux.org/packages/coderadio-git)||
 |**codex**|[codex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/codex-bin)|[codex-bin](https://aur.archlinux.org/packages/codex-bin)||
 |**coinstac-desktop-app**|[coinstac-desktop-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coinstac-desktop-app-bin)|[coinstac-desktop-app-bin](https://aur.archlinux.org/packages/coinstac-desktop-app-bin)||
+|**colanode**|[colanode-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/colanode-git)|[colanode-git](https://aur.archlinux.org/packages/colanode-git)||
 |**colony-player**|[colony-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colony-player-bin)|[colony-player-bin](https://aur.archlinux.org/packages/colony-player-bin)||
 |**colorpicker-app**|[colorpicker-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colorpicker-app-bin)|[colorpicker-app-bin](https://aur.archlinux.org/packages/colorpicker-app-bin)||
 |**colour-contrast-analyser**|[colour-contrast-analyser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/colour-contrast-analyser-bin)|[colour-contrast-analyser-bin](https://aur.archlinux.org/packages/colour-contrast-analyser-bin)||
