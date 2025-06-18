@@ -1330,6 +1330,7 @@
 |**stealthplane**|[stealthplane-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stealthplane-bin)|[stealthplane-bin](https://aur.archlinux.org/packages/stealthplane-bin)||
 |**steamachievementnotifier**|[steamachievementnotifier-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamachievementnotifier-bin)|[steamachievementnotifier-bin](https://aur.archlinux.org/packages/steamachievementnotifier-bin)||
 |**steamdepotdownloadergui**|[steamdepotdownloadergui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/steamdepotdownloadergui-bin)|[steamdepotdownloadergui-bin](https://aur.archlinux.org/packages/steamdepotdownloadergui-bin)||
+|**sticky-markdown-note**|[sticky-markdown-note-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sticky-markdown-note-git)|[sticky-markdown-note-git](https://aur.archlinux.org/packages/sticky-markdown-note-git)||
 |**stockholm-trekkers-playlist-maker**|[stockholm-trekkers-playlist-maker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/stockholm-trekkers-playlist-maker-bin)|[stockholm-trekkers-playlist-maker-bin](https://aur.archlinux.org/packages/stockholm-trekkers-playlist-maker-bin)||
 |**story-writer**|[story-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/story-writer-bin)|[story-writer-bin](https://aur.archlinux.org/packages/story-writer-bin)||
 |**streaker**|[streaker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/streaker-bin)|[streaker-bin](https://aur.archlinux.org/packages/streaker-bin)||
