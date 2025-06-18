@@ -1,6 +1,6 @@
 _pkgname=mihomo-party
 pkgname="${_pkgname}-electron-bin"
-pkgver=1.7.4
+pkgver=1.7.6
 _electronversion=34
 pkgrel=99
 pkgdesc=":electron: Another Mihomo GUI.(Prebuilt version.Use system-wide electron)"
@@ -20,7 +20,7 @@ conflicts=(
 )
 depends=(
     "electron${_electronversion}"
-    #'mihomo'
+    'mihomo'
 )
 optdepends=(
     'libappindicator-gtk3: Allow mihomo-party to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library).'
@@ -31,9 +31,9 @@ source=(
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-x86_64.rpm")
-sha256sums=('291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
-sha256sums_aarch64=('8a0fc209dd7cc000019af5e0c44036c3e70f375217cfa6643bdf26f9532829e1')
-sha256sums_x86_64=('bc6e7211c9cb83ad15f546b4761ea87aa0709145ca0e3a6cf01fc5ccd878fb87')
+sha256sums=('f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013')
+sha256sums_aarch64=('668bef2ad11b0df01c325fdf3af972c00b69509e4eb7a06689a71aa524ccba43')
+sha256sums_x86_64=('97603ffa72db3e6641030251c56c8f87a7fb1d89b1b18c1850ed81883eb6cd0b')
 prepare() {
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
@@ -50,7 +50,7 @@ prepare() {
     asar e "${srcdir}/opt/${_pkgname}/resources/app.asar" "${srcdir}/app.asar.unpacked"
     find "${srcdir}/app.asar.unpacked/out" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
     asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
-    #ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
+    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
     rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
 }
 package() {
