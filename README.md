@@ -21,6 +21,7 @@
 |**agendapp**|[agendapp](https://github.com/zxp19821005/My_AUR_Files/tree/main/agendapp)|[agendapp](https://aur.archlinux.org/packages/agendapp)||
 |**agent-tars**|[agent-tars-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/agent-tars-git)|[agent-tars-git](https://aur.archlinux.org/packages/agent-tars-git)||
 |**ahmyth**|[ahmyth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ahmyth-bin)|[ahmyth-bin](https://aur.archlinux.org/packages/ahmyth-bin)||
+|**ai-assistant-studio**|[ai-assistant-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-assistant-studio-bin)|[ai-assistant-studio-bin](https://aur.archlinux.org/packages/ai-assistant-studio-bin)||
 |**ai-browser**|[ai-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-browser-git)|[ai-browser-git](https://aur.archlinux.org/packages/ai-browser-git)||
 |**ai-chat**|[ai-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-chat-bin)|[ai-chat-bin](https://aur.archlinux.org/packages/ai-chat-bin)||
 |**ai-gate**|[ai-gate](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-gate)|[ai-gate](https://aur.archlinux.org/packages/ai-gate)||
