@@ -712,7 +712,6 @@
 |**jlivertool**|[jlivertool](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool) <br> [jlivertool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool-bin)|[jlivertool](https://aur.archlinux.org/packages/jlivertool) <br> [jlivertool-bin](https://aur.archlinux.org/packages/jlivertool-bin)||
 |**jmcomic-downloader**|[jmcomic-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jmcomic-downloader-bin)|[jmcomic-downloader-bin](https://aur.archlinux.org/packages/jmcomic-downloader-bin)||
 |**jm-desktop**|[jm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jm-desktop-bin)|[jm-desktop-bin](https://aur.archlinux.org/packages/jm-desktop-bin)||
-|**juice-client**|[juice-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/juice-client-bin)|[juice-client-bin](https://aur.archlinux.org/packages/juice-client-bin)||
 |**jumble**|[jumble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jumble-bin)|[jumble-bin](https://aur.archlinux.org/packages/jumble-bin)||
 |**justwrite**|[justwrite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/justwrite-git)|[justwrite-git](https://aur.archlinux.org/packages/justwrite-git)||
 |**kaas**|[kaas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaas-bin)|[kaas-bin](https://aur.archlinux.org/packages/kaas-bin)||
