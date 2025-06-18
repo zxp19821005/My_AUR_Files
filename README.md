@@ -1291,6 +1291,7 @@
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
 |**solidtime**|[solidtime-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solidtime-bin)|[solidtime-bin](https://aur.archlinux.org/packages/solidtime-bin)||
 |**somafm-desktop-player**|[somafm-desktop-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/somafm-desktop-player-bin)|[somafm-desktop-player-bin](https://aur.archlinux.org/packages/somafm-desktop-player-bin)||
+|**sorted-photography**|[sorted-photography-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sorted-photography-git)|[sorted-photography-git](https://aur.archlinux.org/packages/sorted-photography-git)||
 |**soulfire**|[soulfire-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soulfire-bin)|[soulfire-bin](https://aur.archlinux.org/packages/soulfire-bin)||
 |**soundcloud-rpc**|[soundcloud-rpc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundcloud-rpc-bin)<br>[soundcloud-rpc-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundcloud-rpc-git)|[soundcloud-rpc-bin](https://aur.archlinux.org/packages/soundcloud-rpc-bin)<br>[soundcloud-rpc-git](https://aur.archlinux.org/packages/soundcloud-rpc-git)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
