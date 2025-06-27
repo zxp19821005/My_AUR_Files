@@ -974,7 +974,7 @@
 |**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
 |**nuclia**|[nuclia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-bin)|[nuclia-bin](https://aur.archlinux.org/packages/nuclia-bin)||
 |**nuclia-sync-agent**|[nuclia-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-sync-agent-bin)|[nuclia-sync-agent-bin](https://aur.archlinux.org/packages/nuclia-sync-agent-bin)||
-|**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)|[nudge](https://aur.archlinux.org/packages/nudge)||
+|**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)<br>[nudge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge-bin)|[nudge](https://aur.archlinux.org/packages/nudge)<br>[nudge-bin](https://aur.archlinux.org/packages/nudge-bin)||
 |**nuiuita**|[nuiuita-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuiuita-bin)|[nuiuita-bin](https://aur.archlinux.org/packages/nuiuita-bin)||
 |**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
 |**nvm-desktop**|[nvm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop) <br> [nvm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-bin) <br> [nvm-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-git)|[nvm-desktop](https://aur.archlinux.org/packages/nvm-desktop) <br> [nvm-desktop-bin](https://aur.archlinux.org/packages/nvm-desktop-bin) <br> [nvm-desktop-git](https://aur.archlinux.org/packages/nvm-desktop-git)||
