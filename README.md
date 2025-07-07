@@ -633,6 +633,7 @@
 |**harmony**|[harmony-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/harmony-bin)|[harmony-bin](https://aur.archlinux.org/packages/harmony-bin)||
 |**hathor-wallet**|[hathor-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hathor-wallet-bin)|[hathor-wallet-bin](https://aur.archlinux.org/packages/hathor-wallet-bin)||
 |**hawkpass**|[hawkpass-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/hawkpass-git)|[hawkpass-git](https://aur.archlinux.org/packages/hawkpass-git)||
+|**hayase**|[hayase-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hayase-bin)|[hayase-bin](https://aur.archlinux.org/packages/hayase-bin)||
 |**headermaker**|[headermaker-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/headermaker-git)|[headermaker-git](https://aur.archlinux.org/packages/headermaker-git)||
 |**headset**|[headset-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/headset-bin)|[headset-bin](https://aur.archlinux.org/packages/headset-bin)||
 |**heimer**|[heimer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/heimer-bin)|[heimer-bin](https://aur.archlinux.org/packages/heimer-bin)||
