@@ -1044,7 +1044,6 @@
 |**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)<br>[pdf4qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt-bin)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)<br>[pdf4qt-bin](https://aur.archlinux.org/packages/pdf4qt-bin)||
 ||**pdf-guru-anki**|[pdf-guru-anki-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf-guru-anki-git)|[pdf-guru-anki-git](https://aur.archlinux.org/packages/pdf-guru-anki-git)||
 |**pdfkit**|[pdfkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdfkit-git)|[pdfkit-git](https://aur.archlinux.org/packages/pdfkit-git)||
-**pdmaner**|[pdmaner-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaner-bin)|[pdmaner-bin](https://aur.archlinux.org/packages/pdmaner-bin)||
 |**pear-rec**|[pear-rec](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec) <br> [pear-rec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-bin) <br> [pear-rec-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-git)|[pear-rec](https://aur.archlinux.org/packages/pear-rec) <br> [pear-rec-bin](https://aur.archlinux.org/packages/pear-rec-bin) <br> [pear-rec-git](https://aur.archlinux.org/packages/pear-rec-git)||
 |**pedax**|[pedax-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pedax-bin)|[pedax-bin](https://aur.archlinux.org/packages/pedax-bin)||
 |**peershare**|[peershare](https://github.com/zxp19821005/My_AUR_Files/tree/main/peershare)|[peershare](https://aur.archlinux.org/packages/peershare)||
