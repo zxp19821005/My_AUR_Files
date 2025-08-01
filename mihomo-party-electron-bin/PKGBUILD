@@ -1,6 +1,6 @@
 _pkgname=mihomo-party
 pkgname="${_pkgname}-electron-bin"
-pkgver=1.7.6
+pkgver=1.7.7
 _electronversion=34
 pkgrel=99
 pkgdesc=":electron: Another Mihomo GUI.(Prebuilt version.Use system-wide electron)"
@@ -20,7 +20,7 @@ conflicts=(
 )
 depends=(
     "electron${_electronversion}"
-    #'mihomo'
+    'mihomo'
 )
 optdepends=(
     'libappindicator-gtk3: Allow mihomo-party to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library).'
@@ -32,8 +32,8 @@ source=(
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-x86_64.rpm")
 sha256sums=('f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013')
-sha256sums_aarch64=('668bef2ad11b0df01c325fdf3af972c00b69509e4eb7a06689a71aa524ccba43')
-sha256sums_x86_64=('97603ffa72db3e6641030251c56c8f87a7fb1d89b1b18c1850ed81883eb6cd0b')
+sha256sums_aarch64=('639840c2636f5d6bdacbf17c89bfca76b49a48d8ddc133a1c4fdb5f0081b6071')
+sha256sums_x86_64=('e82f67f38f0cb63617749ee1ab59fb1365633158562f5b238d5c57bc35b0689f')
 _get_electron_version() {
     _electronversion="$(strings "${srcdir}/opt/${_pkgname}/${_pkgname}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_electronversion}\033[0m"
@@ -55,7 +55,7 @@ prepare() {
     asar e "${srcdir}/opt/${_pkgname}/resources/app.asar" "${srcdir}/app.asar.unpacked"
     find "${srcdir}/app.asar.unpacked/out" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
     asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
-    #ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
+    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
     rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
 }
 package() {
