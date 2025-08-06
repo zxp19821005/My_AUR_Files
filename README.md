@@ -770,6 +770,7 @@
 |**leanote**|[leanote](https://github.com/zxp19821005/My_AUR_Files/tree/main/leanote)|[leanote](https://aur.archlinux.org/packages/leanote)||
 |**leavepad**|[leavepad](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad) <br> [leavepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-bin) <br> [leavepad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leavepad-git)|[leavepad](https://aur.archlinux.org/packages/leavepad) <br> [leavepad-bin](https://aur.archlinux.org/packages/leavepad-bin) <br> [leavepad-git](https://aur.archlinux.org/packages/leavepad-git)||
 |**lecture-player**|[lecture-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lecture-player-git)|[lecture-player-git](https://aur.archlinux.org/packages/lecture-player-git)||
+|**legcord**|[legcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/legcord-bin)|[legcord-bin](https://aur.archlinux.org/packages/legcord-bin)||
 |**lego-spike**|[lego-spike-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lego-spike-git)|[lego-spike-git](https://aur.archlinux.org/packages/lego-spike-git)||
 |**lepton**|[lepton-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lepton-bin)|[lepton-bin](https://aur.archlinux.org/packages/lepton-bin)||
 |**leser**|[leser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leser-git)|[leser-git](https://aur.archlinux.org/packages/leser-git)||
