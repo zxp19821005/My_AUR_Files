@@ -1084,6 +1084,7 @@
 |**playboy**|[playboy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/playboy-git)|[playboy-git](https://aur.archlinux.org/packages/playboy-git)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
 |**plexamp**|[plexamp-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plexamp-bin)|[plexamp-bin](https://aur.archlinux.org/packages/plexamp-bin)||
+|**plex-folder-playlist-creator**|[plex-folder-playlist-creator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plex-folder-playlist-creator-bin)|[plex-folder-playlist-creator-bin](https://aur.archlinux.org/packages/plex-folder-playlist-creator-bin)||
 |**plow**|[plow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plow-bin)|[plow-bin](https://aur.archlinux.org/packages/plow-bin)||
 |**plutonia**|[plutonia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/plutonia-bin)|[plutonia-bin](https://aur.archlinux.org/packages/plutonia-bin)||
 |**pocket-casts-desktop**|[pocket-casts-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pocket-casts-desktop-bin)|[pocket-casts-desktop-bin](https://aur.archlinux.org/packages/pocket-casts-desktop-bin)||
