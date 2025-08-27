@@ -1,6 +1,6 @@
 _pkgname=mihomo-party
 pkgname="${_pkgname}-electron-bin"
-pkgver=1.8.4
+pkgver=1.8.5
 _electronversion=37
 pkgrel=99
 pkgdesc=":electron: Another Mihomo GUI.(Prebuilt version.Use system-wide electron)"
@@ -32,8 +32,8 @@ source=(
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-linux-${pkgver}-x86_64.rpm")
 sha256sums=('31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6')
-sha256sums_aarch64=('896db59dc16e32c3204cd564ea4d2419ee1739f3880880a8b7916de9e53b6af4')
-sha256sums_x86_64=('0ae949f43c93a20c38f43ac9a60690d3feb2e62083844909cb29f5b44d79d1aa')
+sha256sums_aarch64=('aff4c845f799fa6ebd9afbbd15f1218d1f01bdcf3be83ea333cccd28f8d2efbf')
+sha256sums_x86_64=('dc0280d5665c8b9cacdb040fad36f087b6d0e596be9a99eb142d2dead1570719')
 _get_electron_version() {
     _electronversion="$(strings "${srcdir}/opt/${_pkgname}/${_pkgname}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_electronversion}\033[0m"
