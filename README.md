@@ -207,6 +207,7 @@
 |**chaterm**|[chaterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaterm-bin)<br>[chaterm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaterm-git)|[chaterm-bin](https://aur.archlinux.org/packages/chaterm-bin)<br>[chaterm-git](https://aur.archlinux.org/packages/chaterm-git)||
 |**chatgptx**|[chatgptx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatgptx-bin)|[chatgptx-bin](https://aur.archlinux.org/packages/chatgptx-bin)||
 |**chatnio**|[chatnio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatnio-bin)|[chatnio-bin](https://aur.archlinux.org/packages/chatnio-bin)||
+|**chat-overlay**|[chat-overlay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chat-overlay-bin)|[chat-overlay-bin](https://aur.archlinux.org/packages/chat-overlay-bin)||
 |**chatpad-ai**|[chatpad-ai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatpad-ai-bin)|[chatpad-ai-bin](https://aur.archlinux.org/packages/chatpad-ai-bin)||
 |**chatspot**|[chatspot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatspot-bin)|[chatspot-bin](https://aur.archlinux.org/packages/chatspot-bin)||
 |**chatterbox**|[chatterbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatterbox-git)|[chatterbox-git](https://aur.archlinux.org/packages/chatterbox-git)||
