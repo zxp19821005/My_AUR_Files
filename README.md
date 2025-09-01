@@ -229,6 +229,7 @@
 |**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)||自用版|
 |**clash-nyanpasu**|[clash-nyanpasu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-nyanpasu-bin)|自用版|
 |**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
+|**clash-party**|[clash-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-party-bin)|自用版||
 |**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
 |**clip-editor**|[clip-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clip-editor-bin)|[clip-editor-bin](https://aur.archlinux.org/packages/clip-editor-bin)||
@@ -858,7 +859,6 @@
 |**mic-mutebar**|[mic-mutebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mic-mutebar-bin)|[mic-mutebar-bin](https://aur.archlinux.org/packages/mic-mutebar-bin)||
 |**microsoft-loop**|[unoffical-microsoft-loop-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-microsoft-loop-appimage) <br> [microsoft-loop-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/microsoft-loop-pake)|[unoffical-microsoft-loop-appimage](https://aur.archlinux.org/packages/unoffical-microsoft-loop-appimage) <br> [microsoft-loop-pake](https://aur.archlinux.org/packages/microsoft-loop-pake)||
 |**midi2.0-workbench**|[midi2.0-workbench-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/midi2.0-workbench-git)|[midi2.0-workbench-git](https://aur.archlinux.org/packages/midi2.0-workbench-git)||
-|**mihomo-party-electron**|[mihomo-party-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mihomo-party-electron-bin)|[mihomo-party-electron-bin](https://aur.archlinux.org/packages/mihomo-party-electron-bin)||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**minedigger**|[minedigger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minedigger-bin)|[minedigger-bin](https://aur.archlinux.org/packages/minedigger-bin)||
 |**mine-knowledge-mma**|[mine-knowledge-mma-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mine-knowledge-mma-bin)|[mine-knowledge-mma-bin](https://aur.archlinux.org/packages/mine-knowledge-mma-bin)||
