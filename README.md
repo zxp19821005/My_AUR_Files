@@ -103,6 +103,7 @@
 |**atlassify**|[atlassify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-bin) <br> [atlassify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-git)|[atlassify-bin](https://aur.archlinux.org/packages/atlassify-bin) <br> [atlassify-git](https://aur.archlinux.org/packages/atlassify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
 |**atom-chess**|[atom-chess-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atom-chess-git)|[atom-chess-git](https://aur.archlinux.org/packages/atom-chess-git)||
+|**atrust**|[atrust-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atrust-bin)|[atrust-bin](https://aur.archlinux.org/packages/atrust-bin)||
 |**atv-remote**|[atv-remote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atv-remote-bin)|[atv-remote-bin](https://aur.archlinux.org/packages/atv-remote-bin)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**autho-iptv**|[autho-iptv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autho-iptv-bin)|[autho-iptv-bin](https://aur.archlinux.org/packages/autho-iptv-bin)||
