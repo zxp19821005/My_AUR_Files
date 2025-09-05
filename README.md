@@ -435,6 +435,7 @@
 |**electron37**|[electron37-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron37-bin)|[electron37-bin](https://aur.archlinux.org/packages/electron37-bin)||
 |**electron37-castlab**|[electron37-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron37-castlab-bin)|[electron37-castlab-bin](https://aur.archlinux.org/packages/electron37-castlab-bin)||
 |**electron38**|[electron38-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron38-bin)|[electron38-bin](https://aur.archlinux.org/packages/electron38-bin)||
+|**electron38-castlab**|[electron38-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron38-castlab-bin)|[electron38-castlab-bin](https://aur.archlinux.org/packages/electron38-castlab-bin)||
 |**electron-builder**|[electron-builder](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-builder)|[electron-builder](https://aur.archlinux.org/packages/electron-builder)||
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
