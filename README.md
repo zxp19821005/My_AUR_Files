@@ -975,6 +975,7 @@
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)<br>[nudge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge-bin)|[nudge](https://aur.archlinux.org/packages/nudge)<br>[nudge-bin](https://aur.archlinux.org/packages/nudge-bin)||
 |**nuiuita**|[nuiuita-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuiuita-bin)|[nuiuita-bin](https://aur.archlinux.org/packages/nuiuita-bin)||
 |**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
+|**nuru-browser**|[nuru-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuru-browser-bin)|[nuru-browser-bin](https://aur.archlinux.org/packages/nuru-browser-bin)||
 |**nvm-desktop**|[nvm-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop) <br> [nvm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-bin) <br> [nvm-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/nvm-desktop-git)|[nvm-desktop](https://aur.archlinux.org/packages/nvm-desktop) <br> [nvm-desktop-bin](https://aur.archlinux.org/packages/nvm-desktop-bin) <br> [nvm-desktop-git](https://aur.archlinux.org/packages/nvm-desktop-git)||
 |**nxshell**|[nxshell-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nxshell-bin)|[nxshell-bin](https://aur.archlinux.org/packages/nxshell-bin)||
 |**nzyme**|[nzyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nzyme-bin)|[nzyme-bin](https://aur.archlinux.org/packages/nzyme-bin)||
