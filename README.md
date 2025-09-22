@@ -15,7 +15,6 @@
 |**aeon**|[aeon-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aeon-bin)|[aeon-bin](https://aur.archlinux.org/packages/aeon-bin)||
 |**aero-browser**|[aero-browser](https://github.com/zxp19821005/My_AUR_Files/tree/main/aero-browser) <br> [aero-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aero-browser-bin) <br> [aero-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aero-browser-git)|[aero-browser](https://aur.archlinux.org/packages/aero-browser) <br> [aero-browser-bin](https://aur.archlinux.org/packages/aero-browser-bin) <br> [aero-browser-git](https://aur.archlinux.org/packages/aero-browser-git)||
 |**aesir-wallet**|[aesir-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aesir-wallet-bin)|[aesir-wallet-bin](https://aur.archlinux.org/packages/aesir-wallet-bin)||
-|**aes-vodka**|[aes-vodka-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aes-vodka-bin)|[aes-vodka-bin](https://aur.archlinux.org/packages/aes-vodka-bin)||
 |**affine**|[affine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-bin)|[affine-bin](https://aur.archlinux.org/packages/affine-bin)||
 |**affine-canary**|[affine-canary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-canary-bin)|[affine-canary-bin](https://aur.archlinux.org/packages/affine-canary-bin)||
 |**agendapp**|[agendapp](https://github.com/zxp19821005/My_AUR_Files/tree/main/agendapp)|[agendapp](https://aur.archlinux.org/packages/agendapp)||
