@@ -1,111 +1,69 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=bilibili
+# Maintainer: bilibili_xiaok <the_xiaok@qq.com>
+# Maintainer: little_sheepycn <little_sheepycn@redstonebuild.onmicrosoft.com>
+# Contributor: msojocs <jiyecafe@gmail.com>
+# Contributor: bilibili_xiaok <the_xiaok@qq.com>
+# Contributor: YidaozhanYa <yidaozhan_ya@outlook.com>
+# Contributor: whitels <2959471117@qq.com>
+# Contributor: wxt1221 <3264117476@qq.com>
+# 感谢 Peternal 对 SVG图标 的授权
+pkgname=bilibili-bin
 _pkgver=1.17.2
 _subver=1
 pkgver="${_pkgver}_${_subver}"
 _electronversion=28
-_nodeversion=24
-pkgrel=1
-pkgdesc="Linux version based on Beilai official client porting supports roaming.(Use system-wide electron).基于哔哩哔哩官方客户端移植的Linux版本,支持漫游"
+epoch=5
+pkgrel=2
+pkgdesc="Bilibili official desktop client.(Prebuilt version.Use system-wide electron)哔哩哔哩官方客户端linux移植版。"
 arch=(
     'aarch64'
     'x86_64'
 )
-url="https://github.com/msojocs/bilibili-linux"
+url='https://github.com/msojocs/bilibili-linux'
 license=('MIT')
-provides=("${pkgname}")
-conflicts=(
-    "${pkgname}"
-)
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
     'ffmpeg'
+    "electron${_electronversion}"
     'libappindicator-gtk3'
+    'libinput'
 )
-makedepends=(
-    'wget'
-    'perl-image-exiftool'
-    'asar'
-    'unzip'
-    'p7zip'
-    'curl'
-    'npm'
-    'nvm'
-    'pnpm'
-    'git'
-)
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${url}/releases/download/v${_pkgver}-${_subver}/${pkgname%-bin}-${_pkgver}.aarch64.rpm")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${url}/releases/download/v${_pkgver}-${_subver}/${pkgname%-bin}-${_pkgver}.x86_64.rpm")
 source=(
-    "${pkgname}-${pkgver}::git+${url}#tag=v${_pkgver}-${_subver}"
-    "${pkgname}.sh"
+    "LICENSE-${pkgver}::https://raw.githubusercontent.com/msojocs/bilibili-linux/v${_pkgver}-${_subver}/license"
+    "${pkgname%-bin}.sh"
 )
-sha256sums=('f939ac196c1087a777395d7fd79d23c95f4e23e5d0ba066898370d83e4d89b5a'
+sha256sums=('21668b8229199de1a523b82805c80d6e110a67fef5766aa7cc3c7df4416d1468'
             '31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6')
-_ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
-}
+sha256sums_aarch64=('42d186e03151d8a4453d5e36d0cec72f9b59f9fe264a05523a67a92506e18ab7')
+sha256sums_x86_64=('0a4c6497b8199d176b6c8b9c5ea320288e22a9acb16297e4eb6a02d5757ca896')
 _get_electron_version() {
-    _elec_ver="$(grep '^ *"electronVersion": *"' "${srcdir}/${pkgname}-${pkgver}/conf/build.json" | cut -d'"' -f4 | cut -d. -f1)"
+    _elec_ver="$(strings "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_elec_ver}\033[0m"
 }
 prepare() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    _get_electron_version
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
+        s/@appname@/${pkgname%-bin}/g
         s/@runname@/app.asar/g
-        s/@cfgdirname@/${pkgname}/g
+        s/@cfgdirname@/${pkgname%-bin}/g
         s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
-    " "${srcdir}/${pkgname}.sh"
-    _ensure_local_nvm
-    export ELECTRON_SKIP_BINARY_DOWNLOAD=1
-    export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
-    HOME="${srcdir}/.electron-gyp"
-    {
-        echo -e '\n'
-        #echo 'build_from_source=true'
-        echo 'link-workspace-packages=true'
-        echo 'fetch-retry-maxtimeout=10000'
-        echo "cache-dir=${srcdir}/.pnpm_cache"
-        echo "store-dir=${srcdir}/.pnpm_store"
-        echo "virtual-store-dir=${srcdir}/.pnpm_store"
-        echo "shamefully-hoist=true"
-        echo "virtual-store-dir-max-length=80"
-        echo "node-linker=hoisted"
-        echo "network-concurrency=32"
-    } >> .npmrc
-    if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
-        {
-        echo 'registry=https://registry.npmmirror.com'
-        echo 'electron_mirror=https://cdn.npmmirror.com/binaries/electron/'
-        echo 'electron_builder_binaries_mirror=https://npmmirror.com/mirrors/electron-builder-binaries/'
-        } >> .npmrc
-        sed -i "s/mkdir tmp/mkdir tmp \&\& cp ..\/..\/..\/.npmrc tmp/g" tools/fix-other.sh
-    fi
-    sed -i "s/\"electronVersion\": \"[^\"]*\"/\"electronVersion\": \"${SYSTEM_ELECTRON_VERSION}\"/g" conf/build.json
-    NODE_ENV=development    pnpm install
-}
-build() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    local electronDist="/usr/lib/electron${_electronversion}"
-    sh tools/update-bilibili
-    sh tools/fix-other.sh
-    #sh tools/area-unlimit.sh
-    sh tools/extension.sh
-    mv tmp/bili/resources/* app
+    " "${srcdir}/${pkgname%-bin}.sh"
+    _get_electron_version
+    sed -i "s/\/opt\/${pkgname%-bin}\///g" -i "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/app/app.asar" -t "${pkgdir}/usr/lib/${pkgname}"
-    cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/app/"{app.asar.unpacked,extensions} "${pkgdir}/usr/lib/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/res/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/opt/${pkgname%-bin}/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm755 "${srcdir}/opt/${pkgname%-bin}/resources/cursor-tool" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/${pkgname%-bin}/resources/"{app,app.asar.unpacked} "${pkgdir}/usr/lib/${pkgname%-bin}"
     _icon_sizes=(16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 1024x1024)
     for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/${pkgname}-${pkgver}/res/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+        install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
+            -t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
     done
-    install -Dm644  "${srcdir}/${pkgname}-${pkgver}/license" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
