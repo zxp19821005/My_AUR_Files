@@ -293,7 +293,6 @@
 |**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin) <br> [dbgate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-git)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin) <br> [dbgate-git](https://aur.archlinux.org/packages/dbgate-git)||
 |**dbptk-desktop**|[dbptk-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbptk-desktop-bin)|[dbptk-desktop-bin](https://aur.archlinux.org/packages/dbptk-desktop-bin)||
 |**deadbolt**|[deadbolt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadbolt-bin)|[deadbolt-bin](https://aur.archlinux.org/packages/deadbolt-bin)||
-|**deadboltplusplus**|[deadboltplusplus](https://github.com/zxp19821005/My_AUR_Files/tree/main/deadboltplusplus)|[deadboltplusplus](https://aur.archlinux.org/packages/deadboltplusplus)||
 |**deckboard**|[deckboard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deckboard-bin)|[deckboard-bin](https://aur.archlinux.org/packages/deckboard-bin)||
 |**dedao-dl**|[dedao-dl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dedao-dl-bin)|[dedao-dl-bin](https://aur.archlinux.org/packages/dedao-dl-bin)||
 |**deepchat**|[deepchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepchat-bin)<br>[deepchat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepchat-git)|[deepchat-bin](https://aur.archlinux.org/packages/deepchat-bin)<br>[deepchat-git](https://aur.archlinux.org/packages/deepchat-git)||
