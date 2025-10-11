@@ -583,7 +583,6 @@
 |**git-town**|[git-town-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-town-bin)|[git-town-bin](https://aur.archlinux.org/packages/git-town-bin)||
 |**glimboi**|[glimboi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glimboi-bin)|[glimboi-bin](https://aur.archlinux.org/packages/glimboi-bin)||
 |**glyphr-studio-desktop**|[glyphr-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-desktop-bin)|[glyphr-studio-desktop-bin](https://aur.archlinux.org/packages/glyphr-studio-desktop-bin)||
-|**glyphr-studio-nativefier**|[glyphr-studio-nativefier](https://github.com/zxp19821005/My_AUR_Files/tree/main/glyphr-studio-nativefier)|[glyphr-studio-nativefier](https://aur.archlinux.org/packages/glyphr-studio-nativefier)||
 |**go2rtc**|[go2rtc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/go2rtc-bin)|[go2rtc-bin](https://aur.archlinux.org/packages/go2rtc-bin)||
 |**go-blueprint**|[go-blueprint-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/go-blueprint-bin)|[go-blueprint-bin](https://aur.archlinux.org/packages/go-blueprint-bin)||
 |**godoos**|[godoos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/godoos-bin)|[godoos-bin](https://aur.archlinux.org/packages/godoos-bin)||
