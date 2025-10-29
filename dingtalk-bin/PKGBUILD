@@ -5,7 +5,7 @@
 pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
 # https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Update/other/amd64/linux_dingtalk_update_package_gray.json
-pkgver=7.8.15.5101401
+pkgver=7.8.15.5102301
 pkgrel=99
 pkgdesc="DingTalk,钉钉"
 arch=(
@@ -58,8 +58,8 @@ source=(
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
             '3e1ce1cfa5d686e733897fe5cdbc04c2322a240ae11ce1a33b82e6959221bc75')
-sha256sums_aarch64=('ce81728dca146b186ce20ec3bc0c18fff1d4721a41a56f1b39e6e54a19d8afde')
-sha256sums_x86_64=('84bc7dc55fce4a53d5de4c94cc32e5637184e8f47c9c4ac6beebfc7244219d6e')
+sha256sums_aarch64=('7f82405ca1b7f47560f3d4b25aa9eb02058a0f712196d49c6e4dc888a52aa6fb')
+sha256sums_x86_64=('f0f604a3e5488dcf8bb1bf5006a3c21859c6dfeaf7795b833a5fc40620390f4c')
 prepare() {
     sed -i -e "
         s/@appname@/${pkgname%-bin}/g
