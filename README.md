@@ -1496,7 +1496,7 @@
 |**vimp**|[vimp-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vimp-git)|[vimp-git](https://aur.archlinux.org/packages/vimp-git)||
 |**vis-launcher**|[vis-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vis-launcher-bin)|[vis-launcher-bin](https://aur.archlinux.org/packages/vis-launcher-bin)||
 |**visty**|[visty-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/visty-git)|[visty-git](https://aur.archlinux.org/packages/visty-git)||
-|**vlsm-interfacing**|[vlsm-interfacing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-git)|[vlsm-interfacing-git](https://aur.archlinux.org/packages/vlsm-interfacing-git)||
+|**vlsm-interfacing**|[vlsm-interfacing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-bin)<br>[vlsm-interfacing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-git)|[vlsm-interfacing-bin](https://aur.archlinux.org/packages/vlsm-interfacing-bin)<br>[vlsm-interfacing-git](https://aur.archlinux.org/packages/vlsm-interfacing-git)||
 |**vnite**|[vnite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnite-git)|[vnite-git](https://aur.archlinux.org/packages/vnite-git)||
 |**visualfamilytree**|[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
 |**vixie**|[vixie-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vixie-git)|[vixie-git](https://aur.archlinux.org/packages/vixie-git)||
