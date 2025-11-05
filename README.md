@@ -929,6 +929,7 @@
 |**netron**|[netron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/netron-git) <br> [netron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netron-bin)|[netron-git](https://aur.archlinux.org/packages/netron-git) <br> [netron-bin](https://aur.archlinux.org/packages/netron-bin)||
 |**netsend**|[netsend-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netsend-bin)|[netsend-bin](https://aur.archlinux.org/packages/netsend-bin)||
 |**newpad**|[newpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/newpad-bin) <br> [newpad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/newpad-git)|[newpad-bin](https://aur.archlinux.org/packages/newpad-bin) <br> [newpad-git](https://aur.archlinux.org/packages/newpad-git)||
+|**nextai-translator**|[nextai-translator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nextai-translator-bin)|[nextai-translator-bin](https://aur.archlinux.org/packages/nextai-translator-bin)||
 |**next-library**|[next-library-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/next-library-bin)|[next-library-bin](https://aur.archlinux.org/packages/next-library-bin)||
 |**nexus-wallet**|[nexus-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nexus-wallet-bin)|[nexus-wallet-bin](https://aur.archlinux.org/packages/nexus-wallet-bin)||
 |**nfs-browser**|[nfs-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nfs-browser-bin)|[nfs-browser-bin](https://aur.archlinux.org/packages/nfs-browser-bin)||
