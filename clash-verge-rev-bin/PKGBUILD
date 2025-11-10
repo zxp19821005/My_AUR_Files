@@ -3,7 +3,7 @@
 _appname=clash-verge
 pkgname="${_appname}-rev-bin"
 _pkgname='Clash Verge'
-pkgver=2.4.2
+pkgver=2.4.3
 pkgrel=99
 pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri.(Prebuilt version)"
 arch=(
@@ -29,9 +29,9 @@ options=('!strip')
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.aarch64.rpm")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.armhfp.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.x86_64.rpm")
-sha512sums_aarch64=('39d6b9f8007f5e195cf39d8c8a803ea60488e4042282f1a858c2c461fbb90fae42b9df5aac51334bf8c05eab0bee4f95a62de7bb428b3fb2e5eef7cd124ea5db')
-sha512sums_armv7h=('034295774c61ec24e57d6a05eaa5b71edcec86ceaad248ff1a20f83f37445a362f1a534d8a375876ff1038464c1cf91dadd53d5ed2914255e56f3f937cc0a4ed')
-sha512sums_x86_64=('f8243f91a56ffab59f8c71910b04c270cf55942887e94daf5334b905960503f822d98bdcaf6b08927f2d964e676c96aa7bcce553bbcbc1fb3671bba6c341a64e')
+sha512sums_aarch64=('8fb765cb6ea7392d0975a99739031bec7548a3dfc0cbc87da04d3d4021fabb751fe0218b95c40cc141b8d080e4c0458ccec3d804c42c4b02131c255352cafe9c')
+sha512sums_armv7h=('da5ebb16ea5597700bfbfc0907e5fdf4709dd155434b62b358bd242cbb49737e3f45e58eaa7cead02ff114d3825e580d75e1aa407f560dec3249af0408356843')
+sha512sums_x86_64=('37064233c5033080e501c0eefa749fe1e0cb19146044abebd0e23a92a172f2c7453e7d90dad64e08db7996e812ee762e1555fb7097752259c166e436f2e858df')
 prepare() {
     sed -i -e "
         s/Development/Network/g
