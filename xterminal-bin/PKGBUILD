@@ -1,36 +1,46 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=flomo-bin
-_pkgname=Flomo
-_zhsname='浮墨笔记'
-pkgver=5.25.91
-_electronversion=32
+pkgname=xterminal-bin
+_pkgname=XTerminal
+_aarch64_ver=4.2.5
+_x86_64_ver=4.2.5
+case "${CARCH}" in
+    aarch64)
+        pkgver="${_aarch64_ver}"
+        ;;
+    x86_64)
+        pkgver="${_x86_64_ver}"
+        ;;
+esac
+_electronversion=31
 pkgrel=1
-pkgdesc="A new generation of cloud knowledge base for personal note-taking and knowledge creation, team collaboration and knowledge accumulation.(Prebuilt version.Use system-wide electron)新一代云端知识库，用于个人笔记与知识创作，团队协同与知识沉淀"
-arch=('x86_64')
-url="https://flomoapp.com/"
-_dlurl="https://github.com/zxp19821005/My_AUR_Files"
+pkgdesc="Not only powerful SSH tools, but also local consoles, and more coming soon.(Prebuilt version.Use system-wide electron)不仅是强大的SSH工具,更提供本地控制台,以及更多即将推出的开发相关功能."
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://www.xterminal.cn/"
 license=('LicenseRef-custom')
+provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
-prodives=("${pkgname%-bin}=${pkgver}")
 depends=(
     "electron${_electronversion}"
+    'python'
 )
 makedepends=(
-    'gendesk'
     'asar'
-    'icoutils'
-    '7zip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.exe::${_dlurl}/releases/download/${pkgname%-bin}/${pkgname%-bin}-${pkgver}.exe"
-    "LICENSE.html::https://help.flomoapp.com/legal/"
+    "LICENSE.html"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('2d343f0070a3acdd588951ac9b4403c52a7af7a2626a77ed53c5d3ca811a6135'
-            'b109d17d1f6d608cac916ba8d66b960c8aa715364291920eec7f59214592f822'
+source_aarch64=("${pkgname%-bin}-${_aarch64_ver}-aarch64.rpm::https://cdn-cn.xterminal.cn/downloads/${_pkgname}-${_aarch64_ver}-linux-aarch64.rpm")
+source_x86_64=("${pkgname%-bin}-${_x86_64_ver}-x86_64.rpm::https://cdn-cn.xterminal.cn/downloads/${_pkgname}-${_x86_64_ver}-linux-x86_64.rpm")
+sha256sums=('8d08a959e0086a206ef3454cc0fc323454c73609cd764f102d8d2d076dafa0af'
             '31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6')
+sha256sums_aarch64=('c28fe3c1b6e0b144c2cf8c673f31fbf7a5fb9202665ee1c6e7b615700a88e4a0')
+sha256sums_x86_64=('eca79f5947809d61bf169cc94ca9335951694ef354fcbeab3146d544d78335a6')
 _get_electron_version() {
-    _electronversion="$(strings "${srcdir}/tmp/${pkgname%-bin}.exe" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
+    _electronversion="$(strings "${srcdir}/opt/${_pkgname}/${pkgname%-bin}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_electronversion}\033[0m"
 }
 prepare() {
@@ -38,39 +48,21 @@ prepare() {
         s/@electronversion@/${_electronversion}/g
         s/@appname@/${pkgname%-bin}/g
         s/@runname@/app.asar/g
-        s/@cfgdirname@/${pkgname%-bin}卡片笔记/g
+        s/@cfgdirname@/${pkgname%-bin}/g
         s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
     " "${srcdir}/${pkgname%-bin}.sh"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-bin}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Office" \
-        --name="${pkgname%-bin}" \
-        --exec="${pkgname%-bin} %U" \
-        --custom="Name[zh_CN]=${_zhsname}"
-    7z x -aoa "${srcdir}/${pkgname%-bin}-${pkgver}.exe"
-    install -Dm755 -d "${srcdir}/tmp"
-    7z x -aoa "${srcdir}/\$PLUGINSDIR/app-64.7z" -o"${srcdir}/tmp"
     _get_electron_version
-    asar e "${srcdir}/tmp/resources/app.asar" "${srcdir}/app.asar.unpacked"
-    find "${srcdir}/app.asar.unpacked" -type f -name "*.gz" -exec rm -rf {} +
-    sed -i -e "
-        s/icon.ico/icon.png/g
-        s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g
-    " "${srcdir}/app.asar.unpacked/background.js"
-    sed -i 's/"icons\/"+e/"icons\/icon.png"/g' "${srcdir}/app.asar.unpacked/background.js"
-    cp "${srcdir}/app.asar.unpacked/icons/32x32.png" "${srcdir}/app.asar.unpacked/icons/darkTemplate.png"
-    cp "${srcdir}/app.asar.unpacked/icons/32x32.png" "${srcdir}/app.asar.unpacked/icons/icon.png"
+    sed -i "s/\/opt\/${_pkgname}\/${pkgname%-bin}/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    asar e "${srcdir}/opt/${_pkgname}/resources/app.asar" "${srcdir}/app.asar.unpacked"
+    find "${srcdir}/app.asar.unpacked/dist" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} \;
     asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
+    rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/font-list/libs/"{darwin,win32}
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm644 "${srcdir}/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    icon_sizes=(16x16 24x24 32x32 48x48 64x64 128x128 256x256 512x512 1024x1024)
-    for _icons in "${icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/app.asar.unpacked/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png"
-    done
-    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/${_pkgname}/resources/"{app.asar.unpacked,tray} "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/usr/share/icons/hicolor/512x512/apps/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
     install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
