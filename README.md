@@ -150,6 +150,7 @@
 |**bimbala-desktop**|[bimbala-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bimbala-desktop-bin)|[bimbala-desktop-bin](https://aur.archlinux.org/packages/bimbala-desktop-bin)||
 |**binggpt-ee**|[binggpt-ee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/binggpt-ee-bin)|[binggpt-ee-bin](https://aur.archlinux.org/packages/binggpt-ee-bin)||
 |**bitclient**|[bitclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitclient-bin)|[bitclient-bin](https://aur.archlinux.org/packages/bitclient-bin)||
+|**bitrise**|[bitrise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitrise-bin)|[bitrise-bin](https://aur.archlinux.org/packages/bitrise-bin)||
 |**bitshares-astro-ui**|[bitshares-astro-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitshares-astro-ui-bin)|[bitshares-astro-ui-bin](https://aur.archlinux.org/packages/bitshares-astro-ui-bin)||
 |**blink-player**|[blink-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blink-player-bin)|[blink-player-bin](https://aur.archlinux.org/packages/blink-player-bin)||
 |**blot**|[blot-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blot-git)|[blot-git](https://aur.archlinux.org/packages/blot-git)||
