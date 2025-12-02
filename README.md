@@ -1451,6 +1451,7 @@
 |**ttf-opposans**|[ttf-opposans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-opposans)||自用版|
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
+|**ttkocr**|[ttkocr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkocr-bin)|[ttkocr-bin](https://aur.archlinux.org/packages/ttkocr-bin)||
 |**ttkweather**|[ttkweather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkweather-bin)|[ttkweather-bin](https://aur.archlinux.org/packages/ttkweather-bin)||
 |**tts-now**|[tts-now-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-now-bin)|[tts-now-bin](https://aur.archlinux.org/packages/tts-now-bin)||
 |**tts-vue**|[tts-vue](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-vue)|[tts-vue](https://aur.archlinux.org/packages/tts-vue)||
