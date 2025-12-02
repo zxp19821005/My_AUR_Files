@@ -1450,6 +1450,7 @@
 |**ttf-maoken-unbounded-sans**|[ttf-maoken-unbounded-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-unbounded-sans)|[ttf-maoken-unbounded-sans](https://aur.archlinux.org/packages/ttf-maoken-unbounded-sans)||
 |**ttf-opposans**|[ttf-opposans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-opposans)||自用版|
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
+|**ttkdownloader**|[ttkdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkdownloader-bin)|[ttkdownloader-bin](https://aur.archlinux.org/packages/ttkdownloader-bin)||
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
 |**ttkocr**|[ttkocr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkocr-bin)|[ttkocr-bin](https://aur.archlinux.org/packages/ttkocr-bin)||
 |**ttkweather**|[ttkweather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkweather-bin)|[ttkweather-bin](https://aur.archlinux.org/packages/ttkweather-bin)||
