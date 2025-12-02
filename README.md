@@ -1140,6 +1140,7 @@
 |**qrocad-desktop**|[qrocad-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocad-desktop-bin)|[qrocad-desktop-bin](https://aur.archlinux.org/packages/qrocad-desktop-bin)||
 |**qrocrown**|[qrocrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocrown-bin)|[qrocrown-bin](https://aur.archlinux.org/packages/qrocrown-bin)||
 |**qtscrcpy**|[qtscrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtscrcpy-bin)|[qtscrcpy-bin](https://aur.archlinux.org/packages/qtscrcpy-bin)||
+|**qtspek**|[qtspek-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtspek-bin)|[qtspek-bin](https://aur.archlinux.org/packages/qtspek-bin)||
 |**qtvsplayer**|[qtvsplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qtvsplayer-bin)|[qtvsplayer-bin](https://aur.archlinux.org/packages/qtvsplayer-bin)||
 |**quadrant**|[quadrant-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quadrant-bin)|[quadrant-bin](https://aur.archlinux.org/packages/quadrant-bin)||
 |**quaternion**|[quaternion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quaternion-bin)|[quaternion-bin](https://aur.archlinux.org/packages/quaternion-bin)||
