@@ -967,7 +967,6 @@
 |**novelwriter**|[novelwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/novelwriter-bin)|[novelwriter-bin](https://aur.archlinux.org/packages/novelwriter-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
 |**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
-|**nuclia**|[nuclia-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-bin)|[nuclia-bin](https://aur.archlinux.org/packages/nuclia-bin)||
 |**nuclia-sync-agent**|[nuclia-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-sync-agent-bin)|[nuclia-sync-agent-bin](https://aur.archlinux.org/packages/nuclia-sync-agent-bin)||
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)<br>[nudge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge-bin)|[nudge](https://aur.archlinux.org/packages/nudge)<br>[nudge-bin](https://aur.archlinux.org/packages/nudge-bin)||
 |**nuiuita**|[nuiuita-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuiuita-bin)|[nuiuita-bin](https://aur.archlinux.org/packages/nuiuita-bin)||
