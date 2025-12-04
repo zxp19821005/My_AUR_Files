@@ -793,6 +793,7 @@
 |**listera-novelreader**|[listera-novelreader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/listera-novelreader-bin)|[listera-novelreader-bin](https://aur.archlinux.org/packages/listera-novelreader-bin)||
 |**live2d-desktop-pet**|[live2d-desktop-pet-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/live2d-desktop-pet-git)|[live2d-desktop-pet-git](https://aur.archlinux.org/packages/live2d-desktop-pet-git)||
 |**live2d-kanban-desktop**|[live2d-kanban-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/live2d-kanban-desktop) <br> [live2d-kanban-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live2d-kanban-desktop-bin)|[live2d-kanban-desktop](https://aur.archlinux.org/packages/live2d-kanban-desktop) <br> [live2d-kanban-desktop-bin](https://aur.archlinux.org/packages/live2d-kanban-desktop-bin)||
+|**liveplay**|[liveplay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liveplay-bin)|[liveplay-bin](https://aur.archlinux.org/packages/liveplay-bin)||
 |**live-plus-plus**|[live-plus-plus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-plus-plus-bin)|[live-plus-plus-bin](https://aur.archlinux.org/packages/live-plus-plus-bin)||
 |**live-radio-app**|[live-radio-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/live-radio-app-bin)|[live-radio-app-bin](https://aur.archlinux.org/packages/live-radio-app-bin)||
 |**llocal**|[llocal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/llocal-bin)|[llocal-bin](https://aur.archlinux.org/packages/llocal-bin)||
