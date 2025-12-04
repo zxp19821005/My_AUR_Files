@@ -564,6 +564,7 @@
 |**fylepad**|[fylepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fylepad-bin)|[fylepad-bin](https://aur.archlinux.org/packages/fylepad-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**gameclock**|[gameclock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-bin) <br> [gameclock-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-git)|[gameclock-bin](https://aur.archlinux.org/packages/gameclock-bin) <br> [gameclock-git](https://aur.archlinux.org/packages/gameclock-git)||
+|**gatha**|[gatha-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gatha-bin)|[gatha-bin](https://aur.archlinux.org/packages/gatha-bin)||
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
