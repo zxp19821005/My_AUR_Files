@@ -289,6 +289,7 @@
 |**dartsmate**|[dartsmate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dartsmate-git)|[dartsmate-git](https://aur.archlinux.org/packages/dartsmate-git)||
 |**dash-player**|[dash-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dash-player-bin) <br> [dash-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dash-player-git)|[dash-player-bin](https://aur.archlinux.org/packages/dash-player-bin) <br> [dash-player-git](https://aur.archlinux.org/packages/dash-player-git)||
 |**database-kit**|[database-kit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/database-kit-git)|[database-kit-git](https://aur.archlinux.org/packages/database-kit-git)||
+|**data-peek**|[data-peek](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-peek)|[data-peek](https://aur.archlinux.org/packages/data-peek)||
 |**data-works**|[data-works-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/data-works-bin)|[data-works-bin](https://aur.archlinux.org/packages/data-works-bin)||
 |**datefile**|[datefile](https://github.com/zxp19821005/My_AUR_Files/tree/main/datefile)|[datefile](https://aur.archlinux.org/packages/datefile)||
 |**dbgate**|[dbgate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-bin) <br> [dbgate-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dbgate-git)|[dbgate-bin](https://aur.archlinux.org/packages/dbgate-bin) <br> [dbgate-git](https://aur.archlinux.org/packages/dbgate-git)||
