@@ -570,6 +570,7 @@
 |**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**geolocator**|[geolocator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geolocator-bin)|[geolocator-bin](https://aur.archlinux.org/packages/geolocator-bin)||
 |**geratron**|[geratron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/geratron-git)|[geratron-git](https://aur.archlinux.org/packages/geratron-git)||
+|**gerbil**|[gerbil-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gerbil-bin)|[gerbil-bin](https://aur.archlinux.org/packages/gerbil-bin)||
 |**ghost-chat**|[ghost-chat](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat) <br> [ghost-chat-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-chat-git)|[ghost-chat](https://aur.archlinux.org/packages/ghost-chat) <br> [ghost-chat-git](https://aur.archlinux.org/packages/ghost-chat-git)||
 |**ghost-downloader**|[ghost-downloader](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-downloader)<br>[ghost-downloader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ghost-downloader-git)|[ghost-downloader](https://aur.archlinux.org/packages/ghost-downloader)<br>[ghost-downloader-git](https://aur.archlinux.org/packages/ghost-downloader-git)||
 |**giada**|[giada-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/giada-bin)|[giada-bin](https://aur.archlinux.org/packages/giada-bin)||
