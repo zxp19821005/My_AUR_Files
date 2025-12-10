@@ -1290,7 +1290,6 @@
 |**sneaky-reader**|[sneaky-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sneaky-reader-git)|[sneaky-reader-git](https://aur.archlinux.org/packages/sneaky-reader-git)||
 |**snippai**|[snippai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippai-bin)<br>[snippai-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippai-git)|[snippai-bin](https://aur.archlinux.org/packages/snippai-bin)<br>[snippai-git](https://aur.archlinux.org/packages/snippai-git)||
 |**snippet-notes**|[snippet-notes](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippet-notes)|[snippet-notes](https://aur.archlinux.org/packages/snippet-notes)||
-|**snowflake-desktop**|[snowflake-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snowflake-desktop-bin)|[snowflake-desktop-bin](https://aur.archlinux.org/packages/snowflake-desktop-bin)||
 |**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck) <br> [snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck) <br> [snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)||
 |**soar**|[soar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soar-bin)|[soar-bin](https://aur.archlinux.org/packages/soar-bin)||
 |**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
