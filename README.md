@@ -1513,6 +1513,7 @@
 |**vlsm-interfacing**|[vlsm-interfacing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-bin)<br>[vlsm-interfacing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vlsm-interfacing-git)|[vlsm-interfacing-bin](https://aur.archlinux.org/packages/vlsm-interfacing-bin)<br>[vlsm-interfacing-git](https://aur.archlinux.org/packages/vlsm-interfacing-git)||
 |**vnite**|[vnite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnite-git)|[vnite-git](https://aur.archlinux.org/packages/vnite-git)||
 |**visualfamilytree**|[visualfamilytree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visualfamilytree-bin)|[visualfamilytree-bin](https://aur.archlinux.org/packages/visualfamilytree-bin)||
+|**visual-studio-code-electron**|[visual-studio-code-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/visual-studio-code-electron-bin)|[visual-studio-code-electron-bin](https://aur.archlinux.org/packages/visual-studio-code-electron-bin)||
 |**vixie**|[vixie-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vixie-git)|[vixie-git](https://aur.archlinux.org/packages/vixie-git)||
 |**vnote**|[vnote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnote-bin)|[vnote-bin](https://aur.archlinux.org/packages/vnote-bin)||
 |**vnstat-client**|[vnstat-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnstat-client-git)|[vnstat-client-git](https://aur.archlinux.org/packages/vnstat-client-git)||
