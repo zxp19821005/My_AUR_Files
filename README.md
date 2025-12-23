@@ -280,6 +280,7 @@
 |**cubytext**|[cubytext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cubytext-bin)|[cubytext-bin](https://aur.archlinux.org/packages/cubytext-bin)||
 |**cultivation**|[cultivation](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation)<br>[cultivation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation-bin)|[cultivation](https://aur.archlinux.org/packages/cultivation)<br>[cultivation-bin](https://aur.archlinux.org/packages/cultivation-bin)||
 |**currency-converter**|[currency-converter-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/currency-converter-git)|[currency-converter-git](https://aur.archlinux.org/packages/currency-converter-git)||
+|**cursor-electron**|[cursor-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursor-electron-bin)||AUR未提交|
 |**cuttletron**|[cuttletron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-bin)|[cuttletron-bin](https://aur.archlinux.org/packages/cuttletron-bin)||
 |**cuuri**|[cuuri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuuri-bin)|[cuuri-bin](https://aur.archlinux.org/packages/cuuri-bin)||
 |**cycode**|[cycode](https://github.com/zxp19821005/My_AUR_Files/tree/main/cycode)|[cycode](https://aur.archlinux.org/packages/cycode)||

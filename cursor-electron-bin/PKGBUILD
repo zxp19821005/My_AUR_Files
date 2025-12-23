@@ -1,0 +1,70 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+# `cursor-electron.js` from Richardn <rniu at umich dot edu>
+_pkgname=cursor
+_debname="co.anysphere.${_pkgname}"
+pkgname="${_pkgname}-electron-bin"
+pkgver=2.2.43
+_commit=32cfbe848b35d9eb320980195985450f244b303d
+_electronversion=37
+pkgrel=1
+pkgdesc="AI-first coding environment.(Prebuilt and System-wide Electron edition)"
+arch=('x86_64')
+url="https://www.cursor.com"
+license=('LicenseRef-Cursor_EULA')
+provides=("${_pkgname}=${pkgver}")
+conflicts=("${_pkgname}")
+depends=(
+    "electron${_electronversion}"
+    'libx11'
+    'libxkbfile'
+    'ripgrep'
+    'python'
+    'python-fonttools'
+    'perl'
+)
+optdepends=(
+    'gvfs: For move to trash functionality'
+    'libdbusmenu-glib: For KDE global menu'
+)
+source=(
+    "${pkgname%-bin}-${pkgver}.deb::https://downloads.cursor.com/production/${_commit}/linux/x64/deb/amd64/deb/${_pkgname}_${pkgver}_amd64.deb"
+    "${pkgname%-bin}.js"
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('741cad4581013c6e99482a1805db881009569f477fb77c17a5fc0d3e586ff4c5'
+            '118da6f4603af7c8ec8b73d825d51e3d81cd58c36a546dc65978dee90f3cac9b'
+            'c418b7c5c17b3771f53541b46ed1eff461de5871e2c7c177546e2577d480594f')
+_get_electron_version() {
+    _elec_ver="$(strings "${srcdir}/usr/share/${_pkgname}/${_pkgname}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
+    echo -e "The electron version is: \033[1;31m${_elec_ver}\033[0m"
+}
+prepare() {
+    sed -i -e "
+        s/@electronversion@/${_electronversion}/g
+        s/@appname@/${pkgname%-bin}/g
+        s/@runname@/app/g
+        s/@cfgdirname@/${_pkgname}/g
+        s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
+    " "${srcdir}/${pkgname%-bin}.sh"
+    bsdtar -xf "${srcdir}/data."*
+    _get_electron_version
+    sed -i "s/@ELECTRON@/electron${_electronversion}/g" "${srcdir}/${pkgname%-bin}.js"
+    sed -i "s/${_debname}.desktop/${pkgname%-bin}.desktop/g" "${srcdir}/usr/share/appdata/${_pkgname}.appdata.xml"
+    sed -i -e "
+        s/\/usr\/share\/${_pkgname}\/${_pkgname}/${pkgname%-bin}/g
+        s/Icon=${_debname}/Icon=${pkgname%-bin}/g
+    " "${srcdir}/usr/share/applications/"{"${_pkgname}-url-handler.desktop","${_pkgname}.desktop"}
+    ln -sf "/usr/bin/rg" "${srcdir}/usr/share/${_pkgname}/resources/app/node_modules/@vscode/ripgrep/bin/rg"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm755 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/share/${_pkgname}/resources/app/"* "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm644 "${srcdir}/usr/share/appdata/${_pkgname}.appdata.xml" "${pkgdir}/usr/share/appdata/${pkgname%-bin}.appdata.xml"
+    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}-url-handler.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}-url-handler.desktop"
+    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${srcdir}/usr/share/pixmaps/${_debname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+    install -Dm644 "${srcdir}/usr/share/bash-completion/completions/${_pkgname}" -t "${pkgdir}/usr/share/bash-completion/completions"
+    install -Dm644 "${srcdir}/usr/share/zsh/vendor-completions/_${_pkgname}" -t "${pkgdir}/usr/share/zsh/vendor-completions/"
+    install -Dm644 "${srcdir}/usr/share/${_pkgname}/resources/app/LICENSE.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
