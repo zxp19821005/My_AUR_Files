@@ -240,6 +240,7 @@
 |**cloudflarespeedtest**|[cloudflarespeedtest-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudflarespeedtest-bin)|[cloudflarespeedtest-bin](https://aur.archlinux.org/packages/cloudflarespeedtest-bin)||
 |**cloudhub**|[cloudhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudhub-bin)|[cloudhub-bin](https://aur.archlinux.org/packages/cloudhub-bin)||
 |**cloudpan189-go**|[cloudpan189-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudpan189-go-bin)|[cloudpan189-go-bin](https://aur.archlinux.org/packages/cloudpan189-go-bin)||
+|**cloudreve**|[cloudreve-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cloudreve-bin)|[cloudreve-bin](https://aur.archlinux.org/packages/cloudreve-bin)||
 |**clues**|[clues-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/clues-git)|[clues-git](https://aur.archlinux.org/packages/clues-git)||
 |**cmc-mod-manager**|[cmc-mod-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cmc-mod-manager-bin)|[cmc-mod-manager-bin](https://aur.archlinux.org/packages/cmc-mod-manager-bin)||
 |**coal-launcher**|[coal-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/coal-launcher-bin)|[coal-launcher-bin](https://aur.archlinux.org/packages/coal-launcher-bin)||
