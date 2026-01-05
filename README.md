@@ -182,7 +182,6 @@
 |**budgeted-ui**|[budgeted-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/budgeted-ui-bin)|[budgeted-ui-bin](https://aur.archlinux.org/packages/budgeted-ui-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
 |**burrow**|[burrow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/burrow-bin)|[burrow-bin](https://aur.archlinux.org/packages/burrow-bin)||
-|**bytebackup**|[bytebackup-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bytebackup-git)|[bytebackup-git](https://aur.archlinux.org/packages/bytebackup-git)||
 |**caesium-image-compressor**|[caesium-image-compressor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/caesium-image-compressor-bin)|[caesium-image-compressor-bin](https://aur.archlinux.org/packages/caesium-image-compressor-bin)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
