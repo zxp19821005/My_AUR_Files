@@ -745,6 +745,7 @@
 |**kilo**|[kilo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kilo-git)|[kilo-git](https://aur.archlinux.org/packages/kilo-git)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
+|**kiro-ide**|[kiro-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiro-ide-bin)||AUR未提交|
 |**kiwiirc-desktop**|[kiwiirc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-desktop-bin)|[kiwiirc-desktop-bin](https://aur.archlinux.org/packages/kiwiirc-desktop-bin)||
 |**kiwiirc-server**|[kiwiirc-server-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-server-bin)|[kiwiirc-server-bin](https://aur.archlinux.org/packages/kiwiirc-server-bin)||
 |**kiwix-js-electron**|[kiwix-js-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwix-js-electron-bin)|[kiwix-js-electron-bin](https://aur.archlinux.org/packages/kiwix-js-electron-bin)||
