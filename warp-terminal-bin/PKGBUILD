@@ -1,0 +1,47 @@
+# Maintainer: Matt Quintanilla <matt @ matt quintanilla . xyz>
+# Contributor: ihipop <ihipop at gmail dot com>
+_appname=warp
+pkgname="${_appname}-terminal-bin"
+_pkgname=Warp
+pkgver=0.2026.01.07.08.13.stable_01
+pkgrel=1
+pkgdesc="Warp is the intelligent terminal with AI and your dev team's knowledge built-in."
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://warp.dev"
+_dlurl="https://releases.warp.dev/stable"
+license=('LicenseRef-WARP')
+provides=("${pkgname%-bin}=${pkgver}")
+conflicts=("${pkgname%-bin}")
+depends=(
+    'gtk3'
+    'libxss'
+    'nss'
+    'alsa-lib'
+    'libxcb'
+    'libxkbcommon-x11'
+)
+options=('!strip')
+source=("LICENSE.txt")
+source_aarch64=("${pkgname%-bin}-v${pkgver}-${pkgrel}-aarch64.pkg.tar.zst::${_dlurl}/v${pkgver}/${pkgname%-bin}-v${pkgver}-1-aarch64.pkg.tar.zst")
+source_x86_64=("${pkgname%-bin}-v${pkgver}-${pkgrel}-x86_64.pkg.tar.zst::${_dlurl}/v${pkgver}/${pkgname%-bin}-v${pkgver}-1-x86_64.pkg.tar.zst")
+sha256sums=('e63485e6dff24dd507ff0caa59eace7cf899f4986d8ddd0c8a53389d6ecd3280')
+sha256sums_aarch64=('a00024ceb52e2c0885a420198f84dfc3776f026459fd0c273fa77a5fd0072a27')
+sha256sums_x86_64=('c7cdf6e52137f24c50d75007c2dabdcea0ecba8916a0f231970ff6ed040923ef')
+prepare() {
+    sed -i "s/opt\/${_appname}dotdev\/${pkgname%-bin}/usr\/lib\/${pkgname%-bin}/g" "${srcdir}/usr/bin/${pkgname%-bin}"
+    sed -i "s/Icon=dev.${_appname}.${_pkgname}/Icon=${pkgname%-bin}/g" "${srcdir}/usr/share/applications/dev.${_appname}.${_pkgname}.desktop"
+}
+package() {
+    install -Dm755 "${srcdir}/opt/${_appname}dotdev/${_appname}-terminal/${_appname}" "${pkgdir}/usr/lib/${pkgname%-bin}/${_appname}"
+    install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+    install -Dm644 "${srcdir}/usr/share/applications/dev.${_appname}.${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    _icon_sizes=(16x16 32x32 64x64 128x128 256x256 512x512)
+    for _icons in "${_icon_sizes[@]}";do
+        install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/dev.${_appname}.${_pkgname}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png"
+    done
+    install -Dm644 "${srcdir}/LICENSE.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
