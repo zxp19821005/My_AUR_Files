@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 # Contributor: Aaron Rubesh <contact@aaronrubesh.io>
 pkgname=antigravity-bin
-pkgver=1.13.3
+pkgver=1.14.2
 _electronversion=37
 pkgrel=1
 pkgdesc="An agentic development platform from Google, evolving the IDE into the agent-first era.(Prebuilt version.Use system-wide electron)"
@@ -31,13 +31,13 @@ source=(
     "${pkgname%-bin}.js"
     "${pkgname%-bin}.sh"
 )
-source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${pkgname%-bin}_${pkgver}-1766182168_arm64_940bc88042cadeaee51d9b1eedf6a506.deb")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${pkgname%-bin}_${pkgver}-1766182170_amd64_365061c50063f9bd47a9ff88432261b8.deb")
-sha256sums=('d87597d52234cb741574f0e68bd1f951a4cb680b9c621209b352b9078eb7689d'
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${pkgname%-bin}_${pkgver}-1768287742_arm64_fa871f81c5b4e1b343589341d279a64c.deb")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${pkgname%-bin}_${pkgver}-1768287740_amd64_5527204873323b09e7e6bc003cf22f91.deb")
+sha256sums=('1c92a4e38ae7a8c7eee7081a986acf874334c13f4ccf9842f03ad848efdd49d0'
             '19a6316e7e32c598a99022d66f61b7e822cbc8b03f0fab1176a10bc00b1e59fa'
             'e0ab2fe87491fabd9c7886f22c6929169edb508be832036a02698760b721f207')
-sha256sums_aarch64=('9d4d5a0f4dc39514a8841e726bf032e19f8baf42310ed11531cd95d43922c14e')
-sha256sums_x86_64=('d9920f9e0788245b1dab0f73a607b4eea00605bfb70e16795da1c1ac89eabd4b')
+sha256sums_aarch64=('75f25a8db8e656b78a780e6a95ed5f6d11ed32461c324d6a7e8abe847b9af5ab')
+sha256sums_x86_64=('770f440b025afba6d140a0791e91f16e957456f501c766948710c939eff09206')
 _get_electron_version() {
     _elec_ver="$(strings "${srcdir}/usr/share/${pkgname%-bin}/${pkgname%-bin}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_elec_ver}\033[0m"
