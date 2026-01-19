@@ -586,6 +586,7 @@
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
 |**github-issue-alert**|[github-issue-alert-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-issue-alert-bin)|[github-issue-alert-bin](https://aur.archlinux.org/packages/github-issue-alert-bin)||
 |**github-panel**|[github-panel-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-panel-bin)|[github-panel-bin](https://aur.archlinux.org/packages/github-panel-bin)||
+|**github-store**|[github-store-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-store-bin)|[github-store-bin](https://aur.archlinux.org/packages/github-store-bin)||
 |**gitify**|[gitify](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify) <br> [gitify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify-bin)|[gitify](https://aur.archlinux.org/packages/gitify) <br> [gitify-bin](https://aur.archlinux.org/packages/gitify-bin)||
 |**git-it-electron**|[git-it-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-it-electron-git)|[git-it-electron-git](https://aur.archlinux.org/packages/git-it-electron-git)||
 |**git-light**|[git-light-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-light-bin)|[git-light-bin](https://aur.archlinux.org/packages/git-light-bin)||
