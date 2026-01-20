@@ -437,7 +437,10 @@
 |**electron38**|[electron38-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron38-bin)|[electron38-bin](https://aur.archlinux.org/packages/electron38-bin)||
 |**electron38-castlab**|[electron38-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron38-castlab-bin)|[electron38-castlab-bin](https://aur.archlinux.org/packages/electron38-castlab-bin)||
 |**electron39**|[electron39-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron39-bin)|[electron39-bin](https://aur.archlinux.org/packages/electron39-bin)||
-|**electron39-castlab**|[electron39-castlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron39-castlab-bin)|[electron39-castlab-bin](https://aur.archlinux.org/packages/electron39-castlab-bin)||
+|**electron39-castlab**|[electron39-castlab-bin]
+|**electron40**|[electron41](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron40)<br>[electron40-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron40-bin)|[electron40](https://aur.archlinux.org/packages/electron40)<br>[electron40-bin](https://aur.archlinux.org/packages/electron40-bin)||
+|**electron41**|[electron41](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron41)<br>[electron41-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron41-bin)|[electron41](https://aur.archlinux.org/packages/electron41)<br>[electron41-bin](https://aur.archlinux.org/packages/electron41-bin)||
+(https://github.com/zxp19821005/My_AUR_Files/tree/main/electron39-castlab-bin)|[electron39-castlab-bin](https://aur.archlinux.org/packages/electron39-castlab-bin)||
 |**electron-builder**|[electron-builder](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-builder)|[electron-builder](https://aur.archlinux.org/packages/electron-builder)||
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
