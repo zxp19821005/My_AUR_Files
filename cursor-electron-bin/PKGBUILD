@@ -3,8 +3,8 @@
 _pkgname=cursor
 _debname="co.anysphere.${_pkgname}"
 pkgname="${_pkgname}-electron-bin"
-pkgver=2.2.43
-_commit=32cfbe848b35d9eb320980195985450f244b303d
+pkgver=2.3.41
+_commit=2ca326e0d1ce10956aea33d54c0e2d8c13c58a32
 _electronversion=37
 pkgrel=1
 pkgdesc="AI-first coding environment.(Prebuilt and System-wide Electron edition)"
@@ -18,9 +18,6 @@ depends=(
     'libx11'
     'libxkbfile'
     'ripgrep'
-    'python'
-    'python-fonttools'
-    'perl'
 )
 optdepends=(
     'gvfs: For move to trash functionality'
@@ -31,8 +28,8 @@ source=(
     "${pkgname%-bin}.js"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('741cad4581013c6e99482a1805db881009569f477fb77c17a5fc0d3e586ff4c5'
-            '118da6f4603af7c8ec8b73d825d51e3d81cd58c36a546dc65978dee90f3cac9b'
+sha256sums=('27189d33c54a00b894732eb7774ced233afcf69efd8099eb43f06a28ca36d5bb'
+            '1b06874928f7863b9446092eba621220fcfac4813466a94cd5fb00532cf04cbc'
             'c418b7c5c17b3771f53541b46ed1eff461de5871e2c7c177546e2577d480594f')
 _get_electron_version() {
     _elec_ver="$(strings "${srcdir}/usr/share/${_pkgname}/${_pkgname}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
