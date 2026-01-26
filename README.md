@@ -617,7 +617,7 @@
 |**google-messages**|[google-messages-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/google-messages-bin)|[google-messages-bin](https://aur.archlinux.org/packages/google-messages-bin)||
 |**goovpn**|[goovpn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goovpn-bin)|[goovpn-bin](https://aur.archlinux.org/packages/goovpn-bin)||
 |**gopeed**|[gopeed-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gopeed-bin)|[gopeed-bin](https://aur.archlinux.org/packages/gopeed-bin)||
-|**gorss**|[gorss](https://github.com/zxp19821005/My_AUR_Files/tree/main/gorss)|[gorss](https://aur.archlinux.org/packages/gorss)||
+|**gorss**|[gorss](https://github.com/zxp19821005/My_AUR_Files/tree/main/gorss)<br>[gorss-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gorss-bin)|[gorss](https://aur.archlinux.org/packages/gorss)<br>[gorss-bin](https://aur.archlinux.org/packages/gorss-bin)||
 |**goshs**|[goshs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/goshs-bin)|[goshs-bin](https://aur.archlinux.org/packages/goshs-bin)||
 |**gotepad**|[gotepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gotepad-bin)|[gotepad-bin](https://aur.archlinux.org/packages/gotepad-bin)||
 |**gotify-tray**|[gotify-tray-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gotify-tray-bin)|[gotify-tray-bin](https://aur.archlinux.org/packages/gotify-tray-bin)||
