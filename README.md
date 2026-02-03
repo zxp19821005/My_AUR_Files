@@ -152,6 +152,7 @@
 |**bilive-danmaku**|[bilive-danmaku-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bilive-danmaku-git)|[bilive-danmaku-git](https://aur.archlinux.org/packages/bilive-danmaku-git)||
 |**bimbala-desktop**|[bimbala-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bimbala-desktop-bin)|[bimbala-desktop-bin](https://aur.archlinux.org/packages/bimbala-desktop-bin)||
 |**binggpt-ee**|[binggpt-ee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/binggpt-ee-bin)|[binggpt-ee-bin](https://aur.archlinux.org/packages/binggpt-ee-bin)||
+|**bintelai-ssh-assistant**|[bintelai-ssh-assistant](https://github.com/zxp19821005/My_AUR_Files/tree/main/bintelai-ssh-assistant)|[bintelai-ssh-assistant](https://aur.archlinux.org/packages/bintelai-ssh-assistant)||
 |**bitclient**|[bitclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitclient-bin)|[bitclient-bin](https://aur.archlinux.org/packages/bitclient-bin)||
 |**bitrise**|[bitrise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitrise-bin)|[bitrise-bin](https://aur.archlinux.org/packages/bitrise-bin)||
 |**bitshares-astro-ui**|[bitshares-astro-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitshares-astro-ui-bin)|[bitshares-astro-ui-bin](https://aur.archlinux.org/packages/bitshares-astro-ui-bin)||
