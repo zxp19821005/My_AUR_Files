@@ -1476,6 +1476,7 @@
 |**tts-now**|[tts-now-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-now-bin)|[tts-now-bin](https://aur.archlinux.org/packages/tts-now-bin)||
 |**tts-vue**|[tts-vue](https://github.com/zxp19821005/My_AUR_Files/tree/main/tts-vue)|[tts-vue](https://aur.archlinux.org/packages/tts-vue)||
 |**tunasync**|[tunasync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tunasync-bin)|[tunasync-bin](https://aur.archlinux.org/packages/tunasync-bin)||
+|**tune-player**|[tune-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tune-player-bin)|[tune-player-bin](https://aur.archlinux.org/packages/tune-player-bin)||
 |**turbowarp-desktop**|[turbowarp-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/turbowarp-desktop-git)|[turbowarp-desktop-git](https://aur.archlinux.org/packages/turbowarp-desktop-git)||
 |**tvtower**|[tvtower-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tvtower-bin)|[tvtower-bin](https://aur.archlinux.org/packages/tvtower-bin)||
 |**typability**|[typability-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/typability-bin)|[typability-bin](https://aur.archlinux.org/packages/typability-bin)||
