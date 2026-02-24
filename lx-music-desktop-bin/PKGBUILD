@@ -1,6 +1,6 @@
 pkgname=lx-music-desktop-bin
 _pkgname='LX Music'
-pkgver=2.12.0
+pkgver=2.12.1
 _electronversion=37
 pkgrel=1
 pkgdesc="A music software based on Electron + Vue.(Prebuilt version.Use system-wide electron)一个基于 Electron + Vue 开发的音乐软件"
@@ -25,9 +25,9 @@ source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/downl
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_armv7l.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb")
 sha256sums=('31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6')
-sha256sums_aarch64=('acfdd937a39c83221a884f1e898d77cd09be45fcc35d7dbad66d7018de38e861')
-sha256sums_armv7h=('d0190998dd9539c519e105b06733a2b345202f08a0990994f4fb4341fdbd967d')
-sha256sums_x86_64=('49a603ee351ccdaa3c62cb20daca965631d18382a0e42b59e041214c7aa45895')
+sha256sums_aarch64=('105e3438bcfa0fbf7bbd2f88d76c418e2e537bfad285f3ddea28588d41a2cbb0')
+sha256sums_armv7h=('136f76bb80322bcea3999518abd2285968c228f9798fb9555a973ca84a2ce8ba')
+sha256sums_x86_64=('0a9d795707195280b3772f73a64babaa6f011c90bfdd3d7b2630fc4cc45053c3')
 _get_electron_version() {
     _elec_ver="$(strings "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_elec_ver}\033[0m"
@@ -47,6 +47,13 @@ prepare() {
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm644 "${srcdir}/opt/${pkgname%-bin}/resources/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    if find "${srcdir}/opt/${pkgname%-bin}/resources" -mindepth 1 -maxdepth 1 -type d | read; then
+        for subdir in "${srcdir}/opt/${pkgname%-bin}/resources/"*; do
+            if [ -d "${subdir}" ]; then
+                cp -Pr --no-preserve=ownership "${subdir}" "${pkgdir}/usr/lib/${pkgname%-bin}"
+            fi
+        done
+    fi
     _icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
     for _icons in "${_icon_sizes[@]}";do
         install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
