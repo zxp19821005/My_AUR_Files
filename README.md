@@ -259,7 +259,7 @@
 |**comate**|[comate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/comate-bin)|[comate-bin](https://aur.archlinux.org/packages/comate-bin)||
 |**commas**|[commas](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas) <br> [commas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-bin) <br> [commas-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/commas-git)|[commas](https://aur.archlinux.org/packages/commas) <br> [commas-bin](https://aur.archlinux.org/packages/commas-bin) <br> [commas-git](https://aur.archlinux.org/packages/commas-git)||
 |**compasscad**|[compasscad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/compasscad-bin)|[compasscad-bin](https://aur.archlinux.org/packages/compasscad-bin)||
-|**compress-o**|[compress-o-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/compress-o-bin)|[compress-o-bin](https://aur.archlinux.org/packages/compress-o-bin)||
+|**compresso**|[compresso-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/compresso-bin)|[compresso-bin](https://aur.archlinux.org/packages/compresso-bin)||
 |**confluence-companion-app-for-linux**|[confluence-companion-app-for-linux](https://github.com/zxp19821005/My_AUR_Files/tree/main/confluence-companion-app-for-linux)|[confluence-companion-app-for-linux](https://aur.archlinux.org/packages/confluence-companion-app-for-linux)||
 |**constl**|[constl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/constl-bin)|[constl-bin](https://aur.archlinux.org/packages/constl-bin)||
 |**container-desktop**|[container-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/container-desktop-bin)|[container-desktop-bin](https://aur.archlinux.org/packages/container-desktop-bin)||
