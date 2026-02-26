@@ -2,8 +2,8 @@
 _appname=kiro
 pkgname="${_appname}-ide-bin"
 _pkgname=Kiro
-pkgver=0.8.86
-_electronversion=37
+pkgver=0.10.32
+_electronversion=39
 pkgrel=1
 pkgdesc="Agent Programming Platform for Real Software.(Prebuilt version.Use system-wide electron)"
 arch=('x86_64')
@@ -17,6 +17,8 @@ depends=(
     'python-fonttools'
     'libxkbfile'
     'perl'
+    'libsecret'
+    'webkit2gtk-4.1'
 )
 makedepends=(
     'openssl'
@@ -36,8 +38,8 @@ source=(
     "${pkgname%-bin}.js"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('c9106ea33e60467619e5a655397fd3cf26289c91d05efd0259a632834f0b1419'
-            '10759d3516bbd666b2a333341e8353790d145a30de767ca6d48b837aa7129ad7'
+sha256sums=('af9a1318858af407fb396e1f13d7641531984cc824595aa9b2a63a2386c5060d'
+            'a7d2ae2686fd250141896011cf20fcbde271a458b045d99079dc93a12fb1d843'
             '2d4d8c0bf5cb6b2694911d6f448a2b9df76eed04683958829ae61fcff10143fd'
             '830fe101e4e16f718ccb2c5e83f9f088676679bf2e4e855b141f545e0085c18a'
             'e0ab2fe87491fabd9c7886f22c6929169edb508be832036a02698760b721f207')
@@ -71,6 +73,15 @@ prepare() {
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+    find "${srcdir}/usr/share/${_appname}/resources" -maxdepth 1 -type f -exec install -Dm644 -t "${pkgdir}/usr/lib/${pkgname%-bin}" {} +
+    if find "${srcdir}/usr/share/${_appname}/resources/app" -mindepth 1 -maxdepth 1 -type d | read; then
+        for _subdir in "${srcdir}/usr/share/${_appname}/resources/app/"*; do
+            if [ -d "${_subdir}" ]; then
+                cp -Pr --no-preserve=ownership "${_subdir}" "${pkgdir}/usr/lib/${pkgname%-bin}"
+            fi
+        done
+    fi
     cp -Pr --no-preserve=ownership "${srcdir}/usr/share/${_appname}/resources/app/"* "${pkgdir}/usr/lib/${pkgname%-bin}"
     install -Dm644 "${srcdir}/usr/share/pixmaps/code-oss.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
     install -Dm644 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
