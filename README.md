@@ -1514,7 +1514,6 @@
 |**vieb**|[vieb](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb)|[vieb](https://aur.archlinux.org/packages/vieb)||
 |**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||
-|**vilauncher**|[vilauncher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vilauncher-bin)|[vilauncher-bin](https://aur.archlinux.org/packages/vilauncher-bin)||
 |**vimp**|[vimp-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vimp-git)|[vimp-git](https://aur.archlinux.org/packages/vimp-git)||
 |**vis-launcher**|[vis-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vis-launcher-bin)|[vis-launcher-bin](https://aur.archlinux.org/packages/vis-launcher-bin)||
 |**visty**|[visty-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/visty-git)|[visty-git](https://aur.archlinux.org/packages/visty-git)||
