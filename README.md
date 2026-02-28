@@ -1500,7 +1500,6 @@
 |**up2share-desktop**|[up2share-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/up2share-desktop-git)|[up2share-desktop-git](https://aur.archlinux.org/packages/up2share-desktop-git)||
 |**upscayl**|[upscayl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/upscayl-git)|[upscayl-git](https://aur.archlinux.org/packages/upscayl-git)||
 |**upupup**|[upupup-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/upupup-bin)|[upupup-bin](https://aur.archlinux.org/packages/upupup-bin)||
-|**url-collector**|[url-collector-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/url-collector-bin)|[url-collector-bin](https://aur.archlinux.org/packages/url-collector-bin)||
 |**utask**|[utask-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utask-bin)|[utask-bin](https://aur.archlinux.org/packages/utask-bin)||
 |**utilso**|[utilso-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utilso-bin)|[utilso-bin](https://aur.archlinux.org/packages/utilso-bin)||
 |**utools**|[utools-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/utools-bin)|[utools-bin](https://aur.archlinux.org/packages/utools-bin)||
