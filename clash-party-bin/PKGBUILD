@@ -1,6 +1,6 @@
 _pkgname=mihomo-party
 pkgname=clash-party-bin
-pkgver=1.8.7
+pkgver=1.9.2
 _electronversion=37
 pkgrel=99
 pkgdesc=":electron: Another Mihomo GUI.(Prebuilt version.Use system-wide electron)"
@@ -32,10 +32,10 @@ source=(
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${pkgver}-aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${pkgver}-x86_64.rpm")
 sha256sums=('31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6')
-sha256sums_aarch64=('d36e88a43a055eb487b901b261298acd9b4ee37e90fcb91898ae2527369dc20b')
-sha256sums_x86_64=('a9d3c3e1284d7dcfb1e1cc20773091986326e2961f5430632d26476569f3c403')
+sha256sums_aarch64=('538216a570ebadc28d577269a5de366db89f7e8b586d8a52c21797c7ba8934f7')
+sha256sums_x86_64=('3ba00918193c5368e43b066a18f9e6c917e1f57b6050801a1c6569c82f3cd7ae')
 _get_electron_version() {
-    _electronversion="$(strings "${srcdir}/opt/${_pkgname}/${_pkgname}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
+    _electronversion="$(strings "${srcdir}/opt/${pkgname%-bin}/${_pkgname}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_electronversion}\033[0m"
 }
 prepare() {
@@ -47,21 +47,31 @@ prepare() {
         s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
     " "${srcdir}/${pkgname%-bin}.sh"
     sed -i -e "
-        s/\/opt\/${_pkgname}\/${_pkgname}/${pkgname%-bin}/g
+        s/\/opt\/${pkgname%-bin}\/${_pkgname}/${pkgname%-bin}/g
         s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
         s/Utility/Network/g
     " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
     _get_electron_version
-    asar e "${srcdir}/opt/${_pkgname}/resources/app.asar" "${srcdir}/app.asar.unpacked"
+    asar e "${srcdir}/opt/${pkgname%-bin}/resources/app.asar" "${srcdir}/app.asar.unpacked"
+    rm -rf "${srcdir}/opt/${pkgname%-bin}/resources/app.asar"
     find "${srcdir}/app.asar.unpacked/out" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
-    asar p "${srcdir}/app.asar.unpacked" "${srcdir}/app.asar"
-    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${_pkgname}/resources/sidecar/mihomo"
-    rm -rf "${srcdir}/opt/${_pkgname}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
+    asar p "${srcdir}/app.asar.unpacked" "${srcdir}/opt/${pkgname%-bin}/resources/app.asar"
+    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${pkgname%-bin}/resources/sidecar/mihomo"
+    rm -rf \
+        "${srcdir}/opt/${pkgname%-bin}/resources/"{apparmor-profile,app-update.yml,package-type} \
+        "${srcdir}/opt/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/app.asar" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -Pr --no-preserve=ownership "${srcdir}/opt/${_pkgname}/resources/"{app.asar.unpacked,files,sidecar} "${pkgdir}/usr/lib/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	find "${srcdir}/opt/${pkgname%-bin}/resources" -maxdepth 1 -type f -exec install -Dm644 -t "${pkgdir}/usr/lib/${pkgname%-bin}" {} +
+    if find "${srcdir}/opt/${pkgname%-bin}/resources" -mindepth 1 -maxdepth 1 -type d | read; then
+        for _subdir in "${srcdir}/opt/${pkgname%-bin}/resources/"*; do
+            if [ -d "${_subdir}" ]; then
+                cp -Pr --no-preserve=ownership "${_subdir}" "${pkgdir}/usr/lib/${pkgname%-bin}"
+            fi
+        done
+    fi
     install -Dm644 "${srcdir}/usr/share/icons/hicolor/512x512/apps/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
     install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
