@@ -1570,7 +1570,6 @@
 |**whispering**|[whispering-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whispering-bin)|[whispering-bin](https://aur.archlinux.org/packages/whispering-bin)||
 |**whisperpix**|[whisperpix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/whisperpix-bin)|[whisperpix-bin](https://aur.archlinux.org/packages/whisperpix-bin)||
 |**windows95**|[windows95-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/windows95-bin)<br>[windows95-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/windows95-git)|[windows95-bin](https://aur.archlinux.org/packages/windows95-bin)<br>[windows95-git](https://aur.archlinux.org/packages/windows95-git)||
-|**windpix**|[windpix-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/windpix-git)|[windpix-git](https://aur.archlinux.org/packages/windpix-git)||
 |**windterm**|[windterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/windterm-bin)|[windterm-bin](https://aur.archlinux.org/packages/windterm-bin)||
 |**winghexexplorer**|[winghexexplorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winghexexplorer-bin)|[warpgui-bin](https://aur.archlinux.org/packages/winghexexplorer-bin)||
 |**winkey**|[winkey-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/winkey-bin)<br>[winkey-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/winkey-git)|[winkey-bin](https://aur.archlinux.org/packages/winkey-bin)<br>[winkey-git](https://aur.archlinux.org/packages/winkey-git)||
