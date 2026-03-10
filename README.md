@@ -1530,6 +1530,7 @@
 |**vscodius**|[vscodius-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscodius-bin)|[vscodius-bin](https://aur.archlinux.org/packages/vscodius-bin)||
 |**vtm**|[vtm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vtm-bin)|[vtm-bin](https://aur.archlinux.org/packages/vtm-bin)||
 |**vudit**|[vudit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vudit-git)|[vudit-git](https://aur.archlinux.org/packages/vudit-git)||
+|**vulpecula-loom**|[vulpecula-loom-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vulpecula-loom-git)|[vulpecula-loom-git](https://aur.archlinux.org/packages/vulpecula-loom-git)||
 |**vutronmusic**|[vutronmusic](https://github.com/zxp19821005/My_AUR_Files/tree/main/vutronmusic)<br>[vutronmusic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vutronmusic-git)|[vutronmusic](https://aur.archlinux.org/packages/vutronmusic)<br>[vutronmusic-git](https://aur.archlinux.org/packages/vutronmusic-git)||
 |**vutronmusic-electron**|[vutronmusic-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vutronmusic-electron-bin)|[vutronmusic-electron-bin](https://aur.archlinux.org/packages/vutronmusic-electron-bin)||
 |**wai-chat-desktop**|[wai-chat-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/wai-chat-desktop)|[wai-chat-desktop](https://aur.archlinux.org/packages/wai-chat-desktop)||
