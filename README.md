@@ -1172,7 +1172,6 @@
 |**r3playx**|[r3playx-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-git) <br> [r3playx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3playx-bin)|[r3playx-git](https://aur.archlinux.org/packages/r3playx-git) <br> [r3playx-bin](https://aur.archlinux.org/packages/r3playx-bin)||
 |**r5-wallet**|[r5-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r5-wallet-bin)|[r5-wallet-bin](https://aur.archlinux.org/packages/r5-wallet-bin)||
 |**rabbitremotecontrol**|[rabbitremotecontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rabbitremotecontrol-bin)|[rabbitremotecontrol-bin](https://aur.archlinux.org/packages/rabbitremotecontrol-bin)||
-|**rainbow-bridge**|[rainbow-bridge-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rainbow-bridge-git)|[rainbow-bridge-git](https://aur.archlinux.org/packages/rainbow-bridge-git)||
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
 |**random-browser**|[random-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/random-browser-git)|[random-browser-git](https://aur.archlinux.org/packages/random-browser-git)||
 |**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
