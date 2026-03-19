@@ -61,7 +61,6 @@
 |**alpaca-electron**|[alpaca-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-bin) <br> [alpaca-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-git)|[alpaca-electron-bin](https://aur.archlinux.org/packages/alpaca-electron-bin) <br> [alpaca-electron-git](https://aur.archlinux.org/packages/alpaca-electron-git)||
 |**alpha-badger**|[alpha-badger](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpha-badger)|[alpha-badger](https://aur.archlinux.org/packages/alpha-badger)||
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
-|**alspotron**|[alspotron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alspotron-bin)|[alspotron-bin](https://aur.archlinux.org/packages/alspotron-bin)||
 |**altair**|[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**altarik-launcher**|[altarik-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altarik-launcher-bin)|[altarik-launcher-bin](https://aur.archlinux.org/packages/altarik-launcher-bin)||
 |**altitude-metrix-wallet**|[altitude-metrix-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altitude-metrix-wallet-bin)|[altitude-metrix-wallet-bin](https://aur.archlinux.org/packages/altitude-metrix-wallet-bin)||
