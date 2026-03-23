@@ -27,6 +27,7 @@
 |**ai-infra-guard**|[ai-infra-guard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-infra-guard-bin)|[ai-infra-guard-bin](https://aur.archlinux.org/packages/ai-infra-guard-bin)||
 |**aingdesk**|[aingdesk](https://github.com/zxp19821005/My_AUR_Files/tree/main/aingdesk)<br>[aingdesk-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aingdesk-git)|[aingdesk](https://aur.archlinux.org/packages/aingdesk)<br>[aingdesk-git](https://aur.archlinux.org/packages/aingdesk-git)||
 |**aione**|[aione](https://github.com/zxp19821005/My_AUR_Files/tree/main/aione)<br>[aione-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aione-bin)|[aione](https://aur.archlinux.org/packages/aione)<br>[aione-bin](https://aur.archlinux.org/packages/aione-bin)||
+|**aionui**|[aionui](https://github.com/zxp19821005/My_AUR_Files/tree/main/aionui)|[aionui](https://aur.archlinux.org/packages/aionui)||
 |**air-controller-desktop**|[air-controller-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-bin)|[air-controller-desktop-bin](https://aur.archlinux.org/packages/air-controller-desktop-bin)||
 |**airdrop-tool**|[airdrop-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airdrop-tool-bin)|[airdrop-tool-bin](https://aur.archlinux.org/packages/airdrop-tool-bin)||
 |**airgorah**|[airgorah-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airgorah-bin)|[airgorah-bin](https://aur.archlinux.org/packages/airgorah-bin)||
