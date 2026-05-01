@@ -386,6 +386,7 @@
 |**easyeditor**|[easyeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyeditor-bin)|[easyeditor-bin](https://aur.archlinux.org/packages/easyeditor-bin)||
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
 |**easytv**|[easytv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/easytv-bin)|[easytv-bin](https://aur.archlinux.org/packages/easytv-bin)||
+|**echo-music**|[echo-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/echo-music-bin)|[echo-music-bin](https://aur.archlinux.org/packages/echo-music-bin)||
 |**echoplayer**|[echoplayer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/echoplayer-git)<br>[echoplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/echoplayer-bin)|[echoplayer-git](https://aur.archlinux.org/packages/echoplayer-git)<br>[echoplayer-bin](https://aur.archlinux.org/packages/echoplayer-bin)||
 |**ecloud**|[ecloud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ecloud-bin)|[ecloud-bin](https://aur.archlinux.org/packages/ecloud-bin)||
 |**edex-ui**|[edex-ui](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui)<br>[edex-ui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/edex-ui-git)|[edex-ui](https://aur.archlinux.org/packages/edex-ui)<br>[edex-ui-git](https://aur.archlinux.org/packages/edex-ui-git)||
