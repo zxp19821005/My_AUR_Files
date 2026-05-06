@@ -733,6 +733,7 @@
 |**joy-xtream-player**|[joy-xtream-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/joy-xtream-player-git)|[joy-xtream-player-git](https://aur.archlinux.org/packages/joy-xtream-player-git)||
 |**jscast**|[jscast-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/jscast-git)|[jscast-git](https://aur.archlinux.org/packages/jscast-git)||
 |**js-design-electron**|[js-design-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-electron-bin)|[js-design-electron-bin](https://aur.archlinux.org/packages/js-design-electron-bin)||
+|**jts-hud-manager**|[jts-hud-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/jts-hud-manager-git)|[jts-hud-manager-git](https://aur.archlinux.org/packages/jts-hud-manager-git)||
 |**jlivertool**|[jlivertool](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool) <br> [jlivertool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jlivertool-bin)|[jlivertool](https://aur.archlinux.org/packages/jlivertool) <br> [jlivertool-bin](https://aur.archlinux.org/packages/jlivertool-bin)||
 |**jmcomic-downloader**|[jmcomic-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jmcomic-downloader-bin)|[jmcomic-downloader-bin](https://aur.archlinux.org/packages/jmcomic-downloader-bin)||
 |**jm-desktop**|[jm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jm-desktop-bin)|[jm-desktop-bin](https://aur.archlinux.org/packages/jm-desktop-bin)||
@@ -1022,7 +1023,6 @@
 |**opencomic**|[opencomic](https://github.com/zxp19821005/My_AUR_Files/tree/main/opencomic)|[opencomic](https://aur.archlinux.org/packages/opencomic)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-bin)|[openhome-bin](https://aur.archlinux.org/packages/openhome-bin)||
-|**openhud**|[openhud-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhud-git)|[openhud-git](https://aur.archlinux.org/packages/openhud-git)||
 |**open-image-tiny**|[open-image-tiny-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-image-tiny-git)|[open-image-tiny-git](https://aur.archlinux.org/packages/open-image-tiny-git)||
 |**openmarch**|[openmarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openmarch-bin)|[openmarch-bin](https://aur.archlinux.org/packages/openmarch-bin)||
 |**open-password-manager**|[open-password-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-password-manager-bin)|[open-password-manager-bin](https://aur.archlinux.org/packages/open-password-manager-bin)||
