@@ -1555,6 +1555,7 @@
 |**vfox**|[vfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vfox-bin)|[vfox-bin](https://aur.archlinux.org/packages/vfox-bin)||
 |**vgmtrans**|[vgmtrans-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vgmtrans-bin)|[vgmtrans-bin](https://aur.archlinux.org/packages/vgmtrans-bin)||
 |**via-desktop**|[via-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/via-desktop-bin)|[via-desktop-bin](https://aur.archlinux.org/packages/via-desktop-bin)||
+|**vibeyard**|[vibeyard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vibeyard-bin)|[vibeyard-bin](https://aur.archlinux.org/packages/vibeyard-bin)||
 |**vic-diary**|[vic-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vic-diary-bin)|[vic-diary-bin](https://aur.archlinux.org/packages/vic-diary-bin)||
 |**vidbee**|[vidbee-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vidbee-bin)|[vidbee-bin](https://aur.archlinux.org/packages/vidbee-bin)||
 |**video-chapter-injector**|[video-chapter-injector-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-chapter-injector-bin)|[video-chapter-injector-bin](https://aur.archlinux.org/packages/video-chapter-injector-bin)||
