@@ -1444,6 +1444,7 @@
 |**titan-rcs**|[titan-rcs-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/titan-rcs-git)|[titan-rcs-git](https://aur.archlinux.org/packages/titan-rcs-git)||
 |**tithree**|[tithree](https://github.com/zxp19821005/My_AUR_Files/tree/main/tithree)|[tithree](https://aur.archlinux.org/packages/tithree)||
 |**tjmc-launcher**|[tjmc-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tjmc-launcher-bin)|[tjmc-launcher-bin](https://aur.archlinux.org/packages/tjmc-launcher-bin)||
+|**tmax**|[tmax-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tmax-bin)|[tmax-bin](https://aur.archlinux.org/packages/tmax-bin)||
 |**tockler**|[tockler-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tockler-bin)|[tockler-bin](https://aur.archlinux.org/packages/tockler-bin)||
 |**todoist-wrapper**|[todoist-wrapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todoist-wrapper-bin)|[todoist-wrapper-bin](https://aur.archlinux.org/packages/todoist-wrapper-bin)||
 |**todometer**|[todometer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-bin) <br> [todometer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/todometer-git)|[todometer-bin](https://aur.archlinux.org/packages/todometer-bin) <br> [todometer-git](https://aur.archlinux.org/packages/todometer-git)||
