@@ -1215,6 +1215,7 @@
 |**reqable**|[reqable-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqable-bin)|[reqable-bin](https://aur.archlinux.org/packages/reqable-bin)||
 |**reqnotes**|[reqnotes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reqnotes-bin)|[reqnotes-bin](https://aur.archlinux.org/packages/reqnotes-bin)||
 |**requestly**|[requestly-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/requestly-git) <br> [requestly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/requestly-bin)|[requestly-git](https://aur.archlinux.org/packages/requestly-git) <br> [requestly-bin](https://aur.archlinux.org/packages/requestly-bin)||
+|**requesto**|[requesto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/requesto-bin)|[requesto-bin](https://aur.archlinux.org/packages/requesto-bin)||
 |**res-downloader**|[res-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/res-downloader-bin)|[res-downloader-bin](https://aur.archlinux.org/packages/res-downloader-bin)||
 |**responsively**|[responsively-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/responsively-git)|[responsively-git](https://aur.archlinux.org/packages/responsively-git)||
 |**restfox**|[restfox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/restfox-bin)|[restfox-bin](https://aur.archlinux.org/packages/restfox-bin)||
