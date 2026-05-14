@@ -1,14 +1,15 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=jlivertool-bin
+pkgname=jlivertool
+_pkgname=JLiverTool
 pkgver=3.0.6
 pkgrel=1
-pkgdesc="Bilibili 弹幕机.(Prebuilt version)"
-arch=('x86_64')
+pkgdesc="Simple Bilibili Danmaku Tool.Bilibili 弹幕机."
+arch=('any')
 url="http://jlivertool.xinrea.cn/"
 _ghurl="https://github.com/Xinrea/JLiverTool"
 license=('MIT')
-provides=("${pkgname%-bin}=${pkgver}")
-conflicts=("${pkgname%-bin}")
+provides=("${pkgname}")
+conflicts=("${pkgname}")
 depends=(
     'xdotool'
     'gdk-pixbuf2'
@@ -16,28 +17,30 @@ depends=(
     'openssl'
     'libxkbcommon-x11'
 )
-source=(
-    "${pkgname%-bin}-${pkgver}.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb"
-    "LICENSE-${pkgver}.md::https://raw.githubusercontent.com/Xinrea/JLiverTool/v${pkgver}/LICENSE.md"
-    "${pkgname%-bin}.sh"
+makedepends=(
+    'curl'
+    'git'
+    'rustup'
 )
-sha256sums=('52fd94d2dbde94b0a32374f4a1f360d0adf23a96b2885149dc09b71a2d3b03f9'
-            '5d86e387ac33cf32eee9c968d38483a30567690b843c3768b35fe4bc55b455a8'
-            '3b8311438e88f47eb507322a43c7a4156bfebb8c0f6e7b7436ef70842fb4c745')
+source=("${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}")
+sha256sums=('367ccf7a84a4e9e3c08f982a18b6efceef1360e597a81140e4247f98785cbd96')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    bsdtar -xf "${srcdir}/data."*
-    sed -i "s/Categories=/Categories=AudioVideo;/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    cd "${srcdir}/${pkgname}-${pkgver}"
+    export CARGO_HOME="${srcdir}/.cargo"
+    if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
+        export RUSTUP_DIST_SERVER="https://rsproxy.cn"
+        export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+        export NPM_CONFIG_REGISTRY="https://registry.npmmirror.com"
+    fi
+    rustup default stable
+}
+build() {
+    cd "${srcdir}/${pkgname}-${pkgver}"
+    cargo build --release -p "${pkgname}"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}/lib"
-    install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    ln -sf "/usr/lib/libxdo.so.4" "${pkgdir}/usr/lib/${pkgname%-bin}/lib/libxdo.so.3"
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/usr/share/icons/hicolor/512x512/apps//${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
+    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/target/release/${pkgname}" -t  "${pkgdir}/usr/bin"
+    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/icons/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/linux/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
