@@ -453,6 +453,7 @@
 |**electron43**|[electron43-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron43-bin)|[electron43-bin](https://aur.archlinux.org/packages/electron43-bin)||
 |**electron-builder**|[electron-builder](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-builder)|[electron-builder](https://aur.archlinux.org/packages/electron-builder)||
 |**electron-calculator**|[electron-calculator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-calculator-bin)|[electron-calculator-bin](https://aur.archlinux.org/packages/electron-calculator-bin)||
+|**electron-dam**|[electron-dam-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-dam-bin)|[electron-dam-bin](https://aur.archlinux.org/packages/electron-dam-bin)||
 |**electron-deno-ide**|[electron-deno-ide](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-deno-ide)|[electron-deno-ide](https://aur.archlinux.org/packages/electron-deno-ide)||
 |**electron-devdocs**|[electron-devdocs-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-devdocs-git)|[electron-devdocs-git](https://aur.archlinux.org/packages/electron-devdocs-git)||
 |**electron-ffmpeg-gui**|[electron-ffmpeg-gui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron-ffmpeg-gui-git)|[electron-ffmpeg-gui-git](https://aur.archlinux.org/packages/electron-ffmpeg-gui-git)||
