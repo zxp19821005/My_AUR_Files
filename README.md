@@ -1454,6 +1454,7 @@
 |**tomedb**|[tomedb-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomedb-bin)|[tomedb-bin](https://aur.archlinux.org/packages/tomedb-bin)||
 |**topzl**|[topzl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/topzl-git)|[topzl-git](https://aur.archlinux.org/packages/topzl-git)||
 |**torepe**|[torepe-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/torepe-git)|[torepe-git](https://aur.archlinux.org/packages/torepe-git)||
+|**trae**|[trae-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trae-bin)|自用版||
 |**transformerlab**|[transformerlab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/transformerlab-bin)|[transformerlab-bin](https://aur.archlinux.org/packages/transformerlab-bin)||
 |**translationcore**|[translationcore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/translationcore-bin)|[translationcore-bin](https://aur.archlinux.org/packages/translationcore-bin)||
 |**transmissionic**|[transmissionic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/transmissionic-bin)|[transmissionic-bin](https://aur.archlinux.org/packages/transmissionic-bin)||
