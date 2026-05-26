@@ -76,7 +76,6 @@
 |**aniflix**|[aniflix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniflix-bin)|[aniflix-bin](https://aur.archlinux.org/packages/aniflix-bin)||
 |**animathio**|[animathio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animathio-bin)|[animathio-bin](https://aur.archlinux.org/packages/animathio-bin)||
 |**animeclient**|[animeclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animeclient-bin)|[animeclient-bin](https://aur.archlinux.org/packages/animeclient-bin)||
-|**animestream**|[animestream-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-git) <br> [animestream-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animestream-bin)|[animestream-git](https://aur.archlinux.org/packages/animestream-git) <br> [animestream-bin](https://aur.archlinux.org/packages/animestream-bin)||
 |**animos**|[animos-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/animos-appimage)|[animos-appimage](https://aur.archlinux.org/packages/animos-appimage)||
 |**animu**|[animu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/animu-bin)|[animu-bin](https://aur.archlinux.org/packages/animu-bin)||
 |**aniparser**|[aniparser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aniparser-bin)|[aniparser-bin](https://aur.archlinux.org/packages/aniparser-bin)||
