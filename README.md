@@ -382,7 +382,7 @@
 |**eagle-animation**|[eagle-animation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eagle-animation-bin)|[eagle-animation-bin](https://aur.archlinux.org/packages/eagle-animation-bin)||\
 |**eaglergrab**|[eaglergrab-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/eaglergrab-bin)|[eaglergrab-bin](https://aur.archlinux.org/packages/eaglergrab-bin)||
 |**easyconnect**|[easyconnect](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyconnect)|[easyconnect](https://aur.archlinux.org/packages/easyconnect)||
-|**easyeditor**|[easyeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyeditor-bin)|[easyeditor-bin](https://aur.archlinux.org/packages/easyeditor-bin)||
+|**easyeditor**|[easyeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyeditor-bin)<br>[easyeditor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/easyeditor-git)|[easyeditor-bin](https://aur.archlinux.org/packages/easyeditor-bin)<br>[easyeditor-git](https://aur.archlinux.org/packages/easyeditor-git)||
 |**easy-player**|[easy-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/easy-player)|[easy-player](https://aur.archlinux.org/packages/easy-player)||
 |**easytv**|[easytv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/easytv-bin)|[easytv-bin](https://aur.archlinux.org/packages/easytv-bin)||
 |**echo-music**|[echo-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/echo-music-bin)|[echo-music-bin](https://aur.archlinux.org/packages/echo-music-bin)||
