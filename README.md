@@ -1602,6 +1602,7 @@
 |**wnr**|[wnr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wnr-bin)|[wnr-bin](https://aur.archlinux.org/packages/wnr-bin)||
 |**wolai**|[wolai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wolai-bin)|[wolai-bin](https://aur.archlinux.org/packages/wolai-bin)||
 |**woniu-ali**|[woniu-ali-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woniu-ali-bin)|[woniu-ali-bin](https://aur.archlinux.org/packages/woniu-ali-bin)||
+|**wonkey**|[wonkey-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wonkey-bin)|[wonkey-bin](https://aur.archlinux.org/packages/wonkey-bin)||
 |**woocommerce-pos**|[woocommerce-pos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woocommerce-pos-bin)|[woocommerce-pos-bin](https://aur.archlinux.org/packages/woocommerce-pos-bin)||
 |**woodfish**|[woodfish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woodfish-bin)<br>[woodfish-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/woodfish-git)|[woodfish-bin](https://aur.archlinux.org/packages/woodfish-bin)<br>[woodfish-git](https://aur.archlinux.org/packages/woodfish-git)||
 |**wora**|[wora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-bin) <br> [wora-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-git)|[wora-bin](https://aur.archlinux.org/packages/wora-bin) <br> [wora-git](https://aur.archlinux.org/packages/wora-git)||
