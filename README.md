@@ -646,7 +646,6 @@
 |**gui-butler**|[gui-butler](https://github.com/zxp19821005/My_AUR_Files/tree/main/gui-butler)|[gui-butler](https://aur.archlinux.org/packages/gui-butler)||
 |**guiwrapper**|[guiwrapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/guiwrapper-bin)|[guiwrapper-bin](https://aur.archlinux.org/packages/guiwrapper-bin)||
 |**gy-music-player**|[gy-music-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gy-music-player-git)|[gy-music-player-git](https://aur.archlinux.org/packages/gy-music-player-git)||
-|**he3-tools**|[he3-tools-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/he3-tools-bin)|[he3-tools-bin](https://aur.archlinux.org/packages/he3-tools-bin)||
 |**habit-tracker**|[habit-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/habit-tracker-bin)|[habit-tracker-bin](https://aur.archlinux.org/packages/habit-tracker-bin)||
 |****|[-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/-git)|[-git](https://aur.archlinux.org/packages/-git)||
 |**handbook**|[handbook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/handbook-bin)<br>[handbook-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/handbook-git)|[handbook-bin](https://aur.archlinux.org/packages/handbook-bin)<br>[handbook-git](https://aur.archlinux.org/packages/handbook-git)||
