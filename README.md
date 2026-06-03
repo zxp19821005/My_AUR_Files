@@ -1166,6 +1166,7 @@
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**qmusicplayer**|[qmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmusicplayer-bin)|[qmusicplayer-bin](https://aur.archlinux.org/packages/qmusicplayer-bin)||
 |**qoder**|[qoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qoder-bin)|[qoder-bin](https://aur.archlinux.org/packages/qoder-bin)||
+|**qoder-cn**|[qoder-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qoder-cn-bin)|[qoder-cn-bin](https://aur.archlinux.org/packages/qoder-cn-bin)||
 |**qqbrowser**|[qqbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qqbrowser-bin)|[qqbrowser-bin](https://aur.archlinux.org/packages/qqbrowser-bin)||
 |**qrocad-desktop**|[qrocad-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocad-desktop-bin)|[qrocad-desktop-bin](https://aur.archlinux.org/packages/qrocad-desktop-bin)||
 |**qrocrown**|[qrocrown-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qrocrown-bin)|[qrocrown-bin](https://aur.archlinux.org/packages/qrocrown-bin)||
