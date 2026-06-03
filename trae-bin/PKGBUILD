@@ -1,7 +1,7 @@
 # Maintainer: Yahya Toubali <me@yahyatoubali.me>
 pkgname=trae-bin
 _pkgname=Trae
-pkgver=2.3.29372
+pkgver=2.3.33256
 pkgrel=99
 pkgdesc="AI-powered IDE by ByteDance - The Real AI Engine for code development"
 arch=('x86_64')
@@ -29,12 +29,12 @@ optdepends=(
     'libvulkan: Vulkan support'
 )
 source=("${pkgname%-bin}.deb::https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.deb")
-sha256sums=('415cc8d4d3b5200199f10832a1e9b9ca74ff2adb1756cfbeebbd802026509d9b')
+sha256sums=('d76198b99458a224b285de018f906077acdae9f68899db457a91348fb69983a3')
 prepare() {
     bsdtar -xf "${srcdir}/data."*
 }
 package() {
-    cp -r "${srcdir}/usr" "${pkgdir}/" 
+    cp -r "${srcdir}/usr" "${pkgdir}/"
     install -Dm755 -d "${pkgdir}/usr/bin"
     ln -sf "/usr/share/${pkgname%-bin}/bin/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
     if [ -f "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/LICENSE.txt" ]; then
