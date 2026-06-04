@@ -675,7 +675,6 @@
 |**houdoku**|[houdoku](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku)<br>[houdoku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku-bin)<br>[houdoku-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdoku-git)|[houdoku](https://aur.archlinux.org/packages/houdoku)<br>[houdoku-bin](https://aur.archlinux.org/packages/houdoku-bin)<br>[houdoku-git](https://aur.archlinux.org/packages/houdoku-git)||
 |**houdunren-camera**|[houdunren-camera-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/houdunren-camera-bin)|[houdunren-camera-bin](https://aur.archlinux.org/packages/houdunren-camera-bin)||
 |**hoverfly**|[hoverfly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/hoverfly-bin)|[hoverfly-bin](https://aur.archlinux.org/packages/hoverfly-bin)||
-|**htbrowser**|[htbrowser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/htbrowser-bin)|[htbrowser-bin](https://aur.archlinux.org/packages/htbrowser-bin)||
 |**httptoolkit**|[httptoolkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/httptoolkit-git)|[httptoolkit-git](https://aur.archlinux.org/packages/httptoolkit-git)||
 |**huaweicloudmeeting**|[huaweicloudmeeting-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/huaweicloudmeeting-bin)|[huaweicloudmeeting-bin](https://aur.archlinux.org/packages/huaweicloudmeeting-bin)||
 |**huelectron**|[huelectron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/huelectron-bin)|[huelectron-bin](https://aur.archlinux.org/packages/huelectron-bin)||
