@@ -740,6 +740,7 @@
 |**jm-desktop**|[jm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jm-desktop-bin)|[jm-desktop-bin](https://aur.archlinux.org/packages/jm-desktop-bin)||
 |**jumble**|[jumble-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jumble-bin)|[jumble-bin](https://aur.archlinux.org/packages/jumble-bin)||
 |**justwrite**|[justwrite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/justwrite-git)|[justwrite-git](https://aur.archlinux.org/packages/justwrite-git)||
+|**k_and_b**|[k_and_b-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/k_and_b-bin)|[k_and_b-bin](https://aur.archlinux.org/packages/k_and_b-bin)||
 |**kaas**|[kaas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaas-bin)|[kaas-bin](https://aur.archlinux.org/packages/kaas-bin)||
 |**kaleido-client**|[kaleido-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kaleido-client-git)|[kaleido-client-git](https://aur.archlinux.org/packages/kaleido-client-git)||
 |**kalidoface**|[kalidoface-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kalidoface-bin)|[kalidoface-bin](https://aur.archlinux.org/packages/kalidoface-bin)||
