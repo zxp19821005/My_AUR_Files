@@ -34,7 +34,6 @@
 |**airi**|[airi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airi-bin)|[airi-bin](https://aur.archlinux.org/packages/airi-bin)||
 |**airlift**|[airlift-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airlift-bin)|[airlift-bin](https://aur.archlinux.org/packages/airlift-bin)||
 |**ai-writer**|[ai-writer](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-writer)|[ai-writer](https://aur.archlinux.org/packages/ai-writer)||
-|**akuse**|[akuse](https://github.com/zxp19821005/My_AUR_Files/tree/main/akuse) <br> [akuse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/akuse-bin) <br> [akuse-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/akuse-git)|[akuse](https://aur.archlinux.org/packages/akuse) <br> [akuse-bin](https://aur.archlinux.org/packages/akuse-bin) <br> [akuse-git](https://aur.archlinux.org/packages/akuse-git)||\
 |**albert-launcher**|[albert-launcher-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/albert-launcher-git)|[albert-launcher-git](https://aur.archlinux.org/packages/albert-launcher-git)||
 |**albumate**|[albumate-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/albumate-bin)|[albumate-bin](https://aur.archlinux.org/packages/albumate-bin)||
 |**algermusicplayer**|[algermusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/algermusicplayer-bin)|[algermusicplayer-bin](https://aur.archlinux.org/packages/algermusicplayer-bin)||
