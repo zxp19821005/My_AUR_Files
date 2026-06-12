@@ -4,7 +4,7 @@
 # Contributor: witt <1989161762 at qq dot com>
 pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
-# https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Update/other/amd64/linux_dingtalk_update_package_gray.json
+#  https://www.dingtalk.com/win/d/qd=linux_amd64
 pkgver=8.1.0.6021101
 pkgrel=99
 pkgdesc="DingTalk,钉钉"
@@ -30,7 +30,6 @@ options=(
 )
 depends=(
     'glu'
-    'gtk2'
     'libxcrypt-compat'
     'qt5-tools'
     'qt5-x11extras'
@@ -44,7 +43,6 @@ depends=(
     'libsm'
     'libice'
     'libxmu'
-    'openssl-1.1'
     'libxt'
 )
 makedepends=(
