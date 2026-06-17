@@ -476,7 +476,6 @@
 |**ente-desktop**|[ente-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ente-desktop-bin)|[ente-desktop-bin](https://aur.archlinux.org/packages/ente-desktop-bin)||
 |**envkey-cli**|[envkey-cli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-cli-bin)|[envkey-cli-bin](https://aur.archlinux.org/packages/envkey-cli-bin)||
 |**envkey-desktop**|[envkey-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/envkey-desktop-bin)|[envkey-desktop-bin](https://aur.archlinux.org/packages/envkey-desktop-bin)||
-|**epub-reader**|[epub-reader](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader) <br> [epub-reader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/epub-reader-bin)|[epub-reader](https://aur.archlinux.org/packages/epub-reader) <br> [epub-reader-bin](https://aur.archlinux.org/packages/epub-reader-bin)||
 |**er-editor**|[er-editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/er-editor-git)|[er-editor-git](https://aur.archlinux.org/packages/er-editor-git)||
 |**escrcpy**|[escrcpy](https://github.com/zxp19821005/My_AUR_Files/tree/main/escrcpy) <br> [escrcpy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/escrcpy-bin)|[escrcpy](https://aur.archlinux.org/packages/escrcpy) <br> [escrcpy-bin](https://aur.archlinux.org/packages/escrcpy-bin)||
 |**e-search**|[e-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/e-search-bin)|[e-search-bin](https://aur.archlinux.org/packages/e-search-bin)||
