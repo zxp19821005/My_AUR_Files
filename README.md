@@ -1017,8 +1017,8 @@
 |**p3x-onenote**|[p3x-onenote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-onenote-bin)|[p3x-onenote-bin](https://aur.archlinux.org/packages/p3x-onenote-bin)||
 |**p3x-redis-ui**|[p3x-redis-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/p3x-redis-ui-bin)|[p3x-redis-ui-bin](https://aur.archlinux.org/packages/p3x-redis-ui-bin)||
 |**padloc**|[padloc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/padloc-bin)|[padloc-bin](https://aur.archlinux.org/packages/padloc-bin)||
+|**pagebuilder**|[pagebuilder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pagebuilder-bin)|[pagebuilder-bin](https://aur.archlinux.org/packages/pagebuilder-bin)||
 |**pad-md**|[pad-md](https://github.com/zxp19821005/My_AUR_Files/tree/main/pad-md)|[pad-md](https://aur.archlinux.org/packages/pad-md)||
-|**page-builder**|[page-builder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/page-builder-bin)|[page-builder-bin](https://aur.archlinux.org/packages/page-builder-bin)||
 |**painting-droid**|[painting-droid-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/painting-droid-bin)|[painting-droid-bin](https://aur.archlinux.org/packages/painting-droid-bin)||
 |**pakeplus**|[pakeplus-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pakeplus-bin)|[pakeplus-bin](https://aur.archlinux.org/packages/pakeplus-bin)||
 |**palletone**|[palletone-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/palletone-git)|[palletone-git](https://aur.archlinux.org/packages/palletone-git)||
