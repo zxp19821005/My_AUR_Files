@@ -584,7 +584,6 @@
 |**github-desktop-zh**|[github-desktop-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-desktop-zh-bin)|[github-desktop-zh-bin](https://aur.archlinux.org/packages/github-desktop-zh-bin)||
 |**github-issue-alert**|[github-issue-alert-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-issue-alert-bin)|[github-issue-alert-bin](https://aur.archlinux.org/packages/github-issue-alert-bin)||
 |**github-panel**|[github-panel-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-panel-bin)|[github-panel-bin](https://aur.archlinux.org/packages/github-panel-bin)||
-|**github-store**|[github-store-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/github-store-bin)|[github-store-bin](https://aur.archlinux.org/packages/github-store-bin)||
 |**gitify**|[gitify](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify) <br> [gitify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gitify-bin)|[gitify](https://aur.archlinux.org/packages/gitify) <br> [gitify-bin](https://aur.archlinux.org/packages/gitify-bin)||
 |**git-it-electron**|[git-it-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-it-electron-git)|[git-it-electron-git](https://aur.archlinux.org/packages/git-it-electron-git)||
 |**git-light**|[git-light-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/git-light-bin)|[git-light-bin](https://aur.archlinux.org/packages/git-light-bin)||
@@ -747,6 +746,7 @@
 |**koala-client**|[koala-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koala-client-bin)|[koala-client-bin](https://aur.archlinux.org/packages/koala-client-bin)||
 |**kobo2notion**|[kobo2notion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kobo2notion-bin)<br>[kobo2notion-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kobo2notion-git)|[kobo2notion-bin](https://aur.archlinux.org/packages/kobo2notion-bin)<br>[kobo2notion-git](https://aur.archlinux.org/packages/kobo2notion-git)||
 |**koishi-desktop**|[koishi-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/koishi-desktop-bin)|[koishi-desktop-bin](https://aur.archlinux.org/packages/koishi-desktop-bin)||
+|**komi-store**|[komi-store-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/komi-store-bin)|[komi-store-bin](https://aur.archlinux.org/packages/komi-store-bin)||
 |**kpt**|[kpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kpt-bin)|[kpt-bin](https://aur.archlinux.org/packages/kpt-bin)||
 |**krillinai**|[krillinai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krillinai-bin)|[krillinai-bin](https://aur.archlinux.org/packages/krillinai-bin)||
 |**krowbar**|[krowbar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krowbar-bin)|[krowbar-bin](https://aur.archlinux.org/packages/krowbar-bin)||
