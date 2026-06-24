@@ -773,6 +773,7 @@
 |**leser**|[leser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leser-git)|[leser-git](https://aur.archlinux.org/packages/leser-git)||
 |**less-player**|[less-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-bin) <br> [less-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-git)|[less-player-bin](https://aur.archlinux.org/packages/less-player-bin) <br> [less-player-git](https://aur.archlinux.org/packages/less-player-git)||
 |**less-reader**|[less-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-reader-git)|[less-reader-git](https://aur.archlinux.org/packages/less-reader-git)||
+|**letos**|[letos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/letos-bin)|[letos-bin](https://aur.archlinux.org/packages/letos-bin)||
 |**lettura**|[lettura-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lettura-bin)|[lettura-bin](https://aur.archlinux.org/packages/lettura-bin)||
 |**lexicanter**|[lexicanter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lexicanter-bin)|[lexicanter-bin](https://aur.archlinux.org/packages/lexicanter-bin)||
 |**librelinkupdesktop**|[librelinkupdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librelinkupdesktop-bin)|[librelinkupdesktop-bin](https://aur.archlinux.org/packages/librelinkupdesktop-bin)||
@@ -1309,7 +1310,6 @@
 |**sqlark**|[sqlark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlark-bin)|[sqlark-bin](https://aur.archlinux.org/packages/sqlark-bin)||
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
 |**sqlite3-page-explorer**|[sqlite3-page-explorer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlite3-page-explorer-git) <br> [sqlite3-page-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlite3-page-explorer-bin)|[sqlite3-page-explorer-git](https://aur.archlinux.org/packages/sqlite3-page-explorer-git) <br> [sqlite3-page-explorer-bin](https://aur.archlinux.org/packages/sqlite3-page-explorer-bin)||
-|**sqlitestudio**|[sqlitestudio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlitestudio-bin)|[sqlitestudio-bin](https://aur.archlinux.org/packages/sqlitestudio-bin)||
 |**sqlui-native**|[sqlui-native-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlui-native-bin)|[sqlui-native-bin](https://aur.archlinux.org/packages/sqlui-native-bin)||
 |**sqview**|[sqview-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqview-git)|[sqview-git](https://aur.archlinux.org/packages/sqview-git)||
 |**srware-iron**|[srware-iron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/srware-iron-bin)|[srware-iron-bin](https://aur.archlinux.org/packages/srware-iron-bin)||
