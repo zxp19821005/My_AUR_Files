@@ -572,6 +572,7 @@
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
 |**geforce-infinity**|[geforce-infinity-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforce-infinity-bin)|[geforce-infinity-bin](https://aur.archlinux.org/packages/geforce-infinity-bin)||
+|**geforcenow-electron**|[geforcenow-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geforcenow-electron-bin)|[geforcenow-electron-bin](https://aur.archlinux.org/packages/geforcenow-electron-bin)||
 |**geolocator**|[geolocator-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geolocator-bin)|[geolocator-bin](https://aur.archlinux.org/packages/geolocator-bin)||
 |**geratron**|[geratron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/geratron-git)|[geratron-git](https://aur.archlinux.org/packages/geratron-git)||
 |**gerbil**|[gerbil-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gerbil-bin)|[gerbil-bin](https://aur.archlinux.org/packages/gerbil-bin)||
