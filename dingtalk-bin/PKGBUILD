@@ -25,9 +25,6 @@ replaces=(
     "${_debname}"
 )
 license=('LicenseRef-custom')
-options=(
-    '!strip'
-)
 depends=(
     'glu'
     'libxcrypt-compat'
@@ -60,7 +57,7 @@ source=(
     "${pkgname%-bin}.sh"
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
-            '3e1ce1cfa5d686e733897fe5cdbc04c2322a240ae11ce1a33b82e6959221bc75')
+            'f286407184fb97af2f81ef6e58c7e707391142f41524955331f226cab73c53f6')
 sha256sums_aarch64=('48428f7295869815900c341867bbbd279b0eb172364287dd78bb21cedfb499ef')
 sha256sums_x86_64=('ec492f12feabece34702ea47e3cfc1a164ae2e8dabdee9b05e74a3a5e4de21d5')
 prepare() {
@@ -85,7 +82,7 @@ prepare() {
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 -d "${pkgdir}/opt/${pkgname%-bin}/release"
-    cp -Pr --no-preserve=ownership "${srcdir}/opt/apps/${_debname}/files/"*-Release*/* "${pkgdir}/opt/${pkgname%-bin}/release"
+    cp -a "${srcdir}/opt/apps/${_debname}/files/"*-Release*/* "${pkgdir}/opt/${pkgname%-bin}/release"
     install -Dm644 "${srcdir}/opt/apps/${_debname}/files/version" -t "${pkgdir}/opt/${pkgname%-bin}"
     install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
     install -Dm644 "${srcdir}/${pkgname%-bin}.svg" -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
