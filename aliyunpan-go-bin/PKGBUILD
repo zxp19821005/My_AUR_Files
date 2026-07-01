@@ -2,7 +2,7 @@
 # Contributor: BryanLiang <liangrui.ch@gmail.com>
 _pkgname=aliyunpan
 pkgname="${_pkgname}-go-bin"
-pkgver=0.3.7
+pkgver=0.3.9
 pkgrel=1
 pkgdesc='Aliyun disk command line client, support JavaScript plug-in, support synchronous backup function.阿里云盘命令行客户端,支持webdav文件服务,支持JavaScript插件,支持同步备份功能.(Precompiled version)'
 arch=(
@@ -20,10 +20,10 @@ source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.zip::${url}/releases/download
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.zip::${url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-armv7.zip")
 source_i686=("${pkgname%-bin}-${pkgver}-i686.zip::${url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-386.zip")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.zip::${url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-amd64.zip")
-sha256sums_aarch64=('e07f9197f60a251d909922fc0952199ad250f75687b8e2874d8aa527a060e18a')
-sha256sums_armv7h=('a7438a284d6fd44dcbde3e2cf280900da5fc32e06c545023223ba8e6437722c5')
-sha256sums_i686=('59b43863ce8947c295261aedb5abbc796f6acc98eb80928ec3efe874221bd174')
-sha256sums_x86_64=('71a728076f424d2eb672c5c6f08dd4d9cd9c7318b8cf39600878aaffbff9d3e2')
+sha256sums_aarch64=('67e040e9f5fb8420a4a338f256c907876fa7d73b1eb680341595a8fe05b975c6')
+sha256sums_armv7h=('5c365eac19642e68ba097f539948a179236fac8db217e2e3ec00ab549ef170ce')
+sha256sums_i686=('e0b7480ee8845f8590630dac6a9c17951a59dedcc6bb5acecc35d7fc26fd01d5')
+sha256sums_x86_64=('4653c1d79d7e156e275162481ac71f3e6f6b1c72b604c4b663a8a17fb2b361d7')
 package() {
     install -Dm755 "${srcdir}/${_pkgname}-v${pkgver}-linux-"*/"${_pkgname}" -t "${pkgdir}/usr/bin"
     install -Dm755 "${srcdir}/${_pkgname}-v${pkgver}-linux-"*/webdav.sh "${pkgdir}/usr/bin/${_pkgname}-webdav"

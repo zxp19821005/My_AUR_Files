@@ -2,8 +2,9 @@
 # Contributor: Valerio Pizzi (pival81) <pival81@yahoo.com>
 pkgname=museeks
 _pkgname=Museeks
-pkgver=0.20.9
-_nodeversion=23
+_flatpakname="io.${pkgname}.app"
+pkgver=0.23.4
+_nodeversion=25
 pkgrel=1
 pkgdesc="🎵 A simple, clean and cross-platform music player."
 arch=('any')
@@ -15,51 +16,60 @@ depends=(
 	'gtk3'
 )
 makedepends=(
-    'bun'
+	'npm'
     'nvm'
     'curl'
-	'rust'
+	'rustup'
+	'git'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/${pkgver}.tar.gz"
+    "${pkgname}-${pkgver}::git+${_ghurl}#tag=${pkgver}"
 )
-sha256sums=('2d957cb0a7f52fdbc48a88427daa4abbdcf77b8700ab7fdd9d27624ae5f4c52f')
+sha256sums=('4f4ef0e97cb87c1ffd081f5c8b8be4bb68ff7d6744c8fe6759c8381fc527b564')
 _ensure_local_nvm() {
     local NVM_DIR="${srcdir}/.nvm"
     source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
     nvm install "${_nodeversion}"
     nvm use "${_nodeversion}"
 }
+_ensure_rust_toolchain() {
+    export RUSTUP_HOME="${srcdir}/.rustup"
+    rustup default stable
+}
 prepare() {
-    _ensure_local_nvm
-    cd "${srcdir}/${pkgname}-${pkgver}"
+	cd "${srcdir}/${pkgname}-${pkgver}"
 	export CARGO_HOME="${srcdir}/.cargo"
 	HOME="${srcdir}/.electron-gyp"
-	if [ -f bunfig.toml ]; then
-		rm -rf bunfig.toml
-	fi
-		if [ -f bun.lockb ];then
-		rm -rf bun.lockb
-	fi
+	{
+		echo -e '\n'
+		#echo 'build_from_source=true'
+		echo "cache=${srcdir}/.npm_cache"
+		echo "maxsockets=32"
+	} >> .npmrc
 	if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
 		{
-			echo '[install]'
-			echo 'registry = "https://registry.npmmirror.com"'
-		} >> bunfig.toml
-		export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-		export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+			echo 'registry=https://registry.npmmirror.com'
+		} >> .npmrc
+		export RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"
+		export RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"
+		find ./ -type f -name "package-lock.json" -exec sed -i "s/registry.npmjs.org/registry.npmmirror.com/g" {} +
 	fi
-    NODE_ENV=development    bun install
+	_ensure_local_nvm
+    _ensure_rust_toolchain
+    NODE_ENV=development    npm install
 }
 build() {
 	cd "${srcdir}/${pkgname}-${pkgver}"
+	_ensure_local_nvm
 	sed -i 's/"dmg", "nsis", "appimage", "deb", "rpm"/"deb"/g' src-tauri/tauri.conf.json
-	NODE_ENV=production    bun tauri build
+	NODE_ENV=production     npm run tauri build
+	sed -i "s/${_flatpakname}/${pkgname}/g" src-tauri/release/flatpak.metainfo.xml
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/bin/"${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/lib/"${_pkgname}"/icons/icon.png \
-        -t "${pkgdir}/usr/lib/${_pkgname}/icons"
+	install -Dm755 -d "${pkgdir}/usr/lib/${_pkgname}"
+    cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/lib/"${_pkgname}/icons" \
+        "${pkgdir}/usr/lib/${_pkgname}"
 	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/share/applications/"${_pkgname}".desktop \
         "${pkgdir}/usr/share/applications/${pkgname}.desktop"
 	_icon_sizes=(32x32 128x128 256x256@2)
@@ -67,5 +77,6 @@ package() {
         install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/share/icons/hicolor/"${_icons}"/apps/"${pkgname}".png \
             -t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
     done
+	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/release/flatpak.metainfo.xml" "${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
     install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

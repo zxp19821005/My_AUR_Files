@@ -1,19 +1,21 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-# Maintainer: Yurii Kolesnykov <root@yurikoles.com>
-# based on aur electron8-bin: Tom Vincent <http://tlvince.com/contact/>
-_projectname='electron'
+# Maintainer: yurikoles <root at yurikoles dot com>
+# Contributor: Daniel Peukert <daniel@peukert.cc>
+# Contributor: Nicola Squartini <tensor5@gmail.com> (electron-launcher.sh script)
+# Contributor: Matthew McGinn <mamcgi@gmail.com>
+_projectname=electron
 _major=3
 _pkgname="${_projectname}${_major}"
 pkgname="${_pkgname}"-bin
-_subver="1.13"
+_subver='1.13'
 _pkgver="${_major}.${_subver}"
 pkgver="${_pkgver/-/.}"
-pkgrel=8
-pkgdesc="Build cross platform desktop apps with web technologies - version ${_major} - binary version"
+pkgrel=9
+pkgdesc="Build cross platform desktop apps with web technologies — prebuilt"
 arch=(
     'aarch64'
     'armv7h'
-    'i686'
+	'i686'
     'x86_64'
 )
 url='https://electronjs.org'
@@ -30,13 +32,17 @@ depends=(
     'alsa-lib'
     'gtk3'
     'nss'
+	'libxss'
 )
 optdepends=(
     'kde-cli-tools: file deletion support (kioclient5)'
-    'libappindicator-gtk3: StatusNotifierItem support'
     'pipewire: WebRTC desktop sharing under Wayland'
     'trash-cli: file deletion support (trash-put)'
     "xdg-utils: open URLs with desktop's default (xdg-email, xdg-open)"
+)
+noextract=(
+	"${_pkgname}-chromedriver-${pkgver}-${CARCH}.zip"
+	"${_pkgname}-${pkgver}-${CARCH}.zip"
 )
 source_aarch64=(
     "${_pkgname}-chromedriver-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver}/chromedriver-v${_pkgver}-linux-arm64.zip"
@@ -62,17 +68,15 @@ sha256sums_i686=('03eea93b7a741c53de4d70a6d0aad817e76077ee607c3e5799ea88f8548b91
                  '43b046768e6189794097a8e11e81d305a9c3586685b2ac88b3e44a452ecb2012')
 sha256sums_x86_64=('aaaa85c1e3b83b0c9c4337e8a8fd46fcae7be3a00c7bb8ca5dc48169c88e34f8'
                    '33ab34af83bd1063fb1581ad0fed6dc1120b6b5d1dba0a8db3164af3e95d55df')
+prepare() {
+    install -Dm755 -d "${srcdir}/${_pkgname}"
+    bsdtar -xf "${srcdir}/${_pkgname}-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
+    bsdtar -xf "${srcdir}/${_pkgname}-chromedriver-${pkgver}-${CARCH}.zip" -C "${srcdir}/${_pkgname}"
+    rm -rf "${srcdir}/${_pkgname}/"{gen,chromedriver.debug}
+}
 package() {
-    install -dm755 "${pkgdir}/usr/lib/${_pkgname}/"
-    find . -mindepth 1 -maxdepth 1 -type f ! -name "*.zip" ! -name "LICENSE*" -exec cp -r --no-preserve=ownership --preserve=mode -t "${pkgdir}/usr/lib/${_pkgname}/." {} +
-    for _folder in 'locales' 'resources'; do
-        cp -r --no-preserve=ownership --preserve=mode "${_folder}/" "${pkgdir}/usr/lib/${_pkgname}/${_folder}/"
-    done
-    #chmod u+s "${pkgdir}/usr/lib/${_pkgname}/chrome-sandbox"
-    install -dm755 "${pkgdir}/usr/bin"
+    install -Dm755 -d "${pkgdir}/usr/"{bin,lib}
+    cp -r --no-preserve=ownership --preserve=mode "${srcdir}/${_pkgname}" "${pkgdir}/usr/lib"
     ln -nfs "/usr/lib/${_pkgname}/${_projectname}" "${pkgdir}/usr/bin/${_pkgname}"
-        
-    for _license in 'LICENSE' 'LICENSES.chromium.html'; do
-        install -Dm644 "${_license}" "${pkgdir}/usr/share/licenses/${pkgname}/${_license}"
-    done
+    install -Dm644 "${srcdir}/${_pkgname}/LICENSE"* -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

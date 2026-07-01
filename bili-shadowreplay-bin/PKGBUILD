@@ -1,12 +1,12 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=bili-shadowreplay-bin
 _pkgname='BiliBili ShadowReplay'
-pkgver=2.3.0
+pkgver=2.19.10
 pkgrel=1
 pkgdesc="A tool for caching bilibili live broadcasts and editing submissions in real time.(Prebuilt version)一个B站缓存直播并进行实时编辑投稿的工具"
 arch=('x86_64')
 url="https://github.com/Xinrea/bili-shadowreplay"
-license=('LicenseRef-unknown')
+license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
@@ -16,8 +16,10 @@ depends=(
 )
 source=(
     "${pkgname%-bin}-${pkgver}.rpm::${url}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-1.${CARCH}.rpm"
+    "LICENSE-${pkgver}::https://raw.githubusercontent.com/Xinrea/bili-shadowreplay/v${pkgver}/LICENSE"
 )
-sha256sums=('039f12122d8b7ae3b4813db8749404bc90727c290f95ec1faf8e963ea4f9d56e')
+sha256sums=('4291b0d91e6f26c5e87c7cb39dde9af92958bd9781aeeae30fa41cb2ccffd0e5'
+            '4cbb91ff4be21fae9f321899a00b75e05f7b40aee1b2aa5d4896a7155822cb45')
 prepare() {
     sed -i -e "
         s/Comment=${_pkgname}/Comment=${pkgdesc}/g
@@ -33,4 +35,5 @@ package() {
             -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
     done
     install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

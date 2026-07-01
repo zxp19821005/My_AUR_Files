@@ -1,8 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=zebar-bin
 _pkgname=Zebar
-pkgver=2.7.0
-pkgrel=1
+pkgver=3.3.1
+pkgrel=2
 pkgdesc="A tool for creating customizable and cross-platform taskbars, desktop widgets, and popups.(Prebuilt version)"
 arch=('x86_64')
 url="https://github.com/glzr-io/zebar"
@@ -13,18 +13,18 @@ depends=(
     'gtk3'
     'gdk-pixbuf2'
     'webkit2gtk-4.1'
-    'nodejs'
+    'libayatana-appindicator'
 )
 source=(
     "${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/v${pkgver}/${pkgname%-bin}-v${pkgver}-opt4-x64.deb"
 )
-sha256sums=('8e19323d2716dd7bf78bf29d50e8c7b181484afad42d563460bff54f7e1415dc')
+sha256sums=('ab3c0f33b7a55619a6739d21b819601bcb2129157daaabaeb81a480f6b34ed11')
 prepare() {
     bsdtar -xf "${srcdir}/data."*
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" -t "${pkgdir}/usr"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "${pkgdir}/usr"
     _icon_sizes=(32x32 128x128 256x256@2)
     for _icons in "${_icon_sizes[@]}";do
         install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \

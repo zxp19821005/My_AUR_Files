@@ -3,7 +3,7 @@
 _appname=clash-verge
 pkgname="${_appname}-rev-bin"
 _pkgname='Clash Verge'
-pkgver=2.2.2
+pkgver=2.5.1
 pkgrel=99
 pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri.(Prebuilt version)"
 arch=(
@@ -29,9 +29,9 @@ options=('!strip')
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.aarch64.rpm")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.armhfp.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.x86_64.rpm")
-sha512sums_aarch64=('14cafb7780b47f332cbdd8573ce9fdfdac9a6518b7e98285e404d441ce1a6f74b4d4f0a2d9b01424516a9bb2b31394a0f786a3d64d30d67b0d9708a56f2b945b')
-sha512sums_armv7h=('aee22614f7ff64826c7cf25ba9356c47ebf8cf7000ce7b7e52c03d5cfe4ed26f3180fef586df93f9bb76f2ddb79ab53631d9df174697a47e0bbc9a2cda7a9854')
-sha512sums_x86_64=('1a1500e4f7c3f0194429b28528bc7912471e7c3ec8e1938c0e21ec1c0591874f01c7b60711154175f5c29ecd4abb0b84cc8a2f0ecbe2135629f32f9b1d55f088')
+sha512sums_aarch64=('06aba316810f1ea0a0b2c1747d320b7f1277cdafbd64b0aaa66aac703f563d46569cf47d8f9fa25e48f821b7fb71f93c3fc827257ea72b28618a3df8bf35bd1f')
+sha512sums_armv7h=('2c9d28e59d4c642d4f4f25f101e0e224c5f2ba1101f3ca107013469bfe7722dbfaf99f4a2a5ab4726adc294c882dcdcbd195a5c453bb99ac7d47ad45ead530b9')
+sha512sums_x86_64=('d572e854a74b95a79574a43e27929c6cc7fbfbfd4e46ef499560f1d57b55e6650edb8d26e94babb6bfd3b720c470e971f68f66ebc15df08dd8423ef0e54628c3')
 prepare() {
     sed -i -e "
         s/Development/Network/g
@@ -40,10 +40,12 @@ prepare() {
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "${pkgdir}/usr"
+    cp -a "${srcdir}/usr/lib" "${pkgdir}/usr"
     install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${_appname}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps/${pkgname%-bin}.png"
+    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
+        _extension="${_i##*.}"
+        _icon_path="${_i#*share/icons/}"
+        _target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
+        install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
     done
 }

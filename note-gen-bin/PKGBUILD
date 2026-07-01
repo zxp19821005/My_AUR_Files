@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=note-gen-bin
 _pkgname=NoteGen
-pkgver=0.12.0
+pkgver=0.30.0
 pkgrel=1
 pkgdesc="An AI notebook that focuses on recording and writing and is cross-platform.(Prebuilt version)一款专注于记录和写作的跨端AI笔记"
 arch=('x86_64')
@@ -16,11 +16,11 @@ depends=(
     'webkit2gtk-4.1'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/app-v${pkgver}/${_pkgname}-${pkgver}-1.${CARCH}.rpm"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/codexu/note-gen/app-v${pkgver}/LICENSE"
+    "${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/${pkgname%-bin}-v${pkgver}/${_pkgname}-${pkgver}-1.${CARCH}.rpm"
+    "LICENSE-${pkgver}::https://raw.githubusercontent.com/codexu/note-gen/${pkgname%-bin}-v${pkgver}/LICENSE"
 )
-sha256sums=('bb6730e0bb2bdbf9a323b458ddb06014f71addb77e10dd8751858b82524b459d'
-            'c64e312ddcfe517655f9053eb1bb7a96f53c4c9487251475f32723dd85b91a92')
+sha256sums=('c261f05bc0594cdbaee9612c305b14631f488bf4b424dd6a8b7dab094a8ec064'
+            'b55c98ae197475e699fccf634d9fff328b4552cc7143f9e7055f5bc71e55a949')
 prepare() {
     sed -i -e "
         s/Comment=A Tauri App/Comment=${pkgdesc}/g
@@ -29,6 +29,8 @@ prepare() {
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+    install -Dm755 -d "${pkgdir}/usr/lib/${_pkgname}"
+    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib/${_pkgname}/icons" "${pkgdir}/usr/lib/${_pkgname}"
     _icon_sizes=(32x32 128x128 256x256@2)
     for _icons in "${_icon_sizes[@]}";do
         install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \

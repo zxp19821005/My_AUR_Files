@@ -2,14 +2,20 @@
 _pkgname=slimjet
 pkgname="${_pkgname}-beta-bin"
 _appname="flashpeak-${_pkgname}"
-pkgver=45.0.3.0
-_libffmpegver=0.98.0
+pkgver=46.0.3.0
+_libffmpegver=0.100.1
 pkgrel=2
 pkgdesc="Fast, smart and powerful browser based on Blink.(Prebuilt beta version)"
 arch=('x86_64')
 url="https://www.slimjet.com"
 _dlurl="https://www.slimjetbrowser.com"
 _libffmpegverurl="https://github.com/nwjs-ffmpeg-prebuilt/nwjs-ffmpeg-prebuilt"
+conflicts=(
+    "${_pkgname}35"
+    "${_pkgname}"
+    "${pkgname%-bin}"
+)
+provides=("${_pkgname}")
 license=('LicenseRef-freeware')
 depends=(
     'libxcb'
@@ -24,19 +30,12 @@ depends=(
     'cairo'
     'libxkbcommon'
     'pango'
-    'libdrm'
     'mesa'
 )
 optdepends=(
-    'kdialog: needed for file dialogs in KDE' 'ttf-liberation: fix fonts for some PDFs'
+    'kdialog: needed for file dialogs in KDE'
     'ttf-liberation: fix fonts for some PDFs'
 )
-conflicts=(
-    "${_pkgname}35"
-    "${_pkgname}"
-    "${pkgname%-bin}"
-)
-provides=("${_pkgname}")
 options=(
     '!emptydirs'
     '!strip'
@@ -46,8 +45,8 @@ source=(
     "${pkgname%-bin}-${pkgver}_amd64.deb::${_dlurl}/beta/${_pkgname}_amd64.deb"
     "libffmpeg-${_libffmpegver}.zip::${_libffmpegverurl}/releases/download/${_libffmpegver}/${_libffmpegver}-linux-x64.zip"
 )
-sha256sums=('46d0cdd8d5ce35f8c76e7302e0c93d7c0c00e31ae67eadc7f43fde16e6b39256'
-            'ae5552ed1e777a3b21834761eecc2e2c2fca45cf37b0f8182b702fe950849222')
+sha256sums=('cd752e21eb2cd666b668efeeeac0372c9df101b944a98c599df33d5868c7d1e7'
+            'f97bd8f332bf1e5ac4f1d89f78c9dcfac9b2dbec9d02a29dfbb9d9d6c971e72e')
 prepare() {
     bsdtar -xf "${srcdir}/data."*
     bsdtar -xf "${srcdir}/control."*
@@ -58,10 +57,9 @@ pkgver() {
     grep "Version:" "${srcdir}/control" | awk '{print $2}'
 }
 package() {
-    install -Dm755 -d "${pkgdir}/usr/bin"
-    cp -Pr --no-preserve=ownership "${srcdir}/opt" "${pkgdir}"
-    ln -sf "/opt/${_pkgname}/${_appname}" "${pkgdir}/usr/bin/${_appname}"
-    install -Dm644 "${srcdir}/libffmpeg.so" -t "${pkgdir}/opt/${_pkgname}"
+    install -Dm755 -d "${pkgdir}/usr/"{bin,lib}
+    cp -Pr --no-preserve=ownership "${srcdir}/opt/${_pkgname}" "${pkgdir}/usr/lib"
+    ln -sf "/usr/lib/${_pkgname}/${_appname}" "${pkgdir}/usr/bin/${_appname}"
     install -Dm644 "${srcdir}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
     install -Dm644 "${srcdir}/usr/share/gnome-control-center/default-apps/${_pkgname}.xml" -t "${pkgdir}/usr/share/gnome-control-center/default-apps"

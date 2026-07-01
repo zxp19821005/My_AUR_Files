@@ -2,33 +2,35 @@
 # Contributor: Mikel Pintado <mikelaitornube2010@gmail.com>
 _appname=nuclear
 pkgname="${_appname}-player"
-_pkgname="Nuclear Player"
-pkgver=0.6.45
-_electronversion=33
-_nodeversion=22
+_pkgname='Nuclear Player'
+pkgver=1.41.0
+_nodeversion=24
 pkgrel=1
-pkgdesc="A free, multiplatform music player app that streams from multiple sources.(Use system-wide electron)"
+pkgdesc="Streaming music player that finds free music for you."
 arch=('any')
-url="http://nuclear.gumblert.tech/"
+url="https://nuclearplayer.com/"
 _ghurl="https://github.com/nukeop/nuclear"
 license=('AGPL-3.0-only')
 depends=(
-    "electron${_electronversion}"
+    'webkit2gtk-4.1'
+    'libsoup3'
+    'gtk3'
+    'wavpack'
+    'gst-plugins-good'
 )
 makedepends=(
-    'gendesk'
-    'npm'
+    'pnpm'
     'nvm'
     'curl'
-    'rust'
-    'git'
+    'rustup'
 )
-source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
-    "${pkgname}.sh"
+optdepends=(
+    'gst-plugins-bad: Additional media codec support'
+    'gst-plugins-ugly: Patented codec support'
+    'gst-libav: FFmpeg-based codec support'
 )
-sha256sums=('b9cac2b84f6355e71235abadfaeca54479905bf6f72c0b99199dc206983789dd'
-            '291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
+source=("${pkgname}-${pkgver}::git+${_ghurl}#tag=player@${pkgver}")
+sha256sums=('SKIP')
 _ensure_local_nvm() {
     local NVM_DIR="${srcdir}/.nvm"
     source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
@@ -36,55 +38,66 @@ _ensure_local_nvm() {
     nvm use "${_nodeversion}"
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-        s/@runname@/app.asar/g
-        s/@cfgdirname@/${_appname}/g
-        s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
-    " "${srcdir}/${pkgname}.sh"
-    _ensure_local_nvm
-    gendesk -q -f -n --pkgname="${pkgname}" --pkgdesc="${pkgdesc}" --categories="AudioVideo" --name="${_pkgname}" --exec="${pkgname} %U"
     cd "${srcdir}/${pkgname}-${pkgver}"
-    export ELECTRON_SKIP_BINARY_DOWNLOAD=1
-    export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
     export CARGO_HOME="${srcdir}/.cargo"
-    HOME="${srcdir}/.electron-gyp"
-    {
-        echo -e '\n'
-        #echo 'build_from_source=true'
-        echo "cache=${srcdir}/.npm_cache"
-    } >> .npmrc
+    export PNPM_LINK_WORKSPACE_PACKAGES=true
+	export PNPM_FETCH_RETRY_MAXTIMEOUT=10000
+	export PNPM_CACHE_DIR="${srcdir}/.pnpm_cache"
+	export PNPM_STORE_DIR="${srcdir}/.pnpm_store"
+	export PNPM_VIRTUAL_STORE_DIR="${srcdir}/.pnpm_store"
+	export PNPM_SHAMEFULLY_HOIST=true
+	export PNPM_VIRTUAL_STORE_DIR_MAX_LENGTH=80
+	export PNPM_NODE_LINKER=hoisted
+	export PNPM_NETWORK_CONCURRENCY=32
     if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
-        export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-        export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
-        {
-            echo 'registry=https://registry.npmmirror.com'
-            echo 'electron_mirror=https://registry.npmmirror.com/-/binary/electron/'
-            echo 'electron_builder_binaries_mirror=https://registry.npmmirror.com/-/binary/electron-builder-binaries/'
-        } >> .npmrc
-        find ./ -type f -name "package-lock.json" -exec sed -i "s/registry.npmjs.org/registry.npmmirror.com/g" {} +
-        echo packages/{app,core,i18n,main,scanner,ui} | xargs -n 1 cp .npmrc
+        export RUSTUP_DIST_SERVER="https://rsproxy.cn"
+        export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+        export NPM_CONFIG_REGISTRY="https://registry.npmmirror.com"
+        export PNPM_REGISTRY="https://registry.npmmirror.com"
+        export NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
     fi
-    sed -i "s/\"electron\": \"[^\"]*\"/\"electron\": \"${SYSTEM_ELECTRON_VERSION}\"/g" package.json
-    NODE_ENV=development    npm install
+    _ensure_local_nvm
+    sed -i -e "
+        s/Exec=nuclear-music-player/Exec=${pkgname}/g
+        s/Icon=com.nuclearplayer.Nuclear/Icon=${pkgname}/g
+    " packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.desktop
+    sed -i "s/com.nuclearplayer.Nuclear/${pkgname}/g" packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml
+    sed -i -e "
+        s/\"active\"\: true\,/\"active\"\: false\,/g
+        s/${_appname}-music-player/${pkgname}/g
+    " packages/player/src-tauri/tauri.conf.json
+    NODE_ENV=development    pnpm add -D node-addon-api node-gyp
+    NODE_ENV=development    pnpm install --no-frozen-lockfile
+    rustup default stable
 }
 build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
-    local electronDist="/usr/lib/electron${_electronversion}"
-    NODE_ENV=production     npx shx rm -rf dist
-    NODE_ENV=production     npx lerna run build
-    NODE_ENV=production NODE_OPTIONS='--max-old-space-size=8192' npm exec -c "electron-builder --linux dir -c.electronDist=${electronDist} -c.extraMetadata.main=dist/main.js" 
-
+    _ensure_local_nvm
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/model"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/website"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/i18n"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/themes"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/hifi"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/ui"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/plugin-sdk"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/storybook"
+    NODE_ENV=production     pnpm run build
+    cd "${srcdir}/${pkgname}-${pkgver}/packages/player"
+    NODE_ENV=production     pnpm run build
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/release/linux-"*/resources/app.asar -t "${pkgdir}/usr/lib/${pkgname}"
-    cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/release/linux-"*/resources/{app.asar.unpacked,bin,media,musicgenresicons} "${pkgdir}/usr/lib/${pkgname}"
-    _icon_sizes=(16 24 32 48 64 96 128 256 512 1024)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/${pkgname}-${pkgver}/packages/app/resources/media/presskit/icons/color/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}x${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/packages/player/src-tauri/target/release/${pkgname}" -t "${pkgdir}/usr/bin"
+    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.desktop" \
+        "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml" \
+        "${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
+    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/packages/player/src-tauri/icons/icon.png" \
+        "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
 }

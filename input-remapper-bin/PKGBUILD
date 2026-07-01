@@ -1,8 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=input-remapper-bin
-pkgver=2.1.1
-pkgrel=1
-_pythonver=3.13
+pkgver=2.2.1
+pkgrel=3
+_pythonver=3.14
 pkgdesc="A tool to change and program the mapping of your input device buttons.(Prebuilt version)"
 arch=('x86_64')
 url="https://github.com/sezanzeb/input-remapper/"
@@ -23,17 +23,19 @@ depends=(
     'python-cairo'
     'python-packaging'
     'python-psutil'
+    'python-dasbus'
 )
 optdepends=(
     'xorg-xmodmap: symbol names matching the keyboard layout'
 )
 source=("${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/${pkgver}/${pkgname%-bin}-${pkgver}.deb")
-sha256sums=('37eb003f7c3520589f48c24066100548c7acffaa537f697332586ead3ecad1cf')
+sha256sums=('6ad397c517a05cc001d45f821122d18506fe3f4d7bf1cb966b012cac54a949d2')
 prepare() {
     if [ -d "${srcdir}/usr" ];then
         rm -rf "${srcdir}/"{etc,usr}
     fi
 	bsdtar -xf "${srcdir}/data."*
+    find "${srcdir}" -type f -name "*.pyc" -exec rm -rf {} +
     sed -i "s/\/usr\/share\/${pkgname%-bin}\/${pkgname%-bin}.svg/${pkgname%-bin}/g" \
         {"${srcdir}/etc/xdg/autostart/${pkgname%-bin}-autoload.desktop","${srcdir}/usr/share/applications/${pkgname%-bin}-gtk.desktop"}
     rm -rf "${srcdir}/usr/local"
@@ -42,6 +44,6 @@ prepare() {
     rm -rf "${srcdir}/usr/lib/python3"
 }
 package() {
-	cp -Pr --no-preserve=ownership "${srcdir}/"{etc,usr} "${pkgdir}"
+	cp -Prf --no-preserve=ownership "${srcdir}/"{etc,usr} "${pkgdir}"
     install -Dm644 "${srcdir}/usr/share/${pkgname%-bin}/${pkgname%-bin}.svg" -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
 }

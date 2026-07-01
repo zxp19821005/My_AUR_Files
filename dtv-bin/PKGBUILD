@@ -1,26 +1,30 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=dtv-bin
 _pkgname=DTV
-pkgver=2.0.0
+pkgver=3.0.3
 pkgrel=1
-pkgdesc="Lightweight Douyu live streaming desktop client.(Prebuilt version.Use system-wide electron)轻量化斗鱼直播桌面客户端"
+pkgdesc="Lightweight Douyu Douyin Bilibili Tigertooth live streaming desktop client.(Prebuilt version.Use system-wide electron)抖音、b站、斗鱼、虎牙跨平台轻量化桌面客户端"
 arch=('x86_64')
-url="https://github.com/c-zeong/DTV"
-license=('LicenseRef-unknown')
+url="https://github.com/chen-zeong/DTV"
+license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
+    'gtk3'
+    'webkit2gtk-4.1'
 )
 source=(
     "${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
+    "LICENSE-${pkgver}::https://raw.githubusercontent.com/chen-zeong/DTV/v${pkgver}/LICENSE"
 )
-sha256sums=('96370a48af9f78a34cfc15f602d489b383d178b4485ddb9e39f90a457f8ddcb9')
+sha256sums=('6cadcf6b4f82021688a6f91ce620e386f6fb3c5b9b0e537523519b7215654ab8'
+            'ca61883629a40325b21aa31860f834ebfee4c71cce39a519c80732183ac73315')
 prepare() {
-    sed -e "
+    bsdtar -xf "${srcdir}/data."*
+    sed -i -e "
         s/Comment=A Tauri App/Comment=${pkgdesc}/g
         s/Categories=/Categories=AudioVideo;/g
-    " -i "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+    " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
@@ -30,4 +34,5 @@ package() {
             -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
     done
     install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
