@@ -225,7 +225,6 @@
 |**clash-nyanpasu**|[clash-nyanpasu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-nyanpasu-bin)|自用版|
 |**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
 |**clash-party**|[clash-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-party-bin)|自用版||
-|**claude-desktop**|[claude-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-desktop)|[claude-desktop](https://aur.archlinux.org/packages/claude-desktop)||
 |**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
 |**clawd-on-desk**|[clawd-on-desk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawd-on-desk-bin)|[clawd-on-desk-bin](https://aur.archlinux.org/packages/clawd-on-desk-bin)||
 |**clawx**|[clawx](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawx)|[clawx](https://aur.archlinux.org/packages/clawx)||
