@@ -1,7 +1,7 @@
 # Maintainer: Yahya Toubali <me@yahyatoubali.me>
 pkgname=trae-bin
 _pkgname=Trae
-pkgver=2.3.33256
+pkgver=2.3.49027
 pkgrel=99
 pkgdesc="AI-powered IDE by ByteDance - The Real AI Engine for code development"
 arch=('x86_64')
@@ -24,12 +24,13 @@ depends=(
     'python-packaging'
     'python-typing_extensions'
     'python'
+	'nodejs'
 )
 optdepends=(
     'libvulkan: Vulkan support'
 )
 source=("${pkgname%-bin}.deb::https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.deb")
-sha256sums=('d76198b99458a224b285de018f906077acdae9f68899db457a91348fb69983a3')
+sha256sums=('759d2f9894e8f83ebe5ca116bfa5db613c8abc55f682decfb517c4cac81841a1')
 prepare() {
     bsdtar -xf "${srcdir}/data."*
 }
