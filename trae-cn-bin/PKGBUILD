@@ -1,6 +1,6 @@
 pkgname=trae-cn-bin
 _pkgname=Trae_CN
-pkgver=2.3.33255
+pkgver=2.3.49398
 pkgrel=1
 pkgdesc="TRAE CN 桌面客户端（预编译二进制包）"
 arch=('x86_64')
@@ -35,6 +35,8 @@ depends=(
   'python-packaging'
   'webkit2gtk-4.1'
   'nodejs'
+  'ffmpeg'
+  'ripgrep'
 )
 makedepends=(
   'librsvg'
@@ -47,7 +49,7 @@ options=(
   '!emptydirs'
 )
 source=("${pkgname%-bin}-${pkgver}.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.rpm")
-sha256sums=('96015d2842fa76377a8bee2d444bc636ca07c657e36d33f83af02ba91f45ad82')
+sha256sums=('fb5958cf4c0aa37114f2d74479156143c828ca33ae329c3b94359cc60cf156cb')
 package() {
   # 复制文件
   cp -r "${srcdir}/usr" "${pkgdir}/"
@@ -60,6 +62,9 @@ package() {
   if [[ -f "${pkgdir}/usr/share/${pkgname%-bin}/chrome-sandbox" ]]; then
     chmod 4755 "${pkgdir}/usr/share/${pkgname%-bin}/chrome-sandbox"
   fi
+  ln -sf "/usr/bin/ffmpeg" "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/bin/ffmpeg"
+  ln -sf "/usr/bin/ffprobe" "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/bin/ffprobe"
+  ln -sf "/usr/bin/rg" "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/node_modules/@vscode/ripgrep/bin/rg"
   install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}"*.desktop -t "${pkgdir}/usr/share/applications"
   install -Dm644 "${srcdir}/usr/share/${pkgname%-bin}/resources/app/resources/linux/code.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
   install -Dm644 "${srcdir}/usr/share/${pkgname%-bin}/resources/completions/bash/${pkgname%-bin}" -t "${pkgdir}/usr/share/bash-completion/completions"
