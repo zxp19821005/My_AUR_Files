@@ -1,7 +1,7 @@
 pkgname=trae-cn-bin
 _pkgname=Trae_CN
-pkgver=2.3.49398
-pkgrel=1
+pkgver=2.3.50209
+pkgrel=99
 pkgdesc="TRAE CN 桌面客户端（预编译二进制包）"
 arch=('x86_64')
 url="https://trae.ai/"
@@ -45,14 +45,18 @@ optdepends=(
   'vulkan-icd-loader: 启用 Vulkan 加速'
 )
 options=(
-  '!strip'
   '!emptydirs'
 )
 source=("${pkgname%-bin}-${pkgver}.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.rpm")
-sha256sums=('fb5958cf4c0aa37114f2d74479156143c828ca33ae329c3b94359cc60cf156cb')
+sha256sums=('51cb582b64a4065e81120939243de7fd74a2a86bb85f206163083b798701c339')
 package() {
   # 复制文件
   cp -r "${srcdir}/usr" "${pkgdir}/"
+  # 删除不必要的 locale（只保留 zh-CN 和 en-US）
+  find "${pkgdir}/usr/share/${pkgname%-bin}/locales" -type f \
+    ! -name 'zh-CN.pak' ! -name 'en-US.pak' -delete
+  # 删除 Chromium License 文件（纯文本，运行时不需要）
+  rm -f "${pkgdir}/usr/share/${pkgname%-bin}/LICENSES.chromium.html"
   # 确保关键入口具备可执行权限
   chmod 755 "${pkgdir}/usr/share/${pkgname%-bin}/${pkgname%-bin}"
   if [[ -f "${pkgdir}/usr/share/${pkgname%-bin}/bin/${pkgname%-bin}" ]]; then
