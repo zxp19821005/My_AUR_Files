@@ -1,7 +1,7 @@
 # Maintainer: Yahya Toubali <me@yahyatoubali.me>
 pkgname=trae-bin
 _pkgname=Trae
-pkgver=2.3.49027
+pkgver=2.3.50210
 pkgrel=99
 pkgdesc="AI-powered IDE by ByteDance - The Real AI Engine for code development"
 arch=('x86_64')
@@ -24,13 +24,13 @@ depends=(
     'python-packaging'
     'python-typing_extensions'
     'python'
-	'nodejs'
+    'nodejs'
 )
 optdepends=(
     'libvulkan: Vulkan support'
 )
 source=("${pkgname%-bin}.deb::https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.deb")
-sha256sums=('759d2f9894e8f83ebe5ca116bfa5db613c8abc55f682decfb517c4cac81841a1')
+sha256sums=('a21e115284f8bfd149a63048324562249df981a703020eb6fafd5575c892143b')
 prepare() {
     bsdtar -xf "${srcdir}/data."*
 }
@@ -41,4 +41,9 @@ package() {
     if [ -f "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/LICENSE.txt" ]; then
         install -Dm644 "$pkgdir/usr/share/${pkgname%-bin}/resources/app/LICENSE.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}"
     fi
+	# 删除不必要的 locale（只保留 zh-CN 和 en-US）
+	find "${pkgdir}/usr/share/${pkgname%-bin}/locales" -type f \
+		! -name 'zh-CN.pak' ! -name 'en-US.pak' -delete
+	# 删除 Chromium License 文件（纯文本，运行时不需要）
+	rm -f "${pkgdir}/usr/share/${pkgname%-bin}/LICENSES.chromium.html"
 }
