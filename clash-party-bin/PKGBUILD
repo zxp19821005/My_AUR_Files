@@ -1,6 +1,6 @@
 _pkgname=mihomo-party
 pkgname=clash-party-bin
-pkgver=1.9.6
+pkgver=2.0.0
 _electronversion=41
 pkgrel=99
 pkgdesc=":electron: Another Mihomo GUI.(Prebuilt version.Use system-wide electron)"
@@ -29,31 +29,21 @@ makedepends=('asar')
 source=("${pkgname%-bin}.sh")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${pkgver}-aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${pkgver}-x86_64.rpm")
-sha256sums=('177dd9748c6775dfcfc216e2dded951090a4557acee2b093d6a6062c5428883a')
-sha256sums_aarch64=('cdde608f539671c9b7de6eb075950cdbd5d420d8940ff2b48726f63a3e664121')
-sha256sums_x86_64=('a6a417040ea6848362ca25606abd8890c33087253eb1d5bd5b2f60f944f2b410')
+sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+sha256sums_aarch64=('e901667eac3260cb4bf1b6d2af2a8ceec18ac6b630ff68ad1ddb473d22c0dac8')
+sha256sums_x86_64=('b2376c1e28f47d2ced45771bfa87059295dbde37e19fccd84c7dede7ccb18271')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
 _check_electron_version() {
     echo "Verifying Electron version..."
-    local _app_dir=$(_get_app_dir)
-    local _main_exe=""
-    if [[ -n "${_app_dir}" ]]; then
-        _main_exe=$(find "${_app_dir}" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -n 1 | cut -d' ' -f2-)
-    fi
-    if [[ -n "${_main_exe}" ]]; then
-        local _elec_ver=$(strings "${_main_exe}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1 | head -n 1)
-        if [[ -n "${_elec_ver}" ]]; then
-            if [[ "${_elec_ver}" != "${_electronversion}" ]]; then
-                echo -e "\033[1;31mWarning: Electron version mismatch! Detected: ${_elec_ver}, Expected: ${_electronversion}\033[0m"
-            else
-                echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
-            fi
-        fi
-    else
-        echo -e "\033[1;33mNote: Could not find Electron binary for version verification.\033[0m"
-    fi
+    local _main_exe=$(find "$(_get_app_dir)" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
+    [[ -z "${_main_exe}" ]] && echo -e "\033[1;33mNote: Could not find Electron binary.\033[0m" && return
+    local _elec_ver=$(strings "${_main_exe}" | grep -oP 'Electron/\K[0-9]+' | head -1)
+    [[ -z "${_elec_ver}" ]] && echo -e "\033[1;33mNote: Could not determine Electron version.\033[0m" && return
+    [[ "${_elec_ver}" != "${_electronversion}" ]] &&
+        echo -e "\033[1;31mWarning: Electron version mismatch! Detected: ${_elec_ver}, Expected: ${_electronversion}\033[0m" ||
+        echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
 }
 prepare() {
     sed -i -e "
@@ -68,20 +58,21 @@ prepare() {
         s/Utility/Network/g
     " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
     _check_electron_version
-    asar e "${srcdir}/opt/${pkgname%-bin}/resources/app.asar" "${srcdir}/app.asar.unpacked"
-    rm -rf "${srcdir}/opt/${pkgname%-bin}/resources/app.asar"
+    local _app_dir=$(_get_app_dir)
+    asar e "${_app_dir}/resources/app.asar" "${srcdir}/app.asar.unpacked"
+    rm -rf "${_app_dir}/resources/app.asar"
     find "${srcdir}/app.asar.unpacked/out" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
-    asar p "${srcdir}/app.asar.unpacked" "${srcdir}/opt/${pkgname%-bin}/resources/app.asar"
-    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${pkgname%-bin}/resources/sidecar/mihomo"
+    asar p "${srcdir}/app.asar.unpacked" "${_app_dir}/resources/app.asar"
+    ln -sf "/usr/bin/mihomo" "${_app_dir}/resources/sidecar/mihomo"
     rm -rf \
-        "${srcdir}/opt/${pkgname%-bin}/resources/"{apparmor-profile,app-update.yml,package-type} \
-        "${srcdir}/opt/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
+        "${_app_dir}/resources/"{apparmor-profile,app-update.yml,package-type} \
+        "${_app_dir}/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    local _app_dir=$(_get_app_dir)
-    cp -a "${_app_dir}/resources/". "${pkgdir}/usr/lib/${pkgname%-bin}/"
+	local _app_dir=$(_get_app_dir)
+	cp -a "${_app_dir}/resources/". "${pkgdir}/usr/lib/${pkgname%-bin}/"
     find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
         _extension="${_i##*.}"
         _icon_path="${_i#*share/icons/}"
