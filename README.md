@@ -81,7 +81,6 @@
 |**another-redis-desktop-manager**|[another-redis-desktop-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/another-redis-desktop-manager-bin) <br> [another-redis-desktop-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/another-redis-desktop-manager-git)|[another-redis-desktop-manager-bin](https://aur.archlinux.org/packages/another-redis-desktop-manager-bin) <br> [another-redis-desktop-manager-git](https://aur.archlinux.org/packages/another-redis-desktop-manager-git)||
 |**antares-sql**|[antares-sql-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-git) <br> [antares-sql-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-bin)|[antares-sql-git](https://aur.archlinux.org/packages/antares-sql-git) <br> [antares-sql-bin](https://aur.archlinux.org/packages/antares-sql-bin)||
 |**antares-sql-beta**|[antares-sql-beta-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antares-sql-beta-bin)|[antares-sql-beta-bin](https://aur.archlinux.org/packages/antares-sql-beta-bin)||
-|**antigravity**|[antigravity-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/antigravity-bin)|[antigravity-bin](https://aur.archlinux.org/packages/antigravity-bin)||
 |**anubias**|[anubias-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anubias-bin)|[anubias-bin](https://aur.archlinux.org/packages/anubias-bin)||
 |**any-sync-gui**|[any-sync-gui](https://github.com/zxp19821005/My_AUR_Files/tree/main/any-sync-gui)|[any-sync-gui](https://aur.archlinux.org/packages/any-sync-gui)||
 |**anythingllm-desktop**|[anythingllm-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/anythingllm-desktop-bin)|[anythingllm-desktop-bin](https://aur.archlinux.org/packages/anythingllm-desktop-bin)||
@@ -96,7 +95,6 @@
 |**apprhyme**|[apprhyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apprhyme-bin)|[apprhyme-bin](https://aur.archlinux.org/packages/apprhyme-bin)||
 |**aquaquill**|[aquaquill-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aquaquill-git)|[aquaquill-git](https://aur.archlinux.org/packages/aquaquill-git)||
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
-|**armcord**|[armcord](https://github.com/zxp19821005/My_AUR_Files/tree/main/armcord)|[armcord](https://aur.archlinux.org/packages/armcord)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
 |**atlassify**|[atlassify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-bin) <br> [atlassify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-git)|[atlassify-bin](https://aur.archlinux.org/packages/atlassify-bin) <br> [atlassify-git](https://aur.archlinux.org/packages/atlassify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
