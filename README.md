@@ -916,6 +916,7 @@
 |**nats-js-client**|[nats-js-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nats-js-client-bin)|[nats-js-client-bin](https://aur.archlinux.org/packages/nats-js-client-bin)||
 |**navicat-premium-lite-cs**|[navicat-premium-lite-cs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/navicat-premium-lite-cs-appimage)|自用版||
 |**navithingy**|[navithingy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/navithingy-bin)|[navithingy-bin](https://aur.archlinux.org/packages/navithingy-bin)||
+|**navop**|[navop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/navop-bin)|[navop-bin](https://aur.archlinux.org/packages/navop-bin)||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**neoplayer**|[neoplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neoplayer-bin)|[neoplayer-bin](https://aur.archlinux.org/packages/neoplayer-bin)||
 |**nerimity-desktop**|[nerimity-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop)<br>[nerimity-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop-bin)|[nerimity-desktop](https://aur.archlinux.org/packages/nerimity-desktop)<br>[nerimity-desktop-bin](https://aur.archlinux.org/packages/nerimity-desktop-bin)||
@@ -983,7 +984,6 @@
 |**one-api**|[one-api-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-api-bin)|[one-api-bin](https://aur.archlinux.org/packages/one-api-bin)||
 |**onemouse**|[onemouse-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onemouse-bin)|[onemouse-bin](https://aur.archlinux.org/packages/onemouse-bin)||
 |**oneplay**|[oneplay-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/oneplay-git)|[oneplay-git](https://aur.archlinux.org/packages/oneplay-git)||
-|**onetcli**|[onetcli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onetcli-bin)|[onetcli-bin](https://aur.archlinux.org/packages/onetcli-bin)||
 |**onlook**|[onlook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onlook-bin)|[onlook-bin](https://aur.archlinux.org/packages/onlook-bin)||
 |**only-refs**|[only-refs-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/only-refs-bin)|[only-refs-bin](https://aur.archlinux.org/packages/only-refs-bin)||
 |**onote**|[onote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onote-bin)|[onote-bin](https://aur.archlinux.org/packages/onote-bin)||
