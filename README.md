@@ -193,7 +193,7 @@
 |**chaos-client**|[chaos-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaos-client-bin)|[chaos-client-bin](https://aur.archlinux.org/packages/chaos-client-bin)||
 |**charta**|[charta-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/charta-git)|[charta-git](https://aur.archlinux.org/packages/charta-git)||
 |**chaski**|[chaski-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chaski-bin)|[chaski-bin](https://aur.archlinux.org/packages/chaski-bin)||
-|**chat2db**|[chat2db-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chat2db-bin)|[chat2db-bin](https://aur.archlinux.org/packages/chat2db-bin)||
+|**chat2db-community**|[chat2db-community-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chat2db-community-bin)|[chat2db-community-bin](https://aur.archlinux.org/packages/chat2db-community-bin)||
 |**chatall**|[chatall](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall) <br> [chatall-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-bin) <br> [chatall-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatall-git)|[chatall](https://aur.archlinux.org/packages/chatall) <br> [chatall-bin](https://aur.archlinux.org/packages/chatall-bin) <br> [chatall-git](https://aur.archlinux.org/packages/chatall-git)||
 |**chatbox**|[chatbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatbox-git)|[chatbox-git](https://aur.archlinux.org/packages/chatbox-git)||
 |**chatd**|[chatd](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd) <br> [chatd-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/chatd-bin)|[chatd](https://aur.archlinux.org/packages/chatd) <br> [chatd-bin](https://aur.archlinux.org/packages/chatd-bin)||
