@@ -1620,6 +1620,7 @@
 |**zasper**|[zasper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-bin)<br>[zasper-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-git)|[zasper-bin](https://aur.archlinux.org/packages/zasper-bin)<br>[zasper-git](https://aur.archlinux.org/packages/zasper-git)||
 |**zcode**|[zcode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zcode-bin)|自用版||
 |**zebar**|[zebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zebar-bin)|[zebar-bin](https://aur.archlinux.org/packages/zebar-bin)||
+|**zenplay**|[zenplay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zenplay-bin)|[zenplay-bin](https://aur.archlinux.org/packages/zenplay-bin)||
 |**zenshin**|[zenshin-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zenshin-git)|[zenshin-git](https://aur.archlinux.org/packages/zenshin-git)||
 |**zerochess**|[zerochess-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zerochess-git)|[zerochess-git](https://aur.archlinux.org/packages/zerochess-git)||
 |**zhiximind-desktop**|[zhiximind-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zhiximind-desktop-bin)|[zhiximind-desktop-bin](https://aur.archlinux.org/packages/zhiximind-desktop-bin)||
