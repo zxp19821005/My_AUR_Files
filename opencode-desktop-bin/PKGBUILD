@@ -2,7 +2,7 @@
 pkgname=opencode-desktop-bin
 _pkgname=OpenCode
 _debname=ai.opencode.desktop
-pkgver=1.18.6
+pkgver=1.18.7
 _electronversion=42
 pkgrel=99
 pkgdesc="OpenCode desktop client"
@@ -32,8 +32,8 @@ source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/downl
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-amd64.deb")
 sha256sums=('625f0f619133f89bbbb2abe37369613dfa1885eba1e50d02170deb62bb42cb6b'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('ab89c49462d77734c49c21db3c0f99db41b3a2050678eae9506b41ec569ba7e6')
-sha256sums_x86_64=('f2f463ac117afa6f84984c20b4d1960aa4f11fb8efbf32bb87cd7c741e1a3e6e')
+sha256sums_aarch64=('ee43083aa1783f31fe93876b7c37f44229d798ef0daa102678f4cd0d78a235aa')
+sha256sums_x86_64=('8f43dd06f270d5c087ac330418b8b9932eb2be5201b21c6a52eaee78e87b8e79')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
