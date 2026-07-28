@@ -31,7 +31,7 @@ source=(
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-amd64.deb")
 sha256sums=('625f0f619133f89bbbb2abe37369613dfa1885eba1e50d02170deb62bb42cb6b'
-            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+            '177dd9748c6775dfcfc216e2dded951090a4557acee2b093d6a6062c5428883a')
 sha256sums_aarch64=('ee43083aa1783f31fe93876b7c37f44229d798ef0daa102678f4cd0d78a235aa')
 sha256sums_x86_64=('8f43dd06f270d5c087ac330418b8b9932eb2be5201b21c6a52eaee78e87b8e79')
 _get_app_dir() {
@@ -59,7 +59,6 @@ prepare() {
     sed -i -e "
       s/Exec=\/opt\/${_pkgname}\/${_debname}/Exec=${pkgname%-bin}/g
       s/Icon=${_debname}/Icon=${pkgname%-bin}/g
-      s/StartupWMClass=${_debname}/StartupWMClass=${pkgname%-bin}/g
     " "${srcdir}/usr/share/applications/${_debname}.desktop"
 }
 package() {
@@ -73,6 +72,6 @@ package() {
         _target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
         install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
     done
-  install -Dm644 "${srcdir}/usr/share/applications/${_debname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+  install -Dm644 "${srcdir}/usr/share/applications/${_debname}.desktop" -t "${pkgdir}/usr/share/applications"
   install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
