@@ -1167,6 +1167,7 @@
 |**realesrgan-gui**|[realesrgan-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realesrgan-gui-bin)|[realesrgan-gui-bin](https://aur.archlinux.org/packages/realesrgan-gui-bin)||
 |**realm-studio**|[realm-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-git) <br> [realm-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/realm-studio-bin)|[realm-studio-git](https://aur.archlinux.org/packages/realm-studio-git) <br> [realm-studio-bin](https://aur.archlinux.org/packages/realm-studio-bin)||
 |**recode-converter**|[recode-converter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/recode-converter-bin)|[recode-converter-bin](https://aur.archlinux.org/packages/recode-converter-bin)||
+|**recordly**|[recordly](https://github.com/zxp19821005/My_AUR_Files/tree/main/recordly)|[recordly](https://aur.archlinux.org/packages/recordly)||
 |**redis-gui**|[redis-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-gui-bin)|[redis-gui-bin](https://aur.archlinux.org/packages/redis-gui-bin)||
 |**redisinsight**|[redisinsight-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/redisinsight-git)|[redisinsight-git](https://aur.archlinux.org/packages/redisinsight-git)||
 |**redis-viewer**|[redis-viewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/redis-viewer-bin)|[redis-viewer-bin](https://aur.archlinux.org/packages/redisnakamastream-desktop-viewer-bin)||
