@@ -354,6 +354,7 @@
 |**doomguy**|[doomguy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/doomguy-git)|[doomguy-git](https://aur.archlinux.org/packages/doomguy-git)||
 |**dopamine**|[dopamine](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine) <br> [dopamine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-bin) <br> [dopamine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dopamine-git)|[dopamine](https://aur.archlinux.org/packages/dopamine) <br> [dopamine-bin](https://aur.archlinux.org/packages/dopamine-bin) <br> [dopamine-git](https://aur.archlinux.org/packages/dopamine-git)||
 |**dosbox-staging**|[dosbox-staging-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dosbox-staging-bin)|[dosbox-staging-bin](https://aur.archlinux.org/packages/dosbox-staging-bin)||
+|**douyin**|[douyin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/douyin-bin)|[douyin-bin](https://aur.archlinux.org/packages/douyin-bin)||
 |**downkyi**|[downkyi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/downkyi-bin)|[downkyi-bin](https://aur.archlinux.org/packages/downkyi-bin)||
 |**dragonrealms-phoenix**|[dragonrealms-phoenix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dragonrealms-phoenix-bin)|[dragonrealms-phoenix-bin](https://aur.archlinux.org/packages/dragonrealms-phoenix-bin)||
 |**drakonhub**|[drakonhub-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/drakonhub-bin)|[drakonhub-bin](https://aur.archlinux.org/packages/drakonhub-bin)||
