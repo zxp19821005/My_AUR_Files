@@ -1,6 +1,6 @@
 pkgname=trae-cn-bin
 _pkgname=Trae_CN
-pkgver=2.3.59356
+pkgver=2.3.61405
 pkgrel=99
 pkgdesc="TRAE CN 桌面客户端（预编译二进制包）"
 arch=('x86_64')
@@ -48,7 +48,7 @@ options=(
   '!emptydirs'
 )
 source=("${pkgname%-bin}-${pkgver}.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.rpm")
-sha256sums=('a1e9afa483d62ba74921fdb4e1cefe1d149acf12982db32261a521372a852cdd')
+sha256sums=('03e2bbab37fefa98ba8d15608d532d460abb27c69b06beb7d213f2130a828abb')
 package() {
   # 复制文件
   cp -r "${srcdir}/usr" "${pkgdir}/"
