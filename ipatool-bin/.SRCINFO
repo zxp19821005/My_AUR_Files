@@ -1,0 +1,16 @@
+pkgbase = ipatool-bin
+	pkgdesc = Command-line tool that allows searching and downloading app packages (known as ipa files) from the iOS App Store.(Prebuilt version)
+	pkgver = 2.3.2
+	pkgrel = 1
+	url = https://github.com/majd/ipatool
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-only
+	provides = ipatool=2.3.2
+	conflicts = ipatool
+	source_aarch64 = ipatool-2.3.2-aarch64.tar.gz::https://github.com/majd/ipatool/releases/download/v2.3.2/ipatool-2.3.2-linux-arm64.tar.gz
+	sha256sums_aarch64 = 2e7ed31d76eaa145a6147985fe5fbae1eaa4ad213648f74bc30a2b059cbd39c7
+	source_x86_64 = ipatool-2.3.2-x86_64.tar.gz::https://github.com/majd/ipatool/releases/download/v2.3.2/ipatool-2.3.2-linux-amd64.tar.gz
+	sha256sums_x86_64 = 7555b67612a196bad1961c3a6fbc2d1f115b5e7a4925e9b4a285ed2b99082077
+
+pkgname = ipatool-bin
