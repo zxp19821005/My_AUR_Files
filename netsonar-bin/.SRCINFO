@@ -1,0 +1,22 @@
+pkgbase = netsonar-bin
+	pkgdesc = A network diagnostics tool for pinging hosts (ICMP/TCP/UDP/HTTP), managing network interfaces, and discovering local devices/services(Prebuilt version)
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/sn4k3/NetSonar
+	arch = aarch64
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	depends = fontconfig
+	depends = glibc
+	provides = netsonar=0.4.1
+	conflicts = netsonar
+	options = !strip
+	options = staticlibs
+	source = netsonar.sh
+	sha256sums = 587630b858a37bc5b30f31af8d7e7f40c8c3b3cc3c2835278fabc13c79860485
+	source_aarch64 = netsonar-0.4.1-aarch64.AppImage::https://github.com/sn4k3/NetSonar/releases/download/0.4.1/NetSonar_linux-arm64_v0.4.1.AppImage
+	sha256sums_aarch64 = 25f684139588ac952776bb68aa4dbeb1f2624487a7d7352281d8b6b1f915553b
+	source_x86_64 = netsonar-0.4.1-x86_64.AppImage::https://github.com/sn4k3/NetSonar/releases/download/0.4.1/NetSonar_linux-x64_v0.4.1.AppImage
+	sha256sums_x86_64 = 1758979578eb12d35809ae6eb5d076eaf036f529e32f486f8d2c3fc59d6fdfea
+
+pkgname = netsonar-bin
