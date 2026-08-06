@@ -1,0 +1,16 @@
+pkgbase = jimud-bin
+	pkgdesc = MUD client for ShadowMUD.com, based on webclient.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = http://www.shadowmud.com/
+	arch = x86_64
+	license = LicenseRef-custom
+	depends = electron43
+	provides = jimud=1.8.0
+	conflicts = jimud
+	source = jimud-1.8.0.rpm::https://github.com/icewolfz/jiMUD/releases/download/v1.8.0/jimud-1.8.0.x86_64.rpm
+	source = jimud.sh
+	sha256sums = d5afbbb39f32b839eec7e7dfe4470c72c865404350eb90613292a4785945ce5b
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = jimud-bin
