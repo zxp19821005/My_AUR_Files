@@ -1,0 +1,27 @@
+pkgbase = pupu-bin
+	pkgdesc = A simple and easy to use UI for the Ollama.(Use system-wide electron)
+	pkgver = 0.1.9
+	pkgrel = 1
+	url = https://github.com/haoxiang-xu/PuPu
+	arch = x86_64
+	license = MIT
+	makedepends = asar
+	depends = electron40
+	depends = ollama
+	depends = python
+	depends = python-numpy
+	depends = python-flask
+	depends = python-httpx
+	depends = python-werkzeug
+	depends = python-openai
+	provides = pupu=0.1.9
+	conflicts = pupu
+	options = !emptydirs
+	source = pupu-0.1.9.deb::https://github.com/haoxiang-xu/PuPu/releases/download/v0.1.9/PuPu_0.1.9.deb
+	source = LICENSE-0.1.9::https://raw.githubusercontent.com/haoxiang-xu/PuPu/v0.1.9/LICENSE
+	source = pupu.sh
+	sha256sums = 273e806d1e4ac2099ad7e310e388615da666e68ad187cc02ca37ddcd5a24ca05
+	sha256sums = 2191d05c6ee7c145480916b745bd020484adb61653be943c43cff10bc22927a1
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = pupu-bin
