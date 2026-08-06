@@ -1,0 +1,18 @@
+pkgbase = bili-shadowreplay-bin
+	pkgdesc = A tool for caching bilibili live broadcasts and editing submissions in real time.(Prebuilt version)一个B站缓存直播并进行实时编辑投稿的工具
+	pkgver = 2.20.6
+	pkgrel = 1
+	url = https://github.com/Xinrea/bili-shadowreplay
+	arch = x86_64
+	license = MIT
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	provides = bili-shadowreplay=2.20.6
+	conflicts = bili-shadowreplay
+	source = bili-shadowreplay-2.20.6.rpm::https://github.com/Xinrea/bili-shadowreplay/releases/download/v2.20.6/bili-shadowreplay-2.20.6-1.x86_64.rpm
+	source = LICENSE-2.20.6::https://raw.githubusercontent.com/Xinrea/bili-shadowreplay/v2.20.6/LICENSE
+	sha256sums = 2ae3bb280433a3f841be2f402f60090c690182d203b3d84648d6ce572cb899f2
+	sha256sums = 4cbb91ff4be21fae9f321899a00b75e05f7b40aee1b2aa5d4896a7155822cb45
+
+pkgname = bili-shadowreplay-bin
