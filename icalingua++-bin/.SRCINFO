@@ -1,0 +1,23 @@
+pkgbase = icalingua++-bin
+	pkgdesc = A branch of deleted Icalingua, with limited support.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.26.3
+	pkgrel = 1
+	url = https://github.com/Icalingua-plus-plus/Icalingua-plus-plus
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = electron38
+	provides = icalingua++=2.26.3
+	conflicts = icalingua++
+	conflicts = icalingua++-electron
+	source = icalingua++.sh
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+	source_aarch64 = icalingua++-2.26.3-aarch64.rpm::https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.26.3/icalingua-2.26.3.aarch64.rpm
+	sha256sums_aarch64 = d9415a0d2ac307c3362850d931937bef6d2fa7cc8c94ee082a91ee4eb2ec2d62
+	source_armv7h = icalingua++-2.26.3-armv7h.rpm::https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.26.3/icalingua-2.26.3.armv7l.rpm
+	sha256sums_armv7h = 97b6290e12cc7a3f47e63554f5599837e3eeab847b0fe021777d6a7d7f6d3e7a
+	source_x86_64 = icalingua++-2.26.3-x86_64.rpm::https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.26.3/icalingua-2.26.3.x86_64.rpm
+	sha256sums_x86_64 = 08cdb7ff9a5ff5326b4293d072051a0eefef7dc10ef4531e4ae73ddb0d88e67a
+
+pkgname = icalingua++-bin
