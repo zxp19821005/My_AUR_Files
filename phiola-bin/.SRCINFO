@@ -1,0 +1,24 @@
+pkgbase = phiola-bin
+	pkgdesc = Fast audio player, recorder, converter.(Prebuilt version)
+	pkgver = 2.8.12
+	pkgrel = 1
+	url = https://github.com/stsaz/phiola
+	arch = aarch64
+	arch = x86_64
+	license = BSD-2-Clause
+	makedepends = icoutils
+	depends = gtk3
+	depends = jack
+	depends = libpulse
+	depends = alsa-lib
+	provides = phiola=2.8.12
+	conflicts = phiola
+	options = !strip
+	source = phiola.sh
+	sha256sums = 6be792749954f9c1c53f9ec0cfe9764d1a678b378d411f5acd262318ef94a13f
+	source_aarch64 = phiola-2.8.12-aarch64.tar.zst::https://github.com/stsaz/phiola/releases/download/v2.8.12/phiola-2.8.12-linux-aarch64.tar.zst
+	sha256sums_aarch64 = 69bd556976cd8744ef2dbc9db3a05c7b95d5bfc23322629c5b3926215fdc59e6
+	source_x86_64 = phiola-2.8.12-x86_64.tar.zst::https://github.com/stsaz/phiola/releases/download/v2.8.12/phiola-2.8.12-linux-x86_64.tar.zst
+	sha256sums_x86_64 = 5123dcf485ad6e1974a737b445c1c17f0adc7a71c61f14b97f9b97b37f3d7f5c
+
+pkgname = phiola-bin
