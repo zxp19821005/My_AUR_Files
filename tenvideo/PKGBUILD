@@ -4,8 +4,8 @@ pkgname=tenvideo
 _pkgname=Tenvideo
 _appname=TencentVideo
 _zhsname='腾讯视频'
-pkgver=11.164.9775.0
-_electronversion=41
+pkgver=11.178.5334.0
+_electronversion=42
 pkgrel=1
 pkgdesc="China's leading online video media platform.(Prebuilt version.Use system-wide electron)"
 arch=(
@@ -27,12 +27,12 @@ source=(
     "LICENSE.htm::https://www.qq.com/contract20180827.htm"
     "${pkgname}.sh"
 )
-source_aarch64=("${pkgname}-${pkgver}-aarch64.deb::${_dlurl}/releases/download/${pkgname}-v11/${pkgname}-universal_${pkgver}_arm64.deb")
-source_x86_64=("${pkgname}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname}-v11/${pkgname}-universal_${pkgver}_amd64.deb")
+source_aarch64=("${pkgname}-${pkgver}-aarch64.deb::${_dlurl}/releases/download/${pkgname}-v${pkgver}/${pkgname}-universal_${pkgver}_arm64.deb")
+source_x86_64=("${pkgname}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname}-v${pkgver}/${pkgname}-universal_${pkgver}_amd64.deb")
 sha256sums=('7827da1d244c3f678ea95bf0f315311ebd3f0509c4efe306b2a3c523ab47a175'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('da18b9f439a2e6b8b323d6bcaba979f807b1d502fa8e7c6c625a207b12245325')
-sha256sums_x86_64=('5238faba9e2387f9827f9f466900fb764088e5ef85ba8ce85f4c876320885a14')
+sha256sums_aarch64=('534232777be253a3ebde6138f86f4df0a0bd6743b6b9ec93b4388f41e0098f58')
+sha256sums_x86_64=('4ed7c32057cd74759282eba0200cff74ad00c6e2b66def1112b3b5979b854913')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }

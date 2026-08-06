@@ -1,0 +1,24 @@
+pkgbase = tenvideo
+	pkgdesc = China's leading online video media platform.(Prebuilt version.Use system-wide electron)
+	pkgver = 11.178.5334.0
+	pkgrel = 1
+	url = https://v.qq.com
+	arch = aarch64
+	arch = x86_64
+	license = LicenseRef-custom
+	depends = electron42
+	depends = libappindicator
+	depends = libayatana-appindicator
+	depends = xdg-utils
+	provides = tenvideo=11.178.5334.0
+	conflicts = tenvideo
+	source = LICENSE.htm::https://www.qq.com/contract20180827.htm
+	source = tenvideo.sh
+	sha256sums = 7827da1d244c3f678ea95bf0f315311ebd3f0509c4efe306b2a3c523ab47a175
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+	source_aarch64 = tenvideo-11.178.5334.0-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/tenvideo-v11.178.5334.0/tenvideo-universal_11.178.5334.0_arm64.deb
+	sha256sums_aarch64 = 534232777be253a3ebde6138f86f4df0a0bd6743b6b9ec93b4388f41e0098f58
+	source_x86_64 = tenvideo-11.178.5334.0-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/tenvideo-v11.178.5334.0/tenvideo-universal_11.178.5334.0_amd64.deb
+	sha256sums_x86_64 = 4ed7c32057cd74759282eba0200cff74ad00c6e2b66def1112b3b5979b854913
+
+pkgname = tenvideo
