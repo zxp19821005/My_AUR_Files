@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=douyin-bin
 _debname="com.${pkgname%-bin}.otohime"
-pkgver=8.1.201
+pkgver=8.3.0
 _electronversion=42
 pkgrel=1
 pkgdesc="Third-party Linux client for Douyin.(Prebuilt version.Use system-wide electron)第三方抖音 Linux 客户端"
@@ -26,8 +26,8 @@ source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/releases/downl
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname%-bin}${pkgver}/${_debname}_${pkgver}_amd64.deb")
 sha256sums=('12e8d0a130a2dae1d6f52c9bc18c4ea572ae1366c21b083936310b780b9cf2c7'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('bf686de21bca3cba3a9ea2a12caf644dc05527e8062c67baff3d3e954494c057')
-sha256sums_x86_64=('9acf2c48052695f71c5341beb410db613b002bf56dccff2168daf3228227c953')
+sha256sums_aarch64=('ec570a8f0e4834c1e0f711d21de25ab27370928f39fd83b961118e491626cd06')
+sha256sums_x86_64=('72102b6882c6bb81b7732618576ea42f13cabb41354126671e319f379aa4a406')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
