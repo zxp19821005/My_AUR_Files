@@ -1,0 +1,24 @@
+pkgbase = goshs-bin
+	pkgdesc = A SimpleHTTPServer written in Go, enhanced with features and with a nice design.(Prebuilt version)
+	pkgver = 2.1.5
+	pkgrel = 1
+	url = https://goshs.de/
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	provides = goshs=2.1.5
+	conflicts = goshs
+	source = LICENSE-2.1.5::https://raw.githubusercontent.com/goshs-labs/goshs/v2.1.5/LICENSE
+	sha256sums = 791aa7d1cac7e097ad6e792e974688f433018e11bbe387e62330319dda68c94a
+	source_aarch64 = goshs-2.1.5-aarch64.rpm::https://github.com/goshs-labs/goshs/releases/download/v2.1.5/goshs_2.1.5_linux_arm64.rpm
+	sha256sums_aarch64 = 585d573da158568905b60df945541d5400a75fd28f21770c22920473a955f428
+	source_armv7h = goshs-2.1.5-armv7h.rpm::https://github.com/goshs-labs/goshs/releases/download/v2.1.5/goshs_2.1.5_linux_armv7.rpm
+	sha256sums_armv7h = a4eacc6f92508aa7e1d074b2818eacc0dce43bdb10b5d88b602bb708f2b3df85
+	source_i686 = goshs-2.1.5-i686.rpm::https://github.com/goshs-labs/goshs/releases/download/v2.1.5/goshs_2.1.5_linux_386.rpm
+	sha256sums_i686 = ded14da6b5a60cfdccdc1619fdee01a52023d5c222c916e40f4036aa60506305
+	source_x86_64 = goshs-2.1.5-x86_64.rpm::https://github.com/goshs-labs/goshs/releases/download/v2.1.5/goshs_2.1.5_linux_amd64.rpm
+	sha256sums_x86_64 = 6951f54d6a58978f750b2b7170080ac4e622be97bfd149819840f204d1f6206d
+
+pkgname = goshs-bin
