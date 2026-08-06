@@ -1,13 +1,13 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=mustang-bin
 _pkgname=Mustang
-pkgver=0.9.34
+pkgver=0.9.35
 _electronversion=41
 pkgrel=1
 pkgdesc="New full-featured desktop email, chat and video conference client.(Prebuilt version.Use system-wide electron)"
 arch=(
     'aarch64'
-    'x86_64'
+#    'x86_64'
 )
 url="https://mustang.im/"
 _ghurl="https://github.com/mustang-im/mustang"
@@ -22,11 +22,10 @@ source=(
     "${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.pacman::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-aarch64.pacman")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.pacman::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}.pacman")
+#source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.pacman::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}.pacman")
 sha256sums=('b235d2b5410c8a5f6d176a8dfbf3afaadb7165d27659285d1916fe7e0044aa89'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('b29dbb6db770ca231a4e59f42011af1f6aecd0909ad3bb95c6bd6f3a69a52b2c')
-sha256sums_x86_64=('c423b06f2be5b1f7da827a34764b288530913413e5ac9f31a9b81f2699142500')
+sha256sums_aarch64=('821c3b06ed87c0f0e6387e59031383c1c31ce744ba59cd406fe8318b71ed3baf')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
