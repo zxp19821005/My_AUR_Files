@@ -1,0 +1,37 @@
+pkgbase = visual-studio-code-electron-bin
+	pkgdesc = Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications.(Prebuilt and System-wide Electron edition)
+	pkgver = 1.132.0
+	pkgrel = 1
+	url = https://code.visualstudio.com/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = LicenseRef-scancode-commercial-license
+	depends = electron42
+	depends = nodejs
+	depends = libx11
+	depends = libxkbfile
+	depends = webkit2gtk-4.1
+	depends = libsecret
+	optdepends = gvfs: For move to trash functionality
+	optdepends = libdbusmenu-glib: For KDE global menu
+	provides = visual-studio-code
+	provides = vscode
+	conflicts = visual-studio-code-electron
+	conflicts = visual-studio-code
+	conflicts = code
+	conflicts = visual-studio-code-insiders
+	conflicts = visual-studio-code-marketplace
+	options = !strip
+	source = visual-studio-code-electron.js
+	source = visual-studio-code-electron.sh
+	sha256sums = 68a94e4a9d746da48f5bb990d48b434363e476dfde006394a3ced94b4a54b4a7
+	sha256sums = 700067aa4b354a91ab3374b5495af9eb3093855a3d8016a8303e88abf3470599
+	source_aarch64 = visual-studio-code-electron-1.132.0-aarch64.rpm::https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-arm64
+	sha256sums_aarch64 = 1fd4b7a2e7daf3fedbe337f3eb21a1b45e3acfba8d80a806a11340aa288798f0
+	source_armv7h = visual-studio-code-electron-1.132.0-armv7h.rpm::https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-armhf
+	sha256sums_armv7h = 7fd2a1b74da406e611e682b880bcaef384b05b2be606343a6eedbc221d8b8e9d
+	source_x86_64 = visual-studio-code-electron-1.132.0-x86_64.rpm::https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64
+	sha256sums_x86_64 = 74b454cc900582268147e2ed8abaca647c0dbcd873b8cf849df8d8109cb13523
+
+pkgname = visual-studio-code-electron-bin
