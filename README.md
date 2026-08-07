@@ -1218,6 +1218,7 @@
 |**scenario-rs-gui**|[scenario-rs-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scenario-rs-gui-bin)|[scenario-rs-gui-bin](https://aur.archlinux.org/packages/scenario-rs-gui-bin)||
 |**scramblery**|[scramblery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scramblery-bin)|[scramblery-bin](https://aur.archlinux.org/packages/scramblery-bin)||
 |**screen-area-share**|[screen-area-share-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-area-share-bin)|[screen-area-share-bin](https://aur.archlinux.org/packages/screen-area-share-bin)||
+|**screenr**|[screenr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/screenr-bin)|[screenr-bin](https://aur.archlinux.org/packages/screenr-bin)||
 |**screen-recorder-app**|[screen-recorder-app](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-recorder-app)|[screen-recorder-app](https://aur.archlinux.org/packages/screen-recorder-app)||
 |**scripthaus**|[scripthaus](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus) <br> [scripthaus-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripthaus-git)|[scripthaus](https://aur.archlinux.org/packages/scripthaus) <br> [scripthaus-git](https://aur.archlinux.org/packages/scripthaus-git)||
 |**scripts-manager**|[scripts-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/scripts-manager-git)|[scripts-manager-git](https://aur.archlinux.org/packages/scripts-manager-git)||
