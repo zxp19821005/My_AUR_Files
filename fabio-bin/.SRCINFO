@@ -1,0 +1,25 @@
+pkgbase = fabio-bin
+	pkgdesc = A fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul.(Prebuilt version)
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = https://fabiolb.net
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	provides = fabio=1.7.3
+	conflicts = fabio
+	options = !strip
+	source = LICENSE-1.7.3::https://raw.githubusercontent.com/fabiolb/fabio/v1.7.3/LICENSE
+	sha256sums = 1b96863084c41c1557336dad7193f7b0d4c03042481da83136b53940ea5a3083
+	source_aarch64 = fabio-1.7.3-aarch64::https://github.com/fabiolb/fabio/releases/download/v1.7.3/fabio-1.7.3-linux_arm64
+	sha256sums_aarch64 = c547feace2c2aecf4f547be7637eb3ffda5b7360426ded98692eb50bc0e23a98
+	source_armv7h = fabio-1.7.3-armv7h::https://github.com/fabiolb/fabio/releases/download/v1.7.3/fabio-1.7.3-linux_arm
+	sha256sums_armv7h = becc8b6ae3718755e57baa254dcaaee98fe4379b7bad10e23064027b1b8590c7
+	source_i686 = fabio-1.7.3-i686::https://github.com/fabiolb/fabio/releases/download/v1.7.3/fabio-1.7.3-linux_386
+	sha256sums_i686 = ec5555629180ee23e0ff12f3f30732705495d4f5b2e4cc67c269d88f9fa2e352
+	source_x86_64 = fabio-1.7.3-x86_64::https://github.com/fabiolb/fabio/releases/download/v1.7.3/fabio-1.7.3-linux_amd64
+	sha256sums_x86_64 = 3b56b6890f66c23b8bbf0df8341cc82195f967b833096bb8a90fd2d222c81a65
+
+pkgname = fabio-bin
