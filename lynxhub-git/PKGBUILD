@@ -1,8 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=lynxhub-git
 _pkgname=LynxHub
-pkgver=3.5.5.r1.g326c1b3
-_electronversion=42
+pkgver=3.5.8.r0.g96129c2
+_electronversion=43
 _nodeversion=24
 pkgrel=1
 pkgdesc="Manage and launch all your AI from a single dashboard.(Use system-wide electron)"
