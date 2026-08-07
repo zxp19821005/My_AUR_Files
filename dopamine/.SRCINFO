@@ -1,0 +1,20 @@
+pkgbase = dopamine
+	pkgdesc = The audio player that keeps it simple.Binary version.(Use system-wide electron)
+	pkgver = 3.0.8
+	pkgrel = 1
+	url = https://github.com/digimezzo/dopamine
+	arch = any
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = curl
+	makedepends = jq
+	depends = electron38
+	depends = python
+	source = dopamine-3.0.8::git+https://github.com/digimezzo/dopamine#tag=v3.0.8
+	source = dopamine.sh
+	sha256sums = 6a8b44d257655fd96dd8d9877972cdc6c4a2c9b35494ef0fde6cebc2b577d457
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = dopamine
