@@ -1,8 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=lynxhub
 _pkgname=LynxHub
-pkgver=3.5.5
-_electronversion=42
+pkgver=3.5.8
+_electronversion=43
 _nodeversion=24
 pkgrel=1
 pkgdesc="Manage and launch all your AI from a single dashboard.(Use system-wide electron)"
@@ -28,7 +28,7 @@ source=(
     "${pkgname}-${pkgver}::git+${url}#tag=V${pkgver}"
     "${pkgname}.sh"
 )
-sha256sums=('1785f9b233cfffc732786a13af7125dc9836dca96179b481e8a7c19d7ba9f28c'
+sha256sums=('adbf18ef55232a0debb3e81c8c3e5c81e970530f110eb69399c84b1890244977'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _ensure_local_nvm() {
     local NVM_DIR="${srcdir}/.nvm"

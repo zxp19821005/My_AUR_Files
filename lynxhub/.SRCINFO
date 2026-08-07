@@ -1,0 +1,24 @@
+pkgbase = lynxhub
+	pkgdesc = Manage and launch all your AI from a single dashboard.(Use system-wide electron)
+	pkgver = 3.5.8
+	pkgrel = 1
+	url = https://github.com/KindaBrazy/LynxHub
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = npm
+	makedepends = nvm
+	makedepends = curl
+	makedepends = git
+	makedepends = jq
+	makedepends = gendesk
+	depends = electron43
+	depends = libsecret
+	depends = python
+	depends = nodejs
+	conflicts = lynxhub
+	source = lynxhub-3.5.8::git+https://github.com/KindaBrazy/LynxHub#tag=V3.5.8
+	source = lynxhub.sh
+	sha256sums = adbf18ef55232a0debb3e81c8c3e5c81e970530f110eb69399c84b1890244977
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = lynxhub

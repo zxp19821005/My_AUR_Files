@@ -2,8 +2,8 @@
 pkgname=lynxhub-bin
 _pkgname=LynxHub
 _debname="ai.kindabrazy.${pkgname%-bin}"
-pkgver=3.5.5
-_electronversion=42
+pkgver=3.5.8
+_electronversion=43
 pkgrel=1
 pkgdesc="Manage and launch all your AI from a single dashboard.(Prebuild version.Use system-wide electron)"
 arch=(
@@ -23,8 +23,8 @@ source=("${pkgname%-bin}.sh")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${url}/releases/download/V${pkgver}/${_pkgname}-V${pkgver}-linux_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/V${pkgver}/${_pkgname}-V${pkgver}-linux_amd64.deb")
 sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('e428752b4f43a815eca408bda6754ecfffe9f651c640f79ed7748c8fa4251341')
-sha256sums_x86_64=('03590008bbfe22b28836b90f058e0af5fe0bb93f84c231024d614528629c1837')
+sha256sums_aarch64=('8a24f28346c40aaea16fb3a659ff4a72bc1a6f0f7d55fe267812416ab79ee90c')
+sha256sums_x86_64=('b13882eb5d0443b84bd8c2488c659a149c5b16e15f22fad93aa6ad3c5f33a435')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
