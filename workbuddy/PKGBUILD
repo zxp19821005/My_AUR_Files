@@ -1,0 +1,134 @@
+# Maintainer: Rongbo <wurongbo2012@hotmail.com>
+pkgname=workbuddy
+_pkgname=WorkBuddy
+pkgver=5.3.11.35348084
+_electronversion=42
+_nodeversion=24.18.1
+pkgrel=1
+_commit=45487630
+pkgdesc="Work Smart，Not Hard"
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://www.codebuddy.ai/agents"
+license=('LicenseRef-custom')
+depends=(
+    "electron${_electronversion}"
+)
+makedepends=(
+    '7zip'
+    'npm'
+    'libicns'
+    'asar'
+    'python'
+    'sqlite'
+    'nvm'
+)
+optdepends=(
+    'nodejs-lts: frontend skills'
+    'gnome-shell-extension-appindicator'
+)
+source=(
+    "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/WorkBuddy-darwin-x64-${pkgver}-${_commit}.dmg"
+    "${pkgname}.desktop"
+    "${pkgname}.sh"
+)
+options=(
+    '!strip'
+    '!emptydirs'
+)
+sha256sums=('c31aa58f9c7b79bf1ca9db1d8a44df57b061974c25689680084a8f09bd5badf3'
+            'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
+            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+_ensure_local_nvm() {
+    local NVM_DIR="${srcdir}/.nvm"
+    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+    nvm install "${_nodeversion}"
+    nvm use "${_nodeversion}"
+}
+prepare() {
+    sed -i -e "
+        s/@electronversion@/${_electronversion}/g
+        s/@appname@/${pkgname%-bin}/g
+        s/@runname@/app.asar.unpacked/g
+        s/@cfgdirname@/${pkgname%-bin}/g
+    " "${srcdir}/${pkgname%-bin}.sh"
+    7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
+    mkdir -p "${srcdir}/${_pkgname}.app/Contents/Resources/node_modules"
+    cd "${srcdir}/${_pkgname}.app/Contents/Resources"
+    icns2png -x icon.icns -o "${srcdir}"
+    asar e app.asar app.asar.unpacked || continue
+    find app.asar.unpacked -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +
+    
+    # 在临时目录中独立编译原生模块，针对 Electron 的 Node.js 版本
+    local _unpacked_dir="${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
+    local _build_dir="${srcdir}/native-build"
+    mkdir -p "${_build_dir}"
+    cd "${_build_dir}"
+    _ensure_local_nvm
+    export NVM_NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
+    export NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
+    npm config set registry https://registry.npmmirror.com
+    cat > package.json << 'EOF'
+{
+  "name": "workbuddy-native-deps",
+  "version": "1.0.0",
+  "dependencies": {
+    "@lydell/node-pty": "1.2.0-beta.15",
+    "better-sqlite3": "^13.0.0"
+  }
+}
+EOF
+    
+    # 安装 electron-rebuild 以针对 Electron 重新编译原生模块
+    npm install --save-dev electron-rebuild
+    
+    # 先安装依赖
+    npm install --omit=dev --legacy-peer-deps
+    
+    # 使用 electron-rebuild 针对 Electron 版本重新编译原生模块
+    ./node_modules/.bin/electron-rebuild --version ${_electronversion} --force --types=optional,regular || {
+        echo "electron-rebuild failed, trying manual rebuild..."
+        # 如果 electron-rebuild 失败，手动为每个原生模块重新编译
+        for module in better-sqlite3 @lydell/node-pty; do
+            if [ -d "node_modules/$module" ]; then
+                cd "node_modules/$module"
+                npx node-gyp rebuild --target=${_electronversion}.0.0 --disturl=https://npmmirror.com/mirrors/electron/ --arch=x64 || true
+                cd "${_build_dir}"
+            fi
+        done
+    }
+    
+    rm -rf "${_unpacked_dir}/node_modules/better-sqlite3"
+    rm -rf "${_unpacked_dir}/node_modules/@lydell/node-pty"
+    cp -a "${_build_dir}/node_modules/better-sqlite3" "${_unpacked_dir}/node_modules/"
+    cp -a "${_build_dir}/node_modules/@lydell/node-pty" "${_unpacked_dir}/node_modules/"
+    rm -rf "${_build_dir}"
+    
+    # 删除 macOS 专属文件，减少包体积
+    # node-pty 的 macOS 预编译原生模块
+    rm -rf "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-arm64"
+    rm -rf "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-x64"
+    # genie-trash 的 macOS 二进制
+    rm -rf "${_unpacked_dir}/cli/vendor/genie-trash/darwin-x64"
+    # ripgrep 的 macOS 和 Windows 二进制
+    rm -rf "${_unpacked_dir}/cli/vendor/ripgrep/x64-darwin"
+    rm -rf "${_unpacked_dir}/cli/vendor/ripgrep/arm64-darwin"
+    rm -rf "${_unpacked_dir}/cli/vendor/ripgrep/x64-win32"
+    # sandbox-cli 是 macOS Mach-O 二进制
+    rm -rf "${_unpacked_dir}/cli/vendor/sandbox/5.3.3/sandbox-cli"
+    # wechat-copydata-decoder 是 macOS 原生模块
+    rm -rf "${_unpacked_dir}/native/wechat-copydata-decoder"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
+    cp -a "${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname}"
+    icon_sizes=(256x256 512x512 1024x1024)
+    for _icons in "${icon_sizes[@]}";do
+        install -Dm644 "${srcdir}/icon_${_icons}x32.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+    done
+    install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+}
