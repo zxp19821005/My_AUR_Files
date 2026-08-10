@@ -2,8 +2,8 @@
 pkgname=imfile-git
 _pkgname=imFile
 _flathubname="io.github.${pkgname%-git}_io.${pkgname%-git}_desktop"
-pkgver=2.2.0.r11.g854628f
-_electronversion=42
+pkgver=2.3.1.r1.gdc7631f
+_electronversion=43
 _nodeversion=24
 pkgrel=1
 pkgdesc="A full-featured download manager.Forked from motrix.(Use system-wide electron)"
