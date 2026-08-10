@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=webgal-terre-bin
 _appname=WebGAL_Terre
-pkgver=4.6.3
+pkgver=4.6.4
 _electronversion=29
 pkgrel=1
 pkgdesc="Galgame Editing. Redefined(Prebuilt version) / 视觉小说编辑，再进化"
@@ -37,8 +37,8 @@ source=(
 )
 sha256sums=('1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5'
             'd51d809af628cc8292bd430a4847adb4adefa9d4b0aee00a55a84ff9630e167c')
-sha256sums_aarch64=('5fb24c2e71ef8c69721d6603c8317aff363e9d2166bb2ef30c0c76814dea9f57')
-sha256sums_x86_64=('a5a21acaf0ef63440b94670fdf3a90ce6d83c82b7a8042dc443354e9528328f8')
+sha256sums_aarch64=('f3097df2f7509a0c698677f3fdfd6e67056011cb673b0afde6d04e638ffd8eca')
+sha256sums_x86_64=('2148faacfde2c891f31beb80a1c2ce8e3687808a89dd6b7c79043f1caad8cbae')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
