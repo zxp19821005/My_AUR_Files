@@ -1,8 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=imfile-bin
 _pkgname=imFile
-pkgver=2.2.0
-_electronversion=42
+pkgver=2.3.1
+_electronversion=43
 pkgrel=1
 pkgdesc="A full-featured download manager.Forked from motrix.(Prebuilt version.Use system-wide electron)"
 arch=(
@@ -35,9 +35,9 @@ source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.deb::${_ghurl}/releases/downloa
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb")
 sha256sums=('f60775e705e2c7418665ac2c7f386d28cc2927df98a440ced1703a7ed3ca86b7'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('2a2decfda4616f79332ef10a62dd9c8f96e286b2335c19735decb7904d73d52d')
-sha256sums_armv7h=('e31e7e0d2ed457900a1a1c37944bdf74dc2aa5269941d7e5dff527e48e32843c')
-sha256sums_x86_64=('8a10b86ab45c942db664791b9a96cdfb83259a41142fa8b42b699c0a388f150b')
+sha256sums_aarch64=('63c4f5a23978a6937ea19fd4097c4e0685e3d205315a162d7a60c09b957a4bba')
+sha256sums_armv7h=('0679bcd17ab0ce3c981a260fb386173190f05af9d2644ee20057bdd2ec22bece')
+sha256sums_x86_64=('d4869f02e0b643a09cee67e3ddd684d3f935a6d0e85d637e3e868b684e6f4500')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
