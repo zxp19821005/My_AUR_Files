@@ -1,0 +1,21 @@
+pkgbase = donutbrowser-bin
+	pkgdesc = A powerful browser orchestrator that puts you in control of your browsing experience. 🍩(Prebuilt version)
+	pkgver = 0.29.1
+	pkgrel = 1
+	url = https://donutbrowser.com/
+	arch = aarch64
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	depends = xdotool
+	depends = libayatana-appindicator
+	provides = donutbrowser=0.29.1
+	conflicts = donutbrowser
+	source_aarch64 = donutbrowser-0.29.1-aarch64.rpm::https://github.com/zhom/donutbrowser/releases/download/v0.29.1/Donut-0.29.1-1.aarch64.rpm
+	sha256sums_aarch64 = 29e1108dde5bc8d34e06a4e95844a6ae4f5e4d961e8bdd6929bad8e0178b52b5
+	source_x86_64 = donutbrowser-0.29.1-x86_64.rpm::https://github.com/zhom/donutbrowser/releases/download/v0.29.1/Donut-0.29.1-1.x86_64.rpm
+	sha256sums_x86_64 = 6c2b8e61ba7c1a172a50645bb75bdaba589c6f417f5e57ad4fb3100db933683a
+
+pkgname = donutbrowser-bin
