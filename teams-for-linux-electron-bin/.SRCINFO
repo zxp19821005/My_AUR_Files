@@ -1,0 +1,27 @@
+pkgbase = teams-for-linux-electron-bin
+	pkgdesc = Unofficial Microsoft Teams for Linux client.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.15.0
+	pkgrel = 1
+	url = https://ismaelmartinez.github.io/teams-for-linux/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = electron42
+	depends = nodejs
+	provides = teams-for-linux-electron=2.15.0
+	conflicts = teams-for-linux
+	conflicts = teams-for-linux-wayland-hook
+	conflicts = teams-for-linux-git
+	conflicts = teams-for-linux-bin
+	conflicts = teams-for-linux-electron
+	source = teams-for-linux-electron.sh
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+	source_aarch64 = teams-for-linux-electron-2.15.0-aarch64.rpm::https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.15.0/teams-for-linux-2.15.0.aarch64.rpm
+	sha256sums_aarch64 = 62c38d511b33f676195c1a222184cd19eb1aea0d0cbaaa6e06f28d533920bba6
+	source_armv7h = teams-for-linux-electron-2.15.0-armv7h.rpm::https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.15.0/teams-for-linux-2.15.0.armv7l.rpm
+	sha256sums_armv7h = d0c8590f4b89728acec75aaedde90b26305aedd8a42de726fc5c6c786ebb3dc2
+	source_x86_64 = teams-for-linux-electron-2.15.0-x86_64.rpm::https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.15.0/teams-for-linux-2.15.0.x86_64.rpm
+	sha256sums_x86_64 = 3e604f3b6298c11e1298650871ec185bf8940e459157810fba2c93cb3de4494d
+
+pkgname = teams-for-linux-electron-bin
