@@ -1,8 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=drawpen-bin
 _pkgname=DrawPen
-pkgver=0.0.54
-_electronversion=43
+pkgver=0.0.56
+_electronversion=40
 pkgrel=1
 pkgdesc="A simple screen annotation.(Prebuild version.Use system-wide electron)"
 arch=('x86_64')
@@ -20,7 +20,7 @@ source=(
     "${pkgname%-bin}-${pkgver}.rpm::${url}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-1.${CARCH}.rpm"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('f48904cda0a80388edead8f950c9c3d7a562246d59590a9549c905687e34c9c7'
+sha256sums=('90c52b96203c85699da4f6c87fdc0dc66ed379f571b865791f153430cb6bb200'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
