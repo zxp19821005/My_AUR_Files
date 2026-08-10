@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=eagle-animation-bin
 _pkgname='Eagle Animation'
-pkgver=2.18.0
+pkgver=2.18.1
 _electronversion=43
 pkgrel=1
 pkgdesc="An awesome, free and open-source animation software.(Prebuilt version.Use system-wide electron)"
@@ -14,18 +14,14 @@ conflicts=("${pkgname%-bin}")
 depends=(
     "electron${_electronversion}"
     'ffmpeg'
-    'libexif'
-    'nettle3'
-    'libxml2-legacy'
-    'libtool'
-    'libgphoto2'
     'nodejs'
+    'libxcrypt-compat'
 )
 source=(
     "${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux.rpm"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('8dafb8b641d02d7958f07a159cca7f4f62252d1c62c08d5b2b0f1178190f369b'
+sha256sums=('3980790278e6edd44fb0939ed5c88952f12f9680004344b8fbc95aec43d5ef08'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
