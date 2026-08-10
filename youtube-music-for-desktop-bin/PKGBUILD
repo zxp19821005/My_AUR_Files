@@ -2,8 +2,9 @@
 _appname="youtube music for desktop"
 pkgname="${_appname// /-}-bin"
 _pkgname=YouTube-Music-for-Desktop
-pkgver=1.1.4
-_electronversion=36
+_binname=ytmdesktop2
+pkgver=1.7.0
+_electronversion=43
 pkgrel=1
 pkgdesc="Unofficial Youtube Music Desktop App, with LastFM support.(Prebuilt version.Use system-wide electron)"
 arch=(
@@ -27,8 +28,8 @@ source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.AppImage::${_ghurl}/releases/
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}.AppImage")
 sha256sums=('33c4de6d76721945c9346b3b1024fe56f2fbb6bebbb0e761656232520a6defa6'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('08a0e00499260926feb76dedc887b05d3efbee0db6652bffe1fdce8b943e217a')
-sha256sums_x86_64=('93769d15060ef88bb24c6a2bd190ef4fe3da2e9c6566af4ad6737218901f0680')
+sha256sums_aarch64=('4fbf28dc841619ac693010118acdbb079f4514b64d58ae97852f145320b46f89')
+sha256sums_x86_64=('a3cfa3d88d268b94eba3faa3e031cdd7a374d898b364b09ec292b1aec4786e26')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
@@ -64,9 +65,9 @@ prepare() {
     find "${_app_dir}/resources" -type d -exec chmod 755 {} +
     sed -i -e "
         s/AppRun --no-sandbox/${pkgname%-bin}/g
-        s/Icon=${_appname}/Icon=${pkgname%-bin}/g
+        s/Icon=${_binname}/Icon=${pkgname%-bin}/g
         s/Categories=Music/Categories=AudioVideo;Music/g
-    " "${_app_dir}/${_appname}.desktop"
+    " "${_app_dir}/${_binname}.desktop"
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
@@ -79,6 +80,6 @@ package() {
 		_target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
 		install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
 	done
-    install -Dm644 "${_app_dir}/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${_app_dir}/${_binname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
     install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
