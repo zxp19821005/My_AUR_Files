@@ -1,0 +1,25 @@
+pkgbase = passwordsecure-bin
+	pkgdesc = A cross-platform password manager that uses strong AES-256 encryption.(Prebuilt version)
+	pkgver = 1.2026.08.08
+	pkgrel = 1
+	url = https://github.com/mihnea-radulescu/passwordsecure
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-only
+	license = MIT
+	makedepends = gendesk
+	makedepends = icoutils
+	depends = fontconfig
+	depends = dotnet-runtime
+	provides = passwordsecure=1.2026.08.08
+	conflicts = passwordsecure
+	options = !strip
+	options = staticlibs
+	source = passwordsecure.sh
+	sha256sums = 6aca7dfd3abf71dd91e7b5d6a6d78084c8d52cf5df2564d3889b07e6621940c4
+	source_aarch64 = passwordsecure-1.2026.08.08-aarch64.tar.gz::https://github.com/mihnea-radulescu/passwordsecure/releases/download/1.2026.08.08/PasswordSecure_Linux_arm64.tar.gz
+	sha256sums_aarch64 = d9261327e510f71fdca46bf2c5a1008ac712aefaebd222a2d9e9b2b710a37fb3
+	source_x86_64 = passwordsecure-1.2026.08.08-x86_64.tar.gz::https://github.com/mihnea-radulescu/passwordsecure/releases/download/1.2026.08.08/PasswordSecure_Linux_x64.tar.gz
+	sha256sums_x86_64 = 47453597489f5cdc534e1db0e7c281ae4555810c4c06b56f91e7d0b61d8f9b96
+
+pkgname = passwordsecure-bin
