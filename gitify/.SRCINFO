@@ -1,0 +1,22 @@
+pkgbase = gitify
+	pkgdesc = GitHub notifications on your menu bar.(Use system-wide electron)
+	pkgver = 7.3.2
+	pkgrel = 1
+	url = https://www.gitify.io/
+	arch = any
+	license = MIT
+	makedepends = gendesk
+	makedepends = nvm
+	makedepends = npm
+	makedepends = pnpm
+	makedepends = icoutils
+	makedepends = curl
+	makedepends = git
+	makedepends = jq
+	depends = electron43
+	source = gitify-7.3.2::git+https://github.com/gitify-app/gitify#tag=v7.3.2
+	source = gitify.sh
+	sha256sums = f850befd8f2741aed27fe40e6a7ac1ab440dccbf45dbca749d69db032669e797
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = gitify

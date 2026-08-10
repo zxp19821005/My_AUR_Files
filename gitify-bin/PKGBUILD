@@ -2,7 +2,7 @@
 # Contributor: Ariel Abreu <facekapow@outlook.com>
 pkgname=gitify-bin
 _pkgname=Gitify
-pkgver=7.2.0
+pkgver=7.3.2
 _electronversion=43
 pkgrel=1
 pkgdesc="GitHub notifications on your menu bar.(Prebuilt version.Use system-wide electron)"
@@ -18,7 +18,7 @@ source=(
 	"LICENSE-${pkgver}::https://raw.githubusercontent.com/gitify-app/gitify/v$pkgver/LICENSE"
 	"${pkgname%-bin}.sh"
 )
-sha256sums=('f1d8e98ac330caaf51d7da738486bbff9c6458f37ab19c9e5657e8e9c734e06d'
+sha256sums=('7a8b1bf470825d1e69aff0293c6150a66317aba6b4d0a5284e0f3239d277533e'
             'e3583a920d79b28287ca8bf4b021c6cbeba746a75073c0c68b0aa64ff0b38961'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _get_app_dir() {
