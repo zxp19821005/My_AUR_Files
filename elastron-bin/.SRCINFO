@@ -1,0 +1,16 @@
+pkgbase = elastron-bin
+	pkgdesc = Full featured elasticsearch client(Prebuilt version.Use system-wide electron).
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://elastron.eney.solutions/
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = electron41
+	provides = elastron=2.0.1
+	conflicts = elastron
+	source = elastron-2.0.1-x86_64.AppImage::https://github.com/antonkorotkov/elastron/releases/download/2.0.1/Elastron-2.0.1.AppImage
+	source = elastron.sh
+	sha256sums = cc95a88c009224cb8dc8211df418c875313443c52915f4b5391eb97edf8ff486
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = elastron-bin
