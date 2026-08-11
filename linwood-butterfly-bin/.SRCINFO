@@ -1,0 +1,25 @@
+pkgbase = linwood-butterfly-bin
+	pkgdesc = Powerful, minimalistic, cross-platform, opensource note-taking app.(Prebuilt version)
+	pkgver = 2.5.5
+	pkgrel = 1
+	url = https://docs.butterfly.linwood.dev/
+	arch = aarch64
+	arch = x86_64
+	license = AGPL-3.0-only
+	license = CC-BY-4.0
+	license = Apache-2.0
+	depends = gtk3
+	depends = at-spi2-core
+	depends = libsecret
+	provides = linwood-butterfly=2.5.5
+	conflicts = linwood-butterfly
+	source = LICENSE-2.5.5::https://raw.githubusercontent.com/LinwoodDev/Butterfly/v2.5.5/LICENSE
+	source = linwood-butterfly.sh
+	sha256sums = 8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef
+	sha256sums = 3b8311438e88f47eb507322a43c7a4156bfebb8c0f6e7b7436ef70842fb4c745
+	source_aarch64 = linwood-butterfly-2.5.5-aarch64.rpm::https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.5/linwood-butterfly-linux-arm64.rpm
+	sha256sums_aarch64 = 7940226e7bb2ed1a236d1edc35f16efd8417b88e0902f990e4847f91709d9a9b
+	source_x86_64 = linwood-butterfly-2.5.5-x86_64.rpm::https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.5/linwood-butterfly-linux-x86_64.rpm
+	sha256sums_x86_64 = 707ae63080afa25af8d43709efd525942fba354ca288535b62e3e26b5d99864d
+
+pkgname = linwood-butterfly-bin
