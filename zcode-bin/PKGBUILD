@@ -2,9 +2,9 @@
 # Contributor: zxp19821005 <zxp19821005 at 163 dot com> (launcher script approach)
 pkgname=zcode-bin
 _pkgname=ZCode
-pkgver=3.3.6
+pkgver=3.7.5
 _electronversion=41
-pkgrel=2
+pkgrel=1
 pkgdesc="ZCode - AI-powered code editor by ZAI (Prebuilt version.Use system-wide electron)"
 arch=(
     'aarch64'
@@ -24,6 +24,8 @@ depends=(
     'nodejs'
     'libgcc'
     'ripgrep'
+    'bfs'
+    'ugrep'
 )
 makedepends=(
     'asar'
@@ -32,15 +34,15 @@ options=(
     '!strip'
 )
 source=(
-    "LICENSE"
+    "LICENSE.html::${url}/en/privacy"
     "${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${pkgver}/linux-arm64/${_pkgname}-${pkgver}-linux-arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${pkgver}/linux-x64/${_pkgname}-${pkgver}-linux-x64.deb")
-sha256sums=('6f7a7821eec5ffc00c7e5c24ac0b917864d503253816c6546c723e84ed418919'
-            '2bc285eed1aa4a838e0b96d96e44e9a0df63a5a2c54b623790039a5feb2f8a83')
-sha256sums_aarch64=('a3e2859d4789ef0fb0b937bddd500723918e9bb0e079ac1509c6786c93bed1e1')
-sha256sums_x86_64=('47dded48f48dc5db2e1f5a554fea8e5bb1f183fa2d263697e2f4837a985d95ff')
+sha256sums=('38c716c8a353d94b539d7d32391f7fc435022f2ebf20a2920eeb79691cd15964'
+            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+sha256sums_aarch64=('c8a165f2dab1a1ec1c03a92129474e67753507cb873cb17071231a53f22ea7ad')
+sha256sums_x86_64=('d3a7a7a07a8512d01c2d4b242644ae673028038f614567a854b940bbdf8da43e')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
@@ -78,6 +80,8 @@ prepare() {
 
     # Use system ripgrep instead of bundled
     ln -sf "/usr/bin/rg" "${_app_dir}/resources/tools/ripgrep/rg"
+    ln -sf "/usr/bin/bfs" "${_app_dir}/resources/tools/bfs/bfs"
+    ln -sf "/usr/bin/ugrep" "${_app_dir}/resources/tools/ugrep/ugrep"
 
     # Remove unnecessary files to reduce package size
     rm -rf \
@@ -106,5 +110,5 @@ package() {
     done
 
     # Install license
-    install -Dm644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
