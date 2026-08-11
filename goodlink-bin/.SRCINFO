@@ -1,0 +1,22 @@
+pkgbase = goodlink-bin
+	pkgdesc = The simplest, zero-cost intranet penetration in the whole network, a single command directly connects any two hosts on the Internet.(Prebuilt version,written in Go)
+	pkgver = 2.5.24
+	pkgrel = 1
+	url = https://gitee.com/konyshe/goodlink
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = Apache-2.0
+	provides = goodlink=2.5.24
+	conflicts = goodlink
+	source_aarch64 = goodlink-2.5.24-aarch64.zip::https://gitee.com/konyshe/goodlink/releases/download/v2.5.24/goodlink-linux-arm64-cmd.zip
+	sha256sums_aarch64 = c1679d0adc6746a7367e4959c6a617d1e419e93ba22373867dd5d4c80cc7e9ee
+	source_armv7h = goodlink-2.5.24-armv7h.zip::https://gitee.com/konyshe/goodlink/releases/download/v2.5.24/goodlink-linux-arm-cmd.zip
+	sha256sums_armv7h = 56a3c2ffa434f94d0764c419bc45e307bfd6b7a557fd8b36ac2cf57981e5387c
+	source_i686 = goodlink-2.5.24-i686.zip::https://gitee.com/konyshe/goodlink/releases/download/v2.5.24/goodlink-linux-386-cmd.zip
+	sha256sums_i686 = c6c196b863a9a02df6d488b5d967b5b7c8255ab39a68bf009b747d842071aae2
+	source_x86_64 = goodlink-2.5.24-x86_64.zip::https://gitee.com/konyshe/goodlink/releases/download/v2.5.24/goodlink-linux-amd64-cmd.zip
+	sha256sums_x86_64 = 9f38f2dd5bc36b3fab52783d8fa3acfd448c42cfa76540ec409ab93cf6549605
+
+pkgname = goodlink-bin
