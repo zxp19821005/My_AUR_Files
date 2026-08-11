@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=mediachips-bin
 _pkgname=MediaChips
-pkgver=1.5.0
+pkgver=1.7.1
 _electronversion=42
 pkgrel=1
 pkgdesc="Manage your videos, add any metadata to them and play them.(Prebuilt version.Use system-wide electron)"
@@ -20,7 +20,7 @@ source=(
     "${pkgname%-bin}-${pkgver}-x86_64.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname}.v${pkgver}.Linux.AppImage"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('f3aee5dcd30071ee0fba42edd2cef1ffcef6393462aed34e4a9c94433f0bc75a'
+sha256sums=('d2a6c53976928ac63321e2de40b6bf8341ec3aefdc1991028e4d8b407c7563f3'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
@@ -58,7 +58,8 @@ prepare() {
     find "${_app_dir}/resources" -type d -exec chmod 755 {} +
     rm -rf \
         "${_app_dir}/resources/app.asar.unpacked/node_modules/ffprobe-static/bin/"{darwin,linux/ia32} \
-        "${_app_dir}/resources/app.asar.unpacked/node_modules/onnxruntime-node/bin/napi-v3/"{darwin,win32,linux/arm64}
+        "${_app_dir}/resources/app.asar.unpacked/node_modules/onnxruntime-node/bin/napi-v3/"{darwin,win32,linux/arm64} \
+        "${_app_dir}/resources/app.asar.unpacked/node_modules/@node-llama-cpp/"{linux-arm64,linux-armv7l}
     ln -sf "/usr/bin/ffmpeg" "${_app_dir}/resources/app.asar.unpacked/node_modules/ffmpeg-static/ffmpeg"
     ln -sf "/usr/bin/ffprobe" "${_app_dir}/resources/app.asar.unpacked/node_modules/ffprobe-static/bin/linux/x64/ffprobe"
 }
