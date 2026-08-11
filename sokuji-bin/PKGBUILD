@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=sokuji-bin
 _pkgname=Sokuji
-pkgver=0.35.5
+pkgver=0.36.1
 _electronversion=40
 pkgrel=1
 pkgdesc="Provide real-time simultaneous interpretation using OpenAI's Realtime API.(Prebuilt version.Use system-wide electron)"
@@ -21,8 +21,8 @@ source=("${pkgname%-bin}.sh")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${url}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb")
 sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('3dc4868e176c1700a82741d3f175fc0fefd123a82f772dbcd7192c7b34c5ed0b')
-sha256sums_x86_64=('09eb5e14a84a9118142ffc7f44fcb57960db3c4ac6c26d32bf08f30d5c648bfd')
+sha256sums_aarch64=('a67c091e580556b1b5bf63477b13d58507139b692079ae844d8d2d095cd7c7f9')
+sha256sums_x86_64=('c92d1a1134913cde9cae2bb6d3190600cc38bf8f7d9391c46d554ec2f8a6695e')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
@@ -48,7 +48,7 @@ prepare() {
     local _app_dir=$(_get_app_dir)
     sed -i "s/\/opt\/${_pkgname}\///g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
     rm -rf \
-        "${srcdir}/resources/resources/drivers/SokujiVirtualAudio.driver/Contents/MacOS"
+        "${_app_dir}/resources/resources/drivers/SokujiVirtualAudio.driver/Contents/MacOS"
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
