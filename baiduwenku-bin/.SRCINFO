@@ -1,0 +1,25 @@
+pkgbase = baiduwenku-bin
+	pkgdesc = Baidu wenku Client.(Prebuilt version.Use system-wide electron)一款由百度发布的供网友在线分享文档的平台
+	pkgver = 3.4.2
+	pkgrel = 1
+	url = https://wenku.baidu.com
+	arch = x86_64
+	license = LicenseRef-custom
+	makedepends = 7zip
+	makedepends = asar
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron22
+	provides = baiduwenku=3.4.2
+	conflicts = baiduwenku
+	conflicts = deepin-wine-baiduwenku
+	options = !strip
+	options = !emptydirs
+	source = baiduwenku-3.4.2.exe::https://edu-wenku.bdimg.com/v1/na/0807/PC%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%89%88%E6%9C%AC%E5%8C%85/wenku-Setup-3.4.2.exe
+	source = LICENSE.html::https://edu-wenku.bdimg.com/v1/pc/protocols/help24-new.htm
+	source = baiduwenku.sh
+	sha256sums = 5d0f042a36f431d4a3651276f749142ca5ad2ddb04a34e834e4e12a52669ed23
+	sha256sums = eb85aa9b3586dcd16b0f18b4b467b46b076688f9d1f723dea7f2eb92cd797ce7
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = baiduwenku-bin
