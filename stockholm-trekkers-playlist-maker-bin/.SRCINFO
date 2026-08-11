@@ -1,6 +1,6 @@
 pkgbase = stockholm-trekkers-playlist-maker-bin
 	pkgdesc = A desktop app for making specialized video playlists.(Prebuilt version)
-	pkgver = 4.1.0
+	pkgver = 4.1.2
 	pkgrel = 1
 	url = https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker
 	arch = x86_64
@@ -8,9 +8,9 @@ pkgbase = stockholm-trekkers-playlist-maker-bin
 	depends = gtk3
 	depends = gdk-pixbuf2
 	depends = webkit2gtk-4.1
-	provides = stockholm-trekkers-playlist-maker=4.1.0
+	provides = stockholm-trekkers-playlist-maker=4.1.2
 	conflicts = stockholm-trekkers-playlist-maker
-	source = stockholm-trekkers-playlist-maker-4.1.0.deb::https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker/releases/download/v4.1.0/Stockholm.Trekkers.Playlist.Maker_4.1.0_amd64.deb
-	sha256sums = 0fbd6184512c592621e5314ec93b1a69a3b52c86a1c16c3ef6361b8e9ffcf605
+	source = stockholm-trekkers-playlist-maker-4.1.2.deb::https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker/releases/download/v4.1.2/Stockholm.Trekkers.Playlist.Maker_4.1.2_amd64.deb
+	sha256sums = 66acc9b54dbed438dcfc3b64efd62ab1712450ba67bfb18ad50ea2e09c4b9f1f
 
 pkgname = stockholm-trekkers-playlist-maker-bin
