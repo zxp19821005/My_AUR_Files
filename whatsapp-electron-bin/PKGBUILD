@@ -1,6 +1,6 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=whatsapp-electron-bin
-pkgver=1.2.9
+pkgver=1.2.10
 _electronversion=43
 pkgrel=1
 pkgdesc="WhatsApp Client built on Electron with multi-account support!(Prebuilt version.Use system-wide electron)"
@@ -20,7 +20,7 @@ source=(
     "${pkgname%-bin}-${pkgver}-x86_64.AppImage::${url}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}.AppImage"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('6a35ef1db11db754a21c2296e96579565c3d821655735b04a55a2d31978aad0e'
+sha256sums=('1995879bbb5cd8324a492e654f43fcbdc7ffd7b0c017db4aa5bb7d13f0e1fd35'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1

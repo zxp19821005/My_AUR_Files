@@ -1,6 +1,6 @@
 pkgbase = whatsapp-electron-bin
 	pkgdesc = WhatsApp Client built on Electron with multi-account support!(Prebuilt version.Use system-wide electron)
-	pkgver = 1.2.9
+	pkgver = 1.2.10
 	pkgrel = 1
 	url = https://github.com/dagmoller/whatsapp-electron
 	arch = x86_64
@@ -8,11 +8,11 @@ pkgbase = whatsapp-electron-bin
 	makedepends = fuse2
 	makedepends = asar
 	depends = electron43
-	provides = whatsapp-electron=1.2.9
+	provides = whatsapp-electron=1.2.10
 	conflicts = whatsapp-electron
-	source = whatsapp-electron-1.2.9-x86_64.AppImage::https://github.com/dagmoller/whatsapp-electron/releases/download/v1.2.9/whatsapp-electron-1.2.9.AppImage
+	source = whatsapp-electron-1.2.10-x86_64.AppImage::https://github.com/dagmoller/whatsapp-electron/releases/download/v1.2.10/whatsapp-electron-1.2.10.AppImage
 	source = whatsapp-electron.sh
-	sha256sums = 6a35ef1db11db754a21c2296e96579565c3d821655735b04a55a2d31978aad0e
+	sha256sums = 1995879bbb5cd8324a492e654f43fcbdc7ffd7b0c017db4aa5bb7d13f0e1fd35
 	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
 
 pkgname = whatsapp-electron-bin
