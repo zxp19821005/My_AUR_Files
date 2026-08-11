@@ -1370,6 +1370,7 @@
 |**tencent-docs-electron**|[tencent-docs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-docs-electron-bin)|[tencent-docs-electron-bin](https://aur.archlinux.org/packages/tencent-docs-electron-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**tenvideo**|[tenvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tenvideo)|[tenvideo](https://aur.archlinux.org/packages/tenvideo)||
+|**termark**|[termark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termark-bin)|[termark-bin](https://aur.archlinux.org/packages/termark-bin)||
 |**termora**|[termora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termora-bin)|[termora-bin](https://aur.archlinux.org/packages/termora-bin)||
 |**termua**|[termua-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/termua-bin)|[termua-bin](https://aur.archlinux.org/packages/termua-bin)||
 |**ten-hands**|[ten-hands-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ten-hands-bin)|[ten-hands-bin](https://aur.archlinux.org/packages/ten-hands-bin)||
