@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 # Contributor: Shuyuan Liu <liu_shuyuan at qq dot com>
 pkgname=issie
-pkgver=6.0.13
+pkgver=6.0.14
 _electronversion=43
 _nodeversion=24
 pkgrel=1
@@ -31,7 +31,7 @@ makedepends=(
 source=(
     "${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
 )
-sha256sums=('200cb3cb9a7b0ffa751aa03c622a977b161556fb79d9bda088ecdb7f963e72fc')
+sha256sums=('0de8b5b6ade3aabdea308668a7332565c4ee52b0550fa65832bc01bf75de46ca')
 _ensure_local_nvm() {
     local NVM_DIR="${srcdir}/.nvm"
     source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
@@ -68,7 +68,7 @@ _get_electron_version() {
 }
 prepare() {
     cd "${srcdir}/${pkgname}-${pkgver}"
-    _get_electron_version    
+    _get_electron_version   
     gendesk -q -f -n \
         --pkgname="${pkgname}" \
         --pkgdesc="${pkgdesc}" \
