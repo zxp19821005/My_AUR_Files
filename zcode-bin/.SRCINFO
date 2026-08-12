@@ -1,6 +1,6 @@
 pkgbase = zcode-bin
 	pkgdesc = ZCode - AI-powered code editor by ZAI (Prebuilt version.Use system-wide electron)
-	pkgver = 3.7.5
+	pkgver = 3.7.6
 	pkgrel = 1
 	url = https://zcode.z.ai/
 	arch = aarch64
@@ -22,11 +22,11 @@ pkgbase = zcode-bin
 	options = !strip
 	source = LICENSE.html::https://zcode.z.ai//en/privacy
 	source = zcode.sh
-	sha256sums = 38c716c8a353d94b539d7d32391f7fc435022f2ebf20a2920eeb79691cd15964
-	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
-	source_aarch64 = zcode-3.7.5-aarch64.deb::https://cdn-zcode.z.ai/zcode/electron/releases/3.7.5/linux-arm64/ZCode-3.7.5-linux-arm64.deb
-	sha256sums_aarch64 = c8a165f2dab1a1ec1c03a92129474e67753507cb873cb17071231a53f22ea7ad
-	source_x86_64 = zcode-3.7.5-x86_64.deb::https://cdn-zcode.z.ai/zcode/electron/releases/3.7.5/linux-x64/ZCode-3.7.5-linux-x64.deb
-	sha256sums_x86_64 = d3a7a7a07a8512d01c2d4b242644ae673028038f614567a854b940bbdf8da43e
+	sha256sums = c981acebd2dc42757bb6e0d3a6b8d7b993f63e66b3ac985401d893e8dc91319e
+	sha256sums = dad7cd53079a7ffbeee43f10aac5562a4d9f1c27752e2c5ae1a682616ab5b075
+	source_aarch64 = zcode-3.7.6-aarch64.deb::https://cdn-zcode.z.ai/zcode/electron/releases/3.7.6/linux-arm64/ZCode-3.7.6-linux-arm64.deb
+	sha256sums_aarch64 = d853d961827ee08bc329be9a11769b4eb4ff19b16cd1cf8ce601ad80a3dda02c
+	source_x86_64 = zcode-3.7.6-x86_64.deb::https://cdn-zcode.z.ai/zcode/electron/releases/3.7.6/linux-x64/ZCode-3.7.6-linux-x64.deb
+	sha256sums_x86_64 = 7b960c18bdf87a799795dea3ce372e945df65414b164d9b7a41136bb5029eb86
 
 pkgname = zcode-bin
