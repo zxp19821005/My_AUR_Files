@@ -1,0 +1,26 @@
+pkgbase = electerm
+	pkgdesc = Terminal/ssh/telnet/serialport/sftp client.(Use system-wide electron)
+	pkgver = 5.1.6
+	pkgrel = 1
+	url = https://electerm.html5beta.com/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	makedepends = npm
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = python-setuptools
+	makedepends = curl
+	makedepends = git
+	makedepends = jq
+	depends = electron42
+	depends = python
+	depends = nodejs
+	conflicts = electerm
+	source = electerm-5.1.6::git+https://github.com/electerm/electerm#tag=v5.1.6
+	source = electerm.sh
+	sha256sums = 39af23b58b0f9735c69d046446cc48c12215e1012196df71ed299be217a2d79d
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = electerm
