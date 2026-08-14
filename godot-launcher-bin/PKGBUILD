@@ -1,6 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=godot-launcher-bin
 _pkgname='Godot Launcher'
+_desktopname='org.godotlauncher.launcher.desktop'
 pkgver=1.10.1
 _electronversion=41
 pkgrel=1
@@ -33,6 +34,11 @@ sha256sums_x86_64=('40e3f45c6dda5cc3956a3d31cfa5830895fc2fd7317f85233f919d0c4a6a
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
+_get_desktop_file() {
+    local _desktop_file="${srcdir}/usr/share/applications/${_desktopname}"
+    [[ -f "${_desktop_file}" ]] || _desktop_file="${srcdir}/usr/share/applications/${_pkgname}.desktop"
+    printf '%s\n' "${_desktop_file}"
+}
 _check_electron_version() {
     echo "Verifying Electron version..."
     local _main_exe=$(find "$(_get_app_dir)" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
@@ -44,6 +50,8 @@ _check_electron_version() {
         echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
 }
 prepare() {
+    local _desktop_file
+    _desktop_file="$(_get_desktop_file)"
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
         s/@appname@/${pkgname%-bin}/g
@@ -54,11 +62,18 @@ prepare() {
     sed -i -e "
         s/\"\/opt\/${_pkgname}\/${_pkgname}\"/${pkgname%-bin}/g
         s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+    " "${_desktop_file}"
     local _app_dir=$(_get_app_dir)
     find "${_app_dir}/resources" -type d -exec chmod 755 {} +
 }
 package() {
+    local _desktop_file
+    _desktop_file="$(_get_desktop_file)"
+    local _installed_desktop_file="${pkgname%-bin}.desktop"
+    if [[ "${_desktop_file##*/}" == "${_desktopname}" ]]; then
+        _installed_desktop_file="${_desktopname}"
+    fi
+
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
 	local _app_dir=$(_get_app_dir)
@@ -70,6 +85,6 @@ package() {
 		install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
 	done
     install -Dm644 "${srcdir}/usr/share/icons/hicolor/256x256/apps/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    install -Dm644 "${_desktop_file}" "${pkgdir}/usr/share/applications/${_installed_desktop_file}"
     install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
 }
