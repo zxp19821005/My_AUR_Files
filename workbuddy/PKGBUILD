@@ -1,11 +1,10 @@
 # Maintainer: Rongbo <wurongbo2012@hotmail.com>
 pkgname=workbuddy
 _pkgname=WorkBuddy
-pkgver=5.3.11.35348084
+pkgver=5.3.12.35805101_a981f41f
 _electronversion=42
 _nodeversion=24.18.1
 pkgrel=1
-_commit=45487630
 pkgdesc="Work Smart，Not Hard"
 arch=(
     'aarch64'
@@ -15,6 +14,14 @@ url="https://www.codebuddy.ai/agents"
 license=('LicenseRef-custom')
 depends=(
     "electron${_electronversion}"
+    'nodejs'
+    'python'
+    'python-httpx'
+    'python-requests'
+    'python-numpy'
+    'python-pillow'
+    'python-click'
+    'python-beautifulsoup4'
 )
 makedepends=(
     '7zip'
@@ -30,16 +37,24 @@ optdepends=(
     'gnome-shell-extension-appindicator'
 )
 source=(
-    "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/WorkBuddy-darwin-x64-${pkgver}-${_commit}.dmg"
+    "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/${_pkgname}-darwin-x64-${pkgver//_/-}.dmg"
     "${pkgname}.desktop"
+    "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-13.0.3.tgz"
+    "node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.15.tgz"
     "${pkgname}.sh"
 )
 options=(
     '!strip'
     '!emptydirs'
 )
-sha256sums=('c31aa58f9c7b79bf1ca9db1d8a44df57b061974c25689680084a8f09bd5badf3'
+noextract=(
+    "better-sqlite3.tgz"
+    "node-pty.tgz"
+)
+sha256sums=('6bd78dd8733fdfb22cac7c0b024ffe8b0174afe00a4a539560cd5c7c103462b5'
             'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
+            '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
+            'c28df2b8de694493420c9f090c53f1cc9d087b64ba7b6b59e262588198688ef5'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _ensure_local_nvm() {
     local NVM_DIR="${srcdir}/.nvm"
@@ -54,72 +69,33 @@ prepare() {
         s/@runname@/app.asar.unpacked/g
         s/@cfgdirname@/${pkgname%-bin}/g
     " "${srcdir}/${pkgname%-bin}.sh"
-    7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
-    mkdir -p "${srcdir}/${_pkgname}.app/Contents/Resources/node_modules"
+    #7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
     cd "${srcdir}/${_pkgname}.app/Contents/Resources"
-    icns2png -x icon.icns -o "${srcdir}"
-    asar e app.asar app.asar.unpacked || continue
-    find app.asar.unpacked -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +
-    
-    # 在临时目录中独立编译原生模块，针对 Electron 的 Node.js 版本
+    #icns2png -x icon.icns -o "${srcdir}"
+    #asar e app.asar app.asar.unpacked || continue
+    find app.asar.unpacked -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +    
     local _unpacked_dir="${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
-    local _build_dir="${srcdir}/native-build"
-    mkdir -p "${_build_dir}"
-    cd "${_build_dir}"
-    _ensure_local_nvm
-    export NVM_NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
-    export NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
-    npm config set registry https://registry.npmmirror.com
-    cat > package.json << 'EOF'
-{
-  "name": "workbuddy-native-deps",
-  "version": "1.0.0",
-  "dependencies": {
-    "@lydell/node-pty": "1.2.0-beta.15",
-    "better-sqlite3": "^13.0.0"
-  }
-}
-EOF
-    
-    # 安装 electron-rebuild 以针对 Electron 重新编译原生模块
-    npm install --save-dev electron-rebuild
-    
-    # 先安装依赖
-    npm install --omit=dev --legacy-peer-deps
-    
-    # 使用 electron-rebuild 针对 Electron 版本重新编译原生模块
-    ./node_modules/.bin/electron-rebuild --version ${_electronversion} --force --types=optional,regular || {
-        echo "electron-rebuild failed, trying manual rebuild..."
-        # 如果 electron-rebuild 失败，手动为每个原生模块重新编译
-        for module in better-sqlite3 @lydell/node-pty; do
-            if [ -d "node_modules/$module" ]; then
-                cd "node_modules/$module"
-                npx node-gyp rebuild --target=${_electronversion}.0.0 --disturl=https://npmmirror.com/mirrors/electron/ --arch=x64 || true
-                cd "${_build_dir}"
-            fi
-        done
-    }
-    
-    rm -rf "${_unpacked_dir}/node_modules/better-sqlite3"
-    rm -rf "${_unpacked_dir}/node_modules/@lydell/node-pty"
-    cp -a "${_build_dir}/node_modules/better-sqlite3" "${_unpacked_dir}/node_modules/"
-    cp -a "${_build_dir}/node_modules/@lydell/node-pty" "${_unpacked_dir}/node_modules/"
-    rm -rf "${_build_dir}"
-    
+    rm -rf "${_unpacked_dir}/node_modules/"{better-sqlite3,@lydell/node-pty-linux*}
+    mkdir -p "${srcdir}/tmp/"{better-sqlite3,node-pty-linux}
+    bsdtar -xf "${srcdir}/better-sqlite3.tgz" -C "${srcdir}/tmp/better-sqlite3"
+    rm -rf "${srcdir}/tmp/better-sqlite3/package/prebuilds/"{darwin-*,*-arm64*,win32-*}
+    bsdtar -xf "${srcdir}/node-pty.tgz" -C "${srcdir}/tmp/node-pty-linux"
+    mkdir -p "${_unpacked_dir}/node_modules/"{better-sqlite3,@lydell/node-pty-linux-x64}
+    mv "${srcdir}/tmp/better-sqlite3/package/"* "${_unpacked_dir}/node_modules/better-sqlite3"
+    mv "${srcdir}/tmp/node-pty-linux/package/"* "${_unpacked_dir}/node_modules/@lydell/node-pty-linux-x64"
     # 删除 macOS 专属文件，减少包体积
-    # node-pty 的 macOS 预编译原生模块
-    rm -rf "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-arm64"
-    rm -rf "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-x64"
-    # genie-trash 的 macOS 二进制
-    rm -rf "${_unpacked_dir}/cli/vendor/genie-trash/darwin-x64"
-    # ripgrep 的 macOS 和 Windows 二进制
-    rm -rf "${_unpacked_dir}/cli/vendor/ripgrep/x64-darwin"
-    rm -rf "${_unpacked_dir}/cli/vendor/ripgrep/arm64-darwin"
-    rm -rf "${_unpacked_dir}/cli/vendor/ripgrep/x64-win32"
-    # sandbox-cli 是 macOS Mach-O 二进制
-    rm -rf "${_unpacked_dir}/cli/vendor/sandbox/5.3.3/sandbox-cli"
-    # wechat-copydata-decoder 是 macOS 原生模块
-    rm -rf "${_unpacked_dir}/native/wechat-copydata-decoder"
+    rm -rf \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-arm64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-x64" \
+        "${_unpacked_dir}/cli/vendor/genie-trash/darwin-x64" \
+        "${_unpacked_dir}/cli/vendor/ripgrep/x64-darwin" \
+        "${_unpacked_dir}/cli/vendor/ripgrep/arm64-darwin" \
+        "${_unpacked_dir}/cli/vendor/ripgrep/x64-win32" \
+        "${_unpacked_dir}/cli/vendor/sandbox/5.3.3/sandbox-cli" \
+        "${_unpacked_dir}/native/wechat-copydata-decoder"
+    find "${_unpacked_dir}/node_modules" -type d \
+        \( -name "*-arm64*" -o -name "*darwin*" -o -name "*win32*" \) \
+        -exec rm -rf {} +
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
