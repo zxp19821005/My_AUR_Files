@@ -1,10 +1,10 @@
 # Maintainer: Rongbo <wurongbo2012@hotmail.com>
 pkgname=workbuddy
 _pkgname=WorkBuddy
-pkgver=5.3.12.35805101_a981f41f
+pkgver=5.3.14.36279234_825709d4
 _electronversion=42
 _nodeversion=24.18.1
-pkgrel=1
+pkgrel=99
 pkgdesc="Work Smart，Not Hard"
 arch=(
     'aarch64'
@@ -51,7 +51,7 @@ noextract=(
     "better-sqlite3.tgz"
     "node-pty.tgz"
 )
-sha256sums=('6bd78dd8733fdfb22cac7c0b024ffe8b0174afe00a4a539560cd5c7c103462b5'
+sha256sums=('25fe856763ff917e3086135f445c1016085ef7130433661994840e7a4c0a09ce'
             'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
             '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
             'c28df2b8de694493420c9f090c53f1cc9d087b64ba7b6b59e262588198688ef5'
@@ -69,9 +69,9 @@ prepare() {
         s/@runname@/app.asar.unpacked/g
         s/@cfgdirname@/${pkgname%-bin}/g
     " "${srcdir}/${pkgname%-bin}.sh"
-    #7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
+    7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
     cd "${srcdir}/${_pkgname}.app/Contents/Resources"
-    #icns2png -x icon.icns -o "${srcdir}"
+    icns2png -x icon.icns -o "${srcdir}"
     #asar e app.asar app.asar.unpacked || continue
     find app.asar.unpacked -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +    
     local _unpacked_dir="${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
