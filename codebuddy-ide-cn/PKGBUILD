@@ -1,8 +1,8 @@
 _appname=buddycn
 pkgname=codebuddy-ide-cn
-_cb_ver=4.10.4
-_cb_build=33993995
-_cb_hash=1ba59196
+_cb_ver=4.11.1
+_cb_build=36020259
+_cb_hash=b72e1c95
 pkgver="${_cb_ver}.${_cb_build}"
 _electronversion=37
 pkgrel=99
@@ -31,7 +31,7 @@ source=(
     "${pkgname%-bin}.js"
     "${pkgname}.sh"
 )
-sha256sums=('62bf225bc096751ad51ac2dcd63c0c71f5361e8d1e754639e9b55bd1f38f4605'
+sha256sums=('54a51b2d7fb3f1eec695cb1608b8adf4260adeb820a4f896ba720447175ac4a3'
             '7503a07a6b1ce191a902f9bb418da852c628940e7e864a85c49fb4712ab35f75'
             '700067aa4b354a91ab3374b5495af9eb3093855a3d8016a8303e88abf3470599')
 _get_app_dir() {
@@ -48,7 +48,6 @@ _check_electron_version() {
         echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
 }
 prepare() {
-    _check_electron_version
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
         s/@appname@/${pkgname}/g
@@ -56,6 +55,7 @@ prepare() {
         s/@cfgdirname@/${_pkgname}/g
     " "${srcdir}/${pkgname}.sh"
     bsdtar -xf "${srcdir}/data."*
+    _check_electron_version
     sed -i "s/@ELECTRON@/electron${_electronversion}/g" "${srcdir}/${pkgname}.js"
     sed -i -e "
         s/Exec=\/usr\/share\/${_appname}\/bin\/${_appname}/Exec=${pkgname}/g
