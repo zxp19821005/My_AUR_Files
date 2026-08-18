@@ -72,7 +72,7 @@ prepare() {
     7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
     cd "${srcdir}/${_pkgname}.app/Contents/Resources"
     icns2png -x icon.icns -o "${srcdir}"
-    #asar e app.asar app.asar.unpacked || continue
+    asar e app.asar app.asar.unpacked || continue
     find app.asar.unpacked -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +    
     local _unpacked_dir="${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
     rm -rf "${_unpacked_dir}/node_modules/"{better-sqlite3,@lydell/node-pty-linux*}
