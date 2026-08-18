@@ -1,0 +1,21 @@
+pkgbase = simplexity-ai-app
+	pkgdesc = Community-driven Perplexity AI desktop app powered by Electron, bringing powerful AI language intelligence straight to your desktop.(Use system-wide electron)
+	pkgver = 5.2.0
+	pkgrel = 1
+	url = https://github.com/inulute/simplexity-ai-app
+	arch = any
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = git
+	makedepends = jq
+	depends = electron33
+	conflicts = simplexity-ai-app
+	source = simplexity-ai-app-5.2.0::git+https://github.com/inulute/simplexity-ai-app#tag=v5.2.0
+	source = simplexity-ai-app.sh
+	sha256sums = a5a04124762babe796486633a7e688470018935ae5ea4ee01ae21bc63a708c80
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = simplexity-ai-app
