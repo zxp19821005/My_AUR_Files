@@ -31,12 +31,12 @@ pkgbase = workbuddy
 	source = workbuddy-5.3.14.36279234_825709d4-x86_64.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/WorkBuddy-darwin-x64-5.3.14.36279234-825709d4.dmg
 	source = workbuddy.desktop
 	source = better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-13.0.3.tgz
-	source = node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.15.tgz
+	source = node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.14.tgz
 	source = workbuddy.sh
 	sha256sums = 25fe856763ff917e3086135f445c1016085ef7130433661994840e7a4c0a09ce
 	sha256sums = c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a
 	sha256sums = 77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb
-	sha256sums = c28df2b8de694493420c9f090c53f1cc9d087b64ba7b6b59e262588198688ef5
+	sha256sums = eee8e260e43b96aa5450f4c95f05de1b48ab24fcb3d4ef566232ec9ccff2e39e
 	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
 
 pkgname = workbuddy
