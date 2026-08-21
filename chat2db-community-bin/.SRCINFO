@@ -1,6 +1,6 @@
 pkgbase = chat2db-community-bin
 	pkgdesc = 🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.(Prebuilt version with bundled JRE)
-	pkgver = 5.3.3
+	pkgver = 5.3.4
 	pkgrel = 1
 	url = https://chat2db.ai/
 	arch = aarch64
@@ -22,14 +22,14 @@ pkgbase = chat2db-community-bin
 	depends = libxdamage
 	depends = freetype2
 	depends = libxcursor
-	provides = chat2db-community=5.3.3
+	provides = chat2db-community=5.3.4
 	conflicts = chat2db-community
 	options = !emptydirs
 	source = chat2db-community.sh
 	sha256sums = 2f34cdc2dec53f3cc3cea02d56ab796ec3887ced306c8c2d8d80b23b7d5510f0
-	source_aarch64 = chat2db-community-5.3.3-aarch64.rpm::https://github.com/CodePhiliaX/Chat2DB/releases/download/v5.3.3/Chat2DB-Community-5.3.3-aarch64.rpm
-	sha256sums_aarch64 = f4f7fdd5b78470b70c7f68334dfc51159ebebae8175eb141ae668ee3155fd47b
-	source_x86_64 = chat2db-community-5.3.3-x86_64.rpm::https://github.com/CodePhiliaX/Chat2DB/releases/download/v5.3.3/Chat2DB-Community-5.3.3-x86_64.rpm
-	sha256sums_x86_64 = a7a22661ae2c6e29980e8fa2f29712b999ad31d5ce04cec7db1e54ad0aecfa39
+	source_aarch64 = chat2db-community-5.3.4-aarch64.rpm::https://github.com/CodePhiliaX/Chat2DB/releases/download/v5.3.4/Chat2DB-Community-5.3.4-aarch64.rpm
+	sha256sums_aarch64 = 659d3defb83871b87b8e1dfa2f60b85e492a125f35ccab79d679abb22a232175
+	source_x86_64 = chat2db-community-5.3.4-x86_64.rpm::https://github.com/CodePhiliaX/Chat2DB/releases/download/v5.3.4/Chat2DB-Community-5.3.4-x86_64.rpm
+	sha256sums_x86_64 = 5a6ae24bfd850f31652e95ba0b0765a889e5d3ad9d17c63a0f0461505a96c088
 
 pkgname = chat2db-community-bin
