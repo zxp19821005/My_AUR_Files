@@ -1,7 +1,8 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=qoder-bin
-_pkgname=Qoder
-pkgver=1.24.2
+_appname=qoder
+pkgname="${_appname}-ide-bin"
+_pkgname='Qoder IDE'
+pkgver=1.25.1
 _electronversion=42
 pkgrel=1
 pkgdesc="Agent Programming Platform for Real Software.(Prebuilt version.Use system-wide electron)"
@@ -9,8 +10,14 @@ arch=('x86_64')
 url="https://qoder.com/"
 _ghurl="https://github.com/QoderAI/changelog-zh_CN"
 license=('LicenseRef-custom')
-conflicts=("${pkgname%-bin}")
-provides=("${pkgname%-bin}=${pkgver}")
+conflicts=(
+    "${_appname}"
+    "${pkgname%-bin}"
+)
+provides=(
+    "${_appname}=${pkgver}"
+    "${pkgname%-bin}=${pkgver}"
+)
 depends=(
     "electron${_electronversion}"
     'libxkbfile'
@@ -31,9 +38,9 @@ source=(
     "${pkgname%-bin}.js"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('SKIP'
+sha256sums=('e08732f05a64c11ec0120756a70a6c92cff486351799cad21cc36290b6847b1b'
             'd93359b3ca57aec94960975eec23b6412dc8fc0c5b5fcbce57bee0931e01ec61'
-            '3e78d843645c4cc5709698e0717785acdef5f36e60e3e220801bdf3b8effd799'
+            'cbeb2e78d46c0cbe8793e7a2c06bd339e3ed9dca5f0ae1196281b8d2cf60c4c5'
             '700067aa4b354a91ab3374b5495af9eb3093855a3d8016a8303e88abf3470599')
 pkgver() {
     cd "${srcdir}/usr/share/${pkgname%-bin}/resources/app"
@@ -61,10 +68,7 @@ prepare() {
         s/@cfgdirname@/${_pkgname}/g
     " "${srcdir}/${pkgname%-bin}.sh"
     sed -i "s/@ELECTRON@/electron${_electronversion}/g" "${srcdir}/${pkgname%-bin}.js"
-    sed -i -e "
-        s/\/usr\/share\/${pkgname%-bin}\///g
-        s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${pkgname%-bin}"*.desktop
+    sed -i "s/\/usr\/share\/${pkgname%-bin}\///g" "${srcdir}/usr/share/applications/${pkgname%-bin}"*.desktop
     local _app_dir=$(_get_app_dir)
     find "${_app_dir}/resources/app" -name "win32-*" -name "*.node" -delete
     rm -rf \
@@ -76,16 +80,16 @@ package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
     local _app_dir=$(_get_app_dir)
-	cp -a "${_app_dir}/resources/app/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    install -Dm644 "${srcdir}/usr/share/pixmaps/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+    cp -a "${_app_dir}/resources/app/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
+    install -Dm644 "${srcdir}/usr/share/pixmaps/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
     install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}"* -t "${pkgdir}/usr/share/applications"
     install -Dm644 "${srcdir}/usr/share/appdata/${pkgname%-bin}.appdata.xml" -t "${pkgdir}/usr/share/appdata"
     install -Dm644 "${srcdir}/usr/share/mime/packages/${pkgname%-bin}-workspace.xml" -t "${pkgdir}/usr/share/mime/packages"
     if [ -x "/usr/bin/zsh" ];then
-        install -Dm644 "${srcdir}/usr/share/bash-completion/completions/${pkgname%-bin}" -t "${pkgdir}/usr/share/bash-completion/completions"
+        install -Dm644 "${srcdir}/usr/share/bash-completion/completions/${_appname}" "${pkgdir}/usr/share/bash-completion/completions/${pkgname%-bin}"
     fi
     if [ -x "/usr/bin/zsh" ];then
-        install -Dm644 "${srcdir}/usr/share/zsh/site-functions/_${pkgname%-bin}" -t "${pkgdir}/usr/share/zsh/site-functions"
+        install -Dm644 "${srcdir}/usr/share/zsh/site-functions/_${_appname}" "${pkgdir}/usr/share/zsh/site-functions/_${pkgname%-bin}"
     fi
     install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
