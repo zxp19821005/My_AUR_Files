@@ -756,6 +756,7 @@
 |**krux-installer**|[krux-installer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/krux-installer-bin)|[krux-installer-bin](https://aur.archlinux.org/packages/krux-installer-bin)||
 |**krypt-pad**|[krypt-pad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/krypt-pad-git)|[krypt-pad-git](https://aur.archlinux.org/packages/krypt-pad-git)||
 |**kubenav**|[kubenav-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/kubenav-appimage)|[kubenav-appimage](https://aur.archlinux.org/packages/kubenav-appimage)||
+|**kunyin-desktop**|[kunyin-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kunyin-desktop-bin)|[kunyin-desktop-bin](https://aur.archlinux.org/packages/kunyin-desktop-bin)||
 |**kurisu**|[kurisu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kurisu-bin)|[kurisu-bin](https://aur.archlinux.org/packages/kurisu-bin)||
 |**kuro**|[kuro-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kuro-git)|[kuro-git](https://aur.archlinux.org/packages/kuro-git)||
 |**kwok**|[kwok-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kwok-bin)|[kwok-bin](https://aur.archlinux.org/packages/kwok-bin)||
