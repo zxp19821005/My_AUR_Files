@@ -1,0 +1,27 @@
+pkgbase = motrix-git
+	pkgdesc = A full-featured download manager that supports downloading HTTP, FTP, BitTorrent, Magnet, etc.(Use system-wide electron)
+	pkgver = 2.0.0.beta.25.r0.g804891b
+	pkgrel = 1
+	url = https://motrix.app/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = pnpm
+	makedepends = npm
+	makedepends = nvm
+	makedepends = curl
+	makedepends = jq
+	makedepends = rustup
+	depends = electron43
+	optdepends = ffmpeg
+	provides = motrix=2.0.0.beta.25.r0.g804891b
+	conflicts = motrix
+	conflicts = motrix-bin
+	source = motrix.git::git+https://github.com/agalwood/Motrix.git
+	source = motrix.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = motrix-git
