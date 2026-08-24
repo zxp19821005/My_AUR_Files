@@ -1000,6 +1000,7 @@
 |**openhome**|[openhome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-bin)|[openhome-bin](https://aur.archlinux.org/packages/openhome-bin)||
 |**open-image-tiny**|[open-image-tiny-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-image-tiny-git)|[open-image-tiny-git](https://aur.archlinux.org/packages/open-image-tiny-git)||
 |**openmarch**|[openmarch-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openmarch-bin)|[openmarch-bin](https://aur.archlinux.org/packages/openmarch-bin)||
+|**openmtp**|[openmtp-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/openmtp-git)|[openmtp-git](https://aur.archlinux.org/packages/openmtp-git)||
 |**open-password-manager**|[open-password-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-password-manager-bin)|[open-password-manager-bin](https://aur.archlinux.org/packages/open-password-manager-bin)||
 |**open-pdf-studio**|[open-pdf-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-pdf-studio-bin)|[open-pdf-studio-bin](https://aur.archlinux.org/packages/open-pdf-studio-bin)||
 |**openshot**|[openshot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openshot-bin)|[openshot-bin](https://aur.archlinux.org/packages/openshot-bin)||
