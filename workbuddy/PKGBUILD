@@ -3,8 +3,7 @@ pkgname=workbuddy
 _pkgname=WorkBuddy
 pkgver=5.3.14.36279234_825709d4
 _electronversion=42
-_nodeversion=24.18.1
-pkgrel=99
+pkgrel=100
 pkgdesc="Work Smart，Not Hard"
 arch=(
     'aarch64'
@@ -96,6 +95,24 @@ prepare() {
     find "${_unpacked_dir}/node_modules" -type d \
         \( -name "*-arm64*" -o -name "*darwin*" -o -name "*win32*" \) \
         -exec rm -rf {} +
+    # Fix 1: Use setContextMenu for Linux tray (required for KDE Plasma 6 + Electron 42 compatibility)
+    # This ensures the tray menu is registered with StatusNotifierWatcher and works on all Linux DEs
+    sed -i \
+        -e 's/const contextMenu = electron\.Menu\.buildFromTemplate/this.trayContextMenu = electron.Menu.buildFromTemplate/' \
+        -e 's/.*popUpContextMenu(this\.trayContextMenu)).*/this.tray.setContextMenu(this.trayContextMenu);/' \
+        "${_unpacked_dir}/main/index.js"
+    # Fix 2: Add will-quit safety net to guarantee process exit when cleanup hangs
+    cat >> "${_unpacked_dir}/main/index.js" << 'PATCH_EOF'
+// will-quit safety: if performQuitCleanup hangs (daemon unreachable, network timeout),
+// this handler forces exit to prevent the app from becoming unresponsive.
+electron.app.on("will-quit", (event) => {
+	// Force exit: prevent any possibility of process hanging
+	event.preventDefault();
+	require_logger.mainLog.warn("[Lifecycle] will-quit: force exit immediately");
+	// Kill all helper processes first
+	setTimeout(() => electron.app.exit(0), 100);
+});
+PATCH_EOF
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
