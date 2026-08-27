@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=wizread-bin
 _pkgname=WizRead
-pkgver=1.0.16
+pkgver=1.0.17
 _electronversion=33
 pkgrel=1
 pkgdesc="A next-generation e-book reader for passionate readers. (Prebuilt version.Use system-wide electron)"
@@ -27,8 +27,8 @@ source=(
     "LICENSE::${url}/tos"
     "${pkgname%-bin}.sh"
 )
-sha256sums=('a5765200f1d73c7967a6c86db3e9016eadfd7344bb18c6e5db2c553f93b7d5ac'
-            '56803a363428ca4ca1e6df1c5c8e6df5509c80a5b8b97e9bf796de5c1440258a'
+sha256sums=('c3ff14d10809179f509c9d32d8fc9ac726719e84d117806ee9025e813fa24754'
+            'd5a82c8719e163d14a8089054d58ba0efab88b5f85bb9fc92e5ec8a274a5a400'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
@@ -59,7 +59,7 @@ package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
 	local _app_dir=$(_get_app_dir)
-	cp -a "${_app_dir}/resources/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
+	cp -a "${_app_dir}/resources/". "${pkgdir}/usr/lib/${pkgname%-bin}/"
     find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
         _extension="${_i##*.}"
         _icon_path="${_i#*share/icons/}"
