@@ -969,7 +969,6 @@
 |**novelwriter**|[novelwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/novelwriter-bin)|[novelwriter-bin](https://aur.archlinux.org/packages/novelwriter-bin)||
 |**ntrack**|[ntrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ntrack-bin)|[ntrack-bin](https://aur.archlinux.org/packages/ntrack-bin)||
 |**nuclear-player**|[nuclear-player](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclear-player)|[nuclear-player](https://aur.archlinux.org/packages/nuclear-player)||
-|**nuclia-sync-agent**|[nuclia-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuclia-sync-agent-bin)|[nuclia-sync-agent-bin](https://aur.archlinux.org/packages/nuclia-sync-agent-bin)||
 |**nudge**|[nudge](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge)<br>[nudge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nudge-bin)|[nudge](https://aur.archlinux.org/packages/nudge)<br>[nudge-bin](https://aur.archlinux.org/packages/nudge-bin)||
 |**nuiuita**|[nuiuita-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nuiuita-bin)|[nuiuita-bin](https://aur.archlinux.org/packages/nuiuita-bin)||
 |**numara**|[numara-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/numara-bin)|[numara-bin](https://aur.archlinux.org/packages/numara-bin)||
@@ -1123,6 +1122,7 @@
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin)||
 |**privaxy**|[privaxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/privaxy-bin)|[privaxy-bin](https://aur.archlinux.org/packages/privaxy-bin)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
+|**progress-sync-agent**|[progress-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/progress-sync-agent-bin)|[progress-sync-agent-bin](https://aur.archlinux.org/packages/progress-sync-agent-bin)||
 |**projectforge**|[projectforge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projectforge-bin)|[projectforge-bin](https://aur.archlinux.org/packages/projectforge-bin)||
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
 |**promethium**|[promethium-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/promethium-bin)|[promethium-bin](https://aur.archlinux.org/packages/promethium-bin)||
