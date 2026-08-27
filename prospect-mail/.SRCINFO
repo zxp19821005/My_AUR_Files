@@ -1,0 +1,26 @@
+pkgbase = prospect-mail
+	pkgdesc = An unofficial Outlook mail desktop client powered by Electron.(Use system-wide electron)
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/julian-alarcon/prospect-mail
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = nvm
+	makedepends = npm
+	makedepends = yarn
+	makedepends = git
+	makedepends = jq
+	depends = electron42
+	provides = prospect-mail
+	conflicts = prospect-mail
+	conflicts = prospect-mail-beta
+	source = prospect-mail.git::git+https://github.com/julian-alarcon/prospect-mail.git#tag=v1.3.0
+	source = prospect-mail.sh
+	sha256sums = d698d8b470c2dd89c734d2bb36a8f4030cfe4d1b9b9409194540c4cc204a7467
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = prospect-mail
