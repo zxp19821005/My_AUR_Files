@@ -862,6 +862,7 @@
 |**midi2.0-workbench**|[midi2.0-workbench-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/midi2.0-workbench-git)|[midi2.0-workbench-git](https://aur.archlinux.org/packages/midi2.0-workbench-git)||
 |**min-browser**|[min-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/min-browser-bin)|[min-browser-bin](https://aur.archlinux.org/packages/min-browser-bin)||
 |**minedigger**|[minedigger-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minedigger-bin)|[minedigger-bin](https://aur.archlinux.org/packages/minedigger-bin)||
+|**mineradio-tauri**|[mineradio-tauri-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mineradio-tauri-git)|[mineradio-tauri-git](https://aur.archlinux.org/packages/mineradio-tauri-git)||
 |**mingo**|[mingo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mingo-bin)|[mingo-bin](https://aur.archlinux.org/packages/mingo-bin)||
 |**mini4wdchrono**|[mini4wdchrono-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mini4wdchrono-bin)|[mini4wdchrono-bin](https://aur.archlinux.org/packages/mini4wdchrono-bin)||
 |**minif-browser**|[minif-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/minif-browser-bin)|[minif-browser-bin](https://aur.archlinux.org/packages/minif-browser-bin)||
