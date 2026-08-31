@@ -1,0 +1,35 @@
+pkgbase = shutter-encoder-bin
+	pkgdesc = Converter for all formats video|audio|image professionnals codecs and standards - swiss knife tool for Linux.(Prebuilt version)
+	pkgver = 20.3
+	pkgrel = 1
+	url = https://www.shutterencoder.com
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = libxml2
+	depends = freetype2
+	depends = libjpeg-turbo
+	depends = libxi
+	depends = libxrender
+	depends = libx11
+	depends = libxext
+	depends = perl
+	depends = util-linux-libs
+	depends = lcms2
+	depends = libbsd
+	depends = alsa-lib
+	depends = vulkan-icd-loader
+	depends = libxtst
+	depends = ffmpeg
+	depends = 7zip
+	depends = yt-dlp
+	depends = mediainfo
+	depends = dvdauthor
+	depends = dcraw
+	provides = shutter-encoder=20.3
+	conflicts = shutter-encoder
+	source = shutter-encoder-20.3.deb::https://www.shutterencoder.com/Shutter%20Encoder%2020.3%20Linux%2064bits.deb
+	source = shutter-encoder.sh
+	sha256sums = 9106a29c6158a214dac9803098fd60685c3f7a9c5b73c2ccab358746e43f58f7
+	sha256sums = d2e12cd239e05ceca84f310de6b1d6beae419d4015f112ca82f830e128e38964
+
+pkgname = shutter-encoder-bin
