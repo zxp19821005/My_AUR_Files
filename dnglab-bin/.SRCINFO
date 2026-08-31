@@ -1,0 +1,17 @@
+pkgbase = dnglab-bin
+	pkgdesc = Camera RAW to DNG file format converter.(Prebuilt version)
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/dnglab/dnglab
+	arch = aarch64
+	arch = x86_64
+	license = LGPL-2.1-only
+	optdepends = bash-completion
+	provides = dnglab=0.8.0
+	conflicts = dnglab
+	source_aarch64 = dnglab-0.8.0-aarch64.deb::https://github.com/dnglab/dnglab/releases/download/v0.8.0/dnglab_0.8.0-1_arm64.deb
+	sha256sums_aarch64 = 5cf649d521aadebf7922b503dce3f5ea77334bf89ed4cc53f1031f119cbc57f6
+	source_x86_64 = dnglab-0.8.0-x86_64.deb::https://github.com/dnglab/dnglab/releases/download/v0.8.0/dnglab_0.8.0-1_amd64.deb
+	sha256sums_x86_64 = 8d21eebdf827a45e6ca10229c68f241830f37826cbbf9a1ee17cced27d60d1c1
+
+pkgname = dnglab-bin
