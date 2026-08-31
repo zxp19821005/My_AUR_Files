@@ -1,0 +1,22 @@
+pkgbase = deepin-wine-welink
+	pkgdesc = 华为云 WeLink 数字化办公平台（wine 封装，WoW64 运行）
+	pkgver = 7.53.7
+	pkgrel = 1
+	url = https://www.huaweicloud.com/product/welink.html
+	install = deepin-wine-welink.install
+	arch = x86_64
+	license = LicenseRef-proprietary
+	depends = deepin-wine8-stable
+	depends = 7zip
+	depends = hicolor-icon-theme
+	optdepends = noto-fonts-cjk: 中文字体（推荐）
+	optdepends = wqy-microhei: 中文字体
+	optdepends = wqy-zenhei: 中文字体
+	conflicts = welink
+	conflicts = huaweicloudmeeting
+	source = deepin-wine-welink_7.53.7spark2.deb::https://mirrors.sdu.edu.cn/spark-store-repository/store/chat/com.huaweicloud.welink.spark/com.huaweicloud.welink.spark_7.53.7spark2_i386.deb
+	source = deepin-wine-welink.sh
+	sha256sums = 4415488537b92e566d7d87ac1a80d6dddad73a0a820dbbfce18b01083496377b
+	sha256sums = SKIP
+
+pkgname = deepin-wine-welink
