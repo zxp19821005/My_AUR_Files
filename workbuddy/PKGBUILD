@@ -40,8 +40,11 @@ optdepends=(
 source=(
     "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/${_pkgname}-darwin-x64-${pkgver//_/-}.dmg"
     "${pkgname}.desktop"
-    "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.8.0.tgz"
+    "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-13.0.3.tgz"
     "node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.14.tgz"
+    "snappy-linux-x64-gnu.node::https://github.com/Brooooooklyn/snappy/releases/download/v7.3.3/snappy.linux-x64-gnu.node"
+    "snappy-linux-x64-musl.node::https://github.com/Brooooooklyn/snappy/releases/download/v7.3.3/snappy.linux-x64-musl.node"
+    "sandbox-cli-linux-x64.tgz::https://mirrors.cloud.tencent.com/npm/@tencent-ai/sandbox-cli-linux-x64/-/sandbox-cli-linux-x64-5.5.6.tgz"
     "${pkgname}.sh"
 )
 options=(
@@ -51,11 +54,17 @@ options=(
 noextract=(
     "better-sqlite3.tgz"
     "node-pty.tgz"
+    "snappy-linux-x64-gnu.node"
+    "snappy-linux-x64-musl.node"
+    "sandbox-cli-linux-x64.tgz"
 )
 sha256sums=('cd72489d8a72f6b30fbf314be95f2600dbe23aa01445eacf11c3159b37a07da8'
             'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
-            '2602a5726d0a9d8e6be407c59bc125e605110eda8e3b04e7ef8d6ddf762c9122'
+            '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
             'eee8e260e43b96aa5450f4c95f05de1b48ab24fcb3d4ef566232ec9ccff2e39e'
+            '42ac694666e35e21b96d09c374b89918acd7d95297d1adfd9d31edb4fb7a5ebb'
+            '31eb00fd08d44f3379d51074159bae843ed94c84c2c83dc13612e3664627084e'
+            '9011a2f83532ca9d1a95c8172e292a9cc57da3af2c5417cf380aef76e3b4f881'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _ensure_local_nvm() {
     local NVM_DIR="${srcdir}/.nvm"
@@ -88,20 +97,66 @@ prepare() {
     rm -rf \
         "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-arm64" \
         "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-x64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-linux-arm64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-win32-arm64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-win32-x64" \
+        "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-darwin-x64" \
         "${_unpacked_dir}/cli/vendor/genie-trash/darwin-x64" \
-        "${_unpacked_dir}/cli/vendor/ripgrep/x64-darwin" \
-        "${_unpacked_dir}/cli/vendor/ripgrep/arm64-darwin" \
-        "${_unpacked_dir}/cli/vendor/ripgrep/x64-win32" \
-        "${_unpacked_dir}/cli/vendor/sandbox/5.3.3/sandbox-cli" \
+        "${_unpacked_dir}/cli/vendor/shim/native" \
+        "${_unpacked_dir}/cli/vendor/toybox-macos" \
+        "${_unpacked_dir}/cli/vendor/zsh-macos" \
+        "${_unpacked_dir}/cli/vendor/ripgrep/"{x64-darwin,arm64-darwin,x64-win32} \
+        "${_unpacked_dir}/cli/vendor/sandbox" \
+        "${_unpacked_dir}/node_modules/koffi/build/koffi/"{freebsd*,openbsd*,*arm*,linux_ia32,linxu_loong64,linux_riscv64d} \
         "${_unpacked_dir}/native/wechat-copydata-decoder"
     find "${_unpacked_dir}/node_modules" -type d \
         \( -name "*-arm64*" -o -name "*darwin*" -o -name "*win32*" \) \
         -exec rm -rf {} +
+    # Install Linux native bindings for snappy (not included in macOS DMG)
+    mkdir -p "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-gnu"
+    mkdir -p "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-musl"
+    cp "${srcdir}/snappy-linux-x64-gnu.node" "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-gnu/snappy.linux-x64-gnu.node"
+    cp "${srcdir}/snappy-linux-x64-musl.node" "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-musl/snappy.linux-x64-musl.node"
+    # Create package.json for snappy-linux-x64-gnu
+    cat > "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-gnu/package.json" << 'EOF'
+{
+  "name": "@napi-rs/snappy-linux-x64-gnu",
+  "version": "7.3.3",
+  "cpu": ["x64"],
+  "os": ["linux"],
+  "main": "snappy.linux-x64-gnu.node",
+  "files": ["snappy.linux-x64-gnu.node"],
+  "license": "MIT",
+  "engines": { "node": ">= 10" }
+}
+EOF
+    # Create package.json for snappy-linux-x64-musl
+    cat > "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-musl/package.json" << 'EOF'
+{
+  "name": "@napi-rs/snappy-linux-x64-musl",
+  "version": "7.3.3",
+  "cpu": ["x64"],
+  "os": ["linux"],
+  "main": "snappy.linux-x64-musl.node",
+  "files": ["snappy.linux-x64-musl.node"],
+  "license": "MIT",
+  "engines": { "node": ">= 10" }
+}
+EOF
+    # Install Linux version of sandbox-cli (from @tencent-ai/sandbox-cli-linux-x64)
+    mkdir -p "${srcdir}/tmp/sandbox-cli"
+    bsdtar -xf "${srcdir}/sandbox-cli-linux-x64.tgz" -C "${srcdir}/tmp/sandbox-cli"
+    mkdir -p "${_unpacked_dir}/cli/vendor/sandbox/5.5.6"
+    cp "${srcdir}/tmp/sandbox-cli/package/bin/sandbox-cli" "${_unpacked_dir}/cli/vendor/sandbox/5.5.6/"
+    cp "${srcdir}/tmp/sandbox-cli/package/bin/sandbox-center" "${_unpacked_dir}/cli/vendor/sandbox/5.5.6/"
+    cp "${srcdir}/tmp/sandbox-cli/package/bin/betterleaks" "${_unpacked_dir}/cli/vendor/sandbox/5.5.6/"
+    chmod +x "${_unpacked_dir}/cli/vendor/sandbox/5.5.6/"*
     # Fix 1: Use setContextMenu for Linux tray (required for KDE Plasma 6 + Electron 42 compatibility)
     # This ensures the tray menu is registered with StatusNotifierWatcher and works on all Linux DEs
     sed -i \
         -e 's/const contextMenu = electron\.Menu\.buildFromTemplate/this.trayContextMenu = electron.Menu.buildFromTemplate/' \
-        -e 's/.*popUpContextMenu(this\.trayContextMenu)).*/this.tray.setContextMenu(this.trayContextMenu);/' \
+        -e 's/this\.tray\.setContextMenu(contextMenu)/this.tray.setContextMenu(this.trayContextMenu)/' \
+        -e 's/this\.tray?\.popUpContextMenu(contextMenu)/this.tray.setContextMenu(this.trayContextMenu)/' \
         "${_unpacked_dir}/main/index.js"
     # Fix 2: Add will-quit safety net to guarantee process exit when cleanup hangs
     cat >> "${_unpacked_dir}/main/index.js" << 'PATCH_EOF'
