@@ -2,8 +2,8 @@
 _appname=icalingua
 pkgname="${_appname}++-bin"
 _pkgname='Icalingua++'
-pkgver=2.26.3
-_electronversion=38
+pkgver=2.26.6
+_electronversion=39
 pkgrel=1
 pkgdesc="A branch of deleted Icalingua, with limited support.(Prebuilt version.Use system-wide electron)"
 arch=(
@@ -26,9 +26,9 @@ source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${url}/releases/download/v
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${url}/releases/download/v${pkgver}/${_appname}-${pkgver}.x86_64.rpm")
 source=("${pkgname%-bin}.sh")
 sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('d9415a0d2ac307c3362850d931937bef6d2fa7cc8c94ee082a91ee4eb2ec2d62')
-sha256sums_armv7h=('97b6290e12cc7a3f47e63554f5599837e3eeab847b0fe021777d6a7d7f6d3e7a')
-sha256sums_x86_64=('08cdb7ff9a5ff5326b4293d072051a0eefef7dc10ef4531e4ae73ddb0d88e67a')
+sha256sums_aarch64=('7c99dd71c14d0b2e3a4080c7ab094b38dbc7d67c8c8e4af95786146b9958c2ba')
+sha256sums_armv7h=('62b97471f5968510aa3ef68fb0e410448d23afc29a7cd0d5e492f6c82cdfca30')
+sha256sums_x86_64=('233f52f10a7ce7402b379b8e59bca9ca568fbc2a45a4f1fe95c25fe10b421392')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
@@ -54,12 +54,22 @@ prepare() {
         s/Icon=${_appname}/Icon=${pkgname%-bin}/g
         s/\"\/opt\/${_pkgname}\/${_appname}\"/${pkgname%-bin}/g
     " "${srcdir}/usr/share/applications/${_appname}.desktop"
+    local _app_dir=$(_get_app_dir)
+    rm -rf "${_app_dir}/resources/app.asar.unpacked/node_modules/better-sqlite3/prebuilds/"{darwin-*,win32-*}
+    case "${CARCH}" in
+        aarch64)
+            rm -rf "${_app_dir}/resources/app.asar.unpacked/node_modules/better-sqlite3/prebuilds/"*-x64*
+            ;;
+        x86_64)
+            rm -rf "${_app_dir}/resources/app.asar.unpacked/node_modules/better-sqlite3/prebuilds/"*-arm64*
+            ;;
+    esac
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
 	local _app_dir=$(_get_app_dir)
-	cp -a "${_app_dir}/resources/". "${pkgdir}/usr/lib/${pkgname%-bin}/"
+	cp -a "${_app_dir}/resources/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
     find "${srcdir}/usr/share/icons" -type f \( -name "*.png" -o -name "*.svg" \) \
 		| while read -r _i; do
 		_extension="${_i##*.}"
