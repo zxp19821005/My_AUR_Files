@@ -1,7 +1,9 @@
 # Maintainer: Rongbo <wurongbo2012@hotmail.com>
 pkgname=workbuddy
 _pkgname=WorkBuddy
-pkgver=5.3.14.36279234_825709d4
+_mainver=5.4.7
+_subver=37521366_b148bd1d
+pkgver="${_mainver}.${_subver}"
 _electronversion=42
 pkgrel=100
 pkgdesc="Work Smart，Not Hard"
@@ -38,7 +40,7 @@ optdepends=(
 source=(
     "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/${_pkgname}-darwin-x64-${pkgver//_/-}.dmg"
     "${pkgname}.desktop"
-    "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-13.0.3.tgz"
+    "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.8.0.tgz"
     "node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.14.tgz"
     "${pkgname}.sh"
 )
@@ -50,9 +52,9 @@ noextract=(
     "better-sqlite3.tgz"
     "node-pty.tgz"
 )
-sha256sums=('25fe856763ff917e3086135f445c1016085ef7130433661994840e7a4c0a09ce'
+sha256sums=('cd72489d8a72f6b30fbf314be95f2600dbe23aa01445eacf11c3159b37a07da8'
             'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
-            '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
+            '2602a5726d0a9d8e6be407c59bc125e605110eda8e3b04e7ef8d6ddf762c9122'
             'eee8e260e43b96aa5450f4c95f05de1b48ab24fcb3d4ef566232ec9ccff2e39e'
             'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _ensure_local_nvm() {
@@ -69,11 +71,11 @@ prepare() {
         s/@cfgdirname@/${pkgname%-bin}/g
     " "${srcdir}/${pkgname%-bin}.sh"
     7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
-    cd "${srcdir}/${_pkgname}.app/Contents/Resources"
+    cd "${srcdir}/${_pkgname} ${_mainver}/${_pkgname}.app/Contents/Resources"
     icns2png -x icon.icns -o "${srcdir}"
     asar e app.asar app.asar.unpacked || continue
     find app.asar.unpacked -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +    
-    local _unpacked_dir="${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
+    local _unpacked_dir="${srcdir}/${_pkgname} ${_mainver}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
     rm -rf "${_unpacked_dir}/node_modules/"{better-sqlite3,@lydell/node-pty-linux*}
     mkdir -p "${srcdir}/tmp/"{better-sqlite3,node-pty-linux}
     bsdtar -xf "${srcdir}/better-sqlite3.tgz" -C "${srcdir}/tmp/better-sqlite3"
@@ -117,7 +119,7 @@ PATCH_EOF
 package() {
     install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
-    cp -a "${srcdir}/${_pkgname}.app/Contents/Resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname}"
+    cp -a "${srcdir}/${_pkgname} ${_mainver}/${_pkgname}.app/Contents/Resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname}"
     icon_sizes=(256x256 512x512 1024x1024)
     for _icons in "${icon_sizes[@]}";do
         install -Dm644 "${srcdir}/icon_${_icons}x32.png" \
