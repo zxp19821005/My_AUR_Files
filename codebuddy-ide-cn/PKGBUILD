@@ -1,8 +1,8 @@
 _appname=buddycn
 pkgname=codebuddy-ide-cn
-_cb_ver=4.11.2
-_cb_build=36529961
-_cb_hash=74e2511a
+_cb_ver=4.11.3
+_cb_build=37298507
+_cb_hash=2345dde1
 pkgver="${_cb_ver}.${_cb_build}"
 _electronversion=37
 pkgrel=99
@@ -31,7 +31,7 @@ source=(
     "${pkgname%-bin}.js"
     "${pkgname}.sh"
 )
-sha256sums=('32787d758f4be84e7fa29a6ced2d7a336d77fc689ff536bfa664b29a92c14a8b'
+sha256sums=('d0770a4563535226daace0a57f39812bc8a23aa758073a06fb77857efea888e8'
             '7503a07a6b1ce191a902f9bb418da852c628940e7e864a85c49fb4712ab35f75'
             '700067aa4b354a91ab3374b5495af9eb3093855a3d8016a8303e88abf3470599')
 _get_app_dir() {
