@@ -1,8 +1,9 @@
 # Maintainer: Rongbo <wurongbo2012@hotmail.com>
 pkgname=workbuddy
 _pkgname=WorkBuddy
-_mainver=5.4.7
-_subver=37521366_b148bd1d
+_mainver=5.5.1
+_subver=37570276
+_md5=9af62480
 pkgver="${_mainver}.${_subver}"
 _electronversion=42
 pkgrel=100
@@ -38,7 +39,7 @@ optdepends=(
     'gnome-shell-extension-appindicator'
 )
 source=(
-    "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/${_pkgname}-darwin-x64-${pkgver//_/-}.dmg"
+    "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/${_pkgname}-darwin-x64-${_mainver}.${_subver}-${_md5}.dmg"
     "${pkgname}.desktop"
     "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-13.0.3.tgz"
     "node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.14.tgz"
@@ -58,7 +59,7 @@ noextract=(
     "snappy-linux-x64-musl.node"
     "sandbox-cli-linux-x64.tgz"
 )
-sha256sums=('cd72489d8a72f6b30fbf314be95f2600dbe23aa01445eacf11c3159b37a07da8'
+sha256sums=('611b576446bb77f0364e0d385e86f142ced2e054b2d507fcc7cf9fb20dec873e'
             'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
             '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
             'eee8e260e43b96aa5450f4c95f05de1b48ab24fcb3d4ef566232ec9ccff2e39e'
