@@ -1,0 +1,21 @@
+pkgbase = thorium-reader-bin
+	pkgdesc = Cross-platform desktop reading app based on the Readium Desktop toolkit.(Prebuilt version.Use system-wide electron)
+	pkgver = 3.5.1
+	pkgrel = 99
+	url = https://www.edrlab.org/software/thorium-reader/
+	arch = aarch64
+	arch = x86_64
+	license = BSD-3-Clause
+	depends = electron41
+	provides = thorium-reader=3.5.1
+	conflicts = thorium-reader
+	source = LICENSE-3.5.1::https://raw.githubusercontent.com/edrlab/thorium-reader/v3.5.1/LICENSE
+	source = thorium-reader.sh
+	sha256sums = e95e504f42685015445b4a0a80dfdaa86e5b2b2c0e317bca2bcbb51330ec61e5
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+	source_aarch64 = thorium-reader-3.5.1-aarch64.deb::https://github.com/edrlab/thorium-reader/releases/download/v3.5.1/Thorium-3.5.1-arm64.deb
+	sha256sums_aarch64 = a085339ee6da4ae80a2e8f2ff3ca1aa51b8b50abfd2f3d08f0bdfe72b22e08b1
+	source_x86_64 = thorium-reader-3.5.1-x86_64.deb::https://github.com/edrlab/thorium-reader/releases/download/v3.5.1/Thorium-3.5.1-amd64.deb
+	sha256sums_x86_64 = 72ab951d4963500b68c91a6496c662f30698dc27422a1b1af720b1cfbdfd327e
+
+pkgname = thorium-reader-bin
