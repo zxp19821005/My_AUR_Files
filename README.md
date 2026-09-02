@@ -924,7 +924,6 @@
 |**native-facebook**|[native-facebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/native-facebook-bin)|[native-facebook-bin](https://aur.archlinux.org/packages/native-facebook-bin)||
 |**nativefier-gui**|[nativefier-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nativefier-gui-bin)|[nativefier-gui-bin](https://aur.archlinux.org/packages/nativefier-gui-bin)||
 |**nats-js-client**|[nats-js-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nats-js-client-bin)|[nats-js-client-bin](https://aur.archlinux.org/packages/nats-js-client-bin)||
-|**navicat-premium-lite-cs**|[navicat-premium-lite-cs-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/navicat-premium-lite-cs-appimage)|自用版||
 |**navithingy**|[navithingy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/navithingy-bin)|[navithingy-bin](https://aur.archlinux.org/packages/navithingy-bin)||
 |**navop**|[navop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/navop-bin)|[navop-bin](https://aur.archlinux.org/packages/navop-bin)||
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
