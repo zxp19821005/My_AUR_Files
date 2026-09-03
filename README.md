@@ -776,6 +776,7 @@
 |**lecture-player**|[lecture-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/lecture-player-git)|[lecture-player-git](https://aur.archlinux.org/packages/lecture-player-git)||
 |**legcord**|[legcord-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/legcord-bin)|[legcord-bin](https://aur.archlinux.org/packages/legcord-bin)||
 |**lepton**|[lepton-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lepton-bin)|[lepton-bin](https://aur.archlinux.org/packages/lepton-bin)||
+|**lerxu**|[lerxu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lerxu-bin)|[lerxu-bin](https://aur.archlinux.org/packages/lerxu-bin)||
 |**leser**|[leser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/leser-git)|[leser-git](https://aur.archlinux.org/packages/leser-git)||
 |**less-player**|[less-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-bin) <br> [less-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-player-git)|[less-player-bin](https://aur.archlinux.org/packages/less-player-bin) <br> [less-player-git](https://aur.archlinux.org/packages/less-player-git)||
 |**less-reader**|[less-reader-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/less-reader-git)|[less-reader-git](https://aur.archlinux.org/packages/less-reader-git)||
