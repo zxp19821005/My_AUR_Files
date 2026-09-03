@@ -1,0 +1,107 @@
+# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+# Contributor: XiHanQWQ
+pkgname=motrix-next-git
+_pkgname='Motrix Next'
+pkgver=3.9.8.beta.11.r0.g57a470d
+_nodeversion=24
+pkgrel=1
+pkgdesc="A full-featured download manager rebuilt with Tauri 2, Vue 3, and Rust"
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://motrix-next.pages.dev/"
+_ghurl="https://github.com/AnInsomniacy/motrix-next"
+license=('MIT')
+provides=('motrix-next')
+conflicts=('motrix-next' 'motrix-next-bin')
+depends=(
+    'cairo'
+    'gdk-pixbuf2'
+    'gtk3'
+    'hicolor-icon-theme'
+    'libappindicator'
+    'libsoup3'
+    'webkit2gtk-4.1'
+)
+makedepends=(
+    'cargo'
+    'nvm'
+    'pnpm'
+    'openssl'
+    'git'
+    'gendesk'
+)
+options=(
+    '!lto'
+)
+source=("${pkgname%-git}.git::git+${_ghurl}")
+sha256sums=('SKIP')
+pkgver() {
+    cd "${srcdir}/${pkgname%-git}.git"
+    set -o pipefail
+    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+}
+_ensure_local_nvm() {
+    local NVM_DIR="${srcdir}/.nvm"
+    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+    nvm install "${_nodeversion}"
+    nvm use "${_nodeversion}"
+}
+_set_build_env() {
+    export HOME="${srcdir}/.electron-gyp"
+    export CARGO_HOME="${srcdir}/.cargo"
+    {
+        export PNPM_LINK_WORKSPACE_PACKAGES=true
+        export PNPM_FETCH_RETRY_MAXTIMEOUT=10000
+        export PNPM_CACHE_DIR="${srcdir}/.pnpm_cache"
+        export PNPM_STORE_DIR="${srcdir}/.pnpm_store"
+        export PNPM_VIRTUAL_STORE_DIR="${srcdir}/.pnpm_store"
+        export PNPM_SHAMEFULLY_HOIST=true
+        export PNPM_VIRTUAL_STORE_DIR_MAX_LENGTH=80
+        export PNPM_NODE_LINKER=hoisted
+        export PNPM_NETWORK_CONCURRENCY=32
+    }
+    if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
+        {
+            export pnpm_config_registry="https://registry.npmmirror.com"
+            export npm_config_registry="https://registry.npmmirror.com"
+            export NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
+            export RUSTUP_DIST_SERVER="https://mirrors.aliyun.com/rustup"
+            export RUSTUP_UPDATE_ROOT="https://mirrors.aliyun.com/rustup/rustup"
+        }
+    fi
+}
+prepare() {
+    cd "${srcdir}/${pkgname%-git}.git"
+    gendesk -q -f -n \
+        --pkgname="${pkgname%-git}" \
+        --pkgdesc="${pkgdesc}" \
+        --categories="Network;" \
+        --name="${_pkgname}" \
+        --exec="${pkgname%-git} %U"
+    _set_build_env
+    _ensure_local_nvm
+    sed -i 's|"active": true,|"active": false,|' src-tauri/tauri.conf.json
+    cp src-tauri/icons/128x128@2x.png src-tauri/icons/256x256.png
+    rustup default stable
+    NODE_ENV=development    pnpm install --frozen-lockfile
+}
+build() {
+    cd "${srcdir}/${pkgname%-git}.git"
+    _set_build_env
+    _ensure_local_nvm
+    NODE_ENV=production     pnpm tauri build
+    rm -rf "${srcdir}/${pkgname%-git}.git/src-tauri/target/release/${pkgname%-git}.d"
+}
+package() {
+    install -Dm755 "${srcdir}/${pkgname%-git}.git/src-tauri/target/release/${pkgname%-git}"* -t "${pkgdir}/usr/bin"
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+    icon_sizes=(32x32 64x64 128x128 256x256)
+    for _icons in "${icon_sizes[@]}";do
+        install -Dm644 "${srcdir}/${pkgname%-git}.git/src-tauri/icons/${_icons}.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"
+    done
+    install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
