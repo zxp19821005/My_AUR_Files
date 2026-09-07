@@ -1,9 +1,9 @@
 # Maintainer: Rongbo <wurongbo2012@hotmail.com>
 pkgname=workbuddy
 _pkgname=WorkBuddy
-_mainver=5.5.1
-_subver=37570276
-_md5=9af62480
+_mainver=5.5.3
+_subver=37748631
+_md5=104760a2
 pkgver="${_mainver}.${_subver}"
 _electronversion=42
 pkgrel=100
@@ -12,7 +12,7 @@ arch=(
     'aarch64'
     'x86_64'
 )
-url="https://www.codebuddy.ai/agents"
+url="https://www.workbuddy.cn/"
 license=('LicenseRef-custom')
 depends=(
     "electron${_electronversion}"
@@ -59,7 +59,7 @@ noextract=(
     "snappy-linux-x64-musl.node"
     "sandbox-cli-linux-x64.tgz"
 )
-sha256sums=('611b576446bb77f0364e0d385e86f142ced2e054b2d507fcc7cf9fb20dec873e'
+sha256sums=('628d3991862b5eece4fba88d9054bcc1bf28975db249c71188e8e3327123f8cd'
             'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
             '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
             'eee8e260e43b96aa5450f4c95f05de1b48ab24fcb3d4ef566232ec9ccff2e39e'
