@@ -1,0 +1,22 @@
+pkgbase = colanode-git
+	pkgdesc = Open-source and local-first Slack and Notion alternative that puts you in control of your data.
+	pkgver = 0.4.7.r0.gd649523
+	pkgrel = 1
+	url = https://colanode.com/
+	arch = any
+	license = Apache-2.0
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = gendesk
+	makedepends = jq
+	depends = electron40
+	provides = colanode=0.4.7
+	conflicts = colanode
+	source = colanode.git::git+https://github.com/colanode/colanode.git
+	source = colanode.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = colanode-git
