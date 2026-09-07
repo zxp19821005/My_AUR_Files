@@ -1,18 +1,20 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=vlsm-interfacing-git
-_pkgname='VLSM INTERFACING'
-pkgver=4.1.15.r2.g1ae57ac
-_electronversion=43
-_nodeversion=22
+pkgname=intelis-interfacing-git
+_pkgname='InteLIS Interfacing'
+pkgver=4.3.0.r1.g3c71f4b
+_electronversion=44
+_nodeversion=24
 pkgrel=1
-pkgdesc="Viral Load Sample Management - Machine Interfacing.(Use system-wide electron)"
+pkgdesc="A standalone Electron application that receives test results from laboratory analyzers and stores them where a laboratory information system can pick them up."
 arch=('any')
-url="https://github.com/deforay/vlsm-interfacing"
-license=('MIT')
+url="https://deforay.github.io/intelis-interfacing/"
+_ghurl="https://github.com/deforay/intelis-interfacing"
+license=('AGPL-3.0-or-later')
 conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
     "electron${_electronversion}"
+    'nodejs'
 )
 makedepends=(
     'npm'
@@ -23,7 +25,7 @@ makedepends=(
     'jq'
 )
 source=(
-    "${pkgname%-git}.git::git+${url}.git"
+    "${pkgname%-git}.git::git+${_ghurl}.git"
     "${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
@@ -72,8 +74,8 @@ prepare() {
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
         s/@appname@/${pkgname%-git}/g
-        s/@runname@/app.asar/g
-        s/@cfgdirname@/${_pkgname}/g
+        s/@runname@/app/g
+        s/@cfgdirname@/vlsm-interfacing/g
     " "${srcdir}/${pkgname%-git}.sh"
     gendesk -q -f -n \
         --pkgname="${pkgname%-git}" \
@@ -96,7 +98,7 @@ build() {
 package() {
     install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
-	local _app_dir=$(_get_app_dir)
+    local _app_dir=$(_get_app_dir)
     cp -a "${_app_dir}/resources/"* "${pkgdir}/usr/lib/${pkgname%-git}/"
     rm -rf "${pkgdir}/usr/lib/${pkgname%-git}/default_app.asar"
     install -Dm644 "${srcdir}/${pkgname%-git}.git/src/assets/icons/favicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"

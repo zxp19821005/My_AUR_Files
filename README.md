@@ -693,6 +693,7 @@
 |**inner-ink**|[inner-ink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inner-ink-bin)|[inner-ink-bin](https://aur.archlinux.org/packages/inner-ink-bin)||
 |**input-remapper**|[input-remapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/input-remapper-bin)|[input-remapper-bin](https://aur.archlinux.org/packages/input-remapper-bin)||
 |**insight-x**|[insight-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/insight-x-bin)|[insight-x-bin](https://aur.archlinux.org/packages/insight-x-bin)||
+|**intelis-interfacing**|[intelis-interfacing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intelis-interfacing-bin)<br>[intelis-interfacing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/intelis-interfacing-git)|[intelis-interfacing-bin](https://aur.archlinux.org/packages/intelis-interfacing-bin)<br>[intelis-interfacing-git](https://aur.archlinux.org/packages/intelis-interfacing-git)||
 |**interactive-data-editor**|[interactive-data-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/interactive-data-editor-bin)|[interactive-data-editor-bin](https://aur.archlinux.org/packages/interactive-data-editor-bin)||
 |**intrigue**|[intrigue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/intrigue-bin)|[intrigue-bin](https://aur.archlinux.org/packages/intrigue-bin)||
 |**iotas-notepad**|[iotas-notepad-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/iotas-notepad-git)|[iotas-notepad-git](https://aur.archlinux.org/packages/iotas-notepad-git)||
