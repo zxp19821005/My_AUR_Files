@@ -1520,6 +1520,7 @@
 |**vnstat-client**|[vnstat-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vnstat-client-git)|[vnstat-client-git](https://aur.archlinux.org/packages/vnstat-client-git)||
 |**vocallia**|[vocallia-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocallia-git)|[vocallia-git](https://aur.archlinux.org/packages/vocallia-git)||
 |**vocechat-desktop**|[vocechat-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vocechat-desktop-bin)|[vocechat-desktop-bin](https://aur.archlinux.org/packages/vocechat-desktop-bin)||
+|**voicestudio**|[voicestudio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/voicestudio-bin)|[voicestudio-bin](https://aur.archlinux.org/packages/voicestudio-bin)||
 |**vookiimageviewer**|[vookiimageviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vookiimageviewer-bin)|[vookiimageviewer-bin](https://aur.archlinux.org/packages/vookiimageviewer-bin)||
 |**vrc-photo-viewer**|[vrc-photo-viewer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vrc-photo-viewer-git)|[vrc-photo-viewer-git](https://aur.archlinux.org/packages/vrc-photo-viewer-git)||
 |**vscode-bookmark**|[vscode-bookmark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vscode-bookmark-bin)|[vscode-bookmark-bin](https://aur.archlinux.org/packages/vscode-bookmark-bin)||
