@@ -1,0 +1,43 @@
+pkgbase = dingtalk-bin
+	pkgdesc = DingTalk,钉钉
+	pkgver = 8.2.8.260818002
+	pkgrel = 99
+	url = https://www.dingtalk.com/
+	arch = aarch64
+	arch = x86_64
+	license = LicenseRef-custom
+	makedepends = patchelf
+	depends = glu
+	depends = libxcrypt-compat
+	depends = qt5-tools
+	depends = qt5-x11extras
+	depends = qt5-multimedia
+	depends = qt5-svg
+	depends = ffmpeg
+	depends = gtk3
+	depends = alsa-lib
+	depends = nss
+	depends = nspr
+	depends = libsm
+	depends = libice
+	depends = libxmu
+	depends = libxt
+	depends = fcitx5-qt
+	depends = gtk2
+	optdepends = zenity: fix crashes when downloading files, not required on kde.
+	optdepends = libxss: fix tray icon functionality in gnome.
+	optdepends = qt5-wayland: needed in wayland
+	provides = com.alibabainc.dingtalk=8.2.8.260818002
+	provides = dingtalk=8.2.8.260818002
+	conflicts = com.alibabainc.dingtalk
+	replaces = com.alibabainc.dingtalk
+	source = dingtalk.svg
+	source = dingtalk.sh
+	sha256sums = b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b
+	sha256sums = f286407184fb97af2f81ef6e58c7e707391142f41524955331f226cab73c53f6
+	source_aarch64 = dingtalk-8.2.8.260818002-aarch64.deb::https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.dingtalk_8.2.8.260818002_arm64.deb
+	sha256sums_aarch64 = 22269eaadaa5e7dab6a24c1c37baf2c45a572221a3839a9ff4a487079812dabc
+	source_x86_64 = dingtalk-8.2.8.260818002-x86_64.deb::https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.dingtalk_8.2.8.260818002_amd64.deb
+	sha256sums_x86_64 = 88dad607bbb7a72918399391c9d53aedfcfa3a6dab01f7d0659e62c1ca32678f
+
+pkgname = dingtalk-bin

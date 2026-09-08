@@ -5,7 +5,7 @@
 pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
 #  https://www.dingtalk.com/win/d/qd=linux_amd64
-pkgver=8.1.0.6021101
+pkgver=8.2.8.260818002
 pkgrel=99
 pkgdesc="DingTalk,钉钉"
 arch=(
@@ -41,9 +41,11 @@ depends=(
     'libice'
     'libxmu'
     'libxt'
+    'fcitx5-qt'
+    'gtk2'
 )
 makedepends=(
-    'execstack'
+    'patchelf'
 )
 optdepends=(
     'zenity: fix crashes when downloading files, not required on kde.'
@@ -58,8 +60,8 @@ source=(
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
             'f286407184fb97af2f81ef6e58c7e707391142f41524955331f226cab73c53f6')
-sha256sums_aarch64=('48428f7295869815900c341867bbbd279b0eb172364287dd78bb21cedfb499ef')
-sha256sums_x86_64=('ec492f12feabece34702ea47e3cfc1a164ae2e8dabdee9b05e74a3a5e4de21d5')
+sha256sums_aarch64=('22269eaadaa5e7dab6a24c1c37baf2c45a572221a3839a9ff4a487079812dabc')
+sha256sums_x86_64=('88dad607bbb7a72918399391c9d53aedfcfa3a6dab01f7d0659e62c1ca32678f')
 prepare() {
     sed -i -e "
         s/@appname@/${pkgname%-bin}/g
@@ -77,7 +79,7 @@ prepare() {
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
     # remove unused lib
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libcurl.so.4,libz*}
-    execstack -c "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{"${pkgname%-bin}"_dll,libconference_new}.so
+    patchelf --clear-execstack "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{"${pkgname%-bin}"_dll,libconference_new}.so
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
