@@ -1,0 +1,29 @@
+pkgbase = workbuddy-bin
+	pkgdesc = Work Smart，Not Hard
+	pkgver = 5.5.3
+	pkgrel = 1
+	url = https://www.workbuddy.cn/
+	arch = aarch64
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = electron39
+	depends = nodejs
+	depends = python
+	depends = python-click
+	depends = python-httpx
+	depends = python-requests
+	depends = python-numpy
+	depends = python-beautifulsoup4
+	depends = python-pillow
+	provides = workbuddy=5.5.3
+	conflicts = workbuddy
+	options = !strip
+	options = !emptydirs
+	source = workbuddy.sh
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+	source_aarch64 = workbuddy-5.5.3-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.3/cn.workbuddy.otohime_5.5.3_arm64.deb
+	sha256sums_aarch64 = 8ee6ef84b94b4fa8c48285eeba2e42ed8990674ab51f28e128fc84b2fd24b26d
+	source_x86_64 = workbuddy-5.5.3-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.3/cn.workbuddy.otohime_5.5.3_amd64.deb
+	sha256sums_x86_64 = d9e856baa3dad67b0f6dcbddab5283ace5b18eaad73d40b768b1e7d9d47d32d3
+
+pkgname = workbuddy-bin
