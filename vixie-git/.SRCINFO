@@ -1,0 +1,23 @@
+pkgbase = vixie-git
+	pkgdesc = A small desktop pet program that takes an url from pokemonshowdown.com as the input.
+	pkgver = r22.23d356a
+	pkgrel = 1
+	url = https://github.com/Vinceli2401/Vixie
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = gendesk
+	makedepends = jq
+	depends = electron33
+	provides = vixie=r22.23d356a
+	conflicts = vixie
+	options = !emptydirs
+	source = vixie.git::git+https://github.com/Vinceli2401/Vixie.git
+	source = vixie.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = vixie-git
