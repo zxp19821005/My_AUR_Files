@@ -1,0 +1,23 @@
+pkgbase = snippai-git
+	pkgdesc = A versatile and intelligent snipping tool powered by advanced AI algorithms.
+	pkgver = 0.3.0.r0.gf9c082c
+	pkgrel = 1
+	url = https://snippai.de/
+	arch = any
+	license = AGPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = gendesk
+	makedepends = jq
+	makedepends = zip
+	depends = electron29
+	provides = snippai=0.3.0
+	conflicts = snippai
+	source = snippai.git::git+https://github.com/xyTom/snippai.git
+	source = snippai.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = snippai-git
