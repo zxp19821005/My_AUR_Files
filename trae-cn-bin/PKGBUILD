@@ -1,6 +1,7 @@
 pkgname=trae-cn-bin
 _pkgname=TraeCode_CN
-pkgver=2.3.68992
+pkgver=2.3.78542
+_electronversion=32
 pkgrel=99
 pkgdesc="TRAE CN 桌面客户端（预编译二进制包）"
 arch=('x86_64')
@@ -48,8 +49,22 @@ options=(
   '!emptydirs'
 )
 source=("${pkgname%-bin}-${pkgver}.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.rpm")
-sha256sums=('dee8c647b8a2cbb59f94058cadbbe19adf1d7b0363e875fbcddc0409d4784bbc')
+sha256sums=('8503d199264ea3d1635a57caf460aefaa56bf1beb45942fec1124b07cad0f017')
+_get_app_dir() {
+    find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
+}
+_check_electron_version() {
+    echo "Verifying Electron version..."
+    local _main_exe=$(find "$(_get_app_dir)" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
+    [[ -z "${_main_exe}" ]] && echo -e "\033[1;33mNote: Could not find Electron binary.\033[0m" && return
+    local _elec_ver=$(strings "${_main_exe}" | grep -oP 'Electron/\K[0-9]+' | head -1)
+    [[ -z "${_elec_ver}" ]] && echo -e "\033[1;33mNote: Could not determine Electron version.\033[0m" && return
+    [[ "${_elec_ver}" != "${_electronversion}" ]] &&
+        echo -e "\033[1;31mWarning: Electron version mismatch! Detected: ${_elec_ver}, Expected: ${_electronversion}\033[0m" ||
+        echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
+}
 package() {
+  _check_electron_version
   # 复制文件
   cp -r "${srcdir}/usr" "${pkgdir}/"
   # 删除不必要的 locale（只保留 zh-CN 和 en-US）
