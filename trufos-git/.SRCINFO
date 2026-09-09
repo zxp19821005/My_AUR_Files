@@ -1,0 +1,23 @@
+pkgbase = trufos-git
+	pkgdesc = A fast, offline-first REST client with no account required and no telemetry.
+	pkgver = 0.8.0.r82.gb610bbf
+	pkgrel = 1
+	url = https://exxeta.github.io/trufos/
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = gendesk
+	makedepends = jq
+	makedepends = zip
+	depends = electron43
+	provides = trufos=0.8.0
+	conflicts = trufos
+	source = trufos.git::git+https://github.com/EXXETA/trufos.git
+	source = trufos.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = trufos-git
