@@ -1593,7 +1593,7 @@
 |**woterm**|[woterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woterm-bin)|[woterm-bin](https://aur.archlinux.org/packages/woterm-bin)||
 |**wp-desktop**|[wp-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wp-desktop-bin)|[wp-desktop-bin](https://aur.archlinux.org/packages/wp-desktop-bin)||
 |**wpspaster**|[wpspaster](https://github.com/zxp19821005/My_AUR_Files/tree/main/wpspaster)|[wpspaster](https://aur.archlinux.org/packages/wpspaster)||
-|**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)||
+|**wubi-dict-editor**|[wubi-dict-editor](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor)<br>[wubi-dict-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wubi-dict-editor-bin)|[wubi-dict-editor](https://aur.archlinux.org/packages/wubi-dict-editor)<br>[wubi-dict-editor-bin](https://aur.archlinux.org/packages/wubi-dict-editor-bin)||
 |**wx-read**|[wx-read](https://github.com/zxp19821005/My_AUR_Files/tree/main/wx-read)|[wx-read](https://aur.archlinux.org/packages/wx-read)||
 |**xchat**|[xchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xchat-bin)|[xchat-bin](https://aur.archlinux.org/packages/xchat-bin)||
 |**xc-music**|[xc-music-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/xc-music-bin)<br>[xc-music-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/xc-music-git)|[xc-music-bin](https://aur.archlinux.org/packages/xc-music-bin)<br>[xc-music-git](https://aur.archlinux.org/packages/xc-music-git)||

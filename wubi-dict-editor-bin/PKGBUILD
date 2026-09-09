@@ -1,31 +1,56 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=wubi-dict-editor
-_zhname="五笔码表助手"
-pkgver=1.21
-pkgrel=3
-pkgdesc="五笔码表助手 for Rime ( Windows、macOS、Ubuntu ) 基于 electron 开发."
-arch=("x86_64")
+pkgname=wubi-dict-editor-bin
+_zhname='五笔码表助手'
+pkgver=1.3.12
+_electronversion=28
+pkgrel=1
+pkgdesc="Five Pen Watch Assistant for Rime.五笔码表助手 for Rime."
+arch=('x86_64')
 url="https://github.com/KyleBing/wubi-dict-editor"
-license=('GPL3')
-depends=('ibus-rime' 'electron24')
-makedepends=('npm>=9' 'yarn' 'asar' 'nodejs>=18' 'imagemagick')
+license=('GPL-3.0-only')
 conflicts=("${pkgname}")
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
-    "${pkgname}.sh")
-sha256sums=('8948abfa58980007c8b352bd953672693f23b264e68d9350a7739db01506d7f5'
-            'b70f00f133517296d81cb0f546a70539b46ebaf82baeab7adec13056bc42ec12'
-            'ef6e64129224e6860e191fd8905d8fd111ad88b8a9d08b32b7c02629b6297461')
-build() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    1yarn install 
-    yarn package
-    asar pack "${srcdir}/${pkgname}-${pkgver}/out/${_zhname}-linux-x64/resources/app" "${srcdir}/${pkgname}.asar"
-    convert "${srcdir}/${pkgname}-${pkgver}/assets/img/appIcon/appIcon.ico" "${srcdir}/${pkgname}.png"
+depends=(
+    'ibus-rime'
+    "electron${_electronversion}"
+)
+options=(
+    '!emptydirs'
+)
+source=(
+    "${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb"
+    "${pkgname%-bin}.sh"
+)
+sha256sums=('3f8ac80e7505342fa1134abe46754b8bfed3d349768037cec390e67158104415'
+            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+_get_app_dir() {
+    find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
+}
+_check_electron_version() {
+    echo "Verifying Electron version..."
+    local _main_exe=$(find "$(_get_app_dir)" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
+    [[ -z "${_main_exe}" ]] && echo -e "\033[1;33mNote: Could not find Electron binary.\033[0m" && return
+    local _elec_ver=$(strings "${_main_exe}" | grep -oP 'Electron/\K[0-9]+' | head -1)
+    [[ -z "${_elec_ver}" ]] && echo -e "\033[1;33mNote: Could not determine Electron version.\033[0m" && return
+    [[ "${_elec_ver}" != "${_electronversion}" ]] &&
+        echo -e "\033[1;31mWarning: Electron version mismatch! Detected: ${_elec_ver}, Expected: ${_electronversion}\033[0m" ||
+        echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
+}
+prepare() {
+    sed -i -e "
+        s/@electronversion@/${_electronversion}/g
+        s/@appname@/${pkgname%-bin}/g
+        s/@runname@/app/g
+        s/@cfgdirname@/${_pkgname}/g
+    " "${srcdir}/${pkgname%-bin}.sh"
+    bsdtar -xf "${srcdir}/data."*
+    _check_electron_version
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.asar" -t "${pkgdir}/opt/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}-3.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
-    gendesk -f -n --categories "Utility" --name "${pkgname}" --genericname="${_zhname} for Rime" --exec "${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+    local _app_dir=$(_get_app_dir)
+    cp -a "${_app_dir}/resources/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
+    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm644 "${srcdir}/usr/share/pixmaps/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
+    install -Dm644 "${srcdir}/usr/share/doc/${pkgname%-bin}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
