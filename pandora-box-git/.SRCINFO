@@ -1,6 +1,6 @@
-pkgbase = pandora-box
-	pkgdesc = A Simple Mihomo GUI. 一个简易的 Mihomo 桌面客户端.
-	pkgver = 1.0.23
+pkgbase = pandora-box-git
+	pkgdesc = A Simple Mihomo GUI. 一个简易的 Mihomo 桌面客户端
+	pkgver = 1.0.23.r4.g87e16ea
 	pkgrel = 1
 	url = https://github.com/snakem982/Pandora-Box
 	arch = aarch64
@@ -16,9 +16,11 @@ pkgbase = pandora-box
 	makedepends = jq
 	makedepends = zip
 	depends = electron41
-	source = pandora-box-1.0.23::git+https://github.com/snakem982/Pandora-Box#tag=v1.0.23
+	provides = pandora-box=1.0.23
+	conflicts = pandora-box
+	source = pandora-box.git::git+https://github.com/snakem982/Pandora-Box
 	source = pandora-box.sh
-	sha256sums = 819ac98dfb7a355b24b9b0bac3f35e57cd6a4a60955bb8a40bcda9b008aeac11
+	sha256sums = SKIP
 	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
 
-pkgname = pandora-box
+pkgname = pandora-box-git
