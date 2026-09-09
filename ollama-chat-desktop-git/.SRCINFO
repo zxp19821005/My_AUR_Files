@@ -1,0 +1,24 @@
+pkgbase = ollama-chat-desktop-git
+	pkgdesc = A modern, cross-platform desktop application for interacting with Ollama's AI models.
+	pkgver = r7.a997e79
+	pkgrel = 1
+	url = https://github.com/sufianetaouil/ollama-chat-desktop
+	arch = any
+	license = MIT
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = zip
+	makedepends = jq
+	depends = electron29
+	depends = ollama
+	provides = ollama-chat-desktop=r7.a997e79
+	conflicts = ollama-chat-desktop
+	source = ollama-chat-desktop.git::git+https://github.com/sufianetaouil/ollama-chat-desktop
+	source = ollama-chat-desktop.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = ollama-chat-desktop-git
