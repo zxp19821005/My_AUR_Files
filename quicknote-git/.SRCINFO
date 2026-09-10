@@ -1,0 +1,24 @@
+pkgbase = quicknote-git
+	pkgdesc = A quick-access note right from your system tray.
+	pkgver = 2.0.3.r33.g783c625
+	pkgrel = 1
+	url = https://github.com/srilakshmikanthanp/quicknote
+	arch = any
+	license = MIT
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = yarn
+	makedepends = git
+	makedepends = nvm
+	makedepends = curl
+	makedepends = jq
+	makedepends = zip
+	depends = electron43
+	provides = quicknote=2.0.3
+	conflicts = quicknote
+	source = quicknote.git::git+https://github.com/srilakshmikanthanp/quicknote.git
+	source = quicknote.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = quicknote-git
