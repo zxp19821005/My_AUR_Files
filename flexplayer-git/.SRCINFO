@@ -1,0 +1,25 @@
+pkgbase = flexplayer-git
+	pkgdesc = Plays multiple video files in a grid,built in electron.
+	pkgver = 1.0.1.r0.g3699fcf
+	pkgrel = 1
+	url = https://github.com/ricmsd/flexplayer
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = jq
+	makedepends = zip
+	depends = electron30
+	provides = flexplayer=1.0.1
+	conflicts = flexplayer
+	source = flexplayer.git::git+https://github.com/ricmsd/flexplayer.git
+	source = flexplayer.png
+	source = flexplayer.sh
+	sha256sums = SKIP
+	sha256sums = 164d09588a4d5c242f3450dba9db7ea6d48279c7406669acdaf42ee63c6716e5
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = flexplayer-git
