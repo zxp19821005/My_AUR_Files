@@ -716,8 +716,8 @@
 |**jitsi-meet-desktop**|[jitsi-meet-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/jitsi-meet-desktop-git)|[jitsi-meet-desktop-git](https://aur.archlinux.org/packages/jitsi-meet-desktop-git)||
 |**jiwu-mall-chat**|[jiwu-mall-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jiwu-mall-chat-bin)|[jiwu-mall-chat-bin](https://aur.archlinux.org/packages/jiwu-mall-chat-bin)||
 |**joindesktop**|[joindesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joindesktop-bin)|[joindesktop-bin](https://aur.archlinux.org/packages/joindesktop-bin)||
+|**joy-client**|[joy-client-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/joy-client-git)|[joy-client-git](https://aur.archlinux.org/packages/joy-client-git)||
 |**joystick**|[joystick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/joystick-bin)|[joystick-bin](https://aur.archlinux.org/packages/joystick-bin)||
-|**joy-xtream-player**|[joy-xtream-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/joy-xtream-player-git)|[joy-xtream-player-git](https://aur.archlinux.org/packages/joy-xtream-player-git)||
 |**jscast**|[jscast-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/jscast-git)|[jscast-git](https://aur.archlinux.org/packages/jscast-git)||
 |**js-design-electron**|[js-design-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/js-design-electron-bin)|[js-design-electron-bin](https://aur.archlinux.org/packages/js-design-electron-bin)||
 |**jts-hud-manager**|[jts-hud-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/jts-hud-manager-git)|[jts-hud-manager-git](https://aur.archlinux.org/packages/jts-hud-manager-git)||
