@@ -1643,7 +1643,6 @@
 |**yuview**|[yuview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuview-bin)|[yuview-bin](https://aur.archlinux.org/packages/yuview-bin)||
 |**yuvviewer**|[yuvviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yuvviewer-bin)|[yuvviewer-bin](https://aur.archlinux.org/packages/yuvviewer-bin)||
 |**yyetsbot**|[yyetsbot-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yyetsbot-bin)|[yyetsbot-bin](https://aur.archlinux.org/packages/yyetsbot-bin)||
-|**zasper**|[zasper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-bin)<br>[zasper-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/zasper-git)|[zasper-bin](https://aur.archlinux.org/packages/zasper-bin)<br>[zasper-git](https://aur.archlinux.org/packages/zasper-git)||
 |**zcode**|[zcode-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zcode-bin)|自用版||
 |**zebar**|[zebar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zebar-bin)|[zebar-bin](https://aur.archlinux.org/packages/zebar-bin)||
 |**zenplay**|[zenplay-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/zenplay-bin)|[zenplay-bin](https://aur.archlinux.org/packages/zenplay-bin)||
