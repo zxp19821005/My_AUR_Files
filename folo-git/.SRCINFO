@@ -1,0 +1,25 @@
+pkgbase = folo-git
+	pkgdesc = Organizes content into one timeline, keeping you updated on what matters, noise-free. Share lists, explore collections, and enjoy distraction-free browsing.
+	pkgver = 1.13.0.r11.g8b097ab
+	pkgrel = 1
+	url = https://folo.is/
+	arch = any
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = git
+	makedepends = pnpm
+	makedepends = python-setuptools
+	makedepends = jq
+	makedepends = zip
+	depends = electron43
+	provides = folo=1.13.0
+	conflicts = folo
+	source = folo.git::git+https://github.com/RSSNext/Folo.git
+	source = folo.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = folo-git
