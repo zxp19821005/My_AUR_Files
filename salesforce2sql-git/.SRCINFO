@@ -1,0 +1,28 @@
+pkgbase = salesforce2sql-git
+	pkgdesc = A tool to generate a SQL schema to match a Salesforce Org Schema.
+	pkgver = 0.12.0.r61.g4863f63
+	pkgrel = 1
+	url = https://github.com/acrosman/Salesforce2Sql
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = gendesk
+	makedepends = jq
+	makedepends = zip
+	depends = electron41
+	depends = python
+	depends = python-setuptools
+	depends = nodejs
+	provides = salesforce2sql=0.12.0
+	conflicts = salesforce2sql
+	options = !strip
+	options = !emptydirs
+	source = salesforce2sql.git::git+https://github.com/acrosman/Salesforce2Sql.git
+	source = salesforce2sql.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = salesforce2sql-git
