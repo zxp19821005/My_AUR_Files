@@ -1,0 +1,25 @@
+pkgbase = witsy
+	pkgdesc = Generative AI desktop application.
+	pkgver = 3.5.2
+	pkgrel = 2
+	url = https://github.com/Kochava-Studios/witsy
+	arch = any
+	license = Apache-2.0
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = nvm
+	makedepends = curl
+	makedepends = git
+	makedepends = jq
+	makedepends = zip
+	depends = electron38
+	depends = libevdev
+	depends = nodejs
+	depends = libvips
+	conflicts = witsy
+	source = witsy-3.5.2::git+https://github.com/Kochava-Studios/witsy#tag=v3.5.2
+	source = witsy.sh
+	sha256sums = 34700f1f741cef1f61d040448f6eb50c93be1adc351bdf895489d3f92b84d38f
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = witsy
