@@ -1,90 +1,173 @@
-# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
-pkgname=workbuddy-bin
+# Maintainer: Rongbo <wurongbo2012@hotmail.com>
+pkgname=workbuddy
 _pkgname=WorkBuddy
-_debname="cn.${pkgname%-bin}.otohime"
-pkgver=5.5.3
-_electronversion=39
-pkgrel=1
+_mainver=5.5.4
+_subver=38151288
+_md5=1ca4889a
+pkgver="${_mainver}.${_subver}"
+_electronversion=37
+pkgrel=100
 pkgdesc="Work Smart，Not Hard"
-arch=(
-    'aarch64'
-    'x86_64'
-)
+arch=('x86_64')
 url="https://www.workbuddy.cn/"
-_dlurl="https://github.com/kota-rina3/hokeshi"
 license=('AGPL-3.0-only')
-provides=("${pkgname%-bin}=${pkgver}")
-conflicts=("${pkgname%-bin}")
 depends=(
     "electron${_electronversion}"
     'nodejs'
     'python'
-    'python-click'
     'python-httpx'
     'python-requests'
     'python-numpy'
-    'python-beautifulsoup4'
     'python-pillow'
+    'python-click'
+    'python-beautifulsoup4'
+)
+makedepends=(
+    '7zip'
+    'libicns'
+    'asar'
+)
+optdepends=(
+    'nodejs-lts: frontend skills'
+    'gnome-shell-extension-appindicator'
+)
+conflicts=('workbuddy-bin')
+source=(
+    "${pkgname}-${pkgver}-${CARCH}.dmg::https://download.codebuddy.cn/workbuddy/saas/darwin-x64/${_pkgname}-darwin-x64-${_mainver}.${_subver}-${_md5}.dmg"
+    "${pkgname}.desktop"
+    "better-sqlite3.tgz::https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-13.0.3.tgz"
+    "node-pty.tgz::https://registry.npmmirror.com/@lydell/node-pty/-/node-pty-1.2.0-beta.14.tgz"
+    "snappy-linux-x64-gnu.node::https://github.com/Brooooooklyn/snappy/releases/download/v7.3.3/snappy.linux-x64-gnu.node"
+    "snappy-linux-x64-musl.node::https://github.com/Brooooooklyn/snappy/releases/download/v7.3.3/snappy.linux-x64-musl.node"
+    "sandbox-cli-linux-x64.tgz::https://mirrors.cloud.tencent.com/npm/@tencent-ai/sandbox-cli-linux-x64/-/sandbox-cli-linux-x64-5.5.5.tgz"
+    "${pkgname}.sh"
 )
 options=(
     '!strip'
     '!emptydirs'
 )
-source=("${pkgname%-bin}.sh")
-source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_arm64.deb")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_amd64.deb")
-sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('8ee6ef84b94b4fa8c48285eeba2e42ed8990674ab51f28e128fc84b2fd24b26d')
-sha256sums_x86_64=('d9e856baa3dad67b0f6dcbddab5283ace5b18eaad73d40b768b1e7d9d47d32d3')
-_get_app_dir() {
-    find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
-}
-_check_electron_version() {
-    echo "Verifying Electron version..."
-    local _main_exe=$(find "$(_get_app_dir)" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
-    [[ -z "${_main_exe}" ]] && echo -e "\033[1;33mNote: Could not find Electron binary.\033[0m" && return
-    local _elec_ver=$(strings "${_main_exe}" | grep -oP 'Electron/\K[0-9]+' | head -1)
-    [[ -z "${_elec_ver}" ]] && echo -e "\033[1;33mNote: Could not determine Electron version.\033[0m" && return
-    [[ "${_elec_ver}" != "${_electronversion}" ]] &&
-        echo -e "\033[1;31mWarning: Electron version mismatch! Detected: ${_elec_ver}, Expected: ${_electronversion}\033[0m" ||
-        echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
-}
+noextract=(
+    "better-sqlite3.tgz"
+    "node-pty.tgz"
+    "snappy-linux-x64-gnu.node"
+    "snappy-linux-x64-musl.node"
+    "sandbox-cli-linux-x64.tgz"
+)
+sha256sums=('b59ca06e37fe30502b331912dc373c95c8f4f83e13faf6357d686060a70af71c'
+            'c7d14a0303000dfac2bbb31e82916814cccfbeddb9d4c0c5d08f8d344d27f07a'
+            '77e0513dc1a469fb3bceec4c7fb5ad3f403109787eda05be047ec17fd56868cb'
+            'eee8e260e43b96aa5450f4c95f05de1b48ab24fcb3d4ef566232ec9ccff2e39e'
+            '42ac694666e35e21b96d09c374b89918acd7d95297d1adfd9d31edb4fb7a5ebb'
+            '31eb00fd08d44f3379d51074159bae843ed94c84c2c83dc13612e3664627084e'
+            '73a505c70b6a69f1aa906d3fbbcf0214fefbf6fff637d8a252ebdec9448dc095'
+            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 prepare() {
     sed -i -e "
         s/@electronversion@/${_electronversion}/g
         s/@appname@/${pkgname%-bin}/g
-        s/@runname@/app.asar/g
-        s/@cfgdirname@/${_pkgname}/g
+        s/@runname@/app.asar.unpacked/g
+        s/@cfgdirname@/${pkgname%-bin}/g
     " "${srcdir}/${pkgname%-bin}.sh"
-    bsdtar -xf "${srcdir}/data."*
-    _check_electron_version
-    sed -i -e "
-        s/Exec=\/opt\/apps\/${_debname}\/files\/${pkgname%-bin}/Exec=${pkgname%-bin}/g
-        s/Icon=\/opt\/apps\/${_debname}\/files\/resources\/${_pkgname}.png/Icon=${pkgname%-bin}/g
-    " "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop"
-    local _app_dir=$(_get_app_dir)
+    7z x -snld -aoa "${srcdir}/${pkgname}-${pkgver}-${CARCH}.dmg"
+    cd "${srcdir}/${_pkgname} ${_mainver}/${_pkgname}.app/Contents/Resources"
+    icns2png -x icon.icns -o "${srcdir}"
+    asar e app.asar app.asar.unpacked || true
+    find app.asar.unpacked -type f -name "*.js" -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +
+    local _unpacked_dir="${srcdir}/${_pkgname} ${_mainver}/${_pkgname}.app/Contents/Resources/app.asar.unpacked"
+    rm -rf "${_unpacked_dir}/node_modules/"{better-sqlite3,@lydell/node-pty-linux*}
+    mkdir -p "${srcdir}/tmp/"{better-sqlite3,node-pty-linux}
+    bsdtar -xf "${srcdir}/better-sqlite3.tgz" -C "${srcdir}/tmp/better-sqlite3"
+    rm -rf "${srcdir}/tmp/better-sqlite3/package/prebuilds/"{darwin-*,*-arm64*,win32-*}
+    bsdtar -xf "${srcdir}/node-pty.tgz" -C "${srcdir}/tmp/node-pty-linux"
+    mkdir -p "${_unpacked_dir}/node_modules/"{better-sqlite3,@lydell/node-pty-linux-x64}
+    cp -a "${srcdir}/tmp/better-sqlite3/package/"* "${_unpacked_dir}/node_modules/better-sqlite3"
+    cp -a "${srcdir}/tmp/node-pty-linux/package/"* "${_unpacked_dir}/node_modules/@lydell/node-pty-linux-x64"
+    # 删除 macOS 专属文件，减少包体积
     rm -rf \
-        "${_app_dir}/resources/elevate.exe" \
-        "${_app_dir}/resources/app.asar.unpacked/node_modules/node-pty/prebuilds/"{darwin-*,win32-*}
-    asar e "${_app_dir}/resources/app.asar" "${srcdir}/app.asar.unpacked" || true
-    rm -rf "${_app_dir}/resources/app.asar"
-    rm -rf \
-        "${srcdir}/app.asar.unpacked/cli/node_modules/@lydell/"{*darwin*,*win32*} \
-        "${srcdir}/app.asar.unpacked/cli/vendor/ripgrep/"{*-darwin,*-win32} \
-        "${srcdir}/app.asar.unpacked/node_modules/@lydell/"{*darwin*,*win32*}
-    find "${srcdir}/app.asar.unpacked" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} + 
-    find "${srcdir}/app.asar.unpacked" -type f -name "*.js" -exec sed -i "s|/usr/lib/workbuddy-bin|/usr/lib/${pkgname%-bin}|g" {} +
-    asar p "${srcdir}/app.asar.unpacked" "${_app_dir}/resources/app.asar"
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-arm64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-darwin-x64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-linux-arm64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-win32-arm64" \
+        "${_unpacked_dir}/cli/node_modules/@lydell/node-pty-win32-x64" \
+        "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-darwin-x64" \
+        "${_unpacked_dir}/cli/vendor/genie-trash/darwin-x64" \
+        "${_unpacked_dir}/cli/vendor/shim/native" \
+        "${_unpacked_dir}/cli/vendor/toybox-macos" \
+        "${_unpacked_dir}/cli/vendor/zsh-macos" \
+        "${_unpacked_dir}/cli/vendor/ripgrep/"{x64-darwin,arm64-darwin,x64-win32} \
+        "${_unpacked_dir}/cli/vendor/sandbox" \
+        "${_unpacked_dir}/node_modules/koffi/build/koffi/"{freebsd*,openbsd*,*arm*,linux_ia32,linux_loong64,linux_riscv64d} \
+        "${_unpacked_dir}/native/wechat-copydata-decoder"
+    find "${_unpacked_dir}/node_modules" -type d \
+        \( -name "*-arm64*" -o -name "*darwin*" -o -name "*win32*" \) \
+        -exec rm -rf {} +
+    # Install Linux native bindings for snappy (not included in macOS DMG)
+    mkdir -p "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-gnu"
+    mkdir -p "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-musl"
+    cp "${srcdir}/snappy-linux-x64-gnu.node" "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-gnu/snappy.linux-x64-gnu.node"
+    cp "${srcdir}/snappy-linux-x64-musl.node" "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-musl/snappy.linux-x64-musl.node"
+    # Create package.json for snappy-linux-x64-gnu
+    cat > "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-gnu/package.json" << 'EOF'
+{
+  "name": "@napi-rs/snappy-linux-x64-gnu",
+  "version": "7.3.3",
+  "cpu": ["x64"],
+  "os": ["linux"],
+  "main": "snappy.linux-x64-gnu.node",
+  "files": ["snappy.linux-x64-gnu.node"],
+  "license": "MIT",
+  "engines": { "node": ">= 10" }
+}
+EOF
+    # Create package.json for snappy-linux-x64-musl
+    cat > "${_unpacked_dir}/cli/node_modules/@napi-rs/snappy-linux-x64-musl/package.json" << 'EOF'
+{
+  "name": "@napi-rs/snappy-linux-x64-musl",
+  "version": "7.3.3",
+  "cpu": ["x64"],
+  "os": ["linux"],
+  "main": "snappy.linux-x64-musl.node",
+  "files": ["snappy.linux-x64-musl.node"],
+  "license": "MIT",
+  "engines": { "node": ">= 10" }
+}
+EOF
+    # Install Linux version of sandbox-cli (from @tencent-ai/sandbox-cli-linux-x64)
+    mkdir -p "${srcdir}/tmp/sandbox-cli"
+    bsdtar -xf "${srcdir}/sandbox-cli-linux-x64.tgz" -C "${srcdir}/tmp/sandbox-cli"
+    mkdir -p "${_unpacked_dir}/cli/vendor/sandbox/5.5.5"
+    cp "${srcdir}/tmp/sandbox-cli/package/bin/sandbox-cli" "${_unpacked_dir}/cli/vendor/sandbox/5.5.5/"
+    cp "${srcdir}/tmp/sandbox-cli/package/bin/sandbox-center" "${_unpacked_dir}/cli/vendor/sandbox/5.5.5/"
+    cp "${srcdir}/tmp/sandbox-cli/package/bin/betterleaks" "${_unpacked_dir}/cli/vendor/sandbox/5.5.5/"
+    chmod +x "${_unpacked_dir}/cli/vendor/sandbox/5.5.5/"*
+    # Fix 1: Use setContextMenu for Linux tray (required for KDE Plasma 6 + Electron 37 compatibility)
+    # This ensures the tray menu is registered with StatusNotifierWatcher and works on all Linux DEs
+    sed -i \
+        -e 's/const contextMenu = electron\.Menu\.buildFromTemplate/this.trayContextMenu = electron.Menu.buildFromTemplate/' \
+        -e 's/this\.tray\.setContextMenu(contextMenu)/this.tray.setContextMenu(this.trayContextMenu)/' \
+        -e 's/this\.tray?\.popUpContextMenu(contextMenu)/this.tray.setContextMenu(this.trayContextMenu)/' \
+        "${_unpacked_dir}/main/index.js"
+    # Fix 2: Add will-quit safety net to guarantee process exit when cleanup hangs
+    cat >> "${_unpacked_dir}/main/index.js" << 'PATCH_EOF'
+// will-quit safety: if performQuitCleanup hangs (daemon unreachable, network timeout),
+// this handler forces exit to prevent the app from becoming unresponsive.
+electron.app.on("will-quit", (event) => {
+	// Force exit: prevent any possibility of process hanging
+	event.preventDefault();
+	require_logger.mainLog.warn("[Lifecycle] will-quit: force exit immediately");
+	// Kill all helper processes first
+	setTimeout(() => electron.app.exit(0), 100);
+});
+PATCH_EOF
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    local _app_dir=$(_get_app_dir)
-    cp -a "${_app_dir}/resources/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256)
+    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
+    cp -a "${srcdir}/${_pkgname} ${_mainver}/${_pkgname}.app/Contents/Resources/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname}"
+    icon_sizes=(256x256 512x512 1024x1024)
     for _icons in "${icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png"
+        install -Dm644 "${srcdir}/icon_${_icons}x32.png" \
+            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
     done
+    install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
 }
