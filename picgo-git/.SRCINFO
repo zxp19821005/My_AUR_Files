@@ -1,0 +1,21 @@
+pkgbase = picgo-git
+	pkgdesc = 🚀 The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.
+	pkgver = 3.0.2.r6.gd554307
+	pkgrel = 1
+	url = https://picgo.app/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = pnpm
+	makedepends = curl
+	makedepends = jq
+	depends = electron38
+	source = picgo.git::git+https://github.com/Molunerfinn/PicGo.git
+	source = picgo.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = picgo-git
