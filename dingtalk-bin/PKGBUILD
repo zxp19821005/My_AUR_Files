@@ -5,7 +5,7 @@
 pkgname=dingtalk-bin
 _debname="com.alibabainc.${pkgname%-bin}"
 #  https://www.dingtalk.com/win/d/qd=linux_amd64
-pkgver=8.2.8.260818002
+pkgver=8.2.8.260904001
 pkgrel=99
 pkgdesc="DingTalk,钉钉"
 arch=(
@@ -59,9 +59,9 @@ source=(
     "${pkgname%-bin}.sh"
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
-            'f286407184fb97af2f81ef6e58c7e707391142f41524955331f226cab73c53f6')
-sha256sums_aarch64=('22269eaadaa5e7dab6a24c1c37baf2c45a572221a3839a9ff4a487079812dabc')
-sha256sums_x86_64=('88dad607bbb7a72918399391c9d53aedfcfa3a6dab01f7d0659e62c1ca32678f')
+            '707251c07bbbbb756dc95fccfe92b191b4f1f6dc20670028bceac511fc747a53')
+sha256sums_aarch64=('f5b6c2d75ea4cb51097272f3e7e83bd433a4d2eb96cacc3f8ee67b9955b292f4')
+sha256sums_x86_64=('5ccb839f9e30494983fa8a87c02d03b6e6915d1317f537e17d08cd897ac750b0')
 prepare() {
     sed -i -e "
         s/@appname@/${pkgname%-bin}/g
@@ -79,6 +79,8 @@ prepare() {
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
     # remove unused lib
     rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libcurl.so.4,libz*}
+    # fix crash when clicking search box (old harfbuzz conflicts with system pango)
+    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libharfbuzz.so*
     patchelf --clear-execstack "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{"${pkgname%-bin}"_dll,libconference_new}.so
 }
 package() {
