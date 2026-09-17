@@ -1,0 +1,21 @@
+pkgbase = aesir-wallet-bin
+	pkgdesc = The most current Kryptokrona GUI Wallet built with Svelte and Electron.
+	pkgver = 1.0.9
+	pkgrel = 1
+	url = https://kryptokrona.org/
+	arch = x86_64
+	license = MIT
+	makedepends = asar
+	depends = electron30
+	depends = webkit2gtk-4.1
+	provides = aesir-wallet=1.0.9
+	conflicts = aesir-wallet
+	options = !emptydirs
+	source = aesir-wallet-1.0.9.deb::https://github.com/kryptokrona/aesir-wallet/releases/download/1.0.9/Aesir_1.0.9_amd64.deb
+	source = LICENSE-1.0.9::https://raw.githubusercontent.com/kryptokrona/aesir-wallet/1.0.9/LICENSE
+	source = aesir-wallet.sh
+	sha256sums = 774b8c62fd7af81da3c57fc219ef09c1d6bd34f6c460b814a90f14af25475521
+	sha256sums = 6533f6c810ff2e8e6ca1c96333b082d2f4e755f4ee586d2ef320c34782503950
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = aesir-wallet-bin
