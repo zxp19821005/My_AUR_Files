@@ -1,0 +1,28 @@
+pkgbase = rocketchat-desktop-git
+	pkgdesc = The Ultimate Open Source WebChat Platform.
+	pkgver = 4.17.0.alpha.3.r7.g99d7373
+	pkgrel = 1
+	url = https://rocket.chat/
+	arch = any
+	license = MIT
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = yarn
+	makedepends = jq
+	makedepends = patch
+	depends = electron42
+	optdepends = libnotify: For sending desktop notifications
+	optdepends = libindicator-gtk3: For the system tray icon
+	provides = rocketchat-desktop=4.17.0.alpha.3
+	conflicts = rocketchat-desktop
+	source = rocketchat-desktop.git::git+https://github.com/RocketChat/Rocket.Chat.Electron
+	source = rocketchat-desktop-rollup.patch
+	source = rocketchat-desktop.sh
+	sha256sums = SKIP
+	sha256sums = 1c186ddc7dc31bf46c92c58e235f2d5b99ef309b0b81663e38778ef397bdd41a
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = rocketchat-desktop-git
