@@ -1,0 +1,23 @@
+pkgbase = lx-music-desktop-bin
+	pkgdesc = A music software based on Electron + Vue.一个基于 Electron + Vue 开发的音乐软件
+	pkgver = 2.12.5
+	pkgrel = 1
+	url = https://lyswhut.github.io/lx-music-doc/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = Apache-2.0
+	depends = electron42
+	provides = lx-music-desktop=2.12.5
+	conflicts = lx-music-desktop
+	conflicts = lx-music-desktop-electron
+	source = lx-music-desktop.sh
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+	source_aarch64 = lx-music-desktop-2.12.5-aarch64.deb::https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.5/lx-music-desktop_2.12.5_arm64.deb
+	sha256sums_aarch64 = f3e5069ed618f2eaae86cdc7369245b60fbc68c19965ee9d337ce53abbb1fd13
+	source_armv7h = lx-music-desktop-2.12.5-armv7h.deb::https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.5/lx-music-desktop_2.12.5_armv7l.deb
+	sha256sums_armv7h = ed7ef9b1a5461565d48678be5b1c17edde78a9524aeb24ecf5b385319cda57d3
+	source_x86_64 = lx-music-desktop-2.12.5-x86_64.deb::https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.5/lx-music-desktop_2.12.5_amd64.deb
+	sha256sums_x86_64 = 1f9b579303e7d32099d949c89dd2770fdb8c06f5c5936be235bc4c869cd98690
+
+pkgname = lx-music-desktop-bin
