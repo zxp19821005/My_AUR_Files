@@ -1,0 +1,20 @@
+pkgbase = key-echo-bin
+	pkgdesc = Listen to Mechanical Keyboard Sounds with Every Keystroke - It's Fast.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://keyecho.app/
+	arch = aarch64
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	depends = alsa-lib
+	provides = key-echo=1.1.1
+	conflicts = key-echo
+	source_aarch64 = key-echo-1.1.1-aarch64.rpm::https://github.com/ZacharyL2/KeyEcho/releases/download/v1.1.1/KeyEcho-1.1.1-1.aarch64.rpm
+	sha256sums_aarch64 = c5102e47443b408e23d030df10329a4fe90c0ffc0b933ae7a8a5029f3ffe4305
+	source_x86_64 = key-echo-1.1.1-x86_64.rpm::https://github.com/ZacharyL2/KeyEcho/releases/download/v1.1.1/KeyEcho-1.1.1-1.x86_64.rpm
+	sha256sums_x86_64 = 1a70d5192818b4d7c54631d2ca9b9cb430f1bfa835144260abdf378f403e90f3
+
+pkgname = key-echo-bin
