@@ -1,6 +1,6 @@
 pkgname=lx-music-desktop-bin
 _pkgname='LX Music'
-pkgver=2.12.5
+pkgver=2.12.6
 _electronversion=42
 pkgrel=1
 pkgdesc="A music software based on Electron + Vue.一个基于 Electron + Vue 开发的音乐软件"
@@ -25,9 +25,9 @@ source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/downl
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_armv7l.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb")
 sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('f3e5069ed618f2eaae86cdc7369245b60fbc68c19965ee9d337ce53abbb1fd13')
-sha256sums_armv7h=('ed7ef9b1a5461565d48678be5b1c17edde78a9524aeb24ecf5b385319cda57d3')
-sha256sums_x86_64=('1f9b579303e7d32099d949c89dd2770fdb8c06f5c5936be235bc4c869cd98690')
+sha256sums_aarch64=('72e5a8defec9618dad8055f7a33e821bb9af81c887f65d52c1402bd347937256')
+sha256sums_armv7h=('960715407b18782e69fd9f419e08d2bbb9f3e4e3918d5f8b300d4a8985372f7a')
+sha256sums_x86_64=('faa7ae107a106b7a1f82592de96f5756334262f8e4ebfddac90c893695a3fc50')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
