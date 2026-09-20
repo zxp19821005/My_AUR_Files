@@ -1,0 +1,25 @@
+pkgbase = yank-note-git
+	pkgdesc = A highly extensible Markdown editor. Version control, AI completion, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
+	pkgver = 3.next.02.r8.g27780bd
+	pkgrel = 1
+	url = https://yank-note.com/
+	arch = any
+	license = AGPL-3.0-only
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = yarn
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = python
+	makedepends = jq
+	depends = electron41
+	depends = python
+	depends = java-runtime
+	conflicts = yank-note
+	source = yank-note.git::git+https://github.com/purocean/yn
+	source = yank-note.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = yank-note-git
