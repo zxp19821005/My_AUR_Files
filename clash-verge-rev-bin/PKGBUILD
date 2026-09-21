@@ -3,9 +3,9 @@
 _appname=clash-verge
 pkgname="${_appname}-rev-bin"
 _pkgname='Clash Verge'
-pkgver=2.5.1
+pkgver=2.5.4
 pkgrel=99
-pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri.(Prebuilt version)"
+pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri."
 arch=(
     'aarch64'
     'armv7h'
@@ -29,14 +29,15 @@ options=('!strip')
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.aarch64.rpm")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.armhfp.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.x86_64.rpm")
-sha512sums_aarch64=('06aba316810f1ea0a0b2c1747d320b7f1277cdafbd64b0aaa66aac703f563d46569cf47d8f9fa25e48f821b7fb71f93c3fc827257ea72b28618a3df8bf35bd1f')
-sha512sums_armv7h=('2c9d28e59d4c642d4f4f25f101e0e224c5f2ba1101f3ca107013469bfe7722dbfaf99f4a2a5ab4726adc294c882dcdcbd195a5c453bb99ac7d47ad45ead530b9')
-sha512sums_x86_64=('d572e854a74b95a79574a43e27929c6cc7fbfbfd4e46ef499560f1d57b55e6650edb8d26e94babb6bfd3b720c470e971f68f66ebc15df08dd8423ef0e54628c3')
+sha512sums_aarch64=('cf0e8cf10be7e551643233c116a3461509a8b7864855554df5c4507b5d896123ded6027b66e67da9e927d96fe58fa0a5457878c76e178f9bc318b135da9bd723')
+sha512sums_armv7h=('e33cdba6c5f958a2344b524aafe3f0e734ff594a6bf850318374349b2c89c188f11e3c8cf146d853ad701ea24afd98ab4262e901e712c634d7290e6b48f3953d')
+sha512sums_x86_64=('4ffa77827026bdc0cb3d55089f853eecc6f83fd33c69362965a72bb0554eee4f4efffc26670a887594fffa7cf2d784e169d44b7ecdf12e54770fe6d16c08f334')
 prepare() {
     sed -i -e "
         s/Development/Network/g
         s/Icon=${_appname}/Icon=${pkgname%-bin}/g
     " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+    mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"

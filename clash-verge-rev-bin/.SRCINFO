@@ -1,0 +1,25 @@
+pkgbase = clash-verge-rev-bin
+	pkgdesc = Continuation of Clash Verge | A Clash Meta GUI based on Tauri.
+	pkgver = 2.5.4
+	pkgrel = 99
+	url = https://www.clashverge.dev/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = webkit2gtk-4.1
+	depends = gtk3
+	depends = libayatana-appindicator
+	provides = clash-verge-rev=2.5.4
+	conflicts = clash-verge-rev
+	conflicts = clash-verge-rev-bin
+	conflicts = clash-verge
+	options = !strip
+	source_aarch64 = clash-verge-rev-2.5.4-aarch64.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.4/Clash.Verge-2.5.4-1.aarch64.rpm
+	sha512sums_aarch64 = cf0e8cf10be7e551643233c116a3461509a8b7864855554df5c4507b5d896123ded6027b66e67da9e927d96fe58fa0a5457878c76e178f9bc318b135da9bd723
+	source_armv7h = clash-verge-rev-2.5.4-armv7h.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.4/Clash.Verge-2.5.4-1.armhfp.rpm
+	sha512sums_armv7h = e33cdba6c5f958a2344b524aafe3f0e734ff594a6bf850318374349b2c89c188f11e3c8cf146d853ad701ea24afd98ab4262e901e712c634d7290e6b48f3953d
+	source_x86_64 = clash-verge-rev-2.5.4-x86_64.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.4/Clash.Verge-2.5.4-1.x86_64.rpm
+	sha512sums_x86_64 = 4ffa77827026bdc0cb3d55089f853eecc6f83fd33c69362965a72bb0554eee4f4efffc26670a887594fffa7cf2d784e169d44b7ecdf12e54770fe6d16c08f334
+
+pkgname = clash-verge-rev-bin
