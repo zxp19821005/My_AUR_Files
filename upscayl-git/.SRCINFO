@@ -1,0 +1,26 @@
+pkgbase = upscayl-git
+	pkgdesc = Free and Open Source AI Image Upscaler.
+	pkgver = 2.15.1.r49.ga00d55f
+	pkgrel = 1
+	url = https://upscayl.org/
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = git
+	makedepends = npm
+	makedepends = nvm
+	makedepends = jq
+	makedepends = curl
+	makedepends = gendesk
+	depends = electron33
+	depends = vulkan-icd-loader
+	optdepends = vulkan-intel: Open-source Vulkan driver for Intel GPUs
+	optdepends = vulkan-radeon: Open-source Vulkan driver for AMD GPUs
+	optdepends = vulkan-nouveau: Open-source Vulkan driver for Nvidia GPUs
+	provides = upscayl
+	conflicts = upscayl
+	source = upscayl.git::git+https://github.com/upscayl/upscayl.git
+	source = upscayl.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = upscayl-git

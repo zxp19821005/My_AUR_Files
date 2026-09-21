@@ -1,0 +1,23 @@
+pkgbase = sabaki-git
+	pkgdesc = An elegant Go board and SGF editor for a more civilized age.
+	pkgver = 0.60.2.r9.gd451324
+	pkgrel = 1
+	url = https://sabaki.yichuanshen.de/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = curl
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = git
+	makedepends = jq
+	depends = electron43
+	provides = sabaki=0.60.2.r9.gd451324
+	conflicts = sabaki
+	conflicts = sabaki-electron
+	source = sabaki.git::git+https://github.com/SabakiHQ/Sabaki.git
+	source = sabaki.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = sabaki-git

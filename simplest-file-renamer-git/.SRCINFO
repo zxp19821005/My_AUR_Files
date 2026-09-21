@@ -1,0 +1,24 @@
+pkgbase = simplest-file-renamer-git
+	pkgdesc = Rename your files and folders directly or with your favorite text editor, making use of all your 1337 keyboard shortcuts.
+	pkgver = 1.0.0.r88.gb40ebe9
+	pkgrel = 1
+	url = https://www.yboris.dev/renamer
+	arch = any
+	license = MIT
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = rustup
+	makedepends = bun
+	makedepends = gendesk
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	depends = libayatana-indicator
+	depends = libappindicator
+	provides = simplest-file-renamer
+	conflicts = simplest-file-renamer
+	source = simplest-file-renamer.git::git+https://github.com/whyboris/Simplest-File-Renamer.git
+	sha256sums = SKIP
+
+pkgname = simplest-file-renamer-git

@@ -1,0 +1,23 @@
+pkgbase = cinematic-git
+	pkgdesc = Gorgeous desktop movie collections.
+	pkgver = 3.2.1.r83.g2130c97
+	pkgrel = 1
+	url = http://gh.lacymorrow.com/cinematic/
+	arch = any
+	license = CC-BY-NC-SA-4.0
+	makedepends = gendesk
+	makedepends = git
+	makedepends = nvm
+	makedepends = npm
+	makedepends = curl
+	makedepends = pnpm
+	makedepends = jq
+	depends = electron40
+	provides = cinematic=3.2.1
+	conflicts = cinematic
+	source = cinematic.git::git+https://github.com/lacymorrow/cinematic.git
+	source = cinematic.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = cinematic-git
