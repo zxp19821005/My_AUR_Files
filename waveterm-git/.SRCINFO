@@ -1,0 +1,29 @@
+pkgbase = waveterm-git
+	pkgdesc = An open-source, cross-platform terminal for seamless workflows.
+	pkgver = 0.14.5.r42.ga4447c1
+	pkgrel = 1
+	url = https://www.waveterm.dev/
+	arch = any
+	license = Apache-2.0
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = git
+	makedepends = go
+	makedepends = ruby
+	makedepends = cmake
+	makedepends = zip
+	makedepends = nvm
+	makedepends = curl
+	makedepends = zig
+	makedepends = libarchive
+	makedepends = openjpeg2
+	makedepends = jq
+	depends = electron41
+	provides = waveterm=0.14.5.r42.ga4447c1
+	conflicts = waveterm
+	source = waveterm.git::git+https://github.com/wavetermdev/waveterm.git
+	source = waveterm.sh
+	sha256sums = SKIP
+	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
+
+pkgname = waveterm-git
