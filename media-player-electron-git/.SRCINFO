@@ -1,0 +1,22 @@
+pkgbase = media-player-electron-git
+	pkgdesc = An open source player that has support for all media suported by chrome.
+	pkgver = 0.0.2.alpha.r35.g9f8f715
+	pkgrel = 1
+	url = https://github.com/cesar-al-dev/media-player-electron
+	arch = any
+	license = MIT
+	makedepends = bun
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = jq
+	depends = electron39
+	provides = media-player-electron=0.0.2.alpha
+	conflicts = media-player-electron
+	source = media-player-electron.git::git+https://github.com/cesar-al-dev/media-player-electron.git
+	source = media-player-electron.sh
+	sha256sums = SKIP
+	sha256sums = 5ec6b59a287204cbcbac040071f19d88897a0cb3156e794e6f05847cf5449a9e
+
+pkgname = media-player-electron-git

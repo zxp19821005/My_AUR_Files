@@ -1,0 +1,16 @@
+pkgbase = encryptednotepad2-git
+	pkgdesc = A Notepad-like simple text editor where files are saved (and later loaded) encrypted with AES-256.
+	pkgver = r98.abbe248
+	pkgrel = 1
+	url = https://github.com/ivoras/EncryptedNotepad2
+	arch = any
+	license = GPL-3.0-only
+	makedepends = git
+	makedepends = go>=1.22
+	makedepends = gendesk
+	provides = encryptednotepad2=r98.abbe248
+	conflicts = encryptednotepad2
+	source = encryptednotepad2.git::git+https://github.com/ivoras/EncryptedNotepad2.git
+	sha256sums = SKIP
+
+pkgname = encryptednotepad2-git
