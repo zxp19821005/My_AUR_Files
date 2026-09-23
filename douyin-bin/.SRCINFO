@@ -1,22 +1,22 @@
 pkgbase = douyin-bin
-	pkgdesc = Third-party Linux client for Douyin.(Prebuilt version.Use system-wide electron)第三方抖音 Linux 客户端
-	pkgver = 8.3.0
+	pkgdesc = Third-party Linux client for Douyin.第三方抖音 Linux 客户端
+	pkgver = 8.7.0
 	pkgrel = 1
 	url = https://www.douyin.com
 	arch = aarch64
 	arch = x86_64
 	license = LicenseRef-douyin
-	depends = electron42
+	depends = electron39
 	depends = nodejs
-	provides = douyin=8.3.0
+	provides = douyin=8.7.0
 	conflicts = douyin
-	source = LICENSE-8.3.0.html::https://www.douyin.com/draft/douyin_agreement/douyin_agreement_user.html?id=6773906068725565448
+	source = LICENSE.html::https://www.douyin.com/draft/douyin_agreement/douyin_agreement_privacy.html
 	source = douyin.sh
-	sha256sums = 12e8d0a130a2dae1d6f52c9bc18c4ea572ae1366c21b083936310b780b9cf2c7
-	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
-	source_aarch64 = douyin-8.3.0-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/douyin8.3.0/com.douyin.otohime_8.3.0_arm64.deb
-	sha256sums_aarch64 = ec570a8f0e4834c1e0f711d21de25ab27370928f39fd83b961118e491626cd06
-	source_x86_64 = douyin-8.3.0-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/douyin8.3.0/com.douyin.otohime_8.3.0_amd64.deb
-	sha256sums_x86_64 = 72102b6882c6bb81b7732618576ea42f13cabb41354126671e319f379aa4a406
+	sha256sums = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+	sha256sums = 5ec6b59a287204cbcbac040071f19d88897a0cb3156e794e6f05847cf5449a9e
+	source_aarch64 = douyin-8.7.0-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/douyin8.7.0/com.douyin.otohime_8.7.0_arm64.deb
+	sha256sums_aarch64 = b258044d6d70396feb3c4c3a2f15e6535e63a8bf7de2e7e1c025509f73113e05
+	source_x86_64 = douyin-8.7.0-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/douyin8.7.0/com.douyin.otohime_8.7.0_amd64.deb
+	sha256sums_x86_64 = d76a7ade09213fac9d7d5b2d1ce9109ba5b66a7f96b12ad9cd4c4d45ae4906dd
 
 pkgname = douyin-bin
