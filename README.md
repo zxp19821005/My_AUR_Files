@@ -1147,6 +1147,7 @@
 |**pupu**|[pupu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pupu-bin)<br>[pupu-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pupu-git)|[pupu-bin](https://aur.archlinux.org/packages/pupu-bin)<br>[pupu-git](https://aur.archlinux.org/packages/pupu-git)||
 |**pure-studio**|[pure-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pure-studio-git)|[pure-studio-git](https://aur.archlinux.org/packages/pure-studio-git)||
 |**qcalc**|[qcalc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qcalc-bin)|[qcalc-bin](https://aur.archlinux.org/packages/qcalc-bin)||
+|**qianwen**|[qianwen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianwen-bin)|[qianwen-bin](https://aur.archlinux.org/packages/qianwen-bin)||
 |**qianxin-browser-stable**|[qianxin-browser-stable](https://github.com/zxp19821005/My_AUR_Files/tree/main/qianxin-browser-stable)|[qianxin-browser-stable](https://aur.archlinux.org/packages/qianxin-browser-stable)||
 |**qmplay2**|[qmplay2-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmplay2-appimage)|[qmplay2-appimage](https://aur.archlinux.org/packages/qmplay2-appimage)||
 |**qmusicplayer**|[qmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qmusicplayer-bin)|[qmusicplayer-bin](https://aur.archlinux.org/packages/qmusicplayer-bin)||
