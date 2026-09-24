@@ -1,0 +1,25 @@
+pkgbase = keeweb-git
+	pkgdesc = Free cross-platform password manager compatible with KeePass.
+	pkgver = 1.18.9.r1.gad7891d
+	pkgrel = 1
+	url = https://keeweb.info/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = jq
+	depends = electron13
+	depends = libsecret
+	depends = libusb
+	provides = keeweb=1.18.9
+	conflicts = keeweb
+	conflicts = keeweb-web
+	conflicts = keeweb-devel
+	conflicts = keeweb-desktop
+	source = keeweb.git::git+https://github.com/keeweb/keeweb.git
+	source = keeweb.sh
+	sha256sums = SKIP
+	sha256sums = 5ec6b59a287204cbcbac040071f19d88897a0cb3156e794e6f05847cf5449a9e
+
+pkgname = keeweb-git
