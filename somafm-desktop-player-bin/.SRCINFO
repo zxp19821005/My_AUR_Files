@@ -1,0 +1,21 @@
+pkgbase = somafm-desktop-player-bin
+	pkgdesc = A small desktop player for SomaFM radio, built with Tauri and React.
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://alechko.github.io/somafm-desktop-player/
+	arch = x86_64
+	license = MIT
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	depends = libayatana-indicator
+	depends = libappindicator
+	depends = alsa-lib
+	provides = somafm-desktop-player=0.1.2
+	conflicts = somafm-desktop-player
+	source = somafm-desktop-player-0.1.2.rpm::https://github.com/alechko/somafm-desktop-player/releases/download/v0.1.2/SomaFM.Desktop.Player-0.1.2-1.x86_64.rpm
+	source = LICENSE-0.1.2::https://raw.githubusercontent.com/alechko/somafm-desktop-player/v0.1.2/LICENSE.md
+	sha256sums = c465a102304e30d01d25ec5830a1b27497857f03fe9463f5cc3cfcfaa8235693
+	sha256sums = 5e404eae8a20b20c3e2ab7e0a08d04012d2cf8d5bf266849a22d7aa810409381
+
+pkgname = somafm-desktop-player-bin
