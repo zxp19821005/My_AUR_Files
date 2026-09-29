@@ -1,0 +1,21 @@
+pkgbase = fumble-git
+	pkgdesc = Bumble but for your images. Interactively delete images.
+	pkgver = 0.2.6.r0.ge10a8b8
+	pkgrel = 1
+	url = https://bonniesimon.github.io/fumble/
+	arch = any
+	license = Zlib
+	makedepends = nvm
+	makedepends = git
+	makedepends = jq
+	makedepends = gendesk
+	makedepends = yarn
+	depends = electron31
+	provides = fumble=0.2.6
+	conflicts = fumble
+	source = fumble.git::git+https://github.com/bonniesimon/fumble.git
+	source = fumble.sh
+	sha256sums = SKIP
+	sha256sums = bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc
+
+pkgname = fumble-git
