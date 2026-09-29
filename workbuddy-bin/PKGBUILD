@@ -2,7 +2,7 @@
 pkgname=workbuddy-bin
 _pkgname=WorkBuddy
 _debname="cn.${pkgname%-bin}.otohime"
-pkgver=5.5.4
+pkgver=5.5.6
 _electronversion=39
 pkgrel=1
 pkgdesc="Work Smart，Not Hard"
@@ -33,9 +33,9 @@ options=(
 source=("${pkgname%-bin}.sh")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_amd64.deb")
-sha256sums=('a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
-sha256sums_aarch64=('d726f4f0662a0794acec2fa766900cdb23b87c9535c1a7bf47e385c0aef67646')
-sha256sums_x86_64=('273e5903b1c52a681810e26b580780aa6b0dc521f822f761105351058ec2e683')
+sha256sums=('bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc')
+sha256sums_aarch64=('644f12302f64035e1ac57a4ea9b8033a683a87a774a3e5fdd20c91413ac1e70e')
+sha256sums_x86_64=('1decff1c164eb3b9bd3ca33e1750ad10ccdeeeb1de17ba934315c5b41481a024')
 _get_app_dir() {
     find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
@@ -62,29 +62,31 @@ prepare() {
         s/Exec=\/opt\/apps\/${_debname}\/files\/${pkgname%-bin}/Exec=${pkgname%-bin}/g
         s/Icon=\/opt\/apps\/${_debname}\/files\/resources\/${_pkgname}.png/Icon=${pkgname%-bin}/g
     " "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop"
-    local _app_dir=$(_get_app_dir)
+    local _app_dir="$(_get_app_dir)"
     rm -rf \
         "${_app_dir}/resources/elevate.exe" \
         "${_app_dir}/resources/app.asar.unpacked/node_modules/node-pty/prebuilds/"{darwin-*,win32-*}
     asar e "${_app_dir}/resources/app.asar" "${srcdir}/app.asar.unpacked" || true
-    rm -rf "${_app_dir}/resources/app.asar"
-    rm -rf \
-        "${srcdir}/app.asar.unpacked/cli/node_modules/@lydell/"{*darwin*,*win32*} \
-        "${srcdir}/app.asar.unpacked/cli/vendor/ripgrep/"{*-darwin,*-win32} \
-        "${srcdir}/app.asar.unpacked/node_modules/@lydell/"{*darwin*,*win32*}
     find "${srcdir}/app.asar.unpacked" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname}\'/g" {} +
     find "${srcdir}/app.asar.unpacked" -type f -name "*.js" -exec sed -i "s|/usr/lib/workbuddy-bin|/usr/lib/${pkgname%-bin}|g" {} +
+    find "${_app_dir}/resources" -type d -exec chmod 755 {} +
+	case "${CARCH}" in
+		aarch64)	_archrem=x64	;;
+		x86_64)		_archrem=arm	;;
+	esac
+	find "${srcdir}" -type d \
+		\( -name "darwin*" -o -name "win32*" -o -name "*${_archrem}"* \) \
+		-exec rm -rf {} +
     asar p "${srcdir}/app.asar.unpacked" "${_app_dir}/resources/app.asar"
 }
 package() {
     install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
     install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    local _app_dir=$(_get_app_dir)
+    local _app_dir="$(_get_app_dir)"
     cp -a "${_app_dir}/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
     install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256)
-    for _icons in "${icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png"
-    done
+    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*entries/icons/*" | while read -r _i; do
+		_icon_path="${_i#*entries/icons/}"
+		install -Dm644 "${_i}" "${pkgdir}/usr/share/icons/${_icon_path}"
+	done
 }

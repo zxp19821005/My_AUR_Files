@@ -1,6 +1,6 @@
 pkgbase = workbuddy-bin
 	pkgdesc = Work Smart，Not Hard
-	pkgver = 5.5.4
+	pkgver = 5.5.6
 	pkgrel = 1
 	url = https://www.workbuddy.cn/
 	arch = aarch64
@@ -15,15 +15,15 @@ pkgbase = workbuddy-bin
 	depends = python-numpy
 	depends = python-beautifulsoup4
 	depends = python-pillow
-	provides = workbuddy=5.5.4
+	provides = workbuddy=5.5.6
 	conflicts = workbuddy
 	options = !strip
 	options = !emptydirs
 	source = workbuddy.sh
-	sha256sums = a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d
-	source_aarch64 = workbuddy-5.5.4-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.4/cn.workbuddy.otohime_5.5.4_arm64.deb
-	sha256sums_aarch64 = d726f4f0662a0794acec2fa766900cdb23b87c9535c1a7bf47e385c0aef67646
-	source_x86_64 = workbuddy-5.5.4-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.4/cn.workbuddy.otohime_5.5.4_amd64.deb
-	sha256sums_x86_64 = 273e5903b1c52a681810e26b580780aa6b0dc521f822f761105351058ec2e683
+	sha256sums = bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc
+	source_aarch64 = workbuddy-5.5.6-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.6/cn.workbuddy.otohime_5.5.6_arm64.deb
+	sha256sums_aarch64 = 644f12302f64035e1ac57a4ea9b8033a683a87a774a3e5fdd20c91413ac1e70e
+	source_x86_64 = workbuddy-5.5.6-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.6/cn.workbuddy.otohime_5.5.6_amd64.deb
+	sha256sums_x86_64 = 1decff1c164eb3b9bd3ca33e1750ad10ccdeeeb1de17ba934315c5b41481a024
 
 pkgname = workbuddy-bin
