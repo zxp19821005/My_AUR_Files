@@ -1,0 +1,21 @@
+pkgbase = saberfy
+	pkgdesc = Search and import tracks from BeatSaver into Beat Saber — with Spotify integration.
+	pkgver = 2.1.0
+	pkgrel = 10
+	url = https://github.com/LoliE1ON/Saberfy
+	arch = any
+	license = MIT
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = nvm
+	makedepends = jq
+	makedepends = git
+	depends = electron16-bin
+	provides = saberfy
+	conflicts = saberfy
+	source = saberfy-2.1.0::git+https://github.com/LoliE1ON/Saberfy#tag=v2.1.0
+	source = saberfy.sh
+	sha256sums = 77fc637e2f73738b3be9104adc38c0ff27ef2e46cd424f2f638fb012318cb525
+	sha256sums = bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc
+
+pkgname = saberfy

@@ -58,7 +58,6 @@
 |**aliyun-cli**|[aliyun-cli-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aliyun-cli-bin)|[aliyun-cli-bin](https://aur.archlinux.org/packages/aliyun-cli-bin)||
 |**aliyunpan-go**|[aliyunpan-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aliyunpan-go-bin)|[aliyunpan-go-bin](https://aur.archlinux.org/packages/aliyunpan-go-bin)||
 |**alpaca-electron**|[alpaca-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-bin) <br> [alpaca-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpaca-electron-git)|[alpaca-electron-bin](https://aur.archlinux.org/packages/alpaca-electron-bin) <br> [alpaca-electron-git](https://aur.archlinux.org/packages/alpaca-electron-git)||
-|**alpha-badger**|[alpha-badger](https://github.com/zxp19821005/My_AUR_Files/tree/main/alpha-badger)|[alpha-badger](https://aur.archlinux.org/packages/alpha-badger)||
 |**alphabiz**|[alphabiz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/alphabiz-bin)|[alphabiz-bin](https://aur.archlinux.org/packages/alphabiz-bin)||
 |**altair**|[altair-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altair-bin)|[altair-bin](https://aur.archlinux.org/packages/altair-bin)||
 |**altarik-launcher**|[altarik-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/altarik-launcher-bin)|[altarik-launcher-bin](https://aur.archlinux.org/packages/altarik-launcher-bin)||
