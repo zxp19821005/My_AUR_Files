@@ -1144,6 +1144,7 @@
 |**proxypin**|[proxypin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/proxypin-bin)|[proxypin-bin](https://aur.archlinux.org/packages/proxypin-bin)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin) <br> [publii-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-git)|[publii-bin](https://aur.archlinux.org/packages/publii-bin) <br> [publii-git](https://aur.archlinux.org/packages/publii-git)||
+|**pulsar**|[pulsar-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulsar-git)|[pulsar-git](https://aur.archlinux.org/packages/pulsar-git)||
 |**pulse-browser**|[pulse-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulse-browser-git)|[pulse-browser-git](https://aur.archlinux.org/packages/pulse-browser-git)||
 |**pupu**|[pupu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pupu-bin)<br>[pupu-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pupu-git)|[pupu-bin](https://aur.archlinux.org/packages/pupu-bin)<br>[pupu-git](https://aur.archlinux.org/packages/pupu-git)||
 |**pure-studio**|[pure-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pure-studio-git)|[pure-studio-git](https://aur.archlinux.org/packages/pure-studio-git)||
