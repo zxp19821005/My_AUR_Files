@@ -1,0 +1,22 @@
+pkgbase = jscast-git
+	pkgdesc = Screen recorder with some options like adding your webcam in a square, or a circle, that you can move around.
+	pkgver = 1.6.0.r12.gdc9616a
+	pkgrel = 1
+	url = https://github.com/jhedev96/jscast-app
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = jq
+	makedepends = gendesk
+	makedepends = zip
+	depends = electron11-bin
+	options = !strip
+	options = !emptydirs
+	source = jscast.git::git+https://github.com/jhedev96/jscast-app.git
+	source = jscast.sh
+	sha256sums = SKIP
+	sha256sums = bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc
+
+pkgname = jscast-git
