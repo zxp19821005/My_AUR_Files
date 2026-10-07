@@ -118,6 +118,7 @@
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
 |**baidunetdisk-electron**|[baidunetdisk-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidunetdisk-electron-bin)||自用版|
 |**baidu-translate-client**|[baidu-translate-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-client-bin)|自用版||
+|**baidu-translate-company**|[baidu-translate-company-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-company-bin)|[baidu-translate-company-bin](https://aur.archlinux.org/packages/baidu-translate-company-bin)||
 |**baiduwenku**|[baiduwenku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baiduwenku-bin)|[baiduwenku-bin](https://aur.archlinux.org/packages/baiduwenku-bin)||
 |**baize-toolbox**|[baize-toolbox-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/baize-toolbox-git)|[baize-toolbox-git](https://aur.archlinux.org/packages/baize-toolbox-git)||
 |**bananas**|[bananas-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bananas-bin)<br>[bananas-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bananas-git)|[bananas-bin](https://aur.archlinux.org/packages/bananas-bin)<br>[bananas-git](https://aur.archlinux.org/packages/bananas-git)||
