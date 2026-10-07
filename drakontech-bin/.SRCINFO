@@ -1,0 +1,17 @@
+pkgbase = drakontech-bin
+	pkgdesc = A flowchart editor that generates source code in Clojure, JavaScript, Lua, Perfolenta, and OneScript.
+	pkgver = 2026.10.03
+	pkgrel = 1
+	url = https://github.com/stepan-mitkin/drakon.tech.desktop
+	arch = x86_64
+	license = Unlicense
+	depends = electron32
+	provides = drakontech=2026.10.03
+	conflicts = drakontech
+	options = !emptydirs
+	source = drakontech-2026.10.03.rpm::https://github.com/stepan-mitkin/drakon.tech.desktop/releases/download/v2026.10.3/drakontech-2026.10.03-1.x86_64.rpm
+	source = drakontech.sh
+	sha256sums = cfe5350421b13e646742fe4cb9f77dd5406b2588650ee0800eaf49aef3667251
+	sha256sums = bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc
+
+pkgname = drakontech-bin
