@@ -1,0 +1,18 @@
+pkgbase = rst2gemtext
+	pkgdesc = Converts reStructuredText to Gemtext (Gemini markup format).
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/flozz/rst2gemtext
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-flit-core
+	makedepends = python-wheel
+	depends = python>=3.10
+	depends = python-docutils
+	depends = python-pygments
+	source = rst2gemtext-0.7.1::https://github.com/flozz/rst2gemtext/archive/refs/tags/v0.7.1.tar.gz
+	sha256sums = e8ddf14fc5282716728d2e4f50bd472775676d28613786f0695a60f2bf092165
+
+pkgname = rst2gemtext
