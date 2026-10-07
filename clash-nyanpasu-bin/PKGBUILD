@@ -1,38 +1,54 @@
 pkgname=clash-nyanpasu-bin
-pkgver=1.6.1
+_pkgname=Clash.Nyanpasu
+_mainver=2.0.0
+_subver=beta.2
+pkgver="${_mainver}${_subver}"
 pkgrel=99
 pkgdesc="A Clash GUI based on tauri. Clash Nyanpasu! (∠・ω< )⌒☆​"
-arch=('x86_64')
-url="https://nyanpasu.elaina.moe/"
-_ghurl="https://github.com/LibNyanpasu/clash-nyanpasu"
+arch=(
+    'aarch64'
+    'x86_64'
+)
+url="https://nyanpasu.org/"
+_ghurl="https://github.com/libnyanpasu/clash-nyanpasu"
 license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'webkit2gtk'
+    'webkit2gtk-4.1'
     'gtk3'
     'mihomo'
+    'clash-rs'
+    'libayatana-appindicator'
 )
 optdepends=(
     'clash: A rule based proxy in Go'
-    'clash-rs: custom protocol network proxy, coding with rust'
 )
 options=(
     '!strip'
 )
-source=("${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-1.${CARCH}.rpm")
-sha256sums=('4a9bb44238f6173d4d83402945659b5c64efd96c227e420b1528a4b2a70dea8a')
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${_mainver}-${_subver}/${_pkgname}-${_mainver}-0.${_subver}.aarch64.rpm")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${_mainver}-${_subver}/${_pkgname}-${_mainver}-0.${_subver}.x86_64.rpm")
+sha256sums_aarch64=('94d60dcb4ffaa7b4c141965d22dcfc4f43726f29717c6042fcb0fe2a2f072b63')
+sha256sums_x86_64=('e6e027700309247562336e39df04fec8661db99a50e38afcd9bfc86da89215ce')
 prepare() {
-    rm -rf "${srcdir}/usr/bin/"{clash,clash-rs,mihomo,mihomo-alpha}
-    sed -i "s/Development/Network/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+    sed -i -e "
+        s/Development/Network/g
+        s/Exec=\"${_pkgname//./ }\"/Exec=${pkgname%-bin}/g
+        s/Icon=${_pkgname//./ }/Icon=${pkgname%-bin}/g
+    " "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
+    mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
+    rm -rf "${srcdir}/usr/bin/"{mihomo,clash-rs}
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-    cp -Pr --no-preserve=ownership "${srcdir}/usr/lib" "${pkgdir}/usr"
-    _icon_sizes=(32x32 128x128 256x256@2)
-    for _icons in "${_icon_sizes[@]}";do
-    install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
-        -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
-    done
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+    mv "${pkgdir}/usr/bin/${_pkgname//./ }" "${pkgdir}/usr/bin/${pkgname%-bin}"
+    cp -a "${srcdir}/usr/lib" "${pkgdir}/usr"
+    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
+		_extension="${_i##*.}"
+		_icon_path="${_i#*share/icons/}"
+		_target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
+		install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
+	done
+    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
