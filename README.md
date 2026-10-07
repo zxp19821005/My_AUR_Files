@@ -1223,6 +1223,7 @@
 |**rotion**|[rotion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotion-bin)|[rotion-bin](https://aur.archlinux.org/packages/rotion-bin)||
 |**rotore**|[rotore-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/rotore-git)|[rotore-git](https://aur.archlinux.org/packages/rotore-git)||
 |**round-drop**|[round-drop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/round-drop-git)|[round-drop-git](https://aur.archlinux.org/packages/round-drop-git)||
+|**rowel**|[rowel-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rowel-bin)|[rowel-bin](https://aur.archlinux.org/packages/rowel-bin)||
 |**rst2gemtext**|[rst2gemtext](https://github.com/zxp19821005/My_AUR_Files/tree/main/rst2gemtext)|[rst2gemtext](https://aur.archlinux.org/packages/rst2gemtext)||
 |**rubick**|[rubick](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick) <br> [rubick-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rubick-bin)|[rubick](https://aur.archlinux.org/packages/rubick) <br> [rubick-bin](https://aur.archlinux.org/packages/rubick-bin)||
 |**runjs-electron**|[runjs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/runjs-electron-bin)|[runjs-electron-bin](https://aur.archlinux.org/packages/runjs-electron-bin)||
