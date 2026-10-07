@@ -1325,6 +1325,7 @@
 |**spool**|[spool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spool-bin)|[spool-bin](https://aur.archlinux.org/packages/spool-bin)||
 |**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
 |**spotify-electron**|[spotify-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotify-electron-bin)|[spotify-electron-bin](https://aur.archlinux.org/packages/spotify-electron-bin)||
+|**sputnik**|[sputnik-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sputnik-bin)|[sputnik-bin](https://aur.archlinux.org/packages/sputnik-bin)||
 |**spx-translation**|[spx-translation](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation) <br> [spx-translation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spx-translation-bin)|[spx-translation](https://aur.archlinux.org/packages/spx-translation) <br> [spx-translation-bin](https://aur.archlinux.org/packages/spx-translation-bin)||
 |**sqlark**|[sqlark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlark-bin)|[sqlark-bin](https://aur.archlinux.org/packages/sqlark-bin)||
 |**sqlectron-gui**|[sqlectron-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sqlectron-gui-bin)|[sqlectron-gui-bin](https://aur.archlinux.org/packages/sqlectron-gui-bin)||
