@@ -934,6 +934,7 @@
 |**neanes**|[neanes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neanes-bin)|[neanes-bin](https://aur.archlinux.org/packages/neanes-bin)||
 |**neoplayer**|[neoplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/neoplayer-bin)|[neoplayer-bin](https://aur.archlinux.org/packages/neoplayer-bin)||
 |**nerimity-desktop**|[nerimity-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop)<br>[nerimity-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nerimity-desktop-bin)|[nerimity-desktop](https://aur.archlinux.org/packages/nerimity-desktop)<br>[nerimity-desktop-bin](https://aur.archlinux.org/packages/nerimity-desktop-bin)||
+|**netcatty**|[netcatty](https://github.com/zxp19821005/My_AUR_Files/tree/main/netcatty)|[netcatty](https://aur.archlinux.org/packages/netcatty)||
 |**netease-cloud-music-gtk**|[netease-cloud-music-gtk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netease-cloud-music-gtk-bin)|[netease-cloud-music-gtk-bin](https://aur.archlinux.org/packages/netease-cloud-music-gtk-bin)||
 |**netmount**|[netmount-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netmount-bin)|[netmount-bin](https://aur.archlinux.org/packages/netmount-bin)||
 |**netpad**|[netpad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/netpad-bin)|[netpad-bin](https://aur.archlinux.org/packages/netpad-bin)||
