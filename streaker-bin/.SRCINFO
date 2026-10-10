@@ -1,0 +1,18 @@
+pkgbase = streaker-bin
+	pkgdesc = 🔥 GitHub contribution streak & stat tracking menu bar app.
+	pkgver = 2.6.4
+	pkgrel = 1
+	url = https://github.com/jamieweavis/streaker
+	arch = x86_64
+	license = MIT
+	makedepends = asar
+	depends = electron44
+	provides = streaker=2.6.4
+	conflicts = streaker
+	options = !emptydirs
+	source = streaker-2.6.4.rpm::https://github.com/jamieweavis/streaker/releases/download/v2.6.4/streaker-2.6.4-1.x86_64.rpm
+	source = streaker.sh
+	sha256sums = 1504d2a06944e643767f4af3c5efc4829beab35d84b15710347ccf636b342aa9
+	sha256sums = cebedc3391cbab6d43f37fbf3a87ddaad16597cb5ea487a4d55b1f478d810082
+
+pkgname = streaker-bin
