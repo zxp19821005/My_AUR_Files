@@ -162,7 +162,6 @@
 |**borg-explorer**|[borg-explorer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/borg-explorer-bin)|[borg-explorer-bin](https://aur.archlinux.org/packages/borg-explorer-bin)||
 |**boson**|[boson-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/boson-git)|[boson-git](https://aur.archlinux.org/packages/boson-git)||
 |**bot.dev**|[bot.dev](https://github.com/zxp19821005/My_AUR_Files/tree/main/bot.dev)|[bot.dev](https://aur.archlinux.org/packages/bot.dev)||
-|**botclient**|[botclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botclient-bin)|[botclient-bin](https://aur.archlinux.org/packages/botclient-bin)||
 |**botgem**|[botgem-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/botgem-bin)|[botgem-bin](https://aur.archlinux.org/packages/botgem-bin)||
 |**boxplayer**|[boxplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/boxplayer-bin)|[boxplayer-bin](https://aur.archlinux.org/packages/boxplayer-bin)||
 |**bradtunes**|[bradtunes-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/bradtunes-git)|[bradtunes-git](https://aur.archlinux.org/packages/bradtunes-git)||
@@ -225,7 +224,6 @@
 |**clash-nyanpasu**|[clash-nyanpasu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-nyanpasu-bin)|自用版|
 |**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
 |**clash-party**|[clash-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-party-bin)|[clash-party-bin](https://aur.archlinux.org/packages/clash-party-bin)||
-|**claude-linux-client**|[claude-linux-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/claude-linux-client-bin)|[claude-linux-client-bin](https://aur.archlinux.org/packages/claude-linux-client-bin)||
 |**clawd-on-desk**|[clawd-on-desk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawd-on-desk-bin)|[clawd-on-desk-bin](https://aur.archlinux.org/packages/clawd-on-desk-bin)||
 |**clawx**|[clawx](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawx)|[clawx](https://aur.archlinux.org/packages/clawx)||
 |**clip-editor**|[clip-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clip-editor-bin)|[clip-editor-bin](https://aur.archlinux.org/packages/clip-editor-bin)||
@@ -574,7 +572,6 @@
 |**fylepad**|[fylepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fylepad-bin)|[fylepad-bin](https://aur.archlinux.org/packages/fylepad-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**gameclock**|[gameclock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-bin) <br> [gameclock-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-git)|[gameclock-bin](https://aur.archlinux.org/packages/gameclock-bin) <br> [gameclock-git](https://aur.archlinux.org/packages/gameclock-git)||
-|**gatha**|[gatha-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gatha-bin)|[gatha-bin](https://aur.archlinux.org/packages/gatha-bin)||
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
@@ -1025,7 +1022,6 @@
 |**outdated-snake**|[outdated-snake-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/outdated-snake-git)|[outdated-snake-git](https://aur.archlinux.org/packages/outdated-snake-git)||
 |**outerbase-studio-desktop**|[outerbase-studio-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/outerbase-studio-desktop-bin)|[outerbase-studio-desktop-bin](https://aur.archlinux.org/packages/outerbase-studio-desktop-bin)||
 |**out-of-mind**|[out-of-mind-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/out-of-mind-git)|[out-of-mind-git](https://aur.archlinux.org/packages/out-of-mind-git)||
-|**o-vault**|[o-vault-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/o-vault-bin)|[o-vault-bin](https://aur.archlinux.org/packages/o-vault-bin)||
 |**overlay-spirit**|[overlay-spirit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/overlay-spirit-git)|[overlay-spirit-git](https://aur.archlinux.org/packages/overlay-spirit-git)||
 |**overvue**|[overvue-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/overvue-git)|[overvue-git](https://aur.archlinux.org/packages/overvue-git)||
 |**owa-desktop**|[owa-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/owa-desktop-bin)|[owa-desktop-bin](https://aur.archlinux.org/packages/owa-desktop-bin)||
