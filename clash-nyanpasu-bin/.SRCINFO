@@ -1,6 +1,6 @@
 pkgbase = clash-nyanpasu-bin
 	pkgdesc = A Clash GUI based on tauri. Clash Nyanpasu! (∠・ω< )⌒☆​
-	pkgver = 2.0.0beta.2
+	pkgver = 2.0.0rc.1
 	pkgrel = 99
 	url = https://nyanpasu.org/
 	arch = aarch64
@@ -12,12 +12,12 @@ pkgbase = clash-nyanpasu-bin
 	depends = clash-rs
 	depends = libayatana-appindicator
 	optdepends = clash: A rule based proxy in Go
-	provides = clash-nyanpasu=2.0.0beta.2
+	provides = clash-nyanpasu=2.0.0rc.1
 	conflicts = clash-nyanpasu
 	options = !strip
-	source_aarch64 = clash-nyanpasu-2.0.0beta.2-aarch64.rpm::https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.0-beta.2/Clash.Nyanpasu-2.0.0-0.beta.2.aarch64.rpm
-	sha256sums_aarch64 = 94d60dcb4ffaa7b4c141965d22dcfc4f43726f29717c6042fcb0fe2a2f072b63
-	source_x86_64 = clash-nyanpasu-2.0.0beta.2-x86_64.rpm::https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.0-beta.2/Clash.Nyanpasu-2.0.0-0.beta.2.x86_64.rpm
-	sha256sums_x86_64 = e6e027700309247562336e39df04fec8661db99a50e38afcd9bfc86da89215ce
+	source_aarch64 = clash-nyanpasu-2.0.0rc.1-aarch64.rpm::https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.0-rc.1/Clash.Nyanpasu-2.0.0-0.rc.1.aarch64.rpm
+	sha256sums_aarch64 = c1dcfed1987f340ebe9745ff1a7999ff9def6559d8df10b5eb428afc38d1fa95
+	source_x86_64 = clash-nyanpasu-2.0.0rc.1-x86_64.rpm::https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.0-rc.1/Clash.Nyanpasu-2.0.0-0.rc.1.x86_64.rpm
+	sha256sums_x86_64 = 7654c1d728007f2d7b0938e3469c785c8e39880f67d2ffb458d20b7e5215ea00
 
 pkgname = clash-nyanpasu-bin

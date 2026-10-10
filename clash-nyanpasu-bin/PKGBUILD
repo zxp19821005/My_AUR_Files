@@ -1,7 +1,7 @@
 pkgname=clash-nyanpasu-bin
 _pkgname=Clash.Nyanpasu
 _mainver=2.0.0
-_subver=beta.2
+_subver=rc.1
 pkgver="${_mainver}${_subver}"
 pkgrel=99
 pkgdesc="A Clash GUI based on tauri. Clash Nyanpasu! (∠・ω< )⌒☆​"
@@ -29,8 +29,8 @@ options=(
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${_mainver}-${_subver}/${_pkgname}-${_mainver}-0.${_subver}.aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${_mainver}-${_subver}/${_pkgname}-${_mainver}-0.${_subver}.x86_64.rpm")
-sha256sums_aarch64=('94d60dcb4ffaa7b4c141965d22dcfc4f43726f29717c6042fcb0fe2a2f072b63')
-sha256sums_x86_64=('e6e027700309247562336e39df04fec8661db99a50e38afcd9bfc86da89215ce')
+sha256sums_aarch64=('c1dcfed1987f340ebe9745ff1a7999ff9def6559d8df10b5eb428afc38d1fa95')
+sha256sums_x86_64=('7654c1d728007f2d7b0938e3469c785c8e39880f67d2ffb458d20b7e5215ea00')
 prepare() {
     sed -i -e "
         s/Development/Network/g
