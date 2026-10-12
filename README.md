@@ -27,7 +27,7 @@
 |**aingdesk**|[aingdesk](https://github.com/zxp19821005/My_AUR_Files/tree/main/aingdesk)<br>[aingdesk-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aingdesk-git)|[aingdesk](https://aur.archlinux.org/packages/aingdesk)<br>[aingdesk-git](https://aur.archlinux.org/packages/aingdesk-git)||
 |**aioncore**|[aioncore-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aioncore-bin)|[aioncore-bin](https://aur.archlinux.org/packages/aioncore-bin)||
 |**aione**|[aione](https://github.com/zxp19821005/My_AUR_Files/tree/main/aione)<br>[aione-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aione-bin)|[aione](https://aur.archlinux.org/packages/aione)<br>[aione-bin](https://aur.archlinux.org/packages/aione-bin)||
-|**aionui**|[aionui](https://github.com/zxp19821005/My_AUR_Files/tree/main/aionui)|[aionui](https://aur.archlinux.org/packages/aionui)||
+|**aionui**|[aionui](https://github.com/zxp19821005/My_AUR_Files/tree/main/aionui)<br>[aionui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aionui-bin)|[aionui](https://aur.archlinux.org/packages/aionui)<br>[aionui-bin](https://aur.archlinux.org/packages/aionui-bin)||
 |**air-controller-desktop**|[air-controller-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/air-controller-desktop-bin)|[air-controller-desktop-bin](https://aur.archlinux.org/packages/air-controller-desktop-bin)||
 |**airdrop-tool**|[airdrop-tool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airdrop-tool-bin)|[airdrop-tool-bin](https://aur.archlinux.org/packages/airdrop-tool-bin)||
 |**airgorah**|[airgorah-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/airgorah-bin)|[airgorah-bin](https://aur.archlinux.org/packages/airgorah-bin)||
