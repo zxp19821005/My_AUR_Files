@@ -1,0 +1,21 @@
+pkgbase = tuff-bin
+	pkgdesc = The command bar, reimagined for those who build. Tuff is an open-source core for your OS, built on a sandboxed architecture with a local-first AI and a powerful TypeScript SDK.
+	pkgver = 2.4.14
+	pkgrel = 1
+	url = https://tuff.tagzxia.com/
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = asar
+	depends = electron41
+	depends = libxt
+	depends = nodejs
+	provides = tuff=2.4.14
+	conflicts = tuff
+	options = !emptydirs
+	options = !strip
+	source = tuff-2.4.14.deb::https://github.com/talex-touch/tuff/releases/download/v2.4.14/ubuntu-latest-release-tuff-2.4.14.deb
+	source = tuff.sh
+	sha256sums = 4d2c32468042a9cc5bb2105b8381f403e6fc31279b909a3e39ab41b627024afd
+	sha256sums = cebedc3391cbab6d43f37fbf3a87ddaad16597cb5ea487a4d55b1f478d810082
+
+pkgname = tuff-bin
