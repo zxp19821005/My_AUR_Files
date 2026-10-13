@@ -1,8 +1,9 @@
 pkgbase = zcode-bin
 	pkgdesc = ZCode - AI-powered code editor by ZAI
-	pkgver = 3.14.4
+	pkgver = 3.15.1
 	pkgrel = 1
 	url = https://zcode.z.ai/
+	arch = aarch64
 	arch = x86_64
 	license = LicenseRef-ZCode
 	makedepends = asar
@@ -18,11 +19,13 @@ pkgbase = zcode-bin
 	depends = ripgrep
 	depends = xdg-utils
 	options = !strip
-	source = zcode-3.14.4-x86_64.deb::https://cdn-zcode.z.ai/zcode/electron/releases/3.14.4/linux-x64/ZCode-3.14.4-linux-x64.deb
 	source = LICENSE
 	source = zcode.sh
-	sha256sums = d753618845e5e057c29ccbc3917c08a4c8d99355deef7d6a0f4d2916ba69e4be
 	sha256sums = 6f7a7821eec5ffc00c7e5c24ac0b917864d503253816c6546c723e84ed418919
-	sha256sums = bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc
+	sha256sums = cebedc3391cbab6d43f37fbf3a87ddaad16597cb5ea487a4d55b1f478d810082
+	source_aarch64 = zcode-3.15.1-aarch64.rpm::https://cdn-zcode.z.ai/zcode/electron/releases/3.15.1/linux-arm64/ZCode-3.15.1-linux-arm64.rpm
+	sha256sums_aarch64 = 6854c6d6f154fa8fa9b4f9c16f1ddc0510c024ef6d873eef3ef5a9f93d466e4d
+	source_x86_64 = zcode-3.15.1-x86_64.rpm::https://cdn-zcode.z.ai/zcode/electron/releases/3.15.1/linux-x64/ZCode-3.15.1-linux-x64.rpm
+	sha256sums_x86_64 = 652db0d09b99b8b7c0686261392f3aab9ba6bfde8fb9db0b45384593321a9257
 
 pkgname = zcode-bin
