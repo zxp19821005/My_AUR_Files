@@ -1,0 +1,19 @@
+pkgbase = elevate-git
+	pkgdesc = A sport app to 'Elevate' your training experience and goals! Track your fitness and progressions over time. Analyse deeper your activities. And more...
+	pkgver = 7.2.2.r3.gdf9e2ce
+	pkgrel = 1
+	url = https://thomaschampagne.github.io/elevate-docs/
+	arch = any
+	license = MPL-2.0
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = jq
+	depends = electron27-bin
+	source = elevate.git::git+https://github.com/thomaschampagne/elevate.git
+	source = elevate.sh
+	sha256sums = SKIP
+	sha256sums = dfcd6603d29c7b8d88e019b517a2e5c1a7b5ab905a0961a8b81adfa508b258b8
+
+pkgname = elevate-git

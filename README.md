@@ -178,6 +178,7 @@
 |**burrow**|[burrow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/burrow-bin)|[burrow-bin](https://aur.archlinux.org/packages/burrow-bin)||
 |**caesium-image-compressor**|[caesium-image-compressor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/caesium-image-compressor-bin)|[caesium-image-compressor-bin](https://aur.archlinux.org/packages/caesium-image-compressor-bin)||
 |**calendar**|[calendar-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calendar-bin)|[calendar-bin](https://aur.archlinux.org/packages/calendar-bin)||
+|**caligator**|[caligator-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caligator-git)|[caligator-git](https://aur.archlinux.org/packages/caligator-git)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**calt**|[calt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/calt-git)|[calt-git](https://aur.archlinux.org/packages/calt-git)||
 |**caprine**|[caprine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-bin)<br>[caprine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-git)|[caprine-bin](https://aur.archlinux.org/packages/caprine-bin)<br>[caprine-git](https://aur.archlinux.org/packages/caprine-git)||
@@ -219,6 +220,7 @@
 |**ciliterm**|[ciliterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ciliterm-bin)<br>[ciliterm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ciliterm-git)|[ciliterm-bin](https://aur.archlinux.org/packages/ciliterm-bin)<br>[ciliterm-git](https://aur.archlinux.org/packages/ciliterm-git)||
 |**cinematic**|[cinematic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cinematic-bin) <br> [cinematic-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cinematic-git)|[cinematic-bin](https://aur.archlinux.org/packages/cinematic-bin) <br> [cinematic-git](https://aur.archlinux.org/packages/cinematic-git)||
 |**circle-chain-desktop**|[circle-chain-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/circle-chain-desktop-git)|[circle-chain-desktop-git](https://aur.archlinux.org/packages/circle-chain-desktop-git)||
+|**citronote**|[citronote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/citronote-git)|[citronote-git](https://aur.archlinux.org/packages/citronote-git)||
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)||自用版|
 |**clash-nyanpasu**|[clash-nyanpasu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-nyanpasu-bin)|自用版|
@@ -279,7 +281,7 @@
 |**currency-converter**|[currency-converter-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/currency-converter-git)|[currency-converter-git](https://aur.archlinux.org/packages/currency-converter-git)||
 |**cursor-electron**|[cursor-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursor-electron-bin)||AUR未提交|
 |**cursorlens**|[cursorlens-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursorlens-bin)|[cursorlens-bin](https://aur.archlinux.org/packages/cursorlens-bin)||
-|**cuttletron**|[cuttletron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-bin)|[cuttletron-bin](https://aur.archlinux.org/packages/cuttletron-bin)||
+|**cuttletron**|[cuttletron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-bin)<br>[cuttletron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-git)|[cuttletron-bin](https://aur.archlinux.org/packages/cuttletron-bin)<br>[cuttletron-git](https://aur.archlinux.org/packages/cuttletron-git)||
 |**cuuri**|[cuuri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuuri-bin)|[cuuri-bin](https://aur.archlinux.org/packages/cuuri-bin)||
 |**cycode**|[cycode](https://github.com/zxp19821005/My_AUR_Files/tree/main/cycode)|[cycode](https://aur.archlinux.org/packages/cycode)||
 |**d0phamine-music-player**|[d0phamine-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/d0phamine-music-player-bin)|[d0phamine-music-player-bin](https://aur.archlinux.org/packages/d0phamine-music-player-bin)||
