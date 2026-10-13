@@ -850,6 +850,7 @@
 |**mdview**|[mdview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mdview-bin)|[mdview-bin](https://aur.archlinux.org/packages/mdview-bin)||
 |**mechakeys**|[mechakeys-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mechakeys-bin)|[mechakeys-bin](https://aur.archlinux.org/packages/mechakeys-bin)||
 |**mediachips**|[mediachips-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediachips-bin)|[mediachips-bin](https://aur.archlinux.org/packages/mediachips-bin)||
+|**media-compressor**|[media-compressor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-compressor-git)|[media-compressor-git](https://aur.archlinux.org/packages/media-compressor-git)|
 |**mediago**|[mediago-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediago-bin) <br> [mediago-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/mediago-git)|[mediago-bin](https://aur.archlinux.org/packages/mediago-bin) <br> [mediago-git](https://aur.archlinux.org/packages/mediago-git)||
 |**media-hoarder**|[media-hoarder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-hoarder-bin)|[media-hoarder-bin](https://aur.archlinux.org/packages/media-hoarder-bin)||
 |**media-player-electron**|[media-player-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/media-player-electron-git)|[media-player-electron-git](https://aur.archlinux.org/packages/media-player-electron-git)||
