@@ -1079,6 +1079,7 @@
 |**pickle-glass**|[pickle-glass-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pickle-glass-git)|[pickle-glass-git](https://aur.archlinux.org/packages/pickle-glass-git)||
 |**piclist**|[piclist-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/piclist-bin)|[piclist-bin](https://aur.archlinux.org/packages/piclist-bin)||
 |**picturama**|[picturama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/picturama-bin)|[picturama-bin](https://aur.archlinux.org/packages/picturama-bin)||
+|**pi-harness**|[pi-harness-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pi-harness-bin)|[pi-harness-bin](https://aur.archlinux.org/packages/pi-harness-bin)||
 |**pihead-gui**|[pihead-gui-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pihead-gui-git)|[pihead-gui-git](https://aur.archlinux.org/packages/pihead-gui-git)||
 |**pikatorrent**|[pikatorrent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pikatorrent-bin)|[pikatorrent-bin](https://aur.archlinux.org/packages/pikatorrent-bin)||
 |**pinac-workspace**|[pinac-workspace-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pinac-workspace-git)|[pinac-workspace-git](https://aur.archlinux.org/packages/pinac-workspace-git)||
