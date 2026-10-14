@@ -1,0 +1,21 @@
+pkgbase = silence-speedup-bin
+	pkgdesc = Shorten lectures, interviews and tutorials by speeding up or cutting the silences. Flutter desktop app with FFmpeg built in.
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://www.vincenzopadula.it/silence-speedup/
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = gendesk
+	depends = gtk3
+	depends = at-spi2-core
+	depends = libepoxy
+	provides = silence-speedup=3.0.0
+	conflicts = silence-speedup
+	options = !strip
+	options = !emptydirs
+	source = silence-speedup-3.0.0.tar.gz::https://github.com/padvincenzo/silence-speedup/releases/download/v3.0.0/silence-speedup-3.0.0-linux-x64.tar.gz
+	source = silence-speedup.sh
+	sha256sums = 6e134b04b8d3106a93abac00e8418739234567d73ead6ce8c711d914d4bc4b03
+	sha256sums = f003b130010311751a619cae8188af15f003369d71c59f7b34bbc26c98e615d5
+
+pkgname = silence-speedup-bin
