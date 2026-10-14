@@ -7,7 +7,7 @@ _projectname=electron
 _major=44
 _pkgname="${_projectname}${_major}"
 pkgname="${_pkgname}"-bin
-_subver='7.0'
+_subver='7.2'
 _pkgver="${_major}.${_subver}"
 pkgver="${_pkgver/-}"
 pkgrel=1
@@ -45,18 +45,18 @@ noextract=(
 )
 source=("${pkgname%-bin}.sh")
 source_aarch64=(
-    "${_pkgname}-chromedriver-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/chromedriver-v${_pkgver//_/-}-linux-arm64.zip"
-    "${_pkgname}-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/electron-v${_pkgver//_/-}-linux-arm64.zip"
+    "${_pkgname}-chromedriver-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver}/chromedriver-v${_pkgver}-linux-arm64.zip"
+    "${_pkgname}-${pkgver}-aarch64.zip::${_ghurl}/releases/download/v${_pkgver}/electron-v${_pkgver}-linux-arm64.zip"
 )
 source_x86_64=(
-    "${_pkgname}-chromedriver-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/chromedriver-v${_pkgver//_/-}-linux-x64.zip"
-    "${_pkgname}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver//_/-}/electron-v${_pkgver//_/-}-linux-x64.zip"
+    "${_pkgname}-chromedriver-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver}/chromedriver-v${_pkgver}-linux-x64.zip"
+    "${_pkgname}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/v${_pkgver}/electron-v${_pkgver}-linux-x64.zip"
 )
 sha256sums=('cea9f99f6d0a9a8bab239ffd2192dca3adf4f769b3123a2f366983c82d572ac9')
-sha256sums_aarch64=('a66b4bc8847abe26b2444c949f8d4e228b8fe685432df4af795d53841aa3d6c3'
-                    '9cd736d1f5873839553c3fa6c8c5e57635ec4a399cc2d32e79c82a02d9cd2258')
-sha256sums_x86_64=('da91691d51888045c5cda59fd30ba2ddf4dd3761f4bc16149b89d30ec2cb4233'
-                   '3ae7d5bdad61c664486c6ab61361dd084d064c8c08af8d13a687096e18ce555a')
+sha256sums_aarch64=('62127c18c542649d9052ff3205968cb0621c2da253715138737edcfcbf5c31d9'
+                    'f8ecb0702b6a0b10274d2c3043dddaa22da77addcab98e7e0b1e0d4f6c2d93e9')
+sha256sums_x86_64=('92e9fa4f3baf56373a2e6406113f5b478cd4c384c2c6c38d62bd5cf39d4c7e17'
+                   '777b26a64aee3d185acb9f93c04782bb51eae7c2c61c793963ef24374e5a1539')
 prepare() {
     sed -i "s/@ELECTRON@/${_pkgname}/g" "${srcdir}/${pkgname%-bin}.sh"
     install -Dm755 -d "${srcdir}/${_pkgname}"
