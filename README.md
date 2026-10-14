@@ -1241,6 +1241,7 @@
 |**scenario-rs-gui**|[scenario-rs-gui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scenario-rs-gui-bin)|[scenario-rs-gui-bin](https://aur.archlinux.org/packages/scenario-rs-gui-bin)||
 |**scramblery**|[scramblery-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scramblery-bin)|[scramblery-bin](https://aur.archlinux.org/packages/scramblery-bin)||
 |**scramblery-cuda**|[scramblery-cuda-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scramblery-cuda-bin)|[scramblery-cuda-bin](https://aur.archlinux.org/packages/scramblery-cuda-bin)||
+|**scramblery-migraphx**|[scramblery-migraphx-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scramblery-migraphx-bin)|[scramblery-migraphx-bin](https://aur.archlinux.org/packages/scramblery-migraphx-bin)||
 |**scramblery-openvino**|[scramblery-openvino-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scramblery-openvino-bin)|[scramblery-openvino-bin](https://aur.archlinux.org/packages/scramblery-openvino-bin)||
 |**scramblery-webgpu**|[scramblery-webgpu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/scramblery-webgpu-bin)|[scramblery-webgpu-bin](https://aur.archlinux.org/packages/scramblery-webgpu-bin)||
 |**screen-area-share**|[screen-area-share-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/screen-area-share-bin)|[screen-area-share-bin](https://aur.archlinux.org/packages/screen-area-share-bin)||
