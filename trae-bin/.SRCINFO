@@ -1,6 +1,6 @@
 pkgbase = trae-bin
 	pkgdesc = AI-powered IDE by ByteDance - The Real AI Engine for code development
-	pkgver = 2.3.73738
+	pkgver = 2.3.91093
 	pkgrel = 99
 	url = https://trae.ai
 	arch = x86_64
@@ -23,7 +23,7 @@ pkgbase = trae-bin
 	optdepends = libvulkan: Vulkan support
 	provides = trae
 	conflicts = trae
-	source = trae.deb::https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/2.3.73738/linux/TraeCode-linux-x64.deb
-	sha256sums = bdd45584a471c7cf98d092c529681703b1585cb275a893633f429a8eea0094db
+	source = trae-2.3.91093.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/2.3.91093/linux/TRAE-linux-x64.rpm
+	sha256sums = 08567dda666dee9228cf97ae0640a8284768ea0361d3265ac27371f8ae864ba0
 
 pkgname = trae-bin
