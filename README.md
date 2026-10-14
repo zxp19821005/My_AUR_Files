@@ -228,6 +228,7 @@
 |**clash-party**|[clash-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-party-bin)|[clash-party-bin](https://aur.archlinux.org/packages/clash-party-bin)||
 |**clawd-on-desk**|[clawd-on-desk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawd-on-desk-bin)|[clawd-on-desk-bin](https://aur.archlinux.org/packages/clawd-on-desk-bin)||
 |**clawx**|[clawx](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawx)|[clawx](https://aur.archlinux.org/packages/clawx)||
+|**cline-desktop**|[cline-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cline-desktop-bin)|[cline-desktop-bin](https://aur.archlinux.org/packages/cline-desktop-bin)||
 |**clip-editor**|[clip-editor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clip-editor-bin)|[clip-editor-bin](https://aur.archlinux.org/packages/clip-editor-bin)||
 |**clipharbor**|[clipharbor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clipharbor-bin)|[clipharbor-bin](https://aur.archlinux.org/packages/clipharbor-bin)||
 |**clippy**|[clippy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clippy-bin)|[clippy-bin](https://aur.archlinux.org/packages/clippy-bin)||
