@@ -1,6 +1,6 @@
 pkgbase = trae-cn-bin
 	pkgdesc = TRAE CN 桌面客户端（预编译二进制包）
-	pkgver = 2.3.78542
+	pkgver = 2.3.92182
 	pkgrel = 99
 	url = https://www.trae.cn/
 	arch = x86_64
@@ -38,7 +38,8 @@ pkgbase = trae-cn-bin
 	provides = trae-cn
 	conflicts = trae-cn
 	options = !emptydirs
-	source = trae-cn-2.3.78542.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/2.3.78542/linux/TraeCode_CN-linux-x64.rpm
-	sha256sums = 8503d199264ea3d1635a57caf460aefaa56bf1beb45942fec1124b07cad0f017
+	options = !strip
+	source = trae-cn-2.3.92182.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/2.3.92182/linux/TRAE_CN-linux-x64.rpm
+	sha256sums = 9e3ee6b688d88d8dbb538a5b72e423c37b99fa4b42acdc901a1676d0b850035f
 
 pkgname = trae-cn-bin

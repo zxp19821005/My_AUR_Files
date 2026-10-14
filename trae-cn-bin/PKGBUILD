@@ -1,7 +1,7 @@
 pkgname=trae-cn-bin
-_pkgname=TraeCode_CN
-pkgver=2.3.78542
-_electronversion=32
+_pkgname=TRAE_CN
+pkgver=2.3.92182
+_electronversion=39
 pkgrel=99
 pkgdesc="TRAE CN 桌面客户端（预编译二进制包）"
 arch=('x86_64')
@@ -47,40 +47,31 @@ optdepends=(
 )
 options=(
   '!emptydirs'
+  '!strip'
 )
 source=("${pkgname%-bin}-${pkgver}.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.rpm")
-sha256sums=('8503d199264ea3d1635a57caf460aefaa56bf1beb45942fec1124b07cad0f017')
+sha256sums=('9e3ee6b688d88d8dbb538a5b72e423c37b99fa4b42acdc901a1676d0b850035f')
 _get_app_dir() {
-    find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
+	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
+		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
 }
 _check_electron_version() {
-    echo "Verifying Electron version..."
-    local _main_exe=$(find "$(_get_app_dir)" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
-    [[ -z "${_main_exe}" ]] && echo -e "\033[1;33mNote: Could not find Electron binary.\033[0m" && return
-    local _elec_ver=$(strings "${_main_exe}" | grep -oP 'Electron/\K[0-9]+' | head -1)
-    [[ -z "${_elec_ver}" ]] && echo -e "\033[1;33mNote: Could not determine Electron version.\033[0m" && return
-    [[ "${_elec_ver}" != "${_electronversion}" ]] &&
-        echo -e "\033[1;31mWarning: Electron version mismatch! Detected: ${_elec_ver}, Expected: ${_electronversion}\033[0m" ||
-        echo -e "Electron version verified: \033[1;31m${_elec_ver}\033[0m"
+	local _v=$(strings "$(find "$(_get_app_dir)" -maxdepth 1 -type f \
+		-executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)" \
+		| grep -oP 'Electron/\K[0-9]+' | head -1)
+	[[ -z "$_v" ]] && { echo -e "\033[1;33mNote: Could not check version.\033[0m"; return; }
+	(( _v == _electronversion )) && c=32 || c=31
+	echo -e "Electron version: \033[1;${c}m$_v$([[ $c -eq 31 ]] && echo " (expected $_electronversion)")\033[0m"
 }
 package() {
   _check_electron_version
-  # 复制文件
   cp -r "${srcdir}/usr" "${pkgdir}/"
-  # 删除不必要的 locale（只保留 zh-CN 和 en-US）
   find "${pkgdir}/usr/share/${pkgname%-bin}/locales" -type f \
     ! -name 'zh-CN.pak' ! -name 'en-US.pak' -delete
-  # 删除 Chromium License 文件（纯文本，运行时不需要）
   rm -f "${pkgdir}/usr/share/${pkgname%-bin}/LICENSES.chromium.html"
-  # 确保关键入口具备可执行权限
   chmod 755 "${pkgdir}/usr/share/${pkgname%-bin}/${pkgname%-bin}"
-  if [[ -f "${pkgdir}/usr/share/${pkgname%-bin}/bin/${pkgname%-bin}" ]]; then
-    chmod 755 "${pkgdir}/usr/share/${pkgname%-bin}/bin/${pkgname%-bin}"
-  fi
-  # Electron chrome-sandbox 兼容
-  if [[ -f "${pkgdir}/usr/share/${pkgname%-bin}/chrome-sandbox" ]]; then
-    chmod 4755 "${pkgdir}/usr/share/${pkgname%-bin}/chrome-sandbox"
-  fi
+  [[ -f "${pkgdir}/usr/share/${pkgname%-bin}/bin/${pkgname%-bin}" ]] && chmod 755 "${pkgdir}/usr/share/${pkgname%-bin}/bin/${pkgname%-bin}"
+  [[ -f "${pkgdir}/usr/share/${pkgname%-bin}/chrome-sandbox" ]] && chmod 4755 "${pkgdir}/usr/share/${pkgname%-bin}/chrome-sandbox"
   ln -sf "/usr/bin/ffmpeg" "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/bin/ffmpeg"
   ln -sf "/usr/bin/ffprobe" "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/bin/ffprobe"
   ln -sf "/usr/bin/rg" "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/node_modules/@vscode/ripgrep/bin/rg"
