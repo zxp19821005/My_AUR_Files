@@ -625,6 +625,7 @@
 |**gpt-anywhere**|[gpt-anywhere-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gpt-anywhere-bin)|[gpt-anywhere-bin](https://aur.archlinux.org/packages/gpt-anywhere-bin)||
 |**gptfusion**|[gptfusion-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptfusion-appimage)|[gptfusion-appimage](https://aur.archlinux.org/packages/gptfusion-appimage)||
 |**gptm**|[gptm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptm-bin)<br>[gptm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gptm-git)|[gptm-bin](https://aur.archlinux.org/packages/gptm-bin)<br>[gptm-git](https://aur.archlinux.org/packages/gptm-git)||
+|**grabbit**|[grabbit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/grabbit-git)|[grabbit-git](https://aur.archlinux.org/packages/grabbit-git)||
 |**graphiql-desktop**|[graphiql-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/graphiql-desktop-bin)|[graphiql-desktop-bin](https://aur.archlinux.org/packages/graphiql-desktop-bin)||
 |**gridea**|[gridea-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridea-bin)|[gridea-bin](https://aur.archlinux.org/packages/gridea-bin)||
 |**gridplayer**|[gridplayer-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/gridplayer-appimage)|[gridplayer-appimage](https://aur.archlinux.org/packages/gridplayer-appimage)||
