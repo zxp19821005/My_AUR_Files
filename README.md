@@ -1261,6 +1261,7 @@
 |**serina**|[serina-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/serina-bin)|[serina-bin](https://aur.archlinux.org/packages/serina-bin)||
 |**servicebus-browser**|[servicebus-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/servicebus-browser-bin)|[servicebus-browser-bin](https://aur.archlinux.org/packages/servicebus-browser-bin)||
 |**servicemaster**|[servicemaster-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/servicemaster-bin)|[servicemaster-bin](https://aur.archlinux.org/packages/servicemaster-bin)||
+|**setsuna**|[setsuna-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/setsuna-bin)|[setsuna-bin](https://aur.archlinux.org/packages/setsuna-bin)||
 |**seven-desktop**|[seven-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-desktop-bin)|[seven-desktop-bin](https://aur.archlinux.org/packages/seven-desktop-bin)||
 |**seven-waves**|[seven-waves](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves) <br> [seven-waves-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/seven-waves-git)|[seven-waves](https://aur.archlinux.org/packages/seven-waves) <br> [seven-waves-git](https://aur.archlinux.org/packages/seven-waves-git)||
 |**shadps4**|[shadps4-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/shadps4-bin)|[shadps4-bin](https://aur.archlinux.org/packages/shadps4-bin)||
