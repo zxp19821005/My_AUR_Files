@@ -1389,6 +1389,7 @@
 |**taobaomaicaiti**|[taobaomaicaiti](https://github.com/zxp19821005/My_AUR_Files/tree/main/taobaomaicaiti)|[taobaomaicaiti](https://aur.archlinux.org/packages/taobaomaicaiti)||
 |**taratormusic**|[taratormusic-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/taratormusic-bin)|[taratormusic-bin](https://aur.archlinux.org/packages/taratormusic-bin)||
 |**taskbookly**|[taskbookly-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/taskbookly-bin)|[taskbookly-bin](https://aur.archlinux.org/packages/taskbookly-bin)||
+|**tauri-motrix**|[tauri-motrix-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauri-motrix-bin)|[tauri-motrix-bin](https://aur.archlinux.org/packages/tauri-motrix-bin)||
 |**tauview**|[tauview-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauview-bin) <br> [tauview-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tauview-git)|[tauview-bin](https://aur.archlinux.org/packages/tauview-bin) <br> [tauview-git](https://aur.archlinux.org/packages/tauview-git)||
 |**tbls**|[tbls-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tbls-bin)|[tbls-bin](https://aur.archlinux.org/packages/tbls-bin)||
 |**tcgtools**|[tcgtools-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tcgtools-git)|[tcgtools-git](https://aur.archlinux.org/packages/tcgtools-git)||
