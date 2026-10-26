@@ -1,0 +1,33 @@
+pkgbase = go2rtc-bin
+	pkgdesc = Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.(Prebuilt version)
+	pkgver = 1.9.15
+	pkgrel = 1
+	url = https://github.com/AlexxIT/go2rtc
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	provides = go2rtc=1.9.15
+	conflicts = go2rtc
+	options = !strip
+	source = LICENSE-1.9.15::https://raw.githubusercontent.com/AlexxIT/go2rtc/v1.9.15/LICENSE
+	source = go2rtc.yaml
+	source = go2rtc.tmpfile.conf
+	source = go2rtc.service
+	source = go2rtc.sysusers.conf
+	sha256sums = b0dcf4855af5a72b4dfbd9117c207b330f4cc35658576a0b5351d6e2becac546
+	sha256sums = 0b23c4f5416494a31e4720693e5cc53bc8d15b04351a718e017f8bc0744e69a9
+	sha256sums = f8caf9965af10be2ca90819898f9124966b69dcb3a477a9436e050cfb6bb5a29
+	sha256sums = d1e19d906719b847456a11c430a77b4dd0ec73414e60e629df76be65bc372a10
+	sha256sums = 8e6c994be0a3fc65d909d23ead70dbc2b32c8747cc96bb1f5c2a83e93f16f7f5
+	source_aarch64 = go2rtc-1.9.15-aarch64::https://github.com/AlexxIT/go2rtc/releases/download/v1.9.15/go2rtc_linux_arm64
+	sha256sums_aarch64 = af416f22b21a24ab83b8d78642190b4932ae695b4e386853f11d1b0319781763
+	source_armv7h = go2rtc-1.9.15-armv7h::https://github.com/AlexxIT/go2rtc/releases/download/v1.9.15/go2rtc_linux_arm
+	sha256sums_armv7h = cbffe4075a004e2015fd9d7e324800ab7968b52f49e9ce803361879d5e246028
+	source_i686 = go2rtc-1.9.15-i686::https://github.com/AlexxIT/go2rtc/releases/download/v1.9.15/go2rtc_linux_i386
+	sha256sums_i686 = 3a4d74b7d6ba2a04c5c7e7c7ee6208f9060fd17dfcce5a0975d44b6621a85c1e
+	source_x86_64 = go2rtc-1.9.15-x86_64::https://github.com/AlexxIT/go2rtc/releases/download/v1.9.15/go2rtc_linux_amd64
+	sha256sums_x86_64 = 20b46c6910734cb05ecefb234066f36868ff19b42ba1418a7a32e13a3e035712
+
+pkgname = go2rtc-bin
