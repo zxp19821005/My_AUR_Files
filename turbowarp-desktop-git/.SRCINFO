@@ -1,0 +1,20 @@
+pkgbase = turbowarp-desktop-git
+	pkgdesc = Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.
+	pkgver = 1.17.0.r2.gcd488ba
+	pkgrel = 1
+	url = https://desktop.turbowarp.org/
+	arch = any
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = jq
+	depends = electron43
+	provides = turbowarp-desktop=1.17.0
+	conflicts = turbowarp-desktop
+	source = turbowarp-desktop.git::git+https://github.com/TurboWarp/desktop.git
+	source = turbowarp-desktop.sh
+	sha256sums = SKIP
+	sha256sums = 983ddfde8e06d067be65dd41ccc555f4da0a635358eac915c40863d0782206c7
+
+pkgname = turbowarp-desktop-git
