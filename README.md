@@ -555,6 +555,7 @@
 |**fortio**|[fortio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fortio-bin)|[fortio-bin](https://aur.archlinux.org/packages/fortio-bin)||
 |**fotograph**|[fotograph-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fotograph-bin)|[fotograph-bin](https://aur.archlinux.org/packages/fotograph-bin)||
 |**fotoluks-manager**|[fotoluks-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fotoluks-manager-git)|[fotoluks-manager-git](https://aur.archlinux.org/packages/fotoluks-manager-git)||
+|**fragmemo**|[fragmemo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fragmemo-git)|[fragmemo-git](https://aur.archlinux.org/packages/fragmemo-git)||
 |**frame-cast**|[frame-cast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-cast-bin)|[frame-cast-bin](https://aur.archlinux.org/packages/frame-cast-bin)||
 |**frame-eth**|[frame-eth-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frame-eth-bin)|[frame-eth-bin](https://aur.archlinux.org/packages/frame-eth-bin)||
 |**frappe-books**|[frappe-books-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/frappe-books-bin)|[frappe-books-bin](https://aur.archlinux.org/packages/frappe-books-bin)||
