@@ -1,0 +1,17 @@
+pkgbase = compresso-bin
+	pkgdesc = A free and open-sourced cross-platform video compression app powered by FFmpeg.
+	pkgver = 4.0.0
+	pkgrel = 1
+	url = https://github.com/codeforreal1/compressO
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	depends = ffmpeg
+	provides = compresso=4.0.0
+	conflicts = compresso
+	source = compresso-4.0.0.deb::https://github.com/codeforreal1/compressO/releases/download/4.0.0/CompressO_4.0.0_amd64.deb
+	sha256sums = adf27cdeb2818ae1da68d448b79aa56ddaae435932b9160ccaa7b527fcd269e3
+
+pkgname = compresso-bin
