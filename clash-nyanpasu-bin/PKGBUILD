@@ -1,8 +1,6 @@
 pkgname=clash-nyanpasu-bin
 _pkgname=Clash.Nyanpasu
-_mainver=2.0.0
-_subver=rc.2
-pkgver="${_mainver}${_subver}"
+pkgver=2.0.0
 pkgrel=99
 pkgdesc="A Clash GUI based on tauri. Clash Nyanpasu! (∠・ω< )⌒☆​"
 arch=(
@@ -27,18 +25,19 @@ optdepends=(
 options=(
     '!strip'
 )
-source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${_mainver}-${_subver}/${_pkgname}-${_mainver}-0.${_subver}.aarch64.rpm")
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${_mainver}-${_subver}/${_pkgname}-${_mainver}-0.${_subver}.x86_64.rpm")
-sha256sums_aarch64=('7450171cf6d39c9e45044093d251cc3b61dd57f439ca37254e865dd1a0844ab2')
-sha256sums_x86_64=('7c4454f6ee12b8b2fa08ecdc5a13a98d648a9e73dfcbe98865158bf59fd55928')
+source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-1.aarch64.rpm")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-1.x86_64.rpm")
+sha256sums_aarch64=('cc088944a565de1ef3cd6b655b4cd5c620d9b09837558775b2d728a458daa3da')
+sha256sums_x86_64=('f0293142593e55f6cc28ad217d97bade7b79ff747ebf5b202b4a2b6cde0058e6')
 prepare() {
     sed -i -e "
         s/Development/Network/g
         s/Exec=\"${_pkgname//./ }\"/Exec=${pkgname%-bin}/g
         s/Icon=${_pkgname//./ }/Icon=${pkgname%-bin}/g
     " "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
-    [ -d "${srcdir}/usr/share/icons/hicolor/256x256@2" ] && mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
-    rm -rf "${srcdir}/usr/bin/"{mihomo,clash-rs}
+    local _icon_dir="${srcdir}/usr/share/icons/hicolor"
+	[[ -d "${_icon_dir}/256x256@2" && ! -d "${_icon_dir}/512x512" ]] && mv "${_icon_dir}/256x256@2" "${_icon_dir}/512x512"
+    rm -rf "${srcdir}/usr/bin/"{mihomo,clash,clash-rs}
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
