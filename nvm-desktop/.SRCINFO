@@ -1,0 +1,26 @@
+pkgbase = nvm-desktop
+	pkgdesc = Node Version Manager Desktop - A desktop application to manage multiple active node.js versions.
+	pkgver = 4.5.0
+	pkgrel = 1
+	url = https://github.com/1111mp/nvm-desktop
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = nvm
+	makedepends = pnpm
+	makedepends = rustup
+	makedepends = librsvg
+	makedepends = patchelf
+	makedepends = git
+	depends = webkit2gtk-4.1
+	depends = gtk3
+	depends = libayatana-indicator
+	depends = libappindicator
+	conflicts = nvm-desktop
+	source = nvm-desktop-4.5.0.tar.gz::https://github.com/1111mp/nvm-desktop/archive/refs/tags/v4.5.0.tar.gz
+	sha256sums = dba095fbd28d5f901dff279aaeb1e4e377847cb0804140af89a7e21bc4442f3d
+
+pkgname = nvm-desktop
