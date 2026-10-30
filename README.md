@@ -224,8 +224,9 @@
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
 |**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)||自用版|
 |**clash-nyanpasu**|[clash-nyanpasu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-nyanpasu-bin)|自用版|
-|**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
+|**clash-of-rust**|[clash-of-rust-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-of-rust-bin)|[clash-of-rust-bin](https://aur.archlinux.org/packages/clash-of-rust-bin)||
 |**clash-party**|[clash-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-party-bin)|[clash-party-bin](https://aur.archlinux.org/packages/clash-party-bin)||
+|**clash-verge-rev**|[clash-verge-rev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-verge-rev-bin)|自用版|
 |**clawd-on-desk**|[clawd-on-desk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawd-on-desk-bin)|[clawd-on-desk-bin](https://aur.archlinux.org/packages/clawd-on-desk-bin)||
 |**clawx**|[clawx](https://github.com/zxp19821005/My_AUR_Files/tree/main/clawx)|[clawx](https://aur.archlinux.org/packages/clawx)||
 |**cline-desktop**|[cline-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cline-desktop-bin)|[cline-desktop-bin](https://aur.archlinux.org/packages/cline-desktop-bin)||
