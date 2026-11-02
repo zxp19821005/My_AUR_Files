@@ -1,4 +1,5 @@
-# Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
+# Maintainer: Palash Debnath <aur at palash dot dev>
+# Contributor: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=voicestudio-bin
 _pkgname=VoiceStudio
 pkgver=0.5.7
