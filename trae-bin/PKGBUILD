@@ -1,7 +1,7 @@
 # Maintainer: Yahya Toubali <me@yahyatoubali.me>
 pkgname=trae-bin
 _pkgname=TRAE
-pkgver=2.3.91093
+pkgver=2.3.99397
 _electronversion=39
 pkgrel=99
 pkgdesc="AI-powered IDE by ByteDance - The Real AI Engine for code development"
@@ -30,8 +30,9 @@ depends=(
 optdepends=(
     'libvulkan: Vulkan support'
 )
+options=('!strip')
 source=("${pkgname%-bin}-${pkgver}.rpm::https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/${pkgver}/linux/${_pkgname}-linux-x64.rpm")
-sha256sums=('08567dda666dee9228cf97ae0640a8284768ea0361d3265ac27371f8ae864ba0')
+sha256sums=('4e3c826df3a99c98ef56579c091b97797da2c18e224dbf41ee7a004ecee5f015')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -54,9 +55,7 @@ package() {
     if [ -f "${pkgdir}/usr/share/${pkgname%-bin}/resources/app/LICENSE.txt" ]; then
         install -Dm644 "$pkgdir/usr/share/${pkgname%-bin}/resources/app/LICENSE.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}"
     fi
-    # 删除不必要的 locale（只保留 zh-CN 和 en-US）
     find "${pkgdir}/usr/share/${pkgname%-bin}/locales" -type f \
         ! -name 'zh-CN.pak' ! -name 'en-US.pak' -delete
-    # 删除 Chromium License 文件（纯文本，运行时不需要）
     rm -f "${pkgdir}/usr/share/${pkgname%-bin}/LICENSES.chromium.html"
 }
