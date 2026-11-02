@@ -1,6 +1,6 @@
 pkgbase = clash-verge-rev-bin
 	pkgdesc = Continuation of Clash Verge | A Clash Meta GUI based on Tauri.
-	pkgver = 2.5.8
+	pkgver = 2.5.9
 	pkgrel = 99
 	url = https://www.clashverge.dev/
 	arch = aarch64
@@ -10,16 +10,16 @@ pkgbase = clash-verge-rev-bin
 	depends = webkit2gtk-4.1
 	depends = gtk3
 	depends = libayatana-appindicator
-	provides = clash-verge-rev=2.5.8
+	provides = clash-verge-rev=2.5.9
 	conflicts = clash-verge-rev
 	conflicts = clash-verge-rev-bin
 	conflicts = clash-verge
 	options = !strip
-	source_aarch64 = clash-verge-rev-2.5.8-aarch64.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.8/Clash.Verge-2.5.8-1.aarch64.rpm
-	sha512sums_aarch64 = 603c56ab5d753747c150ce146d8cbcdaa9d626bda52bfbd3acf562dac8768131be5a3c384fe0bc02c819f283f3d3d0dfc6d6b0e2c83c6200219405aad0d6bcf6
-	source_armv7h = clash-verge-rev-2.5.8-armv7h.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.8/Clash.Verge-2.5.8-1.armhfp.rpm
-	sha512sums_armv7h = feb9ce5d8a43b1dc54854bd27aa42437b8d5eb278c217b9314289d2e661fa214549f514480f42474a54f919a60b5ebb893ef71940c842c7de615a83371755563
-	source_x86_64 = clash-verge-rev-2.5.8-x86_64.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.8/Clash.Verge-2.5.8-1.x86_64.rpm
-	sha512sums_x86_64 = 627d5d8074708cabcf0e7fba9fd2bbcf7129bab71bb611497bf6815760d899cc85e870cc1a3cba50dd17b53ab255daa8e144e9d42b55e46036c8c42feb064a24
+	source_aarch64 = clash-verge-rev-2.5.9-aarch64.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.9/Clash.Verge-2.5.9-1.aarch64.rpm
+	sha512sums_aarch64 = 72e81e67a454678cd96414da51c31b8b1ef6cb26fddd43b588c9360841d7bad26205e806f49212b8a7170c67396c48f5d8870dd81240ea2917c97564f4848c8e
+	source_armv7h = clash-verge-rev-2.5.9-armv7h.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.9/Clash.Verge-2.5.9-1.armhfp.rpm
+	sha512sums_armv7h = 0a50a11937a675664c43af9a389553df563e0a6c45168665ef96008c0c8031e2b472f8af994d354ef468bb365643988594ca6b4526246cf196127a71c74dbd87
+	source_x86_64 = clash-verge-rev-2.5.9-x86_64.rpm::https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.9/Clash.Verge-2.5.9-1.x86_64.rpm
+	sha512sums_x86_64 = eb623cce6386bd1c3a972f022d6b0c07484b6e77512e991349a325496896b7573cb26fe784787d26bc31e2347a27e239c4fe1ead9b08b5ca64db84f379ee3bf6
 
 pkgname = clash-verge-rev-bin

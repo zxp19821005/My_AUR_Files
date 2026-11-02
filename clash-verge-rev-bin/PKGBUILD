@@ -3,7 +3,7 @@
 _appname=clash-verge
 pkgname="${_appname}-rev-bin"
 _pkgname='Clash Verge'
-pkgver=2.5.8
+pkgver=2.5.9
 pkgrel=99
 pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri."
 arch=(
@@ -29,24 +29,29 @@ options=('!strip')
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.aarch64.rpm")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.armhfp.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.x86_64.rpm")
-sha512sums_aarch64=('603c56ab5d753747c150ce146d8cbcdaa9d626bda52bfbd3acf562dac8768131be5a3c384fe0bc02c819f283f3d3d0dfc6d6b0e2c83c6200219405aad0d6bcf6')
-sha512sums_armv7h=('feb9ce5d8a43b1dc54854bd27aa42437b8d5eb278c217b9314289d2e661fa214549f514480f42474a54f919a60b5ebb893ef71940c842c7de615a83371755563')
-sha512sums_x86_64=('627d5d8074708cabcf0e7fba9fd2bbcf7129bab71bb611497bf6815760d899cc85e870cc1a3cba50dd17b53ab255daa8e144e9d42b55e46036c8c42feb064a24')
+sha512sums_aarch64=('72e81e67a454678cd96414da51c31b8b1ef6cb26fddd43b588c9360841d7bad26205e806f49212b8a7170c67396c48f5d8870dd81240ea2917c97564f4848c8e')
+sha512sums_armv7h=('0a50a11937a675664c43af9a389553df563e0a6c45168665ef96008c0c8031e2b472f8af994d354ef468bb365643988594ca6b4526246cf196127a71c74dbd87')
+sha512sums_x86_64=('eb623cce6386bd1c3a972f022d6b0c07484b6e77512e991349a325496896b7573cb26fe784787d26bc31e2347a27e239c4fe1ead9b08b5ca64db84f379ee3bf6')
+_install_icons() {
+	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
+	while IFS= read -r -d '' _icon; do
+		_ext="${_icon##*.}"
+		_size=$(echo "${_icon%/*}" | grep -oE '[0-9]+x[0-9]+|scalable' | head -1)
+		[[ -z "${_size}" ]] && _size=$([[ "${_ext}" == svg ]] && echo scalable || od -An -tu1 -j16 -N8 "${_icon}" 2>/dev/null | awk '{printf "%dx%d",$1*16777216+$2*65536+$3*256+$4,$5*16777216+$6*65536+$7*256+$8}')
+		[[ "${_size}" =~ ^[0-9]+x[0-9]+$ ]] || _size=scalable
+		_dest=$([[ "${_icon}" == */share/pixmaps/* ]] && echo pixmaps || echo "icons/hicolor/${_size}/apps")
+		install -Dm644 "${_icon}" "${pkgdir}/usr/share/${_dest}/${_name}.${_ext}"
+	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
+}
 prepare() {
     sed -i -e "
         s/Development/Network/g
         s/Icon=${_appname}/Icon=${pkgname%-bin}/g
     " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
-    mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
 }
 package() {
     install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-    cp -a "${srcdir}/usr/lib" "${pkgdir}/usr"
+    [ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
     install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
-        _extension="${_i##*.}"
-        _icon_path="${_i#*share/icons/}"
-        _target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
-        install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
-    done
+    _install_icons
 }
