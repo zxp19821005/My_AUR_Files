@@ -1462,6 +1462,7 @@
 |**trezor-suite**|[trezor-suite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trezor-suite-bin)|[trezor-suite-bin](https://aur.archlinux.org/packages/trezor-suite-bin)||
 |**trilium-cn**|[trilium-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trilium-cn-bin)|自用版|
 |**triliumnext**|[triliumnext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/triliumnext-bin)|[triliumnext-bin](https://aur.archlinux.org/packages/triliumnext-bin)||
+|**triproxy**|[triproxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/triproxy-bin)|[triproxy-bin](https://aur.archlinux.org/packages/triproxy-bin)||
 |**tropy**|[tropy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tropy-git)|[tropy-git](https://aur.archlinux.org/packages/tropy-git)||
 |**trovekit**|[trovekit-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trovekit-bin)|[trovekit-bin](https://aur.archlinux.org/packages/trovekit-bin)||
 |**trufos**|[trufos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trufos-bin)<br>[trufos-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/trufos-git)|[trufos-bin](https://aur.archlinux.org/packages/trufos-bin)<br>[trufos-git](https://aur.archlinux.org/packages/trufos-git)||
