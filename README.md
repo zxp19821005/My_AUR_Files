@@ -1647,6 +1647,7 @@
 |**ynote-desktop**|[ynote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ynote-desktop-bin)|[ynote-desktop-bin](https://aur.archlinux.org/packages/ynote-desktop-bin)||
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict)|[youdao-dict](https://aur.archlinux.org/packages/youdao-dict)||
+|**youdaodict**|[youdaodict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdaodict-bin)|[youdaodict-bin](https://aur.archlinux.org/packages/youdaodict-bin)||
 |**youku**|[youku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youku-bin)|[youku-bin](https://aur.archlinux.org/packages/youku-bin)||
 |**youtube-app**|[youtube-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-app-bin)|[youtube-app-bin](https://aur.archlinux.org/packages/youtube-app-bin)||
 |**youtube-desktop**|[youtube-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youtube-desktop-bin)|[youtube-desktop-bin](https://aur.archlinux.org/packages/youtube-desktop-bin)||
