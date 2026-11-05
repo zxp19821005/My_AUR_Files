@@ -3,7 +3,7 @@
 _appname=clash-verge
 pkgname="${_appname}-rev-bin"
 _pkgname='Clash Verge'
-pkgver=2.5.9
+pkgver=2.5.10
 pkgrel=99
 pkgdesc="Continuation of Clash Verge | A Clash Meta GUI based on Tauri."
 arch=(
@@ -29,9 +29,9 @@ options=('!strip')
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.aarch64.rpm")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.armhfp.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /.}-${pkgver}-1.x86_64.rpm")
-sha512sums_aarch64=('72e81e67a454678cd96414da51c31b8b1ef6cb26fddd43b588c9360841d7bad26205e806f49212b8a7170c67396c48f5d8870dd81240ea2917c97564f4848c8e')
-sha512sums_armv7h=('0a50a11937a675664c43af9a389553df563e0a6c45168665ef96008c0c8031e2b472f8af994d354ef468bb365643988594ca6b4526246cf196127a71c74dbd87')
-sha512sums_x86_64=('eb623cce6386bd1c3a972f022d6b0c07484b6e77512e991349a325496896b7573cb26fe784787d26bc31e2347a27e239c4fe1ead9b08b5ca64db84f379ee3bf6')
+sha512sums_aarch64=('843e8d9020e60d5c97443676d8374ea3cdc49d38eb05321fdf2d428a267b10c8a979ecd8b9d095af496cf403f04f958ddb101c76a69b19f1e7cf319cbcb11c40')
+sha512sums_armv7h=('d7d8de6ac6a828b7666261a49a0a5cb14f4edc7461b0a497198aa5af03c79f14804ae1fd82a0211f4a23b36abec8894c23bfd25cd3827ab41e1f4aec18be47a5')
+sha512sums_x86_64=('22443df76e3ffc57f1dfab97a02bddd334be5eb186464b8186e88ad85c0443ca37e988a0bceeb912931cb4ce9b0fe8ddb6be45c264eff13eec35bd959b509cfc')
 _install_icons() {
 	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
 	while IFS= read -r -d '' _icon; do
