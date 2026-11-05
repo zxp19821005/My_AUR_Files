@@ -1186,6 +1186,7 @@
 |**r5-wallet**|[r5-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r5-wallet-bin)|[r5-wallet-bin](https://aur.archlinux.org/packages/r5-wallet-bin)||
 |**rabbitremotecontrol**|[rabbitremotecontrol-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rabbitremotecontrol-bin)|[rabbitremotecontrol-bin](https://aur.archlinux.org/packages/rabbitremotecontrol-bin)||
 |**raj-browser**|[raj-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/raj-browser-bin)|[raj-browser-bin](https://aur.archlinux.org/packages/raj-browser-bin)||
+|**rakazo**|[rakazo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rakazo-bin)|[rakazo-bin](https://aur.archlinux.org/packages/rakazo-bin)||
 |**random-browser**|[random-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/random-browser-git)|[random-browser-git](https://aur.archlinux.org/packages/random-browser-git)||
 |**rao-pics**|[rao-pics-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rao-pics-bin)|[rao-pics-bin](https://aur.archlinux.org/packages/rao-pics-bin)||
 |**rats-search**|[rats-search-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rats-search-bin)|[rats-search-bin](https://aur.archlinux.org/packages/rats-search-bin)||
