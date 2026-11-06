@@ -513,6 +513,7 @@
 |**ezytdl**|[ezytdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ezytdl-bin)|[ezytdl-bin](https://aur.archlinux.org/packages/ezytdl-bin)||
 |**f1mv-lights-integration**|[f1mv-lights-integration-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-bin)|[f1mv-lights-integration-bin](https://aur.archlinux.org/packages/f1mv-lights-integration-bin)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
+|**fabulous**|[fabulous-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabulous-git)|[fabulous-git](https://aur.archlinux.org/packages/fabulous-git)||
 |**fairshare**|[fairshare-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fairshare-bin)|[fairshare-bin](https://aur.archlinux.org/packages/fairshare-bin)||
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
 |**fastnote**|[fastnote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastnote-git)|[fastnote-git](https://aur.archlinux.org/packages/fastnote-git)||
