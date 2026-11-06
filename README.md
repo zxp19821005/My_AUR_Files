@@ -1144,6 +1144,7 @@
 |**pritunl-client**|[pritunl-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pritunl-client-bin)|[pritunl-client-bin](https://aur.archlinux.org/packages/pritunl-client-bin)||
 |**privaxy**|[privaxy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/privaxy-bin)|[privaxy-bin](https://aur.archlinux.org/packages/privaxy-bin)||
 |**processing**|[processing-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/processing-bin)|[processing-bin](https://aur.archlinux.org/packages/processing-bin)||
+|**profer**|[profer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/profer-git)|[profer-git](https://aur.archlinux.org/packages/profer-git)||
 |**progress-sync-agent**|[progress-sync-agent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/progress-sync-agent-bin)|[progress-sync-agent-bin](https://aur.archlinux.org/packages/progress-sync-agent-bin)||
 |**projectforge**|[projectforge-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projectforge-bin)|[projectforge-bin](https://aur.archlinux.org/packages/projectforge-bin)||
 |**projscope-music-player**|[projscope-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/projscope-music-player-bin)|[projscope-music-player-bin](https://aur.archlinux.org/packages/projscope-music-player-bin)||
