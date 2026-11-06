@@ -1539,6 +1539,7 @@
 |**venom86**|[venom86-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/venom86-bin)|[venom86-bin](https://aur.archlinux.org/packages/venom86-bin)||
 |**video-hub-app**|[video-hub-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/video-hub-app-bin)|[video-hub-app-bin](https://aur.archlinux.org/packages/video-hub-app-bin)||
 |**vieb**|[vieb](https://github.com/zxp19821005/My_AUR_Files/tree/main/vieb)|[vieb](https://aur.archlinux.org/packages/vieb)||
+|**viff**|[viff-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/viff-bin)|[viff-bin](https://aur.archlinux.org/packages/viff-bin)||
 |**vigad**|[vigad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vigad-bin)|[vigad-bin](https://aur.archlinux.org/packages/vigad-bin)||
 |**vikunja-desktop**|[vikunja-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/vikunja-desktop-bin)|[vikunja-desktop-bin](https://aur.archlinux.org/packages/vikunja-desktop-bin)||
 |**vimp**|[vimp-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/vimp-git)|[vimp-git](https://aur.archlinux.org/packages/vimp-git)||
