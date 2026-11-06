@@ -973,7 +973,7 @@
 |**note-gen**|[note-gen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/note-gen-bin)|[note-gen-bin](https://aur.archlinux.org/packages/note-gen-bin)||
 |**notekit**|[notekit-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/notekit-appimage)|[notekit-appimage](https://aur.archlinux.org/packages/notekit-appimage)||
 |**notely**|[notely-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notely-git)|[notely-git](https://aur.archlinux.org/packages/notely-git)||
-|**note-mark**|[note-mark-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/note-mark-git)|[note-mark-git](https://aur.archlinux.org/packages/note-mark-git)||
+|**notemark**|[notemark-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notemark-bin)<br>[notemark-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/notemark-git)|[notemark-bin](https://aur.archlinux.org/packages/notemark-bin)<br>[notemark-git](https://aur.archlinux.org/packages/notemark-git)||
 |**noteminder**|[noteminder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/noteminder-bin)|[noteminder-bin](https://aur.archlinux.org/packages/noteminder-bin)||
 |**notepad--**|[notepad--](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepad--)|[notepad--](https://aur.archlinux.org/packages/notepad--)||
 |**notepadnext**|[notepadnext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/notepadnext-bin)|自用版||
