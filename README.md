@@ -815,8 +815,9 @@
 |**localjson**|[localjson-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/localjson-git)|[localjson-git](https://aur.archlinux.org/packages/localjson-git)||
 |**local-llama**|[local-llama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/local-llama-bin) <br> [local-llama-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/local-llama-git)|[local-llama-bin](https://aur.archlinux.org/packages/local-llama-bin) <br> [local-llama-git](https://aur.archlinux.org/packages/local-llama-git)||
 |**lofi**|[lofi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lofi-bin)|[lofi-bin](https://aur.archlinux.org/packages/lofi-bin)||
-|**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
 |**logseq-desktop-electron**|[logseq-desktop-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/logseq-desktop-electron-bin)|[logseq-desktop-electron-bin](https://aur.archlinux.org/packages/logseq-desktop-electron-bin)||
+|**loomy**|[loomy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/loomy-bin)|[loomy-bin](https://aur.archlinux.org/packages/loomy-bin)||
+|**loopy-desktop**|[loopy-desktop](https://github.com/zxp19821005/My_AUR_Files/tree/main/loopy-desktop)|[loopy-desktop](https://aur.archlinux.org/packages/loopy-desktop)||
 |**losslesscut**|[losslesscut-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/losslesscut-git)|[losslesscut-git](https://aur.archlinux.org/packages/losslesscut-git)||
 |**lotti**|[lotti-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lotti-bin)|[lotti-bin](https://aur.archlinux.org/packages/lotti-bin)||
 |**lucashazardous-music-player**|[lucashazardous-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lucashazardous-music-player-bin)|[lucashazardous-music-player-bin](https://aur.archlinux.org/packages/lucashazardous-music-player-bin)||
