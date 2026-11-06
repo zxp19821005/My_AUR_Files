@@ -701,6 +701,7 @@
 |**inethi**|[inethi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inethi-bin)|[inethi-bin](https://aur.archlinux.org/packages/inethi-bin)||
 |**infoz**|[infoz-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/infoz-bin)|[infoz-bin](https://aur.archlinux.org/packages/infoz-bin)||
 |**inkdown**|[inkdown](https://github.com/zxp19821005/My_AUR_Files/tree/main/inkdown) <br> [inkdown-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/inkdown-git)|[inkdown](https://aur.archlinux.org/packages/inkdown) <br> [inkdown-git](https://aur.archlinux.org/packages/inkdown-git)||
+|**inkstone**|[inkstone-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/inkstone-git)|[inkstone-git](https://aur.archlinux.org/packages/inkstone-git)||
 |**inner-ink**|[inner-ink-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/inner-ink-bin)|[inner-ink-bin](https://aur.archlinux.org/packages/inner-ink-bin)||
 |**input-remapper**|[input-remapper-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/input-remapper-bin)|[input-remapper-bin](https://aur.archlinux.org/packages/input-remapper-bin)||
 |**insight-x**|[insight-x-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/insight-x-bin)|[insight-x-bin](https://aur.archlinux.org/packages/insight-x-bin)||
