@@ -1054,6 +1054,7 @@
 |**pandora-box**|[pandora-box](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box)<br>[pandora-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box-bin)<br>[pandora-box-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pandora-box-git)|[pandora-box](https://aur.archlinux.org/packages/pandora-box)<br>[pandora-box-bin](https://aur.archlinux.org/packages/pandora-box-bin)<br>[pandora-box-git](https://aur.archlinux.org/packages/pandora-box-git)||
 |**panfu-desktop**|[panfu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panfu-desktop-bin)|[panfu-desktop-bin](https://aur.archlinux.org/packages/panfu-desktop-bin)||
 |**panwriter**|[panwriter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/panwriter-bin)|[panwriter-bin](https://aur.archlinux.org/packages/panwriter-bin)||
+|**paperwing**|[paperwing-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/paperwing-git)|[paperwing-git](https://aur.archlinux.org/packages/paperwing-git)||
 |**paradise-pi**|[paradise-pi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/paradise-pi-bin)|[paradise-pi-bin](https://aur.archlinux.org/packages/paradise-pi-bin)||
 |**paragraph-editor**|[paragraph-editor-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/paragraph-editor-git)|[paragraph-editor-git](https://aur.archlinux.org/packages/paragraph-editor-git)||
 |**parseit**|[parseit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/parseit-git)|[parseit-git](https://aur.archlinux.org/packages/parseit-git)||
