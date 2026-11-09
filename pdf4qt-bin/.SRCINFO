@@ -1,0 +1,24 @@
+pkgbase = pdf4qt-bin
+	pkgdesc = Open source PDF editor(Prebuilt version)
+	pkgver = 1.7.0.0
+	pkgrel = 1
+	url = https://jakubmelka.github.io/
+	arch = x86_64
+	license = LGPL-3.0-only
+	depends = openssl
+	depends = libjpeg-turbo
+	depends = qt6-speech
+	depends = qt6-svg
+	depends = qt6-base
+	depends = openjpeg2
+	depends = onetbb
+	depends = lcms2
+	depends = blend2d
+	optdepends = flite: Text-To-Speech using flite synthesizer,
+	optdepends = libspeechd: Text-To-Speech using speechd synthesizer
+	provides = pdf4qt
+	conflicts = pdf4qt=1.7.0.0
+	source = pdf4qt-1.7.0.0-x86_64.AppImage::https://github.com/JakubMelka/PDF4QT/releases/download/v1.7.0.0/PDF4QT-1.7.0.0-x86_64.AppImage
+	sha256sums = a9d170d540137701c34e6ea38db7eecd4e033de0e099d4cb93fa1747432294f2
+
+pkgname = pdf4qt-bin
