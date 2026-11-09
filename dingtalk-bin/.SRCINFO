@@ -1,6 +1,6 @@
 pkgbase = dingtalk-bin
 	pkgdesc = DingTalk,钉钉
-	pkgver = 8.2.8.260904001
+	pkgver = 9.0.0.261105002
 	pkgrel = 99
 	url = https://www.dingtalk.com/
 	arch = aarch64
@@ -27,17 +27,18 @@ pkgbase = dingtalk-bin
 	optdepends = zenity: fix crashes when downloading files, not required on kde.
 	optdepends = libxss: fix tray icon functionality in gnome.
 	optdepends = qt5-wayland: needed in wayland
-	provides = com.alibabainc.dingtalk=8.2.8.260904001
-	provides = dingtalk=8.2.8.260904001
+	provides = com.alibabainc.dingtalk=9.0.0.261105002
+	provides = dingtalk=9.0.0.261105002
 	conflicts = com.alibabainc.dingtalk
 	replaces = com.alibabainc.dingtalk
+	options = !strip
 	source = dingtalk.svg
 	source = dingtalk.sh
 	sha256sums = b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b
-	sha256sums = 707251c07bbbbb756dc95fccfe92b191b4f1f6dc20670028bceac511fc747a53
-	source_aarch64 = dingtalk-8.2.8.260904001-aarch64.deb::https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.dingtalk_8.2.8.260904001_arm64.deb
-	sha256sums_aarch64 = f5b6c2d75ea4cb51097272f3e7e83bd433a4d2eb96cacc3f8ee67b9955b292f4
-	source_x86_64 = dingtalk-8.2.8.260904001-x86_64.deb::https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.dingtalk_8.2.8.260904001_amd64.deb
-	sha256sums_x86_64 = 5ccb839f9e30494983fa8a87c02d03b6e6915d1317f537e17d08cd897ac750b0
+	sha256sums = d7cefa745d8c6df6ba9018efd0168fcc6a5ca07ca85663e1028b7abd98958486
+	source_aarch64 = dingtalk-9.0.0.261105002-aarch64.deb::https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.dingtalk_9.0.0.261105002_arm64.deb
+	sha256sums_aarch64 = c60c09cdb015e848ded0882158e6a4297f4c8f171eae935551e289762f213e76
+	source_x86_64 = dingtalk-9.0.0.261105002-x86_64.deb::https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.dingtalk_9.0.0.261105002_amd64.deb
+	sha256sums_x86_64 = 9a0e9e59303fce5d8682de10ecfc821c7a603f88924236291449fe2c0890d1f5
 
 pkgname = dingtalk-bin
