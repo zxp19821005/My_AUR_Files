@@ -1,0 +1,19 @@
+pkgbase = station-bin
+	pkgdesc = The first open-source smart browser for busy people. A single place for all of your web applications.
+	pkgver = 4.0.0
+	pkgrel = 1
+	url = https://getstation.com/
+	arch = x86_64
+	license = Apache-2.0
+	depends = electron43
+	depends = nodejs
+	provides = station=4.0.0
+	conflicts = station
+	source = station-4.0.0.deb::https://github.com/getstation/desktop-app/releases/download/v4.0.0/Station-v4.0.0-linux-amd64.deb
+	source = station.js
+	source = station.sh
+	sha256sums = 827c84f319cc7a5e19e0835ad4388e86a01f022476623b83e5c1e05106b1f95a
+	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
+	sha256sums = d1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904
+
+pkgname = station-bin
