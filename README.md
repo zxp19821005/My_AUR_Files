@@ -94,6 +94,7 @@
 |**apprhyme**|[apprhyme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/apprhyme-bin)|[apprhyme-bin](https://aur.archlinux.org/packages/apprhyme-bin)||
 |**aquaquill**|[aquaquill-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aquaquill-git)|[aquaquill-git](https://aur.archlinux.org/packages/aquaquill-git)||
 |**arctis-monitor**|[arctis-monitor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arctis-monitor-bin)|[arctis-monitor-bin](https://aur.archlinux.org/packages/arctis-monitor-bin)||
+|**arsminal**|[arsminal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/arsminal-bin)|[arsminal-bin](https://aur.archlinux.org/packages/arsminal-bin)||
 |**astrofox**|[astrofox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/astrofox-bin)|[astrofox-bin](https://aur.archlinux.org/packages/astrofox-bin)||
 |**atlassify**|[atlassify-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-bin) <br> [atlassify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/atlassify-git)|[atlassify-bin](https://aur.archlinux.org/packages/atlassify-bin) <br> [atlassify-git](https://aur.archlinux.org/packages/atlassify-git)||
 |**atmos-weather**|[atmos-weather-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atmos-weather-bin)|[atmos-weather-bin](https://aur.archlinux.org/packages/atmos-weather-bin)||
