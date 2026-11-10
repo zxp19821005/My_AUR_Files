@@ -1,7 +1,7 @@
 pkgbase = workbuddy-bin
 	pkgdesc = Work Smart,Not Hard
 	pkgver = 5.5.6
-	pkgrel = 99
+	pkgrel = 100
 	url = https://www.workbuddy.cn/
 	arch = aarch64
 	arch = x86_64
@@ -23,7 +23,7 @@ pkgbase = workbuddy-bin
 	source = workbuddy.js
 	source = workbuddy.sh
 	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
-	sha256sums = ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e
+	sha256sums = d1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904
 	source_aarch64 = workbuddy-5.5.6-aarch64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.6/cn.workbuddy.otohime_5.5.6_arm64.deb
 	sha256sums_aarch64 = 644f12302f64035e1ac57a4ea9b8033a683a87a774a3e5fdd20c91413ac1e70e
 	source_x86_64 = workbuddy-5.5.6-x86_64.deb::https://github.com/kota-rina3/hokeshi/releases/download/workbuddy-5.5.6/cn.workbuddy.otohime_5.5.6_amd64.deb

@@ -4,7 +4,7 @@ _pkgname=WorkBuddy
 _debname="cn.${pkgname%-bin}.otohime"
 pkgver=5.5.6
 _electronversion=39
-pkgrel=99
+pkgrel=100
 pkgdesc="Work Smart,Not Hard"
 arch=(
     'aarch64'
@@ -40,7 +40,7 @@ source=(
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_amd64.deb")
 sha256sums=('562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
+            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 sha256sums_aarch64=('644f12302f64035e1ac57a4ea9b8033a683a87a774a3e5fdd20c91413ac1e70e')
 sha256sums_x86_64=('1decff1c164eb3b9bd3ca33e1750ad10ccdeeeb1de17ba934315c5b41481a024')
 _get_app_dir() {
@@ -67,31 +67,55 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    bsdtar -xf "${srcdir}/data."*
-    _check_electron_version
-    sed -i -e "
-        s/Exec=\/opt\/apps\/${_debname}\/files\/${pkgname%-bin}/Exec=${pkgname%-bin} %U/g
-        s/Icon=\/opt\/apps\/${_debname}\/files\/resources\/${_pkgname}.png/Icon=${pkgname%-bin}/g
-        s/Categories=Office;/Categories=Network;Office;/g
-    " "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop"
-    find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
-    rm -rf "$(_get_app_dir)/resources/elevate.exe"
-    asar e "$(_get_app_dir)/resources/app.asar" "${srcdir}/app.asar.unpacked" || true
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	bsdtar -xf "${srcdir}/data."*
+	local _appdir="$(_get_app_dir)"
+	_check_electron_version
+	sed -i -e "
+		s/Exec=\/opt\/apps\/${_debname}\/files\/${pkgname%-bin}/Exec=${pkgname%-bin} %U/g
+		s/Icon=\/opt\/apps\/${_debname}\/files\/resources\/${_pkgname}.png/Icon=${pkgname%-bin}/g
+		s/Categories=Office;/Categories=Network;Office;/g
+	" "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop"
+	rm -rf "${_appdir}/resources/elevate.exe"
+	rm -rf "${srcdir}/app.asar.unpacked"
+	asar e "${_appdir}/resources/app.asar" "${srcdir}/app.asar.unpacked" 2>/dev/null || true
 	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
-	find "$(_get_app_dir)" -type d \
+	find "${_appdir}" "${srcdir}/app.asar.unpacked" -type d \
 		\( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
 		-prune -exec rm -rf {} +
-    find "${srcdir}/app.asar.unpacked" -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g" {} +
-    asar p "${srcdir}/app.asar.unpacked" "$(_get_app_dir)/resources/app.asar"
+	{ grep -rlIZF 'process.resourcesPath' "${srcdir}/app.asar.unpacked" || true; } \
+		| xargs -0 -r sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-bin}\'/g"
+	local _refdir="${_appdir}/resources/app.asar.unpacked"
+	while IFS= read -r -d '' _p; do
+		if [[ -f "${srcdir}/app.asar.unpacked/${_p}" ]]; then
+			chmod --reference="${_refdir}/${_p}" "${srcdir}/app.asar.unpacked/${_p}"
+		fi
+	done < <(find "${_refdir}" -type f -perm /111 -printf '%P\0' 2>/dev/null)
+	local _bundle _patched=0
+	while IFS= read -r -d '' _bundle; do
+		sed -i -e '
+			s#const listCache = .*new Map();#const listCache = (globalThis.__WB_LIST_CACHE__ ??= new Map());#
+			s#const key = serializeListArgs(args);#const _argsKey = serializeListArgs(args); const key = _argsKey === void 0 ? void 0 : channel + "|" + _argsKey;#
+			s#DEFAULT_LIST_THROTTLE_MS = 300;#DEFAULT_LIST_THROTTLE_MS = 3000;#
+		' "${_bundle}"
+		grep -qF '__WB_LIST_CACHE__' "${_bundle}" || return 1
+		_patched=$(( _patched + 1 ))
+	done < <(grep -rlZF --include='*.js' 'DEFAULT_LIST_THROTTLE_MS' \
+		"${srcdir}/app.asar.unpacked/renderer/assets" || true)
+	(( _patched > 0 )) || { echo "list cache patch: no target bundle found"; return 1; }
+	rm -f "${_appdir}/resources/app.asar"
+	rm -rf "${_refdir}"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _install_icons
-    install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	find "$(_get_app_dir)/resources" -mindepth 1 -maxdepth 1 \
+		! -name 'app.asar' ! -name 'app.asar.unpacked' ! -name 'elevate.exe' \
+		-exec cp -a -t "${pkgdir}/usr/lib/${pkgname%-bin}" {} +
+	cp -a "${srcdir}/app.asar.unpacked" "${pkgdir}/usr/lib/${pkgname%-bin}"
+	_install_icons
+	install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
