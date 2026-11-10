@@ -285,6 +285,7 @@
 |**cursorlens**|[cursorlens-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursorlens-bin)|[cursorlens-bin](https://aur.archlinux.org/packages/cursorlens-bin)||
 |**cuttletron**|[cuttletron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-bin)<br>[cuttletron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-git)|[cuttletron-bin](https://aur.archlinux.org/packages/cuttletron-bin)<br>[cuttletron-git](https://aur.archlinux.org/packages/cuttletron-git)||
 |**cuuri**|[cuuri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuuri-bin)|[cuuri-bin](https://aur.archlinux.org/packages/cuuri-bin)||
+|**cxstudy**|[cxstudy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cxstudy-bin)|[cxstudy-bin](https://aur.archlinux.org/packages/cxstudy-bin)||
 |**cycode**|[cycode](https://github.com/zxp19821005/My_AUR_Files/tree/main/cycode)|[cycode](https://aur.archlinux.org/packages/cycode)||
 |**d0phamine-music-player**|[d0phamine-music-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/d0phamine-music-player-bin)|[d0phamine-music-player-bin](https://aur.archlinux.org/packages/d0phamine-music-player-bin)||
 |**daily-diary**|[daily-diary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/daily-diary-bin)|[daily-diary-bin](https://aur.archlinux.org/packages/daily-diary-bin)||
