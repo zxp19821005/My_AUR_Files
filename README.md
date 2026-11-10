@@ -175,6 +175,7 @@
 |**brs-desktop**|[brs-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/brs-desktop-bin)|[brs-desktop-bin](https://aur.archlinux.org/packages/brs-desktop-bin)||
 |**bsky-electron**|[bsky-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bsky-electron-bin)|[bsky-electron-bin](https://aur.archlinux.org/packages/bsky-electron-bin)||
 |**bssenglish**|[bssenglish-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bssenglish-bin)|[bssenglish-bin](https://aur.archlinux.org/packages/bssenglish-bin)||
+|**bsv-desktop**|[bsv-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bsv-desktop-bin)|[bsv-desktop-bin](https://aur.archlinux.org/packages/bsv-desktop-bin)||
 |**budgeted-ui**|[budgeted-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/budgeted-ui-bin)|[budgeted-ui-bin](https://aur.archlinux.org/packages/budgeted-ui-bin)||
 |**bulkurlopener**|[bulkurlopener-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bulkurlopener-bin)|[bulkurlopener-bin](https://aur.archlinux.org/packages/bulkurlopener-bin)||
 |**burrow**|[burrow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/burrow-bin)|[burrow-bin](https://aur.archlinux.org/packages/burrow-bin)||
