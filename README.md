@@ -1342,6 +1342,7 @@
 |**soundcloud-rpc**|[soundcloud-rpc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundcloud-rpc-bin)<br>[soundcloud-rpc-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundcloud-rpc-git)|[soundcloud-rpc-bin](https://aur.archlinux.org/packages/soundcloud-rpc-bin)<br>[soundcloud-rpc-git](https://aur.archlinux.org/packages/soundcloud-rpc-git)||
 |**soundsync**|[soundsync-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/soundsync-bin)|[soundsync-bin](https://aur.archlinux.org/packages/soundsync-bin)||
 |**space-client**|[space-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-client-bin)|[space-client-bin](https://aur.archlinux.org/packages/space-client-bin)||
+|**spaceknife**|[spaceknife-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spaceknife-bin)|[spaceknife-bin](https://aur.archlinux.org/packages/spaceknife-bin)||
 |**spacemesh**|[spacemesh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spacemesh-bin)|[spacemesh-bin](https://aur.archlinux.org/packages/spacemesh-bin)||
 |**space-snake**|[space-snake-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/space-snake-bin)|[space-snake-bin](https://aur.archlinux.org/packages/space-snake-bin)||
 |**spark-dwine-helper**|[spark-dwine-helper](https://github.com/zxp19821005/My_AUR_Files/tree/main/spark-dwine-helper)|[spark-dwine-helper](https://aur.archlinux.org/packages/spark-dwine-helper)||
