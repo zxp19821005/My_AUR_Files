@@ -1467,6 +1467,7 @@
 |**tomatox**|[tomatox-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomatox-bin)|[tomatox-bin](https://aur.archlinux.org/packages/tomatox-bin)||
 |**tome**|[tome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tome-bin)|[tome-bin](https://aur.archlinux.org/packages/tome-bin)||
 |**tomedb**|[tomedb-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tomedb-bin)|[tomedb-bin](https://aur.archlinux.org/packages/tomedb-bin)||
+|**tommy**|[tommy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/tommy-git)|[tommy-git](https://aur.archlinux.org/packages/tommy-git)||
 |**topzl**|[topzl-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/topzl-git)|[topzl-git](https://aur.archlinux.org/packages/topzl-git)||
 |**torepe**|[torepe-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/torepe-git)|[torepe-git](https://aur.archlinux.org/packages/torepe-git)||
 |**trae**|[trae-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/trae-bin)|自用版||
