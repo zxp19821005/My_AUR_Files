@@ -970,6 +970,7 @@
 |**nginx-ui**|[nginx-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nginx-ui-bin)|[nginx-ui-bin](https://aur.archlinux.org/packages/nginx-ui-bin)||
 |**ngrev**|[ngrev-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ngrev-bin)|[ngrev-bin](https://aur.archlinux.org/packages/ngrev-bin)||
 |**niconizer**|[niconizer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/niconizer-bin)|[niconizer-bin](https://aur.archlinux.org/packages/niconizer-bin)||
+|**nodechem-studio**|[nodechem-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodechem-studio-bin)|[nodechem-studio-bin](https://aur.archlinux.org/packages/nodechem-studio-bin)||
 |**nodeflow**|[nodeflow-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/nodeflow-bin)|[nodeflow-bin](https://aur.archlinux.org/packages/nodeflow-bin)||
 |**node-toolkit**|[node-toolkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/node-toolkit-git)|[node-toolkit-git](https://aur.archlinux.org/packages/node-toolkit-git)||
 |**no-fwl**|[no-fwl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/no-fwl-bin)|[no-fwl-bin](https://aur.archlinux.org/packages/no-fwl-bin)||
