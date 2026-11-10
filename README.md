@@ -751,6 +751,7 @@
 |**kcl**|[kcl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kcl-bin)|[kcl-bin](https://aur.archlinux.org/packages/kcl-bin)||
 |**keep-audio-alive**|[keep-audio-alive-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keep-audio-alive-git)|[keep-audio-alive-git](https://aur.archlinux.org/packages/keep-audio-alive-git)||
 |**keeweb**|[keeweb-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/keeweb-git)|[keeweb-git](https://aur.archlinux.org/packages/keeweb-git)||
+|**kettu**|[kettu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kettu-bin)|[kettu-bin](https://aur.archlinux.org/packages/kettu-bin)||
 |**key-echo**|[key-echo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/key-echo-bin)|[key-echo-bin](https://aur.archlinux.org/packages/key-echo-bin)||
 |**keylight-commander**|[keylight-commander-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keylight-commander-bin)|[keylight-commander-bin](https://aur.archlinux.org/packages/keylight-commander-bin)||
 |**keyopen**|[keyopen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keyopen-bin)|[keyopen-bin](https://aur.archlinux.org/packages/keyopen-bin)||
