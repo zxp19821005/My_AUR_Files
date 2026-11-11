@@ -1237,6 +1237,7 @@
 |**retext**|[retext-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/retext-git)|[retext-git](https://aur.archlinux.org/packages/retext-git)||
 |**reticulum-meshchat**|[reticulum-meshchat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/reticulum-meshchat-bin)|[reticulum-meshchat-bin](https://aur.archlinux.org/packages/reticulum-meshchat-bin)||
 |**revezone**|[revezone](https://github.com/zxp19821005/My_AUR_Files/tree/main/revezone)|[revezone](https://aur.archlinux.org/packages/revezone)||
+|**reviewforge**|[reviewforge-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/reviewforge-git)|[reviewforge-git](https://aur.archlinux.org/packages/reviewforge-git)||
 |**rgsm**|[rgsm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rgsm-bin)|[rgsm-bin](https://aur.archlinux.org/packages/rgsm-bin)||
 |**rhyolite**|[rhyolite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rhyolite-bin)|[rhyolite-bin](https://aur.archlinux.org/packages/rhyolite-bin)||
 |**rickrack**|[rickrack-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/rickrack-bin)|[rickrack-bin](https://aur.archlinux.org/packages/rickrack-bin)||
