@@ -185,6 +185,7 @@
 |**caligator**|[caligator-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caligator-git)|[caligator-git](https://aur.archlinux.org/packages/caligator-git)||
 |**calmly-writer**|[calmly-writer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/calmly-writer-bin)|[calmly-writer-bin](https://aur.archlinux.org/packages/calmly-writer-bin)||
 |**calt**|[calt-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/calt-git)|[calt-git](https://aur.archlinux.org/packages/calt-git)||
+|**canvast**|[canvast-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/canvast-bin)|[canvast-bin](https://aur.archlinux.org/packages/canvast-bin)||
 |**caprine**|[caprine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-bin)<br>[caprine-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-git)|[caprine-bin](https://aur.archlinux.org/packages/caprine-bin)<br>[caprine-git](https://aur.archlinux.org/packages/caprine-git)||
 |**caprine-ng**|[caprine-ng-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/caprine-ng-git)|[caprine-ng-git](https://aur.archlinux.org/packages/caprine-ng-git)||
 |**captfencoder**|[captfencoder-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/captfencoder-bin)|[captfencoder-bin](https://aur.archlinux.org/packages/captfencoder-bin)||
