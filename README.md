@@ -18,6 +18,7 @@
 |**affine**|[affine-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-bin)|[affine-bin](https://aur.archlinux.org/packages/affine-bin)||
 |**affine-canary**|[affine-canary-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/affine-canary-bin)|[affine-canary-bin](https://aur.archlinux.org/packages/affine-canary-bin)||
 |**agendapp**|[agendapp](https://github.com/zxp19821005/My_AUR_Files/tree/main/agendapp)|[agendapp](https://aur.archlinux.org/packages/agendapp)||
+|**agentcue**|[agentcue-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/agentcue-bin)|[agentcue-bin](https://aur.archlinux.org/packages/agentcue-bin)||
 |**ai-assistant-studio**|[ai-assistant-studio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-assistant-studio-bin)|[ai-assistant-studio-bin](https://aur.archlinux.org/packages/ai-assistant-studio-bin)||
 |**ai-browser**|[ai-browser-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-browser-bin)<br>[ai-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-browser-git)|[ai-browser-bin](https://aur.archlinux.org/packages/ai-browser-bin)<br>[ai-browser-git](https://aur.archlinux.org/packages/ai-browser-git)||
 |**ai-chat**|[ai-chat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ai-chat-bin)|[ai-chat-bin](https://aur.archlinux.org/packages/ai-chat-bin)||
