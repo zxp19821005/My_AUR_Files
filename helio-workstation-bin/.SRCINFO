@@ -1,0 +1,18 @@
+pkgbase = helio-workstation-bin
+	pkgdesc = A free and open-source music sequencer for desktop and mobile platforms.
+	pkgver = 3.18
+	pkgrel = 1
+	url = https://helio.fm/
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = alsa-lib
+	depends = libglvnd
+	depends = freetype2
+	depends = hicolor-icon-theme
+	provides = helio-workstation=3.18
+	conflicts = helio-workstation
+	options = !strip
+	source = helio-workstation-3.18.deb::https://ci.helio.fm/helio-3.18-x64.deb
+	sha256sums = af2f6d74c34ec04c6c1ab728955f6e14d2b32e22a848414492690b33f7ccb9a2
+
+pkgname = helio-workstation-bin
