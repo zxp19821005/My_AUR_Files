@@ -808,6 +808,7 @@
 |**letos**|[letos-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/letos-bin)|[letos-bin](https://aur.archlinux.org/packages/letos-bin)||
 |**lettura**|[lettura-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lettura-bin)|[lettura-bin](https://aur.archlinux.org/packages/lettura-bin)||
 |**lexicanter**|[lexicanter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lexicanter-bin)|[lexicanter-bin](https://aur.archlinux.org/packages/lexicanter-bin)||
+|**libreget**|[libreget-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/libreget-bin)|[libreget-bin](https://aur.archlinux.org/packages/libreget-bin)||
 |**librelinkupdesktop**|[librelinkupdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librelinkupdesktop-bin)|[librelinkupdesktop-bin](https://aur.archlinux.org/packages/librelinkupdesktop-bin)||
 |**libvgm**|[libvgm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/libvgm-git)||自用版|
 |**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
