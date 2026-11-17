@@ -1610,6 +1610,7 @@
 |**webs-tray**|[webs-tray-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webs-tray-git)|[webs-tray-git](https://aur.archlinux.org/packages/webs-tray-git)||
 |**webtorrent-desktop**|[webtorrent-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/webtorrent-desktop-git)|[webtorrent-desktop-git](https://aur.archlinux.org/packages/webtorrent-desktop-git)||
 |**web-value-tracker**|[web-value-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/web-value-tracker-bin)|[web-value-tracker-bin](https://aur.archlinux.org/packages/web-value-tracker-bin)||
+|**wechat-kages**|[wechat-kages-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-kages-bin)|[wechat-kages-bin](https://aur.archlinux.org/packages/wechat-kages-bin)||
 |**wechat-linux**|[wechat-linux-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wechat-linux-bin)|AUR 上未发布|
 |**weektodo**|[weektodo-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weektodo-bin)|[weektodo-bin](https://aur.archlinux.org/packages/weektodo-bin)||
 |**weimail**|[weimail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/weimail-bin)|[weimail-bin](https://aur.archlinux.org/packages/weimail-bin)||
