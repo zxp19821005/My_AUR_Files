@@ -1366,6 +1366,7 @@
 |**spie**|[spie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spie-bin)|[spie-bin](https://aur.archlinux.org/packages/spie-bin)||
 |**spine-viewer-vue**|[spine-viewer-vue-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/spine-viewer-vue-git)|[spine-viewer-vue-git](https://aur.archlinux.org/packages/spine-viewer-vue-git)||
 |**splayer**|[splayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-bin) <br> [splayer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-git)|[splayer-bin](https://aur.archlinux.org/packages/splayer-bin) <br> [splayer-git](https://aur.archlinux.org/packages/splayer-git)||
+|**splayer-next**|[splayer-next-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-next-bin)||自用版|
 |**spool**|[spool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spool-bin)|[spool-bin](https://aur.archlinux.org/packages/spool-bin)||
 |**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
 |**spotify-electron**|[spotify-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotify-electron-bin)|[spotify-electron-bin](https://aur.archlinux.org/packages/spotify-electron-bin)||

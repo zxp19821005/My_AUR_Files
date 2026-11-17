@@ -1,0 +1,20 @@
+pkgbase = splayer-next-bin
+	pkgdesc = 🎵 Cross-platform desktop music player with rich lyric support and wide audio format compatibility.
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/SPlayer-Dev/SPlayer-Next
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = electron44
+	depends = libpipewire
+	depends = libpulse
+	provides = splayer-next=1.2.0
+	conflicts = splayer-next
+	source = splayer-next-1.2.0.pacman::https://github.com/SPlayer-Dev/SPlayer-Next/releases/download/v1.2.0/splayer-next-1.2.0-x64.pacman
+	source = splayer-next.js
+	source = splayer-next.sh
+	sha256sums = 5b9ae8ea51c0856cf87ace79fb958a4288b6ff7cee5562012d4129b987cef1e1
+	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
+	sha256sums = d1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904
+
+pkgname = splayer-next-bin
