@@ -1,0 +1,22 @@
+pkgbase = alicorn-git
+	pkgdesc = A faithful launcher for composable games.
+	pkgver = 3.0.4.r42.g2cdb0da
+	pkgrel = 1
+	url = https://github.com/Andy-K-Sparklight/Alicorn
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = bun
+	makedepends = jq
+	depends = electron44
+	source = alicorn.git::git+https://github.com/Andy-K-Sparklight/Alicorn.git
+	source = alicorn.js
+	source = alicorn.sh
+	sha256sums = SKIP
+	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
+	sha256sums = d1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904
+
+pkgname = alicorn-git
