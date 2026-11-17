@@ -590,6 +590,7 @@
 |**fylepad**|[fylepad-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fylepad-bin)|[fylepad-bin](https://aur.archlinux.org/packages/fylepad-bin)||
 |**game-box**|[game-box-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/game-box-bin)|[game-box-bin](https://aur.archlinux.org/packages/game-box-bin)||
 |**gameclock**|[gameclock-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-bin) <br> [gameclock-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/gameclock-git)|[gameclock-bin](https://aur.archlinux.org/packages/gameclock-bin) <br> [gameclock-git](https://aur.archlinux.org/packages/gameclock-git)||
+|**gaotu-coding**|[gaotu-coding-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gaotu-coding-bin)|[gaotu-coding-bin](https://aur.archlinux.org/packages/gaotu-coding-bin)||
 |**gchat**|[gchat](https://github.com/zxp19821005/My_AUR_Files/tree/main/gchat)|[gchat](https://aur.archlinux.org/packages/gchat)||
 |**gdevelop**|[gdevelop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/gdevelop-bin)|[gdevelop-bin](https://aur.archlinux.org/packages/gdevelop-bin)||
 |**geekeditor**|[geekeditor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/geekeditor-bin)|[geekeditor-bin](https://aur.archlinux.org/packages/geekeditor-bin)||
@@ -721,6 +722,7 @@
 |**ipatool**|[ipatool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ipatool-bin)|[ipatool-bin](https://aur.archlinux.org/packages/ipatool-bin)||
 |**iptvnator-electron**|[iptvnator-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iptvnator-electron-bin)|[iptvnator-electron-bin](https://aur.archlinux.org/packages/iptvnator-electron-bin)||
 |**ipv6prefixfilter**|[ipv6prefixfilter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ipv6prefixfilter-bin)|[ipv6prefixfilter-bin](https://aur.archlinux.org/packages/ipv6prefixfilter-bin)||
+|**iqiyi**|[iqiyi-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/iqiyi-bin)|[iqiyi-bin](https://aur.archlinux.org/packages/iqiyi-bin)||
 |**issie**|[issie](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie) <br> [issie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/issie-bin)|[issie](https://aur.archlinux.org/packages/issie) <br> [issie-bin](https://aur.archlinux.org/packages/issie-bin)||
 |**itime**|[itime-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/itime-git)|[itime-git](https://aur.archlinux.org/packages/itime-git)||
 |**jammer**|[jammer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/jammer-bin)|[jammer-bin](https://aur.archlinux.org/packages/jammer-bin)||
@@ -1201,6 +1203,7 @@
 |**quicknote**|[quicknote](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote) <br> [quicknote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote-bin) <br> [quicknote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/quicknote-git)|[quicknote](https://aur.archlinux.org/packages/quicknote) <br> [quicknote-bin](https://aur.archlinux.org/packages/quicknote-bin) <br> [quicknote-git](https://aur.archlinux.org/packages/quicknote-git)||
 |**quickpdfjoin**|[quickpdfjoin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quickpdfjoin-bin)|[quickpdfjoin-bin](https://aur.archlinux.org/packages/quickpdfjoin-bin)||
 |**quory**|[quory-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quory-bin)|[quory-bin](https://aur.archlinux.org/packages/quory-bin)||
+|**qwen**|[qwen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwen-bin)|[qwen-bin](https://aur.archlinux.org/packages/qwen-bin)||
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage) <br> [qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage) <br> [qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
 |**r2uploader**|[r2uploader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r2uploader-bin)|[r2uploader-bin](https://aur.archlinux.org/packages/r2uploader-bin)||
 |**r3play**|[r3play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-bin)|[r3play-bin](https://aur.archlinux.org/packages/r3play-bin)||
