@@ -1020,6 +1020,7 @@
 |**ollama-chat-desktop**|[ollama-chat-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-chat-desktop-git)|[ollama-chat-desktop-git](https://aur.archlinux.org/packages/ollama-chat-desktop-git)||
 |**ollama-runner**|[ollama-runner-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/ollama-runner-git)|[ollama-runner-git](https://aur.archlinux.org/packages/ollama-runner-git)||
 |**omniget**|[omniget-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/omniget-bin)|[omniget-bin](https://aur.archlinux.org/packages/omniget-bin)||
+|**omofun**|[omofun-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/omofun-bin)|[omofun-bin](https://aur.archlinux.org/packages/omofun-bin)||
 |**one-gpt**|[one-gpt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-gpt-bin)|[one-gpt-bin](https://aur.archlinux.org/packages/one-gpt-bin)||
 |**onekey-wallet**|[onekey-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onekey-wallet-bin)|[onekey-wallet-bin](https://aur.archlinux.org/packages/onekey-wallet-bin)||
 |**one-api**|[one-api-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/one-api-bin)|[one-api-bin](https://aur.archlinux.org/packages/one-api-bin)||
