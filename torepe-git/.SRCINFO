@@ -1,0 +1,23 @@
+pkgbase = torepe-git
+	pkgdesc = Desktop Tool Application for visual comparing the differences between design and implementation.
+	pkgver = 1.6.5.r25.gf32ce24
+	pkgrel = 1
+	url = https://nekobato.github.io/Torepe/
+	arch = any
+	license = LicenseRef-unknown
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = pnpm
+	makedepends = jq
+	depends = electron45
+	provides = torepe=1.6.5
+	conflicts = torepe
+	source = torepe.git::git+https://github.com/nekobato/Torepe.git
+	source = torepe.js
+	source = torepe.sh
+	sha256sums = SKIP
+	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
+	sha256sums = d1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904
+
+pkgname = torepe-git
