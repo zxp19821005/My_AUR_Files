@@ -1682,6 +1682,7 @@
 |**yidongbangong**|[yidongbangong-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yidongbangong-bin)|[yidongbangong-bin](https://aur.archlinux.org/packages/yidongbangong-bin)||
 |**yiyang-suite**|[yiyang-suite-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yiyang-suite-bin)|[yiyang-suite-bin](https://aur.archlinux.org/packages/yiyang-suite-bin)||
 |**ynote-desktop**|[ynote-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ynote-desktop-bin)|[ynote-desktop-bin](https://aur.archlinux.org/packages/ynote-desktop-bin)||
+|**yogurt**|[yogurt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yogurt-bin)|[yogurt-bin](https://aur.archlinux.org/packages/yogurt-bin)||
 |**yor**|[yor-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/yor-bin)|[yor-bin](https://aur.archlinux.org/packages/yor-bin)||
 |**youdao-dict**|[youdao-dict](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdao-dict)|[youdao-dict](https://aur.archlinux.org/packages/youdao-dict)||
 |**youdaodict**|[youdaodict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/youdaodict-bin)|[youdaodict-bin](https://aur.archlinux.org/packages/youdaodict-bin)||
