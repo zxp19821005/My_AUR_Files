@@ -526,6 +526,7 @@
 |**fastdownloader**|[fastdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastdownloader-bin)|[fastdownloader-bin](https://aur.archlinux.org/packages/fastdownloader-bin)||
 |**fastnote**|[fastnote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/fastnote-git)|[fastnote-git](https://aur.archlinux.org/packages/fastnote-git)||
 |**favicon-generator**|[favicon-generator](https://github.com/zxp19821005/My_AUR_Files/tree/main/favicon-generator)|[favicon-generator](https://aur.archlinux.org/packages/favicon-generator)||
+|**fcitx5-qingjian**|[fcitx5-qingjian-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx5-qingjian-bin)|[fcitx5-qingjian-bin](https://aur.archlinux.org/packages/fcitx5-qingjian-bin)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
 |**fcitx-sogoupinyin**|[fcitx-sogoupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-sogoupinyin)||自用版|
 |**fdc3-sail**|[fdc3-sail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-bin)|[fdc3-sail-bin](https://aur.archlinux.org/packages/fdc3-sail-bin)||
