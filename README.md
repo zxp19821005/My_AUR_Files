@@ -518,6 +518,7 @@
 |**expertisex**|[expertisex-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/expertisex-bin)|[expertisex-bin](https://aur.archlinux.org/packages/expertisex-bin)||
 |**explorama**|[explorama-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/explorama-bin)|[explorama-bin](https://aur.archlinux.org/packages/explorama-bin)||
 |**extraterm**|[extraterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/extraterm-bin)|[extraterm-bin](https://aur.archlinux.org/packages/extraterm-bin)||
+|**ez-azfw-manager**|[ez-azfw-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ez-azfw-manager-bin)|[ez-azfw-manager-bin](https://aur.archlinux.org/packages/ez-azfw-manager-bin)||
 |**ezytdl**|[ezytdl-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ezytdl-bin)|[ezytdl-bin](https://aur.archlinux.org/packages/ezytdl-bin)||
 |**f1mv-lights-integration**|[f1mv-lights-integration-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/f1mv-lights-integration-bin)|[f1mv-lights-integration-bin](https://aur.archlinux.org/packages/f1mv-lights-integration-bin)||
 |**fabio**|[fabio-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fabio-bin)|[fabio-bin](https://aur.archlinux.org/packages/fabio-bin)||
