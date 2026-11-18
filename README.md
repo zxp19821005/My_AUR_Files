@@ -1179,6 +1179,7 @@
 |**proton-mail-viewer**|[proton-mail-viewer](https://github.com/zxp19821005/My_AUR_Files/tree/main/proton-mail-viewer)|[proton-mail-viewer](https://aur.archlinux.org/packages/proton-mail-viewer)||
 |**proxy-manager**|[proxy-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/proxy-manager-git)|[proxy-manager-git](https://aur.archlinux.org/packages/proxy-manager-git)||
 |**proxypin**|[proxypin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/proxypin-bin)|[proxypin-bin](https://aur.archlinux.org/packages/proxypin-bin)||
+|**ptah**|[ptah-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptah-bin)|[ptah-bin](https://aur.archlinux.org/packages/ptah-bin)||
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin) <br> [publii-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-git)|[publii-bin](https://aur.archlinux.org/packages/publii-bin) <br> [publii-git](https://aur.archlinux.org/packages/publii-git)||
 |**pulsar**|[pulsar-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulsar-git)|[pulsar-git](https://aur.archlinux.org/packages/pulsar-git)||
