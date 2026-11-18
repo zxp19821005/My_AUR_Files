@@ -152,6 +152,7 @@
 |**bitclient**|[bitclient-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitclient-bin)|[bitclient-bin](https://aur.archlinux.org/packages/bitclient-bin)||
 |**bitrise**|[bitrise-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitrise-bin)|[bitrise-bin](https://aur.archlinux.org/packages/bitrise-bin)||
 |**bitshares-astro-ui**|[bitshares-astro-ui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bitshares-astro-ui-bin)|[bitshares-astro-ui-bin](https://aur.archlinux.org/packages/bitshares-astro-ui-bin)||
+|**blanc**|[blanc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blanc-bin)|[blanc-bin](https://aur.archlinux.org/packages/blanc-bin)||
 |**blink-player**|[blink-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/blink-player-bin)|[blink-player-bin](https://aur.archlinux.org/packages/blink-player-bin)||
 |**blot**|[blot-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/blot-git)|[blot-git](https://aur.archlinux.org/packages/blot-git)||
 |**bluebubbles**|[bluebubbles-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/bluebubbles-bin)|[bluebubbles-bin](https://aur.archlinux.org/packages/bluebubbles-bin)||
