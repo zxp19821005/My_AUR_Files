@@ -1351,6 +1351,7 @@
 |**snippai**|[snippai-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippai-bin)<br>[snippai-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippai-git)|[snippai-bin](https://aur.archlinux.org/packages/snippai-bin)<br>[snippai-git](https://aur.archlinux.org/packages/snippai-git)||
 |**snippet-notes**|[snippet-notes](https://github.com/zxp19821005/My_AUR_Files/tree/main/snippet-notes)|[snippet-notes](https://aur.archlinux.org/packages/snippet-notes)||
 |**snsdeck**|[snsdeck](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck) <br> [snsdeck-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/snsdeck-bin)|[snsdeck](https://aur.archlinux.org/packages/snsdeck) <br> [snsdeck-bin](https://aur.archlinux.org/packages/snsdeck-bin)||
+|**sodam**|[sodam-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/sodam-git)|[sodam-git](https://aur.archlinux.org/packages/sodam-git)||
 |**sofie-chef**|[sofie-chef-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sofie-chef-bin)|[sofie-chef-bin](https://aur.archlinux.org/packages/sofie-chef-bin)||
 |**sokuji**|[sokuji-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/sokuji-bin)|[sokuji-bin](https://aur.archlinux.org/packages/sokuji-bin)||
 |**solar-wallet**|[solar-wallet-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/solar-wallet-bin)|[solar-wallet-bin](https://aur.archlinux.org/packages/solar-wallet-bin)||
