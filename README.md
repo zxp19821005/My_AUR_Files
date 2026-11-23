@@ -104,6 +104,7 @@
 |**atrust**|[atrust-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atrust-bin)|[atrust-bin](https://aur.archlinux.org/packages/atrust-bin)||
 |**atv-remote**|[atv-remote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/atv-remote-bin)|[atv-remote-bin](https://aur.archlinux.org/packages/atv-remote-bin)||
 |**audax-data-manager**|[audax-data-manager-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/audax-data-manager-bin)|[audax-data-manager-bin](https://aur.archlinux.org/packages/audax-data-manager-bin)||
+|**aurora-player**|[aurora-player-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/aurora-player-git)|[aurora-player-git](https://aur.archlinux.org/packages/aurora-player-git)||
 |**authme**|[authme-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authme-bin)|[authme-bin](https://aur.archlinux.org/packages/authme-bin)||
 |**autho-iptv**|[autho-iptv-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/autho-iptv-bin)|[autho-iptv-bin](https://aur.archlinux.org/packages/autho-iptv-bin)||
 |**authpass**|[authpass-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/authpass-bin)|[authpass-bin](https://aur.archlinux.org/packages/authpass-bin)||
