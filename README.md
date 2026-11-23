@@ -121,7 +121,7 @@
 |**axonops-workbench**|[axonops-workbench-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/axonops-workbench-bin)|[axonops-workbench-bin](https://aur.archlinux.org/packages/axonops-workbench-bin)||
 |**aya**|[aya-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/aya-bin)|[aya-bin](https://aur.archlinux.org/packages/aya-bin)||
 |**backend-ai-desktop**|[backend-ai-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/backend-ai-desktop-bin)|[backend-ai-desktop-bin](https://aur.archlinux.org/packages/backend-ai-desktop-bin)||
-|**baidunetdisk-electron**|[baidunetdisk-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidunetdisk-electron-bin)||自用版|
+|**baidunetdisk-electron**|[baidunetdisk-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidunetdisk-electron-bin)|自用版||
 |**baidu-translate-client**|[baidu-translate-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-client-bin)|自用版||
 |**baidu-translate-company**|[baidu-translate-company-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baidu-translate-company-bin)|[baidu-translate-company-bin](https://aur.archlinux.org/packages/baidu-translate-company-bin)||
 |**baiduwenku**|[baiduwenku-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/baiduwenku-bin)|[baiduwenku-bin](https://aur.archlinux.org/packages/baiduwenku-bin)||
@@ -230,7 +230,7 @@
 |**circle-chain-desktop**|[circle-chain-desktop-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/circle-chain-desktop-git)|[circle-chain-desktop-git](https://aur.archlinux.org/packages/circle-chain-desktop-git)||
 |**citronote**|[citronote-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/citronote-git)|[citronote-git](https://aur.archlinux.org/packages/citronote-git)||
 |**clash-auto**|[clash-auto-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-auto-bin)|[clash-auto-bin](https://aur.archlinux.org/packages/clash-auto-bin)||
-|**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)||自用版|
+|**clash-for-windows-zh**|[clash-for-windows-zh-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-for-windows-zh-bin)|自用版||
 |**clash-nyanpasu**|[clash-nyanpasu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-nyanpasu-bin)|自用版|
 |**clash-of-rust**|[clash-of-rust-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-of-rust-bin)|[clash-of-rust-bin](https://aur.archlinux.org/packages/clash-of-rust-bin)||
 |**clash-party**|[clash-party-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/clash-party-bin)|[clash-party-bin](https://aur.archlinux.org/packages/clash-party-bin)||
@@ -290,7 +290,7 @@
 |**cubytext**|[cubytext-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cubytext-bin)|[cubytext-bin](https://aur.archlinux.org/packages/cubytext-bin)||
 |**cultivation**|[cultivation](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation)<br>[cultivation-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cultivation-bin)|[cultivation](https://aur.archlinux.org/packages/cultivation)<br>[cultivation-bin](https://aur.archlinux.org/packages/cultivation-bin)||
 |**currency-converter**|[currency-converter-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/currency-converter-git)|[currency-converter-git](https://aur.archlinux.org/packages/currency-converter-git)||
-|**cursor-electron**|[cursor-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursor-electron-bin)||AUR未提交|
+|**cursor-electron**|[cursor-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursor-electron-bin)|AUR 上未提交||
 |**cursorlens**|[cursorlens-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cursorlens-bin)|[cursorlens-bin](https://aur.archlinux.org/packages/cursorlens-bin)||
 |**cuttletron**|[cuttletron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-bin)<br>[cuttletron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuttletron-git)|[cuttletron-bin](https://aur.archlinux.org/packages/cuttletron-bin)<br>[cuttletron-git](https://aur.archlinux.org/packages/cuttletron-git)||
 |**cuuri**|[cuuri-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/cuuri-bin)|[cuuri-bin](https://aur.archlinux.org/packages/cuuri-bin)||
@@ -329,10 +329,10 @@
 |**deepin-wine-ttplayer**|[deepin-wine-ttplayer](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ttplayer)|[deepin-wine-ttplayer](https://aur.archlinux.org/packages/deepin-wine-ttplayer)||
 |**deepin-wine-weiyunsync**|[deepin-wine-weiyunsync](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-weiyunsync)|[deepin-wine-weiyunsync](https://aur.archlinux.org/packages/deepin-wine-weiyunsync)||
 |**deepin-wine-welink**|[deepin-wine-welink](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-welink)|[deepin-wine-welink](https://aur.archlinux.org/packages/deepin-wine-welink)||
-|**deepin-wine-wxwork**|[deepin-wine-wxwork](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-wxwork)||AUR 上未提交|
+|**deepin-wine-wxwork**|[deepin-wine-wxwork](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-wxwork)|AUR 上未提交|
 |**deepin-wine-xiguavideo**|[deepin-wine-xiguavideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-xiguavideo)|[deepin-wine-xiguavideo](https://aur.archlinux.org/packages/deepin-wine-xiguavideo)||
 |**deepin-wine-ximalaya**|[deepin-wine-ximalaya](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-ximalaya)|[deepin-wine-ximalaya](https://aur.archlinux.org/packages/deepin-wine-ximalaya)||
-|**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)||AUR 上未提交|
+|**deepin-wine-youku**|[deepin-wine-youku](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-youku)|AUR 上未提交||
 |**deepin-wine-yuque**|[deepin-wine-yuque](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepin-wine-yuque)|[deepin-wine-yuque](https://aur.archlinux.org/packages/deepin-wine-yuque)||
 |**deeplink-launcher**|[deeplink-launcher-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deeplink-launcher-bin)|[deeplink-launcher-bin](https://aur.archlinux.org/packages/deeplink-launcher-bin)||
 |**deepl-linux-electron**|[deepl-linux-electron](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepl-linux-electron) <br> [deepl-linux-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepl-linux-electron-bin) <br> [deepl-linux-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/deepl-linux-electron-git)|[deepl-linux-electron](https://aur.archlinux.org/packages/deepl-linux-electron) <br> [deepl-linux-electron-bin](https://aur.archlinux.org/packages/deepl-linux-electron-bin) <br> [deepl-linux-electron-git](https://aur.archlinux.org/packages/deepl-linux-electron-git)||
@@ -355,7 +355,7 @@
 |**differon**|[differon-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/differon-git)|[differon-git](https://aur.archlinux.org/packages/differon-git)||
 |**diffuse-player**|[diffuse-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/diffuse-player-bin)|[diffuse-player-bin](https://aur.archlinux.org/packages/diffuse-player-bin)||
 |**dilidili**|[dilidili-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/dilidili-git)|[dilidili-git](https://aur.archlinux.org/packages/dilidili-git)||
-|**dingtalk**|[dingtalk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dingtalk-bin)||自用版|
+|**dingtalk**|[dingtalk-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/dingtalk-bin)|自用版||
 |**discord-account-manager**|[discord-account-manager-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-account-manager-git)|[discord-account-manager-git](https://aur.archlinux.org/packages/discord-account-manager-git)||
 |**discord-history-tracker**|[discord-history-tracker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-history-tracker-bin)|[discord-history-tracker-bin](https://aur.archlinux.org/packages/discord-history-tracker-bin)||
 |**discord-netflix**|[discord-netflix](https://github.com/zxp19821005/My_AUR_Files/tree/main/discord-netflix)|[discord-netflix](https://aur.archlinux.org/packages/discord-netflix)||
@@ -404,11 +404,11 @@
 |**electrocrud**|[electrocrud-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electrocrud-bin)|[electrocrud-bin](https://aur.archlinux.org/packages/electrocrud-bin)||
 |**electron2**|[electron2-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron2-bin)|[electron2-bin](https://aur.archlinux.org/packages/electron2-bin)||
 |**electron3**|[electron3-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron3-bin)|[electron3-bin](https://aur.archlinux.org/packages/electron3-bin)||
-|**electron4**|[electron4-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron4-bin)||自用版|
-|**electron5**|[electron5-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron5-bin)||自用版|
-|**electron6**|[electron6-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron6-bin)||自用版|
-|**electron7**|[electron7-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron7-bin)||自用版|
-|**electron8**|[electron8-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron8-bin)||自用版|
+|**electron4**|[electron4-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron4-bin)|自用版||
+|**electron5**|[electron5-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron5-bin)|自用版||
+|**electron6**|[electron6-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron6-bin)|自用版||
+|**electron7**|[electron7-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron7-bin)|自用版||
+|**electron8**|[electron8-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron8-bin)|自用版||
 |**electron9**|[electron9-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron9-bin)|[electron9-bin](https://aur.archlinux.org/packages/electron9-bin)||
 |**electron10**|[electron10-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron10-bin)|[electron10-bin](https://aur.archlinux.org/packages/electron10-bin)||
 |**electron11**|[electron11-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/electron11-bin)|[electron11-bin](https://aur.archlinux.org/packages/electron11-bin)||
@@ -532,7 +532,7 @@
 |**favicon-generator**|[favicon-generator](https://github.com/zxp19821005/My_AUR_Files/tree/main/favicon-generator)|[favicon-generator](https://aur.archlinux.org/packages/favicon-generator)||
 |**fcitx5-qingjian**|[fcitx5-qingjian-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx5-qingjian-bin)|[fcitx5-qingjian-bin](https://aur.archlinux.org/packages/fcitx5-qingjian-bin)||
 |**fcitx-huayupinyin**|[fcitx-huayupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-huayupinyin)|[fcitx-huayupinyin](https://aur.archlinux.org/packages/fcitx-huayupinyin)||
-|**fcitx-sogoupinyin**|[fcitx-sogoupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-sogoupinyin)||自用版|
+|**fcitx-sogoupinyin**|[fcitx-sogoupinyin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fcitx-sogoupinyin)|自用版||
 |**fdc3-sail**|[fdc3-sail-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/fdc3-sail-bin)|[fdc3-sail-bin](https://aur.archlinux.org/packages/fdc3-sail-bin)||
 |**feidao**|[feidao-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feidao-bin)|[feidao-bin](https://aur.archlinux.org/packages/feidao-bin)||
 |**feiyu-desktop**|[feiyu-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/feiyu-desktop-bin)|[feiyu-desktop-bin](https://aur.archlinux.org/packages/feiyu-desktop-bin)||
@@ -774,7 +774,7 @@
 |**kilo**|[kilo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kilo-git)|[kilo-git](https://aur.archlinux.org/packages/kilo-git)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
-|**kiro-ide**|[kiro-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiro-ide-bin)||AUR未提交|
+|**kiro-ide**|[kiro-ide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiro-ide-bin)|AUR未提交||
 |**kiwiirc-desktop**|[kiwiirc-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-desktop-bin)|[kiwiirc-desktop-bin](https://aur.archlinux.org/packages/kiwiirc-desktop-bin)||
 |**kiwiirc-server**|[kiwiirc-server-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwiirc-server-bin)|[kiwiirc-server-bin](https://aur.archlinux.org/packages/kiwiirc-server-bin)||
 |**kiwix-js-electron**|[kiwix-js-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kiwix-js-electron-bin)|[kiwix-js-electron-bin](https://aur.archlinux.org/packages/kiwix-js-electron-bin)||
@@ -818,7 +818,7 @@
 |**lexicanter**|[lexicanter-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lexicanter-bin)|[lexicanter-bin](https://aur.archlinux.org/packages/lexicanter-bin)||
 |**libreget**|[libreget-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/libreget-bin)|[libreget-bin](https://aur.archlinux.org/packages/libreget-bin)||
 |**librelinkupdesktop**|[librelinkupdesktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/librelinkupdesktop-bin)|[librelinkupdesktop-bin](https://aur.archlinux.org/packages/librelinkupdesktop-bin)||
-|**libvgm**|[libvgm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/libvgm-git)||自用版|
+|**libvgm**|[libvgm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/libvgm-git)|自用版||
 |**lightrail-core**|[lightrail-core-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/lightrail-core-bin)|[lightrail-core-bin](https://aur.archlinux.org/packages/lightrail-core-bin)||
 |**liground**|[liground-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/liground-bin)|[liground-bin](https://aur.archlinux.org/packages/liground-bin)||
 |**line-by-line**|[line-by-line-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/line-by-line-bin)|[line-by-line-bin](https://aur.archlinux.org/packages/line-by-line-bin)||
@@ -1039,7 +1039,7 @@
 |**onote**|[onote-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/onote-bin)|[onote-bin](https://aur.archlinux.org/packages/onote-bin)||
 |**ooniprobe-desktop**|[ooniprobe-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ooniprobe-desktop-bin)|[ooniprobe-desktop-bin](https://aur.archlinux.org/packages/ooniprobe-desktop-bin)||
 |**opal-player**|[opal-player-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/opal-player-bin)|[opal-player-bin](https://aur.archlinux.org/packages/opal-player-bin)||
-|**opencode-desktop**|[opencode-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/opencode-desktop-bin)||自用版|
+|**opencode-desktop**|[opencode-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/opencode-desktop-bin)|自用版||
 |**opencomic**|[opencomic](https://github.com/zxp19821005/My_AUR_Files/tree/main/opencomic)|[opencomic](https://aur.archlinux.org/packages/opencomic)||
 |**open-ecard-app**|[open-ecard-app-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/open-ecard-app-bin)|[open-ecard-app-bin](https://aur.archlinux.org/packages/open-ecard-app-bin)||
 |**openhome**|[openhome-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/openhome-bin)|[openhome-bin](https://aur.archlinux.org/packages/openhome-bin)||
@@ -1094,7 +1094,7 @@
 |**pause-desktop**|[pause-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pause-desktop-bin)|[pause-desktop-bin](https://aur.archlinux.org/packages/pause-desktop-bin)||
 |**payload-dumper-go**|[payload-dumper-go-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/payload-dumper-go-bin)|[payload-dumper-go-bin](https://aur.archlinux.org/packages/payload-dumper-go-bin)||
 |**pdf4qt**|[pdf4qt](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt)<br>[pdf4qt-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf4qt-bin)|[pdf4qt](https://aur.archlinux.org/packages/pdf4qt)<br>[pdf4qt-bin](https://aur.archlinux.org/packages/pdf4qt-bin)||
-||**pdf-guru-anki**|[pdf-guru-anki-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf-guru-anki-git)|[pdf-guru-anki-git](https://aur.archlinux.org/packages/pdf-guru-anki-git)||
+|**pdf-guru-anki**|[pdf-guru-anki-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdf-guru-anki-git)|[pdf-guru-anki-git](https://aur.archlinux.org/packages/pdf-guru-anki-git)||
 |**pdfkit**|[pdfkit-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdfkit-git)|[pdfkit-git](https://aur.archlinux.org/packages/pdfkit-git)||
 |**pdmaas-pro**|[pdmaas-pro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pdmaas-pro-bin)|[pdmaas-pro-bin](https://aur.archlinux.org/packages/pdmaas-pro-bin)||
 |**pear-rec**|[pear-rec](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec) <br> [pear-rec-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-bin) <br> [pear-rec-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pear-rec-git)|[pear-rec](https://aur.archlinux.org/packages/pear-rec) <br> [pear-rec-bin](https://aur.archlinux.org/packages/pear-rec-bin) <br> [pear-rec-git](https://aur.archlinux.org/packages/pear-rec-git)||
@@ -1375,7 +1375,7 @@
 |**spie**|[spie-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spie-bin)|[spie-bin](https://aur.archlinux.org/packages/spie-bin)||
 |**spine-viewer-vue**|[spine-viewer-vue-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/spine-viewer-vue-git)|[spine-viewer-vue-git](https://aur.archlinux.org/packages/spine-viewer-vue-git)||
 |**splayer**|[splayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-bin) <br> [splayer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-git)|[splayer-bin](https://aur.archlinux.org/packages/splayer-bin) <br> [splayer-git](https://aur.archlinux.org/packages/splayer-git)||
-|**splayer-next**|[splayer-next-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-next-bin)||自用版|
+|**splayer-next**|[splayer-next-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/splayer-next-bin)|自用版||
 |**spool**|[spool-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spool-bin)|[spool-bin](https://aur.archlinux.org/packages/spool-bin)||
 |**spotiflyer**|[spotiflyer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotiflyer-bin)|[spotiflyer-bin](https://aur.archlinux.org/packages/spotiflyer-bin)||
 |**spotify-electron**|[spotify-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/spotify-electron-bin)|[spotify-electron-bin](https://aur.archlinux.org/packages/spotify-electron-bin)||
@@ -1528,7 +1528,7 @@
 |**ttf-maoken-heavy-labourer**|[ttf-maoken-heavy-labourer](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-heavy-labourer)|[ttf-maoken-heavy-labourer](https://aur.archlinux.org/packages/ttf-maoken-heavy-labourer)||
 |**ttf-maoken-longzhuti**|[ttf-maoken-longzhuti](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-longzhuti)|[ttf-maoken-longzhuti](https://aur.archlinux.org/packages/ttf-maoken-longzhuti)||
 |**ttf-maoken-unbounded-sans**|[ttf-maoken-unbounded-sans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-maoken-unbounded-sans)|[ttf-maoken-unbounded-sans](https://aur.archlinux.org/packages/ttf-maoken-unbounded-sans)||
-|**ttf-opposans**|[ttf-opposans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-opposans)||自用版|
+|**ttf-opposans**|[ttf-opposans](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttf-opposans)|自用版||
 |**ttfviewer**|[ttfviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttfviewer-bin)|[ttfviewer-bin](https://aur.archlinux.org/packages/ttfviewer-bin)||
 |**ttkdownloader**|[ttkdownloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkdownloader-bin)|[ttkdownloader-bin](https://aur.archlinux.org/packages/ttkdownloader-bin)||
 |**ttkmusicplayer**|[ttkmusicplayer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ttkmusicplayer-bin)|[ttkmusicplayer-bin](https://aur.archlinux.org/packages/ttkmusicplayer-bin)||
@@ -1609,7 +1609,7 @@
 |**walc**|[walc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/walc-bin)|[walc-bin](https://aur.archlinux.org/packages/walc-bin)||
 |**wallet-recovery-wizard**|[wallet-recovery-wizard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wallet-recovery-wizard-bin)|[wallet-recovery-wizard-bin](https://aur.archlinux.org/packages/wallet-recovery-wizard-bin)||
 |**warpgui**|[warpgui-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warpgui-bin)|[warpgui-bin](https://aur.archlinux.org/packages/warpgui-bin)||
-|**warp-terminal**|[warp-terminal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warp-terminal-bin)||自用版|
+|**warp-terminal**|[warp-terminal-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/warp-terminal-bin)|自用版||
 |**warteschlangensimulator**|[warteschlangensimulator-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/warteschlangensimulator-appimage)|[warteschlangensimulator-appimage](https://aur.archlinux.org/packages/warteschlangensimulator-appimage)||
 |**waveterm**|[waveterm](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm) <br> [waveterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm-bin) <br> [waveterm-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/waveterm-git)|[waveterm](https://aur.archlinux.org/packages/waveterm) <br> [waveterm-bin](https://aur.archlinux.org/packages/waveterm-bin) <br> [waveterm-git](https://aur.archlinux.org/packages/waveterm-git)||
 |**wavy**|[wavy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wavy-bin) <br> [wavy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wavy-git)|[wavy-bin](https://aur.archlinux.org/packages/wavy-bin) <br> [wavy-git](https://aur.archlinux.org/packages/wavy-git)||
@@ -1655,6 +1655,7 @@
 |**wora**|[wora-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-bin) <br> [wora-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/wora-git)|[wora-bin](https://aur.archlinux.org/packages/wora-bin) <br> [wora-git](https://aur.archlinux.org/packages/wora-git)||
 |**words-picker**|[words-picker-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/words-picker-bin)|[words-picker-bin](https://aur.archlinux.org/packages/words-picker-bin)||
 |**workbuddy**|[workbuddy](https://github.com/zxp19821005/My_AUR_Files/tree/main/workbuddy)<br>[workbuddy-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/workbuddy-bin)|自用版||
+|**workbuddy-cn**|[workbuddy-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/workbuddy-cn-bin)|自用版||
 |**work-log-ify**|[work-log-ify-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/work-log-ify-git)|[work-log-ify-git](https://aur.archlinux.org/packages/work-log-ify-git)||
 |**woterm**|[woterm-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/woterm-bin)|[woterm-bin](https://aur.archlinux.org/packages/woterm-bin)||
 |**wp-desktop**|[wp-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/wp-desktop-bin)|[wp-desktop-bin](https://aur.archlinux.org/packages/wp-desktop-bin)||

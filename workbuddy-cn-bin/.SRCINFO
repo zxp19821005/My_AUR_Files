@@ -1,0 +1,32 @@
+pkgbase = workbuddy-cn-bin
+	pkgdesc = Tencent WorkBuddy China edition (unofficial macOS-to-Linux port)
+	pkgver = 5.11.3.43806934_ecace0f7
+	pkgrel = 99
+	url = https://www.workbuddy.cn/
+	arch = x86_64
+	license = LicenseRef-WorkBuddyCN
+	license = MIT
+	makedepends = imagemagick
+	depends = electron37
+	depends = nodejs
+	depends = python
+	depends = python-requests
+	depends = python-numpy
+	depends = python-pillow
+	optdepends = libappindicator-gtk3: system tray integration
+	provides = workbuddy-cn=5.11.3.43806934_ecace0f7
+	conflicts = workbuddy-cn
+	options = !strip
+	options = !debug
+	options = staticlibs
+	options = libtool
+	options = !zipman
+	options = !purge
+	source = workbuddy-cn-5.11.3.43806934_ecace0f7.tar.gz::https://github.com/acgq/workbuddy-linux/releases/download/port-v5.11.3.43806934-ecace0f7-r2/workbuddy_5.11.3.43806934-ecace0f7-2_amd64.tar.gz
+	source = workbuddy-cn.js
+	source = workbuddy-cn.sh
+	sha256sums = 8e1ce8c8a3c86095fbdc3393c66e2cca5abf9c97904ba32c23dd4110764dadc5
+	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
+	sha256sums = a524823bbc215992f23dc8c6010259eb82c6c857c56b6765d3df21c2f21b9783
+
+pkgname = workbuddy-cn-bin
