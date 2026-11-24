@@ -957,6 +957,7 @@
 |**mydict**|[mydict-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/mydict-bin)|[mydict-bin](https://aur.archlinux.org/packages/mydict-bin)||
 |**my-hardware**|[my-hardware-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-hardware-bin)|[my-hardware-bin](https://aur.archlinux.org/packages/my-hardware-bin)||
 |**my-ocr**|[my-ocr-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/my-ocr-bin)|[my-ocr-bin](https://aur.archlinux.org/packages/my-ocr-bin)||
+|**namiwork-desktop**|[namiwork-desktop-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/namiwork-desktop-bin)|[namiwork-desktop-bin](https://aur.archlinux.org/packages/namiwork-desktop-bin)||
 |**yet-another-electron-term**|[yet-another-electron-term](https://github.com/zxp19821005/My_AUR_Files/tree/main/yet-another-electron-term)|[yet-another-electron-term](https://aur.archlinux.org/packages/yet-another-electron-term)||
 |**napcat**|[napcat-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/napcat-bin)|[napcat-bin](https://aur.archlinux.org/packages/napcat-bin)||
 |**native-facebook**|[native-facebook-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/native-facebook-bin)|[native-facebook-bin](https://aur.archlinux.org/packages/native-facebook-bin)||
