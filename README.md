@@ -1212,6 +1212,7 @@
 |**quickpdfjoin**|[quickpdfjoin-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quickpdfjoin-bin)|[quickpdfjoin-bin](https://aur.archlinux.org/packages/quickpdfjoin-bin)||
 |**quory**|[quory-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/quory-bin)|[quory-bin](https://aur.archlinux.org/packages/quory-bin)||
 |**qwen**|[qwen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwen-bin)|[qwen-bin](https://aur.archlinux.org/packages/qwen-bin)||
+|**qwen-work-cn**|[qwen-work-cn-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwen-work-cn-bin)|[qwen-work-cn-bin](https://aur.archlinux.org/packages/qwen-work-cn-bin)||
 |**qwerty-learner**|[unoffical-qwerty-learner-appimage](https://github.com/zxp19821005/My_AUR_Files/tree/main/unoffical-qwerty-learner-appimage) <br> [qwerty-learner-pake](https://github.com/zxp19821005/My_AUR_Files/tree/main/qwerty-learner-pake)|[unoffical-qwerty-learner-appimage](https://aur.archlinux.org/packages/unoffical-qwerty-learner-appimage) <br> [qwerty-learner-pake](https://aur.archlinux.org/packages/qwerty-learner-pake)||
 |**r2uploader**|[r2uploader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r2uploader-bin)|[r2uploader-bin](https://aur.archlinux.org/packages/r2uploader-bin)||
 |**r3play**|[r3play-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/r3play-bin)|[r3play-bin](https://aur.archlinux.org/packages/r3play-bin)||
