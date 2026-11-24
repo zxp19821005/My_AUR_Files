@@ -1446,6 +1446,7 @@
 |**teamide**|[teamide-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teamide-bin)|[teamide-bin](https://aur.archlinux.org/packages/teamide-bin)||
 |**teams-for-linux-electron**|[teams-for-linux-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teams-for-linux-electron-bin)|[teams-for-linux-electron-bin](https://aur.archlinux.org/packages/teams-for-linux-electron-bin)||
 |**techdoro**|[techdoro-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/techdoro-bin)|[techdoro-bin](https://aur.archlinux.org/packages/techdoro-bin)||
+|**teleagent**|[teleagent-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/teleagent-bin)|[teleagent-bin](https://aur.archlinux.org/packages/teleagent-bin)||
 |**tencent-docs-electron**|[tencent-docs-electron-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-docs-electron-bin)|[tencent-docs-electron-bin](https://aur.archlinux.org/packages/tencent-docs-electron-bin)||
 |**tencent-transmart**|[tencent-transmart-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/tencent-transmart-bin)|[tencent-transmart-bin](https://aur.archlinux.org/packages/tencent-transmart-bin)||
 |**tenvideo**|[tenvideo](https://github.com/zxp19821005/My_AUR_Files/tree/main/tenvideo)|[tenvideo](https://aur.archlinux.org/packages/tenvideo)||
