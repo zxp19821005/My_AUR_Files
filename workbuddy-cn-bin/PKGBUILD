@@ -4,57 +4,57 @@ _appname=workbuddy
 pkgname="${_appname}-cn-bin"
 _pkgname=WorkBuddyCN
 pkgver=5.11.3.43806934_ecace0f7
-_electronversion=37
+_electronversion=45
 pkgrel=99
 pkgdesc='Tencent WorkBuddy China edition (unofficial macOS-to-Linux port)'
 arch=('x86_64')
 url="https://www.workbuddy.cn/"
 _ghurl='https://github.com/acgq/workbuddy-linux'
 license=(
-    "LicenseRef-${_pkgname}"
-    'MIT'
+	"LicenseRef-${_pkgname}"
+	'MIT'
 )
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
-    'nodejs'
-    'python'
-    'python-requests'
-    'python-numpy'
-    'python-pillow'
+	"electron${_electronversion}"
+	'nodejs'
+	'python'
+	'python-requests'
+	'python-numpy'
+	'python-pillow'
 )
 makedepends=('imagemagick')
 optdepends=(
-    'libappindicator-gtk3: system tray integration'
+	'libappindicator-gtk3: system tray integration'
 )
 options=(
-    '!strip'
-    '!debug'
-    'staticlibs'
-    'libtool'
-    '!zipman'
-    '!purge'
+	'!strip'
+	'!debug'
+	'staticlibs'
+	'libtool'
+	'!zipman'
+	'!purge'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.tar.gz::${_ghurl}/releases/download/port-v${pkgver//_/-}-r2/${_appname}_${pkgver//_/-}-2_amd64.tar.gz"
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.tar.gz::${_ghurl}/releases/download/port-v${pkgver//_/-}-r2/${_appname}_${pkgver//_/-}-2_amd64.tar.gz"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('8e1ce8c8a3c86095fbdc3393c66e2cca5abf9c97904ba32c23dd4110764dadc5'
             '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'a524823bbc215992f23dc8c6010259eb82c6c857c56b6765d3df21c2f21b9783')
+            '813a131b12515913dc84a6081f05c9ba6bff0d49a54d18c34e75e9bff447e0a1')
 _get_app_dir() {
-    find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
-      | while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
+	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
+		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
 }
 _check_electron_version() {
-    local _v=$(strings "$(find "$(_get_app_dir)" -maxdepth 1 -type f \
-        -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)" \
-        | grep -oP 'Electron/\K[0-9]+' | head -1)
-    [[ -z "$_v" ]] && { echo -e "\033[1;33mNote: Could not check version.\033[0m"; return; }
-    (( _v == _electronversion )) && c=32 || c=31
-    echo -e "Electron version: \033[1;${c}m$_v$([[ $c -eq 31 ]] && echo " (expected $_electronversion)")\033[0m"
+	local _v=$(strings "$(find "$(_get_app_dir)" -maxdepth 1 -type f \
+		-executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)" \
+		| grep -oP 'Electron/\K[0-9]+' | head -1)
+	[[ -z "$_v" ]] && { echo -e "\033[1;33mNote: Could not check version.\033[0m"; return; }
+	(( _v == _electronversion )) && c=32 || c=31
+	echo -e "Electron version: \033[1;${c}m$_v$([[ $c -eq 31 ]] && echo " (expected $_electronversion)")\033[0m"
 }
 _delete_other_arch_files() {
 	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
@@ -66,39 +66,41 @@ _delete_other_arch_files() {
 		-prune -exec rm -rf {} +
 	find "$(_get_app_dir)" -mindepth 1 -type f \
 		\( -name '*.exe' -o -name '*.dll' -o -name '*.pdb' -o -name '*.lib' \
-    -o -name '*win32*.node' -o -name '*windows*.ps1' \) \
-		-delete
+        -o -name '*win32*.node' -o -name '*windows*.ps1' \) -delete
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 	local _mainjs="$(_get_app_dir)/resources/app.asar.unpacked/main/index.js"
 	sed -i 's/function isStorageBootstrapLoggerGetFailed(){return loggerGetFailed}/function isStorageBootstrapLoggerGetFailed(){return !1}/' "${_mainjs}"
+    local _cb="${_mainjs%/main/index.js}/cli/bin/codebuddy"
+    sed -i "/^const forceLiteWb = /c\\const forceLiteWb = true;" "${_cb}"
+    sed -i "s#electron\.workbuddyStorage\.loggerGet()#'{\"version\":1,\"atRestSecretKey\":\"AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=\"}'#" "${_mainjs}"
 }
 prepare() {
-    _check_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-bin}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Development;Office" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-bin} %U"
-    _delete_other_arch_files
+	_check_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-bin}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Development;Office" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-bin} %U"
+	_delete_other_arch_files
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    rm -rf "${pkgdir}/usr/lib/${pkgname%-bin}/runtime/node"
-    ln -s /usr "${pkgdir}/usr/lib/${pkgname%-bin}/runtime/node"
-    strip --strip-debug "${pkgdir}/usr/lib/${pkgname%-bin}/runtime/python/lib/libpython3.13.so.1.0"
-    ln -s app.asar.unpacked/cli "${pkgdir}/usr/lib/${pkgname%-bin}/cli"
-    local _icon_src="$(_get_app_dir)/resources/app.asar.unpacked/resources/icon.png"
-    for _s in 16 32 48 64 96 128 256 512 1024; do
-        install -d "${pkgdir}/usr/share/icons/hicolor/${_s}x${_s}/apps"
-        convert "${_icon_src}" -resize "${_s}x${_s}" \
-            "${pkgdir}/usr/share/icons/hicolor/${_s}x${_s}/apps/${pkgname%-bin}.png"
-    done
-    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
+	rm -rf "${pkgdir}/usr/lib/${pkgname%-bin}/runtime/node"
+	ln -s /usr "${pkgdir}/usr/lib/${pkgname%-bin}/runtime/node"
+	strip --strip-debug "${pkgdir}/usr/lib/${pkgname%-bin}/runtime/python/lib/libpython3.13.so.1.0"
+	ln -s app.asar.unpacked/cli "${pkgdir}/usr/lib/${pkgname%-bin}/cli"
+	local _icon_src="$(_get_app_dir)/resources/app.asar.unpacked/resources/icon.png"
+	for _s in 16 32 48 64 96 128 256 512 1024; do
+		install -d "${pkgdir}/usr/share/icons/hicolor/${_s}x${_s}/apps"
+		convert "${_icon_src}" -resize "${_s}x${_s}" \
+			"${pkgdir}/usr/share/icons/hicolor/${_s}x${_s}/apps/${pkgname%-bin}.png"
+	done
+	install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }

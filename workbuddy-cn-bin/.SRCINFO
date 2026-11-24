@@ -7,7 +7,7 @@ pkgbase = workbuddy-cn-bin
 	license = LicenseRef-WorkBuddyCN
 	license = MIT
 	makedepends = imagemagick
-	depends = electron37
+	depends = electron45
 	depends = nodejs
 	depends = python
 	depends = python-requests
@@ -27,6 +27,6 @@ pkgbase = workbuddy-cn-bin
 	source = workbuddy-cn.sh
 	sha256sums = 8e1ce8c8a3c86095fbdc3393c66e2cca5abf9c97904ba32c23dd4110764dadc5
 	sha256sums = 562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627
-	sha256sums = a524823bbc215992f23dc8c6010259eb82c6c857c56b6765d3df21c2f21b9783
+	sha256sums = 813a131b12515913dc84a6081f05c9ba6bff0d49a54d18c34e75e9bff447e0a1
 
 pkgname = workbuddy-cn-bin
