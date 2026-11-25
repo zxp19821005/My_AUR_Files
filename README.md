@@ -1130,7 +1130,6 @@
 |**pixelflow**|[pixelflow](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelflow)|[pixelflow](https://aur.archlinux.org/packages/pixelflow)||
 |**pixelviewer**|[pixelviewer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixelviewer-bin)|[pixelviewer-bin](https://aur.archlinux.org/packages/pixelviewer-bin)||
 |**pixes**|[pixes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixes-bin)|[pixes-bin](https://aur.archlinux.org/packages/pixes-bin)||
-|**pixzip-lite**|[pixzip-lite-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pixzip-lite-git)|[pixzip-lite-git](https://aur.archlinux.org/packages/pixzip-lite-git)||
 |**planes**|[planes-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/planes-bin)|[planes-bin](https://aur.archlinux.org/packages/planes-bin)||
 |**playboy**|[playboy-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/playboy-git)|[playboy-git](https://aur.archlinux.org/packages/playboy-git)||
 |**play-in-mpv**|[play-in-mpv](https://github.com/zxp19821005/My_AUR_Files/tree/main/play-in-mpv)|[play-in-mpv](https://aur.archlinux.org/packages/play-in-mpv)||
