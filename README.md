@@ -771,6 +771,7 @@
 |**keyopen**|[keyopen-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/keyopen-bin)|[keyopen-bin](https://aur.archlinux.org/packages/keyopen-bin)||
 |**kick-talk**|[kick-talk-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kick-talk-git)|[kick-talk-git](https://aur.archlinux.org/packages/kick-talk-git)||
 |**kick-vod-downloader**|[kick-vod-downloader-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kick-vod-downloader-bin)|[kick-vod-downloader-bin](https://aur.archlinux.org/packages/kick-vod-downloader-bin)||
+|**kilo-compress**|[kilo-compress-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kilo-compress-git)|[kilo-compress-git](https://aur.archlinux.org/packages/kilo-compress-git)||
 |**kilo**|[kilo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/kilo-git)|[kilo-git](https://aur.archlinux.org/packages/kilo-git)||
 |**kinda-bard**|[kinda-bard-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kinda-bard-bin)|[kinda-bard-bin](https://aur.archlinux.org/packages/kinda-bard-bin)||
 |**kindle-companion**|[kindle-companion-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/kindle-companion-bin)|[kindle-companion-bin](https://aur.archlinux.org/packages/kindle-companion-bin)||
