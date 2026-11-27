@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=mineradio-vision-git
 _pkgname=Mineradio-Vision
-pkgver=3.3.5.r0.g0541f6e
+pkgver=3.3.6.r0.g062c292
 _electronversion=44
 _nodeversion=24
 pkgrel=1
@@ -31,8 +31,8 @@ options=(
 	'!emptydirs'
 )
 sha256sums=('SKIP'
-			'03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+            '4e629b50633624a4092c6d105aa2300bb0b1c7d979599a843b4468d903886f3b'
+            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_project_dir() {
 	local _d _f _t _bt= _best= _bs=0
 	while IFS= read -r _d; do
