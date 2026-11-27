@@ -1,7 +1,7 @@
 # Maintainer: zxp19821005 <zxp19821005 at 163 dot com>
 pkgname=pi-harness-bin
 _pkgname=Pi-Harness
-pkgver=2.4.18
+pkgver=2.4.19
 _electronversion=44
 pkgrel=1
 pkgdesc="Operational Superset Harness and Desktop Control Plane for Pi Coding Agent."
@@ -26,9 +26,9 @@ source=(
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
-sha256sums=('92ca7b218149cc467059fb4184728217698110efe9d2fc935e62b9bda136e65e'
-			'03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+sha256sums=('ac7d41f4e91b23c67790a410fed27e66135888811b3ca37ae80d2d2f03c5c1bc'
+            '4e629b50633624a4092c6d105aa2300bb0b1c7d979599a843b4468d903886f3b'
+            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
