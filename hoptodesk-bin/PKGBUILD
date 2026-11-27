@@ -11,11 +11,11 @@ license=('GPL-3.0-only')
 conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
-    'gtk3'
-    'libpulse'
-    'gst-plugins-base-libs'
-    'gstreamer'
-    'xdotool'
+	'gtk3'
+	'libpulse'
+	'gst-plugins-base-libs'
+	'gstreamer'
+	'xdotool'
 )
 source=("${pkgname%-bin}-${pkgver}.deb::${url}/${pkgname%-bin}.deb")
 sha256sums=('SKIP')
@@ -34,15 +34,15 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
-    grep "Version=" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" | grep -v "X-Desktop" | sed "s/Version=//g" > "${srcdir}/.pkgver"
-    sed -i "s/\/usr\/share\/icons\/hicolor\/128x128\/apps\/${pkgname%-bin}.png/${pkgname%-bin}/" \
-        "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	bsdtar -xf "${srcdir}/data."*
+	grep "Version=" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" | grep -v "X-Desktop" | sed "s/Version=//g" > "${srcdir}/.pkgver"
+	sed -i "s/\/usr\/share\/icons\/hicolor\/128x128\/apps\/${pkgname%-bin}.png/${pkgname%-bin}/" \
+		"${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    [ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
-    install -Dm644 "${srcdir}/usr/share/icons/hicolor/128x128/128x128.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/${pkgname%-bin}/files/systemd/${pkgname%-bin}.service" -t "${pkgdir}/usr/lib/systemd/system"
+	install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	[ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
+	install -Dm644 "${srcdir}/usr/share/icons/hicolor/128x128/128x128.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/${pkgname%-bin}/files/systemd/${pkgname%-bin}.service" -t "${pkgdir}/usr/lib/systemd/system"
 }

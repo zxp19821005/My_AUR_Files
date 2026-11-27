@@ -54,7 +54,7 @@ prepare() {
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
 	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-	cp -a "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}/"    
+	cp -a "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
 	install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}.desktop" \
 		"${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 	install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${_pkgname//-/_}.png" \

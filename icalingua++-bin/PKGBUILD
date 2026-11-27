@@ -7,29 +7,29 @@ _electronversion=39
 pkgrel=1
 pkgdesc="A branch of deleted Icalingua, with limited support."
 arch=(
-    'aarch64'
-    'armv7h'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'x86_64'
 )
 url="https://github.com/Icalingua-plus-plus/Icalingua-plus-plus"
 license=("AGPL-3.0-only")
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=(
-    "${pkgname%-bin}"
-    "${pkgname%-bin}-electron"
+	"${pkgname%-bin}"
+	"${pkgname%-bin}-electron"
 )
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${url}/releases/download/v${pkgver}/${_appname}_${pkgver}_arm64.deb")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.deb::${url}/releases/download/v${pkgver}/${_appname}_${pkgver}_armv7l.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/v${pkgver}/${_appname}_${pkgver}_amd64.deb")
 source=(
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 sha256sums_aarch64=('cc34c1368890bf384994e19bba4a209d47445189278f987f3222ff9a7adbd7b3')
 sha256sums_armv7h=('ee2fcf21b33241a7928353ca37c39f35f3f286bab9c68df91f70c8167d32023d')
 sha256sums_x86_64=('b535f686d6238b1151d94ff28ca4c51ef54e92d2b99b5aebe5a703b5e8b53e55')
@@ -57,28 +57,28 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    bsdtar -xf "${srcdir}/data."*
-    _check_electron_version
-    sed -i -e "
-        s/Icon=${_appname}/Icon=${pkgname%-bin}/g
-        s/\"\/opt\/${_pkgname}\/${_appname}\"/${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${_appname}.desktop"
-    local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
-    find "$(_get_app_dir)" -type d \
-        \( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
-        -prune -exec rm -rf {} +
-    find "$(_get_app_dir)" -type f \
-        \( -name '*darwin*.node' -o -name '*android*.node' -o -name 'win32*.node' -o -name "*ia32*.node" -o -name "*${_archrem}*.node" \) \
-        -prune -exec rm -rf {} +
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	bsdtar -xf "${srcdir}/data."*
+	_check_electron_version
+	sed -i -e "
+		s/Icon=${_appname}/Icon=${pkgname%-bin}/g
+		s/\"\/opt\/${_pkgname}\/${_appname}\"/${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${_appname}.desktop"
+	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
+	find "$(_get_app_dir)" -type d \
+		\( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
+		-prune -exec rm -rf {} +
+	find "$(_get_app_dir)" -type f \
+		\( -name '*darwin*.node' -o -name '*android*.node' -o -name 'win32*.node' -o -name "*ia32*.node" -o -name "*${_archrem}*.node" \) \
+		-prune -exec rm -rf {} +
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }

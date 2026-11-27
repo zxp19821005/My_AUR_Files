@@ -4,8 +4,8 @@ pkgver=0.10.11
 pkgrel=1
 pkgdesc="Go-blueprint allows users to spin up a quick Go project using a popular framework.(Prebuilt version)"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://docs.go-blueprint.dev/"
 _ghurl="https://github.com/Melkeydev/go-blueprint"
@@ -14,8 +14,8 @@ provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=()
 optdepends=(
-    'zsh'
-    'fish'
+	'zsh'
+	'fish'
 )
 source=("LICENSE-${pkgver}::https://raw.githubusercontent.com/Melkeydev/go-blueprint/v${pkgver}/LICENSE")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.tar.gz::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_Linux_arm64.tar.gz")
@@ -24,13 +24,13 @@ sha256sums=('8dbc61ccb9df6583bf6cd0ad23ca0a38e1eb0655f38eb85ec2b71b71392d5060')
 sha256sums_aarch64=('07e8674e7fa962938ffe730fe4e1644c055d0f681f1c211394b4ae950a03bb2b')
 sha256sums_x86_64=('9d8462928921ec74b773d4b09912630309093d76ed49d7987a23241208ae9e43')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/completions/${pkgname%-bin}.bash" "${pkgdir}/usr/share/bash-completion/completions/${pkgname%-bin}"
-    if [ -x "/usr/bin/fish" ]; then
-        install -Dm644 "${srcdir}/completions/${pkgname%-bin}.fish" -t "$pkgdir/usr/share/fish/vendor_completions.d"
-    fi
-    if [ -x "/usr/bin/zsh" ]; then
-        install -Dm644 "${srcdir}/completions/${pkgname%-bin}.zsh" "$pkgdir/usr/share/zsh/site-functions/_${pkgname%-bin}"
-    fi
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/completions/${pkgname%-bin}.bash" "${pkgdir}/usr/share/bash-completion/completions/${pkgname%-bin}"
+	if [ -x "/usr/bin/fish" ]; then
+		install -Dm644 "${srcdir}/completions/${pkgname%-bin}.fish" -t "$pkgdir/usr/share/fish/vendor_completions.d"
+	fi
+	if [ -x "/usr/bin/zsh" ]; then
+		install -Dm644 "${srcdir}/completions/${pkgname%-bin}.zsh" "$pkgdir/usr/share/zsh/site-functions/_${pkgname%-bin}"
+	fi
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

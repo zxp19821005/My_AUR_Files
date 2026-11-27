@@ -1,5 +1,5 @@
 # Maintainer: St.kai <St.kai@live.com>
- 
+
 pkgname=deepin-wine-wxwork
 pkgver=4.1.0.6007
 _pkgname=com.qq.weixin.work.deepin
@@ -24,19 +24,19 @@ md5sums=('d6c5cd8f9ecf72b8fcc44e5b30b282d4'
 		 '2d1f2a88d107e6397bcd12f2f8419a60'
 		 '898d975aebcfc25da3ea52fc3a3cad30'
 		 '9ac9f45b5eae3a32652a1b7ac0208962')
- 
+
 prepare() {
 	bsdtar -xf data.tar.xz -C "${srcdir}"
 	mv "${srcdir}/opt/apps/${_pkgname}" "${srcdir}/opt/apps/${pkgname}"
 	mkdir -p "${srcdir}/tmp"
 	msg "Extracting Deepin Wine ${_officalname} archive ..."
 	bsdtar -xf "${srcdir}/opt/apps/${pkgname}/files/files.7z" -C "${srcdir}/tmp"
-		  
+
 	msg "Copying latest ${_officalname} files to ${srcdir}/tmp/drive_c/Program Files/${_officalname} ..."
 	rm -r "${srcdir}/tmp/drive_c/Program Files/${_officalname}"
 	mkdir -p "${srcdir}/tmp/drive_c/Program Files/${_officalname}"
 	cp "${srcdir}/${_officalname}-${pkgver}.exe" "${srcdir}/tmp/drive_c/Program Files/${_officalname}/"
-   
+
 	msg "Repackaging app archive ..."
 	rm -r "${srcdir}/opt/apps/${pkgname}/files/files.7z"
 	7z a -t7z -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/tmp/*"

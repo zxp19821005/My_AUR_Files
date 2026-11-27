@@ -75,7 +75,7 @@ prepare() {
 		s/@runname@/app.asar/g
 		s/@cfgdirname@/${pkgname%-git}/g
 		s/@options@/env ELECTRON_OZONE_PLATFORM_HINT=auto/g
-	" "${srcdir}/${pkgname%-git}.sh"    
+	" "${srcdir}/${pkgname%-git}.sh"
 	gendesk -q -f -n \
 		--pkgname="${pkgname%-git}" \
 		--pkgdesc="${pkgdesc}" \

@@ -76,7 +76,7 @@ prepare() {
 		s/@appname@/${pkgname%-git}/g
 		s/@runname@/app.asar/g
 		s/@cfgdirname@/${pkgname%-git}/g
-	" "${srcdir}/${pkgname%-git}.sh"    
+	" "${srcdir}/${pkgname%-git}.sh"
 	gendesk -q -f -n \
 		--pkgname="${pkgname%-git}" \
 		--pkgdesc="${pkgdesc}" \

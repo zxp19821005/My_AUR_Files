@@ -6,10 +6,10 @@ pkgver=1.9.15
 pkgrel=1
 pkgdesc="Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.(Prebuilt version)"
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://github.com/AlexxIT/go2rtc"
 license=('MIT')
@@ -18,30 +18,30 @@ provides=("${pkgname%-bin}=${pkgver}")
 depends=()
 options=('!strip')
 source=(
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/AlexxIT/go2rtc/v${pkgver}/LICENSE"
-    "${pkgname%-bin}.yaml"
-    "${pkgname%-bin}.tmpfile.conf"
-    "${pkgname%-bin}.service"
-    "${pkgname%-bin}.sysusers.conf"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/AlexxIT/go2rtc/v${pkgver}/LICENSE"
+	"${pkgname%-bin}.yaml"
+	"${pkgname%-bin}.tmpfile.conf"
+	"${pkgname%-bin}.service"
+	"${pkgname%-bin}.sysusers.conf"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64::${url}/releases/download/v${pkgver}/${pkgname%-bin}_linux_arm64")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h::${url}/releases/download/v${pkgver}/${pkgname%-bin}_linux_arm")
 source_i686=("${pkgname%-bin}-${pkgver}-i686::${url}/releases/download/v${pkgver}/${pkgname%-bin}_linux_i386")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64::${url}/releases/download/v${pkgver}/${pkgname%-bin}_linux_amd64")
 sha256sums=('b0dcf4855af5a72b4dfbd9117c207b330f4cc35658576a0b5351d6e2becac546'
-            '0b23c4f5416494a31e4720693e5cc53bc8d15b04351a718e017f8bc0744e69a9'
-            'f8caf9965af10be2ca90819898f9124966b69dcb3a477a9436e050cfb6bb5a29'
-            'd1e19d906719b847456a11c430a77b4dd0ec73414e60e629df76be65bc372a10'
-            '8e6c994be0a3fc65d909d23ead70dbc2b32c8747cc96bb1f5c2a83e93f16f7f5')
+			'0b23c4f5416494a31e4720693e5cc53bc8d15b04351a718e017f8bc0744e69a9'
+			'f8caf9965af10be2ca90819898f9124966b69dcb3a477a9436e050cfb6bb5a29'
+			'd1e19d906719b847456a11c430a77b4dd0ec73414e60e629df76be65bc372a10'
+			'8e6c994be0a3fc65d909d23ead70dbc2b32c8747cc96bb1f5c2a83e93f16f7f5')
 sha256sums_aarch64=('af416f22b21a24ab83b8d78642190b4932ae695b4e386853f11d1b0319781763')
 sha256sums_armv7h=('cbffe4075a004e2015fd9d7e324800ab7968b52f49e9ce803361879d5e246028')
 sha256sums_i686=('3a4d74b7d6ba2a04c5c7e7c7ee6208f9060fd17dfcce5a0975d44b6621a85c1e')
 sha256sums_x86_64=('20b46c6910734cb05ecefb234066f36868ff19b42ba1418a7a32e13a3e035712')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.sysusers.conf" "${pkgdir}/usr/lib/sysusers.d/${pkgname%-bin}.conf"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.tmpfile.conf" "${pkgdir}/usr/lib/tmpfiles.d/${pkgname%-bin}.conf"
-    install -Dm755 "${srcdir}/${pkgname%-bin}.service" -t "${pkgdir}/usr/lib/systemd/system"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.yaml" -t "${pkgdir}/etc"
+	install -Dm755 "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.sysusers.conf" "${pkgdir}/usr/lib/sysusers.d/${pkgname%-bin}.conf"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.tmpfile.conf" "${pkgdir}/usr/lib/tmpfiles.d/${pkgname%-bin}.conf"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.service" -t "${pkgdir}/usr/lib/systemd/system"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.yaml" -t "${pkgdir}/etc"
 }

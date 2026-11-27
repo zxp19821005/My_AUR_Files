@@ -12,8 +12,8 @@ export APPRUN_CMD="deepin-wine6-stable"
 DISABLE_ATTACH_FILE_DIALOG=""
 EXPORT_ENVS=""
 SPECIFY_SHELL_DIR=$(dirname ${START_SHELL_PATH})
-export SPECIFY_SHELL_DIR     
-ARCHIVE_FILE_DIR="/opt/apps/${DEB_PACKAGE_NAME}/files"     
+export SPECIFY_SHELL_DIR
+ARCHIVE_FILE_DIR="/opt/apps/${DEB_PACKAGE_NAME}/files"
 export WINEDLLPATH="/opt/${APPRUN_CMD}/lib:/opt/${APPRUN_CMD}/lib64"
 export LD_LIBRARY_PATH="/opt/apps/${DEB_PACKAGE_NAME}/files/lib32"
 export WINEPREDLL="${ARCHIVE_FILE_DIR}/dlls"

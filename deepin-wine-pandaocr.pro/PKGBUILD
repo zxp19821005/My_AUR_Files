@@ -52,7 +52,7 @@ prepare() {
 	rm -r "${srcdir}/opt/apps/${pkgname}/files/files.7z"
 	7z a -t7z -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/tmp/*"
 	rm -rf "${srcdir}/opt/apps/${pkgname}/info"
-	sed -e " 
+	sed -e "
 		s/\"\/opt\/apps\/${_pkgname}\/files\/run.sh\"/${pkgname}/g
 		s/\/opt\/apps\/${_pkgname}\/entries\/icons\/hicolor\/scalable\/apps\/${_pkgname}.png/${pkgname}/g
 		s/GenericName=${_pkgname}/GenericName=${pkgname}/g

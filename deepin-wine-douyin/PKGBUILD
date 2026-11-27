@@ -47,7 +47,7 @@ build() {
 	mkdir -p "${srcdir}/tmp" "${srcdir}/extracted_exe"
 	msg "Extracting Deepin Wine ${_appname} archive ..."
 	7z x -aoa "${srcdir}/opt/apps/${pkgname}/files/files.7z" -o"${srcdir}/tmp"
-	7z e -aoa "${srcdir}/${_appname}-${pkgver}.exe" -o"${srcdir}/extracted_exe"    
+	7z e -aoa "${srcdir}/${_appname}-${pkgver}.exe" -o"${srcdir}/extracted_exe"
 	msg "Extract latest ${_appname} installer to ${srcdir}/tmp/drive_c/Program Files/${_providername}/${_appname} ..."
 	rm -rf "${srcdir}/tmp/drive_c/Program Files/${_providername}/${_appname}"
 	mkdir -p "${srcdir}/tmp/drive_c/Program Files/${_providername}/${_appname}"

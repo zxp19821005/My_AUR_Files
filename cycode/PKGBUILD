@@ -53,7 +53,7 @@ prepare() {
 		--pkgdesc="${pkgdesc}" \
 		--categories="Development" \
 		--name="${_pkgname}" \
-		--exec="${pkgname} %U" 
+		--exec="${pkgname} %U"
 	export SYSTEM_ELECTRON_VERSION="$(electron${_electronversion} -v | sed 's/v//g')"
 	local HOME="${srcdir}/.electron-gyp"
 	export NPM_CONFIG_CACHE="${srcdir}/.npm_cache"

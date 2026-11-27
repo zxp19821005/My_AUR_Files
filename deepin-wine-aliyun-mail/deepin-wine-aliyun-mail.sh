@@ -73,7 +73,7 @@ HelpApp() {
 	echo " -w/--wake       Wake up background program"
 	echo " -h/--help        Show program help info"
 }
-	
+
 if [ -z "$1" ]; then
 	Run "$@"
 	exit 0

@@ -11,122 +11,122 @@ license=('LicenseRef-DBAD')
 conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
-    'webkitgtk-6.0'
-    'gtk3'
+	'webkitgtk-6.0'
+	'gtk3'
 )
 makedepends=(
-    'pnpm'
-    'gendesk'
-    'go'
-    'nvm'
-    'git'
+	'pnpm'
+	'gendesk'
+	'go'
+	'nvm'
+	'git'
 )
 source=(
-    "${pkgname%-git}.git::git+${url}.git"
-    "modifiers_linux.go"
+	"${pkgname%-git}.git::git+${url}.git"
+	"modifiers_linux.go"
 )
 sha256sums=('SKIP'
-            '4e4f974f65a6cc7bdf11f4182d5f183e5831ebfd5ef9fae9814b617639440b35')
+			'4e4f974f65a6cc7bdf11f4182d5f183e5831ebfd5ef9fae9814b617639440b35')
 pkgver() {
-    cd "$(_get_project_dir)"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "$(_get_project_dir)"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _get_project_dir() {
-    local d
-    while IFS= read -r d; do
-        find "$d" -name "go.mod" -o -name "go.sum" 2>/dev/null | grep -q . && { echo "$d"; return; }
-    done < <(find "${srcdir}" -maxdepth 1 -mindepth 1 -type d ! -name '.*')
+	local d
+	while IFS= read -r d; do
+		find "$d" -name "go.mod" -o -name "go.sum" 2>/dev/null | grep -q . && { echo "$d"; return; }
+	done < <(find "${srcdir}" -maxdepth 1 -mindepth 1 -type d ! -name '.*')
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _set_go_build_env() {
-    export HOME="${srcdir}/.home"
-    export GOPATH="${HOME}/go"
-    export GOCACHE="${HOME}/go-build"
-    export GOENV="${HOME}/go/env"
-    export XDG_CONFIG_HOME="${HOME}/.config"
-    export XDG_CACHE_HOME="${HOME}/.cache"
-    export CGO_CPPFLAGS="${CPPFLAGS}"
-    export CGO_CFLAGS="${CFLAGS}"
-    export CGO_CXXFLAGS="${CXXFLAGS}"
-    export CGO_LDFLAGS="${LDFLAGS}"
-    export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
-    export GOTOOLCHAIN=local
-    export GOWORK=off
-    mkdir -p "${HOME}" "${GOCACHE}" "${XDG_CONFIG_HOME}" "${XDG_CACHE_HOME}" "$(dirname "${GOENV}")"
-    : > "${GOENV}"
-    export PATH="${GOPATH}/bin:${PATH}"
+	export HOME="${srcdir}/.home"
+	export GOPATH="${HOME}/go"
+	export GOCACHE="${HOME}/go-build"
+	export GOENV="${HOME}/go/env"
+	export XDG_CONFIG_HOME="${HOME}/.config"
+	export XDG_CACHE_HOME="${HOME}/.cache"
+	export CGO_CPPFLAGS="${CPPFLAGS}"
+	export CGO_CFLAGS="${CFLAGS}"
+	export CGO_CXXFLAGS="${CXXFLAGS}"
+	export CGO_LDFLAGS="${LDFLAGS}"
+	export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
+	export GOTOOLCHAIN=local
+	export GOWORK=off
+	mkdir -p "${HOME}" "${GOCACHE}" "${XDG_CONFIG_HOME}" "${XDG_CACHE_HOME}" "$(dirname "${GOENV}")"
+	: > "${GOENV}"
+	export PATH="${GOPATH}/bin:${PATH}"
 }
 _set_pnpm_build_env() {
-    export HOME="${srcdir}/.home"
-    export XDG_CACHE_HOME="${HOME}/.cache"
-    export XDG_CONFIG_HOME="${HOME}/.config"
-    export XDG_DATA_HOME="${HOME}/.local/share"
-    export XDG_STATE_HOME="${HOME}/.local/state"
-    export PNPM_HOME="${HOME}/.pnpm/bin"
-    export pnpm_config_cache_dir="${HOME}/.pnpm_cache"
-    export pnpm_config_store_dir="${HOME}/.pnpm_store"
-    export pnpm_config_global_dir="${HOME}/.pnpm/global"
-    export pnpm_config_state_dir="${HOME}/.pnpm/state"
-    export pnpm_config_node_linker=hoisted
-    export pnpm_config_minimum_release_age=0
-    export pnpm_config_update_notifier=false
-    export COREPACK_NPM_REGISTRY="${COREPACK_NPM_REGISTRY:-${NPM_CONFIG_REGISTRY:-https://registry.npmjs.org}}"
-    export COREPACK_HOME="${HOME}/.corepack"
-    mkdir -p "${HOME}" "${PNPM_HOME}" "${pnpm_config_cache_dir}" "${pnpm_config_store_dir}" "${pnpm_config_global_dir}" "${pnpm_config_state_dir}" "${COREPACK_HOME}"
-    export PATH="${PNPM_HOME}:${PATH}"
-    local _pnpmver=""
-    local _pkgjson="$(_get_project_dir)/package.json"
-    if [ -f "${_pkgjson}" ]; then
-        _pnpmver="$(grep -o '"packageManager"[^,]*' "${_pkgjson}" 2>/dev/null | grep -oE 'pnpm@[^"+]+' | head -n1 | sed 's/^pnpm@//')"
-        if [ -z "${_pnpmver}" ]; then
-            _pnpmver="$(grep -oE '"pnpm"[[:space:]]*:[[:space:]]*"[^"]+"' "${_pkgjson}" 2>/dev/null | grep -oE '[0-9][0-9.]*' | head -n1)"
-        fi
-    fi
-    if [ -n "${_pnpmver}" ]; then
-        npm install -g "pnpm@${_pnpmver}" --prefix "${HOME}/.pnpm" \
-            --registry "${COREPACK_NPM_REGISTRY}"
-    fi
+	export HOME="${srcdir}/.home"
+	export XDG_CACHE_HOME="${HOME}/.cache"
+	export XDG_CONFIG_HOME="${HOME}/.config"
+	export XDG_DATA_HOME="${HOME}/.local/share"
+	export XDG_STATE_HOME="${HOME}/.local/state"
+	export PNPM_HOME="${HOME}/.pnpm/bin"
+	export pnpm_config_cache_dir="${HOME}/.pnpm_cache"
+	export pnpm_config_store_dir="${HOME}/.pnpm_store"
+	export pnpm_config_global_dir="${HOME}/.pnpm/global"
+	export pnpm_config_state_dir="${HOME}/.pnpm/state"
+	export pnpm_config_node_linker=hoisted
+	export pnpm_config_minimum_release_age=0
+	export pnpm_config_update_notifier=false
+	export COREPACK_NPM_REGISTRY="${COREPACK_NPM_REGISTRY:-${NPM_CONFIG_REGISTRY:-https://registry.npmjs.org}}"
+	export COREPACK_HOME="${HOME}/.corepack"
+	mkdir -p "${HOME}" "${PNPM_HOME}" "${pnpm_config_cache_dir}" "${pnpm_config_store_dir}" "${pnpm_config_global_dir}" "${pnpm_config_state_dir}" "${COREPACK_HOME}"
+	export PATH="${PNPM_HOME}:${PATH}"
+	local _pnpmver=""
+	local _pkgjson="$(_get_project_dir)/package.json"
+	if [ -f "${_pkgjson}" ]; then
+		_pnpmver="$(grep -o '"packageManager"[^,]*' "${_pkgjson}" 2>/dev/null | grep -oE 'pnpm@[^"+]+' | head -n1 | sed 's/^pnpm@//')"
+		if [ -z "${_pnpmver}" ]; then
+			_pnpmver="$(grep -oE '"pnpm"[[:space:]]*:[[:space:]]*"[^"]+"' "${_pkgjson}" 2>/dev/null | grep -oE '[0-9][0-9.]*' | head -n1)"
+		fi
+	fi
+	if [ -n "${_pnpmver}" ]; then
+		npm install -g "pnpm@${_pnpmver}" --prefix "${HOME}/.pnpm" \
+			--registry "${COREPACK_NPM_REGISTRY}"
+	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -f -n -q \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_pnpm_build_env
-    _set_go_build_env
-    install "${srcdir}/modifiers_linux.go" -t internal/hotkey
-    go install github.com/wailsapp/wails/v3/cmd/wails3@latest
-    cd "$(_get_project_dir)/frontend"
-    export NODE_ENV=development
-    pnpm install
+	cd "$(_get_project_dir)"
+	gendesk -f -n -q \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_pnpm_build_env
+	_set_go_build_env
+	install "${srcdir}/modifiers_linux.go" -t internal/hotkey
+	go install github.com/wailsapp/wails/v3/cmd/wails3@latest
+	cd "$(_get_project_dir)/frontend"
+	export NODE_ENV=development
+	pnpm install
 }
 build() {
-    cd "$(_get_project_dir)/build"
-    _ensure_local_nvm
-    _set_pnpm_build_env
-    _set_go_build_env
-    go mod tidy
-    wails3 generate bindings -f '-tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1"' -clean=true -ts
-    cd "$(_get_project_dir)/frontend"
-    export NODE_ENV=production
-    pnpm run build
-    cd "$(_get_project_dir)"
-    go build -tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1" -o "bin/${pkgname%-git}"
+	cd "$(_get_project_dir)/build"
+	_ensure_local_nvm
+	_set_pnpm_build_env
+	_set_go_build_env
+	go mod tidy
+	wails3 generate bindings -f '-tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1"' -clean=true -ts
+	cd "$(_get_project_dir)/frontend"
+	export NODE_ENV=production
+	pnpm run build
+	cd "$(_get_project_dir)"
+	go build -tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1" -o "bin/${pkgname%-git}"
 }
 package() {
-    install -Dm644 "$(_get_project_dir)/bin/${pkgname%-git}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "$(_get_project_dir)/build/appicon.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname%-git}.png"
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/bin/${pkgname%-git}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "$(_get_project_dir)/build/appicon.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname%-git}.png"
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

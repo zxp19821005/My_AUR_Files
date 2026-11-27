@@ -14,16 +14,16 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'alsa-lib'
-    'libglvnd'
-    'freetype2'
-    'hicolor-icon-theme'
+	'alsa-lib'
+	'libglvnd'
+	'freetype2'
+	'hicolor-icon-theme'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.deb::https://ci.helio.fm/${_pkgname}-${pkgver}-x64.deb"
+	"${pkgname%-bin}-${pkgver}.deb::https://ci.helio.fm/${_pkgname}-${pkgver}-x64.deb"
 )
 sha256sums=('af2f6d74c34ec04c6c1ab728955f6e14d2b32e22a848414492690b33f7ccb9a2')
 _install_icons() {
@@ -38,13 +38,13 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
-    sed -i "s/\/usr\/bin\/${_pkgname}/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${_appname}.desktop"
-    sed -i "s/${_debname}/${pkgname%-bin}/g" "${srcdir}/usr/share/metainfo/${_debname}.metainfo.xml"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i "s/\/usr\/bin\/${_pkgname}/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${_appname}.desktop"
+	sed -i "s/${_debname}/${pkgname%-bin}/g" "${srcdir}/usr/share/metainfo/${_debname}.metainfo.xml"
 }
 package(){
-    install -Dm755 "${srcdir}/usr/bin/${_pkgname}" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/metainfo/${_debname}.metainfo.xml" "${pkgdir}/usr/share/metainfo/${pkgname%-bin}.metainfo.xml"
+	install -Dm755 "${srcdir}/usr/bin/${_pkgname}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/metainfo/${_debname}.metainfo.xml" "${pkgdir}/usr/share/metainfo/${pkgname%-bin}.metainfo.xml"
 }

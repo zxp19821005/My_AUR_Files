@@ -28,25 +28,25 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('f872ecd0a5f1cabd05e9cd8299712bed0e3adfbfd322e00da2f2d0e4ecb5ade7'
-            '4d4d6d7600ec9260a0deae188b97774dc30771b26028d1a4127d7a58250e5b50')
+			'4d4d6d7600ec9260a0deae188b97774dc30771b26028d1a4127d7a58250e5b50')
 prepare() {
 	sed -i -e "
 		s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
 	cd "${srcdir}/${pkgname%-bin}"
 	case "${CARCH}" in
-        x86_64)
-            rm -rf *aarch64*
+		x86_64)
+			rm -rf *aarch64*
 			mv dsp-linux-amd64 "${pkgname%-bin}"
 			mv dsp-linux-amd64-debug "${pkgname%-bin}-debug"
-        ;;
-        aarch64)
-            rm -rf *amd64*
+		;;
+		aarch64)
+			rm -rf *amd64*
 			mv dsp-linux-aarch64 "${pkgname%-bin}"
 			mv dsp-linux-aarch64-debug "${pkgname%-bin}-debug"
-        ;;
-    esac
+		;;
+	esac
 	find "${srcdir}/${pkgname%-bin}" -type f -name "*.exe" -exec rm -rf {} +
 	chmod a+r keys/*
 }

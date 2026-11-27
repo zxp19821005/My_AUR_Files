@@ -10,25 +10,25 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-appimage}=${pkgver}")
 conflicts=("${pkgname%-appimage}")
 depends=(
-    'gdk-pixbuf2'
-    'webkit2gtk'
-    'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk'
+	'gtk3'
 )
 makedepends=(
-    'gendesk'
+	'gendesk'
 )
 options=('!strip')
 source=(
-    "${pkgname%-appimage}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}.AppImage"
-    "${pkgname%-appimage}-${pkgver}.png::https://raw.githubusercontent.com/lpdswing/GPTFusion/v${pkgver}/build/appicon.png"
+	"${pkgname%-appimage}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}.AppImage"
+	"${pkgname%-appimage}-${pkgver}.png::https://raw.githubusercontent.com/lpdswing/GPTFusion/v${pkgver}/build/appicon.png"
 )
 sha256sums=('9cb9436eb881f237e5ab7a37a306b15ce12768782f797d2eb6e0aa3ad5cf691e'
-            '470456008e1b4054229e95b6fee0401321c514d39569fb9c76004a8e8b753034')
+			'470456008e1b4054229e95b6fee0401321c514d39569fb9c76004a8e8b753034')
 build() {
-    gendesk -q -f -n --pkgname="${pkgname%-appimage}" --categories="Utility" --name="${_pkgname}" --exec="${pkgname%-appimage} --no-sandbox %U"
+	gendesk -q -f -n --pkgname="${pkgname%-appimage}" --categories="Utility" --name="${_pkgname}" --exec="${pkgname%-appimage} --no-sandbox %U"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage" "${pkgdir}/usr/bin/${pkgname%-appimage}"
-    install -Dm644 "${srcdir}/${pkgname%-appimage}-${pkgver}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-appimage}.png"
-    install -Dm644 "${srcdir}/${pkgname%-appimage}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm755 "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage" "${pkgdir}/usr/bin/${pkgname%-appimage}"
+	install -Dm644 "${srcdir}/${pkgname%-appimage}-${pkgver}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-appimage}.png"
+	install -Dm644 "${srcdir}/${pkgname%-appimage}.desktop" -t "${pkgdir}/usr/share/applications"
 }

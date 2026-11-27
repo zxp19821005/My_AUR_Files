@@ -74,7 +74,7 @@ prepare() {
 		s/@cfgdirname@/${pkgname%-git}/g
 		s/@options@//g
 	" "${srcdir}/${pkgname%-git}.sh"
-	
+
 	gendesk -q -f -n \
 		--pkgname="${pkgname%-git}" \
 		--pkgdesc="${pkgdesc}" \

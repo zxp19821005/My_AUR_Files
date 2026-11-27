@@ -11,16 +11,16 @@ license=('LicenseRef-custom')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
-    "LICENSE-${pkgver}.md::${url}/blob/v${pkgver}/LICENSE_PENDING.md"
+	"${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
+	"LICENSE-${pkgver}.md::${url}/blob/v${pkgver}/LICENSE_PENDING.md"
 )
 sha256sums=('20a085a8a756eac9218841d04ed54ccbc432a77ca00b5a747622d918e1a9dea7'
-            '82b530250cbae59b5b835528bc3555561c546c2b8c2729772b9a5a4736d4b8d0')
+			'82b530250cbae59b5b835528bc3555561c546c2b8c2729772b9a5a4736d4b8d0')
 _install_icons() {
 	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
 	while IFS= read -r -d '' _icon; do
@@ -33,13 +33,13 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
-    sed -i "5i\Name[zh_CN]=${_zhsname}" "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i "5i\Name[zh_CN]=${_zhsname}" "${srcdir}/usr/share/applications/${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    [ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
+	install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	[ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
 }

@@ -27,7 +27,7 @@ sha256sums_x86_64=('793fea5259f4f52d99b93e203956d9dfd2dbe0e9ccf8276183d634cf1475
 _check_electron_version() {
 	echo "Verifying Electron version..."
 	local _app_dir=$(find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1)
-	local _main_exe=""    
+	local _main_exe=""
 	if [[ -n "${_app_dir}" ]]; then
 		_main_exe=$(find "${_app_dir}" -maxdepth 1 -type f -executable -printf '%s %p\n' | sort -nr | head -n 1 | cut -d' ' -f2-)
 	fi

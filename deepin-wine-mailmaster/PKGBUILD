@@ -44,7 +44,7 @@ build() {
 		-e "s|\"/opt/apps/${_sparkname}/files/run.sh\"|${pkgname}|g" \
 		-i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop"
 	rm -rf "${srcdir}/opt/apps/${pkgname}/info"
-	md5sum "${srcdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${srcdir}/opt/apps/${pkgname}/files/files.md5sum"     
+	md5sum "${srcdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${srcdir}/opt/apps/${pkgname}/files/files.md5sum"
 }
 
 package() {

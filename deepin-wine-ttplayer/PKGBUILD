@@ -37,7 +37,7 @@ build() {
 	bsdtar -xf "${srcdir}/data."*
 	mv "${srcdir}/opt/apps/${_sparkname}" "${srcdir}/opt/apps/${pkgname}"
 	sed "s|${_sparkname}|${pkgname}|g;s|Music|AudioVideo|g;s|/opt/apps/${pkgname}/files/run.sh|${pkgname}|g" \
-		-i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop" 
+		-i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop"
 	rm -rf "${srcdir}/opt/apps/${pkgname}/info"
 }
 package() {

@@ -69,7 +69,7 @@ package() {
 	chmod u+s "${pkgdir}/usr/lib/${_pkgname}/chrome-sandbox"
 	install -dm755 "${pkgdir}/usr/bin"
 	ln -nfs "/usr/lib/${_pkgname}/${_projectname}" "${pkgdir}/usr/bin/${_pkgname}"
-		
+
 	for _license in 'LICENSE' 'LICENSES.chromium.html'; do
 		install -Dm644 "${_license}" "${pkgdir}/usr/share/licenses/${pkgname}/${_license}"
 	done

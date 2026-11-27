@@ -12,10 +12,10 @@ conflicts=("${pkgname}=${pkgver}")
 source=("${pkgname}-${pkgver}::git+${url}.git#tag=v${pkgver}")
 sha256sums=('03c34b96482b8a6cc8a80546c0dd3232cfdf6c25928c05253da21177b2f16abb')
 build() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    make build
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	make build
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}-${pkgver}/${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

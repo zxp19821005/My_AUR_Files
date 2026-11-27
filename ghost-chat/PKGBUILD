@@ -11,23 +11,23 @@ _ghurl="https://github.com/Enubia/ghost-chat"
 license=('LicenseRef-DBAD')
 conflicts=("${pkgname}")
 depends=(
-    'webkitgtk-6.0'
-    'gtk3'
+	'webkitgtk-6.0'
+	'gtk3'
 )
 makedepends=(
-    'pnpm'
-    'npm'
-    'gendesk'
-    'go'
-    'nvm'
-    'git'
+	'pnpm'
+	'npm'
+	'gendesk'
+	'go'
+	'nvm'
+	'git'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
-    "modifiers_linux.go"
+	"${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
+	"modifiers_linux.go"
 )
 sha256sums=('6bbc783cf224e1b506fb4487108732861b338ed100a54ff6cde692967733d2da'
-            '131035c2816a154359af542ff002e53f48419311e6ab083eb9f944a5e2f0d24c')
+			'131035c2816a154359af542ff002e53f48419311e6ab083eb9f944a5e2f0d24c')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -90,38 +90,38 @@ _set_pnpm_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -f -n -q \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_pnpm_build_env
+	cd "$(_get_project_dir)"
+	gendesk -f -n -q \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_pnpm_build_env
 	_set_go_build_env
-    cp "${srcdir}/modifiers_linux.go" internal/hotkey/modifiers_linux.go
-    go install github.com/wailsapp/wails/v3/cmd/wails3@latest
-    cd "$(_get_project_dir)/frontend"
-    export NODE_ENV=development
-    pnpm install
+	cp "${srcdir}/modifiers_linux.go" internal/hotkey/modifiers_linux.go
+	go install github.com/wailsapp/wails/v3/cmd/wails3@latest
+	cd "$(_get_project_dir)/frontend"
+	export NODE_ENV=development
+	pnpm install
 }
 build() {
 	cd "$(_get_project_dir)/build"
-    _ensure_local_nvm
-    _set_pnpm_build_env
+	_ensure_local_nvm
+	_set_pnpm_build_env
 	_set_go_build_env
-    go mod tidy
-    wails3 generate bindings -f '-tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1"' -clean=true -ts
-    cd "$(_get_project_dir)/frontend"
-    export NODE_ENV=production
-    pnpm run build
-    cd "$(_get_project_dir)"
-    go build -tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1" -o bin/ghost-chat
+	go mod tidy
+	wails3 generate bindings -f '-tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1"' -clean=true -ts
+	cd "$(_get_project_dir)/frontend"
+	export NODE_ENV=production
+	pnpm run build
+	cd "$(_get_project_dir)"
+	go build -tags production -trimpath -buildvcs=false -ldflags="-w -s -X main.version=v4.0.1" -o bin/ghost-chat
 }
 package() {
-    install -Dm755 "$(_get_project_dir)/bin/${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "$(_get_project_dir)/build/appicon.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname}.png"
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "$(_get_project_dir)/bin/${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "$(_get_project_dir)/build/appicon.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname}.png"
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

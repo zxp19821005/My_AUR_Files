@@ -75,7 +75,7 @@ prepare() {
 		s/@appname@/${pkgname}/g
 		s/@runname@/app.asar/g
 		s/@cfgdirname@/${_pkgname}/g
-	" "${srcdir}/${pkgname}.sh"    
+	" "${srcdir}/${pkgname}.sh"
 	gendesk -q -f -n \
 		--pkgname="${pkgname}" \
 		--pkgdesc="${pkgdesc}" \

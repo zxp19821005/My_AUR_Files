@@ -11,38 +11,38 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'jack2'
-    'libx11'
-    'freetype2'
-    'fontconfig'
+	'jack2'
+	'libx11'
+	'freetype2'
+	'fontconfig'
 )
 makedepends=(
-    'fuse2'
+	'fuse2'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}-x86_64.AppImage::${_ghurl}/releases/download/${pkgver}/${_pkgname}-${pkgver}-${CARCH}.AppImage"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}-x86_64.AppImage::${_ghurl}/releases/download/${pkgver}/${_pkgname}-${pkgver}-${CARCH}.AppImage"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('aaad81bb395d71ef863770785248166eebecf4d050935f1b1f44f467fae133d5'
-            '574c9abedf1d4ff7d577a1e180faffeab850eb2aa4eaff000946025787185895')
+			'574c9abedf1d4ff7d577a1e180faffeab850eb2aa4eaff000946025787185895')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    if [ ! -x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" ];then
-        chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
-    fi
-    if [ -d "${srcdir}/squashfs-root" ];then
-        rm -rf "${srcdir}/squashfs-root"
-    fi
-    "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	if [ ! -x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" ];then
+		chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
+	fi
+	if [ -d "${srcdir}/squashfs-root" ];then
+		rm -rf "${srcdir}/squashfs-root"
+	fi
+	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -Pr --no-preserve=ownership "${srcdir}/squashfs-root/usr/"{bin,lib} "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg" \
-        -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
-    install -Dm644 "${srcdir}/squashfs-root/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -Pr --no-preserve=ownership "${srcdir}/squashfs-root/usr/"{bin,lib} "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg" \
+		-t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
+	install -Dm644 "${srcdir}/squashfs-root/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }

@@ -5,10 +5,10 @@ _APPDIR="/usr/lib/@appname@"
 _RUNNAME="${_APPDIR}/@runname@"
 _env_user_data="${XDG_DATA_HOME}"
 if [ -z "${_env_user_data}" ] ; then
-    _env_user_data="${HOME}"
+	_env_user_data="${HOME}"
 fi
 if [ -z "${_env_user_data}" ] ; then
-    _env_user_data="/var/tmp"             
+	_env_user_data="/var/tmp"
 fi
 export _env_user_data="${_env_user_data}/@appname@"
 _input_method_framework=fcitx
