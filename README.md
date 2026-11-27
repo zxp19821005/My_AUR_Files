@@ -1187,7 +1187,7 @@
 |**ptree**|[ptree-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/ptree-bin)|[ptree-bin](https://aur.archlinux.org/packages/ptree-bin)||
 |**publii**|[publii-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-bin) <br> [publii-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/publii-git)|[publii-bin](https://aur.archlinux.org/packages/publii-bin) <br> [publii-git](https://aur.archlinux.org/packages/publii-git)||
 |**pulsar**|[pulsar-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulsar-git)|[pulsar-git](https://aur.archlinux.org/packages/pulsar-git)||
-|**pulse-browser**|[pulse-browser-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pulse-browser-git)|[pulse-browser-git](https://aur.archlinux.org/packages/pulse-browser-git)||
+|****|[-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/-git)|[-git](https://aur.archlinux.org/packages/-git)||
 |**pupu**|[pupu-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/pupu-bin)<br>[pupu-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pupu-git)|[pupu-bin](https://aur.archlinux.org/packages/pupu-bin)<br>[pupu-git](https://aur.archlinux.org/packages/pupu-git)||
 |**pure-studio**|[pure-studio-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/pure-studio-git)|[pure-studio-git](https://aur.archlinux.org/packages/pure-studio-git)||
 |**qcalc**|[qcalc-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/qcalc-bin)|[qcalc-bin](https://aur.archlinux.org/packages/qcalc-bin)||
@@ -1330,6 +1330,7 @@
 |**simple-inventory**|[simple-inventory-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-inventory-bin)|[simple-inventory-bin](https://aur.archlinux.org/packages/simple-inventory-bin)||
 |**simple-irc-client**|[simple-irc-client-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-irc-client-bin)|[simple-irc-client-bin](https://aur.archlinux.org/packages/simple-irc-client-bin)||
 |**simple-music**|[simple-music](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music) <br> [simple-music-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/simple-music-git)|[simple-music](https://aur.archlinux.org/packages/simple-music) <br> [simple-music-git](https://aur.archlinux.org/packages/simple-music-git)||
+|**simplenote-electron**|[simplenote-electron-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/simplenote-electron-git)|[simplenote-electron-git](https://aur.archlinux.org/packages/simplenote-electron-git)||
 |**simpleshell**|[simpleshell-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/simpleshell-git)|[simpleshell-git](https://aur.archlinux.org/packages/simpleshell-git)||
 |**simplest-file-renamer**|[simplest-file-renamer-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/simplest-file-renamer-git) <br> [simplest-file-renamer-bin](https://github.com/zxp19821005/My_AUR_Files/tree/main/simplest-file-renamer-bin)|[simplest-file-renamer-git](https://aur.archlinux.org/packages/simplest-file-renamer-git) <br> [simplest-file-renamer-bin](https://aur.archlinux.org/packages/simplest-file-renamer-bin)||
 |**simpletodo**|[simpletodo-git](https://github.com/zxp19821005/My_AUR_Files/tree/main/simpletodo-git)|[simpletodo-git](https://aur.archlinux.org/packages/simpletodo-git)||
