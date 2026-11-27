@@ -13,8 +13,8 @@ _nodeversion=22
 pkgrel=1
 pkgdesc="A fully open source & end-to-end encrypted note taking alternative to Evernote."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://notesnook.com/"
 _ghurl="https://github.com/streetwriters/notesnook"
@@ -22,25 +22,25 @@ license=('GPL-3.0-or-later')
 provides=("${pkgname}=${pkgver}")
 conflicts=("${pkgname}")
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'nvm'
-    'npm'
-    'zip'
-    'python-setuptools'
-    'jq'
+	'nvm'
+	'npm'
+	'zip'
+	'python-setuptools'
+	'jq'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
-    "${pkgname}.desktop"
-    "${pkgname}.js"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
+	"${pkgname}.desktop"
+	"${pkgname}.js"
+	"${pkgname}.sh"
 )
 sha256sums=('ec4fd8a30a4b701226d961448d8b71a20217c716263d6a629307682187836e66'
-            '102a538ee9432310d854842a578cd3371df0431b4db617479de66aa45b5f2440'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'102a538ee9432310d854842a578cd3371df0431b4db617479de66aa45b5f2440'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -85,45 +85,45 @@ _set_npm_build_env() {
 	mkdir -p "${HOME}" "${npm_config_cache}" "${COREPACK_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    sed -i "s/npm \${/NODE_ENV=development npm \${/g" scripts/bootstrap.mjs
-    export NODE_ENV=development
-    npm install --ignore-scripts --prefer-offline --no-audit
-    npm run bootstrap -- --scope=web
-    npm run bootstrap -- --scope=desktop
-    cd "$(_get_project_dir)/apps/desktop"
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    npm install sqlite-better-trigram
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	sed -i "s/npm \${/NODE_ENV=development npm \${/g" scripts/bootstrap.mjs
+	export NODE_ENV=development
+	npm install --ignore-scripts --prefer-offline --no-audit
+	npm run bootstrap -- --scope=web
+	npm run bootstrap -- --scope=desktop
+	cd "$(_get_project_dir)/apps/desktop"
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	npm install sqlite-better-trigram
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    export NODE_ENV=production
-    npm run tx @notesnook/web:build:desktop
-    cd apps/desktop
-    npm run bundle
-    cp -r "$(_get_project_dir)/apps/web/build" "$(_get_project_dir)/apps/desktop"
-    npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config=electron-builder.config.js"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	export NODE_ENV=production
+	npm run tx @notesnook/web:build:desktop
+	cd apps/desktop
+	npm run bundle
+	cp -r "$(_get_project_dir)/apps/web/build" "$(_get_project_dir)/apps/desktop"
+	npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config=electron-builder.config.js"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    _icon_sizes=(16x16 24x24 32x32 48x48 64x64 128x128 256x256 512x512 1024x1024)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/apps/desktop/assets/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	_icon_sizes=(16x16 24x24 32x32 48x48 64x64 128x128 256x256 512x512 1024x1024)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/apps/desktop/assets/icons/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+	done
+	install -Dm644 "${srcdir}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
 }

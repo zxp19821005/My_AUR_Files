@@ -5,10 +5,10 @@ pkgver=3.0.7
 pkgrel=1
 pkgdesc="Yet another WebUI for Nginx."
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://nginxui.com/"
 _ghurl="https://github.com/0xJacky/nginx-ui"
@@ -16,10 +16,10 @@ license=('AGPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'nginx'
+	'nginx'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.tar.gz::${_ghurl}/releases/download/v${pkgver//_/-}/${pkgname%-bin}-linux-arm64-v8a.tar.gz")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.tar.gz::${_ghurl}/releases/download/v${pkgver//_/-}/${pkgname%-bin}-linux-arm32-v7a.tar.gz")
@@ -30,6 +30,6 @@ sha256sums_armv7h=('8a4ee5288a34e10a9a1e1d032d0059224ea993f12271163d1969acb13eea
 sha256sums_i686=('d8f4a3c25abb4ce6fa368ece36717062f3a4410ffffffa4f25bc63094558b3f7')
 sha256sums_x86_64=('e8ae67ca4d47998097df20859e4be5e073b4686823840fb3f12cdab3dc8ebbf1')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/README"* -t "${pkgdir}/usr/share/docs/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/README"* -t "${pkgdir}/usr/share/docs/${pkgname%-bin}"
 }

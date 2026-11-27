@@ -10,24 +10,24 @@ arch=('any')
 url="https://github.com/stark81/VutronMusic"
 license=('MIT')
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'gendesk'
-    'yarn'
-    'git'
-    'jq'
+	'npm'
+	'nvm'
+	'gendesk'
+	'yarn'
+	'git'
+	'jq'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
-    "${pkgname}.js"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
+	"${pkgname}.js"
+	"${pkgname}.sh"
 )
 sha256sums=('5fc7414fd935868a156b2ef18c44b09440c574137aa4c9a8e134832cd9bb37e3'
-            '03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_project_dir() {
 	local _d _f _t _bt= _best= _bs=0
 	while IFS= read -r _d; do
@@ -137,40 +137,40 @@ _generate_icons() {
 	done
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="AudioVideo" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_yarn_build_env
-    export NODE_ENV=development
-    yarn install --ignore-scripts
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="AudioVideo" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_yarn_build_env
+	export NODE_ENV=development
+	yarn install --ignore-scripts
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_yarn_build_env
-    export NODE_ENV=production
-    npm run fix-taglib
-    npm run build:pre
-    npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config=buildAssets/builder/config.js"
-    _delete_other_arch_files
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_yarn_build_env
+	export NODE_ENV=production
+	npm run fix-taglib
+	npm run build:pre
+	npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config=buildAssets/builder/config.js"
+	_delete_other_arch_files
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    _generate_icons
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	_generate_icons
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

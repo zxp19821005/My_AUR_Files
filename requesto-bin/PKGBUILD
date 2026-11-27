@@ -10,31 +10,31 @@ url="https://requesto.com.au/"
 _ghurl="https://github.com/t3rr11/Requesto"
 license=('MIT')
 conflicts=(
-    "${pkgname%-bin}"
+	"${pkgname%-bin}"
 )
 provides=(
-    "${pkgname%-bin}=${pkgver}"
+	"${pkgname%-bin}=${pkgver}"
 )
 depends=(
-    "electron${_electronversion}"
-    'nodejs'
-    'libappindicator'
-    'libayatana-appindicator'
+	"electron${_electronversion}"
+	'nodejs'
+	'libappindicator'
+	'libayatana-appindicator'
 )
 options=(
-    '!emptydirs'
-    '!strip'
+	'!emptydirs'
+	'!strip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-electron_${pkgver}_amd64.deb"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/t3rr11/Requesto/v${pkgver}/LICENSE"
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-electron_${pkgver}_amd64.deb"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/t3rr11/Requesto/v${pkgver}/LICENSE"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('40f04b03c09dc289d9b738c8df510b33eb1f155359e2ffc6777a87674b2efa42'
-            'baa265fc2389eb1ac3a489bd8fdb9255614a801f0b1624faf107c5a0d0c1bd66'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'baa265fc2389eb1ac3a489bd8fdb9255614a801f0b1624faf107c5a0d0c1bd66'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -59,22 +59,22 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    bsdtar -xf "${srcdir}/data."*
-    _check_electron_version
-    sed -i -e "
-        s/\/opt\/${_pkgname}\/${pkgname%-bin}-electron/${pkgname%-bin}/g
-        s/Icon=${pkgname%-bin}-electron/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${pkgname%-bin}-electron.desktop"
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	bsdtar -xf "${srcdir}/data."*
+	_check_electron_version
+	sed -i -e "
+		s/\/opt\/${_pkgname}\/${pkgname%-bin}-electron/${pkgname%-bin}/g
+		s/Icon=${pkgname%-bin}-electron/Icon=${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${pkgname%-bin}-electron.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}-electron.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}-electron.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

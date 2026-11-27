@@ -10,21 +10,21 @@ license=("Artistic-2.0")
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'file'
-    'curl'
-    'qrencode'
-    'util-linux-libs'
-    'wxwidgets-gtk3'
-    'wxwidgets-common'
+	'file'
+	'curl'
+	'qrencode'
+	'util-linux-libs'
+	'wxwidgets-gtk3'
+	'wxwidgets-common'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/${pkgver}/${pkgname%-bin}-fedora44-${pkgver//.0/}-${CARCH}.rpm"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/pwsafe/pwsafe/${pkgver}/LICENSE"
+	"${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/${pkgver}/${pkgname%-bin}-fedora44-${pkgver//.0/}-${CARCH}.rpm"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/pwsafe/pwsafe/${pkgver}/LICENSE"
 )
 sha256sums=('d91f227d8475cea15801fd59a27d833036c4d77cf48d2c816ce064e1b9dbe210'
-            '4b78a21565152049c63fcde694cd4ba8f2205491d0e17dc4fd1a711416561013')
+			'4b78a21565152049c63fcde694cd4ba8f2205491d0e17dc4fd1a711416561013')
 package() {
-    install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-    cp -a "${srcdir}/usr/share" "${pkgdir}/usr"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
+	cp -a "${srcdir}/usr/share" "${pkgdir}/usr"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

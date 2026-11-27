@@ -14,44 +14,44 @@ license=('MIT')
 conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
-    "electron${_electronversion}"
-    'nodejs'
-    'python-packaging'
-    'ruby'
-    'python'
-    'python-typing_extensions'
-    'perl'
-    'libsecret'
-    'libxkbfile'
+	"electron${_electronversion}"
+	'nodejs'
+	'python-packaging'
+	'ruby'
+	'python'
+	'python-typing_extensions'
+	'perl'
+	'libsecret'
+	'libxkbfile'
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'git'
-    'yarn'
-    'jq'
-    'python-setuptools'
-    'python'
-    'python-setuptools'
-    'openssl'
-    'libssh2'
-    'libx11'
-    'libxkbfile'
-    'libsecret'
-    'libxkbcommon'
-    'ncurses'
-    'libffi'
-    'bzip2'
-    'zlib'
-    'tk'
-    'sqlite'
+	'npm'
+	'nvm'
+	'git'
+	'yarn'
+	'jq'
+	'python-setuptools'
+	'python'
+	'python-setuptools'
+	'openssl'
+	'libssh2'
+	'libx11'
+	'libxkbfile'
+	'libsecret'
+	'libxkbcommon'
+	'ncurses'
+	'libffi'
+	'bzip2'
+	'zlib'
+	'tk'
+	'sqlite'
 )
 source=(
-    "${pkgname%-git}.git::git+${_ghurl}"
-    "${pkgname%-git}.sh"
+	"${pkgname%-git}.git::git+${_ghurl}"
+	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            'bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc')
+			'bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -59,16 +59,16 @@ _get_project_dir() {
 	done < <(find "${srcdir}" -maxdepth 1 -mindepth 1 -type d ! -name '.*')
 }
 pkgver() {
-    cd "$(_get_project_dir)"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "$(_get_project_dir)"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _get_app_dir() {
 	find "${srcdir}" -type d -name "*-unpacked" -print 2>/dev/null | head -n 1
@@ -138,66 +138,66 @@ _set_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/
-        s/@appname@/${pkgname%-git}/
-        s/@runname@/app.asar/
-        s/@cfgdirname@/${_pkgname}/
-    " "${srcdir}/${pkgname%-git}.sh"
-    _ensure_local_nvm
-    _set_build_env
-    sed -i -e "
-        /'appimage'/d
-        /'deb'/d
-        /'rpm'/d
-        s/'tar.gz'/'dir'/g
-        /^let options = {/a\\  electronDist: '${ELECTRON_DIST}',
-    " script/electron-builder.js
-    # Fix: less/dist is needed at runtime for less-cache to compile stylesheets
-    sed -i 's/"!\*\*\/less\/dist"/\/\/ "!**\/less\/dist"/' script/electron-builder.js
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    sed -i "s/${_debname}/${pkgname%-git}/g" "resources/linux/${_debname}.metainfo.xml"
-    sed -i -e "
-        s/<\%\= appName \%>/${_pkgname}/g
-        s/<\%\= description \%>/${pkgdesc}/g
-        s/<\%\= installDir \%>\/bin\/<\%\= appFileName \%> --no-sandbox/${pkgname%-git}/
-        s/<\%\= iconPath \%>/${pkgname%-git}/
-    " "resources/linux/${pkgname%-git}.desktop.in"
-    git submodule update --depth=1 --init --recursive
-    find "$(_get_project_dir)" -type f -name "yarn.lock" -exec rm -rf {} +
-    find src -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-git}\'/g" {} +
-    export NODE_ENV=development
-    yarn install --ignore-engines
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/
+		s/@appname@/${pkgname%-git}/
+		s/@runname@/app.asar/
+		s/@cfgdirname@/${_pkgname}/
+	" "${srcdir}/${pkgname%-git}.sh"
+	_ensure_local_nvm
+	_set_build_env
+	sed -i -e "
+		/'appimage'/d
+		/'deb'/d
+		/'rpm'/d
+		s/'tar.gz'/'dir'/g
+		/^let options = {/a\\  electronDist: '${ELECTRON_DIST}',
+	" script/electron-builder.js
+	# Fix: less/dist is needed at runtime for less-cache to compile stylesheets
+	sed -i 's/"!\*\*\/less\/dist"/\/\/ "!**\/less\/dist"/' script/electron-builder.js
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	sed -i "s/${_debname}/${pkgname%-git}/g" "resources/linux/${_debname}.metainfo.xml"
+	sed -i -e "
+		s/<\%\= appName \%>/${_pkgname}/g
+		s/<\%\= description \%>/${pkgdesc}/g
+		s/<\%\= installDir \%>\/bin\/<\%\= appFileName \%> --no-sandbox/${pkgname%-git}/
+		s/<\%\= iconPath \%>/${pkgname%-git}/
+	" "resources/linux/${pkgname%-git}.desktop.in"
+	git submodule update --depth=1 --init --recursive
+	find "$(_get_project_dir)" -type f -name "yarn.lock" -exec rm -rf {} +
+	find src -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-git}\'/g" {} +
+	export NODE_ENV=development
+	yarn install --ignore-engines
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    export TMPDIR="${srcdir}"
-    yarn build
-    yarn build:apm
-    # Fix: git-utils binding.gyp missing net.c on Linux (causes undefined symbol: git_net_url_dispose)
-    # net.c is only in Windows sources but netops.c (in common sources) calls git_net_url_dispose from net.c
-    sed -i "/netops\.c/a\\        'deps/libgit2/src/net.c'," ppm/node_modules/git-utils/binding.gyp
-    cd ppm/node_modules/git-utils && npm rebuild
-    cd "$(_get_project_dir)"
-    yarn dist
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	export TMPDIR="${srcdir}"
+	yarn build
+	yarn build:apm
+	# Fix: git-utils binding.gyp missing net.c on Linux (causes undefined symbol: git_net_url_dispose)
+	# net.c is only in Windows sources but netops.c (in common sources) calls git_net_url_dispose from net.c
+	sed -i "/netops\.c/a\\        'deps/libgit2/src/net.c'," ppm/node_modules/git-utils/binding.gyp
+	cd ppm/node_modules/git-utils && npm rebuild
+	cd "$(_get_project_dir)"
+	yarn dist
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
 	local _app_dir="$(_get_app_dir)"
 	cp -a "${_app_dir}/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    rm -rf "${pkgdir}/usr/lib/${pkgname%-git}/default_app.asar"
-    local _src="$(_get_project_dir)"
-    _icon_sizes=(16x16 24x24 32x32 48x48 64x64 128x128 256x256 384x384)
+	rm -rf "${pkgdir}/usr/lib/${pkgname%-git}/default_app.asar"
+	local _src="$(_get_project_dir)"
+	_icon_sizes=(16x16 24x24 32x32 48x48 64x64 128x128 256x256 384x384)
 	for _icons in "${_icon_sizes[@]}";do
 		install -Dm644 "${_src}/resources/icons/${_icons}.png" \
 			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"
 	done
-    install -Dm644 "${_src}/resources/linux/${pkgname%-git}.desktop.in" "${pkgdir}/usr/share/applications/${pkgname%-git}.desktop"
-    install -Dm644 "${_src}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "${_src}/resources/linux/${pkgname%-git}.desktop.in" "${pkgdir}/usr/share/applications/${pkgname%-git}.desktop"
+	install -Dm644 "${_src}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

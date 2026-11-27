@@ -21,12 +21,12 @@ makedepends=(
 options=("!strip")
 source=(
 	"${pkgname%-bin}-${pkgver}.flatpak::${_ghurl}/releases/download/v${pkgver}/${_pkgname}.flatpak"
-    "yufpak_unpack.py"
+	"yufpak_unpack.py"
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('088a3aab4b09fa8cc81e4d8ef7491859692fbd8e5619e79756114af9b8ebd731'
-            'e9ccc53d7547948350effc4d1ae5689f9f387ca391cda64390d3d50ee4330a39'
-            '216b754c5be3b7d33ebc915743a3bc4d6663a63b0a07468c88cc26bf20908cb4')
+			'e9ccc53d7547948350effc4d1ae5689f9f387ca391cda64390d3d50ee4330a39'
+			'216b754c5be3b7d33ebc915743a3bc4d6663a63b0a07468c88cc26bf20908cb4')
 prepare() {
 	sed -i -e "
 		s/@appname@/${pkgname%-bin}/g

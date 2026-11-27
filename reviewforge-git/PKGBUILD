@@ -13,16 +13,16 @@ conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
 	"electron${_electronversion}"
-    'nodejs'
-    'perl'
-    'git'
+	'nodejs'
+	'perl'
+	'git'
 )
 makedepends=(
 	'npm'
 	'nvm'
 	'gendesk'
 	'jq'
-    'zip'
+	'zip'
 )
 source=(
 	"${pkgname//-/.}::git+${url}.git"
@@ -31,8 +31,8 @@ source=(
 )
 options=('!strip')
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -113,7 +113,7 @@ prepare() {
 	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
 	export NODE_ENV=development
 	npm install
-    _use_local_electron_for_forge
+	_use_local_electron_for_forge
 }
 build() {
 	cd "$(_get_project_dir)"
@@ -124,22 +124,22 @@ build() {
 	npm run build
 	npx electron-forge package
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
-    local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
+	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
 	find "$(_get_app_dir)" -type d \
 		\( -name '*darwin*' -o -name "*ios*" -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
 		-prune -exec rm -rf {} +
-    ln -sf "/usr/bin/git" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/dugite/git/bin/git"
-    ln -sf "/usr/bin/scalar" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/dugite/git/bin/scalar"
-    local _gc_dir="$(_get_app_dir)/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core"
-    local _f _b
-    for _f in "${_gc_dir}"/*; do
-        _b="${_f##*/}"
-        [[ -f "/usr/lib/git-core/${_b}" ]] && ln -sfn "/usr/lib/git-core/${_b}" "${_f}"
-    done
-    for _f in "${_gc_dir}/mergetools"/*; do
-        _b="${_f##*/}"
-        [[ -f "/usr/lib/git-core/mergetools/${_b}" ]] && ln -sfn "/usr/lib/git-core/mergetools/${_b}" "${_f}"
-    done
+	ln -sf "/usr/bin/git" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/dugite/git/bin/git"
+	ln -sf "/usr/bin/scalar" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/dugite/git/bin/scalar"
+	local _gc_dir="$(_get_app_dir)/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core"
+	local _f _b
+	for _f in "${_gc_dir}"/*; do
+		_b="${_f##*/}"
+		[[ -f "/usr/lib/git-core/${_b}" ]] && ln -sfn "/usr/lib/git-core/${_b}" "${_f}"
+	done
+	for _f in "${_gc_dir}/mergetools"/*; do
+		_b="${_f##*/}"
+		[[ -f "/usr/lib/git-core/mergetools/${_b}" ]] && ln -sfn "/usr/lib/git-core/mergetools/${_b}" "${_f}"
+	done
 }
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"

@@ -11,35 +11,35 @@ _ghurl="https://github.com/tiny-craft/tiny-rdm"
 license=('GPL-3.0-only')
 conflicts=("${pkgname%-git}")
 depends=(
-    'gtk3'
-    'webkit2gtk-4.1'
+	'gtk3'
+	'webkit2gtk-4.1'
 )
 makedepends=(
-    'nvm'
-    'npm'
-    'git'
-    'go'
-    'wails'
-    'curl'
+	'nvm'
+	'npm'
+	'git'
+	'go'
+	'wails'
+	'curl'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source=(
-    "${pkgname%-git}.git::git+${_ghurl}.git"
+	"${pkgname%-git}.git::git+${_ghurl}.git"
 )
 sha256sums=('SKIP')
 pkgver() {
-    cd "${srcdir}/${pkgname%-git}.git"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "${srcdir}/${pkgname%-git}.git"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _set_build_env() {
 	export HOME="${srcdir}/.home"
@@ -66,27 +66,27 @@ _set_build_env() {
 	: > "${GOENV}"
 }
 prepare() {
-    cd "${srcdir}/${pkgname%-git}.git/frontend"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=development
-    npm install
+	cd "${srcdir}/${pkgname%-git}.git/frontend"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=development
+	npm install
 }
 build() {
-    cd "${srcdir}/${pkgname%-git}.git"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    wails build -platform linux -tags webkit2_41 -o "${pkgname%-git}"
-    sed -i -e "
-        s/{{.Info.ProductName}}/${_pkgname}/g
-        s/\/usr\/local\/bin\/${pkgname%-git}/${pkgname%-git}/g
-        s/{{.Info.Comments}}/${pkgdesc}/g
-    " "build/linux/${pkgname%-git}_0.0.0_amd64/usr/share/applications/${pkgname%-git}.desktop"
+	cd "${srcdir}/${pkgname%-git}.git"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	wails build -platform linux -tags webkit2_41 -o "${pkgname%-git}"
+	sed -i -e "
+		s/{{.Info.ProductName}}/${_pkgname}/g
+		s/\/usr\/local\/bin\/${pkgname%-git}/${pkgname%-git}/g
+		s/{{.Info.Comments}}/${pkgdesc}/g
+	" "build/linux/${pkgname%-git}_0.0.0_amd64/usr/share/applications/${pkgname%-git}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.git/build/bin/${pkgname%-git}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux/${pkgname%-git}_0.0.0_amd64/usr/share/applications/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/appicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.git/build/bin/${pkgname%-git}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/${pkgname%-git}.git/build/linux/${pkgname%-git}_0.0.0_amd64/usr/share/applications/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/${pkgname%-git}.git/build/appicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+	install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname%-git}"
 }

@@ -27,23 +27,23 @@ source=(
   "${pkgname%-bin}.sh"
 )
 sha256sums=('7a7628cd6ff8c605c2696da178f0a8cf3dcf733ba66ddcd992ce515d1433720f'
-            'fb50da095804aea76ed6f0c29d58aaf16721b0d4799b7b750edfb6935123ab1a')
+			'fb50da095804aea76ed6f0c29d58aaf16721b0d4799b7b750edfb6935123ab1a')
 build() {
   sed -e "s|@appname@|${pkgname%-bin}|" \
-      -e "s|@runname@|${_pkgname}|g" \
-      -i "${srcdir}/${pkgname%-bin}.sh"
+	  -e "s|@runname@|${_pkgname}|g" \
+	  -i "${srcdir}/${pkgname%-bin}.sh"
   chmod a+x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage"
   "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" --appimage-extract > /dev/null
   sed "s|Exec=${_pkgname}|Exec=${pkgname%-bin}|g;s|Icon=${_pkgname}|Icon=${pkgname%-bin}|g" \
-    -i "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop"
+	-i "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop"
 }
 package() {
   install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
   install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
   cp -r "${srcdir}/squashfs-root/usr/"{bin,lib,plugins,translations} "${pkgdir}/usr/lib/${pkgname%-bin}"
   install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/${_pkgname}.svg" \
-    "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
+	"${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
   install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/mimetypes/${_pkgname}.svg" \
-    "${pkgdir}/usr/share/icons/hicolor/scalable/mimetypes/${pkgname%-bin}.svg"
+	"${pkgdir}/usr/share/icons/hicolor/scalable/mimetypes/${pkgname%-bin}.svg"
   install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }

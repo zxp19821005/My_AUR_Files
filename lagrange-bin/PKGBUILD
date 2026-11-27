@@ -6,9 +6,9 @@ pkgver=2.0.4
 pkgrel=1
 pkgdesc="A Beautiful Gemini Client."
 arch=(
-    'aarch64'
-    'armv7h'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'x86_64'
 )
 url="https://gmi.skyjake.fi/lagrange/"
 _ghurl="https://github.com/skyjake/lagrange"
@@ -16,24 +16,24 @@ license=('BSD-3-Clause')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'alsa-lib'
-    'libdrm'
-    'libgpg-error'
-    'mesa'
+	'alsa-lib'
+	'libdrm'
+	'libgpg-error'
+	'mesa'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "LICENSE-${pkgver}.md::https://raw.githubusercontent.com/skyjake/lagrange/v${pkgver}/LICENSE.md"
-    "${pkgname%-bin}.sh"
+	"LICENSE-${pkgver}.md::https://raw.githubusercontent.com/skyjake/lagrange/v${pkgver}/LICENSE.md"
+	"${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-aarch64.AppImage")
 source_armv7h=("${pkgname%-bin}-${pkgver}-armv7h.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-armhf.AppImage")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-x86_64.AppImage")
 sha256sums=('d8dd2acc4ba121ca7da3c899c8c443484ab54526ed5933e34fffae2cedb28fbe'
-            '92457ec25ef4808eb5481279d86c801e9d9bc15cfbb167b5ef68a54e13b44839')
+			'92457ec25ef4808eb5481279d86c801e9d9bc15cfbb167b5ef68a54e13b44839')
 sha256sums_aarch64=('cc4d2840b7f19e9e39396c36e0a39705c45604fda2110219fce51d2eeb33c154')
 sha256sums_armv7h=('b7a7416c3b38b50f58c4062ea21722a450c3e43d547fd3169564c05d8bbc856d')
 sha256sums_x86_64=('1f4c37c3939ccaae10bc199c4d6c168ca22bccf44bb1551bbbc6d43f384cd7c6')
@@ -49,23 +49,23 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
-    rm -rf "${srcdir}/squashfs-root"
-    "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
-    sed -i "s/${_appname}/${pkgname%-bin}/g" \
-        "${srcdir}/squashfs-root/${_appname}.desktop" \
-        "${srcdir}/squashfs-root/usr/share/metainfo/${_appname}.appdata.xml"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
+	rm -rf "${srcdir}/squashfs-root"
+	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
+	sed -i "s/${_appname}/${pkgname%-bin}/g" \
+		"${srcdir}/squashfs-root/${_appname}.desktop" \
+		"${srcdir}/squashfs-root/usr/share/metainfo/${_appname}.appdata.xml"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/squashfs-root/usr/"{bin,lib,share} "${pkgdir}/usr/lib/${pkgname%-bin}"
-    _install_icons
-    install -Dm644 "${srcdir}/squashfs-root/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/metainfo/${_appname}.appdata.xml" "${pkgdir}/usr/share/metainfo/${pkgname%-bin}.appdata.xml"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/squashfs-root/usr/"{bin,lib,share} "${pkgdir}/usr/lib/${pkgname%-bin}"
+	_install_icons
+	install -Dm644 "${srcdir}/squashfs-root/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/squashfs-root/usr/share/metainfo/${_appname}.appdata.xml" "${pkgdir}/usr/share/metainfo/${pkgname%-bin}.appdata.xml"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
 }

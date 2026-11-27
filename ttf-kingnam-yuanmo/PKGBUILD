@@ -11,7 +11,7 @@ conflicts=("${pkgname}")
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('ae042dac23bc2a963864f6445784afe760b2ed0e60abed5331816ef4e6492d0f')
 package() {
-    export LC_CTYPE="zh_CN.UTF-8"
-    install -Dm444 "${srcdir}/${_pkgname}-${pkgver}/fonts/TTF/${_pkgname}-Regular.ttf" "${pkgdir}/usr/share/fonts/TTF/${pkgname}-regular.ttf"
-    install -Dm444 "${srcdir}/${_pkgname}-${pkgver}/OFL.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+	export LC_CTYPE="zh_CN.UTF-8"
+	install -Dm444 "${srcdir}/${_pkgname}-${pkgver}/fonts/TTF/${_pkgname}-Regular.ttf" "${pkgdir}/usr/share/fonts/TTF/${pkgname}-regular.ttf"
+	install -Dm444 "${srcdir}/${_pkgname}-${pkgver}/OFL.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
 }

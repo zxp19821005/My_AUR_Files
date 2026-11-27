@@ -15,14 +15,14 @@ depends=(
 )
 source=(
 	"${pkgname%-bin}-${pkgver}-x86_64.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}.AppImage"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/Goitonthefloor/modelharbor/v${pkgver}/LICENSE"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/Goitonthefloor/modelharbor/v${pkgver}/LICENSE"
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('cf626b35a055d510b6e2a5532fa3cb6fd948c94c38f75c37a9d8d8f1ffeb1597'
-            'e167ae19419045aef48ea5eb6ec5685e7410b8f5fca2c8772533790391f79d90'
-            'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'e167ae19419045aef48ea5eb6ec5685e7410b8f5fca2c8772533790391f79d90'
+			'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done

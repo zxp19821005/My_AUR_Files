@@ -5,17 +5,17 @@ pkgver=3.3.0
 pkgrel=1
 pkgdesc="🎮⌛Downgrade Steam games to older versions with ease using DepotDownloader.(Prebuilt version)"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://github.com/mmvanheusden/SteamDepotDownloaderGUI"
 license=('GPL-3.0-only')
 conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
 )
 source=("${pkgname%-bin}.sh")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}-linux-v${pkgver}-aarch64.AppImage")
@@ -35,23 +35,23 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
-    rm -rf "${srcdir}/squashfs-root"
-    "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
-    sed -i -e "
-        s/Categories=/Categories=Utility;/g
-        s/Exec=vectum/Exec=${pkgname%-bin}/g
-        s/StartupWMClass=vectum/StartupWMClass=${_pkgname}/g
-        s/Icon=vectum/Icon=${pkgname%-bin}/g
-    " "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
+	rm -rf "${srcdir}/squashfs-root"
+	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
+	sed -i -e "
+		s/Categories=/Categories=Utility;/g
+		s/Exec=vectum/Exec=${pkgname%-bin}/g
+		s/StartupWMClass=vectum/StartupWMClass=${_pkgname}/g
+		s/Icon=vectum/Icon=${pkgname%-bin}/g
+	" "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 "${srcdir}/squashfs-root/usr/bin/vectum" "${pkgdir}/usr/lib/${pkgname%-bin}/${pkgname%-bin}"
-    _install_icons
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/squashfs-root/usr/bin/vectum" "${pkgdir}/usr/lib/${pkgname%-bin}/${pkgname%-bin}"
+	_install_icons
+	install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }

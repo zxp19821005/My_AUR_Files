@@ -12,37 +12,37 @@ _ghurl="https://github.com/purocean/yn"
 license=('AGPL-3.0-only')
 conflicts=("${pkgname%-git}")
 depends=(
-    "electron${_electronversion}"
-    'python'
-    'java-runtime'
+	"electron${_electronversion}"
+	'python'
+	'java-runtime'
 )
 makedepends=(
-    'gendesk'
-    'npm'
-    'yarn'
-    'nvm'
-    'git'
-    'curl'
-    'python'
-    'jq'
+	'gendesk'
+	'npm'
+	'yarn'
+	'nvm'
+	'git'
+	'curl'
+	'python'
+	'jq'
 )
 source=(
-    "${pkgname%-git}.git::git+${_ghurl}"
-    "${pkgname%-git}.sh"
+	"${pkgname%-git}.git::git+${_ghurl}"
+	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+			'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 pkgver() {
-    cd "${srcdir}/${pkgname%-git}.git"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "${srcdir}/${pkgname%-git}.git"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _get_app_dir() {
 	find "${srcdir}" -type d -name "node_modules" -prune -o -type f -name "resources.pak" -print0 | xargs -0 dirname | head -n 1
@@ -99,50 +99,50 @@ _set_build_env() {
 	fi
 }
 _get_electron_version() {
-    _elec_ver=$(find "${srcdir}" -maxdepth 5 -name "package.json" ! -path "*/node_modules/*" \
-        -exec grep -l '"electron"' {} + | xargs -I{} jq -r '(.devDependencies.electron // .dependencies.electron) // empty' {} 2>/dev/null | head -1)
-    [[ -z "${_elec_ver}" ]] && return 1
-    echo -e "The electron version is: \033[1;31m${_elec_ver%%.*}\033[0m"
+	_elec_ver=$(find "${srcdir}" -maxdepth 5 -name "package.json" ! -path "*/node_modules/*" \
+		-exec grep -l '"electron"' {} + | xargs -I{} jq -r '(.devDependencies.electron // .dependencies.electron) // empty' {} 2>/dev/null | head -1)
+	[[ -z "${_elec_ver}" ]] && return 1
+	echo -e "The electron version is: \033[1;31m${_elec_ver%%.*}\033[0m"
 }
 prepare() {
-    cd "${srcdir}/${pkgname%-git}.git"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/
-        s/@appname@/${pkgname%-git}/
-        s/@runname@/app.asar/
-        s/@cfgdirname@/yank.note/
-    " "${srcdir}/${pkgname%-git}.sh"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_build_env
-    sed -i "s/\"electron\": \"[^\"]*\"/\"electron\": \"${SYSTEM_ELECTRON_VERSION}\"/" package.json
-    sed -i "s/icon.icns/icon.png/" electron-builder.json
-    export NODE_ENV=development
-    yarn install --cache-folder "${srcdir}/.yarn_cache"
+	cd "${srcdir}/${pkgname%-git}.git"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/
+		s/@appname@/${pkgname%-git}/
+		s/@runname@/app.asar/
+		s/@cfgdirname@/yank.note/
+	" "${srcdir}/${pkgname%-git}.sh"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_build_env
+	sed -i "s/\"electron\": \"[^\"]*\"/\"electron\": \"${SYSTEM_ELECTRON_VERSION}\"/" package.json
+	sed -i "s/icon.icns/icon.png/" electron-builder.json
+	export NODE_ENV=development
+	yarn install --cache-folder "${srcdir}/.yarn_cache"
 }
 build() {
-    cd "${srcdir}/${pkgname%-git}.git"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    yarn run electron-rebuild
-    yarn node scripts/download-pandoc.js
-    yarn node scripts/download-plantuml.js
-    yarn run build
-    yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}" --config electron-builder.json
+	cd "${srcdir}/${pkgname%-git}.git"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	yarn run electron-rebuild
+	yarn node scripts/download-pandoc.js
+	yarn node scripts/download-plantuml.js
+	yarn run build
+	yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}" --config electron-builder.json
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
-    local _app_dir=$(_get_app_dir)
-    cp -a "${_app_dir}/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/build/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
+	local _app_dir=$(_get_app_dir)
+	cp -a "${_app_dir}/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
+	install -Dm644 "${srcdir}/${pkgname%-git}.git/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/${pkgname%-git}.git/build/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+	install -Dm644 "${srcdir}/${pkgname%-git}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

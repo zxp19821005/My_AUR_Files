@@ -11,18 +11,18 @@ license=('MIT')
 provides=("${pkgname%-git}=${pkgver%.r*}")
 conflicts=("${pkgname%-git}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
-    'libayatana-indicator'
-    'libappindicator'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
+	'libayatana-indicator'
+	'libappindicator'
 )
 makedepends=(
-    'gendesk'
-    'bun'
-    'nvm'
-    'git'
-    'rustup'
+	'gendesk'
+	'bun'
+	'nvm'
+	'git'
+	'rustup'
 )
 source=("${pkgname%-git}.git::git+${url}")
 sha256sums=('SKIP')
@@ -33,16 +33,16 @@ _get_project_dir() {
 	done < <(find "${srcdir}" -maxdepth 1 -mindepth 1 -type d ! -name '.*')
 }
 pkgver() {
-    cd "$(_get_project_dir)"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "$(_get_project_dir)"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _set_build_env() {
 	export ELECTRON_DIST="/usr/lib/electron${_electronversion}"
@@ -62,7 +62,7 @@ _set_build_env() {
 	export BUN_DISABLE_DOTENV=1
 	export DO_NOT_TRACK=1
 	export BUN_JOBS="$(nproc)"
-    export CARGO_HOME="${HOME}/.cargo"
+	export CARGO_HOME="${HOME}/.cargo"
 	export CARGO_NET_GIT_FETCH_WITH_CLI=true
 	export CARGO_NET_RETRY=5
 	export CARGO_HTTP_MULTIPLEXING=false
@@ -72,32 +72,32 @@ _set_build_env() {
 	mkdir -p "${HOME}" "${BUN_INSTALL_CACHE_DIR}" "${BUN_INSTALL_GLOBAL_DIR}" "${BUN_INSTALL_BIN}" "${CARGO_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Office" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_build_env
-    rustup toolchain install stable
+	cd "$(_get_project_dir)"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Office" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_build_env
+	rustup toolchain install stable
 	rustup default stable
-    sed -i 's|"active": true,|"active": false,|' src-tauri/tauri.conf.json
-    rm -rf package-lock.json
-    export NODE_ENV=development
-    bun install
+	sed -i 's|"active": true,|"active": false,|' src-tauri/tauri.conf.json
+	rm -rf package-lock.json
+	export NODE_ENV=development
+	bun install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    bun run dist
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	bun run dist
 }
 package() {
-    local _src="$(_get_project_dir)"
-    local _tgtdir="${_src}/src-tauri/target/release"
+	local _src="$(_get_project_dir)"
+	local _tgtdir="${_src}/src-tauri/target/release"
 	install -Dm755 "${_tgtdir}/${pkgname%-git}" -t "${pkgdir}/usr/bin"
 	_icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
 	for _icons in "${_icon_sizes[@]}";do

@@ -5,11 +5,11 @@ pkgver=1.7.1
 pkgrel=4
 pkgdesc="KiwiIRC server"
 arch=(
-    'armv6h'
-    'armv7h'
-    'aarch64'
-    'i686'
-    'x86_64'
+	'armv6h'
+	'armv7h'
+	'aarch64'
+	'i686'
+	'x86_64'
 )
 url="https://kiwiirc.com/"
 _ghurl="https://github.com/kiwiirc/kiwiirc"
@@ -29,14 +29,14 @@ sha256sums_aarch64=('8ffc0dfe6a65d7f57743490aa744e3af52988fa16a31037ddec3505232a
 sha256sums_i686=('a09e68c00bc25c208eb298f384ffd57597e96dd9d10a3e41ae621f11b9e1231f')
 sha256sums_x86_64=('76a33fa476318c827f5dfcb2fbbf6b4c25aa48dc76840420c09e47231f614578')
 build() {
-    bsdtar -xf "${srcdir}/data."*
-    find "${srcdir}" -type d -perm 775 -exec chmod 755 {} \;
+	bsdtar -xf "${srcdir}/data."*
+	find "${srcdir}" -type d -perm 775 -exec chmod 755 {} \;
 }
 package() {
-    install -Dm755 "${srcdir}/etc/init.d/${_pkgname}" -t "${pkgdir}/etc/init.d"
-    install -Dm644 "${srcdir}/etc/${_pkgname}/client.example.json" "${pkgdir}/etc/${_pkgname}/client.json"
-    install -Dm644 "${srcdir}/etc/${_pkgname}/config.example.conf" "${pkgdir}/etc/${_pkgname}/config.conf"
-    install -Dm755 "${srcdir}/usr/bin/${_pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/usr/share/doc/${_pkgname}/changelog.gz" -t "${pkgdir}/usr/share/doc"
-    cp -r "${srcdir}/usr/share/${_pkgname}" "${pkgdir}/usr/share"
+	install -Dm755 "${srcdir}/etc/init.d/${_pkgname}" -t "${pkgdir}/etc/init.d"
+	install -Dm644 "${srcdir}/etc/${_pkgname}/client.example.json" "${pkgdir}/etc/${_pkgname}/client.json"
+	install -Dm644 "${srcdir}/etc/${_pkgname}/config.example.conf" "${pkgdir}/etc/${_pkgname}/config.conf"
+	install -Dm755 "${srcdir}/usr/bin/${_pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/usr/share/doc/${_pkgname}/changelog.gz" -t "${pkgdir}/usr/share/doc"
+	cp -r "${srcdir}/usr/share/${_pkgname}" "${pkgdir}/usr/share"
 }

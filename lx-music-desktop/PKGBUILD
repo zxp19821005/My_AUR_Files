@@ -10,41 +10,41 @@ _nodeversion=24
 pkgrel=99
 pkgdesc="A music software based on Electron + Vue.一个基于 Electron + Vue 开发的音乐软件"
 arch=(
-    'aarch64'
-    'armv7h'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'x86_64'
 )
 url="https://lyswhut.github.io/lx-music-doc/"
 _ghurl="https://github.com/lyswhut/lx-music-desktop"
 license=(
-    'Apache-2.0'
-    'LicenseRef-custom'
+	'Apache-2.0'
+	'LicenseRef-custom'
 )
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'git'
-    'curl'
-    'gendesk'
-    'jq'
+	'npm'
+	'nvm'
+	'git'
+	'curl'
+	'gendesk'
+	'jq'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
+	"${pkgname}.sh"
 )
 sha256sums=('9a10fccba9764c0ab6a0faa17d3ecccc85c3c9378a5feb8c8dacf2af08cc0c51'
-            'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
+			'a774c2f54fbbeeaac3cefc0f7250796d30c86d27f0fd40b7eaf9c0fdb021623d')
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _get_app_dir() {
-    find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
+	find "${srcdir}" -type f -name "resources.pak" -exec dirname {} + | head -n 1
 }
 _set_build_env() {
 	export ELECTRON_DIST="/usr/lib/electron${_electronversion}"
@@ -76,56 +76,56 @@ _set_build_env() {
 	fi
 }
 _get_electron_version() {
-    _elec_ver=$(find "${srcdir}" -maxdepth 5 -name "package.json" ! -path "*/node_modules/*" \
-        -exec grep -l '"electron"' {} + | xargs -I{} jq -r '(.devDependencies.electron // .dependencies.electron) // empty' {} 2>/dev/null | head -1)
-    [[ -z "${_elec_ver}" ]] && return 1
-    echo -e "The electron version is: \033[1;31m${_elec_ver%%.*}\033[0m"
+	_elec_ver=$(find "${srcdir}" -maxdepth 5 -name "package.json" ! -path "*/node_modules/*" \
+		-exec grep -l '"electron"' {} + | xargs -I{} jq -r '(.devDependencies.electron // .dependencies.electron) // empty' {} 2>/dev/null | head -1)
+	[[ -z "${_elec_ver}" ]] && return 1
+	echo -e "The electron version is: \033[1;31m${_elec_ver%%.*}\033[0m"
 }
 prepare() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-        s/@runname@/app.asar/g
-        s/@cfgdirname@/${_pkgname}/g
-    " "${srcdir}/${pkgname}.sh"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="AudioVideo" \
-        --name="${_pkgname}" \
-        --custom=Name[zh_CN]="${_zhsname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_build_env
-    sed -i "s/\"electron\": \"[^\"]*\"/\"electron\": \"${SYSTEM_ELECTRON_VERSION}\"/g" package.json
-    # Use system-wide electron to pack
-    sed -i -e "
-        6i\const electronDist = process.env.ELECTRON_DIST || '/usr/lib/electron'
-        26i\  electronDist: electronDist,
-        26i\  electronDownload: {
-        26i\    mirror: false,
-        26i\  },
-    " build-config/build-pack.js
-    NODE_ENV=development    npm install --legacy-peer-deps
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+		s/@runname@/app.asar/g
+		s/@cfgdirname@/${_pkgname}/g
+	" "${srcdir}/${pkgname}.sh"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="AudioVideo" \
+		--name="${_pkgname}" \
+		--custom=Name[zh_CN]="${_zhsname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_build_env
+	sed -i "s/\"electron\": \"[^\"]*\"/\"electron\": \"${SYSTEM_ELECTRON_VERSION}\"/g" package.json
+	# Use system-wide electron to pack
+	sed -i -e "
+		6i\const electronDist = process.env.ELECTRON_DIST || '/usr/lib/electron'
+		26i\  electronDist: electronDist,
+		26i\  electronDownload: {
+		26i\    mirror: false,
+		26i\  },
+	" build-config/build-pack.js
+	NODE_ENV=development    npm install --legacy-peer-deps
 }
 build() {
-    cd  "${srcdir}/${pkgname}-${pkgver}"
-    _ensure_local_nvm
-    _set_build_env
-    NODE_ENV=production     npm run pack:dir
+	cd  "${srcdir}/${pkgname}-${pkgver}"
+	_ensure_local_nvm
+	_set_build_env
+	NODE_ENV=production     npm run pack:dir
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
 	local _app_dir=$(_get_app_dir)
 	cp -a "${_app_dir}/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    _icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/${pkgname}-${pkgver}/resources/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/licenses/license"* -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	_icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "${srcdir}/${pkgname}-${pkgver}/resources/icons/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+	done
+	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/licenses/license"* -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

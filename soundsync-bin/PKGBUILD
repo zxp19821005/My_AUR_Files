@@ -12,44 +12,44 @@ license=('LicenseRef-BUSL-1.1')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
-    'libpulse'
-    'python>3'
-    'nodejs'
+	"electron${_electronversion}"
+	'libpulse'
+	'python>3'
+	'nodejs'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.pacman::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-x64-${pkgver}.pacman"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/geekuillaume/soundsync/v${pkgver}/LICENSE"
-    "${pkgname%-bin}.service"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.pacman::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-x64-${pkgver}.pacman"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/geekuillaume/soundsync/v${pkgver}/LICENSE"
+	"${pkgname%-bin}.service"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('12bd6190537d80a29fa89fa2fa37da310593d5e6c54a7fe9f16c5f1509d4b94c'
-            '0c659fd7972a1a233b161380cfb177149d6d75b3c4f97c8cf8bbd8eb91b026d0'
-            'b0b07f20aa91c04c6aa05590ebd4d4697b2939283bcb122810759a2ed961a005'
-            '291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
+			'0c659fd7972a1a233b161380cfb177149d6d75b3c4f97c8cf8bbd8eb91b026d0'
+			'b0b07f20aa91c04c6aa05590ebd4d4697b2939283bcb122810759a2ed961a005'
+			'291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980')
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/app.asar/g
-        s/@cfgdirname@/${pkgname%-bin}/g
-        s/@options@//g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    sed -i "s/\/opt\/${_pkgname}\/${pkgname%-bin}/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/app.asar/g
+		s/@cfgdirname@/${pkgname%-bin}/g
+		s/@options@//g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	sed -i "s/\/opt\/${_pkgname}\/${pkgname%-bin}/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
-    install -Dm644 "${srcdir}/opt/${_pkgname}/package_extra/systemd/default/files/etc/systemd/system/${pkgname%-bin}.service" \
-        -t "${pkgdir}/usr/lib/systemd/system"
-    install -Dm644 "${srcdir}/opt/${_pkgname}/package_extra/systemd/default/files/etc/default/${pkgname%-bin}" \
-        -t "${pkgdir}/etc/default"
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -Pr --no-preserve=ownership "${srcdir}/opt/${_pkgname}/resources/"{app,res,webui} "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 "${srcdir}/usr/share/icons/hicolor/0x0/apps/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/opt/${_pkgname}/package_extra/systemd/default/files/etc/systemd/system/${pkgname%-bin}.service" \
+		-t "${pkgdir}/usr/lib/systemd/system"
+	install -Dm644 "${srcdir}/opt/${_pkgname}/package_extra/systemd/default/files/etc/default/${pkgname%-bin}" \
+		-t "${pkgdir}/etc/default"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -Pr --no-preserve=ownership "${srcdir}/opt/${_pkgname}/resources/"{app,res,webui} "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "${srcdir}/usr/share/icons/hicolor/0x0/apps/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }

@@ -10,26 +10,26 @@ arch=("any")
 url="https://www.alibabafonts.com/#/more"
 license=("LicenseRef-custom")
 source=(
-    "${pkgbase}-${pkgver}.zip::https://puhuiti3.oss-cn-hangzhou.aliyuncs.com/${_fontname}.zip"
-    "LICENSE"
+	"${pkgbase}-${pkgver}.zip::https://puhuiti3.oss-cn-hangzhou.aliyuncs.com/${_fontname}.zip"
+	"LICENSE"
 )
 sha256sums=('b5fd796c3d7eeaf0c138a6e6784309ebf18e60f88d3ce018574359d0a9a01dcd'
-            '1d0588d8badf3073db4f3ffc2fd64463d57d48bd8ddb4eb850d6ca7d32c11bd1')
+			'1d0588d8badf3073db4f3ffc2fd64463d57d48bd8ddb4eb850d6ca7d32c11bd1')
 function _package {
-    local _pkgname=$1
-    local ext="${_pkgname%%-*}"
-    cd "${srcdir}/${_fontname}-Regular"
-    local fonts=("${_fontname}-Regular.${ext}")
-    local installdir="${ext^^}"
-    # Prepare destination directory
-    install -dm755 "${pkgdir}/usr/share/fonts/${installdir}"
-    # Install fonts
-    local font
-    for font in "${fonts[@]}"; do
-        install -m644 "${font}" "${pkgdir}/usr/share/fonts/${installdir}"
-        install -Dm644 "${srcdir}/LICENSE" -t "${pkgdir}/usr/share/licenses/${ext}-${pkgbase}"
-    done
+	local _pkgname=$1
+	local ext="${_pkgname%%-*}"
+	cd "${srcdir}/${_fontname}-Regular"
+	local fonts=("${_fontname}-Regular.${ext}")
+	local installdir="${ext^^}"
+	# Prepare destination directory
+	install -dm755 "${pkgdir}/usr/share/fonts/${installdir}"
+	# Install fonts
+	local font
+	for font in "${fonts[@]}"; do
+		install -m644 "${font}" "${pkgdir}/usr/share/fonts/${installdir}"
+		install -Dm644 "${srcdir}/LICENSE" -t "${pkgdir}/usr/share/licenses/${ext}-${pkgbase}"
+	done
 }
 for _pkgname in "${pkgname[@]}"; do
-    eval "function package_${_pkgname}() { _package ${_pkgname}; }"
+	eval "function package_${_pkgname}() { _package ${_pkgname}; }"
 done

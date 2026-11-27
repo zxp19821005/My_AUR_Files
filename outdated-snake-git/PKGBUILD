@@ -92,7 +92,7 @@ _delete_other_arch_files() {
 }
 prepare() {
 	cd "$(_get_project_dir)"
-    _get_electron_version
+	_get_electron_version
 	sed -i -e "
 		s/@electronversion@/${_electronversion}/g
 		s/@appname@/${pkgname%-git}/g

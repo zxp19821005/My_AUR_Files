@@ -13,25 +13,25 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-git}=${pkgver%.r*}")
 conflicts=("${pkgname%-git}")
 depends=(
-    "electron${_electronversion}"
-    'libsecret'
+	"electron${_electronversion}"
+	'libsecret'
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'git'
-    'python'
-    'gendesk'
-    'jq'
+	'npm'
+	'nvm'
+	'git'
+	'python'
+	'gendesk'
+	'jq'
 )
 source=(
-    "${pkgname//-/.}::git+${_ghurl}.git"
-    "${pkgname%-git}.js"
-    "${pkgname%-git}.sh"
+	"${pkgname//-/.}::git+${_ghurl}.git"
+	"${pkgname%-git}.js"
+	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -82,45 +82,45 @@ _set_npm_build_env() {
 	mkdir -p "${HOME}" "${npm_config_cache}" "${COREPACK_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-    " "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    export SHARP_IGNORE_GLOBAL_LIBVIPS=1
-    export NODE_ENV=development
-    npm install
-    cd "$(_get_project_dir)/app"
-    find src -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-git}\'/g" {} +
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    npm install
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+	" "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	export SHARP_IGNORE_GLOBAL_LIBVIPS=1
+	export NODE_ENV=development
+	npm install
+	cd "$(_get_project_dir)/app"
+	find src -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-git}\'/g" {} +
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	npm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    export NODE_ENV=production
-    npm run prod
-    npm run prepare-editor
-    npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST}"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	export NODE_ENV=production
+	npm run prod
+	npm run prepare-editor
+	npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST}"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    install -Dm644 "$(_get_project_dir)/build/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/build/icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

@@ -10,30 +10,30 @@ license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.rpm::${url}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_linux_amd64.rpm"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/lanyeeee/manhuagui-downloader/v${pkgver}/LICENSE"
+	"${pkgname%-bin}-${pkgver}.rpm::${url}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_linux_amd64.rpm"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/lanyeeee/manhuagui-downloader/v${pkgver}/LICENSE"
 )
 sha256sums=('9da45e8a49486958e404b4d37c2634b85375b340745a93de594d18f15222a03f'
-            '24eaa7df9dd92427f92c4db8b3c513fe6607c884568fdf97907ce3e371a96004')
+			'24eaa7df9dd92427f92c4db8b3c513fe6607c884568fdf97907ce3e371a96004')
 prepare() {
-    sed -i -e "
-        s/Comment=A Tauri App/Comment=${pkgdesc}/g
-        s/Categories=/Categories=Utility;/g
-        6i\Name[zh_CN]=${_zhsname}
-    " "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	sed -i -e "
+		s/Comment=A Tauri App/Comment=${pkgdesc}/g
+		s/Categories=/Categories=Utility;/g
+		6i\Name[zh_CN]=${_zhsname}
+	" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    _icon_sizes=(32x32 128x128 256x256@2)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
-            -t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
-    done
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	_icon_sizes=(32x32 128x128 256x256@2)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
+			-t "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps"
+	done
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

@@ -14,8 +14,8 @@ conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
 	"electron${_electronversion}"
-    'nodejs'
-    'python'
+	'nodejs'
+	'python'
 )
 makedepends=(
 	'npm'
@@ -30,8 +30,8 @@ source=(
 	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -102,15 +102,15 @@ prepare() {
 		--categories="Development" \
 		--name="${_pkgname}" \
 		--exec="${pkgname%-git} %U" \
-        --custom=Name[zh]="${_zhsname}"
+		--custom=Name[zh]="${_zhsname}"
 	_ensure_local_nvm
 	_set_electron_build_env
 	_set_npm_build_env
 	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
 	export NODE_ENV=development
 	npm install
-    npm install -g "@earendil-works/pi-coding-agent"
-    npm add -D node-pty
+	npm install -g "@earendil-works/pi-coding-agent"
+	npm add -D node-pty
 }
 build() {
 	cd "$(_get_project_dir)"
@@ -118,7 +118,7 @@ build() {
 	_set_electron_build_env
 	_set_npm_build_env
 	export NODE_ENV=production
-    npm run vendor:pi
+	npm run vendor:pi
 	npm run build
 	npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder.yml"
 	_delete_other_arch_files

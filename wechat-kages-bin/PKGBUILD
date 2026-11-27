@@ -17,7 +17,7 @@ provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	'glibc'
 	'hicolor-icon-theme'
-    'wechat-bin'
+	'wechat-bin'
 )
 options=(
 	'!strip'
@@ -36,5 +36,5 @@ prepare() {
 package() {
 	install -Dm755 "${srcdir}/opt/${_debname}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
 	install -Dm644 "${srcdir}/usr/share/applications/${_zhsname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/opt/${_debname}/kages.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname%-bin}.png"
+	install -Dm644 "${srcdir}/opt/${_debname}/kages.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname%-bin}.png"
 }

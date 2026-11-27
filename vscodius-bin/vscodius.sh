@@ -15,11 +15,11 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 export _FLAGS_FILE="${XDG_CONFIG_HOME}/${_CFGDIR}@appname@-flags.conf"
 declare -a _USER_FLAGS
 if [[ -f "${_FLAGS_FILE}" ]]; then
-    while read -r line; do
-        if [[ ! "${line}" =~ ^[[:space:]]*#.* ]]; then
-            _USER_FLAGS+=("${line}")
-        fi
-    done < "${_FLAGS_FILE}"
+	while read -r line; do
+		if [[ ! "${line}" =~ ^[[:space:]]*#.* ]]; then
+			_USER_FLAGS+=("${line}")
+		fi
+	done < "${_FLAGS_FILE}"
 fi
 cd "${_APPDIR}" || { echo "Failed to change directory to ${_APPDIR}"; exit 1; }
 if [ "${XDG_SESSION_TYPE}" = "wayland" ]; then

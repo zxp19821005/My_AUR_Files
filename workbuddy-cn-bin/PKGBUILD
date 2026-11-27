@@ -52,8 +52,8 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('dcd11221d66c9fe443aab8561747f261e11a3452c1d9d9c12c6282131a7bc17c'
-            '03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-            'e3399a7768ffbed0e82509d06a32773cfcaf1513170b89844889cc2fabbd4571')
+			'03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
+			'e3399a7768ffbed0e82509d06a32773cfcaf1513170b89844889cc2fabbd4571')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -76,13 +76,13 @@ _delete_other_arch_files() {
 		-prune -exec rm -rf {} +
 	find "$(_get_app_dir)" -mindepth 1 -type f \
 		\( -name '*.exe' -o -name '*.dll' -o -name '*.pdb' -o -name '*.lib' \
-        -o -name '*win32*.node' -o -name '*windows*.ps1' \) -delete
+		-o -name '*win32*.node' -o -name '*windows*.ps1' \) -delete
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 	local _mainjs="$(_get_app_dir)/resources/app.asar.unpacked/main/index.js"
 	sed -i 's/function isStorageBootstrapLoggerGetFailed(){return loggerGetFailed}/function isStorageBootstrapLoggerGetFailed(){return !1}/' "${_mainjs}"
-    local _cb="${_mainjs%/main/index.js}/cli/bin/codebuddy"
-    sed -i "/^const forceLiteWb = /c\\const forceLiteWb = true;" "${_cb}"
-    sed -i "s#electron\.workbuddyStorage\.loggerGet()#'{\"version\":1,\"atRestSecretKey\":\"AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=\"}'#" "${_mainjs}"
+	local _cb="${_mainjs%/main/index.js}/cli/bin/codebuddy"
+	sed -i "/^const forceLiteWb = /c\\const forceLiteWb = true;" "${_cb}"
+	sed -i "s#electron\.workbuddyStorage\.loggerGet()#'{\"version\":1,\"atRestSecretKey\":\"AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=\"}'#" "${_mainjs}"
 }
 _install_icons() {
 	local _s="${1:-$srcdir}" _n="${pkgname%-bin}" _i _e _z

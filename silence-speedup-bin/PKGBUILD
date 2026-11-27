@@ -12,44 +12,44 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'at-spi2-core'
-    'libepoxy'
+	'gtk3'
+	'at-spi2-core'
+	'libepoxy'
 )
 makedepends=(
-    'gendesk'
+	'gendesk'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.tar.gz::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-x64.tar.gz"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.tar.gz::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-linux-x64.tar.gz"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('89ab2d96b893967e3d5613f8087359632f931d1258406876351ca7f8709bd2df'
-            'f003b130010311751a619cae8188af15f003369d71c59f7b34bbc26c98e615d5')
+			'f003b130010311751a619cae8188af15f003369d71c59f7b34bbc26c98e615d5')
 _get_app_dir() {
 	find "${srcdir}" -type d -name "data" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/data" && -d "${d}/lib" ]] && { echo "$d"; return 0; }; done
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_appname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-bin}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="AudioVideo;Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-bin} %U"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_appname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-bin}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="AudioVideo;Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-bin} %U"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "$(_get_app_dir)/." "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "$(_get_app_dir)/data/flutter_assets/assets/icons/icon.svg" \
-        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "$(_get_app_dir)/." "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "$(_get_app_dir)/data/flutter_assets/assets/icons/icon.svg" \
+		"${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }

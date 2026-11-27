@@ -10,25 +10,25 @@ license=('GPL-3.0-only')
 conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
-    'alsa-lib'
-    'gtk3'
-    'webkit2gtk-4.1'
+	'alsa-lib'
+	'gtk3'
+	'webkit2gtk-4.1'
 )
 source=("${pkgname}-${pkgver}.rpm::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-1.${CARCH}.rpm")
 sha256sums=('81f8bcb29ad5621c67e979e0b9c33c4337897dfffc746027bd9318686ef8efc5')
 prepare() {
-    sed -i -e "
-        s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g
-        s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
-        s/Development/AudioVideo/g
-    " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+	sed -i -e "
+		s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g
+		s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
+		s/Development/AudioVideo/g
+	" "${srcdir}/usr/share/applications/${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/${_pkgname}" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/usr/lib/${_pkgname}/resources/"* -t "${pkgdir}/usr/lib/${_pkgname}/resources"
-    for _icons in 32x32 128x128 256x256@2;do
-        install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps/${pkgname%-bin}.png"
-    done
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-git}.desktop"
+	install -Dm755 "${srcdir}/usr/bin/${_pkgname}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/usr/lib/${_pkgname}/resources/"* -t "${pkgdir}/usr/lib/${_pkgname}/resources"
+	for _icons in 32x32 128x128 256x256@2;do
+		install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${_pkgname}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps/${pkgname%-bin}.png"
+	done
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-git}.desktop"
 }

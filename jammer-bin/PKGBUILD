@@ -10,45 +10,45 @@ license=('LicenseRef-custom')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'libxt'
-    'libxtst'
-    'libxinerama'
+	'libxt'
+	'libxtst'
+	'libxinerama'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.AppImage::${url}/releases/download/${pkgver}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/jooapa/jammer/${pkgver}/LICENSE"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.AppImage::${url}/releases/download/${pkgver}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/jooapa/jammer/${pkgver}/LICENSE"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('2ee76807220318052123b4d2daf1174d13d4cf6a0160a7f937ee716e66e941dc'
-            '551f3173ed7196d0ffc218873820c270171c788602b03b05c0c17929ea9d993e'
-            '6731a288a4110a682e80c898ff52bb4d3ff5f5849dcc3b7f6814279391d12ba4')
+			'551f3173ed7196d0ffc218873820c270171c788602b03b05c0c17929ea9d993e'
+			'6731a288a4110a682e80c898ff52bb4d3ff5f5849dcc3b7f6814279391d12ba4')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    if [ ! -x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" ]; then
-        chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage"
-    fi
-    if [ -d "${srcdir}/squashfs-root" ];then
-        rm -rf "${srcdir}/squashfs-root"
-    fi
-    "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" --appimage-extract > /dev/null
-    sed -i -e "
-        s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g
-        s/Categories=Music/Categories=AudioVideo;/g
-        s/${_pkgname}-icon/${pkgname%-bin}/g
-        5i\Comment=${pkgdesc}
-    " "${srcdir}/squashfs-root/${pkgname%-bin}.desktop"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	if [ ! -x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" ]; then
+		chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}.AppImage"
+	fi
+	if [ -d "${srcdir}/squashfs-root" ];then
+		rm -rf "${srcdir}/squashfs-root"
+	fi
+	"${srcdir}/${pkgname%-bin}-${pkgver}.AppImage" --appimage-extract > /dev/null
+	sed -i -e "
+		s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g
+		s/Categories=Music/Categories=AudioVideo;/g
+		s/${_pkgname}-icon/${pkgname%-bin}/g
+		5i\Comment=${pkgdesc}
+	" "${srcdir}/squashfs-root/${pkgname%-bin}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 "${srcdir}/squashfs-root/usr/bin/${_pkgname}" -t "${pkgdir}/usr/lib/${pkgname%-bin}/bin"
-    cp -a "${srcdir}/squashfs-root/usr/"{lib,locales} "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/squashfs-root/${_pkgname}-icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-    install -Dm644 "${srcdir}/squashfs-root/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/squashfs-root/usr/bin/${_pkgname}" -t "${pkgdir}/usr/lib/${pkgname%-bin}/bin"
+	cp -a "${srcdir}/squashfs-root/usr/"{lib,locales} "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/squashfs-root/${_pkgname}-icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+	install -Dm644 "${srcdir}/squashfs-root/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

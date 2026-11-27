@@ -16,78 +16,78 @@ _dlurl="https://www.slimjetbrowser.com"
 _libffmpegverurl="https://github.com/nwjs-ffmpeg-prebuilt/nwjs-ffmpeg-prebuilt"
 license=('LicenseRef-freeware')
 depends=(
-    'alsa-lib'
-    'nspr'
-    'nss'
-    'at-spi2-core'
-    'libxrandr'
-    'libxcomposite'
-    'libxdamage'
-    'pango'
-    'cairo'
-    'mesa'
-    'libxkbcommon'
-    'libcups'
+	'alsa-lib'
+	'nspr'
+	'nss'
+	'at-spi2-core'
+	'libxrandr'
+	'libxcomposite'
+	'libxdamage'
+	'pango'
+	'cairo'
+	'mesa'
+	'libxkbcommon'
+	'libcups'
 )
 optdepends=(
-    'kdialog: needed for file dialogs in KDE'
-    'ttf-liberation: fix fonts for some PDFs'
+	'kdialog: needed for file dialogs in KDE'
+	'ttf-liberation: fix fonts for some PDFs'
 )
 makedepends=(
-    'jq'
-    'curl'
-    'wget'
+	'jq'
+	'curl'
+	'wget'
 )
 options=(
-    '!emptydirs'
-    '!strip'
+	'!emptydirs'
+	'!strip'
 )
 source=(
-    "${pkgname}-${pkgver}.deb::${_dlurl}/release/${pkgname}_amd64.deb"
-    #"${pkgname}-${pkgver}.deb::${url}/release/${pkgname}_amd64.deb"
+	"${pkgname}-${pkgver}.deb::${_dlurl}/release/${pkgname}_amd64.deb"
+	#"${pkgname}-${pkgver}.deb::${url}/release/${pkgname}_amd64.deb"
 )
 sha256sums=('7b25788bf951419b8a36d8dfe4ef9a65d3b90e4c723f4b3cc8ae96711bfde919')
 pkgver() {
 	cat "${srcdir}/.pkgver" 2>/dev/null || echo "${pkgver}"
 }
 _get_ffmpeg() {
-    _slimjetver="$(strings ${srcdir}/opt/${pkgname}/${pkgname} | grep -oP 'Chrome/\K[0-9]+' | head -n 1)"
-    _slimjetver="${_slimjetver}."
-    _ffmpegver="$(curl -s https://nwjs.io/versions.json | jq -r --arg v "${_slimjetver}" 'limit(1; .versions[] | select(.components.chromium | startswith($v))).version // empty')"
-    echo -e "The chromium version of ${pkgname} is: \033[1;31m${_slimjetver}\033[0m"
-    echo -e "So the ffmpeg version should be: \033[1;31m${_ffmpegver}\033[0m"
-    wget -c "${_libffmpegverurl}/releases/download/${_ffmpegver#v}/${_ffmpegver#v}-linux-x64.zip" -O "${srcdir}/libffmpeg.zip"
-    bsdtar -xf "${srcdir}/libffmpeg.zip"
+	_slimjetver="$(strings ${srcdir}/opt/${pkgname}/${pkgname} | grep -oP 'Chrome/\K[0-9]+' | head -n 1)"
+	_slimjetver="${_slimjetver}."
+	_ffmpegver="$(curl -s https://nwjs.io/versions.json | jq -r --arg v "${_slimjetver}" 'limit(1; .versions[] | select(.components.chromium | startswith($v))).version // empty')"
+	echo -e "The chromium version of ${pkgname} is: \033[1;31m${_slimjetver}\033[0m"
+	echo -e "So the ffmpeg version should be: \033[1;31m${_ffmpegver}\033[0m"
+	wget -c "${_libffmpegverurl}/releases/download/${_ffmpegver#v}/${_ffmpegver#v}-linux-x64.zip" -O "${srcdir}/libffmpeg.zip"
+	bsdtar -xf "${srcdir}/libffmpeg.zip"
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
-    bsdtar -xf "${srcdir}/control."*
-    sed -n 's/^Version:[[:space:]]*//p' "${srcdir}/control" > "${srcdir}/.pkgver"
-    sed -i -e "
-        s/\/usr\/bin\/${_pkgname}/${_pkgname}/g
-        s/Icon=${_pkgname}/Icon=${pkgname}/g
-    " "${srcdir}/usr/share/applications/${pkgname}.desktop"
-    find "${srcdir}" -type d -exec chmod 755 {} +
-    chmod 0755 "${srcdir}/opt/${pkgname}/${pkgname}-sandbox"
-    sed -i "s/opt\/${pkgname}/usr\/lib\/${pkgname}/g" "${srcdir}/usr/share/gnome-control-center/default-apps/${pkgname}.xml"
-    sed -i "s/opt\/${pkgname}/usr\/lib\/${pkgname}/g" "${srcdir}/usr/share/menu/${pkgname}.menu"
-    _get_ffmpeg
+	bsdtar -xf "${srcdir}/data."*
+	bsdtar -xf "${srcdir}/control."*
+	sed -n 's/^Version:[[:space:]]*//p' "${srcdir}/control" > "${srcdir}/.pkgver"
+	sed -i -e "
+		s/\/usr\/bin\/${_pkgname}/${_pkgname}/g
+		s/Icon=${_pkgname}/Icon=${pkgname}/g
+	" "${srcdir}/usr/share/applications/${pkgname}.desktop"
+	find "${srcdir}" -type d -exec chmod 755 {} +
+	chmod 0755 "${srcdir}/opt/${pkgname}/${pkgname}-sandbox"
+	sed -i "s/opt\/${pkgname}/usr\/lib\/${pkgname}/g" "${srcdir}/usr/share/gnome-control-center/default-apps/${pkgname}.xml"
+	sed -i "s/opt\/${pkgname}/usr\/lib\/${pkgname}/g" "${srcdir}/usr/share/menu/${pkgname}.menu"
+	_get_ffmpeg
 }
 package() {
-    install -Dm755 -d "${pkgdir}/usr/"{bin,lib}
-    cp -a "${srcdir}/opt/${pkgname}" "${pkgdir}/usr/lib"
-    ln -sf "/usr/lib/${pkgname}/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
-    install -Dm644 "${srcdir}/libffmpeg.so" -t "${pkgdir}/usr/lib/${pkgname}"
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    _icon_sizes=(16 22 24 32 48 64 128 256)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/opt/${pkgname}/product_logo_${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}x${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "${srcdir}/usr/share/pixmaps/${pkgname}.xpm" -t "${pkgdir}/usr/share/pixmaps"
-    install -Dm644 "${srcdir}/usr/share/menu/${pkgname}.menu" -t "${pkgdir}/usr/share/menu"
-    install -Dm644 "${srcdir}/usr/share/gnome-control-center/default-apps/${pkgname}.xml" \
-        -t "${pkgdir}/usr/share/gnome-control-center/default-apps"
-    chmod 4755 "${pkgdir}/usr/lib/${pkgname}/${pkgname}-sandbox"
+	install -Dm755 -d "${pkgdir}/usr/"{bin,lib}
+	cp -a "${srcdir}/opt/${pkgname}" "${pkgdir}/usr/lib"
+	ln -sf "/usr/lib/${pkgname}/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
+	install -Dm644 "${srcdir}/libffmpeg.so" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	_icon_sizes=(16 22 24 32 48 64 128 256)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "${srcdir}/opt/${pkgname}/product_logo_${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}x${_icons}/apps/${pkgname}.png"
+	done
+	install -Dm644 "${srcdir}/usr/share/pixmaps/${pkgname}.xpm" -t "${pkgdir}/usr/share/pixmaps"
+	install -Dm644 "${srcdir}/usr/share/menu/${pkgname}.menu" -t "${pkgdir}/usr/share/menu"
+	install -Dm644 "${srcdir}/usr/share/gnome-control-center/default-apps/${pkgname}.xml" \
+		-t "${pkgdir}/usr/share/gnome-control-center/default-apps"
+	chmod 4755 "${pkgdir}/usr/lib/${pkgname}/${pkgname}-sandbox"
 }

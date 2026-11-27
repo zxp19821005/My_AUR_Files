@@ -6,8 +6,8 @@ pkgver=1.38.0
 pkgrel=1
 pkgdesc="The cross-platform open-source app built for handwriting."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://saber.adil.hanney.org/"
 _ghurl="https://github.com/saber-notes/saber"
@@ -15,10 +15,10 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'libsecret'
-    'webkit2gtk-4.1'
-    'libxmu'
+	'gtk3'
+	'libsecret'
+	'webkit2gtk-4.1'
+	'libxmu'
 )
 options=('!strip')
 noextract=("${pkgname%-bin}-${pkgver}-${CARCH}.tar.gz")
@@ -40,21 +40,21 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    install -Dm755 -d "${srcdir}/usr/lib/${pkgname%-bin}"
-    bsdtar -xf "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.tar.gz" -C "${srcdir}/usr/lib/${pkgname%-bin}"
-    rm -rf "${srcdir}/usr/lib/${pkgname%-bin}/usr"
-    sed -i "s/${_appname}/${pkgname%-bin}/g" "${srcdir}/usr/lib/${pkgname%-bin}/share/applications/${_appname}.desktop"
-    sed -i "s/${_appname}/${pkgname%-bin}/g" "${srcdir}/usr/lib/${pkgname%-bin}/share/metainfo/${_appname}.metainfo.xml"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	install -Dm755 -d "${srcdir}/usr/lib/${pkgname%-bin}"
+	bsdtar -xf "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.tar.gz" -C "${srcdir}/usr/lib/${pkgname%-bin}"
+	rm -rf "${srcdir}/usr/lib/${pkgname%-bin}/usr"
+	sed -i "s/${_appname}/${pkgname%-bin}/g" "${srcdir}/usr/lib/${pkgname%-bin}/share/applications/${_appname}.desktop"
+	sed -i "s/${_appname}/${pkgname%-bin}/g" "${srcdir}/usr/lib/${pkgname%-bin}/share/metainfo/${_appname}.metainfo.xml"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    cp -a "${srcdir}/usr" "${pkgdir}"
-    rm -rf "${pkgdir}/usr/lib/${pkgname%-bin}/share"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/lib/${pkgname%-bin}/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/usr/lib/${pkgname%-bin}/share/metainfo/${_appname}.metainfo.xml" "${pkgdir}/usr/share/metainfo/${pkgname%-bin}.metainfo.xml"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	cp -a "${srcdir}/usr" "${pkgdir}"
+	rm -rf "${pkgdir}/usr/lib/${pkgname%-bin}/share"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/lib/${pkgname%-bin}/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/usr/lib/${pkgname%-bin}/share/metainfo/${_appname}.metainfo.xml" "${pkgdir}/usr/share/metainfo/${pkgname%-bin}.metainfo.xml"
 }

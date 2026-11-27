@@ -5,10 +5,10 @@ pkgver=0.9.3
 pkgrel=1
 pkgdesc="A simple and powerful SSH keys manager"
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://timothyye.github.io/skm"
 _ghurl="https://github.com/TimothyYe/skm"
@@ -25,6 +25,6 @@ sha256sums_armv7h=('4f43885c4f6dd0410652fcb72489fc12e86f1312655308b316f434bcf821
 sha256sums_i686=('05db5016924ad410be1c7cbc294763559c18d6579f5b2f7d2aed5682cd1ad681')
 sha256sums_x86_64=('9ec81d386318de455e2b769753e280ca916ccc372150e8c72f968311941368c9')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

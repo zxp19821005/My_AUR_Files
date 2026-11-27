@@ -20,8 +20,8 @@ source=(
 	"LICENSE-APACHE-${pkgver}::https://raw.githubusercontent.com/yaa110/nomino/v${pkgver}/LICENSE-APACHE"
 )
 sha256sums=('12c89f5c59f35d97f5d686daa5dfe87a852c51468797af7dc61a0b19f9af6976'
-            'c61849f2f67590dc6e6a865e273accfd56a337ae29bc30c93ecaf50bc7bab77f'
-            '0beb66d48e2a5702f0f1d8c8f62cce5877410c85eed400952db3d58a759935ef')
+			'c61849f2f67590dc6e6a865e273accfd56a337ae29bc30c93ecaf50bc7bab77f'
+			'0beb66d48e2a5702f0f1d8c8f62cce5877410c85eed400952db3d58a759935ef')
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}-${pkgver}" "${pkgdir}/usr/bin/${pkgname%-bin}"
 	install -Dm644 "${srcdir}/LICENSE-MIT-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE-MIT"

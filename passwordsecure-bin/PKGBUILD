@@ -5,27 +5,27 @@ pkgver=1.2026.11.11
 pkgrel=1
 pkgdesc="A cross-platform password manager that uses strong AES-256 encryption."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://github.com/mihnea-radulescu/passwordsecure"
 license=(
-    'GPL-3.0-only'
-    'MIT'
+	'GPL-3.0-only'
+	'MIT'
 )
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 options=(
-    '!strip'
-    'staticlibs'
+	'!strip'
+	'staticlibs'
 )
 depends=(
-    'fontconfig'
-    'dotnet-runtime'
+	'fontconfig'
+	'dotnet-runtime'
 )
 makedepends=(
-    'gendesk'
-    'icoutils'
+	'gendesk'
+	'icoutils'
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.tar.gz::${url}/releases/download/${pkgver}/${_pkgname}_Linux_arm64.tar.gz")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.tar.gz::${url}/releases/download/${pkgver}/${_pkgname}_Linux_x64.tar.gz")
@@ -37,23 +37,23 @@ _get_app_dir() {
 	find "${srcdir}" -type f -name "${_pkgname}" -printf '%h\n' 2>/dev/null
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    icotool -i 1 -x "$(_get_app_dir)/ApplicationIcon.ico" -o "${srcdir}/${pkgname%-bin}.png"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-bin}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-bin} %U"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	icotool -i 1 -x "$(_get_app_dir)/ApplicationIcon.ico" -o "${srcdir}/${pkgname%-bin}.png"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-bin}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-bin} %U"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "$(_get_app_dir)/." "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_app_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "$(_get_app_dir)/." "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.png" -t "${pkgdir}/usr/share/pixmaps"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_app_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

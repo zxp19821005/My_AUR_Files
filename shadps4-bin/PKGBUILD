@@ -11,35 +11,35 @@ license=('GPL-2.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'util-linux-libs'
-    'zlib-ng-compat'
-    'alsa-lib'
+	'util-linux-libs'
+	'zlib-ng-compat'
+	'alsa-lib'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.zip::${_ghurl}/releases/download/v.${pkgver}/${pkgname%-bin}-linux-sdl-${pkgver}.zip"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.zip::${_ghurl}/releases/download/v.${pkgver}/${pkgname%-bin}-linux-sdl-${pkgver}.zip"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('be25d0324cd7b74068d32cdb66fa1b7b1e7bb499b062be51c7006d27d41d4255'
-            'c2668b966dc1f5fef271c64e1749cf136e26b42dd9f993f063c69900a191e323')
+			'c2668b966dc1f5fef271c64e1749cf136e26b42dd9f993f063c69900a191e323')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    if [ ! -x "${srcdir}/Shadps4-sql.AppImage" ];then
-        chmod +x "${srcdir}/Shadps4-sdl.AppImage"
-    fi
-    if [ -d "${srcdir}/squashfs-root" ];then
-        rm -rf "${srcdir}/squashfs-root"
-    fi
-    "${srcdir}/Shadps4-sdl.AppImage" --appimage-extract > /dev/null
-    sed -i "s/net.${pkgname%-bin}.${_pkgname}/${pkgname%-bin}/g" "${srcdir}/squashfs-root/usr/share/applications/net.${pkgname%-bin}.${_pkgname}.desktop"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	if [ ! -x "${srcdir}/Shadps4-sql.AppImage" ];then
+		chmod +x "${srcdir}/Shadps4-sdl.AppImage"
+	fi
+	if [ -d "${srcdir}/squashfs-root" ];then
+		rm -rf "${srcdir}/squashfs-root"
+	fi
+	"${srcdir}/Shadps4-sdl.AppImage" --appimage-extract > /dev/null
+	sed -i "s/net.${pkgname%-bin}.${_pkgname}/${pkgname%-bin}/g" "${srcdir}/squashfs-root/usr/share/applications/net.${pkgname%-bin}.${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/squashfs-root/usr/"{bin,lib,optional} "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/net.${pkgname%-bin}.${_pkgname}.svg" \
-        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/net.${pkgname%-bin}.${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/squashfs-root/usr/"{bin,lib,optional} "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/squashfs-root/usr/share/icons/hicolor/scalable/apps/net.${pkgname%-bin}.${_pkgname}.svg" \
+		"${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-bin}.svg"
+	install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/net.${pkgname%-bin}.${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }

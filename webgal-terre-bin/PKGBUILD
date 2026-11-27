@@ -6,8 +6,8 @@ _electronversion=29
 pkgrel=1
 pkgdesc="Galgame Editing. Redefined / 视觉小说编辑，再进化"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://openwebgal.com/"
 _ghurl="https://github.com/OpenWebGAL/WebGAL_Terre"
@@ -15,28 +15,28 @@ license=('MPL-2.0')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'nspr'
-    'nss'
-    'libxext'
-    'java-runtime'
-    'alsa-lib'
-    'gtk3'
-    "electron${_electronversion}"
+	'nspr'
+	'nss'
+	'libxext'
+	'java-runtime'
+	'alsa-lib'
+	'gtk3'
+	"electron${_electronversion}"
 )
 makedepends=(
-    'gendesk'
+	'gendesk'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.zip::${_ghurl}/releases/download/${pkgver}/${_appname}_Linux_Arm64_${pkgver}.zip")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.zip::${_ghurl}/releases/download/${pkgver}/${_appname}_Linux_${pkgver}.zip")
 source=(
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/MakinoharaShoko/WebGAL_Terre/${pkgver}/LICENSE"
-    "${pkgname%-bin}.sh"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/MakinoharaShoko/WebGAL_Terre/${pkgver}/LICENSE"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5'
-            '26f4ffbf3e43a801d26becc3603f02b8c3630da29b538990f3c7838f3c7be80b')
+			'26f4ffbf3e43a801d26becc3603f02b8c3630da29b538990f3c7838f3c7be80b')
 sha256sums_aarch64=('edb4a5468317a3203e8a67815cca9cc9b6cc09c75be8fa98a62c13b0b62b43ae')
 sha256sums_x86_64=('40911824793f7d119ff5874df40d286e5cfabffee14f388bf1c609d80ce39394')
 _get_app_dir() {
@@ -51,29 +51,29 @@ _check_electron_version() {
 	echo -e "Electron version: \033[1;${c}m$_v$([[ $c -eq 31 ]] && echo " (expected $_electronversion)")\033[0m"
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_appname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    _check_electron_version
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-bin}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Game" \
-        --name="${_appname//_/ }" \
-        --exec="${pkgname%-bin} --no-sandbox %U"
-    _file_list=(chrome_100_percent.pak chrome_200_percent.pak chrome-sandbox icudtl.dat libEGL.so libffmpeg.so \
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_appname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	_check_electron_version
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-bin}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Game" \
+		--name="${_appname//_/ }" \
+		--exec="${pkgname%-bin} --no-sandbox %U"
+	_file_list=(chrome_100_percent.pak chrome_200_percent.pak chrome-sandbox icudtl.dat libEGL.so libffmpeg.so \
 		libGLESv2.so libvk_swiftshader.so libvulkan.so.1 resources.pak vk_swiftshader_icd.json)
 	for _files in "${_file_list[@]}";do
 		ln -sf "/usr/lib/electron${_electronversion}/${_files}" "${srcdir}/release/assets/templates/WebGAL_Electron_Template/${_files}"
 	done
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/release/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 "${pkgdir}/usr/lib/${pkgname%-bin}/assets/templates/WebGAL_Android_Template/app/src/main/ic_launcher-playstore.png" \
-        "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/release/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "${pkgdir}/usr/lib/${pkgname%-bin}/assets/templates/WebGAL_Android_Template/app/src/main/ic_launcher-playstore.png" \
+		"${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }

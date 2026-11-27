@@ -20,8 +20,8 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('3683c15078bf1db63dd08a80ec1e039b7251c05c5df163e7f8c074aa16917952'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -55,10 +55,10 @@ prepare() {
 	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
 	_check_electron_version
 	sed -i -e "
-        s/AppRun --no-sandbox/${pkgname%-bin}/g
-        s/Icon=${pkgname%-bin}-desktop/Icon=${pkgname%-bin}/g
-    " "$(_get_app_dir)/${pkgname%-bin}-desktop.desktop"
-    find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
+		s/AppRun --no-sandbox/${pkgname%-bin}/g
+		s/Icon=${pkgname%-bin}-desktop/Icon=${pkgname%-bin}/g
+	" "$(_get_app_dir)/${pkgname%-bin}-desktop.desktop"
+	find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
 }
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"

@@ -10,31 +10,31 @@ url="https://b3log.org/siyuan"
 _ghurl="https://github.com/siyuan-note/siyuan"
 license=('AGPL-3.0-only')
 conflicts=(
-    "${pkgname%-git}"
-    "${pkgname%-git}-note"
+	"${pkgname%-git}"
+	"${pkgname%-git}-note"
 )
 provides=(
-    "${pkgname%-git}"
+	"${pkgname%-git}"
 )
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'gendesk'
-    'git'
-    'nvm'
-    'npm'
-    'go'
-    'pnpm'
+	'gendesk'
+	'git'
+	'nvm'
+	'npm'
+	'go'
+	'pnpm'
 )
 source=(
-    "${pkgname//-/.}::git+${_ghurl}.git"
-    "${pkgname%-git}.js"
-    "${pkgname%-git}.sh"
+	"${pkgname//-/.}::git+${_ghurl}.git"
+	"${pkgname%-git}.js"
+	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -131,51 +131,51 @@ _delete_other_arch_files() {
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 prepare() {
-    cd "$(_get_project_dir)/app"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-    " "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_pnpm_build_env
-    _set_go_build_env
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Office" \
-        --name="${pkgname%-git}" \
-        --exec="${pkgname%-git} %U" \
-        --custom="Name[zh_CN]=思源笔记"
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    export NODE_ENV=development
-    pnpm install --no-frozen-lockfile
+	cd "$(_get_project_dir)/app"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+	" "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_pnpm_build_env
+	_set_go_build_env
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Office" \
+		--name="${pkgname%-git}" \
+		--exec="${pkgname%-git} %U" \
+		--custom="Name[zh_CN]=思源笔记"
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	export NODE_ENV=development
+	pnpm install --no-frozen-lockfile
 }
 build() {
-    cd "$(_get_project_dir)/app"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_pnpm_build_env
-    _set_go_build_env
-    export NODE_ENV=production
-    pnpm run build
-    local _archbuild=$([[ "${CARCH}" == "aarch64" ]] && echo linux-arm64 || echo linux)
-    cd "$(_get_project_dir)/kernel"
-    go build --tags fts5 -o "../app/kernel-${_archbuild}/${_pkgname}-Kernel" -v -ldflags "-s -w -X github.com/siyuan-note/siyuan/kernel/util.Mode=prod"
-    cd "$(_get_project_dir)/app"
-    unset CGO_CFLAGS CGO_CXXFLAGS CGO_CPPFLAGS CGO_LDFLAGS
-    pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder-${_archbuild}.yml "
-    _delete_other_arch_files
+	cd "$(_get_project_dir)/app"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_pnpm_build_env
+	_set_go_build_env
+	export NODE_ENV=production
+	pnpm run build
+	local _archbuild=$([[ "${CARCH}" == "aarch64" ]] && echo linux-arm64 || echo linux)
+	cd "$(_get_project_dir)/kernel"
+	go build --tags fts5 -o "../app/kernel-${_archbuild}/${_pkgname}-Kernel" -v -ldflags "-s -w -X github.com/siyuan-note/siyuan/kernel/util.Mode=prod"
+	cd "$(_get_project_dir)/app"
+	unset CGO_CFLAGS CGO_CXXFLAGS CGO_CPPFLAGS CGO_LDFLAGS
+	pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder-${_archbuild}.yml "
+	_delete_other_arch_files
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
-    for _icons in "${icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/app/src/assets/icon/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"
-    done
-    install -Dm644 "$(_get_project_dir)/app/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
+	for _icons in "${icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/app/src/assets/icon/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"
+	done
+	install -Dm644 "$(_get_project_dir)/app/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
 }

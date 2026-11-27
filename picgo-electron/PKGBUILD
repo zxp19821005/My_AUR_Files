@@ -17,14 +17,14 @@ conflicts=(
 	"${pkgname}"
 )
 depends=(
-    "electron${_electronversion}-bin"
+	"electron${_electronversion}-bin"
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'git'
-    'pnpm'
-    'jq'
+	'npm'
+	'nvm'
+	'git'
+	'pnpm'
+	'jq'
 )
 source=(
 	"${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
@@ -32,8 +32,8 @@ source=(
 	"${pkgname}.sh"
 )
 sha256sums=('bd1eeb55b39c33b66f62374908fed3c5c78aea104d322c10adf5a82779e00fb3'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -96,49 +96,49 @@ _set_pnpm_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_electron_build_env
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_electron_build_env
 	_set_pnpm_build_env
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    rm -rf pnpm-lock.yaml
-    export NODE_ENV=development
-    pnpm install
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	rm -rf pnpm-lock.yaml
+	export NODE_ENV=development
+	pnpm install
 }
 build() {
 	cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
+	_ensure_local_nvm
+	_set_electron_build_env
 	_set_pnpm_build_env
-    export NODE_ENV=development
-    pnpm run build
-    pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST}"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
-    local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
+	export NODE_ENV=development
+	pnpm run build
+	pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST}"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
 	find "$(_get_app_dir)" -type d \
 		\( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
 		-prune -exec rm -rf {} +
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    _icon_sizes=(256x256 512x512)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/build/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	_icon_sizes=(256x256 512x512)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/build/icons/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+	done
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

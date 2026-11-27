@@ -10,19 +10,19 @@ _ghurl="https://github.com/cxasm/notepad--"
 license=('GPL-3.0-or-later')
 provides=("${pkgname}")
 depends=(
-    'glibc'
-    'gcc-libs'
-    'qt5-base'
+	'glibc'
+	'gcc-libs'
+	'qt5-base'
 )
 makedepends=(
-    'git'
-    'ninja'
-    'qt5-tools'
-    'qt5-xmlpatterns'
-    'qscintilla-qt5'
+	'git'
+	'ninja'
+	'qt5-tools'
+	'qt5-xmlpatterns'
+	'qscintilla-qt5'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=notepad-v${pkgver}"
+	"${pkgname}-${pkgver}::git+${_ghurl}#tag=notepad-v${pkgver}"
 )
 sha256sums=('3cd511f81bff019d6b75bc2d4eb88773e5cbcb66a81e5eb8b33e8802a9760da8')
 _get_project_dir() {
@@ -32,30 +32,30 @@ _get_project_dir() {
 	done < <(find "${srcdir}" -maxdepth 2 -mindepth 1 -type d ! -name '.*' 2>/dev/null)
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    sed -i "s/intptr_t/__intptr_t/g" src/qscint/src/xmlMatchedTagsHighlighter.cpp
-    sed -i "s/intptr_t/__intptr_t/g" src/qscint/src/xmlMatchedTagsHighlighter.h
-    sed -i 's/QObject::tr(u8"/QObject::tr("/g' src/plugin/helloworld/helloworldexport.cpp
+	cd "$(_get_project_dir)"
+	sed -i "s/intptr_t/__intptr_t/g" src/qscint/src/xmlMatchedTagsHighlighter.cpp
+	sed -i "s/intptr_t/__intptr_t/g" src/qscint/src/xmlMatchedTagsHighlighter.h
+	sed -i 's/QObject::tr(u8"/QObject::tr("/g' src/plugin/helloworld/helloworldexport.cpp
 }
 build() {
-    cd "$(_get_project_dir)"
-    cmake -S . -Bbuild -GNinja -DCMAKE_BUILD_TYPE=None -W no-dev
-    ninja -C build
-    sed -i -e "
-        s/${_pkgname} %F/${pkgname} %F/g
-        s/\/usr\/share\/icons\/hicolor\/128x128\/apps\/${pkgname}.png/${pkgname}/g
-    " src/linux/usr/share/applications/"${_pkgname}".desktop
-    sed -i "s/io.gitee.cxasm.${pkgname}/${pkgname}/g" src/linux/usr/share/metainfo/io.gitee.cxasm."${pkgname}".metainfo.xml
+	cd "$(_get_project_dir)"
+	cmake -S . -Bbuild -GNinja -DCMAKE_BUILD_TYPE=None -W no-dev
+	ninja -C build
+	sed -i -e "
+		s/${_pkgname} %F/${pkgname} %F/g
+		s/\/usr\/share\/icons\/hicolor\/128x128\/apps\/${pkgname}.png/${pkgname}/g
+	" src/linux/usr/share/applications/"${_pkgname}".desktop
+	sed -i "s/io.gitee.cxasm.${pkgname}/${pkgname}/g" src/linux/usr/share/metainfo/io.gitee.cxasm."${pkgname}".metainfo.xml
 }
 package() {
-    install -Dm755 "$(_get_project_dir)/build/${_pkgname}" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "$(_get_project_dir)/src/linux/usr/share/applications/${_pkgname}.desktop" \
-        "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    _icon_sizes=(32x32 64x64 128x128)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/src/linux/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png" \
-            -t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
-    done
-    install -Dm644 "$(_get_project_dir)/src/linux/usr/share/metainfo/io.gitee.cxasm.${pkgname}.metainfo.xml" \
-        "${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
+	install -Dm755 "$(_get_project_dir)/build/${_pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/src/linux/usr/share/applications/${_pkgname}.desktop" \
+		"${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	_icon_sizes=(32x32 64x64 128x128)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/src/linux/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png" \
+			-t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
+	done
+	install -Dm644 "$(_get_project_dir)/src/linux/usr/share/metainfo/io.gitee.cxasm.${pkgname}.metainfo.xml" \
+		"${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
 }

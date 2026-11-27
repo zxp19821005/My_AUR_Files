@@ -22,8 +22,8 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('535d3f5f6e6e13d41f416aa1311d882b9b22036786773c36260f42bee90f629f'
-            '4e629b50633624a4092c6d105aa2300bb0b1c7d979599a843b4468d903886f3b'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'4e629b50633624a4092c6d105aa2300bb0b1c7d979599a843b4468d903886f3b'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -60,8 +60,8 @@ _delete_other_arch_files() {
 }
 prepare() {
 	sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
 	" "${srcdir}/${pkgname%-bin}.sh"
 	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
 	rm -rf "${srcdir}/squashfs-root"
@@ -69,7 +69,7 @@ prepare() {
 	_check_electron_version
 	sed -i "s/AppRun --no-sandbox/${pkgname%-bin}/g" "$(_get_app_dir)/${_debname}.desktop"
 	find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
-    _delete_other_arch_files
+	_delete_other_arch_files
 }
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"

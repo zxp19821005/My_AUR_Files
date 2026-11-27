@@ -11,56 +11,56 @@ _ghurl="https://github.com/tiny-craft/tiny-rdm"
 license=('GPL-3.0-only')
 conflicts=("${pkgname}")
 depends=(
-    'gtk3'
-    'webkit2gtk'
+	'gtk3'
+	'webkit2gtk'
 )
 makedepends=(
-    'nvm'
-    'npm'
-    'git'
-    'go'
-    'wails'
-    'curl'
+	'nvm'
+	'npm'
+	'git'
+	'go'
+	'wails'
+	'curl'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source=(
-    "${pkgname}.git::git+${_ghurl}.git#tag=v${pkgver}"
+	"${pkgname}.git::git+${_ghurl}.git#tag=v${pkgver}"
 )
 sha256sums=('0711a9dd830cd177fb85f92a53a7c0c26c622f399ca4dec2c08d41d4d38018e0')
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 build() {
-    _ensure_local_nvm
-    cd "${srcdir}/${pkgname}.git"
-    local HOME="${srcdir}/.electron-gyp"
-    export CGO_ENABLED=1
-    export GO111MODULE=on
-    export GOOS=linux
-    export GOCACHE="${srcdir}/go-build"
-    export GOMODCACHE="${srcdir}/go/pkg/mod"
-    export NPM_CONFIG_CACHE="${srcdir}/.npm_cache"
-    export NPM_CONFIG_MAXSOCKETS=32
-    if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
-        export NPM_CONFIG_REGISTRY="https://registry.npmmirror.com"
-        export GOPROXY=https://goproxy.cn,direct
-    fi
-    export NODE_ENV=development
-    wails build -platform linux -o "${pkgname%-git}"
-    sed -i -e "
-        s/{{.Info.ProductName}}/${_pkgname}/g
-        s/\/usr\/local\/bin\/${pkgname%-git}/${pkgname%-git}/g
-        s/{{.Info.Comments}}/${pkgdesc}/g
-    " "build/linux/${pkgname%-git}_"*/usr/share/applications/"${pkgname%-git}.desktop"
+	_ensure_local_nvm
+	cd "${srcdir}/${pkgname}.git"
+	local HOME="${srcdir}/.electron-gyp"
+	export CGO_ENABLED=1
+	export GO111MODULE=on
+	export GOOS=linux
+	export GOCACHE="${srcdir}/go-build"
+	export GOMODCACHE="${srcdir}/go/pkg/mod"
+	export NPM_CONFIG_CACHE="${srcdir}/.npm_cache"
+	export NPM_CONFIG_MAXSOCKETS=32
+	if [[ "$(curl -s ipinfo.io/country)" == *"CN"* ]]; then
+		export NPM_CONFIG_REGISTRY="https://registry.npmmirror.com"
+		export GOPROXY=https://goproxy.cn,direct
+	fi
+	export NODE_ENV=development
+	wails build -platform linux -o "${pkgname%-git}"
+	sed -i -e "
+		s/{{.Info.ProductName}}/${_pkgname}/g
+		s/\/usr\/local\/bin\/${pkgname%-git}/${pkgname%-git}/g
+		s/{{.Info.Comments}}/${pkgdesc}/g
+	" "build/linux/${pkgname%-git}_"*/usr/share/applications/"${pkgname%-git}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.git/build/bin/${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/${pkgname}.git/build/linux/${pkgname}_"*/usr/share/applications/"${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/${pkgname}.git/build/appicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
-    install -Dm644 "${srcdir}/${pkgname}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.git/build/bin/${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/${pkgname}.git/build/linux/${pkgname}_"*/usr/share/applications/"${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/${pkgname}.git/build/appicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+	install -Dm644 "${srcdir}/${pkgname}.git/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

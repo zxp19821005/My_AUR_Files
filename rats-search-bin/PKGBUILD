@@ -11,54 +11,54 @@ license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'libx11'
-    'libgpg-error'
-    'libglvnd'
+	'libx11'
+	'libgpg-error'
+	'libglvnd'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}-x86_64.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}-Linux-x64-v${pkgver}.AppImage"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/librats/rats-search/v${pkgver}/LICENSE"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}-x86_64.AppImage::${url}/releases/download/v${pkgver}/${_pkgname}-Linux-x64-v${pkgver}.AppImage"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/librats/rats-search/v${pkgver}/LICENSE"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('68360dae26040ffebbc8e1b0dc0da6d3030da7c6b812624d844a64ef2852db81'
-            'fa6a25af037d88ee811669579da9674e5694611599600b11e691115054f6fe2f'
-            '216b754c5be3b7d33ebc915743a3bc4d6663a63b0a07468c88cc26bf20908cb4')
+			'fa6a25af037d88ee811669579da9674e5694611599600b11e691115054f6fe2f'
+			'216b754c5be3b7d33ebc915743a3bc4d6663a63b0a07468c88cc26bf20908cb4')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    if [ ! -x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" ];then
-        chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
-    fi
-    if [ -d "${srcdir}/squashfs-root" ];then
-        rm -rf "${srcdir}/squashfs-root"
-    fi
-    "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
-    sed -i -e "
-        s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g
-        s/Icon=${_appname}/Icon=${pkgname%-bin}/g
-    " "${srcdir}/squashfs-root/usr/share/applications/${_appname}.desktop"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	if [ ! -x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" ];then
+		chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
+	fi
+	if [ -d "${srcdir}/squashfs-root" ];then
+		rm -rf "${srcdir}/squashfs-root"
+	fi
+	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
+	sed -i -e "
+		s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g
+		s/Icon=${_appname}/Icon=${pkgname%-bin}/g
+	" "${srcdir}/squashfs-root/usr/share/applications/${_appname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/squashfs-root/usr/bin" "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}/lib"
-    for _lib in "${srcdir}/squashfs-root/usr/lib/"*.so.*; do
-        _libname="$(basename "${_lib}")"
-        if [ ! -f "/usr/lib/${_libname}" ]; then
-            install -Dm755 "${_lib}" "${pkgdir}/usr/lib/${pkgname%-bin}/lib/${_libname}"
-        fi
-    done
-    cp -a "${srcdir}/squashfs-root/usr/plugins" "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/squashfs-root/usr/translations" "${pkgdir}/usr/lib/${pkgname%-bin}"
-    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/squashfs-root/usr/bin" "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}/lib"
+	for _lib in "${srcdir}/squashfs-root/usr/lib/"*.so.*; do
+		_libname="$(basename "${_lib}")"
+		if [ ! -f "/usr/lib/${_libname}" ]; then
+			install -Dm755 "${_lib}" "${pkgdir}/usr/lib/${pkgname%-bin}/lib/${_libname}"
+		fi
+	done
+	cp -a "${srcdir}/squashfs-root/usr/plugins" "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/squashfs-root/usr/translations" "${pkgdir}/usr/lib/${pkgname%-bin}"
+	find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
 		_extension="${_i##*.}"
 		_icon_path="${_i#*share/icons/}"
 		_target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
 		install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
 	done
-    install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "${srcdir}/squashfs-root/usr/share/applications/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

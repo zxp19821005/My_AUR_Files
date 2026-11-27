@@ -13,9 +13,9 @@ conflicts=("${pkgname%-git}")
 depends=(
 	'glibc'
 	'alsa-lib'
-    'libxkbcommon-x11'
-    'dbus'
-    'hicolor-icon-theme'
+	'libxkbcommon-x11'
+	'dbus'
+	'hicolor-icon-theme'
 )
 makedepends=(
 	'git'
@@ -48,21 +48,21 @@ _set_rust_build_env() {
 }
 prepare() {
 	cd "$(_get_project_dir)"
-    sed -i "s/\/usr\/bin\///g" "packaging/arch/${pkgname%-git}.desktop"
-    _set_rust_build_env
-    rustup toolchain install stable
+	sed -i "s/\/usr\/bin\///g" "packaging/arch/${pkgname%-git}.desktop"
+	_set_rust_build_env
+	rustup toolchain install stable
 	rustup default stable
 }
 build() {
 	cd "$(_get_project_dir)"
 	_set_rust_build_env
-    cargo build --release --locked --workspace
+	cargo build --release --locked --workspace
 }
 package() {
 	install -Dm755 "$(_get_project_dir)/target/release/${pkgname%-git}" -t "${pkgdir}/usr/bin"
-    install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-logo-tray.png" "${pkgdir}/usr/share/icons/hicolor/128x128/apps/${pkgname%-git}.png"
+	install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-logo-tray.png" "${pkgdir}/usr/share/icons/hicolor/128x128/apps/${pkgname%-git}.png"
 	install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-logo.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${pkgname%-git}.png"
-    install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-icon-macos.png" "${pkgdir}/usr/share/icons/hicolor/1024x1024/apps/${pkgname%-git}.png"
-    install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-logo.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-git}.svg"
+	install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-icon-macos.png" "${pkgdir}/usr/share/icons/hicolor/1024x1024/apps/${pkgname%-git}.png"
+	install -Dm755 "$(_get_project_dir)/crates/sodam/assets/brand/sodam-logo.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname%-git}.svg"
 	install -Dm755 "$(_get_project_dir)/packaging/arch/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications/"
 }

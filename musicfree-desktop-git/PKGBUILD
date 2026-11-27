@@ -13,31 +13,31 @@ _pluginurl="https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json
 license=('GPL-3.0-only')
 conflicts=("${pkgname%-git}")
 depends=(
-    "electron${_electronversion}-bin"
-    'libvips'
-    'nodejs'
+	"electron${_electronversion}-bin"
+	'libvips'
+	'nodejs'
 )
 makedepends=(
-    'gendesk'
-    'bun'
-    'nvm'
-    'git'
-    'jq'
-    'zip'
-    'python-build'
-    'python-installer'
-    'python-wheel'
-    'python-setuptools'
+	'gendesk'
+	'bun'
+	'nvm'
+	'git'
+	'jq'
+	'zip'
+	'python-build'
+	'python-installer'
+	'python-wheel'
+	'python-setuptools'
 )
 source=(
-    "${pkgname%-git}.git::git+${_ghurl}.git"
-    "${pkgname%-git}.sh"
+	"${pkgname%-git}.git::git+${_ghurl}.git"
+	"${pkgname%-git}.sh"
 )
 options=(
-    '!emptydirs'
+	'!emptydirs'
 )
 sha256sums=('SKIP'
-            'dfcd6603d29c7b8d88e019b517a2e5c1a7b5ab905a0961a8b81adfa508b258b8')
+			'dfcd6603d29c7b8d88e019b517a2e5c1a7b5ab905a0961a8b81adfa508b258b8')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -45,16 +45,16 @@ _get_project_dir() {
 	done < <(find "${srcdir}" -maxdepth 1 -mindepth 1 -type d ! -name '.*')
 }
 pkgver() {
-    cd "$(_get_project_dir)"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "$(_get_project_dir)"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -print 2>/dev/null | while read f; do [ -d "${f%/*}/resources" ] && echo "${f%/*}" && break; done
@@ -102,44 +102,44 @@ _use_local_electron_for_forge() {
 	done
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-    " "${srcdir}/${pkgname%-git}.sh"
-    gendesk -f -q -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="AudioVideo" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_build_env
-    find src -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-git}\'/g" {} +
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    export NODE_ENV=development
-    bun install
-    _use_local_electron_for_forge
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+	" "${srcdir}/${pkgname%-git}.sh"
+	gendesk -f -q -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="AudioVideo" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_build_env
+	find src -type f -exec sed -i "s/process.resourcesPath/\'\/usr\/lib\/${pkgname%-git}\'/g" {} +
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	export NODE_ENV=development
+	bun install
+	_use_local_electron_for_forge
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    bun run package
-    case "${CARCH}" in
-        aarch64)    _archrem=x64    ;;
-        x86_64)     _archrem=arm    ;;
-    esac
-    find "$(_get_app_dir)/resources/app/node_modules" -type d \
-        \( -name "darwin*" -o -name "*android*" -o -name "win32*" -o -name "*${_archrem}"* \) \
-        -exec rm -rf {} +
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	bun run package
+	case "${CARCH}" in
+		aarch64)    _archrem=x64    ;;
+		x86_64)     _archrem=arm    ;;
+	esac
+	find "$(_get_app_dir)/resources/app/node_modules" -type d \
+		\( -name "darwin*" -o -name "*android*" -o -name "win32*" -o -name "*${_archrem}"* \) \
+		-exec rm -rf {} +
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    install -Dm644 "$(_get_project_dir)/res/logo.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/res/logo.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
 }

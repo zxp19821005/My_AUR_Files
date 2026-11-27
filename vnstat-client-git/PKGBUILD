@@ -7,8 +7,8 @@ _nodeversion=16
 pkgrel=1
 pkgdesc="GUI Client for vnStat Network Monitor for Linux or GNU/Linux."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://hulxv.github.io/vnstat-client/"
 _ghurl="https://github.com/Hulxv/vnstat-client"
@@ -16,25 +16,25 @@ license=("GPL-2.0-only")
 conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
-    "electron${_electronversion}"
-    'vnstat>=2.8'
+	"electron${_electronversion}"
+	'vnstat>=2.8'
 )
 makedepends=(
-    'npm'
-    'yarn'
-    'git'
-    'nvm'
-    'jq'
+	'npm'
+	'yarn'
+	'git'
+	'nvm'
+	'jq'
 )
 install="${pkgname%-git}.install"
 source=(
-    "${pkgname%-git}.git::git+${_ghurl}.git"
-    "${pkgname%-git}.desktop"
-    "${pkgname%-git}.sh"
+	"${pkgname%-git}.git::git+${_ghurl}.git"
+	"${pkgname%-git}.desktop"
+	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '85b4730f2d706583b4e0f8bf214277e7032b2918de7a06a3e5f4258836d1f52c'
-            'bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc')
+			'85b4730f2d706583b4e0f8bf214277e7032b2918de7a06a3e5f4258836d1f52c'
+			'bd5358d8f323d3c2c2f0733364ee4ea55f551dd86ba0be2a76846210b60897fc')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -42,16 +42,16 @@ _get_project_dir() {
 	done < <(find "${srcdir}" -maxdepth 1 -mindepth 1 -type d ! -name '.*')
 }
 pkgver() {
-    cd "$(_get_project_dir)"
-    set -o pipefail
-    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+	cd "$(_get_project_dir)"
+	set -o pipefail
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//g' ||
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" -print 2>/dev/null | while read f; do [ -d "${f%/*}/resources" ] && echo "${f%/*}" && break; done
@@ -116,42 +116,42 @@ _set_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-        s/@runname@/app.asar/g
-        s/@cfgdirname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-git}.sh"
-    _ensure_local_nvm
-    _set_build_env
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    export NODE_ENV=development
-    yarn install
-    yarn add -D webpack-cli
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+		s/@runname@/app.asar/g
+		s/@cfgdirname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-git}.sh"
+	_ensure_local_nvm
+	_set_build_env
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	export NODE_ENV=development
+	yarn install
+	yarn add -D webpack-cli
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    cd renderer
-    npx next build
-    npx next export -o ../renderer-out
-    cd ..
-    node node_modules/nextron/bin/webpack.config.js
-    cp -a renderer-out/* app/
-    rm -rf renderer-out
-    yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}" --config electron-builder.yml
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	cd renderer
+	npx next build
+	npx next export -o ../renderer-out
+	cd ..
+	node node_modules/nextron/bin/webpack.config.js
+	cp -a renderer-out/* app/
+	rm -rf renderer-out
+	yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}" --config electron-builder.yml
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-git}"
 	local _app_dir="$(_get_app_dir)"
 	cp -a "${_app_dir}/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    local _src="$(_get_project_dir)"
-    install -Dm644 "${_src}/resources/icons/512x512.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname%-git}.png"
-    install -Dm644 "${srcdir}/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${_src}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	local _src="$(_get_project_dir)"
+	install -Dm644 "${_src}/resources/icons/512x512.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname%-git}.png"
+	install -Dm644 "${srcdir}/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${_src}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

@@ -4,9 +4,9 @@ pkgver=0.1.27
 pkgrel=1
 pkgdesc="Simple ssh client with trzsz ( trz / tsz ) support."
 arch=(
-    'aarch64'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'i686'
+	'x86_64'
 )
 url="https://trzsz.github.io/ssh"
 _ghurl="https://github.com/trzsz/trzsz-ssh"
@@ -25,5 +25,5 @@ sha256sums_i686=('b0bf0a666391ebe906a9f59ba4864f318577bffb453099c4cac5201907c9cf
 sha256sums_x86_64=('4367120c4d861e09a070d5a937817fbfd2910e6ed45fa277dbd36701886d1069')
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}_${pkgver}_"*/"${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

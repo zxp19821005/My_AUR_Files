@@ -6,8 +6,8 @@ _electronversion=44
 pkgrel=1
 pkgdesc="A beautiful, fast and fully open source mail client."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://getmailspring.com/"
 _ghurl="https://github.com/Foundry376/Mailspring"
@@ -15,19 +15,19 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
-    'krb5'
-    'db5.3'
-    'tidy'
+	"electron${_electronversion}"
+	'krb5'
+	'db5.3'
+	'tidy'
 )
 source=(
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/${pkgver}/${pkgname%-bin}-${pkgver}-0.1.aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/${pkgver}/${pkgname%-bin}-${pkgver}-0.1.x86_64.rpm")
 sha256sums=('562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            '0f4675ddc96a032accf82723c7b6b66007bafd18aa8d919b61e983a68fd25328')
+			'0f4675ddc96a032accf82723c7b6b66007bafd18aa8d919b61e983a68fd25328')
 sha256sums_aarch64=('31ec6250dfc11a5c48a08ca26bd469b864ef92ba57b4fef2e2401e4fbfb73e39')
 sha256sums_x86_64=('94eea2db420faae4ee6a05ee65c7a6b7fa21ee19972a51bef67c02368eb30621')
 _get_app_dir() {
@@ -43,38 +43,38 @@ _check_electron_version() {
 	echo -e "Electron version: \033[1;${c}m$_v$([[ $c -eq 31 ]] && echo " (expected $_electronversion)")\033[0m"
 }
 _get_current_desktop_env() {
-    if [ -n "$XDG_CURRENT_DESKTOP" ]; then
-        if echo "$XDG_CURRENT_DESKTOP" | grep -i gnome > /dev/null; then
-            echo "gnome"
-            return 0
-        elif echo "$XDG_CURRENT_DESKTOP" | grep -i kde > /dev/null || echo "$XDG_CURRENT_DESKTOP" | grep -i plasma > /dev/null; then
-            echo "plasma"
-            return 0
-        fi
-    fi
+	if [ -n "$XDG_CURRENT_DESKTOP" ]; then
+		if echo "$XDG_CURRENT_DESKTOP" | grep -i gnome > /dev/null; then
+			echo "gnome"
+			return 0
+		elif echo "$XDG_CURRENT_DESKTOP" | grep -i kde > /dev/null || echo "$XDG_CURRENT_DESKTOP" | grep -i plasma > /dev/null; then
+			echo "plasma"
+			return 0
+		fi
+	fi
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    _check_electron_version
-    _desktop_env="$(_get_current_desktop_env)"
-    if [ "${_desktop_env}" = "gnome" ];then
-        sed -i "s/Exec=${pkgname%-bin}/Exec=${pkgname%-bin} --password-store=\"gnome-libsecret\"/g" \
-            "${srcdir}/usr/share/applications/${_pkgname}.desktop"
-    fi
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	_check_electron_version
+	_desktop_env="$(_get_current_desktop_env)"
+	if [ "${_desktop_env}" = "gnome" ];then
+		sed -i "s/Exec=${pkgname%-bin}/Exec=${pkgname%-bin} --password-store=\"gnome-libsecret\"/g" \
+			"${srcdir}/usr/share/applications/${_pkgname}.desktop"
+	fi
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
-        _extension="${_i##*.}"
-        _icon_path="${_i#*share/icons/}"
-        _target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
-        install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
-    done
-    install -Dm644 "${srcdir}/usr/share/metainfo/${pkgname%-bin}.metainfo.xml" -t "${pkgdir}/usr/share/metainfo"
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
+		_extension="${_i##*.}"
+		_icon_path="${_i#*share/icons/}"
+		_target_dir="/usr/share/icons/$(dirname "${_icon_path}")"
+		install -Dm644 "${_i}" "${pkgdir}${_target_dir}/${pkgname%-bin}.${_extension}"
+	done
+	install -Dm644 "${srcdir}/usr/share/metainfo/${pkgname%-bin}.metainfo.xml" -t "${pkgdir}/usr/share/metainfo"
 }

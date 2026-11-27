@@ -22,18 +22,18 @@ export CHROME_DESKTOP="@appname@.desktop"
 
 # Fix for Electron's trash implementation on different DEs
 case "${XDG_CURRENT_DESKTOP}" in
-    KDE)
-        export ELECTRON_TRASH="kioclient5"
-        ;;
-    GNOME)
-        export ELECTRON_TRASH="gio"
-        ;;
-    XFCE)
-        export ELECTRON_TRASH="gvfs-trash"
-        ;;
-    *)
-        # Default fallback
-        ;;
+	KDE)
+		export ELECTRON_TRASH="kioclient5"
+		;;
+	GNOME)
+		export ELECTRON_TRASH="gio"
+		;;
+	XFCE)
+		export ELECTRON_TRASH="gvfs-trash"
+		;;
+	*)
+		# Default fallback
+		;;
 esac
 
 # 3. Load user-defined flags
@@ -43,30 +43,30 @@ esac
 # 3. App-specific global flags: $XDG_CONFIG_HOME/@appname@-flags.conf
 # 4. App-specific directory flags: $XDG_CONFIG_HOME/@cfgdirname@/@appname@-flags.conf
 _FLAG_SOURCES=(
-    "${XDG_CONFIG_HOME}/electron-flags.conf"
-    "${XDG_CONFIG_HOME}/electron@electronversion@-flags.conf"
-    "${XDG_CONFIG_HOME}/@appname@-flags.conf"
-    "${XDG_CONFIG_HOME}/@cfgdirname@/@appname@-flags.conf"
+	"${XDG_CONFIG_HOME}/electron-flags.conf"
+	"${XDG_CONFIG_HOME}/electron@electronversion@-flags.conf"
+	"${XDG_CONFIG_HOME}/@appname@-flags.conf"
+	"${XDG_CONFIG_HOME}/@cfgdirname@/@appname@-flags.conf"
 )
 
 declare -a flags
 for _FLAGS_FILE in "${_FLAG_SOURCES[@]}"; do
-    if [[ -f "${_FLAGS_FILE}" ]]; then
-        echo "Loading flags from ${_FLAGS_FILE}"
-        while read -r line || [[ -n "$line" ]]; do
-            [[ "${line}" =~ ^[[:space:]]*#.* ]] || [[ -z "${line}" ]] || {
-                read -ra line_flags <<< "$line"
-                flags+=("${line_flags[@]}")
-            }
-        done < "${_FLAGS_FILE}"
-    fi
+	if [[ -f "${_FLAGS_FILE}" ]]; then
+		echo "Loading flags from ${_FLAGS_FILE}"
+		while read -r line || [[ -n "$line" ]]; do
+			[[ "${line}" =~ ^[[:space:]]*#.* ]] || [[ -z "${line}" ]] || {
+				read -ra line_flags <<< "$line"
+				flags+=("${line_flags[@]}")
+			}
+		done < "${_FLAGS_FILE}"
+	fi
 done
 
 # 4. Sandbox and Execution Permissions
 # Disable sandbox if running as root without ELECTRON_RUN_AS_NODE
 _SANDBOX_ARG=()
 if [[ "${EUID}" -eq 0 ]] && [[ "${ELECTRON_RUN_AS_NODE}" != "1" ]]; then
-    _SANDBOX_ARG=("--no-sandbox")
+	_SANDBOX_ARG=("--no-sandbox")
 fi
 
 cd "${_APPDIR}"

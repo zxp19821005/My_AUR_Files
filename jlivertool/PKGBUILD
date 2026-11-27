@@ -11,16 +11,16 @@ license=('MIT')
 provides=("${pkgname}")
 conflicts=("${pkgname}")
 depends=(
-    'xdotool'
-    'gdk-pixbuf2'
-    'gtk3'
-    'openssl'
-    'libxkbcommon-x11'
+	'xdotool'
+	'gdk-pixbuf2'
+	'gtk3'
+	'openssl'
+	'libxkbcommon-x11'
 )
 makedepends=(
-    'curl'
-    'git'
-    'rustup'
+	'curl'
+	'git'
+	'rustup'
 )
 source=("${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('808ce949861c7600bc08a5688dd785605a4b0a0433a3e9e61c61d1d634d72c34')
@@ -42,20 +42,20 @@ _set_build_env() {
 	mkdir -p "${HOME}" "${CARGO_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _set_build_env
-    sed -i 's/channel = ".*"/channel = "stable"/' rust-toolchain.toml
-    rustup update stable
-    rustup default stable
+	cd "$(_get_project_dir)"
+	_set_build_env
+	sed -i 's/channel = ".*"/channel = "stable"/' rust-toolchain.toml
+	rustup update stable
+	rustup default stable
 }
 build() {
-    cd "$(_get_project_dir)"
-    _set_build_env
-    cargo build --release -p "${pkgname}"
+	cd "$(_get_project_dir)"
+	_set_build_env
+	cargo build --release -p "${pkgname}"
 }
 package() {
-    install -Dm755 "$(_get_project_dir)/target/release/${pkgname}" -t  "${pkgdir}/usr/bin"
-    install -Dm644 "$(_get_project_dir)/icons/icon.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname}.png"
-    install -Dm644 "$(_get_project_dir)/linux/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "$(_get_project_dir)/target/release/${pkgname}" -t  "${pkgdir}/usr/bin"
+	install -Dm644 "$(_get_project_dir)/icons/icon.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname}.png"
+	install -Dm644 "$(_get_project_dir)/linux/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

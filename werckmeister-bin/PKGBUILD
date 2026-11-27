@@ -11,20 +11,20 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'alsa-lib'
-    'libgcc'
-    'libstdc++'
+	'alsa-lib'
+	'libgcc'
+	'libstdc++'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.sh::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-Linux.sh"
+	"${pkgname%-bin}-${pkgver}.sh::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}-Linux.sh"
 )
 sha256sums=('46836dbf568aab37647280ba798ff89b51f8bb57f8f9fb45632f800e5d221fc5')
 package () {
-    chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}.sh"
-    install -Dm755 -d "${pkgdir}/usr"
-    "${srcdir}/${pkgname%-bin}-${pkgver}.sh" --prefix="${pkgdir}/usr" --skip-license
-    chown root:root -R "${pkgdir}"
+	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}.sh"
+	install -Dm755 -d "${pkgdir}/usr"
+	"${srcdir}/${pkgname%-bin}-${pkgver}.sh" --prefix="${pkgdir}/usr" --skip-license
+	chown root:root -R "${pkgdir}"
 }

@@ -14,20 +14,20 @@ arch=('x86_64')
 url="https://prepros.io"
 license=('LicenseRef-custom')
 depends=(
-    "electron${_electronversion}-bin"
-    'nodejs'
-    'ruby'
-    '7zip'
+	"electron${_electronversion}-bin"
+	'nodejs'
+	'ruby'
+	'7zip'
 )
 options=('!strip')
 source=(
-    "${pkgname%-bin}-${pkgver}.deb::https://downloads.prepros.io/v7/${pkgver}/${_pkgname}-${pkgver}.deb"
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.deb::https://downloads.prepros.io/v7/${pkgver}/${_pkgname}-${pkgver}.deb"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('705d6ac677b383a0b76598a6e644da6ac9d071b2d6c96056d1d87f2c9246b834'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -52,25 +52,25 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    bsdtar -xf "${srcdir}/data."*
-    _check_electron_version
-    rm -rf "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/node/node_modules/7zip-bin/"{linux/{arm*,ia32},mac,win} \
-        "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/ruby/node_modules/7zip-bin/"{linux/{arm*,ia32},mac,win} \
-        "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@sbspk/mozjpeg-bin/vendor/"{darwin-*,win32-*} \
-        "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@sbspk/pngquant-bin/vendor/"{darwin-*,win32-*}
-    ln -sf "/usr/bin/7za" "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/node/node_modules/7zip-bin/linux/x64/7za"
-    ln -sf "/usr/bin/7za" "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/ruby/node_modules/7zip-bin/linux/x64/7za"
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	bsdtar -xf "${srcdir}/data."*
+	_check_electron_version
+	rm -rf "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/node/node_modules/7zip-bin/"{linux/{arm*,ia32},mac,win} \
+		"${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/ruby/node_modules/7zip-bin/"{linux/{arm*,ia32},mac,win} \
+		"${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@sbspk/mozjpeg-bin/vendor/"{darwin-*,win32-*} \
+		"${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@sbspk/pngquant-bin/vendor/"{darwin-*,win32-*}
+	ln -sf "/usr/bin/7za" "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/node/node_modules/7zip-bin/linux/x64/7za"
+	ln -sf "/usr/bin/7za" "${srcdir}/usr/lib/${pkgname%-bin}/resources/app.asar.unpacked/node_modules/@prepros/ruby/node_modules/7zip-bin/linux/x64/7za"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    install -Dm644 "${srcdir}/usr/lib/${pkgname%-bin}/resources/icon.png" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/usr/share/doc/${pkgname%-bin}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/license"
-    _install_icons
+	install -Dm644 "${srcdir}/usr/lib/${pkgname%-bin}/resources/icon.png" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/usr/share/doc/${pkgname%-bin}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/license"
+	_install_icons
 }

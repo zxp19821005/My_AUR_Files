@@ -5,8 +5,8 @@ pkgver=2.3.1
 pkgrel=1
 pkgdesc="An open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://jet-pilot.app/"
 _ghurl="https://github.com/unxsist/jet-pilot"
@@ -14,11 +14,11 @@ license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
-    'libayatana-indicator'
-    'libappindicator'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
+	'libayatana-indicator'
+	'libappindicator'
 )
 source=("LICENSE-${pkgver}::https://raw.githubusercontent.com/unxsist/jet-pilot/v${pkgver}/LICENSE")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-1.aarch64.rpm")
@@ -38,15 +38,15 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/Exec=\"${_pkgname//./ }\"/Exec=${pkgname%-bin}/g
-        s/Icon=${_pkgname//./ }/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
+	sed -i -e "
+		s/Exec=\"${_pkgname//./ }\"/Exec=${pkgname%-bin}/g
+		s/Icon=${_pkgname//./ }/Icon=${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/${_pkgname//./ }" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    [ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/usr/bin/${_pkgname//./ }" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	[ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

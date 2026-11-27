@@ -4,10 +4,10 @@ pkgver=3.19.0
 pkgrel=1
 pkgdesc="Terraform Provider For AlibabacloudStack Cloud.(Prebuilt version)"
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://github.com/aliyun/terraform-provider-alibabacloudstack"
 license=('MPL-2.0')
@@ -23,5 +23,5 @@ sha256sums_armv7h=('14b572a96989d34222f2d059bcfc3e11f02d9c0933a217f08a300dcdaaf4
 sha256sums_i686=('63e83c3aa60ec410e91187171042e828da16104da17935ac4cd2fc76bd047b44')
 sha256sums_x86_64=('4a490aa0223e8478d3620e3e1dc61c810adeea958b3c11732fb4ef9d2dc217f9')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}_v${pkgver}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}_v${pkgver}" "${pkgdir}/usr/bin/${pkgname%-bin}"
 }

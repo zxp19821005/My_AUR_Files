@@ -7,32 +7,32 @@ _nodeversion=22
 pkgrel=1
 pkgdesc="An open-source, cross-platform MQTT 5.0 client toolbox from EMQ for developing, testing, and troubleshooting IoT applications."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://mqttx.app/"
 _ghurl="https://github.com/emqx/MQTTX"
 license=('Apache-2.0')
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'npm'
-    'git'
-    'nvm'
-    'gendesk'
-    'yarn'
-    'python'
-    'jq'
+	'npm'
+	'git'
+	'nvm'
+	'gendesk'
+	'yarn'
+	'python'
+	'jq'
 )
 source=(
-    "${pkgname//-/.}::git+${_ghurl}.git"
-    "${pkgname%-git}.js"
+	"${pkgname//-/.}::git+${_ghurl}.git"
+	"${pkgname%-git}.js"
 	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -121,22 +121,22 @@ _set_yarn_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-    " "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
-    gendesk -f -n -q \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Development" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_electron_build_env
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+	" "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
+	gendesk -f -n -q \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Development" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_electron_build_env
 	_set_yarn_build_env
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
 	local _buildarch=$([[ "${CARCH}" == "aarch64" ]] && echo arm64 || echo x64)
 	sed -i -e "
 		/snap/d
@@ -146,22 +146,22 @@ prepare() {
 		s/'x64', 'arm64'/'${_buildarch}'/g
 		/builderOptions: {/a\\        electronDist: \'/usr/lib/electron${_electronversion}\',
 	" vue.config.js
-    export NODE_ENV=development
+	export NODE_ENV=development
 	yarn install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_electron_build_env
 	_set_yarn_build_env
-    export NODE_ENV=production
+	export NODE_ENV=production
 	yarn run electron:build-linux
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    install -Dm644 "$(_get_project_dir)/public/icons/app.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/public/icons/app.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
 }

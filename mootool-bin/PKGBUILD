@@ -11,34 +11,34 @@ license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'alsa-lib'
-    'libxtst'
-    'libxrender'
+	'alsa-lib'
+	'libxtst'
+	'libxrender'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-x64-64.rpm"
-    "LICENSE-${pkgver}.txt::https://raw.githubusercontent.com/rememberber/MooTool/v${pkgver}/LICENSE.txt"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-x64-64.rpm"
+	"LICENSE-${pkgver}.txt::https://raw.githubusercontent.com/rememberber/MooTool/v${pkgver}/LICENSE.txt"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('faf1f8359ca0f801cbe0410aa7e88f0a272d05109c4ca968d1f5fc0dd2abf367'
-            '91930d61ff6e2bd3ceaf0ac0de4431d4ede9a9a940ca327367820df54762e333'
-            '1cc9b430ebd57da069aeffe6ec72da5932bdf07148c39e72621cb268d4913a6b')
+			'91930d61ff6e2bd3ceaf0ac0de4431d4ede9a9a940ca327367820df54762e333'
+			'1cc9b430ebd57da069aeffe6ec72da5932bdf07148c39e72621cb268d4913a6b')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    sed -i -e "
-        s/\/opt\/${_pkgname}\/${_pkgname} %U/${pkgname%-bin} %U/g
-        s/\/opt\/${_pkgname}\/${_pkgname}.png/${pkgname%-bin}/g
-        s/Categories=Utility/Categories=Development;/g
-    " "${srcdir}/opt/${_pkgname}/${_pkgname}.desktop"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	sed -i -e "
+		s/\/opt\/${_pkgname}\/${_pkgname} %U/${pkgname%-bin} %U/g
+		s/\/opt\/${_pkgname}\/${_pkgname}.png/${pkgname%-bin}/g
+		s/Categories=Utility/Categories=Development;/g
+	" "${srcdir}/opt/${_pkgname}/${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/opt/${_pkgname}/." "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/opt/${_pkgname}/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/opt/${_pkgname}/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/opt/${_pkgname}/." "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/opt/${_pkgname}/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/opt/${_pkgname}/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
 }

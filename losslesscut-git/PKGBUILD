@@ -12,30 +12,30 @@ url="https://losslesscut.app/"
 _ghurl="https://github.com/mifi/lossless-cut"
 license=('GPL-2.0-only')
 conflicts=(
-    "${pkgname%-git}"
+	"${pkgname%-git}"
 )
 provides=(
-    "${pkgname%-git}"
+	"${pkgname%-git}"
 )
 depends=(
-    "electron${_electronversion}"
-    'ffmpeg'
+	"electron${_electronversion}"
+	'ffmpeg'
 )
 makedepends=(
-    'git'
-    'nvm'
-    'npm'
-    'yarn'
-    'jq'
+	'git'
+	'nvm'
+	'npm'
+	'yarn'
+	'jq'
 )
 source=(
-    "${pkgname//-/.}::git+${_ghurl}.git"
-    "${pkgname%-git}.js"
+	"${pkgname//-/.}::git+${_ghurl}.git"
+	"${pkgname%-git}.js"
 	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            '0f4675ddc96a032accf82723c7b6b66007bafd18aa8d919b61e983a68fd25328')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'0f4675ddc96a032accf82723c7b6b66007bafd18aa8d919b61e983a68fd25328')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -137,42 +137,42 @@ _use_local_electron_for_forge() {
 	done
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-    " "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
-    _ensure_local_nvm
-    _set_build_env
-    sed -e "
-        s/\/app\/bin\/run.sh/${pkgname%-git}/g;
-        s/${_appname}/${pkgname%-git}/g
-    " -i "${_appname}.desktop"
-    sed -i "s/${_appname}/${pkgname%-git}/g" "${_appname}.appdata.xml"
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    find ./ -type f -name "yarn.lock" -exec rm {} +
-    export NODE_ENV=development
-    yarn add node-gyp
-    yarn install
-    _use_local_electron_for_forge
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+	" "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
+	_ensure_local_nvm
+	_set_build_env
+	sed -e "
+		s/\/app\/bin\/run.sh/${pkgname%-git}/g;
+		s/${_appname}/${pkgname%-git}/g
+	" -i "${_appname}.desktop"
+	sed -i "s/${_appname}/${pkgname%-git}/g" "${_appname}.appdata.xml"
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	find ./ -type f -name "yarn.lock" -exec rm {} +
+	export NODE_ENV=development
+	yarn add node-gyp
+	yarn install
+	_use_local_electron_for_forge
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    yarn run build
-    yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	yarn run build
+	yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
-    install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    ln -sf "/usr/bin/ffmpeg" "${pkgdir}/usr/lib/${pkgname%-git}/ffmpeg"
-    ln -sf "/usr/bin/ffprobe" "${pkgdir}/usr/lib/${pkgname%-git}/ffprobe"
-    install -Dm644 "$(_get_project_dir)/icon-build/app-512.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname%-git}.png"
-    install -Dm644 "$(_get_project_dir)/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-git}.desktop"
-    install -Dm644 "$(_get_project_dir)/${_appname}.appdata.xml" "${pkgdir}/usr/share/appdata/${pkgname%-git}.appdata.xml"
+	ln -sf "/usr/bin/ffmpeg" "${pkgdir}/usr/lib/${pkgname%-git}/ffmpeg"
+	ln -sf "/usr/bin/ffprobe" "${pkgdir}/usr/lib/${pkgname%-git}/ffprobe"
+	install -Dm644 "$(_get_project_dir)/icon-build/app-512.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname%-git}.png"
+	install -Dm644 "$(_get_project_dir)/${_appname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-git}.desktop"
+	install -Dm644 "$(_get_project_dir)/${_appname}.appdata.xml" "${pkgdir}/usr/share/appdata/${pkgname%-git}.appdata.xml"
 }

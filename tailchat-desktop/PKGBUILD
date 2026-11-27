@@ -12,23 +12,23 @@ _ghurl="https://github.com/msgbyte/tailchat"
 license=('Apache-2.0')
 conflicts=("${pkgname}")
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'gendesk'
-    'nvm'
-    'yarn'
-    'git'
-    'jq'
+	'gendesk'
+	'nvm'
+	'yarn'
+	'git'
+	'jq'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
-    "${pkgname}.js"
+	"${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
+	"${pkgname}.js"
 	"${pkgname}.sh"
 )
 sha256sums=('e7435c9410fedb9a7f6d3690a229ea1957d3c41f90b712fe519a1e96dc18c3db'
-            '03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_project_dir() {
 	local _d _f _t _bt= _best= _bs=0
 	while IFS= read -r _d; do
@@ -138,41 +138,41 @@ _generate_icons() {
 	done
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh"
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh"
 	gendesk -q -f -n \
-        --pkgname="${_pkgname}-desktop" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Network" \
-        --name="${pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
+		--pkgname="${_pkgname}-desktop" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Network" \
+		--name="${pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
 	_set_electron_build_env
 	_set_yarn_build_env
-    export NODE_ENV=development
+	export NODE_ENV=development
 	find "${srcdir}" -type f -name "package.json" -exec sed -i "/packageManager/d" {} +
-    yarn install
-    yarn add -D ts-node source-map-support make-dir
+	yarn install
+	yarn add -D ts-node source-map-support make-dir
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
 	_set_electron_build_env
 	_set_yarn_build_env
-    yarn ts-node ./.erb/scripts/clean.js dist
-    yarn run build
-    yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}" --config.asar=false
+	yarn ts-node ./.erb/scripts/clean.js dist
+	yarn run build
+	yarn electron-builder --linux dir -c.electronDist="${ELECTRON_DIST}" --config.asar=false
 	_delete_other_arch_files
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
 	_generate_icons
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

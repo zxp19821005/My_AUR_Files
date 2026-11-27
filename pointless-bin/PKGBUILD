@@ -24,8 +24,8 @@ package() {
   install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
   _icon_sizes=(32x32 128x128 256x256@2)
   for _icons in "${_icon_sizes[@]}";do
-    install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
-      -t "${pkgdir}/usr/share/icons/hicolor/${_icons%@2}/apps"
+	install -Dm644 "${srcdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-bin}.png" \
+	  -t "${pkgdir}/usr/share/icons/hicolor/${_icons%@2}/apps"
   done
   install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 }

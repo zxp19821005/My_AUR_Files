@@ -5,10 +5,10 @@ pkgver=2.1.6
 pkgrel=1
 pkgdesc="Project Forge helps you build applications with Go.(Prebuilt version)"
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://projectforge.dev/"
 _ghurl="https://github.com/kyleu/projectforge"
@@ -27,6 +27,6 @@ sha256sums_armv7h=('9f6853fc95f49060b442856e2f9c2d10be48ede0e696c29b42bb965dd2d8
 sha256sums_i686=('2b5bd548e90eb13c1a4efa1334613d875261a479a4271198354a27b57c1d58eb')
 sha256sums_x86_64=('d12b69060b2071ac67610812bdb9c636b5b458c51971a895bf0f0e5cd5acb630')
 package() {
-    install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
+	install -Dm755 "${srcdir}/usr/bin/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
 }

@@ -20,7 +20,7 @@ source=(
   "LICENSE-${pkgver}::https://raw.githubusercontent.com/Speek-App/Speek/v${pkgver}-release/src/LICENSE"
 )
 sha256sums=('2176f23042d554c85d13a345ea26079c5859e873f1c4b542ce9b574c84e80ac8'
-            'dd74eb4a60e927e8fd207fecd8e5d2d720adbfcafe9d68fa1b942b377b78eb29')
+			'dd74eb4a60e927e8fd207fecd8e5d2d720adbfcafe9d68fa1b942b377b78eb29')
 build() {
   chmod a+x "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage"
   "${srcdir}/${pkgname%-appimage}-${pkgver}.AppImage" --appimage-extract > /dev/null

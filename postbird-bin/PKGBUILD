@@ -5,8 +5,8 @@ pkgver=0.9.2
 pkgrel=1
 pkgdesc="Open source PostgreSQL GUI client."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://github.com/Paxa/postbird"
 license=('MIT')
@@ -37,16 +37,16 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
-    sed -i "s/Exec=\/opt\/${pkgname%-bin}\/${_pkgname}/Exec=${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i "s/Exec=\/opt\/${pkgname%-bin}\/${_pkgname}/Exec=${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
 	find "${srcdir}/opt/${pkgname%-bin}" -type d \( -name "*win32*" -o -name "*darwin*" \) -exec rm -rf {} +
 }
 package() {
-    install -Dm755 "${srcdir}/opt/${pkgname%-bin}/bin/launcher" "${pkgdir}/usr/lib/${pkgname%-bin}/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/bin"
-    ln -sf "/usr/lib/${pkgname%-bin}/bin/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/opt/${pkgname%-bin}/bin/launcher" "${pkgdir}/usr/lib/${pkgname%-bin}/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/bin"
+	ln -sf "/usr/lib/${pkgname%-bin}/bin/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
 	cp -a "${srcdir}/opt/${pkgname%-bin}/Resources" "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    _install_icons
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	_install_icons
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

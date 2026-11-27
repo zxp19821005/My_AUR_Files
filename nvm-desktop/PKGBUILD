@@ -6,36 +6,36 @@ _nodeversion=24
 pkgrel=1
 pkgdesc="Node Version Manager Desktop - A desktop application to manage multiple active node.js versions."
 arch=(
-    'aarch64'
-    'armv7h'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'x86_64'
 )
 url="https://github.com/1111mp/nvm-desktop"
 _nvmdurl="https://github.com/1111mp/nvmd-command"
 license=('MIT')
 conflicts=("${pkgname}")
 depends=(
-    'webkit2gtk-4.1'
-    'gtk3'
-    'libayatana-indicator'
+	'webkit2gtk-4.1'
+	'gtk3'
+	'libayatana-indicator'
 	'libappindicator'
 )
 makedepends=(
-    'gendesk'
-    'npm'
-    'nvm'
-    'pnpm'
-    'rustup'
-    'librsvg'
-    'patchelf'
-    'git'
+	'gendesk'
+	'npm'
+	'nvm'
+	'pnpm'
+	'rustup'
+	'librsvg'
+	'patchelf'
+	'git'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
-    "nvmd-${pkgver}.tar.gz::${_nvmdurl}/archive/refs/tags/v${pkgver}.tar.gz"
+	"${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
+	"nvmd-${pkgver}.tar.gz::${_nvmdurl}/archive/refs/tags/v${pkgver}.tar.gz"
 )
 sha256sums=('33b34c90973033d4e2cd1452d2b2edd5afc0c46368265a3886b81401680077dc'
-            '9c208570cbd33be12eb78181e2b0a229413ccee3716abcf67faed943f2bd2427')
+			'9c208570cbd33be12eb78181e2b0a229413ccee3716abcf67faed943f2bd2427')
 _get_project_dir() {
 	find "${srcdir}" -name "src-tauri" -type d ! -path "*/node_modules/*" 2>/dev/null | \
 		while read -r tauri_dir; do
@@ -53,10 +53,10 @@ _get_nvmd_dir() {
 		-printf "%h\n" -quit 2>/dev/null
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _set_rust_build_env() {
 	export HOME="${srcdir}/.home"
@@ -101,44 +101,44 @@ _set_pnpm_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -f -n -q \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Development" \
-        --name="${pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_rust_build_env
-    _set_pnpm_build_env
-    rustup toolchain install stable
-    rustup default stable
-    cd "$(_get_nvmd_dir)"
-    cargo build --release
-    install -Dm755 target/release/nvmd -t "$(_get_project_dir)/src-tauri/resources"
-    cd "$(_get_project_dir)"
-    jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-    cp "src-tauri/icons/128x128@2x.png" "src-tauri/icons/256x256.png"
-    export NODE_ENV=development
-    pnpm install
+	cd "$(_get_project_dir)"
+	gendesk -f -n -q \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Development" \
+		--name="${pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_rust_build_env
+	_set_pnpm_build_env
+	rustup toolchain install stable
+	rustup default stable
+	cd "$(_get_nvmd_dir)"
+	cargo build --release
+	install -Dm755 target/release/nvmd -t "$(_get_project_dir)/src-tauri/resources"
+	cd "$(_get_project_dir)"
+	jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+	cp "src-tauri/icons/128x128@2x.png" "src-tauri/icons/256x256.png"
+	export NODE_ENV=development
+	pnpm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_rust_build_env
-    _set_pnpm_build_env
-    export NODE_ENV=production
-    pnpm run build
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_rust_build_env
+	_set_pnpm_build_env
+	export NODE_ENV=production
+	pnpm run build
 }
 package() {
-    install -Dm755 "$(_get_project_dir)/src-tauri/target/release/${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm755 "$(_get_nvmd_dir)/target/release/nvmd" -t "${pkgdir}/usr/lib/${_pkgname//-/ }/resources"
-    install -Dm644 "$(_get_project_dir)/src-tauri/icons/icon.png" -t "${pkgdir}/usr/lib/${_pkgname//-/ }/icons"
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    _icon_sizes=(32x32 64x64 128x128 256x256)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/src-tauri/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps/${pkgname}.png"
-    done
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "$(_get_project_dir)/src-tauri/target/release/${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm755 "$(_get_nvmd_dir)/target/release/nvmd" -t "${pkgdir}/usr/lib/${_pkgname//-/ }/resources"
+	install -Dm644 "$(_get_project_dir)/src-tauri/icons/icon.png" -t "${pkgdir}/usr/lib/${_pkgname//-/ }/icons"
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	_icon_sizes=(32x32 64x64 128x128 256x256)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/src-tauri/icons/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons//@2/}/apps/${pkgname}.png"
+	done
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

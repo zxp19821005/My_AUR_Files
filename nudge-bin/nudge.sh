@@ -13,27 +13,27 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 _FLAGS_FILE="${XDG_CONFIG_HOME}/@appname@-flags.conf"
 declare -a flags
 if [[ -f "${_FLAGS_FILE}" ]]; then
-    mapfile -t < "${_FLAGS_FILE}"
+	mapfile -t < "${_FLAGS_FILE}"
 fi
 for line in "${MAPFILE[@]}"; do
-    if [[ ! "${line}" =~ ^[[:space:]]*#.* ]] && [[ -n "${line}" ]]; then
-        flags+=("${line}")
-    fi
+	if [[ ! "${line}" =~ ^[[:space:]]*#.* ]] && [[ -n "${line}" ]]; then
+		flags+=("${line}")
+	fi
 done
 _WAYLAND_OPTION=false
 for arg in "$@"; do
-    if [[ "${arg}" == "--wayland" ]]; then
-        _WAYLAND_OPTION=true
-        break
-    fi
+	if [[ "${arg}" == "--wayland" ]]; then
+		_WAYLAND_OPTION=true
+		break
+	fi
 done
 if [[ "${_WAYLAND_OPTION}" == true ]]; then
-    echo "Forcing Wayland"
-    flags+=("--enable-features=UseOzonePlatform,WaylandWindowDecorations,VaapiVideoDecodeLinuxGL" "--ozone-platform=wayland")
+	echo "Forcing Wayland"
+	flags+=("--enable-features=UseOzonePlatform,WaylandWindowDecorations,VaapiVideoDecodeLinuxGL" "--ozone-platform=wayland")
 fi
 cd "${_APPDIR}"
 if [[ "${EUID}" -ne 0 ]] || [[ "${ELECTRON_RUN_AS_NODE}" ]]; then
-    exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" "${flags[@]}" "${_USER_FLAGS}" "$@" || exit $?
+	exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" "${flags[@]}" "${_USER_FLAGS}" "$@" || exit $?
 else
-    exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" --no-sandbox "${flags[@]}" "${_USER_FLAGS}" "$@" || exit $?
+	exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" --no-sandbox "${flags[@]}" "${_USER_FLAGS}" "$@" || exit $?
 fi

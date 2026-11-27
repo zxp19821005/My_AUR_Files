@@ -13,31 +13,31 @@ url="https://nuclearplayer.com/"
 _ghurl="https://github.com/nukeop/nuclear"
 license=('AGPL-3.0-only')
 depends=(
-    'webkit2gtk-4.1'
-    'libsoup3'
-    'gtk3'
-    'wavpack'
-    'gst-plugins-good'
-    'gst-plugins-base'
+	'webkit2gtk-4.1'
+	'libsoup3'
+	'gtk3'
+	'wavpack'
+	'gst-plugins-good'
+	'gst-plugins-base'
 )
 makedepends=(
-    'pnpm'
-    'nvm'
-    'rustup'
-    'jq'
+	'pnpm'
+	'nvm'
+	'rustup'
+	'jq'
 )
 optdepends=(
-    'gst-plugins-bad: Additional media codec support'
-    'gst-plugins-ugly: Patented codec support'
-    'gst-libav: FFmpeg-based codec support'
+	'gst-plugins-bad: Additional media codec support'
+	'gst-plugins-ugly: Patented codec support'
+	'gst-libav: FFmpeg-based codec support'
 )
 source=("${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/player@${pkgver}.tar.gz")
 sha256sums=('71f27c2291655c34b3b497581baf67e642de9bfd3d5c1b1875d0f71837113df8')
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _get_project_dir() {
 	local d
@@ -94,49 +94,49 @@ _set_rust_build_env() {
 	mkdir -p "${HOME}" "${CARGO_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_rust_build_env
-    _set_pnpm_build_env
-    sed -i -e "
-        s/Exec=nuclear-music-player/Exec=${pkgname}/g
-        s/Icon=${_debname}/Icon=${pkgname}/g
-    " "packages/player/src-tauri/resources/${_debname}.desktop"
-    sed -i "s/${_debname}/${pkgname}/g" "packages/player/src-tauri/resources/${_debname}.metainfo.xml"
-    jq -r '
-        .bundle.active = false |
-        .mainBinaryName = "'"${pkgname}"'"
-    ' packages/player/src-tauri/tauri.conf.json > tmp.json && mv tmp.json packages/player/src-tauri/tauri.conf.json
-    rustup update stable
-    rustup default stable
-    export NODE_ENV=development
-    pnpm add -D node-addon-api node-gyp
-    pnpm install --no-frozen-lockfile
-    ln -s ../../../node_modules/tw-animate-css packages/player/node_modules/tw-animate-css
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_rust_build_env
+	_set_pnpm_build_env
+	sed -i -e "
+		s/Exec=nuclear-music-player/Exec=${pkgname}/g
+		s/Icon=${_debname}/Icon=${pkgname}/g
+	" "packages/player/src-tauri/resources/${_debname}.desktop"
+	sed -i "s/${_debname}/${pkgname}/g" "packages/player/src-tauri/resources/${_debname}.metainfo.xml"
+	jq -r '
+		.bundle.active = false |
+		.mainBinaryName = "'"${pkgname}"'"
+	' packages/player/src-tauri/tauri.conf.json > tmp.json && mv tmp.json packages/player/src-tauri/tauri.conf.json
+	rustup update stable
+	rustup default stable
+	export NODE_ENV=development
+	pnpm add -D node-addon-api node-gyp
+	pnpm install --no-frozen-lockfile
+	ln -s ../../../node_modules/tw-animate-css packages/player/node_modules/tw-animate-css
 
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_rust_build_env
-    _set_pnpm_build_env
-    export NODE_ENV=production
-    for pkg in model website i18n themes hifi ui plugin-sdk storybook player; do
-        msg2 "Building ${pkg}..."
-        cd "$(_get_project_dir)/packages/${pkg}"
-        echo y | pnpm run build || {
-            error "Failed to build ${pkg}"
-            return 1
-        }
-    done
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_rust_build_env
+	_set_pnpm_build_env
+	export NODE_ENV=production
+	for pkg in model website i18n themes hifi ui plugin-sdk storybook player; do
+		msg2 "Building ${pkg}..."
+		cd "$(_get_project_dir)/packages/${pkg}"
+		echo y | pnpm run build || {
+			error "Failed to build ${pkg}"
+			return 1
+		}
+	done
 }
 package() {
-    install -Dm755 "$(_get_app_dir)/${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm755 "$(_get_project_dir)/packages/player/src-tauri/resources/${_debname}.desktop" \
-        "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    install -Dm755 "$(_get_project_dir)/packages/player/src-tauri/resources/${_debname}.metainfo.xml" \
-        "${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
-    _icon_sizes=(32x32 64x64 128x128 256x256 512x512)
+	install -Dm755 "$(_get_app_dir)/${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm755 "$(_get_project_dir)/packages/player/src-tauri/resources/${_debname}.desktop" \
+		"${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	install -Dm755 "$(_get_project_dir)/packages/player/src-tauri/resources/${_debname}.metainfo.xml" \
+		"${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
+	_icon_sizes=(32x32 64x64 128x128 256x256 512x512)
 	for _icons in "${_icon_sizes[@]}";do
 		install -Dm644 "$(_get_project_dir)/flatpak/icons/${_icons}.png" \
 			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"

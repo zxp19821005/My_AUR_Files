@@ -6,8 +6,8 @@ _electronversion=43
 pkgrel=1
 pkgdesc="Star super intelligence TeleAgent, an agent product installed on a personal computer with one click, a capable and reliable AI office partner.星辰超级智能体TeleAgent，一键安装在个人电脑上的Agent产品，能干可靠的AI办公搭子。"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://ta.teleai.com.cn"
 license=('MIT')
@@ -15,23 +15,23 @@ conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	"electron${_electronversion}"
-    'nodejs'
-    'python'
-    'python-cryptography'
-    'python-keyring'
-    'python-reportlab'
-    'python-lxml'
-    'python-requests'
-    'python-httpx'
-    'python-matplotlib'
-    'python-pillow'
-    'python-numpy'
-    'python-six'
-    'python-defusedxml'
-    'python-yaml'
-    'python-beautifulsoup4'
-    'libxt'
-    'ripgrep'
+	'nodejs'
+	'python'
+	'python-cryptography'
+	'python-keyring'
+	'python-reportlab'
+	'python-lxml'
+	'python-requests'
+	'python-httpx'
+	'python-matplotlib'
+	'python-pillow'
+	'python-numpy'
+	'python-six'
+	'python-defusedxml'
+	'python-yaml'
+	'python-beautifulsoup4'
+	'libxt'
+	'ripgrep'
 )
 source=("LICENSE.html::https://www.teleai.com.cn/doc/xewi3C5y15p87wcRIKfH/GJet9K8NKJrIKnz1hYuK")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::https://agent.teleai.com.cn/superCowork/sapi/api/download/redirect/linux-arm64")
@@ -40,7 +40,7 @@ sha256sums=('2308bad99fb7284f11da18d39a9b6183706833022e85df246a67e8d6b7c100ee')
 sha256sums_aarch64=('80b13bf2299e346ed460f773c52252bcdcee46961b6cec15c15bde9b19932895')
 sha256sums_x86_64=('ee43cd0b803c46b0e749025791452097354612e28c1cd314798b8c99b193498c')
 pkgver() {
-    cat "${srcdir}/.pkgver" 2>/dev/null || echo "${pkgver}"
+	cat "${srcdir}/.pkgver" 2>/dev/null || echo "${pkgver}"
 }
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
@@ -76,25 +76,25 @@ _delete_other_arch_files() {
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 prepare() {
-    bsdtar -xf "${srcdir}/control."*
-    sed -nE 's/^Version:[[:space:]]*([0-9]+(\.[0-9]+)*).*/\1/p' "${srcdir}/control" | head -n1 > "${srcdir}/.pkgver"
+	bsdtar -xf "${srcdir}/control."*
+	sed -nE 's/^Version:[[:space:]]*([0-9]+(\.[0-9]+)*).*/\1/p' "${srcdir}/control" | head -n1 > "${srcdir}/.pkgver"
 	bsdtar -xf "${srcdir}/data."*
 	_check_electron_version
 	sed -i "s/\/opt\/${_pkgname}\///g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    _delete_other_arch_files
-    local _arch=$([[ "${CARCH}" == "aarch64" ]] && echo linux-arm64 || echo linux-x64)
-    ln -sf "/usr/bin/rg" "$(_get_app_dir)/resources/ripgrep/${_arch}/rg"
+	_delete_other_arch_files
+	local _arch=$([[ "${CARCH}" == "aarch64" ]] && echo linux-arm64 || echo linux-x64)
+	ln -sf "/usr/bin/rg" "$(_get_app_dir)/resources/ripgrep/${_arch}/rg"
 }
 package() {
 	install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname%-bin}"}
 	cp -a "$(_get_app_dir)/"* "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
 	_install_icons
 	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
 	install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
-    _file_list=(chrome_100_percent.pak chrome_200_percent.pak chrome-sandbox icudtl.dat libEGL.so libffmpeg.so \
-        libGLESv2.so libvk_swiftshader.so libvulkan.so.1 resources.pak)
-    for _files in "${_file_list[@]}";do
-        ln -sf "/usr/lib/electron${_electronversion}/${_files}" "${pkgdir}/usr/lib/${pkgname%-bin}/${_files}"
-    done
+	_file_list=(chrome_100_percent.pak chrome_200_percent.pak chrome-sandbox icudtl.dat libEGL.so libffmpeg.so \
+		libGLESv2.so libvk_swiftshader.so libvulkan.so.1 resources.pak)
+	for _files in "${_file_list[@]}";do
+		ln -sf "/usr/lib/electron${_electronversion}/${_files}" "${pkgdir}/usr/lib/${pkgname%-bin}/${_files}"
+	done
 }

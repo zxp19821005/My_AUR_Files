@@ -11,47 +11,47 @@ license=('Apache-2.0')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
-    'bun'
-    'uv'
-    'libayatana-appindicator'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
+	'bun'
+	'uv'
+	'libayatana-appindicator'
 )
 makedepends=(
-    'ccache'
+	'ccache'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('ed8b23d763a0fa99bc87c400ace65ebd448f1b066596cc0b8ec0d18bd8842c38'
-            '5111c45e21dd8590d5b44093045778946195d3036c83416db69498a12be0e912')
+			'5111c45e21dd8590d5b44093045778946195d3036c83416db69498a12be0e912')
 prepare() {
-    sed -i -e "
-        s/@appname@/${_pkgname}/g
-        s/@runname@/${_pkgname}-Desktop/g
-        s/@options@/WEBKIT_DISABLE_DMABUF_RENDERER=1/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    bsdtar -xf "${srcdir}/data."*
-    sed -i -e "
-        s/Exec=${_pkgname}-Desktop/Exec=${pkgname%-bin}/g
-        s/Categories=/Categories=Utility;/g
-        s/Icon=${_pkgname}-Desktop/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
-    [[ -d "${srcdir}/usr/share/icons/hicolor/256x256@2" && ! -d "${srcdir}/usr/share/icons/hicolor/512x512" ]] \
-        && mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
+	sed -i -e "
+		s/@appname@/${_pkgname}/g
+		s/@runname@/${_pkgname}-Desktop/g
+		s/@options@/WEBKIT_DISABLE_DMABUF_RENDERER=1/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i -e "
+		s/Exec=${_pkgname}-Desktop/Exec=${pkgname%-bin}/g
+		s/Categories=/Categories=Utility;/g
+		s/Icon=${_pkgname}-Desktop/Icon=${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+	[[ -d "${srcdir}/usr/share/icons/hicolor/256x256@2" && ! -d "${srcdir}/usr/share/icons/hicolor/512x512" ]] \
+		&& mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 "${srcdir}/usr/bin/${_pkgname}-Desktop" -t "${pkgdir}/usr/lib/${_pkgname}"
-    [ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/usr/bin/${_pkgname}-Desktop" -t "${pkgdir}/usr/lib/${_pkgname}"
+	[ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	find "${srcdir}" -type f \( -name "*.png" -o -name "*.svg" \) -path "*share/icons/*" | while read -r _i; do
 		_extension="${_i##*.}"
 		_icon_path="${_i#*share/icons/}"
 		_target_dir="/usr/share/icons/$(dirname "${_icon_path}")"

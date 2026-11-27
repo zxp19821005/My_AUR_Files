@@ -15,18 +15,18 @@ conflicts=("${pkgname%-git}")
 depends=(
 	'glibc'
 	'hicolor-icon-theme'
-    'icu'
+	'icu'
 )
 makedepends=(
 	'git'
 	'gendesk'
-    'bun'
-    'nvm'
+	'bun'
+	'nvm'
 	'imagemagick'
 )
 options=(
-    '!strip'
-    '!debug'
+	'!strip'
+	'!debug'
 )
 source=("${pkgname%-git}.git::git+${_ghurl}.git")
 sha256sums=('SKIP')
@@ -71,21 +71,21 @@ _set_bun_build_env() {
 	mkdir -p "${HOME}" "${BUN_INSTALL_CACHE_DIR}" "${BUN_INSTALL_GLOBAL_DIR}" "${BUN_INSTALL_BIN}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -q -f -n \
+	cd "$(_get_project_dir)"
+	gendesk -q -f -n \
 		--pkgname="${pkgname%-git}" \
 		--pkgdesc="${pkgdesc}" \
 		--categories="Graphics" \
 		--name="${_pkgname}" \
 		--exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_bun_build_env
-    bun install
+	_ensure_local_nvm
+	_set_bun_build_env
+	bun install
 }
 build() {
 	cd "$(_get_project_dir)"
 	_ensure_local_nvm
-    _set_bun_build_env
+	_set_bun_build_env
 	bun run build
 }
 package() {

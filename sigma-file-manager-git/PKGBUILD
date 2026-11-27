@@ -12,21 +12,21 @@ license=('GPL-3.0-or-later')
 conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}")
 depends=(
-    'webkit2gtk-4.1'
-    'gtk3'
+	'webkit2gtk-4.1'
+	'gtk3'
 )
 makedepends=(
-    'gendesk'
-    'git'
-    'nvm'
-    'npm'
-    'python'
-    'rustup'
+	'gendesk'
+	'git'
+	'nvm'
+	'npm'
+	'python'
+	'rustup'
 )
 source=("${pkgname%-git}.git::git+${url}.git")
 options=(
-    '!strip'
-    '!debug'
+	'!strip'
+	'!debug'
 )
 sha256sums=('SKIP')
 _get_project_dir() {
@@ -75,10 +75,10 @@ _set_rust_build_env() {
 	mkdir -p "${HOME}" "${CARGO_HOME}"
 }
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _generate_icons() {
 	local _sizes=(16 24 32 48 64 96 128 256 512) _src="$(_get_project_dir)/src-tauri/icons/icon.png" _s
@@ -90,36 +90,36 @@ _generate_icons() {
 	done
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
+	cd "$(_get_project_dir)"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
 	_ensure_local_nvm
-    _set_npm_build_env
-    _set_rust_build_env
-    sed -i "s/${_flatpakname}/${pkgname%-git}/g" "flatpak/com.${pkgname%-git}.app.metainfo.xml"
-    jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-    rustup update stable
-    rustup default stable
-    export NODE_ENV=development
-    npm install
+	_set_npm_build_env
+	_set_rust_build_env
+	sed -i "s/${_flatpakname}/${pkgname%-git}/g" "flatpak/com.${pkgname%-git}.app.metainfo.xml"
+	jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+	rustup update stable
+	rustup default stable
+	export NODE_ENV=development
+	npm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_npm_build_env
-    _set_rust_build_env
-    export NODE_ENV=production
-    npm run sync-version
-    npm run tauri:build:linux
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_npm_build_env
+	_set_rust_build_env
+	export NODE_ENV=production
+	npm run sync-version
+	npm run tauri:build:linux
 }
 package() {
-    install -Dm755 "$(_get_app_dir)/${pkgname%-git}" -t "${pkgdir}/usr/bin"
-    _generate_icons
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/flatpak/com.${pkgname%-git}.app.metainfo.xml" -t "${pkgdir}/usr/share/metainfo/${pkgname%-git}.metainfo.xml"
-    install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "$(_get_app_dir)/${pkgname%-git}" -t "${pkgdir}/usr/bin"
+	_generate_icons
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/flatpak/com.${pkgname%-git}.app.metainfo.xml" -t "${pkgdir}/usr/share/metainfo/${pkgname%-git}.metainfo.xml"
+	install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

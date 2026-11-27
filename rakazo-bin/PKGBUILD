@@ -20,16 +20,16 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('4527654612945de270dcc770c2ac13092a8943693cbb68c78a277fe0b6022e74'
-            'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
-        | while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
+		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
 }
 _check_electron_version() {
 	local _v=$(strings "$(find "$(_get_app_dir)" -maxdepth 1 -type f \
-        -executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)" \
-        | grep -oP 'Electron/\K[0-9]+' | head -1)
+		-executable -printf '%s %p\n' | sort -nr | head -1 | cut -d' ' -f2-)" \
+		| grep -oP 'Electron/\K[0-9]+' | head -1)
 	[[ -z "$_v" ]] && { echo -e "\033[1;33mNote: Could not check version.\033[0m"; return; }
 	(( _v == _electronversion )) && c=32 || c=31
 	echo -e "Electron version: \033[1;${c}m$_v$([[ $c -eq 31 ]] && echo " (expected $_electronversion)")\033[0m"
@@ -58,15 +58,15 @@ _delete_other_arch_files() {
 }
 prepare() {
 	sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
 	" "${srcdir}/${pkgname%-bin}.sh"
 	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
 	rm -rf "${srcdir}/squashfs-root"
 	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
 	_check_electron_version
 	sed -i "s/AppRun --no-sandbox/${pkgname%-bin}/g" "$(_get_app_dir)/${pkgname%-bin}.desktop"
-    _delete_other_arch_files
+	_delete_other_arch_files
 	find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
 }
 package() {

@@ -12,7 +12,7 @@ conflicts=("${pkgname%ttf-}")
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('9845d7377258bd342b0266a4cb440b0fd40b62b6dacbeeb750b1c5e13a391789')
 package() {
-    export LC_CTYPE="zh_CN.UTF-8"
-    install -Dm444 "${srcdir}/${_pkgname}-${pkgver}/fonts/TTF/${_pkgname}-Bold.ttf" "${pkgdir}/usr/share/fonts/TTF/${pkgname}-bold.ttf"
-    install -Dm644 "${srcdir}/${_pkgname}-${pkgver}/OFL.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+	export LC_CTYPE="zh_CN.UTF-8"
+	install -Dm444 "${srcdir}/${_pkgname}-${pkgver}/fonts/TTF/${_pkgname}-Bold.ttf" "${pkgdir}/usr/share/fonts/TTF/${pkgname}-bold.ttf"
+	install -Dm644 "${srcdir}/${_pkgname}-${pkgver}/OFL.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
 }

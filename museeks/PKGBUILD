@@ -12,29 +12,29 @@ url="https://museeks.io"
 _ghurl="https://github.com/martpie/museeks"
 license=('MIT')
 depends=(
-    'webkit2gtk-4.1'
+	'webkit2gtk-4.1'
 	'gtk3'
 )
 makedepends=(
 	'npm'
-    'nvm'
-    'curl'
+	'nvm'
+	'curl'
 	'rustup'
 	'git'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=${pkgver}"
+	"${pkgname}-${pkgver}::git+${_ghurl}#tag=${pkgver}"
 )
 sha256sums=('4f4ef0e97cb87c1ffd081f5c8b8be4bb68ff7d6744c8fe6759c8381fc527b564')
 _ensure_local_nvm() {
-    local NVM_DIR="${srcdir}/.nvm"
-    source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
-    nvm install "${_nodeversion}"
-    nvm use "${_nodeversion}"
+	local NVM_DIR="${srcdir}/.nvm"
+	source /usr/share/nvm/init-nvm.sh || [[ $? != 1 ]]
+	nvm install "${_nodeversion}"
+	nvm use "${_nodeversion}"
 }
 _ensure_rust_toolchain() {
-    export RUSTUP_HOME="${srcdir}/.rustup"
-    rustup default stable
+	export RUSTUP_HOME="${srcdir}/.rustup"
+	rustup default stable
 }
 prepare() {
 	cd "${srcdir}/${pkgname}-${pkgver}"
@@ -55,8 +55,8 @@ prepare() {
 		find ./ -type f -name "package-lock.json" -exec sed -i "s/registry.npmjs.org/registry.npmmirror.com/g" {} +
 	fi
 	_ensure_local_nvm
-    _ensure_rust_toolchain
-    NODE_ENV=development    npm install
+	_ensure_rust_toolchain
+	NODE_ENV=development    npm install
 }
 build() {
 	cd "${srcdir}/${pkgname}-${pkgver}"
@@ -66,17 +66,17 @@ build() {
 	sed -i "s/${_flatpakname}/${pkgname}/g" src-tauri/release/flatpak.metainfo.xml
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/bin/"${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm755 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/bin/"${pkgname}" -t "${pkgdir}/usr/bin"
 	install -Dm755 -d "${pkgdir}/usr/lib/${_pkgname}"
-    cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/lib/"${_pkgname}/icons" \
-        "${pkgdir}/usr/lib/${_pkgname}"
+	cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/lib/"${_pkgname}/icons" \
+		"${pkgdir}/usr/lib/${_pkgname}"
 	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/share/applications/"${_pkgname}".desktop \
-        "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+		"${pkgdir}/usr/share/applications/${pkgname}.desktop"
 	_icon_sizes=(32x32 128x128 256x256@2)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/share/icons/hicolor/"${_icons}"/apps/"${pkgname}".png \
-            -t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
-    done
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/target/release/bundle/deb/${_pkgname}_"*/data/usr/share/icons/hicolor/"${_icons}"/apps/"${pkgname}".png \
+			-t "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps"
+	done
 	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/src-tauri/release/flatpak.metainfo.xml" "${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
-    install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

@@ -4,10 +4,10 @@ pkgver=1.2.0
 pkgrel=1
 pkgdesc="The go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz ).(Prebuilt version)"
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://trzsz.github.io/go"
 _ghurl="https://github.com/trzsz/trzsz-go"
@@ -25,6 +25,6 @@ sha256sums_armv7h=('8a1c1f61cf40c5d717db14f73b6f0ff1249ecde323e37d1409046b661fe7
 sha256sums_i686=('f6d1d142c8afa0c476c312c3bfc304017d6bf15ff2cf50fa9d685fa583559331')
 sha256sums_x86_64=('d6b1aae1c2804f2f44fdd0308c2ea8d1a47f39675e0a29178834abaf910fcec5')
 package() {
-    install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

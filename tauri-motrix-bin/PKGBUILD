@@ -19,18 +19,18 @@ depends=(
 	'webkit2gtk-4.1'
 	'libayatana-indicator'
 	'libappindicator'
-    'aria2'
+	'aria2'
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb")
 sha256sums_aarch64=('72a5b85df06ef64d5fe5f3641cf06d91bfb2b091a6e5f41b2e90e3bcb494342c')
 sha256sums_x86_64=('224679600aa038bd45dae6a87c9431702dacfdf818564da9e3001c6762c94365')
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
+	bsdtar -xf "${srcdir}/data."*
 	sed -i -e "
 		s/Categories=Utility;/Categories=Network;/g
 		/Comment/d
-        4i\Comment=${pkgdesc}
+		4i\Comment=${pkgdesc}
 	" "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
 	[[ -d "${srcdir}/usr/share/icons/hicolor/256x256@2" ]] && mv "${srcdir}/usr/share/icons/hicolor/256x256@2" "${srcdir}/usr/share/icons/hicolor/512x512"
 }

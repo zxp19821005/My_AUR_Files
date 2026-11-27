@@ -3,9 +3,9 @@ set -o pipefail
 _APPDIR="/usr/lib/@appname@"
 _RUNNAME="${_APPDIR}/bin/@runname@"
 case "${XDG_CURRENT_DESKTOP}" in
-    *GNOME*|*gnome*|*XFCE*)
-        export QT_QPA_PLATFORMTHEME=gtk3
-        ;;
+	*GNOME*|*gnome*|*XFCE*)
+		export QT_QPA_PLATFORMTHEME=gtk3
+		;;
 esac
 export PATH="${_APPDIR}/bin+:${PATH}"
 export LD_LIBRARY_PATH="${_APPDIR}/lib+:${LD_LIBRARY_PATH}"

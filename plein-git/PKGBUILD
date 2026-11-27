@@ -14,9 +14,9 @@ conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
 	"electron${_electronversion}"
-    'ffmpeg'
+	'ffmpeg'
 	'nodejs'
-    'libass'
+	'libass'
 )
 makedepends=(
 	'npm'
@@ -36,8 +36,8 @@ options=(
 	'!emptydirs'
 )
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -138,9 +138,9 @@ build() {
 	_set_electron_build_env
 	_set_pnpm_build_env
 	export NODE_ENV=production
-    export PLEIN_VERSION="${pkgver%.r*}"
+	export PLEIN_VERSION="${pkgver%.r*}"
 	pnpm --filter @plein/web build
-    cd apps/desktop
+	cd apps/desktop
 	pnpm run stage:server
 	pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder.config.mjs"
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"

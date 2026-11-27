@@ -30,7 +30,7 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('58ff38f9e6ec9acb59c53596d80459fd72682ba6718dd7439de9f46ab266d3b6'
-            '66ba0a42698a2815cfec1c2a5a2b459e4ea9c054481c859acf5dd4aa84d49ce8')
+			'66ba0a42698a2815cfec1c2a5a2b459e4ea9c054481c859acf5dd4aa84d49ce8')
 prepare() {
 	case "${CARCH}" in
 		i686)
@@ -42,8 +42,8 @@ prepare() {
 	esac
 	sed -e "
 		s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_RUNNAME}/g
-    " -i "${srcdir}/${pkgname%-bin}.sh"
+		s/@runname@/${_RUNNAME}/g
+	" -i "${srcdir}/${pkgname%-bin}.sh"
 	gendesk -q -f -n \
 		--pkgname="${pkgname%-bin}" \
 		--pkgdesc="${pkgdesc}" \
@@ -55,7 +55,7 @@ prepare() {
 	rm -rf "${srcdir}/usr/lib/${pkgname%-bin}/"*.{bat,exe}
 	rm -rf "${srcdir}/usr/lib/${pkgname%-bin}/"{"${_pkgname}_arm64.app","${_pkgname}.app"}
 	LogtxtFile=(app ai1 ai2 ai3 ai4 app.error)
-    for _logtxt in "${LogtxtFile[@]}";do
+	for _logtxt in "${LogtxtFile[@]}";do
 		touch "${srcdir}/usr/lib/${pkgname%-bin}/logfiles/log.${_logtxt}.txt"
 	done
 	touch "${srcdir}/usr/lib/${pkgname%-bin}/log.profiler.txt"

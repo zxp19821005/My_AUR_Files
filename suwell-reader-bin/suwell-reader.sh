@@ -8,7 +8,7 @@ export QT_PLUGIN_PATH="${_APPDIR}/Reader_Pro:${QT_PLUGIN_PATH}"
 gBinPath=$(dirname "$0")
 if [ -d "${gBinPath}/OFDPlugin" ]; then
 	gInstallPath="${gBinPath}"
-else	
+else
 	gInstallPath="${_APPDIR}/Reader_Pro"
 fi
 cd "${_APPDIR}" || { echo "Failed to change directory to ${_APPDIR}"; exit 1; }

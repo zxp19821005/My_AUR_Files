@@ -47,8 +47,8 @@ prepare() {
   _nvm_env
 
   sed -E \
-    -e 's&^(\s*)("electron"): "(.*)"(,?)$&\1\2: "'"$SYSTEM_ELECTRON_VERSION"'"\4&' \
-    -i "$_pkgsrc/package.json"
+	-e 's&^(\s*)("electron"): "(.*)"(,?)$&\1\2: "'"$SYSTEM_ELECTRON_VERSION"'"\4&' \
+	-i "$_pkgsrc/package.json"
 
   cd "$_pkgsrc"
   npm install --no-audit --no-fund --prefer-offline
@@ -77,7 +77,7 @@ fi
 flags=()
 for line in "\${lines[@]}"; do
   if [[ ! "\${line}" =~ ^[[:space:]]*#.* ]] && [[ -n "\${line}" ]]; then
-    flags+=("\${line}")
+	flags+=("\${line}")
   fi
 done
 

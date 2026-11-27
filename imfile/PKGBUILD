@@ -8,36 +8,36 @@ _nodeversion=24
 pkgrel=1
 pkgdesc="A full-featured download manager.Forked from motrix."
 arch=(
-    'aarch64'
-    'armv7l'
-    'x86_64'
+	'aarch64'
+	'armv7l'
+	'x86_64'
 )
 url="https://imfile.org/"
 _ghurl="https://github.com/imfile-io/imfile-desktop"
 license=('MIT')
 conflicts=(
-    "${pkgname}"
-    "${pkgname}-electron"
-    'motrix'
+	"${pkgname}"
+	"${pkgname}-electron"
+	'motrix'
 )
 provides=('motrix')
 depends=(
-    "electron${_electronversion}"
-    'aria2'
+	"electron${_electronversion}"
+	'aria2'
 )
 makedepends=(
-    'npm'
-    'pnpm'
-    'nvm'
-    'git'
-    'jq'
+	'npm'
+	'pnpm'
+	'nvm'
+	'git'
+	'jq'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
+	"${pkgname}.sh"
 )
 sha256sums=('1f645ce75172ace86478cb54452914a13a15e06efca36eb90f81b062681a1065'
-            'dfcd6603d29c7b8d88e019b517a2e5c1a7b5ab905a0961a8b81adfa508b258b8')
+			'dfcd6603d29c7b8d88e019b517a2e5c1a7b5ab905a0961a8b81adfa508b258b8')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -99,46 +99,46 @@ _set_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh"
-    _ensure_local_nvm
-    _set_build_env
-    case "${CARCH}" in
-        aarch64) _replace_dir_name=arm64    ;;
-        armv7l)  _replace_dir_name=armv7l   ;;
-        x86_64)  _replace_dir_name=x64      ;;
-    esac
-    ln -sf "/usr/bin/aria2c" "$(_get_project_dir)/extra/linux/${_replace_dir_name}/engine/aria2c"
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    sed -i "s/'darwin', 'win32', 'linux'/'linux'/g" scripts/sync-go-aria2.mjs
-    sed -i "s/Icon=${_flathubname}/Icon=${pkgname}/g" "build/flathub/${_flathubname}.desktop"
-    sed -i "s/${_flathubname}/${pkgname}/g" "build/flathub/${_flathubname}.metainfo.xml"
-    find ./ -type f -name "pnpm-lock.yaml" -exec rm -rf {} +
-    export NODE_ENV=development
-    pnpm install
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh"
+	_ensure_local_nvm
+	_set_build_env
+	case "${CARCH}" in
+		aarch64) _replace_dir_name=arm64    ;;
+		armv7l)  _replace_dir_name=armv7l   ;;
+		x86_64)  _replace_dir_name=x64      ;;
+	esac
+	ln -sf "/usr/bin/aria2c" "$(_get_project_dir)/extra/linux/${_replace_dir_name}/engine/aria2c"
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	sed -i "s/'darwin', 'win32', 'linux'/'linux'/g" scripts/sync-go-aria2.mjs
+	sed -i "s/Icon=${_flathubname}/Icon=${pkgname}/g" "build/flathub/${_flathubname}.desktop"
+	sed -i "s/${_flathubname}/${pkgname}/g" "build/flathub/${_flathubname}.metainfo.xml"
+	find ./ -type f -name "pnpm-lock.yaml" -exec rm -rf {} +
+	export NODE_ENV=development
+	pnpm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    pnpm run sync-go-aria2
-    pnpm -c exec "node .electron-vue/build.js"
-    pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config=electron-builder.json"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	pnpm run sync-go-aria2
+	pnpm -c exec "node .electron-vue/build.js"
+	pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config=electron-builder.json"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
-    cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    install -Dm644 "$(_get_project_dir)/build/flathub/${_flathubname}.desktop" \
-        "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    install -Dm644 "$(_get_project_dir)/build/flathub/${_flathubname}.metainfo.xml" \
-        "${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
-    install -Dm644 "$(_get_project_dir)/build/256x256.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname}"
+	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
+	install -Dm644 "$(_get_project_dir)/build/flathub/${_flathubname}.desktop" \
+		"${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	install -Dm644 "$(_get_project_dir)/build/flathub/${_flathubname}.metainfo.xml" \
+		"${pkgdir}/usr/share/metainfo/${pkgname}.metainfo.xml"
+	install -Dm644 "$(_get_project_dir)/build/256x256.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-git}.png"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

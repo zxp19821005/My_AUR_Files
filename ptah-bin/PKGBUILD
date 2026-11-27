@@ -13,26 +13,26 @@ conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	"electron${_electronversion}"
-    'claude-code'
-    'ripgrep'
-    'openai-codex'
-    'zsh'
-    'ffmpeg'
+	'claude-code'
+	'ripgrep'
+	'openai-codex'
+	'zsh'
+	'ffmpeg'
 )
 source=(
 	"${pkgname%-bin}-${pkgver}.deb::${_ghurl}/releases/download/electron-v${pkgver}/${pkgname%-bin}-desktop_${pkgver}_amd64.deb"
-    "LICENSE-${pkgver}.md::https://raw.githubusercontent.com/Hive-Academy/PtahCode/electron-v${pkgver}/LICENSE.md"
+	"LICENSE-${pkgver}.md::https://raw.githubusercontent.com/Hive-Academy/PtahCode/electron-v${pkgver}/LICENSE.md"
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 sha256sums=('ce14fb1eef47292ce0b1b9de7872ebd145cee8de14c1c34f5635f2559fce3c5b'
-            '5ab364f1934f7d5fb85fc140fa353f2b319cc70a5d2a4732287e5bcd0501d636'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'5ab364f1934f7d5fb85fc140fa353f2b319cc70a5d2a4732287e5bcd0501d636'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -74,10 +74,10 @@ prepare() {
 	bsdtar -xf "${srcdir}/data."*
 	_check_electron_version
 	sed -i "s/\/opt\/${_pkgname}\/${pkgname%-bin}-desktop/${pkgname%-bin}/g" "${srcdir}/usr/share/applications/${pkgname%-bin}-desktop.desktop"
-    _delete_other_arch_files
-    ln -sf "/usr/bin/claude" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk-linux-x64/claude"
-    ln -sf "/usr/bin/rg" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/@cursor/sdk-linux-x64/bin/rg"
-    ln -sf "/usr/bin/ffmpeg" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/ffmpeg-static/ffmpeg"
+	_delete_other_arch_files
+	ln -sf "/usr/bin/claude" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/@anthropic-ai/claude-agent-sdk-linux-x64/claude"
+	ln -sf "/usr/bin/rg" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/@cursor/sdk-linux-x64/bin/rg"
+	ln -sf "/usr/bin/ffmpeg" "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/ffmpeg-static/ffmpeg"
 }
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"

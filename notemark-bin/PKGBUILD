@@ -15,14 +15,14 @@ depends=(
 )
 source=(
 	"${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-amd64.deb"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/AbdulDevHub/NoteMark/v${pkgver}/LICENSE"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/AbdulDevHub/NoteMark/v${pkgver}/LICENSE"
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('7cb35d2b27710b5dd1570b11124caaf217ba1c74ab18e52ec416d48d4473e2db'
-            '7842f891746d573e39f4b7b13db5b1561dd7038c4cd1fce7a2743875da9ca238'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
+			'7842f891746d573e39f4b7b13db5b1561dd7038c4cd1fce7a2743875da9ca238'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done

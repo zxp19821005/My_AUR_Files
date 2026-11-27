@@ -18,17 +18,17 @@ depends=(
 	'libappindicator'
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'gendesk'
-    'git'
-    'jq'
+	'npm'
+	'nvm'
+	'gendesk'
+	'git'
+	'jq'
 )
 optdepends=(
-    'python-jieba'
-    'pypinyin'
-    'yt-dlp'
-    'mecab'
+	'python-jieba'
+	'pypinyin'
+	'yt-dlp'
+	'mecab'
 )
 source=("${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('ae7c56ff50c7c1af8cc11c1943530f8facb9982f1478f923430228d0f16a921e')
@@ -78,35 +78,35 @@ _set_rust_build_env() {
 	mkdir -p "${HOME}" "${CARGO_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_npm_build_env
-    _set_rust_build_env
-    jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-    rustup update stable
-    rustup default stable
-    export NODE_ENV=development
-    npm install
+	cd "$(_get_project_dir)"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_npm_build_env
+	_set_rust_build_env
+	jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+	rustup update stable
+	rustup default stable
+	export NODE_ENV=development
+	npm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_npm_build_env
-    _set_rust_build_env
-    export NODE_ENV=production
-    npm run tauri:build
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_npm_build_env
+	_set_rust_build_env
+	export NODE_ENV=production
+	npm run tauri:build
 }
 package() {
-    install -Dm755 "$(_get_app_dir)/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
-    install -Dm755 -d "${pkgdir}/usr/lib/${_pkgname}"
-    cp -a "$(_get_app_dir)/"{libmpv,live-captions,language-packs.json} "${pkgdir}/usr/lib/${_pkgname}"
-    install -Dm644 "$(_get_project_dir)/resources/icon.png" \
+	install -Dm755 "$(_get_app_dir)/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+	install -Dm755 -d "${pkgdir}/usr/lib/${_pkgname}"
+	cp -a "$(_get_app_dir)/"{libmpv,live-captions,language-packs.json} "${pkgdir}/usr/lib/${_pkgname}"
+	install -Dm644 "$(_get_project_dir)/resources/icon.png" \
 			"${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname%-git}.png"
 	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
 	install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"

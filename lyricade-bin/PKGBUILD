@@ -13,7 +13,7 @@ provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	'gtk4'
 	'libadwaita'
-    'alsa-lib'
+	'alsa-lib'
 	'libayatana-indicator'
 	'libappindicator'
 	'libheif'
@@ -24,7 +24,7 @@ source=(
 	"lyricade.sh"
 )
 sha256sums=('898833553550f5fee03be03fe55b39d7af3fdd0b41926915d24773659713d31d'
-            '4ced1d6c43351b9daa0a4e34a6447d6166c00073faba4a18900ae9c53755c814')
+			'4ced1d6c43351b9daa0a4e34a6447d6166c00073faba4a18900ae9c53755c814')
 _install_icons() {
 	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
 	while IFS= read -r -d '' _icon; do
@@ -38,8 +38,8 @@ _install_icons() {
 }
 prepare() {
 	sed -i "s/@appname@/${pkgname%-bin}/g" "${srcdir}/${pkgname%-bin}.sh"
-    chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
-    rm -rf "${srcdir}/squashfs-root"
+	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
+	rm -rf "${srcdir}/squashfs-root"
 	"${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage" --appimage-extract > /dev/null
 	sed -i "s/Icon=${_debname}/Icon=${pkgname%-bin}/g" "${srcdir}/AppDir/${_debname}.desktop"
 }

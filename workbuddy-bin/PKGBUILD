@@ -7,8 +7,8 @@ _electronversion=39
 pkgrel=100
 pkgdesc="Work Smart,Not Hard"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://www.workbuddy.cn/"
 _dlurl="https://github.com/kota-rina3/hokeshi"
@@ -16,31 +16,31 @@ license=('AGPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
-    'nodejs'
-    'python'
-    'python-click'
-    'python-httpx'
-    'python-requests'
-    'python-numpy'
-    'python-beautifulsoup4'
-    'python-pillow'
+	"electron${_electronversion}"
+	'nodejs'
+	'python'
+	'python-click'
+	'python-httpx'
+	'python-requests'
+	'python-numpy'
+	'python-beautifulsoup4'
+	'python-pillow'
 )
 makedepends=(
-    'asar'
+	'asar'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/releases/download/${pkgname%-bin}-${pkgver}/${_debname}_${pkgver}_amd64.deb")
 sha256sums=('562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 sha256sums_aarch64=('644f12302f64035e1ac57a4ea9b8033a683a87a774a3e5fdd20c91413ac1e70e')
 sha256sums_x86_64=('1decff1c164eb3b9bd3ca33e1750ad10ccdeeeb1de17ba934315c5b41481a024')
 _get_app_dir() {

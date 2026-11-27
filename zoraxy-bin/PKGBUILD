@@ -4,10 +4,10 @@ pkgver=3.3.5
 pkgrel=1
 pkgdesc='A general purpose HTTP reverse proxy and forwarding tool. Now written in Go!'
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://zoraxy.aroz.org/"
 _ghurl="https://github.com/tobychui/zoraxy"
@@ -26,8 +26,8 @@ sha256sums_armv7h=('1ab89f378881919c3ae35c715d92e2cccb96b5f08c4e445cf8702e0388d6
 sha256sums_i686=('babcd9423f6878f76e16edf299d9664c2f7e11ed8a35e4a8485d3408fdf0cb88')
 sha256sums_x86_64=('41b066f6f521a7b991af87dbdda41f6c5dae9708015f77e3d0db95787ec0f24e')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}" "${pkgdir}/usr/lib/${pkgname%-bin}/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/bin"
-    ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.service" -t "${pkgdir}/usr/lib/systemd/system"
+	install -Dm755 "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}" "${pkgdir}/usr/lib/${pkgname%-bin}/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/bin"
+	ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.service" -t "${pkgdir}/usr/lib/systemd/system"
 }

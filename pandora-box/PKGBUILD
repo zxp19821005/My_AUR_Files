@@ -7,32 +7,32 @@ _nodeversion=24
 pkgrel=1
 pkgdesc="A Simple Mihomo GUI. 一个简易的 Mihomo 桌面客户端."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://github.com/snakem982/Pandora-Box"
 license=('GPL-3.0-only')
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'gendesk'
-    'npm'
-    'nvm'
-    'go'
-    'git'
-    'wget'
-    'jq'
-    'zip'
+	'gendesk'
+	'npm'
+	'nvm'
+	'go'
+	'git'
+	'wget'
+	'jq'
+	'zip'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
-    "${pkgname}.js"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
+	"${pkgname}.js"
+	"${pkgname}.sh"
 )
 sha256sums=('d0c95244cf81d63717253593e97522a50ad39f9fa94fe14d4078d5b805f948de'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'ace275e253744ca62d2572776df26b947f3c89616239985003126db635fc300e')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -93,54 +93,54 @@ _set_go_build_env() {
 	export PATH="${GOPATH}/bin:${PATH}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Network" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    _set_go_build_env
-    sed -i "s|export default defineConfig({});|export default defineConfig({\n  build: {\n    rollupOptions: {\n      external: [/node_modules/],\n    },\n  },\n});|" vite.main.config.ts
-    sed -i "s|    plugins: \[vue(),|    optimizeDeps: {\n        include: ['element-plus'],\n    },\n    plugins: [vue(),|" vite.config.ts
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    export NODE_ENV=development
-    npm install --legacy-peer-deps
-    cd "$(_get_project_dir)/src-go"
-    go mod tidy
-    local _geo_files=("geoip.metadb" "GeoSite.dat" "GeoLite2-ASN.mmdb")
-    for _f in "${_geo_files[@]}"; do
-        [[ -f "internal/em/${_f}" ]] || wget -O "internal/em/${_f}" "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/${_f}"
-    done
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Network" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	_set_go_build_env
+	sed -i "s|export default defineConfig({});|export default defineConfig({\n  build: {\n    rollupOptions: {\n      external: [/node_modules/],\n    },\n  },\n});|" vite.main.config.ts
+	sed -i "s|    plugins: \[vue(),|    optimizeDeps: {\n        include: ['element-plus'],\n    },\n    plugins: [vue(),|" vite.config.ts
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	export NODE_ENV=development
+	npm install --legacy-peer-deps
+	cd "$(_get_project_dir)/src-go"
+	go mod tidy
+	local _geo_files=("geoip.metadb" "GeoSite.dat" "GeoLite2-ASN.mmdb")
+	for _f in "${_geo_files[@]}"; do
+		[[ -f "internal/em/${_f}" ]] || wget -O "internal/em/${_f}" "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/${_f}"
+	done
 }
 build() {
-    cd "$(_get_project_dir)/src-go"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    _set_go_build_env
-    local _VERSION="$(git describe --tags --abbrev=0)"
-    go build -tags=with_gvisor -trimpath \
-        -ldflags "-s -w -X github.com/snakem982/pandora-box/api.Version=${_VERSION}" \
-        -o px
-    cd "$(_get_project_dir)"
-    export NODE_ENV=production
-    npm run build
-    npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder.config.cjs"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	cd "$(_get_project_dir)/src-go"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	_set_go_build_env
+	local _VERSION="$(git describe --tags --abbrev=0)"
+	go build -tags=with_gvisor -trimpath \
+		-ldflags "-s -w -X github.com/snakem982/pandora-box/api.Version=${_VERSION}" \
+		-o px
+	cd "$(_get_project_dir)"
+	export NODE_ENV=production
+	npm run build
+	npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder.config.cjs"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    install -Dm644 "$(_get_project_dir)/build/appicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/build/appicon.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
 }
