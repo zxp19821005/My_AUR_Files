@@ -1,0 +1,25 @@
+pkgbase = charta-git
+	pkgdesc = App for smartcard/pos developers,helps developers/testers to interact with chip cards and send apdus.
+	pkgver = 1.0.25.r7.ge150256
+	pkgrel = 1
+	url = https://lewixlabs.github.io/Charta
+	arch = any
+	license = MIT
+	makedepends = yarn
+	makedepends = nvm
+	makedepends = git
+	makedepends = jq
+	makedepends = npm
+	makedepends = gendesk
+	depends = electron35
+	depends = pcsclite
+	provides = charta=1.0.25
+	conflicts = charta
+	source = charta.git::git+https://github.com/lewixlabs/Charta.git
+	source = charta.js
+	source = charta.sh
+	sha256sums = SKIP
+	sha256sums = 4e629b50633624a4092c6d105aa2300bb0b1c7d979599a843b4468d903886f3b
+	sha256sums = 739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97
+
+pkgname = charta-git
