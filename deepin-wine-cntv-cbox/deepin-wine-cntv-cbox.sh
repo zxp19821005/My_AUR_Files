@@ -18,14 +18,14 @@ export WINEDLLPATH="/opt/${APPRUN_CMD}/lib:/opt/${APPRUN_CMD}/lib64"
 export LD_LIBRARY_PATH="/opt/apps/${DEB_PACKAGE_NAME}/files/lib32"
 export WINEPREDLL="${ARCHIVE_FILE_DIR}/dlls"
 msg() {
-    ECHO_LEVEL=("\033[1;32m==> " "\033[1;31m==> ERROR: ")
-    echo -e "${ECHO_LEVEL[$1]}\033[1;37m$2\033[0m"
+	ECHO_LEVEL=("\033[1;32m==> " "\033[1;31m==> ERROR: ")
+	echo -e "${ECHO_LEVEL[$1]}\033[1;37m$2\033[0m"
 }
 if [ -z "${DISABLE_ATTACH_FILE_DIALOG}" ];then
-    export ATTACH_FILE_DIALOG=1
+	export ATTACH_FILE_DIALOG=1
 fi
 if [ -n "${EXEC_PATH}" ];then
-    "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
+	"${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
 else
-    "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
+	"${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
 fi

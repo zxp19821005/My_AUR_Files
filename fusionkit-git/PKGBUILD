@@ -12,24 +12,24 @@ license=('MIT')
 provides=("${pkgname%-git}=${pkgver%.r*}")
 conflicts=("${pkgname%-git}")
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'git'
-    'gendesk'
-    'icoutils'
-    'jq'
+	'npm'
+	'nvm'
+	'git'
+	'gendesk'
+	'icoutils'
+	'jq'
 )
 source=(
-    "${pkgname//-/.}::git+${url}.git"
-    "${pkgname%-git}.js"
-    "${pkgname%-git}.sh"
+	"${pkgname//-/.}::git+${url}.git"
+	"${pkgname%-git}.js"
+	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            '9417ba033cfc980d6723978dc5fca100cbec6da78e5494f9e64960e4efec8c21')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'9417ba033cfc980d6723978dc5fca100cbec6da78e5494f9e64960e4efec8c21')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -91,66 +91,66 @@ _set_build_env() {
 			_pnpmver="$(grep -oE '"pnpm"[[:space:]]*:[[:space:]]*"[^"]+"' "${_pkgjson}" 2>/dev/null | grep -oE '[0-9][0-9.]*' | head -n1)"
 		fi
 	fi
-    _pnpmver="8.7.0"
+	_pnpmver="8.7.0"
 	if [ -n "${_pnpmver}" ]; then
 		npm install -g "pnpm@${_pnpmver}" --prefix "${HOME}/.pnpm" \
 			--registry "${COREPACK_NPM_REGISTRY}"
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-git}/g
-    " "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_build_env
-    icotool -x "public/${_pkgname}.ico" -o "public/${pkgname%-git}.png"
-    cp "public/${_pkgname}.ico" "public/favicon.ico"
-    sed -i "s/${_pkgname}.ico/${pkgname%-git}.png/g" electron/main/index.ts
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    # 移除 Linux 构建不需要的 beforePack 钩子和 extraResources（仅 macOS/Windows 需要）
-    python3 -c "
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-git}/g
+	" "${srcdir}/${pkgname%-git}.sh" "${srcdir}/${pkgname%-git}.js"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_build_env
+	icotool -x "public/${_pkgname}.ico" -o "public/${pkgname%-git}.png"
+	cp "public/${_pkgname}.ico" "public/favicon.ico"
+	sed -i "s/${_pkgname}.ico/${pkgname%-git}.png/g" electron/main/index.ts
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	# 移除 Linux 构建不需要的 beforePack 钩子和 extraResources（仅 macOS/Windows 需要）
+	python3 -c "
 import json
 with open('electron-builder.json', 'r') as f:
-    config = json.load(f)
+	config = json.load(f)
 config.pop('beforePack', None)
 config.pop('extraResources', None)
 with open('electron-builder.json', 'w') as f:
-    json.dump(config, f, indent=2)
+	json.dump(config, f, indent=2)
 "
-    export NODE_ENV=development
-    pnpm add -D node-gyp node-pty node-addon-api
-    sed -i '/"esModuleInterop"/d' tsconfig.json
-    sed -i 's/"moduleResolution": "Node"/"moduleResolution": "bundler"/' tsconfig.json
-    sed -i '/"baseUrl"/d' tsconfig.json
-    sed -i 's|"src/\*"|"./src/*"|' tsconfig.json
-    pnpm install
+	export NODE_ENV=development
+	pnpm add -D node-gyp node-pty node-addon-api
+	sed -i '/"esModuleInterop"/d' tsconfig.json
+	sed -i 's/"moduleResolution": "Node"/"moduleResolution": "bundler"/' tsconfig.json
+	sed -i '/"baseUrl"/d' tsconfig.json
+	sed -i 's|"src/\*"|"./src/*"|' tsconfig.json
+	pnpm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_build_env
-    export NODE_ENV=production
-    node scripts/translation-knowledge/build-artifacts.mjs
-    npx tsc
-    npx vite build
-    node scripts/check-preload-bundle.mjs
-    pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder.subtitle-studio.json"
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_build_env
+	export NODE_ENV=production
+	node scripts/translation-knowledge/build-artifacts.mjs
+	npx tsc
+	npx vite build
+	node scripts/check-preload-bundle.mjs
+	pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} --config electron-builder.subtitle-studio.json"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
+	install -Dm755 "${srcdir}/${pkgname%-git}.sh" "${pkgdir}/usr/bin/${pkgname%-git}"
 	install -Dm644 "${srcdir}/${pkgname%-git}.js" -t "${pkgdir}/usr/lib/${pkgname%-git}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-git}/"
-    install -Dm644 "$(_get_project_dir)/public/${pkgname%-git}.png" -t "${pkgdir}/usr/share/pixmaps"
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/public/${pkgname%-git}.png" -t "${pkgdir}/usr/share/pixmaps"
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

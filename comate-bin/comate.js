@@ -17,7 +17,7 @@ const appPath = import.meta.dirname;
 let packageJson;
 try {
   packageJson = JSON.parse(
-    fs.readFileSync(new URL("./package.json", import.meta.url))
+	fs.readFileSync(new URL("./package.json", import.meta.url))
   );
 } catch (err) {
   console.error("Failed to read package.json:", err);

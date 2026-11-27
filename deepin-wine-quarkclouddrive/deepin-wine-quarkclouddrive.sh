@@ -14,17 +14,17 @@ export WINEDLLPATH="/opt/${APPRUN_CMD}/lib:/opt/${APPRUN_CMD}/lib64"
 export WINEPREDLL="${ARCHIVE_FILE_DIR}/dlls"
 DISABLE_ATTACH_FILE_DIALOG=""
 if [ -z "${DISABLE_ATTACH_FILE_DIALOG}" ];then
-    export ATTACH_FILE_DIALOG=1
+	export ATTACH_FILE_DIALOG=1
 fi
 if [ -n "$EXPORT_ENVS" ];then
-    export "${EXPORT_ENVS}"
+	export "${EXPORT_ENVS}"
 fi
 if [ -n "${EXEC_PATH}" ];then
-    if [ -z "${EXEC_PATH##*.lnk*}" ];then
-        exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "C:/windows/command/start.exe" "/Unix" "${EXEC_PATH}" "$@" || exit $?
-    else
-        exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
-    fi
+	if [ -z "${EXEC_PATH##*.lnk*}" ];then
+		exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "C:/windows/command/start.exe" "/Unix" "${EXEC_PATH}" "$@" || exit $?
+	else
+		exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
+	fi
 else
-    exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
+	exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
 fi

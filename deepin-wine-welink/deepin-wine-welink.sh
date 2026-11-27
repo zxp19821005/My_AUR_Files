@@ -23,26 +23,26 @@ VER_FILE="${WINEPREFIX}/.welink_version"
 CUR_VER="$(cat "${FILES}/files.md5sum" 2>/dev/null || echo unknown)"
 
 deploy() {
-    echo "==> 正在部署 WeLink 到 ${WINEPREFIX}（首次或升级，需要一些时间）..."
-    rm -rf "${WINEPREFIX}"
-    "${APPRUN}" wineboot -u >/dev/null 2>&1
-    7z x -aoa "${FILES}/files.7z" "drive_c/Program Files/WeLink/*" -o"${WINEPREFIX}" >/dev/null
-    printf '%s' "${CUR_VER}" > "${VER_FILE}"
-    echo "==> 部署完成。"
+	echo "==> 正在部署 WeLink 到 ${WINEPREFIX}（首次或升级，需要一些时间）..."
+	rm -rf "${WINEPREFIX}"
+	"${APPRUN}" wineboot -u >/dev/null 2>&1
+	7z x -aoa "${FILES}/files.7z" "drive_c/Program Files/WeLink/*" -o"${WINEPREFIX}" >/dev/null
+	printf '%s' "${CUR_VER}" > "${VER_FILE}"
+	echo "==> 部署完成。"
 }
 
 case "$1" in
-    -r|--redeploy) rm -f "${VER_FILE}"; shift ;;
-    -h|--help)
-        echo "用法: deepin-wine-welink [-r|--redeploy] [-h|--help]"
-        echo "  -r  强制重新部署 wine 容器"
-        echo "  环境变量 WELINK_IM=1 可保留输入法（中文输入）"
-        exit 0 ;;
+	-r|--redeploy) rm -f "${VER_FILE}"; shift ;;
+	-h|--help)
+		echo "用法: deepin-wine-welink [-r|--redeploy] [-h|--help]"
+		echo "  -r  强制重新部署 wine 容器"
+		echo "  环境变量 WELINK_IM=1 可保留输入法（中文输入）"
+		exit 0 ;;
 esac
 
 if [ ! -f "${VER_FILE}" ] || [ "$(cat "${VER_FILE}")" != "${CUR_VER}" ]; then
-    deploy
+	deploy
 fi
 
 exec "${APPRUN}" explorer /desktop=WeLink,1280x800 \
-    "C:/Program Files/WeLink/WeLink.exe" --no-sandbox --disable-gpu "$@"
+	"C:/Program Files/WeLink/WeLink.exe" --no-sandbox --disable-gpu "$@"

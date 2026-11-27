@@ -9,87 +9,87 @@ pkgver=9.0.0.261105002
 pkgrel=99
 pkgdesc="DingTalk,钉钉"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://www.dingtalk.com/"
 _dlurl="https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release"
 provides=(
-    "${_debname}=${pkgver}"
-    "${pkgname%-bin}=${pkgver}"
+	"${_debname}=${pkgver}"
+	"${pkgname%-bin}=${pkgver}"
 )
 conflicts=(
-    "${_debname}"
+	"${_debname}"
 )
 replaces=(
-    "${_debname}"
+	"${_debname}"
 )
 license=('LicenseRef-custom')
 depends=(
-    'glu'
-    'libxcrypt-compat'
-    'qt5-tools'
-    'qt5-x11extras'
-    'qt5-multimedia'
-    'qt5-svg'
-    'ffmpeg'
-    'gtk3'
-    'alsa-lib'
-    'nss'
-    'nspr'
-    'libsm'
-    'libice'
-    'libxmu'
-    'libxt'
-    'fcitx5-qt'
-    'gtk2'
+	'glu'
+	'libxcrypt-compat'
+	'qt5-tools'
+	'qt5-x11extras'
+	'qt5-multimedia'
+	'qt5-svg'
+	'ffmpeg'
+	'gtk3'
+	'alsa-lib'
+	'nss'
+	'nspr'
+	'libsm'
+	'libice'
+	'libxmu'
+	'libxt'
+	'fcitx5-qt'
+	'gtk2'
 )
 makedepends=(
-    'patchelf'
+	'patchelf'
 )
 optdepends=(
-    'zenity: fix crashes when downloading files, not required on kde.'
-    'libxss: fix tray icon functionality in gnome.'
-    'qt5-wayland: needed in wayland'
+	'zenity: fix crashes when downloading files, not required on kde.'
+	'libxss: fix tray icon functionality in gnome.'
+	'qt5-wayland: needed in wayland'
 )
 options=('!strip')
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_dlurl}/${_debname}_${pkgver}_arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_dlurl}/${_debname}_${pkgver}_amd64.deb")
 source=(
-    "${pkgname%-bin}.svg"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}.svg"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('b526f6da0d486daeaf52948e0557280b8c8898a20678319e41dd81f0702af73b'
-            'd7cefa745d8c6df6ba9018efd0168fcc6a5ca07ca85663e1028b7abd98958486')
+			'd7cefa745d8c6df6ba9018efd0168fcc6a5ca07ca85663e1028b7abd98958486')
 sha256sums_aarch64=('c60c09cdb015e848ded0882158e6a4297f4c8f171eae935551e289762f213e76')
 sha256sums_x86_64=('9a0e9e59303fce5d8682de10ecfc821c7a603f88924236291449fe2c0890d1f5')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_debname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    bsdtar -xf "${srcdir}/data."*
-    sed -i -e "
-        s/\/opt\/apps\/${_debname}\/files\/Elevator.sh/${pkgname%-bin}/g
-        s/\/opt\/apps\/${_debname}\/files\/logo.ico/${pkgname%-bin}/g
-        s/Comment=/Comment=${pkgdesc}/g
-        s/Chat/Network/g
-    " "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop"
-    # fix chinese input in workbench
-    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libgtk-x11-2.0.so.*
-    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
-    # remove unused lib
-    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libcurl.so.4,libz*}
-    # fix crash when clicking search box (old harfbuzz conflicts with system pango)
-    rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libharfbuzz.so*
-    patchelf --clear-execstack "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{"${pkgname%-bin}"_dll,libconference_new}.so
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_debname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i -e "
+		s/\/opt\/apps\/${_debname}\/files\/Elevator.sh/${pkgname%-bin}/g
+		s/\/opt\/apps\/${_debname}\/files\/logo.ico/${pkgname%-bin}/g
+		s/Comment=/Comment=${pkgdesc}/g
+		s/Chat/Network/g
+	" "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop"
+	# fix chinese input in workbench
+	rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libgtk-x11-2.0.so.*
+	rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libm.so.6,Resources/{i18n/tool/*.exe,qss/mac,web_content/NativeWebContent_*.zip},libstdc*}
+	# remove unused lib
+	rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{libcurl.so.4,libz*}
+	# fix crash when clicking search box (old harfbuzz conflicts with system pango)
+	rm -rf "${srcdir}/opt/apps/${_debname}/files/"*-Release*/libharfbuzz.so*
+	patchelf --clear-execstack "${srcdir}/opt/apps/${_debname}/files/"*-Release*/{"${pkgname%-bin}"_dll,libconference_new}.so
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/opt/${pkgname%-bin}/release"
-    cp -a "${srcdir}/opt/apps/${_debname}/files/"*-Release*/* "${pkgdir}/opt/${pkgname%-bin}/release"
-    install -Dm644 "${srcdir}/opt/apps/${_debname}/files/version" -t "${pkgdir}/opt/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.svg" -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
-    install -Dm644 "${srcdir}/opt/apps/${_debname}/files/doc/${_debname}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/opt/${pkgname%-bin}/release"
+	cp -a "${srcdir}/opt/apps/${_debname}/files/"*-Release*/* "${pkgdir}/opt/${pkgname%-bin}/release"
+	install -Dm644 "${srcdir}/opt/apps/${_debname}/files/version" -t "${pkgdir}/opt/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/opt/apps/${_debname}/entries/applications/${_debname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.svg" -t "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
+	install -Dm644 "${srcdir}/opt/apps/${_debname}/files/doc/${_debname}/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

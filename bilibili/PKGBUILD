@@ -8,47 +8,47 @@ _nodeversion=24
 pkgrel=1
 pkgdesc="Linux version based on Beilai official client porting supports roaming.基于哔哩哔哩官方客户端移植的Linux版本,支持漫游"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://www.jysafe.cn/"
 _ghurl="https://github.com/msojocs/bilibili-linux"
 license=('MIT')
 provides=("${pkgname}")
 conflicts=(
-    "${pkgname}"
+	"${pkgname}"
 )
 depends=(
-    "electron${_electronversion}"
-    'ffmpeg'
-    'libappindicator'
-    'nodejs'
-    'libinput'
+	"electron${_electronversion}"
+	'ffmpeg'
+	'libappindicator'
+	'nodejs'
+	'libinput'
 )
 makedepends=(
-    'wget'
-    'perl-image-exiftool'
-    'asar'
-    'unzip'
-    'p7zip'
-    'npm'
-    'nvm'
-    'pnpm'
-    'git'
-    'jq'
+	'wget'
+	'perl-image-exiftool'
+	'asar'
+	'unzip'
+	'p7zip'
+	'npm'
+	'nvm'
+	'pnpm'
+	'git'
+	'jq'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${_pkgver}-${_subver}.tar.gz"
-    "${pkgname}.js"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${_pkgver}-${_subver}.tar.gz"
+	"${pkgname}.js"
+	"${pkgname}.sh"
 )
 sha256sums=('7890b564690dcb491562d6a0689176f20326f771a943c32d14e7566c1dbfcb34'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -116,44 +116,44 @@ _set_pnpm_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
-    sed -i "s/mkdir tmp/mkdir tmp \&\& cp ..\/..\/..\/.npmrc tmp/g" tools/fix-other.sh
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_pnpm_build_env
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' conf/build.json > conf/build.json.tmp && mv conf/build.json.tmp conf/build.json
-    export NODE_ENV=development
-    pnpm install
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
+	sed -i "s/mkdir tmp/mkdir tmp \&\& cp ..\/..\/..\/.npmrc tmp/g" tools/fix-other.sh
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_pnpm_build_env
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' conf/build.json > conf/build.json.tmp && mv conf/build.json.tmp conf/build.json
+	export NODE_ENV=development
+	pnpm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_pnpm_build_env
-    sed -i '/一次版本校验/,/^fi$/d' tools/update-bilibili.sh
-    sh tools/update-bilibili.sh
-    sh tools/fix-other.sh
-    sh tools/extension.sh
-    mv tmp/bili/resources/* app
-    find "$(_get_project_dir)/app" -type d \( -name "*win32*" -o -name "*darwin*" \) -exec rm -rf {} +
-    rm -rf \
-        "$(_get_project_dir)/app/app/node_modules/@nut-tree/node-mac-permissions" \
-        "$(_get_project_dir)/app/app.asar.unpacked/node_modules/clipboardy/fallbacks/windows"
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_pnpm_build_env
+	sed -i '/一次版本校验/,/^fi$/d' tools/update-bilibili.sh
+	sh tools/update-bilibili.sh
+	sh tools/fix-other.sh
+	sh tools/extension.sh
+	mv tmp/bili/resources/* app
+	find "$(_get_project_dir)/app" -type d \( -name "*win32*" -o -name "*darwin*" \) -exec rm -rf {} +
+	rm -rf \
+		"$(_get_project_dir)/app/app/node_modules/@nut-tree/node-mac-permissions" \
+		"$(_get_project_dir)/app/app.asar.unpacked/node_modules/clipboardy/fallbacks/windows"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_project_dir)/app/." "${pkgdir}/usr/lib/${pkgname}/"
-    install -Dm644 "$(_get_project_dir)/res/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    _icon_sizes=(16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 1024x1024)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/res/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "$(_get_project_dir)/license" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/res/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	_icon_sizes=(16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 1024x1024)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/res/icons/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+	done
+	install -Dm644 "$(_get_project_dir)/license" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

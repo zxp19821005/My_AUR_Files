@@ -15,17 +15,17 @@ export WINEPREDLL="${ARCHIVE_FILE_DIR}/dlls"
 #export WINEDLLOVERRIDES="mscoree,mshtml="
 DISABLE_ATTACH_FILE_DIALOG=""
 if [ -z "${DISABLE_ATTACH_FILE_DIALOG}" ];then
-    export ATTACH_FILE_DIALOG=1
+	export ATTACH_FILE_DIALOG=1
 fi
 if [ -n "${EXPORT_ENVS}" ];then
-    export "${EXPORT_ENVS}"
+	export "${EXPORT_ENVS}"
 fi
 if [ -n "${EXEC_PATH}" ];then
-    if [ -z "${EXEC_PATH##*.lnk*}" ];then
-        "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "C:/windows/command/start.exe" "/Unix" "${EXEC_PATH}" "$@"
-    else
-        "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@"
-    fi
+	if [ -z "${EXEC_PATH##*.lnk*}" ];then
+		"${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "C:/windows/command/start.exe" "/Unix" "${EXEC_PATH}" "$@"
+	else
+		"${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@"
+	fi
 else
-    "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@"
+	"${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@"
 fi

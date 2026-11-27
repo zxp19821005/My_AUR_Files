@@ -54,11 +54,11 @@ source_x86_64=(
 )
 sha256sums=('3fc91f3cbd94eeff7f37420454a13fc30b5f6caaaa4c338bc9d63530c4dcc728')
 sha256sums_aarch64=('609acbcf7eefcffd7a58c81f7f632141ba640b860f8293bb3c9c304f967cb949'
-                    '06480a3348efe145c02069b3469ff93f295802bd0a714a341ee67039091bf810')
+					'06480a3348efe145c02069b3469ff93f295802bd0a714a341ee67039091bf810')
 sha256sums_armv7h=('29643dfb08fa4ef55be4b4fe0a7e47aa1ae2f1cb97587f585249d7debd85a3c4'
-                   '3fa724976ad99d97719e5fba25e1c792b6b81cec0bf8329c52068bf8446dc8eb')
+				   '3fa724976ad99d97719e5fba25e1c792b6b81cec0bf8329c52068bf8446dc8eb')
 sha256sums_x86_64=('ec28de8f39cdad5125da42ce61ec1a15f4a20dbd9bef09dca9eb4c62ed038249'
-                   'eeffe4c07910744a3548adf718e54a8275c067c66d734901788967466830ad11')
+				   'eeffe4c07910744a3548adf718e54a8275c067c66d734901788967466830ad11')
 prepare() {
 	sed -i "s/@ELECTRON@/${pkgname%-bin}/g" "${srcdir}/${pkgname%-bin}.sh"
 	install -Dm755 -d "${srcdir}/${pkgname%-bin}"

@@ -4,8 +4,8 @@ pkgver=2.0.1
 pkgrel=99
 pkgdesc="A Clash GUI based on tauri. Clash Nyanpasu! (∠・ω< )⌒☆​"
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://nyanpasu.org/"
 _ghurl="https://github.com/libnyanpasu/clash-nyanpasu"
@@ -13,17 +13,17 @@ license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'webkit2gtk-4.1'
-    'gtk3'
-    'mihomo'
-    'clash-rs'
-    'libayatana-appindicator'
+	'webkit2gtk-4.1'
+	'gtk3'
+	'mihomo'
+	'clash-rs'
+	'libayatana-appindicator'
 )
 optdepends=(
-    'clash: A rule based proxy in Go'
+	'clash: A rule based proxy in Go'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-1.aarch64.rpm")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-1.x86_64.rpm")
@@ -41,17 +41,17 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/Development/Network/g
-        s/Exec=\"${_pkgname//./ }\"/Exec=${pkgname%-bin}/g
-        s/Icon=${_pkgname//./ }/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
-    rm -rf "${srcdir}/usr/bin/"{mihomo,clash,clash-rs}
+	sed -i -e "
+		s/Development/Network/g
+		s/Exec=\"${_pkgname//./ }\"/Exec=${pkgname%-bin}/g
+		s/Icon=${_pkgname//./ }/Icon=${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop"
+	rm -rf "${srcdir}/usr/bin/"{mihomo,clash,clash-rs}
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
-    mv "${pkgdir}/usr/bin/${_pkgname//./ }" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    [ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/bin"
+	mv "${pkgdir}/usr/bin/${_pkgname//./ }" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	[ -d "${srcdir}/usr/lib" ] && cp -a "${srcdir}/usr/lib" "${pkgdir}/usr/"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname//./ }.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }

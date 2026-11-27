@@ -13,19 +13,19 @@ conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	"electron${_electronversion}"
-    'git'
-    'npm'
-    'nodejs'
-    'github-cli'
+	'git'
+	'npm'
+	'nodejs'
+	'github-cli'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.deb::https://updates.daintree.org/releases/${pkgname%-bin}_${pkgver}_amd64.deb"
+	"${pkgname%-bin}-${pkgver}.deb::https://updates.daintree.org/releases/${pkgname%-bin}_${pkgver}_amd64.deb"
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('d04d1ffb3995e2071f3be047f14e9a1592439f714e04521153081a1e55830ce6'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -76,5 +76,5 @@ package() {
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
 	_install_icons
 	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/usr/share/mime/packages/${pkgname%-bin}.xml" -t "${pkgdir}/usr/share/mime/packages"
+	install -Dm644 "${srcdir}/usr/share/mime/packages/${pkgname%-bin}.xml" -t "${pkgdir}/usr/share/mime/packages"
 }

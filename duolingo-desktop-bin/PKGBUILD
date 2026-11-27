@@ -8,24 +8,24 @@ _electronversion=42
 pkgrel=1
 pkgdesc="An unofficial Linux desktop application for Duolingo that wraps the official web application in a dedicated Electron window and blocks common trackers."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://github.com/hmlendea/dl-desktop"
 license=('GPL-3.0-only')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${_appname}" "${pkgname%-bin}")
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 source=(
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.zip::${url}/releases/download/v${pkgver}/${_appname}_${pkgver}_linux_arm64.zip")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.zip::${url}/releases/download/v${pkgver}/${_appname}_${pkgver}_linux_x64.zip")
 sha256sums=('03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 sha256sums_aarch64=('630ed6acef0d2b6b3a8cb7caff51edbf983cf918926895925a1394a4aa2afddd')
 sha256sums_x86_64=('9a52a0459e4b135ac977893b91d7d4281445cd730b21ab944f9be10a8d6901f1')
 _get_app_dir() {
@@ -60,20 +60,20 @@ _delete_other_arch_files() {
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    _check_electron_version
-    sed -i -e "
-        s/Exec=${_appname}/Exec=${pkgname%-bin} %U/g
-        s/${_pkgname}/${pkgname%-bin}/g
-    " "${srcdir}/${_pkgname}.desktop"
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	_check_electron_version
+	sed -i -e "
+		s/Exec=${_appname}/Exec=${pkgname%-bin} %U/g
+		s/${_pkgname}/${pkgname%-bin}/g
+	" "${srcdir}/${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _generate_icons
-    install -Dm644 "$(_get_app_dir)/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	_generate_icons
+	install -Dm644 "$(_get_app_dir)/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }

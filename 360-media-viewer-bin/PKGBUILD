@@ -12,19 +12,19 @@ conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	"electron${_electronversion}"
-    'perl'
-    'ffmpeg'
+	'perl'
+	'ffmpeg'
 )
 source=(
 	"${pkgname%-bin}-${pkgver}.deb::${url}/releases/download/v${pkgver}/${pkgname%-bin}_${pkgver}_amd64.deb"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/shturnev/ubuntu-360-player/v${pkgver}/LICENSE"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/shturnev/ubuntu-360-player/v${pkgver}/LICENSE"
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('f525714cca31114226c6ed6c2edc678969f6af3219620bde348d703ec77f90e1'
-            'd476de0c3e43caf225fe3b36a65d38a9ee0841c196f6f985966de32435eef7db'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'd476de0c3e43caf225fe3b36a65d38a9ee0841c196f6f985966de32435eef7db'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -56,7 +56,7 @@ prepare() {
 	bsdtar -xf "${srcdir}/data."*
 	_check_electron_version
 	sed -i "s/\/opt\/${_pkgname}\///g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    rm -rf "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/trash/lib/macos-trash"
+	rm -rf "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/trash/lib/macos-trash"
 }
 package() {
 	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
@@ -64,6 +64,6 @@ package() {
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
 	_install_icons
 	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/usr/share/mime/packages/360-media-viewer.xml" -t "${pkgdir}/usr/share/mime/packages"
+	install -Dm644 "${srcdir}/usr/share/mime/packages/360-media-viewer.xml" -t "${pkgdir}/usr/share/mime/packages"
 	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

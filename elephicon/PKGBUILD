@@ -9,18 +9,18 @@ url="https://github.com/sprout2000/elephicon"
 license=('MIT')
 conflicts=("${pkgname}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
-    'libayatana-indicator'
-    'libappindicator'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
+	'libayatana-indicator'
+	'libappindicator'
 )
 makedepends=(
-    'nvm'
-    'git'
-    'rustup'
-    'npm'
-    'gendesk'
+	'nvm'
+	'git'
+	'rustup'
+	'npm'
+	'gendesk'
 )
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('2a1c4c07837f71ca256f0bbd71fa75c3d1d4d01d9c9670fd536bf82f460936be')
@@ -67,31 +67,31 @@ _generate_icons() {
 	done
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Graphics;Utility" \
-        --name="${pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_rust_build_env
-    jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-    rustup toolchain install stable
+	cd "$(_get_project_dir)"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Graphics;Utility" \
+		--name="${pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_rust_build_env
+	jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+	rustup toolchain install stable
 	rustup default stable
-    export NODE_ENV=development
-    npm install
+	export NODE_ENV=development
+	npm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_rust_build_env
-    export NODE_ENV=production
-    npm run tauri build
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_rust_build_env
+	export NODE_ENV=production
+	npm run tauri build
 }
 package() {
-    install -Dm755 "$(_get_app_dir)/${pkgname}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    _generate_icons
-    install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "$(_get_app_dir)/${pkgname}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	_generate_icons
+	install -Dm644 "$(_get_project_dir)/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

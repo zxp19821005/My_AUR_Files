@@ -12,34 +12,34 @@ _ghurl="https://github.com/ValueCell-ai/ClawX"
 license=('MIT')
 conflicts=("${pkgname}")
 depends=(
-    "electron${_electronversion}"
-    'python'
-    'nodejs'
-    'python-lxml'
-    'python-defusedxml'
-    'python-yaml'
-    'python-pillow'
-    'libvips'
+	"electron${_electronversion}"
+	'python'
+	'nodejs'
+	'python-lxml'
+	'python-defusedxml'
+	'python-yaml'
+	'python-pillow'
+	'libvips'
 )
 makedepends=(
-    'pnpm'
-    'nvm'
-    'gendesk'
-    'git'
-    'jq'
+	'pnpm'
+	'nvm'
+	'gendesk'
+	'git'
+	'jq'
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
-    "${pkgname}.js"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
+	"${pkgname}.js"
+	"${pkgname}.sh"
 )
 sha256sums=('2d27ad053cc1a3625f73e04328159aba2ff4b265b4732988133e1b692b325ad4'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -104,54 +104,54 @@ _set_pnpm_build_env() {
 	fi
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
-    gendesk -q -f -n \
-        --pkgname="${pkgname}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname} %U"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_pnpm_build_env
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    export NODE_ENV=development
-    export SHARP_IGNORE_GLOBAL_LIBVIPS=1
-    pnpm install
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh" "${srcdir}/${pkgname}.js"
+	gendesk -q -f -n \
+		--pkgname="${pkgname}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname} %U"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_pnpm_build_env
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	export NODE_ENV=development
+	export SHARP_IGNORE_GLOBAL_LIBVIPS=1
+	pnpm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_pnpm_build_env
-    export NODE_ENV=production
-    export SHARP_IGNORE_GLOBAL_LIBVIPS=1
-    pnpm exec node scripts/generate-ext-bridge.mjs
-    pnpm run build:vite
-    pnpm exec zx scripts/bundle-openclaw.mjs
-    pnpm exec zx scripts/bundle-openclaw-plugins.mjs
-    pnpm exec zx scripts/bundle-preinstalled-skills.mjs
-    pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} -c.electronVersion=${SYSTEM_ELECTRON_VERSION} --config electron-builder.yml"
-    local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_pnpm_build_env
+	export NODE_ENV=production
+	export SHARP_IGNORE_GLOBAL_LIBVIPS=1
+	pnpm exec node scripts/generate-ext-bridge.mjs
+	pnpm run build:vite
+	pnpm exec zx scripts/bundle-openclaw.mjs
+	pnpm exec zx scripts/bundle-openclaw-plugins.mjs
+	pnpm exec zx scripts/bundle-preinstalled-skills.mjs
+	pnpm -c exec "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST} -c.electronVersion=${SYSTEM_ELECTRON_VERSION} --config electron-builder.yml"
+	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
 	find "$(_get_app_dir)" -type d \
 		\( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
 		-prune -exec rm -rf {} +
-    rm -rf "$(_get_app_dir)/resources/default_app.asar"
+	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
-    cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    _icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
-    for _icons in "${_icon_sizes[@]}";do
-        install -Dm644 "$(_get_project_dir)/resources/icons/${_icons}.png" \
-            "${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
-    done
-    install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
+	_icon_sizes=(16x16 32x32 48x48 64x64 128x128 256x256 512x512)
+	for _icons in "${_icon_sizes[@]}";do
+		install -Dm644 "$(_get_project_dir)/resources/icons/${_icons}.png" \
+			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname}.png"
+	done
+	install -Dm644 "$(_get_project_dir)/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/LICENSE" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

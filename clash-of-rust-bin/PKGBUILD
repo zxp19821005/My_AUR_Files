@@ -5,19 +5,19 @@ pkgver=0.7.2
 pkgrel=1
 pkgdesc="Cross-platform client side based on Rust, Slint and mihomo."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://github.com/Fu021/Clash-of-Rust"
 license=('GPL-3.0-or-later')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'glib2'
-    'libgcc'
-    'hicolor-icon-theme'
-    'fontconfig'
-    'mihomo'
+	'glib2'
+	'libgcc'
+	'hicolor-icon-theme'
+	'fontconfig'
+	'mihomo'
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-amd64.deb")
@@ -35,16 +35,16 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
-    sed -i "s/\/usr\/bin\///g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${pkgname%-bin}/resources/mihomo"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i "s/\/usr\/bin\///g" "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	ln -sf "/usr/bin/mihomo" "${srcdir}/opt/${pkgname%-bin}/resources/mihomo"
 }
 package() {
-    install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname%-bin}"}
-    cp -a "${srcdir}/opt/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}"
-    ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    ln -sf "/usr/lib/${pkgname%-bin}/cor" "${pkgdir}/usr/bin/cor"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/usr/share/polkit-1/actions/org.clashofrust.tun.policy" -t "${pkgdir}/usr/share/polkit-1/actions"
+	install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname%-bin}"}
+	cp -a "${srcdir}/opt/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}"
+	ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	ln -sf "/usr/lib/${pkgname%-bin}/cor" "${pkgdir}/usr/bin/cor"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/usr/share/polkit-1/actions/org.clashofrust.tun.policy" -t "${pkgdir}/usr/share/polkit-1/actions"
 }

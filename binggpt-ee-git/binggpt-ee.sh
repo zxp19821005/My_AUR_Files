@@ -8,7 +8,7 @@ export ELECTRON_IS_DEV=0
 export NODE_ENV=production
 cd "${_APPDIR}"
 if [[ $EUID -ne 0 ]] || [[ $ELECTRON_RUN_AS_NODE ]]; then
-    exec electron@electronversion@ "${_RUNNAME}" "$@" || exit $?
+	exec electron@electronversion@ "${_RUNNAME}" "$@" || exit $?
 else
-    exec electron@electronversion@ "${_RUNNAME}" --no-sandbox "$@" || exit $?
+	exec electron@electronversion@ "${_RUNNAME}" --no-sandbox "$@" || exit $?
 fi

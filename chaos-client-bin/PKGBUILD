@@ -5,10 +5,10 @@ pkgver=0.5.2
 pkgrel=1
 pkgdesc="Go client to communicate with Chaos DB API."
 arch=(
-    'aarch64'
-    'armv7h'
-    'i686'
-    'x86_64'
+	'aarch64'
+	'armv7h'
+	'i686'
+	'x86_64'
 )
 url="https://chaos.projectdiscovery.io/"
 _ghurl='https://github.com/projectdiscovery/chaos-client'
@@ -24,7 +24,7 @@ sha256sums_armv7h=('779615b4cd24f9f88b332ba0d6386f15370402dba61224fe191942dc19b2
 sha256sums_i686=('2e37476a59554c4f98d851c2e584040bd2abd79eb1f65022849ee6e664fc12a0')
 sha256sums_x86_64=('0688348871717fbd4f30f19c3a6d5c20b458a0bc8d57e47d231f6477f27505e2')
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin" 
-    install -Dm644 "${srcdir}/README.md" -t "${pkgdir}/usr/share/doc/${pkgname}"
-    install -Dm644 "${srcdir}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}" -t "${pkgdir}/usr/bin" 
+	install -Dm644 "${srcdir}/README.md" -t "${pkgdir}/usr/share/doc/${pkgname}"
+	install -Dm644 "${srcdir}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

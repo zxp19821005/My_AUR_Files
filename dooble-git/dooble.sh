@@ -8,7 +8,7 @@ export AA_ENABLEHIGHDPISCALING=1
 export AA_USEHIGHDPIPIXMAPS=1
 if [ ! -z "$(which qt6ct)" ]
 then
-    export QT_QPA_PLATFORMTHEME=qt6ct
+	export QT_QPA_PLATFORMTHEME=qt6ct
 fi
 export DOOBLE_ADDRESS_WIDGET_HEIGHT_OFFSET=0
 export DOOBLE_GOOGLE_TRANSLATE_URL="https://%1.translate.goog/%2?_x_tr_sl=auto&_x_tr_tl=%3&_x_tr_hl=%3&_x_tr_pto=wapp"

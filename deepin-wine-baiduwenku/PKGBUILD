@@ -12,59 +12,59 @@ arch=('x86_64')
 url="https://wenku.baidu.com"
 license=('LicenseRef-custom')
 depends=(
-    'deepin-wine6-stable'
-    'spark-dwine-helper'
-    'xdg-utils'
+	'deepin-wine6-stable'
+	'spark-dwine-helper'
+	'xdg-utils'
 )
 makedepends=(
-    'p7zip'
+	'p7zip'
 )
 optdepends=(
-    'wqy-microhei'
-    'wqy-zenhei'
+	'wqy-microhei'
+	'wqy-zenhei'
 )
 provides=("baiduwenku")
 install="${pkgname}.install"
 source=(
-    "${pkgname}-${sparkver}.deb::https://d.store.deepinos.org.cn/store/office/${_pkgname}/${_pkgname}_${sparkver}_all.deb"
-    "${pkgname}-${pkgver}.exe::https://edu-wenku.bdimg.com/v1/na/0807/PC%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%89%88%E6%9C%AC%E5%8C%85/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%20Setup%20${pkgver}.exe"
-    "LICENSE.html::https://edu-wenku.bdimg.com/v1/pc/protocols/help24-new.htm"
-    "${pkgname}.sh"
+	"${pkgname}-${sparkver}.deb::https://d.store.deepinos.org.cn/store/office/${_pkgname}/${_pkgname}_${sparkver}_all.deb"
+	"${pkgname}-${pkgver}.exe::https://edu-wenku.bdimg.com/v1/na/0807/PC%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%89%88%E6%9C%AC%E5%8C%85/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%20Setup%20${pkgver}.exe"
+	"LICENSE.html::https://edu-wenku.bdimg.com/v1/pc/protocols/help24-new.htm"
+	"${pkgname}.sh"
 )
 sha256sums=('06262e7ba445d996cc4cef8c555474ca8b6eef4ac676e2bb86b00df6103d45b4'
-            '866d5192cd751d39c41d3a26464ae217954d4cef7c83a68aa194267c6a78ee30'
-            'e93a1b4112398eefd1d0688d126af3403226c4827a0e4f5f5ee40a97999cf222'
-            'f24db1b1ca08a4bbbd95fd878bffb37b4777df11e300da4a3b8ad86114c56c7f')
+			'866d5192cd751d39c41d3a26464ae217954d4cef7c83a68aa194267c6a78ee30'
+			'e93a1b4112398eefd1d0688d126af3403226c4827a0e4f5f5ee40a97999cf222'
+			'f24db1b1ca08a4bbbd95fd878bffb37b4777df11e300da4a3b8ad86114c56c7f')
 build() {
-    sed -e "s|@bottlename@|${_bottlename}|g" \
-        -e "s|@appver@|${pkgver}|g" \
-        -e "s|@packagename@|${pkgname}|g" \
-        -e "s|@path@|${_installname}|g" \
-        -i "${srcdir}/${pkgname}.sh"
-    bsdtar -xf "${srcdir}/data."*
-    mv "${srcdir}/opt/apps/${_pkgname}" "${srcdir}/opt/apps/${pkgname}"
-    sed -e "s|\"/opt/apps/${_pkgname}/files/run.sh\"|${pkgname}|g" \
-        -e "s|Icon=${_pkgname}|Icon=${pkgname}|g" \
-        -i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop"
+	sed -e "s|@bottlename@|${_bottlename}|g" \
+		-e "s|@appver@|${pkgver}|g" \
+		-e "s|@packagename@|${pkgname}|g" \
+		-e "s|@path@|${_installname}|g" \
+		-i "${srcdir}/${pkgname}.sh"
+	bsdtar -xf "${srcdir}/data."*
+	mv "${srcdir}/opt/apps/${_pkgname}" "${srcdir}/opt/apps/${pkgname}"
+	sed -e "s|\"/opt/apps/${_pkgname}/files/run.sh\"|${pkgname}|g" \
+		-e "s|Icon=${_pkgname}|Icon=${pkgname}|g" \
+		-i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop"
 
-    mkdir -p "${srcdir}/tmp"
-    msg "Extracting Deepin Wine ${_officalname} archive ..."
-    7za x -aoa "${srcdir}/opt/apps/${pkgname}/files/files.7z" -o"${srcdir}/tmp"
+	mkdir -p "${srcdir}/tmp"
+	msg "Extracting Deepin Wine ${_officalname} archive ..."
+	7za x -aoa "${srcdir}/opt/apps/${pkgname}/files/files.7z" -o"${srcdir}/tmp"
 
-    msg "Copying latest ${_officalname} installer to ${srcdir}/tmp/drive_c/Program Files/${_installname} ..."
-    7z e -aoa "${srcdir}/${pkgname}-${pkgver}.exe" -o"${srcdir}/tmp/drive_c/Program Files (x86)/${_installname}/"
-    rm -r "${srcdir}/tmp/drive_c/Program Files/" "${srcdir}/tmp/drive_c/Program Files (x86)/${_installname}/\$2"
+	msg "Copying latest ${_officalname} installer to ${srcdir}/tmp/drive_c/Program Files/${_installname} ..."
+	7z e -aoa "${srcdir}/${pkgname}-${pkgver}.exe" -o"${srcdir}/tmp/drive_c/Program Files (x86)/${_installname}/"
+	rm -r "${srcdir}/tmp/drive_c/Program Files/" "${srcdir}/tmp/drive_c/Program Files (x86)/${_installname}/\$2"
 
-    msg "Repackaging app archive ..."
-    rm -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/opt/apps/${pkgname}/info"
-    7za a -t7z -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/tmp/*"
+	msg "Repackaging app archive ..."
+	rm -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/opt/apps/${pkgname}/info"
+	7za a -t7z -r "${srcdir}/opt/apps/${pkgname}/files/files.7z" "${srcdir}/tmp/*"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm755 -d "${pkgdir}/opt"
-    cp -r "${srcdir}/opt/apps" "${pkgdir}/opt"
-    md5sum "${pkgdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${pkgdir}/opt/apps/${pkgname}/files/files.md5sum"
-    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/icons/hicolor/scalable/apps/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
-    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm755 -d "${pkgdir}/opt"
+	cp -r "${srcdir}/opt/apps" "${pkgdir}/opt"
+	md5sum "${pkgdir}/opt/apps/${pkgname}/files/files.7z" | awk '{ print $1 }' > "${pkgdir}/opt/apps/${pkgname}/files/files.md5sum"
+	install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/icons/hicolor/scalable/apps/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+	install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

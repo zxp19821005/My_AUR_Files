@@ -22,19 +22,19 @@ makedepends=(
 	'gendesk'
 )
 options=(
-    '!strip'
+	'!strip'
 )
 source=(
 	"${pkgname%-bin}-${pkgver}.tar.gz::${url}/releases/download/v${pkgver}/${pkgname%-bin}-${pkgver}_manylinux2014_${CARCH}.tar.gz"
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('e0b6ed545a381171d97492ee113aebcc375bef44303915d2c3026e740cfcf4d6'
-            '3fa20f85c87576bc9daa1db5d163def5aa239d040b7e308d747cc46bdd1b1713')
+			'3fa20f85c87576bc9daa1db5d163def5aa239d040b7e308d747cc46bdd1b1713')
 prepare() {
 	sed -i -e "
 		s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
+		s/@runname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
 	gendesk -q -f -n \
 		--pkgname="${pkgname%-bin}" \
 		--pkgdesc="${pkgdesc}" \

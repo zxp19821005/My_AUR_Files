@@ -19,11 +19,11 @@ depends=(
 	'libappindicator'
 )
 makedepends=(
-    'npm'
-    'git'
-    'nvm'
-    'gendesk'
-    'jq'
+	'npm'
+	'git'
+	'nvm'
+	'gendesk'
+	'jq'
 )
 source=("${pkgname%-git}.git::git+${_ghurl}.git")
 sha256sums=('SKIP')
@@ -77,37 +77,37 @@ _set_rust_build_env() {
 	mkdir -p "${HOME}" "${CARGO_HOME}"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    gendesk -q -f -n \
-        --pkgname="${pkgname%-git}" \
-        --pkgdesc="${pkgdesc}" \
-        --categories="Utility" \
-        --name="${_pkgname}" \
-        --exec="${pkgname%-git} %U"
-    _ensure_local_nvm
-    _set_rust_build_env
-    _set_npm_build_env
-    jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-    cp src-tauri/icons/128x128@2x.png src-tauri/icons/256x256.png
-    rustup update stable
-    rustup default stable
-    export NODE_ENV=development
-    npm install
+	cd "$(_get_project_dir)"
+	gendesk -q -f -n \
+		--pkgname="${pkgname%-git}" \
+		--pkgdesc="${pkgdesc}" \
+		--categories="Utility" \
+		--name="${_pkgname}" \
+		--exec="${pkgname%-git} %U"
+	_ensure_local_nvm
+	_set_rust_build_env
+	_set_npm_build_env
+	jq '.bundle.active = false' src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+	cp src-tauri/icons/128x128@2x.png src-tauri/icons/256x256.png
+	rustup update stable
+	rustup default stable
+	export NODE_ENV=development
+	npm install
 }
 build() {
-    cd "$(_get_project_dir)"
-    _ensure_local_nvm
-    _set_rust_build_env
-    _set_npm_build_env
-    export NODE_ENV=production
-    npm run build
+	cd "$(_get_project_dir)"
+	_ensure_local_nvm
+	_set_rust_build_env
+	_set_npm_build_env
+	export NODE_ENV=production
+	npm run build
 }
 package() {
-    install -Dm755 "$(_get_app_dir)/${pkgname%-git}" -t "${pkgdir}/usr/bin"
-    install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
-    for _icons in 32x32 128x128 256x256;do
+	install -Dm755 "$(_get_app_dir)/${pkgname%-git}" -t "${pkgdir}/usr/bin"
+	install -Dm644 "$(_get_project_dir)/${pkgname%-git}.desktop" -t "${pkgdir}/usr/share/applications"
+	for _icons in 32x32 128x128 256x256;do
 		install -Dm644 "$(_get_project_dir)/src-tauri/icons/${_icons}.png" \
 			"${pkgdir}/usr/share/icons/hicolor/${_icons}/apps/${pkgname%-git}.png"
 	done
-    install -Dm644 "$(_get_project_dir)/LICENSE.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	install -Dm644 "$(_get_project_dir)/LICENSE.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

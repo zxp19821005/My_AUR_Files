@@ -51,9 +51,9 @@ source_x86_64=(
 )
 sha256sums=('3721240f57668b7ed7970b7fc2dcb9a548acf4956a5b1406d0193af296b8ffad')
 sha256sums_aarch64=('1f3549b3e32d33e6d830b55bbb9c08a6e61a163dd17ab5e50042e6f50d793f38'
-                    'ee71429729850a3c865b28b2d0bc54854037881f462e72ecc62f9430fe94d203')
+					'ee71429729850a3c865b28b2d0bc54854037881f462e72ecc62f9430fe94d203')
 sha256sums_x86_64=('58f53a77c0df114ef8bd489f3f4646fdef6bfa80cb330c679e1f40b8ef51036c'
-                   '76befefc458a4148bd4ae9b654f97558cdc2f591673d7b37438928676eeabbc3')
+				   '76befefc458a4148bd4ae9b654f97558cdc2f591673d7b37438928676eeabbc3')
 prepare() {
 	sed -i "s/@ELECTRON@/${pkgname%-bin}/g" "${srcdir}/${pkgname%-bin}.sh"
 	install -Dm755 -d "${srcdir}/${pkgname%-bin}"

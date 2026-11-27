@@ -10,18 +10,18 @@ license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'gtk3'
-    'gdk-pixbuf2'
-    'webkit2gtk-4.1'
-    'libayatana-indicator'
-    'libappindicator'
+	'gtk3'
+	'gdk-pixbuf2'
+	'webkit2gtk-4.1'
+	'libayatana-indicator'
+	'libappindicator'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-amd64.deb"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/tengfone/forgetools/v${pkgver}/LICENSE"
+	"${pkgname%-bin}-${pkgver}-x86_64.deb::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-amd64.deb"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/tengfone/forgetools/v${pkgver}/LICENSE"
 )
 sha256sums=('9058c43f6d419739cea46746f82fc049e888812adb9447bda75fd33d358ab733'
-            '0dc10cba97dc9bc07084efac452895efbdd0b469dc4a384e9c10fedc1691617b')
+			'0dc10cba97dc9bc07084efac452895efbdd0b469dc4a384e9c10fedc1691617b')
 _install_icons() {
 	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
 	while IFS= read -r -d '' _icon; do

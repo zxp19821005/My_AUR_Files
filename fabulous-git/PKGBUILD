@@ -14,8 +14,8 @@ conflicts=("${pkgname%-git}")
 provides=("${pkgname%-git}=${pkgver%.r*}")
 depends=(
 	"electron${_electronversion}-bin"
-    'nodejs'
-    'python'
+	'nodejs'
+	'python'
 )
 makedepends=(
 	'npm'
@@ -30,8 +30,8 @@ source=(
 	"${pkgname%-git}.sh"
 )
 sha256sums=('SKIP'
-            '03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'03d27412abc18434c4b7935b8cb69bcbd70c96ec7c118cf2a521369c0e083a86'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_project_dir() {
 	local _d _f _t _bt= _best= _bs=0
 	while IFS= read -r _d; do

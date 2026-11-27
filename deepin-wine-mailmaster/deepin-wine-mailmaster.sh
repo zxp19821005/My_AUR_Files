@@ -10,7 +10,7 @@ export DEB_PACKAGE_NAME=@appname@
 export WINEPREDLL="$ARCHIVE_FILE_DIR/dlls"
 export APPRUN_CMD="deepin-wine8-stable"
 if [ -n "${EXEC_PATH}" ];then
-    exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
+	exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
 else
-    exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
+	exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
 fi

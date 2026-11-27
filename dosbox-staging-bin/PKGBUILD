@@ -10,27 +10,27 @@ url="https://www.dosbox-staging.org/"
 _ghurl="https://github.com/dosbox-staging/dosbox-staging"
 license=('GPL-2.0-or-later')
 provides=(
-    "${pkgname%-bin}=${pkgver}"
-    "${_pkgname}=${pkgver}"
+	"${pkgname%-bin}=${pkgver}"
+	"${_pkgname}=${pkgver}"
 )
 conflicts=(
-    "${pkgname%-bin}"
-    "${_pkgname}"
+	"${pkgname%-bin}"
+	"${_pkgname}"
 )
 depends=(
-    'alsa-lib'
-    'sdl3'
-    'libglvnd'
-    'sdl2_image'
-    'sdl2_net'
-    'sdl2-compat'
+	'alsa-lib'
+	'sdl3'
+	'libglvnd'
+	'sdl2_image'
+	'sdl2_net'
+	'sdl2-compat'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.tar.xz::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${CARCH}-v${pkgver}.tar.xz"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}-${pkgver}.tar.xz::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${CARCH}-v${pkgver}.tar.xz"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('3c7c925e28a5c88ae9f9f1a315ad07d91176b135fbe5f6f240eeee148ed176b0'
-            '31f838fa163601ee51a0475cbc36ca97ac75cdfff538ce56d7097a09112093e3')
+			'31f838fa163601ee51a0475cbc36ca97ac75cdfff538ce56d7097a09112093e3')
 _install_icons() {
 	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
 	while IFS= read -r -d '' _icon; do
@@ -43,17 +43,17 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/icons/hicolor/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    sed -i "s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g" "${srcdir}/${pkgname%-bin}-linux"*/desktop/*.desktop
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	sed -i "s/Exec=${_pkgname}/Exec=${pkgname%-bin}/g" "${srcdir}/${pkgname%-bin}-linux"*/desktop/*.desktop
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/${pkgname%-bin}-linux"*/* "${pkgdir}/usr/lib/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}-linux"*/desktop/*.desktop "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    _install_icons
-    install -Dm644 "${srcdir}/${pkgname%-bin}-linux"*/man/"${_pkgname}".1 -t "${pkgdir}/usr/share/man/man1"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/${pkgname%-bin}-linux"*/* "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}-linux"*/desktop/*.desktop "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	_install_icons
+	install -Dm644 "${srcdir}/${pkgname%-bin}-linux"*/man/"${_pkgname}".1 -t "${pkgdir}/usr/share/man/man1"
 }

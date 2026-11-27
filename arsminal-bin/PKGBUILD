@@ -13,22 +13,22 @@ provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
 	"electron${_electronversion}"
-    'python'
+	'python'
 )
 source=(
 	"${pkgname%-bin}-${pkgver}-x86_64.AppImage::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-${CARCH}.AppImage"
-    "LICENSE-${pkgver}.txt::https://raw.githubusercontent.com/arsentev-ai/arsminal/v${pkgver}/LICENSE.txt"
+	"LICENSE-${pkgver}.txt::https://raw.githubusercontent.com/arsentev-ai/arsminal/v${pkgver}/LICENSE.txt"
 	"${pkgname%-bin}.js"
 	"${pkgname%-bin}.sh"
 )
 options=(
-    '!strip'
-    '!emptydirs'
+	'!strip'
+	'!emptydirs'
 )
 sha256sums=('6d9c9e7c46f251ef08e2707d9f238b5a95c98f3ac74743145506b91609a2a689'
-            'c8f1f350679785fa4d3ac8667eea9056bdaaae39d48a0331ccc31b1412a869a9'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'c8f1f350679785fa4d3ac8667eea9056bdaaae39d48a0331ccc31b1412a869a9'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -74,5 +74,5 @@ package() {
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
 	_install_icons
 	install -Dm644 "$(_get_app_dir)/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
 }

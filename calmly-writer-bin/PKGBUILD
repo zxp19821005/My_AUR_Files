@@ -6,8 +6,8 @@ _electronversion=42
 pkgrel=1
 pkgdesc="An editor designed to focus on what you want to tell, with a simple, unobtrusive and ease-to-use user interface."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://www.calmlywriter.com"
 license=('LicenseRef-custom')
@@ -15,18 +15,18 @@ conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 options=('!strip')
 depends=(
-    "electron${_electronversion}"
+	"electron${_electronversion}"
 )
 source_aarch64=("${pkgname%-bin}_${pkgver}-aarch64.rpm::${url}/pro/releases/${pkgname%-bin}-3-${pkgver}.aarch64.rpm")
 source_x86_64=("${pkgname%-bin}_${pkgver}-x86_64.rpm::${url}/pro/releases/${pkgname%-bin}-3-${pkgver}.x86_64.rpm")
 source=(
-    "LICENSE.html::${url}/eula.htm"
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"LICENSE.html::${url}/eula.htm"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 sha256sums=('e711cd1065ca7a5908db10e92d31b16cedf81995c3c4b9316ea995ffc851a20c'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 sha256sums_aarch64=('3db9362106ea77b28bb4dcffbff9733bccc28add346b41430d85e7f92c5cb5c4')
 sha256sums_x86_64=('93e60b39ed278395bcf8dd2622941906f100bcff6a91fbb9bf54ba6e1bc50711')
 _get_app_dir() {
@@ -53,25 +53,25 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    _check_electron_version
-    sed -i -e "
-        s/\/opt\/${_pkgname}Pro\/${pkgname%-bin}-3/${pkgname%-bin}/g
-        s/Icon=${pkgname%-bin}-3/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${pkgname%-bin}-3.desktop"
-    local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	_check_electron_version
+	sed -i -e "
+		s/\/opt\/${_pkgname}Pro\/${pkgname%-bin}-3/${pkgname%-bin}/g
+		s/Icon=${pkgname%-bin}-3/Icon=${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${pkgname%-bin}-3.desktop"
+	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
 	find "$(_get_app_dir)" -type d \
 		\( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
 		-prune -exec rm -rf {} +
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/". "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}-3.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}-3.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/LICENSE.html" -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }

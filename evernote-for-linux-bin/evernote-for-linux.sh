@@ -10,7 +10,7 @@ export ELECTRON_FORCE_IS_PACKAGED=true
 export NODE_ENV=production
 cd "${_APPDIR}"
 if [[ $EUID -ne 0 ]] || [[ $ELECTRON_RUN_AS_NODE ]]; then
-    exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" "$@" || exit $?
+	exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" "$@" || exit $?
 else
-    exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" --no-sandbox "$@" || exit $?
+	exec electron@electronversion@ "${_RUNNAME}" "${_OPTIONS}" --no-sandbox "$@" || exit $?
 fi

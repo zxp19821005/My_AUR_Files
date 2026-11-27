@@ -24,12 +24,12 @@ options=(
 	'!strip'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}.tar.gz::${_ghurl}/releases/download/v${pkgver}/${_appname}-${pkgver}-linux-x86_64.tar.gz"
-    "${_appname}-server.service"
+	"${pkgname%-bin}-${pkgver}.tar.gz::${_ghurl}/releases/download/v${pkgver}/${_appname}-${pkgver}-linux-x86_64.tar.gz"
+	"${_appname}-server.service"
 )
 install="${pkgname%-bin}.install"
 sha256sums=('363371f48e988356b2fab8bc38cd3c04188a25cc475fd7e78401e7dccc9cb069'
-            'b543cdc876b02e14602fb84399afbcd1a57add840b10d8b1ce532099ad8b3516')
+			'b543cdc876b02e14602fb84399afbcd1a57add840b10d8b1ce532099ad8b3516')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "install.sh" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/target" ]] && { echo "$d"; return 0; }; done

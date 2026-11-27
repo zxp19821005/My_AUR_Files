@@ -7,16 +7,16 @@ fallback_file="${XDG_CONFIG_HOME:-$HOME/.config}/electron-flags.conf"
 
 lines=()
 if [[ -f "${flags_file}" ]]; then
-    mapfile -t lines < "${flags_file}"
+	mapfile -t lines < "${flags_file}"
 elif [[ -f "${fallback_file}" ]]; then
-    mapfile -t lines < "${fallback_file}"
+	mapfile -t lines < "${fallback_file}"
 fi
 
 flags=()
 for line in "${lines[@]}"; do
-    if [[ ! "${line}" =~ ^[[:space:]]*#.* ]] && [[ -n "${line}" ]]; then
-        flags+=("${line}")
-    fi
+	if [[ ! "${line}" =~ ^[[:space:]]*#.* ]] && [[ -n "${line}" ]]; then
+		flags+=("${line}")
+	fi
 done
 
 : ${ELECTRON_IS_DEV:=0}

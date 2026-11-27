@@ -7,41 +7,41 @@ _electronversion=45
 pkgrel=1
 pkgdesc="AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://cherryai.com/"
 _ghurl="https://github.com/CherryHQ/cherry-studio"
 license=(
-    'AGPL-3.0-or-later'
-    'LicenseRef-custom'
+	'AGPL-3.0-or-later'
+	'LicenseRef-custom'
 )
 provides=("${_appname}=${pkgver}")
 conflicts=("${_appname}")
 depends=(
-    "electron${_electronversion}"
-    'libevdev'
-    'python'
-    'python-yaml'
-    'nodejs'
-    'bun'
-    'ripgrep'
-    'uv'
-    'mise'
+	"electron${_electronversion}"
+	'libevdev'
+	'python'
+	'python-yaml'
+	'nodejs'
+	'bun'
+	'ripgrep'
+	'uv'
+	'mise'
 )
 optdepends=(
-    'ollama: Use your local LLM'
+	'ollama: Use your local LLM'
 )
 source=(
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/CherryHQ/cherry-studio/v${pkgver}/LICENSE"
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/CherryHQ/cherry-studio/v${pkgver}/LICENSE"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /-}-${pkgver}-linux-arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname// /-}-${pkgver}-linux-x64.deb")
 sha256sums=('0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 sha256sums_aarch64=('38c0e03457635b852f3aeef4b2ce4e559cd6f0d3536729fc6439584c29c1af83')
 sha256sums_x86_64=('c3b23daed85b081361b04d4e7c3ccacaf0a8b5e87da5ed2b5979c019d09ddc31')
 _get_app_dir() {
@@ -68,31 +68,31 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    bsdtar -xf "${srcdir}/data."*
-    _check_electron_version
-    sed -i -e "
-        s/\"\/opt\/${_pkgname}\/${_pkgname// /}\"/${pkgname%-bin}/g
-        s/Icon=${_pkgname// /}/Icon=${pkgname%-bin}/g
-    " "${srcdir}/usr/share/applications/${_pkgname// /}.desktop"
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	bsdtar -xf "${srcdir}/data."*
+	_check_electron_version
+	sed -i -e "
+		s/\"\/opt\/${_pkgname}\/${_pkgname// /}\"/${pkgname%-bin}/g
+		s/Icon=${_pkgname// /}/Icon=${pkgname%-bin}/g
+	" "${srcdir}/usr/share/applications/${_pkgname// /}.desktop"
 	local _archrem=$([[ "${CARCH}" == "aarch64" ]] && echo x64 || echo arm)
 	find "$(_get_app_dir)" -type d \
 		\( -name '*darwin*' -o -name '*android*' -o -name 'win32*' -o -name "*ia32*" -o -name "*${_archrem}*" \) \
 		-prune -exec rm -rf {} +
-    local _archdir=$([[ "${CARCH}" == "aarch64" ]] && echo linux-arm64 || echo linux-x64)
-    for _bin in bun rg uv uvx mise; do
-        ln -sf "/usr/bin/${_bin}" "$(_get_app_dir)/resources/app.asar.unpacked/resources/binaries/${_archdir}/${_bin}"
-    done
-    find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
+	local _archdir=$([[ "${CARCH}" == "aarch64" ]] && echo linux-arm64 || echo linux-x64)
+	for _bin in bun rg uv uvx mise; do
+		ln -sf "/usr/bin/${_bin}" "$(_get_app_dir)/resources/app.asar.unpacked/resources/binaries/${_archdir}/${_bin}"
+	done
+	find "$(_get_app_dir)/resources" -type d -exec chmod 755 {} +
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname// /}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname// /}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

@@ -11,16 +11,16 @@ license=('MIT')
 provides=("${pkgname%-bin}=${pkgver}")
 conflicts=("${pkgname%-bin}")
 depends=(
-    'libxkbcommon-x11'
-    'alsa-lib'
-    'hicolor-icon-theme'
+	'libxkbcommon-x11'
+	'alsa-lib'
+	'hicolor-icon-theme'
 )
 source=(
-    "${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
-    "LICENSE-${pkgver}::https://raw.githubusercontent.com/AniMathIO/AniMathIO/v${pkgver}/LICENSE"
+	"${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${_pkgname}_${pkgver}_amd64.deb"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/AniMathIO/AniMathIO/v${pkgver}/LICENSE"
 )
 sha256sums=('20ac36e8077a54c410eb76bc06c295ef41b9650042fe335465013724ca7c61cd'
-            '48f6289b2552d107a41350b2ee3339010373d1e0dd59834b4c7de5ecab96df72')
+			'48f6289b2552d107a41350b2ee3339010373d1e0dd59834b4c7de5ecab96df72')
 _install_icons() {
 	local _src="${1:-${srcdir}}" _name="${pkgname%-bin}" _icon _ext _size _dest
 	while IFS= read -r -d '' _icon; do
@@ -33,15 +33,15 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    bsdtar -xf "${srcdir}/data."*
+	bsdtar -xf "${srcdir}/data."*
 }
 package() {
-    install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	install -Dm755 "${srcdir}/usr/bin/"* -t "${pkgdir}/usr/lib/${pkgname%-bin}"
 	cp -a "${srcdir}/usr/lib/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    install -Dm755 -d "${pkgdir}/usr/bin"
-    ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}-cli" "${pkgdir}/usr/bin/${pkgname%-bin}-cli"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
-    install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm755 -d "${pkgdir}/usr/bin"
+	ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	ln -sf "/usr/lib/${pkgname%-bin}/${pkgname%-bin}-cli" "${pkgdir}/usr/bin/${pkgname%-bin}-cli"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${pkgname%-bin}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "${srcdir}/LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

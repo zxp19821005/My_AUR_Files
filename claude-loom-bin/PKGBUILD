@@ -12,7 +12,7 @@ conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
 	"electron${_electronversion}"
-    'claude-code'
+	'claude-code'
 )
 options=(
 	'!emptydirs'
@@ -25,9 +25,9 @@ source=(
 	"${pkgname%-bin}.sh"
 )
 sha256sums=('2e7fddfcc92007ddfe0265a3e1717b489be30f8a56254245caec175b23c67b0e'
-            '411acb0f56828c35f9993467a27bd069a7b62607a1fb9edfdd4ab1d2a4396819'
-            '562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'411acb0f56828c35f9993467a27bd069a7b62607a1fb9edfdd4ab1d2a4396819'
+			'562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 _get_app_dir() {
 	find "${srcdir}" -type f -name "resources.pak" ! -path "*/node_modules/*" -printf '%h\n' 2>/dev/null \
 		| while read -r d; do [[ -d "${d}/resources" ]] && { echo "$d"; return 0; }; done
@@ -53,8 +53,8 @@ _install_icons() {
 }
 prepare() {
 	sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
 	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
 	chmod +x "${srcdir}/${pkgname%-bin}-${pkgver}-${CARCH}.AppImage"
 	rm -rf "${srcdir}/squashfs-root"

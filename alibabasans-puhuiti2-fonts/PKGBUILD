@@ -12,29 +12,29 @@ arch=("any")
 url="https://fonts.alibabagroup.com/#/font"
 license=("LicenseRef-custom")
 source=(
-    "${pkgbase}-${pkgver}.zip::https://fonts.alibabadesign.com/${_fontname}.zip"
-    "license.txt"
+	"${pkgbase}-${pkgver}.zip::https://fonts.alibabadesign.com/${_fontname}.zip"
+	"license.txt"
 )
 sha256sums=('9ad37e0756cd5383abde2757da65c8a4da934a2215a869267ec688c6ec2843c5'
-            '5fa72680af66db4f5c30c97fca7a8a6af31801d227675348a93b1c4126e61b61')
+			'5fa72680af66db4f5c30c97fca7a8a6af31801d227675348a93b1c4126e61b61')
 function _package {
-    rm -rf "${srcdir}/${_fontname}/${_fontname}-35-Thin/${_fontname}-35-Thin.zip"
-    local _pkgname=$1
-    local ext="${_pkgname%%-*}"
-    for num in 105-Heavy 115-Black 35-Thin 45-Light 55-Regular 65-Medium 75-SemiBold 85-Bold 95-ExtraBold;do
-        cd "${srcdir}/${_fontname}/${_fontname}-${num}"
-        local fonts=("${_fontname}-${num}.${ext}")
-        local installdir="${ext^^}"
-        # Prepare destination directory
-        install -dm755 "${pkgdir}/usr/share/fonts/${installdir}"
-        # Install fonts
-        local font
-            for font in "${fonts[@]}"; do
-            install -m644 "${font}" "${pkgdir}/usr/share/fonts/${installdir}"
-            install -Dm644 "${srcdir}/license.txt" -t "${pkgdir}/usr/share/licenses/${ext}-${pkgbase}"
-        done
-    done
+	rm -rf "${srcdir}/${_fontname}/${_fontname}-35-Thin/${_fontname}-35-Thin.zip"
+	local _pkgname=$1
+	local ext="${_pkgname%%-*}"
+	for num in 105-Heavy 115-Black 35-Thin 45-Light 55-Regular 65-Medium 75-SemiBold 85-Bold 95-ExtraBold;do
+		cd "${srcdir}/${_fontname}/${_fontname}-${num}"
+		local fonts=("${_fontname}-${num}.${ext}")
+		local installdir="${ext^^}"
+		# Prepare destination directory
+		install -dm755 "${pkgdir}/usr/share/fonts/${installdir}"
+		# Install fonts
+		local font
+			for font in "${fonts[@]}"; do
+			install -m644 "${font}" "${pkgdir}/usr/share/fonts/${installdir}"
+			install -Dm644 "${srcdir}/license.txt" -t "${pkgdir}/usr/share/licenses/${ext}-${pkgbase}"
+		done
+	done
 }
 for _pkgname in "${pkgname[@]}"; do
-    eval "function package_${_pkgname}() { _package ${_pkgname}; }"
+	eval "function package_${_pkgname}() { _package ${_pkgname}; }"
 done

@@ -13,37 +13,37 @@ license=('LicenseRef-Freeware')
 conflicts=("${_officalname}")
 provides=("${_officalname}=${pkgver}")
 depends=(
-    'deepin-wine6-stable'
-    'spark-dwine-helper'
-    'xdg-utils'
-    'p7zip'
+	'deepin-wine6-stable'
+	'spark-dwine-helper'
+	'xdg-utils'
+	'p7zip'
 )
 optdepends=(
-    'wqy-microhei'
-    'wqy-zenhei'
+	'wqy-microhei'
+	'wqy-zenhei'
 )
 install="${pkgname}.install"
 source=(
-    "${pkgname}-${pkgver}.deb::${_downurl}/music/${_sparkname}/${_sparkname}_${pkgver}.spark0_i386.deb"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.deb::${_downurl}/music/${_sparkname}/${_sparkname}_${pkgver}.spark0_i386.deb"
+	"${pkgname}.sh"
 )
 sha256sums=('4494df38c9bc9c47e697e8a96f69c678e4635389ccc74e19dd324f0a668c62ec'
-            'b336ecc61a867ed21cb6a0384e68d1e2605971523adcbc0b08056e6353bc0201')
+			'b336ecc61a867ed21cb6a0384e68d1e2605971523adcbc0b08056e6353bc0201')
 build() {
-    sed -e "s|@runname@|${_runname}|g" \
-        -e "s|@pkgver@|${pkgver}|g" \
-        -e "s|@pkgname@|${pkgname}|g" \
-        -i "${srcdir}/${pkgname}.sh"
-    bsdtar -xf "${srcdir}/data."*
-    mv "${srcdir}/opt/apps/${_sparkname}" "${srcdir}/opt/apps/${pkgname}"
-    sed "s|${_sparkname}|${pkgname}|g;s|Music|AudioVideo|g;s|/opt/apps/${pkgname}/files/run.sh|${pkgname}|g" \
-        -i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop" 
-    rm -rf "${srcdir}/opt/apps/${pkgname}/info"
+	sed -e "s|@runname@|${_runname}|g" \
+		-e "s|@pkgver@|${pkgver}|g" \
+		-e "s|@pkgname@|${pkgname}|g" \
+		-i "${srcdir}/${pkgname}.sh"
+	bsdtar -xf "${srcdir}/data."*
+	mv "${srcdir}/opt/apps/${_sparkname}" "${srcdir}/opt/apps/${pkgname}"
+	sed "s|${_sparkname}|${pkgname}|g;s|Music|AudioVideo|g;s|/opt/apps/${pkgname}/files/run.sh|${pkgname}|g" \
+		-i "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop" 
+	rm -rf "${srcdir}/opt/apps/${pkgname}/info"
 }
 package() {
-    cp -r "${srcdir}/opt" "${pkgdir}"
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/icons/hicolor/scalable/apps/${_sparkname}.svg" \
-        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname}.svg"
+	cp -r "${srcdir}/opt" "${pkgdir}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/applications/${_sparkname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	install -Dm644 "${srcdir}/opt/apps/${pkgname}/entries/icons/hicolor/scalable/apps/${_sparkname}.svg" \
+		"${pkgdir}/usr/share/icons/hicolor/scalable/apps/${pkgname}.svg"
 }

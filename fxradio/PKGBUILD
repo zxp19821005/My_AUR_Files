@@ -10,36 +10,36 @@ _ghurl="https://github.com/Joseph5610/fxradio"
 license=('AGPL-3.0-only')
 conflicts=("${pkgname}")
 depends=(
-    'vlc'
-    'java-runtime'
-    'libxtst'
-    'gtk3'
-    'gtk2'
-    'alsa-lib'
-    'ffmpeg4.4'
+	'vlc'
+	'java-runtime'
+	'libxtst'
+	'gtk3'
+	'gtk2'
+	'alsa-lib'
+	'ffmpeg4.4'
 )
 makedepends=(
-    'jdk-openjdk'
-    'java-openjfx'
-    'git'
+	'jdk-openjdk'
+	'java-openjfx'
+	'git'
 )
 source=(
-    "${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
+	"${pkgname}-${pkgver}::git+${_ghurl}#tag=v${pkgver}"
 )
 sha256sums=('a296cd16093b2a4d016fbb7bb5007985eec462b50a29ab28fa1ed147f08d98e7')
 build() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-    ./gradlew -i jfxNative
-    sed -i -e "
-        s/\/opt\/${_pkgname}\/${_pkgname} %U/${pkgname} %U/g
-        s/\/opt\/${_pkgname}\/${_pkgname}.png/${pkgname}/g
-        s/Utility/AudioVideo;/g
-    " "${srcdir}/opt/${pkgname}/${_pkgname}.desktop"
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	./gradlew -i jfxNative
+	sed -i -e "
+		s/\/opt\/${_pkgname}\/${_pkgname} %U/${pkgname} %U/g
+		s/\/opt\/${_pkgname}\/${_pkgname}.png/${pkgname}/g
+		s/Utility/AudioVideo;/g
+	" "${srcdir}/opt/${pkgname}/${_pkgname}.desktop"
 }
 package() {
-    install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname}"}
-    cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/build/jfx/native/${_pkgname}/"* "${pkgdir}/usr/lib/${pkgname}"
-    ln -sf "/usr/lib/${pkgname}/${_pkgname}" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${pkgdir}/opt/${pkgname}/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
-    install -Dm644 "${pkgdir}/opt/${pkgname}/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+	install -Dm755 -d "${pkgdir}/usr/"{bin,lib/"${pkgname}"}
+	cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/build/jfx/native/${_pkgname}/"* "${pkgdir}/usr/lib/${pkgname}"
+	ln -sf "/usr/lib/${pkgname}/${_pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${pkgdir}/opt/${pkgname}/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	install -Dm644 "${pkgdir}/opt/${pkgname}/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
 }

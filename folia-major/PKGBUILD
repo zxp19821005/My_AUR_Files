@@ -11,26 +11,26 @@ url="https://folia-site.cielaniska.top/"
 _ghurl="https://github.com/chthollyphile/folia-major"
 license=('AGPL-3.0-only')
 depends=(
-    "electron${_electronversion}"
-    'nodejs'
-    'ffmpeg'
+	"electron${_electronversion}"
+	'nodejs'
+	'ffmpeg'
 )
 makedepends=(
-    'npm'
-    'nvm'
-    'git'
-    'rustup'
-    'curl'
-    'jq'
+	'npm'
+	'nvm'
+	'git'
+	'rustup'
+	'curl'
+	'jq'
 )
 source=(
-    "${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
-    "${pkgname}.js"
-    "${pkgname}.sh"
+	"${pkgname}-${pkgver}.tar.gz::${_ghurl}/archive/refs/tags/v${pkgver}.tar.gz"
+	"${pkgname}.js"
+	"${pkgname}.sh"
 )
 sha256sums=('ff1186d9d7135ff77d1f2a820e0a5b99954241e894d69f6847091b69fa4789e9'
-            'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
-            '739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
+			'b2190e52307557102005cf35ba6fdc921487428224761ecbc554d4dd91764c2b'
+			'739eaf5396ac7f1373d907904f068e8a10a18ef91af7c35ca05adbff46322c97')
 _get_project_dir() {
 	local d
 	while IFS= read -r d; do
@@ -94,75 +94,75 @@ _delete_other_arch_files() {
 	rm -rf "$(_get_app_dir)/resources/default_app.asar"
 }
 _build_windowtolayer() {
-    cd "$(_get_project_dir)"
-    local _wt_script="$(_get_project_dir)/packaging/linux/build-windowtolayer.mjs"
-    local _wt_rev
-    _wt_rev="$(grep -oP "const PINNED_REV = '\K[^']+" "${_wt_script}")"
-    local _wt_patches
-    mapfile -t _wt_patches < <(grep -oP "^\s*'windowtolayer[^']+\.patch'" "${_wt_script}" | sed "s/^ *'//;s/'$//")
-    local _wt_dir="$(_get_project_dir)/.windowtolayer-src"
-    local _wt_url="https://gitlab.freedesktop.org/mstoeckl/windowtolayer/-/archive/${_wt_rev}/windowtolayer-${_wt_rev}.tar.gz"
-    rm -rf "${_wt_dir}"
-    mkdir -p "${_wt_dir}"
-    curl -fL "${_wt_url}" | tar xz -C "${_wt_dir}" --strip-components=1
-    cd "${_wt_dir}"
-    git init -q
-    git config user.email "aur@aur.archlinux.org"
-    git config user.name "AUR Build"
-    git add -A
-    git commit -q -m "windowtolayer ${_wt_rev}"
-    for patch in "${_wt_patches[@]}"; do
-        git apply "$(_get_project_dir)/packaging/linux/patches/${patch}"
-    done
-    cargo build --release --manifest-path "${_wt_dir}/Cargo.toml"
-    mkdir -p "$(_get_project_dir)/build"
-    cp "${_wt_dir}/target/release/windowtolayer" "$(_get_project_dir)/build/windowtolayer"
-    cp "${_wt_dir}/COPYING" "$(_get_project_dir)/build/windowtolayer-COPYING"
-    chmod 755 "$(_get_project_dir)/build/windowtolayer"
-    cd "$(_get_project_dir)"
+	cd "$(_get_project_dir)"
+	local _wt_script="$(_get_project_dir)/packaging/linux/build-windowtolayer.mjs"
+	local _wt_rev
+	_wt_rev="$(grep -oP "const PINNED_REV = '\K[^']+" "${_wt_script}")"
+	local _wt_patches
+	mapfile -t _wt_patches < <(grep -oP "^\s*'windowtolayer[^']+\.patch'" "${_wt_script}" | sed "s/^ *'//;s/'$//")
+	local _wt_dir="$(_get_project_dir)/.windowtolayer-src"
+	local _wt_url="https://gitlab.freedesktop.org/mstoeckl/windowtolayer/-/archive/${_wt_rev}/windowtolayer-${_wt_rev}.tar.gz"
+	rm -rf "${_wt_dir}"
+	mkdir -p "${_wt_dir}"
+	curl -fL "${_wt_url}" | tar xz -C "${_wt_dir}" --strip-components=1
+	cd "${_wt_dir}"
+	git init -q
+	git config user.email "aur@aur.archlinux.org"
+	git config user.name "AUR Build"
+	git add -A
+	git commit -q -m "windowtolayer ${_wt_rev}"
+	for patch in "${_wt_patches[@]}"; do
+		git apply "$(_get_project_dir)/packaging/linux/patches/${patch}"
+	done
+	cargo build --release --manifest-path "${_wt_dir}/Cargo.toml"
+	mkdir -p "$(_get_project_dir)/build"
+	cp "${_wt_dir}/target/release/windowtolayer" "$(_get_project_dir)/build/windowtolayer"
+	cp "${_wt_dir}/COPYING" "$(_get_project_dir)/build/windowtolayer-COPYING"
+	chmod 755 "$(_get_project_dir)/build/windowtolayer"
+	cd "$(_get_project_dir)"
 }
 prepare() {
-    cd "$(_get_project_dir)"
-    _get_electron_version
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname}/g
-    " "${srcdir}/${pkgname}.sh"
-    _ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    _set_rust_build_env
-    jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
-    cp .env.example .env
-    rustup update stable
-    rustup default stable
-    export NODE_ENV=development
-    export npm_config_allow_remote=all
-    sed -i "/registry=/d" .npmrc
-    npm install
+	cd "$(_get_project_dir)"
+	_get_electron_version
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname}/g
+	" "${srcdir}/${pkgname}.sh"
+	_ensure_local_nvm
+	_set_electron_build_env
+	_set_npm_build_env
+	_set_rust_build_env
+	jq --arg ver "${SYSTEM_ELECTRON_VERSION}" '.devDependencies.electron = $ver' package.json > package.json.tmp && mv package.json.tmp package.json
+	cp .env.example .env
+	rustup update stable
+	rustup default stable
+	export NODE_ENV=development
+	export npm_config_allow_remote=all
+	sed -i "/registry=/d" .npmrc
+	npm install
 }
 build() {
 	cd "$(_get_project_dir)"
 	_ensure_local_nvm
-    _set_electron_build_env
-    _set_npm_build_env
-    _set_rust_build_env
-    export ELECTRON=true
-    export NODE_ENV=production
-    export NODE_OPTIONS="--max-old-space-size=4096"
-    npm run build:vercel-api
-    npm run sources:build
-    npx vite build
-    _build_windowtolayer
-    npm run build:wallpaper-helper
-    npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST}"
-    ln -sf "/usr/bin/ffmpeg" "$(_get_app_dir)/resources/ffmpeg-audio/ffmpeg"
-    _delete_other_arch_files
+	_set_electron_build_env
+	_set_npm_build_env
+	_set_rust_build_env
+	export ELECTRON=true
+	export NODE_ENV=production
+	export NODE_OPTIONS="--max-old-space-size=4096"
+	npm run build:vercel-api
+	npm run sources:build
+	npx vite build
+	_build_windowtolayer
+	npm run build:wallpaper-helper
+	npm exec -c "electron-builder --linux dir -c.electronDist=${ELECTRON_DIST}"
+	ln -sf "/usr/bin/ffmpeg" "$(_get_app_dir)/resources/ffmpeg-audio/ffmpeg"
+	_delete_other_arch_files
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
-    install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
+	install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+	install -Dm644 "${srcdir}/${pkgname}.js" -t "${pkgdir}/usr/lib/${pkgname}"
 	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname}/"
-    install -Dm644 "$(_get_project_dir)/build/icon.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname}.png"
-    install -Dm644 "$(_get_project_dir)/packaging/aur/${pkgname}-bin/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "$(_get_project_dir)/build/icon.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname}.png"
+	install -Dm644 "$(_get_project_dir)/packaging/aur/${pkgname}-bin/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
 }

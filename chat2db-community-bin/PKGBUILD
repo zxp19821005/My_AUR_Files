@@ -5,8 +5,8 @@ pkgver=5.3.8
 pkgrel=1
 pkgdesc="AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://chat2db.ai/"
 _ghurl="https://github.com/CodePhiliaX/Chat2DB"
@@ -14,25 +14,25 @@ license=('Apache-2.0')
 conflicts=("${pkgname%-bin}")
 provides=("${pkgname%-bin}=${pkgver}")
 depends=(
-    'mesa'
-    'at-spi2-core'
-    'libxext'
-    'libxi'
-    'libxrandr'
-    'libcups'
-    'libxkbcommon'
-    'nss'
-    'nspr'
-    'alsa-lib'
-    'libxcomposite'
-    'cairo'
-    'pango'
-    'libxdamage'
-    'freetype2'
-    'libxcursor'
+	'mesa'
+	'at-spi2-core'
+	'libxext'
+	'libxi'
+	'libxrandr'
+	'libcups'
+	'libxkbcommon'
+	'nss'
+	'nspr'
+	'alsa-lib'
+	'libxcomposite'
+	'cairo'
+	'pango'
+	'libxdamage'
+	'freetype2'
+	'libxcursor'
 )
 options=(
-    '!emptydirs'
+	'!emptydirs'
 )
 source=("${pkgname%-bin}.sh")
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.rpm::${_ghurl}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-aarch64.rpm")
@@ -41,24 +41,24 @@ sha256sums=('2f34cdc2dec53f3cc3cea02d56ab796ec3887ced306c8c2d8d80b23b7d5510f0')
 sha256sums_aarch64=('a0e037d8dbcbf102e4506f410c658b0d599d0cfea31a4882aecf65e168ee0d1f')
 sha256sums_x86_64=('fdc7f39615ab48250f427ae33ab4b858f834cbf435da35fbb9106753fb6d15f9')
 prepare() {
-    sed -i -e "
-        s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgnname//-/ }/g
-    " "${srcdir}/${pkgname%-bin}.sh"
-    sed -i -e "
-        /Exec=/d
-        s/Icon=${_pkgname//-/ }/Icon=${pkgname%-bin}/g
-        5i\Exec=${pkgname%-bin}
-    " "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}.desktop"
+	sed -i -e "
+		s/@appname@/${pkgname%-bin}/g
+		s/@runname@/${_pkgnname//-/ }/g
+	" "${srcdir}/${pkgname%-bin}.sh"
+	sed -i -e "
+		/Exec=/d
+		s/Icon=${_pkgname//-/ }/Icon=${pkgname%-bin}/g
+		5i\Exec=${pkgname%-bin}
+	" "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}.desktop"
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}/"    
-    install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}.desktop" \
-        "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${_pkgname//-/_}.png" \
-        "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
-    install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}-MimeInfo.xml" \
-        "${pkgdir}/usr/share/mime/packages/${pkgname%-bin}.xml"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm755 -d "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/." "${pkgdir}/usr/lib/${pkgname%-bin}/"    
+	install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}.desktop" \
+		"${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${_pkgname//-/_}.png" \
+		"${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
+	install -Dm644 "${srcdir}/opt/${pkgname%-bin}/${pkgname%-bin}/lib/${pkgname%-bin}-${_pkgname//-/_}-MimeInfo.xml" \
+		"${pkgdir}/usr/share/mime/packages/${pkgname%-bin}.xml"
 }

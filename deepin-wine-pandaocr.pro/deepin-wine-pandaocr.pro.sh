@@ -8,7 +8,7 @@ export MIME_TYPE=""
 export DEB_PACKAGE_NAME=@appname@
 export APPRUN_CMD="deepin-wine6-stable"
 if [ -n "${EXEC_PATH}" ];then
-    exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
+	exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "${EXEC_PATH}" "$@" || exit $?
 else
-    exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
+	exec "${START_SHELL_PATH}" "${BOTTLENAME}" "${APPVER}" "uninstaller.exe" "$@" || exit $?
 fi

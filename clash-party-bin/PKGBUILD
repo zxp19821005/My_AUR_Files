@@ -8,39 +8,39 @@ _electronversion=43
 pkgrel=1
 pkgdesc=":electron: Another Mihomo GUI."
 arch=(
-    'aarch64'
-    'x86_64'
+	'aarch64'
+	'x86_64'
 )
 url="https://clashparty.org/"
 _ghurl="https://github.com/mihomo-party-org/clash-party"
 license=('GPL-3.0-only')
 conflicts=(
-    "${_pkgname}"
-    "${_pkgname}-bin"
-    "${_pkgname}-git"
-    "${pkgname%-bin}"
-    "${pkgname%-bin}-git"
+	"${_pkgname}"
+	"${_pkgname}-bin"
+	"${_pkgname}-git"
+	"${pkgname%-bin}"
+	"${pkgname%-bin}-git"
 )
 provides=("clash-party=${pkgver}")
 depends=(
-    "electron${_electronversion}"
-    'mihomo'
+	"electron${_electronversion}"
+	'mihomo'
 )
 makedepends=(
-    'asar'
+	'asar'
 )
 optdepends=(
-    'libappindicator: Allow clash-party to extend a menu via Ayatana indicators in Unity, KDE or Systray'
-    'libayatana-appindicator'
+	'libappindicator: Allow clash-party to extend a menu via Ayatana indicators in Unity, KDE or Systray'
+	'libayatana-appindicator'
 )
 source=(
-    "${pkgname%-bin}.js"
-    "${pkgname%-bin}.sh"
+	"${pkgname%-bin}.js"
+	"${pkgname%-bin}.sh"
 )
 source_aarch64=("${pkgname%-bin}-${pkgver}-aarch64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${pkgver}-arm64.deb")
 source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.deb::${_ghurl}/releases/download/v${pkgver}/${pkgname%-bin}-linux-${pkgver}-amd64.deb")
 sha256sums=('562897be8a17076176f8d985c0d7bc1c685f2e7c9b3a932339ce015963243627'
-            'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
+			'd1e4e7e73d690e97039739dd1bf8f1eb046c2fd7e44305b15008ad842a503904')
 sha256sums_aarch64=('e82979aff40897c864f477e1c095017c19f411213ea63491a28310207c807268')
 sha256sums_x86_64=('277a9cd9d41c946dc1a1b52231a6b32d88fd874d041371518f7da02874b4cdc6')
 _get_app_dir() {
@@ -67,34 +67,34 @@ _install_icons() {
 	done < <(find "${_src}" \( -path '*/share/icons/*' -o -path '*/share/pixmaps/*' -o -path '*entries/icons/*' \) -type f \( -name '*.png' -o -name '*.svg' \) -print0 2>/dev/null)
 }
 prepare() {
-    sed -i -e "
-        s/@electronversion@/${_electronversion}/g
-        s/@appname@/${pkgname%-bin}/g
-    " "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
-    bsdtar -xf "${srcdir}/data."*
-    sed -i -e "
-        s/\/opt\/${pkgname%-bin}\/${_pkgname}/${pkgname%-bin}/g
-        s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
-        s/Utility/Network/g
-    " "${srcdir}/usr/share/applications/${_pkgname}.desktop"
-    _check_electron_version
-    asar e "$(_get_app_dir)/resources/app.asar" "${srcdir}/app.asar.unpacked"
-    sed -i -e "
-        s/Name=${_pkgname}/Name=${_appname}/g
-        s/Exec=\${exePath()}/Exec=${pkgname%-bin}/g
-        s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
-    " "${srcdir}/app.asar.unpacked/out/main/index.js"
-    asar p "${srcdir}/app.asar.unpacked" "$(_get_app_dir)/resources/app.asar"
-    ln -sf "/usr/bin/mihomo" "$(_get_app_dir)/resources/sidecar/mihomo"
-    rm -rf \
-        "$(_get_app_dir)/resources/"{apparmor-profile,app-update.yml,package-type} \
-        "$(_get_app_dir)/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
+	sed -i -e "
+		s/@electronversion@/${_electronversion}/g
+		s/@appname@/${pkgname%-bin}/g
+	" "${srcdir}/${pkgname%-bin}.sh" "${srcdir}/${pkgname%-bin}.js"
+	bsdtar -xf "${srcdir}/data."*
+	sed -i -e "
+		s/\/opt\/${pkgname%-bin}\/${_pkgname}/${pkgname%-bin}/g
+		s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
+		s/Utility/Network/g
+	" "${srcdir}/usr/share/applications/${_pkgname}.desktop"
+	_check_electron_version
+	asar e "$(_get_app_dir)/resources/app.asar" "${srcdir}/app.asar.unpacked"
+	sed -i -e "
+		s/Name=${_pkgname}/Name=${_appname}/g
+		s/Exec=\${exePath()}/Exec=${pkgname%-bin}/g
+		s/Icon=${_pkgname}/Icon=${pkgname%-bin}/g
+	" "${srcdir}/app.asar.unpacked/out/main/index.js"
+	asar p "${srcdir}/app.asar.unpacked" "$(_get_app_dir)/resources/app.asar"
+	ln -sf "/usr/bin/mihomo" "$(_get_app_dir)/resources/sidecar/mihomo"
+	rm -rf \
+		"$(_get_app_dir)/resources/"{apparmor-profile,app-update.yml,package-type} \
+		"$(_get_app_dir)/resources/app.asar.unpacked/node_modules/@${_pkgname}/sysproxy-darwin-"*
 }
 package() {
-    install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
-    install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
-    cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
-    _install_icons
-    install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
-    install -Dm644 "${srcdir}/usr/share/mime/packages/${_pkgname}.xml" "${pkgdir}/usr/share/mime/packages/${pkgname%-bin}.xml"
+	install -Dm755 "${srcdir}/${pkgname%-bin}.sh" "${pkgdir}/usr/bin/${pkgname%-bin}"
+	install -Dm644 "${srcdir}/${pkgname%-bin}.js" -t "${pkgdir}/usr/lib/${pkgname%-bin}"
+	cp -a "$(_get_app_dir)/resources/." "${pkgdir}/usr/lib/${pkgname%-bin}/"
+	_install_icons
+	install -Dm644 "${srcdir}/usr/share/applications/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/usr/share/mime/packages/${_pkgname}.xml" "${pkgdir}/usr/share/mime/packages/${pkgname%-bin}.xml"
 }

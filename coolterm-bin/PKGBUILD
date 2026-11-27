@@ -35,8 +35,8 @@ sha256sums_x86_64=('33375a6c354e40d2ba5d0b2ee2e1d07c50ac5451000f6451d4bddaa93bbe
 prepare() {
 	sed -i -e "
 		s/@appname@/${pkgname%-bin}/g
-        s/@runname@/${_pkgname}/g
-    " "${srcdir}/${pkgname%-bin}.sh"
+		s/@runname@/${_pkgname}/g
+	" "${srcdir}/${pkgname%-bin}.sh"
 	sed -i -e "
 		s/Exec=.\/${_pkgname} /Exec=${pkgname%-bin}/g
 		s/Icon=.\/${_pkgname} Resources\/appicon_128.png/Icon=${pkgname%-bin}/g
@@ -52,5 +52,5 @@ package() {
 	cp -Pr --no-preserve=ownership "${srcdir}/${_pkgname}"*/* "${pkgdir}/usr/lib/${pkgname%-bin}"
 	install -Dm644 "${pkgdir}/usr/lib/${pkgname%-bin}/${_pkgname} Resources/Help/app_icon_256.png" "${pkgdir}/usr/share/pixmaps/${pkgname%-bin}.png"
 	install -Dm644 "${srcdir}/${_pkgname}"*/ReadMe.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 "${srcdir}/${_pkgname}"*/"${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
+	install -Dm644 "${srcdir}/${_pkgname}"*/"${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname%-bin}.desktop"
 }
